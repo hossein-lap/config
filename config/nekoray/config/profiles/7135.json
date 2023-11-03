@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "173.245.58.41",
+        "name": "رایگان | VLESS | @lrnbymaa | US🇺🇸 | 0️⃣3️⃣",
+        "pass": "8cab4c31-00e9-43d8-8275-d29e53b40f15",
+        "port": 8443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "sec": "tls",
+            "sni": "ch.donaldvpn.sbs",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7135,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

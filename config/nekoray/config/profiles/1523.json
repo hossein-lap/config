@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "fd.shabijichang.com",
+        "aid": 0,
+        "id": "a5696a03-1c9f-4018-9510-58e7bfbb5f5f",
+        "name": "رایگان | VMESS | @v2ray_outlineir | RELAY🚩 | 0️⃣2️⃣",
+        "port": 80,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "jdf.shabijichang.com",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/"
+        }
+    },
+    "gid": 2,
+    "id": 1523,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

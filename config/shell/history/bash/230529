@@ -1,0 +1,49 @@
+cd /data/arch/torrent-files/
+cls
+aria2c -c -m 0 linuxmint-20.3-xfce-64bit.iso.torrent 
+lf
+botp
+ntop
+btop
+lsblk
+cd /mnt
+cls
+tree
+sudo rmdir *
+lsblk
+sudo mount /dev/nvme0n1p2 /mnt
+ls
+..
+cd mnt
+cls
+lsblk
+sudo mount /dev/nvme0n1p1 /mnt/boot/efi/
+cls
+cd boot/efi/EFI/
+..
+cls
+cd EFI/
+cls
+sudo rm arch/ ubuntu/ -rf
+ls BOOT/
+cls
+...
+..
+sudo mount --rbind /dev /mnt/dev
+sudo mount --rbind /proc /mnt/proc
+sudo mount --rbind /sys /mnt/sys
+sudo mount /mnt
+sudo chroot /mnt
+cd dl/iso/
+vim ln.dl 
+nvim ln.dl 
+nvim dl.sh 
+vim dl.sh 
+nvim `which dmusb.sh`
+cd /data/
+find $PWD -iname '*virtual*' | grep machine
+find $PWD -iname '*virtual*' | grep machine 2>/dev/null
+find $PWD -iname '*virtual-machine*' 2>/dev/null
+find $PWD -iname 'kvm' 2>/dev/null
+find / -iname 'kvm' 2>/dev/null
+x

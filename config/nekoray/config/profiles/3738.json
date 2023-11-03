@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.17.64.0",
+        "name": "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "d74d8e62-90c2-4fee-bcf3-d239956ee51a",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "host": "jp.vps.wengmail.link",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048",
+            "sec": "tls",
+            "sni": "jp.vps.wengmail.link"
+        }
+    },
+    "gid": 3,
+    "id": 3738,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

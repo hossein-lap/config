@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "www.speedtest.net",
+        "aid": 0,
+        "id": "e293d058-74d2-4bc3-94fc-ae678aab793c",
+        "name": "رایگان | VMESS | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "de1.xv2ray.net",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/vmess",
+            "sec": "tls",
+            "sni": "de1.xv2ray.net"
+        }
+    },
+    "gid": 2,
+    "id": 1533,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

@@ -1,0 +1,181 @@
+man mpc
+man mpv
+lf ~/vid/
+q
+du -h .
+q
+mpv --print-options
+mpv --list-options
+mpv --list-options | less -SR
+df -h /home
+q
+man mpv
+q
+nvim ~/.config/lf/lfrc
+q
+mpv --scripts-remove Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-remove demo Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-remove=demo Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-remove=yes Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-remove=demo.lua Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-remove=all Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-remove Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-del Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+mpv --scripts-del=demo Banshee.S01E10.720p.BluRay.PaHe.Softsub.9Movie.mkv 
+q
+x
+nvim `which dmexit.sh`
+ip -c a
+nvim `which slsip.sh`
+q
+sudo xbps-install -Syu
+q
+pandoc -v
+cc
+ls -l `which cc`
+ls -l $(readlink `which cc`)
+ls -l $(readlink $(which cc))
+ls -l $(ls $(which cc))
+q
+dmusb.sh 
+cd /run/media/hos/
+ls
+lsblk -f
+mkdir -v 4DD6F99C3A308995/usb-$(jdate '%Y%m%d_%H%M')
+cd 4DD6F99C3A308995/
+ls
+ls Dos
+..
+ls
+cd -
+rmdir usb-Dos/
+jdate '+%Y%m%d'
+mkdir -v usb-$(jdate '+%Y%m%d_%H%M')
+cd usb-14020509_1348/
+ls /run/media/hos/530A-A87E/
+ls /run/media/hos/530A-A87E/gowj\ m/
+rsync -r --progress /run/media/hos/530A-A87E/* .
+btop
+cd
+btop
+q
+dmusb.sh 
+q
+x
+dmexit.sh 
+make clean; make; sudo make install
+xprop o
+xprop 
+c; xprop 
+c; xprop | less -SR
+q
+ls | yad --about
+ls | yad --color
+ls | yad --calender
+nvim ~/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+ls | yad --calender
+r.sh ls | yad --calender
+cd ~/.config/nvim/lua/module/
+nvim rce.lua 
+q
+nvim yadshot.sh 
+nvim ~/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim ~/.config/nvim/
+cd ~/.config/nvim/
+ls
+nvim lua/module/rce.lua 
+q
+pass edit firefox/hosteam01
+pass edit mail/gmail/hosaidenp
+cd doc/resume/tex/
+cls
+mkdir en
+lf
+cd
+find $PWD -iname '*resume*.pdf' 2>/dev/null | fzf
+find $PWD -iname '*resume*.pdf' 2>/dev/nul
+find $PWD -iname '*resume*.pdf' 2>/dev/null
+find $PWD -iname '*resume*.pdf' 2>/dev/null | fzf
+cd dev/resume/
+ls
+cls
+lf
+chmod 754 gen-all.sh 
+cls
+chmod 764 gen-all.sh 
+cls
+q
+sudo xbps-install yad
+man yad
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.sh
+nvim ~/.config/nvim/init.lua 
+man yad
+nvim
+q
+ls
+nvim yadshot.sh 
+q
+lsblk
+dmusb.sh 
+cd /run/media/hos/Ventoy/
+ls
+ls *.iso | fzf
+rm artix-lxde-runit-20230501-x86_64.iso linuxmint-21.2-cinnamon-64bit-beta.iso -fv
+rsync --progress /home/hos/dl/iso/linuxmint-21.2-cinnamon-64bit.iso .
+cd
+btop
+cd dev/hossein-lap/workflow/scripts/
+ls
+mkdir dmscripts
+mv dm*.sh dmscripts/
+cd dmscripts/
+ls
+for i in `ls *.sh`; do echo "${i} ../${i}"; done
+for i in `ls *.sh`; do ln -sv ${i} ../${i}; done
+ls -l
+ls -l ../dm*.sh
+for i in `ls *.sh`; do unlink -v ../${i}; done
+for i in `ls *.sh`; do unlink ../${i}; done
+ls -l
+ls -l ../dm*.sh
+..
+for i in `ls dmscript*/*.sh`; do echo ../${i}; done
+for i in `ls dmscript*/*.sh`; do echo ${i}; done
+for i in `ls dmscript*/*.sh`; do j=$(echo ${i} | awk -F '/' '{print $NF;}'); echo "${i} ${j}"; done
+for i in `ls dmscript*/*.sh`; do j=$(echo ${i} | awk -F '/' '{print $NF;}'); ln -sv "${i} ${j}"; done
+ls -l
+ls -l dm*.sh
+ls dmscripts/
+for i in `ls dmscript*/*.sh`; do j=$(echo ${i} | awk -F '/' '{print $NF;}'); unlink "${i} ${j}"; done
+ls -l
+ls dm*.sh -l
+rm dm*.sh
+rm -rf dm*.sh
+for i in `ls dmscript*/*.sh`; do j=$(echo ${i} | awk -F '/' '{print $NF;}'); ln -sv ${i} ${j}; done
+ls -l dm*.sh
+which dmshot.sh
+readlink `which dmshot.sh`
+mkdir yadscripts fzfscripts -v
+cd yadscripts/
+cp ../dmscripts/dmshot.sh yadshot.sh
+nvim yadshot.sh 
+t
+q
+sudo xbps-install lxappearance
+nvim ~/dev/hossein-lap/workflow/nvim/lua/rce.lua 
+passmenu 
+passmenu -l 20
+passmenu -l 20 -c -bw 4 -p pass
+pwgen
+xbps-query -Rs pwgen
+sudo xbps-install pwgen
+alias pwgen
+pwgen -s
+pwgen -s 20
+pwgen -s 20 1
+pass edit jobinja/hosaidenp
+nvim ~/.config/bat/config 
+q
+x

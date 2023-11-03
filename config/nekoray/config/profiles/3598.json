@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "join.shhproxy.cfd",
+        "name": "رایگان | REALITY | @shh_proxy | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "36e8ca1b-9736-4f97-a496-ac04d2c7b083",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@shh_proxy,@shh_proxy,",
+            "pbk": "GxGzAVN9xi1aXGv_-EUwj8qLldhHG0oVQ-OOgVkoMlU",
+            "sec": "tls",
+            "sid": "25988b1f",
+            "sni": "www.speedtest.net",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3598,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

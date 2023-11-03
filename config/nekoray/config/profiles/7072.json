@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "discord.gg",
+        "name": "رایگان | VLESS | @V2rayCollectorDonate | RELAY🚩 | 1️⃣1️⃣",
+        "pass": "83035a4c-571a-4ce8-af03-5c9d319e659a",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "host": "de.vpncustomize.Website",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/",
+            "sec": "tls",
+            "sni": "de.vpncustomize.Website",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7072,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

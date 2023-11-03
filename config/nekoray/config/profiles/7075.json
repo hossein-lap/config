@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "goold.top-speed.pw",
+        "name": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣5️⃣",
+        "pass": "d74cc1d4-ef9c-46cb-9659-ae3d11ca250d",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "nLmKVzX6dWzn_2iRiV7XrsoTFl4cqEFmSxzGIOnyrW8",
+            "sec": "tls",
+            "sid": "0dfa61d5",
+            "sni": "ilovepdf.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 1,
+    "id": 7075,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

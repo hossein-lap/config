@@ -1,0 +1,6 @@
+nano /tmp/test.c
+micro /tmp/test.c
+nano /tmp/test.c
+{ for i in `seq 10`; do cat /tmp/test.c; done; }
+{ for i in `seq 10`; do cat /tmp/test.c; done; } > /tmp/test.c
+nano /tmp/test.c

@@ -1,0 +1,168 @@
+mkdir MarisolPrice
+mv Marisol_Price-13189530-1080p.mp4 MarisolPrice/
+cd MarisolPrice/
+cls ..
+cp ../dl.sh ../ln.dl .
+nvim dl.sh ln.dl 
+q
+lf 
+q
+sudo xbps-install -Sy yt-dlp
+nvim `which slsdate.sh`
+nvim ~/.config/nvim/init.lua 
+q
+dmplay.sh 
+pulsemixer 
+dmplay.sh 
+q
+ncmpcpp 
+st -T Music ncmpcpp
+cli-visualizer 
+killall -USR1 vis
+pidof cli-visualizer 
+kill -USR1 `pidof cli-visualizer `
+kill -USR1 `pidof cli-visualizer`
+make clean; make; sudo make install
+cava
+sudo xbps-remove cava
+sudo xbps-remove -R cava
+cli-visualizer 
+nvim ~/.config/shell/aliases.sh 
+q
+xbps-query -Rs nausea
+sudo xbps-install nausea
+nausea 
+mkfifo /tmp/audio.fifo
+nausea 
+sudo xbps-remove -Rs nausea 
+sudo xbps-remove -R nausea 
+sudo xbps-install cava
+cava
+xbps-query -Rs cli-vis
+sudo xbps-install cli-visualizer
+nvim ~/.config/vis/config
+cli-visualizer 
+cli-visualizer 
+man cli-visualizer 
+cli-visualizer -
+cli-visualizer -h
+take ~/.config/vis
+nvim config
+mv config config.bak
+wget https://raw.githubusercontent.com/dpayne/cli-visualizer/master/examples/config
+nvim config
+nvim colors/test colors/test_rev
+nvim cava.conf 
+nvim config
+nvim ~/dev/hossein-lap/vim-colors/vim-octave/colors/octave.vim 
+nvim cava.conf 
+nvim ~/.config/nvim/lua/module/rce.lua 
+cd ~/.config/nvim/lua/module/
+grep au( *.lua
+grep 'au(' *.lua
+nvim extra.lua 
+q
+kill -USR1 `pidof cli-visualizer`
+wget https://raw.githubusercontent.com/dpayne/cli-visualizer/master/examples/rainbow
+kill -USR1 `pidof cli-visualizer`
+mkdir colors
+mv rainbow colors/
+kill -USR1 `pidof cli-visualizer`
+cd colors/
+cp rainbow rainbow.txt
+mv rainbow.txt template.txt
+nvim template.txt 
+kill -USR1 `pidof cli-visualizer`
+nvim template.txt 
+nvim old_rainbow
+nvim basic
+nvim template.txt 
+nvim noir
+cls
+rm template.txt 
+for i in `ls`; do echo "${i}.txt"; done
+for i in `ls`; do ln -s ${i} "${i}.txt"; done
+cls
+nvim noir
+nvim *
+for i in `ls *.txt`; do unlink $i ;done
+cls
+nvim noir 
+sudo xbps-install xdpyinfo
+kill -USR1 `pidof cli-visualizer`
+rm test_rev 
+cp test test_cava
+nvim test_cava 
+rm test_cava -f
+kill -USR1 `pidof cli-visualizer`
+nvim /tmp/test.lua
+q
+lf
+cls; sleep 1; clear
+while true; do cls; sleep 1; clear; done
+while true; do date; cls; sleep 1; clear; done
+lf
+q
+nvim `which slsextra.sh`
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+nvim ../st/colors/256_noir.h 
+dmshot.sh 
+nvim `which dmshot.sh `
+dmshot.sh 
+cd ~/w/german/
+cls
+nvim german.tex 
+cls
+latexmk -clean
+cls
+latexmk -clean german.tex 
+latexmk
+cls
+zathura german.dvi
+lf
+nsxiv german.dvi 
+cls
+latexmk -clean 
+latexmk -clean german.tex 
+latexmk -help
+latexmk -help | grep clean
+latexmk -c
+cls
+nvim german.tex 
+cls
+nvim german.tex 
+latexmk -c
+nvim german.tex 
+vim -c 'h events'
+vim -c 'h {events}'
+vim -c 'h {event}'
+nvim -c 'h {event}'
+q
+nvim
+vim
+s
+cava
+kill -USR1 `pidof cli-visualizer`
+cava
+cli-visualizer 
+cli-visualizer 
+cli-visualizer 
+irssi 
+lf /run/media/hos/mint/home/deb/
+cli-visualizer 
+dmusb.sh 
+sudo xbps-install newsboat
+nvim .config/newsboat/config 
+nvim .config/vis/config
+q
+yad
+zenity
+sudo xbps-install yad
+sudo xbps-install zenity
+x
+dmsu
+dmusb.sh 
+ls /run/media/hos/mint/home/deb/Pictures/Screenshots/
+lf vid/
+q

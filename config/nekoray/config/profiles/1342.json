@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "23.158.56.89",
+        "aid": 0,
+        "id": "04621bae-ab36-11ec-b909-0242ac120002",
+        "name": "رایگان | VMESS | @FreakConfig | DE🇩🇪 | 0️⃣2️⃣",
+        "port": 22324,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "none",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        }
+    },
+    "gid": 2,
+    "id": 1342,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": 337
+}

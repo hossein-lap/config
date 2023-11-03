@@ -1,0 +1,716 @@
+lsblk
+cd /media/hos/530A-A87E/config/
+ls
+vim
+vi user-dirs.dirs 
+vi ~/.config/user-dirs.dirs 
+sudo apt install moreutils
+vidir ~
+EDITOR=vi vidir ~
+ls
+mv tmux/ nvim shell/ git/ guake/ git/ geany/ ~/.config/ -rv
+cp tmux/ nvim shell/ git/ guake/ git/ geany/ ~/.config/ -rv
+vi ~/.bashrc
+. ~/.bashrc
+vi ~/.config/shell/bashrc
+`which vi` ~/.config/shell/bashrc
+s
+cd
+cd templates/
+ls
+`which vi` pkg-list.sh 
+sh pkg-list.sh 
+chmod +x pkg-list.sh 
+`which vi` pkg-list.sh 
+wget -qO - 'https://proget.makedeb.org/debian-feeds/makedeb.pub' | gpg --dearmor | sudo tee /usr/share/keyrings/makedeb-archive-keyring.gpg 1> /dev/null
+echo 'deb [signed-by=/usr/share/keyrings/makedeb-archive-keyring.gpg arch=all] https://proget.makedeb.org/ makedeb main' | sudo tee /etc/apt/sources.list.d/makedeb.list
+sudo apt update
+ls /usr/share/keyrings/make*
+ls /usr/share/keyrings/
+ls
+cd makedeb/
+l
+ls
+wget -O makedeb-install.sh https://raw.githubusercontent.com/makedeb/makedeb/alpha/install.sh
+ls -l
+sh makedeb-install.sh 
+bash makedeb-install.sh 
+`which vi` makedeb-install.sh 
+bash makedeb-install.sh
+bash makedeb-install.sh makedeb
+MAKEBED_RELEASE=makedeb bash makedeb-install.sh 
+pwd
+MAKEBED_RELEASE=makedeb bash makedeb-install.sh 
+export MAKEBED_RELEASE=makedeb bash makedeb-install.sh 
+`which vi` makedeb-install.sh 
+bash makedeb-install.sh
+ls
+ls ~/.cache/wallpaper/
+file ~/.cache/wallpaper/0_5_1920_1080_6577c05497a3d14ff86f381d056cf59c 
+bash makedeb-install.sh
+cd /usr/share/keyrings/
+ls
+sudo rm makedeb-archive-keyring.gpg 
+cd /etc/apt/sources.list.d/
+ls
+sudo rm -rf makedeb.list 
+clear
+gpg --full-gen-key 
+ssh-keygen 
+sudo apt update -y ; sudo apt install guake
+sudo apt install guake
+sudo apt upgrade -y
+echo 'nameserver 4.2.2.4' | sudo tee /etc/resolv.conf 
+sudo apt upgrade -y
+sudo apt install vim tmux git lua imagemagick fzf mpv yt-dlp aria2 uget gvim
+sudo apt install vim tmux git lua5.{1..4} imagemagick fzf mpv yt-dlp aria2 uget gvim
+sudo apt install vim tmux git lua5.{1..4} imagemagick fzf mpv yt-dlp aria2 uget vim-gtk3 make groff pandoc patch build-essential pkg-config go geany geany-plugins fonts-firacode 
+sudo apt install vim tmux git lua5.{1..4} imagemagick fzf mpv yt-dlp aria2 uget vim-gtk3 make groff pandoc patch build-essential pkg-config golang geany geany-plugins fonts-firacode 
+vidir]
+vidir
+sudo apt install moreutils
+echo sudo apt install vim tmux git lua5.{1..4} imagemagick fzf mpv yt-dlp aria2 uget vim-gtk3 make groff pandoc patch build-essential pkg-config golang geany geany-plugins fonts-firacode npm nodejs moreutils > Templates/pkg-list.sh
+xdg-user-dir
+xdg-user-dirs-gtk-update 
+xdg-user-dirs-gtk-update -h
+man xdg-user-dirs-gtk-update
+xdg-user-dirs-gtk-update --help
+xdg-user-dirs-gtk-update help
+ls
+more .config/user-dirs.dirs 
+vi .config/user-dirs.dirs 
+ls .config/shell/
+cp -rfv /media/hos/530A-A87E/dev/hossein-lap/workflow/config/shell/* ~/.config/shell/
+. .bashrc
+apt search luajit
+apt search pandoc
+apt install pandoc
+man apt
+apt show pandoc
+cd /media/hos/530A-A87E/
+ls
+ls auth/
+ls auth/ -a
+ls home/
+apt search gpg
+apt search openssh
+apt search askpass
+ls
+ls local/
+ls local/f
+ls local/fonts/
+ls local/fonts/Khat/
+apt search apastro
+apt search apostro
+ls
+cp -r dev ~/dev
+cp -rfv dev ~/dev
+ls
+rm -rf ~/dev/*
+ls -la ~/dev
+cp -rfv dev/{capiknev,soda-sh,hossein-lap,resume,primejade} ~/dev/
+ls
+ls home/
+cd
+lsblk
+udisksctl unmount -b /dev/sda
+udisksctl power-off -b /dev/sda
+lsblk
+clear
+lsblk
+apt search ntfs
+lsblk
+mpv
+celluloid 
+cd /media/hos/pers/lap-vid/
+ls
+cd vid/
+ls
+la
+ls -a
+cd vid/
+ls -a
+ls
+cd sort/
+ls
+...
+ls
+ls *.*
+ls .*
+ls -A
+du -ch `ls -A` 
+cp -rfv `ls -A` ~/videos/
+pwd
+ls
+..
+clear; ls
+..
+clear; ls
+ls prime/
+ls prime/ -a
+apt search openssh
+lsblk
+udisksctl unmount -b /dev/sda1
+udisksctl unmount -b /dev/sda2
+udisksctl unmount -b /dev/sda6
+udisksctl power-off -b /dev/sda
+more /etc/resolv.conf 
+apt show neovim
+cd templates/
+ls
+`which vi` pkg-list.sh 
+./pkg-list.sh 
+
+clear
+`which vi` pkg-list.sh 
+./pkg-list.sh 
+\vi pkg-list.sh 
+./pkg-list.sh 
+clear
+more /etc/resolv.conf 
+echo nameserver 1.1.1.1
+echo nameserver 1.1.1.1 | sudo tee /etc/resolv.conf 
+echo nameserver 1.1.1.1 | \sudo tee /etc/resolv.conf 
+uptime
+neofetch 
+apt search libx
+clear
+apt search libx
+cd dev/primejade/hos-workflow/st
+make
+./st
+vi config.def.h 
+make clean; make
+vim README.md 
+cd ../dmenu/
+ls
+vim README.md 
+more ../../../hossein-lap/workflow/suckless/dmenu/README.md 
+clear
+make
+vim README.md 
+make
+make clean; make; sudo make install
+make clean; make; \sudo make install
+cd ../st
+make clean; make; \sudo make install
+dmenu_run
+cd ../dmenu/
+l
+ls
+vim
+vi
+vim ~/.config/shell/aliases.sh 
+s
+apt search libx11
+sudo apt install libx11-dev
+\sudo apt install libx11-dev
+apt search libxft
+c
+apt search libxft
+\sudo apt install libxft-dev
+apt search libxft
+apt search harfbuzz
+\sudo apt install libharfbuzz-dev
+apt search xiner
+\sudo apt install libxinerama-dev
+\sudo apt install fribidi
+\sudo apt search fribidi
+\sudo apt install libfribidi-dev
+ls
+vim tmux.conf 
+cd .config/tmux/
+ls -l
+ln -s hos-tmux.conf tmux.conf
+t
+ls -l
+ls -a
+pass
+mv .password-store/ ~/
+ls ~/.password-store/
+ls ~/.password-store/ -a
+more ~/.password-store/.gpg-id
+vi .vim/vimrc 
+more ~/.password-store/mail/gmail/hosaidenp 
+more ~/.password-store/mail/proton/
+ls ~/.password-store/mail/proton/
+more ~/.password-store/mail/proton/
+pwd
+cd ~/.password-store/mail/proton/
+ls
+lsblk
+lsblk
+cd /media/hos/530A-A87E/
+ls
+vim ~/.bashrc
+s
+apt search tree-sitter
+apt install tree-sitter
+cd dev/primejade/hos-workflow/dmenu/
+t
+mv ~/.config/tmux/ ~/.tmux
+t
+mv ~/.tmux/ ~/.config/tmux
+ls -l ~/.config/tmux/
+ls -l
+vim config.def.h 
+vi config.def.h 
+vim ~/.config/vim/vimrc 
+vi config.def.h 
+vim ~/.config/vim/vimrc 
+vi config.def.h 
+pwd
+uptime
+ping 4.2.2.4
+more /etc/resolv.conf 
+nvim
+apt search fonts-noto
+apt search fonts-noto-color-emoji
+apt install fonts-noto-color-emoji
+mkdir archive/fonts
+nvim
+echo `find $PWD -maxdepth 1 -type d`
+sudo cp -rv `find $PWD -maxdepth 1 -type d` /usr/share/fonts/
+ls -l
+rm -rfv `find $PWD -maxdepth 1 -type d`
+ls -l
+ls -lls
+ls
+cd /usr/share/fonts
+ls -l
+cd -
+ls fonts
+ls -l fonts
+sudo mv -v fonts/*.{xz,zip} ~/archive/fonts/
+ls -l
+for i in `ls fonts`; do echo "${i}"; done
+for i in `ls fonts`; do sudo rm -rf "${i}"; done
+ls -l
+ls -l fonts/
+sudo mv fonts/ downloaded
+ls -l
+ls downloaded/FiraCode/
+ls -l
+cd .password-store/mail/proton/
+ls
+ls -1
+more saharmirzakhani27 
+apt search fonts-sou
+apt search source-code
+apt search fonts | fzf
+ffmpeg
+clear
+...
+ls
+find $PWD -type f | grep -v 'git\|gpg'
+man gpg
+gpg /home/hos/.password-store/irc/libera-chat/primejade
+ls ~/.gnupg/
+ls
+man gpg
+gpg /home/hos/.password-store/irc/libera-chat/primejade -e
+gpg -e /home/hos/.password-store/irc/libera-chat/primejade
+gpg -e hosteam01@gmail.com /home/hos/.password-store/irc/libera-chat/primejade
+gpg -e -s hosteam01@gmail.com /home/hos/.password-store/irc/libera-chat/primejade
+man gpg
+gpg -e -r hosteam01@gmail.com /home/hos/.password-store/irc/libera-chat/primejade
+ls irc/libera-chat/primejade*
+pass ls irc/libera-chat/primejade
+sudo apt install pass
+pass ls irc/libera-chat/primejade
+more irc/libera-chat/primejade
+c
+for i in `find $PWD -type f | grep -v 'git\|gpg'`; do gpg -e -r hosteam01@gmail.com "${i}"; rm -v "${i}"; done
+man gpg
+for i in `find $PWD -type f | grep -v 'git\|gpg'`; do gpg -e -r hosteam01@gmail.com --verbose "${i}"; rm -v "${i}"; done
+for i in `find $PWD -type f | grep -v 'git\|gpg'`; do gpg -e -r hosteam01@gmail.com --verbose "${i}"; rm -vf "${i}"; done
+gss .
+git add .
+git commit -m 'renew gpg-key'
+ls
+ls .git
+gls
+gll
+vim .git/config 
+vim ~/.config/git/config
+git commit -m 'renew gpg-key'
+git commit --no-gpg-sign  -m 'renew gpg-key'
+gll
+clear; ls
+cd
+take /tmp/git
+git init
+touch test.txt
+git add .
+git commit -m 'init commit'
+vim ~/.config/git/config
+man git
+man git-config
+ls
+cp ~/.config/git/config ~/.gitconfig
+git commit -m 'init commit'
+gpg --list-key
+nvim ~/.config/git/config
+git commit -m 'init commit'
+rm ~/.gitconfig 
+git commit -m 'init commit'
+nvim
+apt search cheese
+apt install cheese
+nvim ~/.config/gtk-3.0/bookmarks 
+gsettings set org.gnome.gnome-screenshot help
+gsettings set org.gnome.gnome-screenshot -h
+gsettings set help
+gnome-screenshot -f screenshot-$(date +%Y%m%d_%H%M%S).png
+ls pictures/screenshots/
+ls
+gnome-screenshot -f ${HOME}/pictures/screenshots/screenshot-$(date +%Y%m%d_%H%M%S).png
+ls pictures/
+ls pictures/screenshots/
+man gnome-screenshot 
+gnome-screenshot --help
+gnome-screenshot --help-htk
+gnome-screenshot --help-gtk
+gnome-screenshot --help
+gnome-screenshot --help-gapplication 
+gnome-screenshot --help
+gnome-screenshot --help-all
+gnome-screenshot --help-all | less -SR
+nvim tem
+nvim pkg-list.sh 
+nvim /home/hos/.local/state/nvim/lsp.log
+nvim ~/.config/nvim/lua/plugin/lsp/init.lua 
+nvim pkg-list.sh 
+nvim /home/hos/.local/state/nvim/lsp.log
+ls
+df -h /home
+mkdir ~/.local/telegram
+cd ~/.local/
+mv telegram/ share/
+mv ~/downloads/tsetup.4.9.8.tar.xz share/telegram/
+nvim
+cd downloads/
+ls
+mkdir fonts
+lf
+\lf
+apt install l
+apt install lf
+apt install vifm
+apt search file-manager
+apt search 'file manager'
+apt search 'ranger'
+apt search 'File Manager'
+apt search 'Console File Manager'
+sudo apt install nnn
+nnn
+EDITOR=nvim nnn
+ls
+nnn
+nnn -de
+apt search emoji
+apt search fonts-noto
+apt search emacs
+apt show emacs
+apt show -a emacs
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt update -y
+apt list --upgradable
+sudo apt show neovim
+sudo apt install neovim
+nvim
+sudo apt install python-neovim
+sudo apt installsearch python-neovim
+sudo apt search python-neovim
+sudo apt search neovim
+sudo apt search python3-neovim
+sudo apt install {ruby,python3}-neovim
+nvim
+sudo apt remove neovim
+sudo rm /etc/apt/sources.list.d/neovim-ppa-stable-jammy.list 
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt update -y
+apt list --upgradable
+sudo apt install neovim neovim-runtime libnss-myhostname
+nvim
+cd .config/nvim
+vim init.lua 
+nvim
+vim init.lua 
+gvim
+vim ~/.vim/vimrc 
+gvim init.lua 
+sudo apt install emacs
+sudo apt install emacs fd ripgrep
+apt install fd
+sudo apt install emacs fd ripgrep
+sudo apt install emacs fdripgrep
+sudo apt install emacs ripgrep
+ls
+cd dev/hossein-lap/
+cp -r vim-on-server/ ~/.config/vim
+vi
+cp -r vim ~/.vim/
+vim
+vi
+vim
+ls 
+vim ~/.vim/vimrc 
+lslk
+lsblk
+udisksctl unmount -b /dev/sda1
+udisksctl power-off -b /dev/sda
+fc-cache -f
+fc-cache -fv
+bash -ci "$(wget -qO - 'https://shlink.makedeb.org/install')"
+sudo rm /etc/apt/sources.list.d/makedeb.list /usr/share/keyrings/makedeb-archive-keyring.gpg -fv
+bash -ci "$(wget -qO - 'https://shlink.makedeb.org/install')"
+cd templates/
+take makedeb
+bash -ci "$(wget -qO - 'https://shlink.makedeb.org/install')"
+ls
+makedeb
+ls ~/.local/bin
+mkdir ~/.local/bin
+sudo apt-get install software-properties-common
+`which sudo` apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+wget -qO - 'https://proget.makedeb.org/debian-feeds/makedeb.pub' | gpg --dearmor | sudo tee /usr/share/keyrings/makedeb-archive-keyring.gpg 1> /dev/null
+echo 'deb [signed-by=/usr/share/keyrings/makedeb-archive-keyring.gpg arch=all] https://proget.makedeb.org/ makedeb main' | sudo tee /etc/apt/sources.list.d/makedeb.list
+sudo apt update
+sudo rm -rf /etc/apt/sources.list.d/google-chrome.list 
+sudo apt update
+clear
+sudo rm -rf /etc/apt/sources.list.d/makedeb.list 
+sudo rm -rfv /usr/share/keyrings/makedeb-archive-keyring.gpg 
+apt search mist
+\sudo apt install pwgen
+apt search pass
+apt search passmenu
+flatpak install flathub com.vscodium.codium
+flatpak install flathub 
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg     | gpg --dearmor     | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg     | gpg --dearmor     | \sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main'     | sudo tee /etc/apt/sources.list.d/vscodium.list
+sudo apt update -y
+sudo rm /etc/apt/sources.list.d/vscodium.list
+sudo rm /usr/share/keyrings/vscodium-archive-keyring.gpg
+apt install python3.10-venv
+gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/$USER/pictures/screenshots"
+nvim ~/.config/nvim/lua/plugin/toggleterm/init.lua 
+env | grep -i vim
+vim
+make clean; make;
+sudo make install
+env | grep -i nvim
+env | grep -i neovim
+pwd
+make clean; make; sudo make install
+ls | dmenu -P
+man zenity
+zenity --password
+zenity --password test
+zenity --password
+man zenity
+env | grep -i nvim
+nvim .config/shell/aliases.sh 
+s
+nnn
+make clean; make; 
+ls | ./dmenu -P -pc '+' 
+make clean; make; ls | ./dmenu -c -bw 4 -wm -p test -l 10
+ls
+sh dmemoji.sh 
+make clean; make; sudo make install
+cd ../scripts/
+ls 
+em
+gvim dmchar_e.sh 
+t
+cd dev/primejade/hos-workflow/dmenu/
+nvim config.def.h 
+t
+t ls
+t att
+t ls
+t att
+make clean; make; sudo make install
+ps aux | grep nvim | grep dmemoji
+kill 1286{21,19}
+cd dev/primejade/hos-workflow/st/
+nvim config.def.h 
+t att
+nvim ../../../hossein-lap/workflow/suckless/dmenu/config.def.h
+nvim ../../../hossein-lap/workflow/suckless/st/colors/hybrid-dark.h 
+nvim ~/.config/nvim/init.lua 
+nvim config.def.h 
+ls
+cp /home/hos/dev/hossein-lap/workflow/suckless/dmenu/colors/ .
+ls
+make clean; make;
+nvim dmenu.c 
+ls
+make clean;
+gss .
+sudo make install
+nvim colors/hybrid.h 
+cd ~/templates/
+ls
+nvim dmem
+nvim dmemoji.sh 
+clear; 
+sudo apt search libxft4
+sudo apt search libxft2
+more dmemoji.sh 
+clear
+bn
+nvim .ssh/id_rsa.pub 
+gpg --export --armor hosream01@gmail.com
+gpg --export --armor -r hosream01@gmail.com
+gpg --export --armor -r hosream01@gmail.com | nvim -
+ls
+cd dev/primejade/hos-workflow/dmenu/
+ls
+make clean
+ls
+gls
+t
+..
+t
+ls .emacs.d/
+rmdir .emacs.d/
+cd .config/emacs/
+ls
+..
+rm -rf emacs/
+take emacs
+sudo add-apt-repository ppa:kelleyk/emacs -y
+sudo apt update -y
+sudo apt-cache show emacs* | grep "Version"
+sudo apt list --upgradable
+sudo apt install emacs
+sudo apt install purge
+sudo apt purge emacs
+sudo apt install emacs
+apt list --installed | grep -i emacs
+sudo apt purge `apt list --installed | grep -i emacs | awk -F '/' '{print $1}' | tr '\n' ' '`
+sudo apt purge `apt list --installed | grep -i '\<emacs\>' | awk -F '/' '{print $1}' | tr '\n' ' '`
+sudo apt update -y && sudo apt install emacs
+sudo apt show -a emacs | less -SR
+sudo apt install emacs
+emacs
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+s
+doom
+doom install
+clear
+rm ~/.config/doom/
+rm ~/.config/doom/ -rf
+cd ~/.config/
+take emacs
+nvim in
+pwd
+ls
+nvim init.el
+sudo apt install nload
+nload
+apt search btop
+apt install btop
+btop
+lsblk
+highlight -O ansi /media/hos/530A-A87E/config/doom/init.el 
+apt install highlight
+highlight -O ansi /media/hos/530A-A87E/config/doom/init.el 
+highlight -O ansi /media/hos/530A-A87E/config/doom/init.el  | less -SR
+printf '%s\n' یک سه پنچ هفت | dmenu -wm -p test
+printf '%s\n' یک سه پنچ هفت | dmenu -wm -p test -l 4
+printf '%s\n' یک سه پنچ هفت | dmenu -wm -p test -l 4 -c
+emacs --debug-init
+cd .config/emacs/
+ls
+..
+rm -rf emacs/
+take emacs
+nvim init.el
+emacs
+nvim init.el --degub-init
+nvim init.el --debug-init
+emacs init.el --debug-init
+nvim init.el 
+emacs
+nvim init.el 
+emacs --debug-init
+nvim init.el 
+emacs --debug-init
+ls
+ls elpa/
+ls elpa/gnupg/
+emacs --debug-init
+nvim init.el 
+emacs --debug-init
+nvim init.el 
+emacs --debug-init
+ls
+..
+rm -rf emacs/
+mkdir emacs
+cd emacs/
+ls
+wget --no-check-certificate https://github.com/bbatsov/prelude/raw/master/utils/installer.sh -O - | sh
+..
+rm -rf emacs/
+emacs
+emacs --debug-init
+rm -rf ~/.emacs.d/
+take emacs
+ls
+..
+rmdir emacs/
+git clone https://github.com/syl20bnr/spacemacs emacs
+emacs
+rm -rf emacs
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+s
+doom install
+clear
+doom install
+nvim doom/init.el 
+cd /media/hos/530A-A87E/
+ls
+cd config/doom/
+highlight -O ansi /media/hos/530A-A87E/config/doom/init.el  | less -SR
+nvim init.el 
+pidof emacs
+kill `pidof emacs`
+btop
+uptime
+ls colors-dmenu/
+rm -rf colors-dmenu/
+ls -l
+rm dmpass-patch.diff 
+ls
+clear; ls
+cd scripts/
+grv
+git remote -v
+nvim ~/.config/shell/aliases.sh 
+s
+grvc
+grv
+gls
+gss
+nvim README.md 
+emacs
+ls
+..
+ls
+cls
+sudo apt search exa
+sudo apt show -a exa
+sudo apt show -a eza
+sudo apt install proxychains
+yt-dlp 
+apt list --installed | grep trash
+sudo apt install trash-cli
+sudo apt install advcpmv
+sudo apt search advcpmv

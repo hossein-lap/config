@@ -1,0 +1,100 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{main}
+\RequirePackage{xcolor,fontspec,fancyvrb,titlesec,framed,listings}
+
+% lstlisting formatting {{{
+\lstset{frame=tb,
+	showstringspaces=false,
+	% columns=flexible,
+	% numbers=left,
+	% xleftmargin=.03\textwidth,
+	% xrightmargin=.03\textwidth,
+    basicstyle={\ttfamily},
+	keywordstyle={},
+	ndkeywordstyle={},
+    commentstyle={},
+	emphstyle={},
+    stringstyle={},
+	numberstyle={\ttfamily\scriptsize},
+%
+	rulecolor=\color{black!50!white},
+%
+%	keywordstyle={\color{codepurple}},
+%	commentstyle={\color{frenchbeige}},
+%	stringstyle={\color{alizarin}},
+%	keywordstyle={\color{codepurple}},
+%	ndkeywordstyle={\ttfamily\color{keywordsColor}},
+%	emph={ls},
+%	emphstyle={\color{red}},
+%	backgroundcolor=\color{white!96!black},
+%	ndkeywordstyle={\underline},
+%	emphstyle={\color{red}},
+	breaklines=true,
+	breakatwhitespace=false,
+	% numbersep=3mm,
+	% frame=leftline,
+%	frame=left top right bottom,
+%	caption=\code{e.g.},
+	frame=shadowbox,
+	% frame=none,
+%
+	% aboveskip=5mm,
+	% belowskip=2mm,
+	captionpos=t,
+	tabsize=6
+}
+% end code block formatting }}}
+
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+
+%% custom section
+\titleformat{\section}
+	{\LARGE \bfseries}
+	{}
+    {.03\linewidth}
+	{}[{\titlerule[0pt]}]
+%% custom subsection
+\titleformat{\subsection}
+    {\Large \bfseries}
+	{}
+    {.03\linewidth}
+	{}[{\titlerule[0pt]}]
+%% custom subsubsection
+\titleformat{\subsubsection}
+    {\large \bfseries}
+	{}
+    {.03\linewidth}
+	{}[{\titlerule[0pt]}]
+
+%% headings position
+\titlespacing{\section}{0mm}{5mm}{5mm}
+\titlespacing{\subsection}{0mm}{5mm}{5mm}
+\titlespacing{\subsubsection}{0pt}{5mm}{5mm}
+
+%% every h1 at a new page
+%\let\oldsection\section
+%\renewcommand\section{\newpage\oldsection}
+
+%%% default fonts:
+%\setmainfont{Libertinus Serif}
+%%\setmathfont{Libertinus Sans}
+%\setsansfont{Source Sans Pro}
+%\setmonofont{Fira Mono}
+
+%% add line number to code-blocks
+% \DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+%    commandchars=\\\{\},
+%    numbers=left,
+%    frame=single
+%}
+
+\linespread{1.3}
+
+%\newenvironment{qqs}%
+%    {\begin{center}\begin{longtable}{p{\textwidth} }}%
+%    {\end{longtable}\end{center}}
+
+%\newenvironment{qqs}%
+%    {\begin{quotation}}%
+%    {\end{quotation}}

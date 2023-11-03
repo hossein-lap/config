@@ -1,0 +1,142 @@
+xbps-query -Rs language | fzf
+xbps-query -Rs vale | fzf
+q
+nvim -c Mason
+nvim 
+vim ~/.config/nvim/lua/plugin/mason/init.lua 
+nvim ~/.config/nvim/lua/plugin/mason/init.lua 
+nvim ~/.config/nvim/lua/
+nnn
+nvim ~/.config/nvim/lua/
+nvim ~/.config/nvim/lua/module/
+nvim ~/.config/nvim/lua/plugin/
+ls ~/.config/nvim/lua/plugin/
+nvim ~/.config/nvim/lua/plugin/
+nvim -c 'help netrw'
+nvim -c 'help Lex'
+q
+cp ../old/{dl.sh,ln.dl} .
+> ln.dl 
+nvim ln.dl 
+q
+xbps-query -l | wc -l
+sudo xbps-install brightnessctl acpi
+brightnessctl 
+brightnessctl -h
+brightnessctl s 10-
+sudo vim /etc/gshadow
+ls -l /sys/class/power_supply/BAT1/
+sudo brightnessctl s 10-
+sudo brightnessctl s 10%-
+sudo brightnessctl s 1+0%
+lf vid/
+nvim ~/.config/lf/icons.sh 
+s
+lf vid/
+nvim ~/.config/lf/icons.sh 
+s
+lf vid/
+nvim ~/.config/lf/icons.sh 
+s; lf vid/
+q
+dmexit.sh 
+loginctl poweroff -i
+loginctl power-off -i
+sudo shutdown -h now
+xbps-query -Rs chrom
+lf vid/
+q
+x
+loginctl power-off
+loginctl poweroff
+ssh hos@localhost -p2222
+ssh hos@localhost -p 2222
+ssh hos@127.0.0.1 -p 2222
+ssh hos@localhost -p 2222
+cd vm/qemu/void/
+cls
+./run-headless 
+ssh hos@localhost -p 2222
+vidir
+xbps-query -Rs moretolls
+xbps-query -Rs moretools
+xbps-query -Rs moretool
+xbps-query -Rs tools | fzf
+sudo xbps-install moreutils
+vidir
+cls
+nvim headless 
+./headless 
+./s
+./ssh 
+nvim run
+nvim gui
+nvim stop 
+nvim gui 
+nvim ~/.config/nvim/lua/plugin/cmp/init.lua 
+lf ~/.config/nvim/lua/plugin/
+q
+nvim headless 
+nvim ~/.config/nvim/lua/module/figlet.lua 
+cls
+chmod -x install 
+cls
+chmod -x stop
+nvim s
+nvim stop 
+cls
+nvim stop 
+cls
+ssh hos@localhost -p 2222
+nvim headless 
+cls
+nvim headless 
+grep '%s: %s' `find $PWD -maxdepth 1 -type f`
+grep 'printf' `find $PWD -maxdepth 1 -type f`
+q
+ssh hos@localhost -p 2222
+nvim ssh 
+cls
+nvim img 
+./img 
+./img -name void -size 25G
+..
+cd -
+nvim headless img 
+./img -name void -size 25G
+nvim img 
+./img -name void -size 25G
+nvim img 
+./img -name void -size 25G
+dmvirt.sh 
+dmvirt.sh -wm
+nvim `which dmvirt.sh`
+dmvirt.sh -wm
+./ssh
+./ssh 
+dmkill.sh`
+nvim `which dmkill.sh`
+dmvirt.sh 
+nvim `which dmvirt.sh `
+nvim stop 
+ls ~/pub/share/void/
+man sshfs
+ls ~/pub/share/void/
+lsblk
+ls ~/pub/share/void/
+ls share/
+ls ~/pub/share/void/
+sshfs hos@localhost:/home/hos/public /home/hos/pub/share/void/ -p 2222
+ls ~/pub/share/void/
+ls ~/pub/share/void/ -l
+man man
+man sshfs
+sudo makewhatis /usr/share/man/
+man sshfs
+sshfs hos@localhost:/home/hos/public /home/hos/pub/share/void/ -p 2222
+ls ~/pub/share/void/ -l
+man sshfs
+fusermount3 -u ~/pub/share/void/
+ls ~/pub/share/void/
+q
+x

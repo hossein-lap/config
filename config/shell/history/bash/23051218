@@ -1,0 +1,20 @@
+cp /data/screen/shots/shot-230512_181949.png .
+q
+imshadow.sh *.png
+cls
+q
+nvim /data/dev/hossein-lap/workflow/suckless/st
+nvim
+xbps-query -Rs pandoc
+sudo xbps-install python3-pandocfilters python5-pypandoc
+sudo xbps-install python3-pandocfilters python3-pypandoc
+cd /data/dev/hossein-lap/blog/
+cls
+cd hos/
+cls
+pwd
+git remote -v
+jcal
+زمس
+cls
+q

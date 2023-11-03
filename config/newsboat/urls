@@ -1,0 +1,42 @@
+# newsboat RSS feeds
+
+# blog
+https://lukesmith.xyz/index.xml "~ Luke Smith" "blog"
+https://poorya.me/feed.xml "~ Poorya Sheikh" "blog" "DevOps"
+"---"
+
+# tools
+https://newsboat.org/news.atom "~ newsboat.org" "tools"
+https://neovim.io/news.xml  "~ neovim.io" "tools"
+http://suckless.org/atom.xml "~ suckless.org" "tools"
+https://ctan.org/ctan-ann/atom "~ ctan.org" "TeX" "tools"
+
+# games
+https://xonotic.org/index.xml "~ xonotic.org" "game"
+https://github.com/assaultcube/AC/commits/master.atom "~ assault.cubers.net" "game"
+https://www.vega-strike.org/feed.xml "~ vega-strike.org" "game"
+http://feeds.feedburner.com/0adrevisions "~ play0ad.com" "game"
+https://blog.minetest.net/feed.rss "~ minetest.net" "game"
+https://zero-k.info/News "~ zero-k.info" "game"
+"---"
+
+# distro
+https://archlinux.org/feeds/news/ "~ archlinux" "news" "distro"
+https://archlinux.org/feeds/packages/ "~ archlinux - packages" "packages" "distro"
+https://voidlinux.org/atom.xml "~ voidlinux" "news" "distro"
+https://github.com/void-linux/void-packages/commits/master.atom "~ voidlinux - packages" "packages" "distro"
+https://github.com/void-linux/xbps/commits/master.atom "~ voidlinux - xbps changes" "distro"
+https://www.debian.org/News/news "~ debian" "news" "distro"
+https://blog.linuxmint.com/?feed=rss2 "~ linuxmint" "distro"
+https://distrowatch.com/news/distro/mageia.xml "~ opensuse" "distro" "news"
+"---"
+
+# desktop
+https://mate-desktop.org/rss.xml "~ MATE DE" "desktop"
+
+# languages
+https://www.lua.org/news.rss "~ Lua language" "programming"
+
+# radiogeek
+https://tubedu.org/feeds/videos.xml?videoChannelId=2421 "~ radiogeek" "podcast" "jadi"
+https://anchor.fm/s/6048890/podcast/rss "~ radiogeek2" "podcast" "jadi"

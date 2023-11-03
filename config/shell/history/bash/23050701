@@ -1,0 +1,4 @@
+nvim .config/nvim/lua/plugin/lsp/init.lua 
+nvim .config/nvim/lua/plugin/cmp/init.lua 
+q
+q

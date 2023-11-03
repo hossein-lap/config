@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "78.47.29.59",
+        "name": "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣8️⃣",
+        "pass": "510ffdf3-4cbb-4e1b-92aa-51554b8e5741",
+        "port": 38955,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "B3OSH3e4cM53VIJ2UBwaBQWQF6cGWDH8lBk3QOA-tCk",
+            "sec": "tls",
+            "sid": "488387e2",
+            "sni": "Speed.cloudflare.com",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3829,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

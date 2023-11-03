@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "b.reza-punisher-shopv2n.fun",
+        "name": "رایگان | REALITY | @ShadowSocks_s | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "f630137d-540f-45f0-b075-ddb4c6448c82",
+        "port": 39145,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "XAZz-377m7rLrgMkme4QLTCNRwaNWYA-Md8aECSuNQ0",
+            "sec": "tls",
+            "sid": "f2dc4624",
+            "sni": "www.speedtest.net",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7088,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

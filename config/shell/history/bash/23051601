@@ -1,0 +1,35 @@
+lf /run/media/hos/
+s
+lf uni/
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+cls
+nvim config.def.h
+cd /data/dev/hossein-lap/workflow/scripts/
+cls
+nvim dm*.sh
+gss .
+cd ../../suckless
+cls
+pwd
+cd defaults/
+cls
+cd dmenu/
+gss .
+ls | ./dmenu -l
+cls
+make clean; make
+ls | ./dmenu -l
+ls | ./dmenu -l 2
+ls | ./dmenu -l 20
+...
+cls
+nvim make.sh 
+cd tmp/
+cls
+..
+lf
+take def
+mv ../get.sh .
+nvim get.sh 
+./get.sh 
+proxychains4 -q ./get.sh 

@@ -1,0 +1,171 @@
+q
+ls
+nvim */*/gen.lua
+find $PWD -type d
+find $PWD -type d | grep -v git
+find $PWD -type d | grep -v git | grep -v '/dev/resume$'
+find $PWD -type d | grep -v git | grep -v '/dev/resume$' | grep -v {en,fa}'$'
+find $PWD -type d | grep -v git | grep -v '/dev/resume$' | grep -v {en,fa}$
+find $PWD -type d | grep -v git | grep -v '/dev/resume$' | grep -v 'en$\|fa$'
+find $PWD -name 'gen.lua'
+nvim gen.sh
+cls
+chmod -x untitled.jpg 
+cls
+mv gen.sh gen-all.sh 
+cls
+q
+lf dev/resume/
+q
+lf dev/resume/
+q
+xbps-query -Rs xonotic
+xbps-query -Rs game
+xbps-query -Rs game | fzf
+man xbps-query 
+man yad
+makewhatis /usr/share/man
+sudo makewhatis /usr/share/man
+nvim ~/.config/shell/bashrc
+s
+sudo makewhatis /usr/share/man
+ls dev*
+dmpass.sh 
+dmexit.sh 
+cd dev/hossein-lap/workflow/scripts/
+ls -l dmpass.sh 
+unlink dmpass.sh 
+cp dmscripts/dmpass.sh sudomenu
+nvim sudomenu 
+rm sudomenu 
+ls *pass
+ls *pass -l
+chmod -v +x `ls *pass`
+s
+sudo xbps-query -Rs test
+s
+sudo xbps-query -Rs test
+s
+sudo xbps-query -Rs test
+stty -echo
+stty +echo
+man sty
+man stty
+asd
+sudo ls /dev
+stty
+ls
+stty *echo
+ls
+stty echo
+ls
+clear
+make clean && make && sudo make install
+nvim `which readpass`
+sudo xbps-query -Rs test
+s
+stty echo
+s
+sudo xbps-query -Rs test
+ls -l | dmenu -c -bw 4 -P -pc 1 
+ls -l | dmenu -c -bw 4 -P -pc '1'
+ls -l | dmenu -c -bw 4 -P -pc '-'
+ls -l | dmenu -c -bw 4 -P
+sudo xbps-query -Rs test
+smenu
+zenity
+echo $?
+which zenity
+echo $?
+which yad
+echo $?
+which yad >dev/null 2>&1
+echo $?
+which zenity >dev/null 2>&1
+echo $?
+sudo xbps-query -Rs test
+nvim ~/.config/shell/bashrc
+q
+nvim config.def.h 
+q
+sudo xbps-query -Rs test
+clear
+echo $PASS
+sudo find / 
+sudo sudo find / 
+echo $PASS
+cd dev/hossein-lap/workflow/suckless/dmenu/
+nvim patches/dmenu-password-5.0.diff 
+grep 'if (pass' *
+grep 'if (pass' * -n
+nvim dmenu.c 
+q
+dmexit.sh 
+dmenu -v
+nvim .config/shell/bashrc
+nvim `which dmexit.sh`
+q
+dmenupass 
+nvim `which dmenupass `
+nvim ~/.config/nvim/undodir/%dev%shm%pass.*
+nvim `which dmenupass`
+dmenupass 
+sudo -A `which yadpass` ls /
+SUDO_ASKPASS sudo -A ls /
+SUDO_ASKPASS=$(which yadpass) sudo -A ls /
+alias sudo
+q
+x
+sudo reboot
+`which sudo` reboot
+x
+sudo update-grub 
+sudo reboot
+sudo xbps-install -S zenity
+xbps-query -l | wc -l
+nvim `which dmenupass`
+dmexit.sh 
+sudo grub-install /dev/nvme0n1
+x
+sudo grub-install /dev/nvme0n1
+s
+sudo grub-install /dev/nvme0n1
+sudo reboot
+nvim `which slsip.sh`
+cd .config/nvim
+gss .
+cd dl/iso/
+sha256sum linuxmint-21.2-cinnamon-64bit.iso 
+printf '%s' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a'
+printf '%s' '\n116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a'
+printf '%s\n' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a'
+dmusb.sh 
+cp linuxmint-21.2-cinnamon-64bit.iso /run/media/hos/Ventoy/ -v
+sha256sum /run/media/hos/Ventoy/linuxmint-21.2-cinnamon-64bit.iso 
+man md5sum
+printf '%s\n' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a' '116578dda0e03f1421c214acdd66043b586e7afc7474e0796c150ac164a90a2a'
+chsu
+chsum
+man chsum
+xbps-query -Rs chsum
+pwd
+wget https://ftp.belnet.be/arcolinux/iso/v23.05.04/arcolinuxb-cinnamon-v23.05.04-x86_64.iso.sha256
+cat arcolinuxb-cinnamon-v23.05.04-x86_64.iso.sha256 
+btop
+cd dl/iso/
+dmusb.sh 
+cd /run/media/hos/Ventoy/
+xbps-query -Rs checksun
+xbps-query -Rs checksum
+md5sum linuxmint-21.2-cinnamon-64bit.iso 
+md5sum /tmp/dbus-DHwbPJ4rIn 
+man md5sum
+xbps-query -Rs md5
+rm linuxmint-21.2-cinnamon-64bit.iso arcolinuxb-plasma-v23.05.04-x86_64.iso 
+nvim ~/dl/iso/ln.dl 
+sha256sum /home/hos/dl/iso/arcolinuxb-cinnamon-v23.05.04-x86_64.iso
+cat /home/hos/dl/iso/arcolinuxb-cinnamon-v23.05.04-x86_64.iso.sha256 
+cp -v /home/hos/dl/iso/arcolinuxb-cinnamon-v23.05.04-x86_64.iso .
+sha256sum arcolinuxb-cinnamon-v23.05.04-x86_64.iso 
+cd
+x

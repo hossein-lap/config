@@ -1,0 +1,1060 @@
+git diff status.vim
+gvim ini
+gvim main.vim 
+gvim -A main.vim 
+..
+gvim init.vim 
+vim init.vim 
+gvim init.vim 
+vim init.vim 
+vim modules/status.vim 
+gvim init.vim 
+nvim ~/.config/pandoc/filters/include-files.lua
+nvim ~/.config/pandoc/defaults/nord/nord.yaml 
+q
+dmusb.sh 
+cls
+vim /data/aur.list 
+ls /etc/fonts/
+more /etc/fonts/fonts.conf 
+lf /data/dev/hossein-lap/workflow/config/
+q
+cd /data/dev/parhlinux/parch-iso-mate/
+cls
+t
+q
+lf /run/media/hos/arch/home/deb/.config/
+cd /run/media/hos/arch/home/deb/.config/
+pwd
+lf
+q
+gss .
+git diff _index.md
+groff -Tascii t.ms | less
+groff -Tascii t.ms
+gv
+xbps-query -Rs gv
+groff -Tascii t.ms
+groff -Tascii -man t.ms | less
+groff -Tascii -man t.ms | less --RAW-CONTROL-CHARS
+groff -Tascii -man t.ms | less
+groff -Tascii -man t.ms 
+groff -Tascii -man t.ms | less
+groff -Tpdf -man t.ms | zathura -
+bg
+fg
+groff -Tpdf -man t.ms | zathura -
+groff -Tascii -man t.ms | less
+nvim /data/dev/hossein-lap/blog/hos/content/_index.md 
+cd /data/dev/hossein-lap/blog/hos/
+gss .
+git add .
+git commit -m 'updated first-page'
+cls
+hugo -t allgray
+cd public/
+gss .
+git add .
+git commit -m 'updated first-page'
+git push 
+cd /tmp
+nvim t.ms
+lf pic/
+q
+lf pic/
+tt
+q
+neofetch 
+which tt
+whereis tt
+whereis ttaa
+whereis ttaa | awk '{print $NF;}'
+whereis ttaa | awk -F ':' '{print $2;}'
+whereis ttaa | awk -F ':' '{print $2;}' | wc
+whereis ttaa | awk -F ':' '{print $2;}' | wc -l
+whereis ttaa | awk -F ':' '{print $2;}' | wc -c
+whereis ttaa | awk -F ':' '{print $2;}' | wc -w
+whereis ttaa | awk -F ':' '{print $2;}'
+xbps-query -Rs lf-
+atool
+xbps-query -Rs atool
+xdotool getactivewindow getwindowgeometry --shell
+tabbed -d
+tabbed -d >/tmp/tabbed.xid &&   ueberzug layer --silent --parser json < <(echo "{\"action\": \"add\", \"identifier\": \"/tmp/tabbed.xid\", \"x\": 0, \"y\": 0, \"path\": \"/path/to/image.jpg\", \"priority\": 10}") >/dev/null &
+tt
+xwininfo 
+lf pic/
+lf
+lf pic/
+q
+lf pic/
+tt
+tabbed -c -n MyTab -e sh -c 'printf "\033]0;%s\007" "MyTab"; st'
+clear
+tabbed -c -n MyTab -e sh -c 'printf "\033]0;%s\007" "MyTab"; st'
+tabbed -c -n MyTab st -w '' -e sh -c 'printf "\033]0;%s\007" "MyTab"; $SHELL'
+c
+tabbed -c -n MyTab st -w '' -e sh -c 'printf "\033]0;%s\007" "MyTab"; $SHELL'
+xprop 
+xprop 
+tabbed -c sh -c "printf '\033]0;MyTab\007'; xseticon -id \$WINDOWID /path/to/icon.png; st"
+xwininfo 
+tt
+tabbed -r Test st
+tabbed -c st -n MyTab -e xtitle "MyTab" -e $SHELL
+clear
+tabbed -c st -w '' -n MyTab -e xtitle "MyTab" -e $SHELL
+tabbed -c st -n MyTab -e xtitle "MyTab" -e $SHELL
+cls
+tabbed -c st -n MyTab -e sh -c 'xprop -id $WINDOW_ID -f WM_NAME 8s -set WM_NAME "MyTab"; xdotool type "echo hello world"; bash'
+cls
+c
+xprop 
+lf pic/
+q
+nvim `which tt`
+neofetch 
+tabbed -c -n MyTab -e sh -c 'printf "\033]0;%s\007" "MyTab"; xprop -id $WINDOWID -f WM_NAME 8u -set WM_NAME "MyTab"; st'
+tabbed -c -n MyTab -c sh -c 'printf "\033]0;%s\007" "MyTab"; xprop -id $WINDOWID -f WM_NAME 8u -set WM_NAME "MyTab"; st'
+tabbed -c -n MyTab -r 2 st -w '' -c sh -c 'printf "\033]0;%s\007" "MyTab"; xprop -id $WINDOWID -f WM_NAME 8u -set WM_NAME "MyTab"'
+cd /data/dev/hossein-lap/all
+cd /data/dev/hossein-lap/allgray/
+cls
+nvim static/
+gss .
+git diff ,.
+git diff .
+git add .
+git commit -m 'changed headings font style to `serif`'
+git push
+cd ../blog/hos/themes/allgray/
+gss .
+git pull
+gls
+cls
+nvim ../../../.git/config 
+..
+gss .
+git push
+hugo -t allgray 
+gss .
+cd public/
+gss .
+git add .
+git commit -m 'changed headings font style to `serif`'
+git push
+..
+hugo server
+cls
+cd ../../allgray/
+cls
+nvim static/css/style.css 
+gss .
+xbps-install -Su yt-dlp
+sudo xbps-install -Su yt-dlp
+yt-dlp -U
+vim /etc/proxychains.conf 
+lf
+lf ..
+lf
+nvim dl.sh 
+neofetch 
+clear
+neofetch 
+links hossein-lap.gituhb.io
+links hossein-lap.github.io
+w3m hossein-lap.github.io
+links hossein-lap.github.io
+lynx hossein-lap.github.io
+falkon hossein-lap.github.io
+xbps-query -Rs execvp
+execvp
+man tabbed
+links archlinux.org
+man links
+links -g archlinux.org
+elvis 
+cls
+evi
+nvi
+ls /tmp/vi
+ls /tmp/vi*
+ls 
+man links
+alias links
+lf /run/media/hos/arch/home/deb/.config/
+q
+mpv House_M_D_S05E12_720p_BluRay_PaHe.mkv
+xprop 
+xwininfo 
+nvim `which tt`
+cd dl/
+cls
+cd ../vid/
+cls
+cd shows/
+take house-md
+nvim ln.dl
+nvim dl.sh
+q
+nvim /data/aur.list 
+q
+nvim ~/.config/lf/lfrc 
+nvim ~/.config/lf/tscope 
+cd .config/lf/
+nvim -d scope tscope 
+cp tscope scope 
+cls
+nvim pv.sh 
+nvim *
+..
+cls
+pwd
+cd /data/dev/hossein-lap/workflow/config/
+lf
+q
+t
+q
+cls
+t
+cd /etc/
+cls
+cd gtk-2.0/
+cls
+cd ../gtk-3.0/
+cls
+sudo pcmanfm
+ls ~/.config/gtk-3.0/
+nvim im-multipress.conf 
+sudo cp /home/hos/.config/gtk-3.0/settings.ini .
+sudo pcmanfm
+nvim ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini 
+cd /run/media/hos/arch/home/deb/.config/gtk-3.0/
+cls
+..
+cls
+ls
+cl
+nvim mate-session/saved-session/
+tree mate*
+pcmanfm
+cls
+lf
+q
+cat .config/user-dirs.dirs 
+awk -F '=' '{print $NF;}' .config/user-dirs.dirs 
+awk -F '=' '{print $NF;}' .config/user-dirs.dirs | sed '["\/]//g'
+awk -F '=' '{print $NF;}' .config/user-dirs.dirs | sed 's/["\/]//g'
+awk -F '=' '{print $NF;}' .config/user-dirs.dirs | sed -e 's/["$\/]//g' -e 's/HOME//'
+mkdir `awk -F '=' '{print $NF;}' .config/user-dirs.dirs | sed -e 's/["$\/]//g' -e 's/HOME//'`
+cls
+cat .config/user-dirs.dirs 
+cls
+cls -a
+cd ../
+cls
+..
+cd usr/share/themes/
+cls
+cp -r /usr/share/themes/Matcha-* .
+du -h .
+..
+mkdir icons
+ls /usr/share/icons/
+cp -r /usr/share/icons/Simp1e* .
+cls
+mv Simp1e* icons/
+cls
+cd icons/
+cls
+cd ../
+cls
+..
+cls
+cd ../etc/
+cls
+cp /run/media/hos/arch/home/deb/.local/share/themes/Material-Black-* ~/.local/share/themes/ -r
+cd skel/
+cp -r ~/.Xresources* .
+nvim .Xresources
+cls
+nvim .Xresources
+cls
+lf .config/
+q
+cls
+lf
+q
+cd /data/dev/parhlinux/parch-iso-mate/
+cls
+t
+q
+timeout 2 lf && echo done
+c
+~.
+clear
+q
+lf mus
+q
+nvim `which dmexit.sh`
+q
+x
+timeout while true; do sleep 0.3; echo $RANDOM; done && notify-send test
+timeout 2 while true; do sleep 0.3; echo $RANDOM; done && notify-send test
+timeout 2 { while true; do sleep 0.3; echo $RANDOM; done; } && notify-send test
+timeout 2 tail -f /tmp/t.ms && notify-send test
+timeout 2 sh -c 'tail -f /tmp/t.ms' && notify-send test
+timeout 2 sh -c 'tail -f /tmp/t.ms'; notify-send test
+timeout 1800 mpv ~/mus/Ehsan-Daryadel-Dordoone-320.mp3; sleep 3; loginctl poweroff
+ls .local/share/fonts/
+cd .local/share/fonts/
+cls
+fc-list | grep Sahel
+ls /usr/share/fonts/persian/
+du -h /usr/share/fonts/persian/
+sudo mv /usr/share/fonts/persian .
+cls
+lzip
+tar --lzip -cvf current.tar.lz anonymous-pro/ nerd nerd-fonts 
+tar --zstd -cvf current.tar.zstd anonymous-pro/ nerd nerd-fonts 
+tar --xz -cvf current.tar.xz anonymous-pro/ nerd nerd-fonts 
+du -h *.tar.*
+rm current.tar.{zstd,xz}
+cls
+rm -rf anonymous-pro/ nerd nerd-fonts 
+cls
+fc-list | grep Nerd
+xbps-query -Rs fira
+fc-list | grep Nerd | awk -F '/' '{print $1;}'
+fc-list | grep Nerd | awk -F ':' '{print $1;}'
+fc-list | grep Nerd | awk -F ':' '{print $1;}' > f.list
+nvim f.list 
+xbps-query -Rs nerd
+sudo xbps-install -S nerd-fonts
+sudo xbps-install -S nerd-fonts-otf
+lf
+nvim
+btop
+cls
+nvim /tmp/tex/t.tex 
+take /tmp/tex
+nvim t.tex
+make clean && make && sudo make install
+nvim /data/dev/hossein-lap/workflow/suckless/st/config.def.h 
+d
+cd .local/share/fonts/
+more f.list 
+nvim f.list 
+cls
+take fira-nerd
+mv ../*.{ttf,otf} .
+cls
+lvlf
+lf
+..
+tar --lzip -cf fira-nerd.tar.lz fira-nerd/
+rm -rf fira-nerd
+fc-list | grep Nerd
+nvim
+fc-cache
+fc-list | grep Nerd
+fc-list | grep nerd
+fc-cache
+nvim 
+sudo xbps-install nerd-fonts-otf
+cls
+sudo xbps-install nerd-fonts-otf
+fc-cache
+fc-list | grep Nerd
+fc-list | grep Nerd | less -SR
+cls
+nvim .config/nvim/lua/sk
+nvim .config/nvim/lua/module/skel.lua 
+lf /data/dev/hossein-lap/workflow/local/
+x
+make clean && make && sudo make install
+fc-list | grep Fura
+/data/dev/hossein-lap/workflow/suckless/st
+cd /data/dev/hossein-lap/workflow/suckless/st
+nvim config.def.h 
+nvim
+nvim
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+fc-list Noto
+fc-list noto
+fc-list arabic
+fc-list | grep Noto | grep Arabic
+fc-list | grep Noto | grep Arabic | grep Naskh
+ssh ali@191.168.1.236
+ssh ali@192.168.1.236
+ping 192.168.1.236
+ssh ali@192.168.1.236
+make clean && make && sudo make install
+a
+c
+cd /usr/share/fonts/
+cls
+cd OTF/
+cl
+ls *Nerd*
+ls *nerd*
+cl
+lf
+..
+cls
+mv NerdFonts/ ~/.local/share/fonts/
+sudo mv NerdFonts/ ~/.local/share/fonts/
+cd ~/.local/share/fonts/
+cls
+chown hos:hos NerdFonts/ -R
+sudo chown hos:hos NerdFonts/ -R
+cls
+tar --lzip -cf nerdfonts.tar.lz NerdFonts/
+rn nerdfonts.tar.lz 
+rm nerdfonts.tar.lz 
+tar --lzip -cvf void-nerdfonts.tar.lz NerdFonts/
+cls
+rm NerdFonts/ -rf
+tar --lzlip -xvf current.tar.lz 
+tar --lzip -xvf current.tar.lz 
+tar --lzip -xvf fira-nerd.tar.lz 
+cls
+lf
+q
+nvim
+nvim 
+cls
+nvim
+nvim /tmp/t.e
+nvim /tmp/t.tex 
+fc-list hack
+fc-list | grep Nerd | Hack
+fc-list | grep Nerd | grep Hack
+fc-list | grep Nerd | grep H
+fc-list | grep Nerd | grep Ha
+c
+nvim /tmp/t.tex
+nvim .config/nvim/init.lua 
+cd .local/share/fonts/
+cls
+tar --lzip -cvf current.tar.lz fira-nerd/ nerd-fonts/
+rm -rf fira-nerd/ nerd-fonts/
+cls
+take nerds
+mv ../current.tar.lz .
+mv ../arch/ .
+cls
+cd arch/
+cl
+cls
+tar -tf nerd-fonts.tar.gz 
+cls
+tar -tf void-nerdfonts.tar.lz 
+tar --lzip -xvf void-nerdfonts.tar.lz 
+fc-cache
+fc-list | grep Fura
+fc-list | grep Fira
+fc-list | grep Fira | grep Nerd
+cls
+rm -rf NerdFonts/
+..
+mv nerds/arch .
+cls
+c;s
+find . -name current.tar.lz
+cd nerds/
+cls
+tar -xf current.tar.lz 
+cls
+fc-cache
+make clean && make && sudo make install
+:lua RUNterminal("bash", "f")
+norm :lua RUNterminal("bash", "f")
+neofetch 
+nvim .config/nvim/init.lua 
+nvim .config/nvim/lua/module/rce.lua 
+cd .config/nvim/lua/
+cls
+nvim ../init.lua 
+nvim plugin/.tmp/toggleterm.lua.bak 
+lf plugin/.tmp/
+make clean && make && sudo make install
+nvim
+make clean && make && sudo make install
+nvim /tmp/t.tex
+nvim /tmp/t.tex
+neofetch 
+make clean && make && sudo make install
+cls
+cd /data/dev/hossein-lap/workflow/suckless/st
+nvim config.def.h 
+pwd
+nvim config.def.h 
+nvim ../../nvim/lua/rce.lua 
+..
+nvim nvim/lua/module/rce.lua 
+fc-cache
+fc-list | grep Fira
+fc-list | grep Fira | grep Nerd
+nvim workflow/suckless/st/config.def.h 
+\t
+cd .config/nvim/lua/plugin/toggleterm/
+nvim init.lua 
+...
+lf
+q
+cd /data/dev/hossein-lap/nvim
+nvim lua/module/rce.lua 
+nvim /tmp/t.c
+cls
+nvim init.lua lua/plugin/init.lua
+nvim lua/plugin/toggleterm/init.lua 
+vim init.lua 
+nvim lua/plugin/toggleterm/init.lua 
+nvim init.lua 
+nvim lua/plugin/toggleterm/init.lua 
+nvim init.lua 
+nvim lua/plugin/toggleterm/init.lua 
+nvim init.lua 
+nvim lua/plugin/toggleterm/init.lua 
+nvim init.lua 
+nvim lua/plugin/toggleterm/init.lua 
+q
+nvim .config/nvim/lua/module/rce.lua 
+cd .config/nvim/
+lf
+q
+nvim /tmp/t.lua
+nvim /tmp/t.sh
+nvim /tmp/t.c
+nvim /tmp/t.cconf
+q
+nvim /tmp/test.c
+cd /tmp
+cls
+rm .git -rf
+take test
+rm test
+take test
+mv ../debug-test ../test.c .
+c
+nvim test.c 
+man git-commit
+cd /data/dev/hossein-lap/nvim/lua/
+cls
+nvim plugin/toggleterm/init.lua 
+nvim module/.tmp/rce.lua.bak 
+lf
+gss .
+git diff plugin/lualine/init.lua
+c
+git diff .
+nvim module/rce.lua 
+x
+du -h .
+cls
+rm de.*
+du -h .
+..
+nvim modules/main.vim 
+q
+t
+q
+nvim init.lua lua/plugin/init.lua 
+cls
+s
+cls
+nvim lua/module/rce.lua 
+man gdb
+tldr gbd
+tldr gdb
+c
+~.
+clear
+stty -echo
+stty +echo
+clear
+man sty
+man stty
+stty -echo
+csad
+s
+c
+s
+clear
+cls
+tldr
+man tldr
+info tldr
+info
+cls
+lf .
+lf /data/dev/hossein-lap/workflow/
+man gdb
+info gdb
+tldr
+tldr -u
+nvim module/rce.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+s
+man stty
+info tldr
+info gdb
+history | grep scp
+grep scp ~/.config/shell/history/bash 
+grep ~/.bash_history 
+grep scp ~/.bash_history 
+nvim `which debian-qemu.sh`
+pwd
+nvim lua/plugin/cmp/init.lua 
+nvim /tmp/luajit/hi.c
+nvim /tmp/luajit/hi.conf
+nvim ~/.Xresources
+nvim /tmp/luajit/hi.c
+cd /data/dev/parhlinux/parch-iso-mate/
+cls
+gss .
+ls tools/
+lf
+git diff README.md
+git add .
+git commit
+gls
+gll
+git push
+t att
+find / -iname en_us.utf-8.spl 2>/dev/null
+find / -iname '*.spl8 2>/dev/null
+find / -iname '*.spl' 2>/dev/null
+lf -l /usr/share/vim/vim90/spell/
+ls -l /usr/share/vim/vim90/spell/
+find / -iname '*.spl' 2>/dev/null
+ls -l /usr/share/nvim/runtime/spell/en.utf-8.spl
+ls -l /usr/share/vim/vim90/spell/en.utf-8.spl
+cp /usr/share/vim/vim90/spell/en.utf-8.spl /data/dev/hossein-lap/workflow/vim/spell/
+cp /usr/share/vim/vim90/spell/en.utf-8.sug /data/dev/hossein-lap/workflow/vim/spell/
+luajit -v
+cd /tmp
+cls
+take luajit
+nvim t.lua
+luajit t.lua 
+time luajit t.lua \
+time luajit t.lua
+time lua t.lua
+nvim t.lua 
+./t
+nvim t.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim t.lua 
+nvim t.c
+cls
+nvim debug-t 
+nvim t.c
+nvim t.lua
+nvim anot.lua
+nvim t.c
+xbps-query -Rs polkit
+ping ali@192.168.1.236
+ping 192.168.1.236
+ls /var/service/polkitd
+dmkill.sh -h
+dmkill.sh -s tyl
+dmkill.sh -s tui
+lf mus/
+q
+randr.sh 2
+clear
+cd .config/openbox
+cls
+lat autostart 
+c
+cls
+nvim autostart 
+r.sh sh -c autostart 
+r.sh tint2
+xbps-query -Rs maia
+xbps-query -Rs vertex
+cls
+nvim jwmrc 
+lf
+cls
+nvim *.xml
+sed -i 's/\t/  /g' *.xml
+cls
+nvim .jwmrc 
+mv jwmrc rc.xml
+nvim .jwmrc 
+cls
+cls 0a
+cls -a
+cls
+nvim .jwmrc 
+cls
+ls -la ~ | grep jwm
+mv rc.xml jwmrc
+jwm --restart
+jwm -restart
+xdgmenumaker -f jwm
+xdgmenumaker -h
+xdgmenumaker -f jwm | less
+xdgmenumaker -f jwm | less -SR
+xdgmenumaker -f jwm
+xbps-query -Rs obmenu
+obmenu-generator --help
+obmenu-generator -h
+echo   爵
+cls
+dmchar_fontawesome.sh 
+dmchar_fontawesome.sh  -wm
+dmchar_fontawesome.sh -a -wm
+xdgmenumaker -f jwm
+jwm -restart
+nvim `which randr.sh`
+dmchar_fontawesome.sh -a -wm
+dmchar_fontawesome.sh -a '-wm -g 2 -l 20'
+dmchar_fontawesome.sh -a '-wm -l 20'
+dmchar_nerdfont.sh -a '-wm -l 20'
+dmchar_nerdfont.sh -a '-wm -g 1 -l 20'
+dmchar_nerdfont.sh -a '-wm -g 2 -l 20'
+dmchar_nerdfont.sh -a '-wm -g 1 -c -l 20'
+nvim menu.xml 
+gss .
+q
+ran
+xrate.sh 
+xdgmenumaker -h
+xdgmenumaker --twm-title
+xdgmenumaker --twm-titles
+xdgmenumaker -f --twm-titles
+xdgmenumaker -f jwm --twm-titles
+cls
+nvim *.xml
+xdgmenumaker -h
+tree
+tree -L 1
+tree -L 1 -d
+tree -L 1 -D
+tree -L 1 -D $PWD
+tree -L 1 -D
+tree -L 1 -D -X
+tree -L 1 -D --xml
+tree -L 1 -D --help
+`which tree`
+``which tree`` -L 1 -D --help
+``which tree`` -L 1 -d --help
+``which tree`` -L 1 -h
+`which tree` -L 1 --help
+`which tree` -L 1 -X
+cls
+cd ~/dl/iso/
+nvim ln.dl 
+q
+nvim .config/nvim/lua/module/rce.lua 
+q
+neofetch 
+c
+neofetch 
+c
+neofetch 
+q
+unix
+q
+tail -f .config/dwm/stat 
+tail -f .config/dwm/log
+tail .xinitrc 
+tail -f .config/dwm/logs
+q
+man lowdown
+lowdown -stman foo.md | groff -itk -man -Tutf8 | less -R
+nvim /tmp/foo.md
+lowdown -stman /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+nvim /tmp/foo.md
+lowdown -stman /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+lowdown -tman /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+lowdown -stman /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+nvim /tmp/foo.md
+lowdown -stman /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+nvim /tmp/foo.md
+lowdown -stman /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+man lowdown
+lowdown -tterm /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+lowdown -tterm /tmp/foo.md | groff -itk -man -Tutf8 | less -RS
+lowdown -tterm /tmp/foo.md | groff -itk -man -Tutf8 | less -r
+lowdown -tterm /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+lowdown -tterm /tmp/foo.md |  less -R
+lowdown -tterm /tmp/foo.md | less -R
+nvim /tmp/foo.md
+lowdown -tterm /tmp/foo.md | less -R
+nvim /tmp/foo.md
+lowdown -tterm /tmp/foo.md | less -R
+nvim /tmp/foo.md
+lowdown -tterm /tmp/foo.md | less -R
+nvim /tmp/foo.md
+lowdown -tterm /tmp/foo.md | less -R
+man lowdown
+q
+lf .vim
+lf .c
+lf .vim/
+lf /data/dev/hossein-lap/vim-colors/
+lowdown -stms /tmp/foo.md | groff -itk -mspdf -Tutf8 | less -R
+lowdown -stman /tmp/foo.md | groff -itk -man -Tutf8 | less -R
+mandoc
+lowdown -stman /tmp/foo.md | mandoc | less -R
+cls
+cl
+q
+x
+vim .xinitrc 
+x
+vim .xinitrc 
+x
+vim .xinitrc 
+x
+vim .xinitrc 
+x
+vim .xinitrc 
+x
+cls
+gvim
+gvim -u .vim/modules/skels.vim /tmp/t.c
+gvim ~/.vim/modules/skels.vim 
+gvim /tmp/t.c
+gvim ~/.vim/modules/skels.vim 
+gvim /tmp/t.c
+gvim ~/.vim/modules/skels.vim 
+gvim /tmp/t.c
+gvim ~/.vim/modules/skels.vim 
+gvim /tmp/t.c
+pwd
+git add .
+gss .
+git commit 
+git push
+cd /data/dev/parhlinux/parch-iso-mate/iso/airootfs/etc/skel/
+cls
+cls -A
+cls -a
+cd .config/dconf/
+cls
+rm user 
+cp /run/media/hos/arch/home/deb/.config/dconf/user .
+..
+cls
+cls -a
+rm -rf .Xresources
+nvim .Xresources.d/
+git restore --source=HEAD .Xresources 
+nvim .Xresources
+rm -rf .Xresources.d/
+cls
+cls -a
+ls .vim
+nvim ~/.vim/modules/skels.vim 
+mkdir -p .local/share
+cp /data/dev/hossein-lap/workflow/local/skels .local/share/ -r
+nvim .vim/modules/skels.vim 
+nvim .local/share/skels/*
+cls
+gss .
+df -h /
+df -h 
+gss .
+dmusb.sh 
+lf /run/media/hos/arch/home/deb/
+nvim .config/nvim/lua/module/keybind.lua 
+nvim .config/nvim/init.lua 
+nvim .vim/modules/keybinds.vim 
+neofetch 
+find . -iname Heathens
+c
+find . -iname Heathens 2>/dev/null
+find . -iname Heath 2>/dev/null
+find . -iname heath 2>/dev/null
+find ~ -iname heath 2>/dev/null
+q
+cls
+cl
+s
+cls
+nvim image_processing_and_ai_in_lung_cancer.tex main.tex 
+q
+cd uni/os-lab/image-processing-in-lung-cancer/
+cls
+t
+q
+lf mus/
+q
+ntp
+ntpd
+sudo ntpd
+sudo sv restart ntpd
+q
+x
+date
+reboot
+loginctl restart
+loginctl reboot
+date
+date +%Y
+loginctl  reboot
+make bib
+more Makefile 
+make bib
+nvim Makefile 
+make bib
+nvim Makefile 
+nvim cancers-v11-i11_20230309.bib 
+lf
+make bib
+nvim cancers-v11-i11_20230309.bib 
+nvim table1.tex 
+gss .
+nvim image_processing_and_ai_in_lung_cancer.tex 
+lazygit
+cls
+s
+cls
+alias cls
+cls
+...
+cls
+lf
+make bib
+lf
+make bib
+c
+lf
+s
+cls
+nvim image_processing_and_ai_in_lung_cancer.tex main.tex 
+lazygit 
+cls
+q
+cd /run/media/hos/USB\ DISK/
+cls
+cls -a
+rm .fe_tmp -f
+cd session-02/
+cls
+nvim project-01.bas 
+lf
+q
+lf doc/pdf_src/
+q
+lf mus/
+q
+cd uni/os-lab/image-processing-in-lung-cancer/
+t
+...
+cls
+take micro-lap
+take reports
+mkdir 0{1,2,3}
+cls
+nvim 01.md
+mv 01.md 01/
+cd 01/
+nvim 01.tex
+lf
+زمس
+cls
+nvim 01.tex 
+q
+cls
+..
+cls
+nvim projects/02/project-01.bas 
+q
+texdoc lstlisting
+texdoc listing
+texdoc listings
+q
+x
+xrate.sh 
+more .config/dwm/stat 
+more .config/dwm/logs
+more .config/dwm/log
+nvim .xinitrc 
+q
+lf .vim
+lf .vim/
+q
+file 423166.jpg 
+xrdb ~/.Xresources
+sxiv 423166.jpg 
+nsxiv 423166.jpg 
+q
+take net-lap
+mv ../az_shabake.rar 
+mv ../az_shabake.rar .
+unrar x az_shabake.rar 
+cls
+lf
+q
+cd uni/net-lap/
+cls
+take notes
+q
+lf
+q
+x
+q
+lf pic/
+cd .config/pandoc/defaults/beamer/
+cls
+nvim fa-ubuntu.
+nvim fa-ubuntu.sty 
+man yt-dlp
+lf vid/
+cd .config/shell
+cls
+ls history/
+mv history/
+cd history/
+cls
+mkdir b z
+wc -l bash 
+wc -l zsh
+..
+cls
+nvim bashrc
+q
+man yt-dlp
+q
+lf
+dmusb.sh 
+cd /run/media/hos/
+lf
+حصی
+pwd
+cls
+lf
+q
+nvim /tmp/test.c
+nvim dl/yt/links.dl
+vim /etc/proxychains.conf 
+nvim dl/yt/links.dl
+lf dl/yt/
+pwd
+..
+cls
+..
+cls
+take computer-vision
+nvim pres.md
+nvim pres.tex
+q
+cd uni/os-lab/image-processing-in-lung-cancer/
+cls
+lf
+q

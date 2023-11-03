@@ -1,0 +1,98 @@
+lf uni/internet-engineer/
+x
+pulsemixer 
+lf /data/w/groff/
+nvim ~/.config/groff/macros.ms 
+lf /data/w/groff/
+q
+cd doc/tools/
+cls
+take groff
+cls
+take me
+nvim Makefile me-macro.me
+nvim me-macro.me
+nvim ~/.config/nvim/init.lua 
+nvim me-macro.me
+nvim ~/.config/nvim/init.lua 
+nvim me-macro.me
+q
+xbps-query -Rs vscode
+xbps-query -Rs code
+xbps-query -Rs code | fzf
+xbps-query -Rs markdown | fzf
+sudo xbps-install apostrophe Marker
+marker 
+sudo xbps-remove -R Marker
+apostrophe 
+sudo xbps-remove -R apostrophe 
+nvim .config/fontconfig/fonts.conf 
+q
+pulsemixer 
+cls
+cd /data/tmp/lua/
+cls
+./news.lua 
+nvim .config/fontconfig/conf.d/
+nvim .config/fontconfig/fonts.conf 
+q
+nvim .local/share/nvim/site/pack/packer/start/vim-octave/colors/octave.vim 
+nvim .local/share/nvim/site/pack/packer/start/vim-octave/colors/octave.vim  -c 'set background=light'
+nvim .local/share/nvim/site/pack/packer/start/vim-{sunbather,octave}/colors/*.vim -d
+q
+cls
+nvim vim-octave/colors/octave.vim vim-sunbather/colors/sunbather.vim 
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.tex
+nvim ~/.config/nvim/init.lua 
+nvim ~/.vim/init.vim 
+nvim /tmp/test.tex
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.tex
+nvim ~/.config/nvim/init.lua 
+q
+nvim vim-lupper/colors/lupper.vim 
+nvim /tmp/test.tex 
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.tex 
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.lua
+vim ~/.vim/vimrc ~/.vim/modules/background.vim 
+vim /tmp/test.lua 
+vim /tmp/test/test.lua 
+nvim /tmp/test/test.lua 
+vim /tmp/test/test.lua 
+vim ~/.vim/modules/extra.vim 
+vim /tmp/test/test.lua 
+cd ~/.vim/plugged/syntastic/
+cls
+nvim autoload/syntastic/*.vim
+wc -l autoload/syntastic/*.vim
+q
+nvim .config/fontconfig/fonts.conf 
+nvim .config/nvim/lua/plugin/lualine/init.lua 
+echo $SHELL
+uptime
+which fm4000 
+wc -l `which fm4000 `
+nvim .config/nvim/lua/plugin/lualine/init.lua 
+nvim .config/nvim/init.lua 
+cd /data/dev/hossein-lap/vim-colors/
+t
+q
+./pc.lua 
+cp pc.lua news.lua
+nvim news.lua 
+pwd
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+q
+c
+nvim vim-sunbather/colors/sunbather.vim 
+nvim vim-paramount/colors/paramount.vim 
+nvim vim-sunbather/colors/sunbather.vim 
+lf ~/tmp/
+nvim vim-sunbather/colors/sunbather.vim 
+lf ~/tmp/
+q
+x

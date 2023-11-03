@@ -1,0 +1,325 @@
+t
+cd /data/dev/hossein-lap/suckless
+cls
+cd ../scripts/
+cls
+nvim smtest.sh
+ssh-copy-id hos@127.0.0.22
+ping 10.0.2.15
+ping 10.0.0.5555
+ping 10.0.0.1 -p 5555
+ssh hos@10.0.0.1 -p 5555
+ssh hos@127.0.0.1 -p 5555
+ping 10.0.0.1
+ip a
+clear; ip -c a
+ping 192.168.122.1 -p 55
+ping 192.168.122.1 -p 5555
+ssh hos@192.168.122.1 -p 5555
+ssh hos@192.168.122.1 -p 55
+ssh hos@127.0.0.22 -p 55
+ssh hos@127.0.0.22 -p 5555
+ssh hos@127.0.0.22
+nvim ~/.ssh/known_hosts
+cls
+nvim /etc/exports
+ping ali@127.0.0.22]
+ping ali@127.0.0.22
+ping 127.0.0.22
+ip -c a
+ip c a
+c; ip -c a
+c
+ip -c a
+ssh hos@127.0.0.22
+ssh hos@127.0.0.22 -p 55
+ssh hos@127.0.0.22 -p 5555
+ssh -vvvv hos@127.0.0.22 -p 5555
+ssh -vvvv hos@127.0.0.22
+nvim ~/.ssh/known_hosts
+ssh -vvvv hos@127.0.0.22
+ssh-copy-id hos@127.0.0.22
+ssh-copy-id -vvvv hos@127.0.0.22
+ssh-copy-id -vvv hos@127.0.0.22
+ssh-copy-id -vv hos@127.0.0.22
+ssh-copy-id -v hos@127.0.0.22
+ssh-copy-id -f hos@127.0.0.22
+ssh-copy-id -f hos@127.0.0.55
+ssh hos@127.0.0.55
+ssh hos@127.0.0.1 -p 5555
+ssh hos@127.0.0.1 -p 55
+ssh hos@localhost -p 55
+nvim `which debian-qemu.sh`
+neofetch 
+echo $TERM
+ssh hos@localhost -p 2222
+./ssh.sh 
+man st
+cls
+./ma
+./ssh.sh 
+btop
+ssh hos@localhost -p 2222
+make clean; make; sudo make install
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h
+cd /data/dev/hossein-lap/suckless/st
+nvim patch/st-newterm-0.9-tabbed.diff 
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/scripts/
+cls
+nvim vmcreate.sh 
+cd /data
+find $PWD -iname kvm
+find $PWD -iname kvm 2>/dev/null
+ncdu 
+cd vm/qemu/
+cls
+nvim create.sh 
+cls
+chmod +x *.sh
+cls
+./create.sh 
+ls ~/arch/iso/void-live-x86_64-*
+./create.sh void 2048 2 /home/hos/arch/iso/void-live-x86_64-20210930-xfce.iso
+cls
+nvim create.sh 
+mkdir void
+nvim run.sh 
+lf
+t att
+cd /data/dev/hossein-lap/
+nvim ~/.config/shell/bashrc
+nvim `which tt`
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/tabbed/
+nvim config.def.h 
+htop
+ssh hos@localhost -p 2222
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+ln -s /data/dev/hossein-lap/workflow/config/user-dirs.dirs ~/.config/
+ls /data/vm/qemu/void/share
+q
+cd /data/dev/hossein-lap/workflow/suckless/tabbed/
+cls
+nvim config.def.h 
+cd ../../..
+cd suckless/st/
+nvim colors/schemes.h 
+nvim /etc/exports
+lf ~/.config/
+lf /data/dev/hossein-lap/workflow/config/
+q
+ssh hos@localhost -p 5555
+ssh hos@localhost -p 2222
+nvim ~/.ssh/known_hosts
+ssh hos@localhost -p 2222
+ssh-copy-id hos@localhost -p 2222
+ssh-copy-id hos@localhost:2222
+man ssh-copy-id
+cls
+ssh hos@localhost -p 2222
+tt
+nvim `which tt`
+nvim run-headless.sh 
+q
+cls
+nvim img.sh 
+lf
+..
+ncdu
+lf
+q
+nvim ~/.ssh/id_*.pub
+cls
+nvim ssh.sh
+chmod +x ssh.sh 
+./s
+./ssh.sh 
+clear
+./ssh.sh 
+nvim ssh.sh 
+clear; ls
+which r.sh
+nvim `which r.sh`
+nvim ssh.sh 
+which tt
+tt
+nvim `which tt`
+q
+man qemu-img 
+cls
+nvim run.sh 
+cls
+ls share/
+mv run.sh run-gui.sh 
+cp run-gui.sh run-headless.sh 
+nvim run-headless.sh 
+q
+t ls
+t att
+q
+ssh hos@localhost -p 2222
+man smenu
+man qemu-img
+xbps-query -Rs nfs
+sudo xbps-install nfs-utils
+nvim /etc/exports
+nvim ~/.config/nvim/lua/plugin/cmp/
+nvim /etc/exports
+sudo ln -s /etc/sv/nfs-server /var/service/
+cd /etc/exports.d/
+nvim /etc/exports
+q
+rc --help
+man rc
+sudo bash
+c
+ping 127.0.0.22
+nvim /data/vm/qemu/void/share/readme.txt
+cd /data/vm/qemu/void/share/
+cls
+ls
+cls
+man qemu-system
+man qemu-system-x86
+man qemu-system-x86_64
+man qemu
+q
+ssh hos@localhost -p 2222
+x
+tar -tf Counter-Strike-Source.tar.gz 
+file Counter
+file Counter-Strike-Source.tar.gz
+q
+wine
+wine --help
+man wine
+ls .wine/
+ls .wine/drive_c/
+ls .wine/drive_c/Program\ Files
+nvim ~/.config/shell/bashrc
+mv .wine/ .local/share/wine
+lf vid/
+nvim /data/deb/games/wine-games/games/cs/cs-1.6-adrenaline/run.sh 
+prime-run wine /data/deb/games/wine-games/games/cs/cs-1.6-adrenaline/hl.exe -master -game cstrike
+prime-run wine /data/deb/games/wine-games/games/cs/cs-1.6-eswc/ESWC\ Cstrike.exe 
+cd /data/deb/games/wine-games/games/cs/cs-1.6-eswc/
+prime-run win ESWC\ Cstrike.exe 
+prime-run wine ESWC\ Cstrike.exe 
+clear
+cls
+..
+cls
+lf 
+chmod +x Counter-Strike\ 1.6/
+lf 
+winetricks 
+cd -
+q
+cd /tmp
+sh -c 'export ${PWD}; bash'
+sh -c 'export PWD=${PWD}; bash'
+st sh -c 'export PWD=${PWD}; bash'
+st sh -c 'export PWD=${HOME}; bash'
+st sh -c 'export PWD="${HOME}/dl"; bash'
+make clean; make; sudo make install
+nvim /data/dev/hossein-lap/suckless/st/hb.c 
+cd .config/nvim/lua/scheme/in
+nvim ~/.config/nvim/lua/scheme/init.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/module/keybind.lua 
+a
+nvim ~/.config/nvim/lua/module/keybind.lua 
+nvim ~/.config/nvim/{init.lua,lua/plugin/init.lua}
+cd /dl/
+cd dl
+take cnc-red_alert-3
+nvim ln.dl
+nvim ~/.config/nvim/lua/plugin/cmp/init.lua 
+ls ~/.vim/undodir/
+cd ~/.vim/undodir/
+du -h .
+cls
+ls -l | wc -l
+ls | wc -l
+cls
+c
+cd -
+cls
+nvim dl.sh 
+nvim ~/.vim/modules/keybinds.vim 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.c
+nvim /tmp/test.c
+nvim /tmp/test.sh
+nvim /tmp/test.c
+lf /data/
+vim /tmp/test.c
+nvim /tmp/test.c
+nvim /tmp/test.tex
+nvim /tmp/test.c
+nvim /tmp/test.pas
+nvim sahar/uni/pascal-lang/tamrin/tamrin-4-1.pas 
+nvim /tmp/test.md
+lf mus/
+cd /data/dev/hossein-lap/workflow/suckless/
+nvim dwm/config.def.h
+./make.sh 
+nvim dwm/config.def.h
+pwd
+cd ../../suckless/st
+gss .
+git diff .
+git add colors/schemes.h 
+git commit -m 'fixed some light/dark black colors'
+gss .
+git diff hb.*
+gss .
+git diff .
+git diff st.
+git diff st.c
+git add st.c 
+git commit -m 'reverted newterm-tabbed patch; lf img/vid preview does not like tabbed'
+gss .
+git diff config.def.h
+lf shot/
+clear
+cd patch/
+rawfetch.sh https://tools.suckless.org/tabbed/patches/cwd/tabbed-cwd-20230128-41e2b8f.diff
+pwd
+lf
+cd ../../tabbed/
+gss .
+nvim config.def.h
+gls
+which tt
+cp `which tt` tt.sh
+nvim tt.sh 
+cls
+make
+nvim tt.sh 
+./tt.sh 
+clear
+nvim config.def.h
+./tt.sh 
+clear;
+./tt.sh 
+patch -p1 < patch/tabbed-cwd-20230128-41e2b8f.diff 
+nvim tabbed.c.rej 
+make clean; make
+./tt.sh 
+cls
+make clean;
+cls
+nvim Makefile 
+make clean; make
+./tt.sh 
+tt
+./tt.sh 

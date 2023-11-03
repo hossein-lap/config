@@ -1,0 +1,113 @@
+pulsemixer 
+lf vid/
+q
+dmplay.sh 
+pulsemixer 
+حعمسثپpulsem
+pulsemixer 
+chmod +x Untitled\ Folder
+chmod +x Untitled\ Folder\ 2/
+q
+ln Untitled\ Folder
+ls Untitled\ Folder
+q
+pulsemixer 
+lxa
+lxappearance 
+pulsemixer 
+cd dl/iso/
+nvim ln.dl 
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+cd ../dmenu/
+cls
+make clean;
+lsblk
+curl 'https://docs.voidlinux.org/installation/guides/chroot.html' | links
+curl 'https://docs.voidlinux.org/installation/guides/chroot.html' | links -
+curl 'https://docs.voidlinux.org/installation/guides/chroot.html' > void-install-chroot.html
+links void-install-chroot.html 
+w3m void-install-chroot.html 
+lynx void-install-chroot.html 
+cls
+nvim void-install-chroot.html 
+q
+cat /etc/resolv
+cat /etc/resolv.conf
+cat /etc/resolvconf.conf 
+nvim .local/share/mpd/playlists/all.m3u 
+q
+lf mus/
+q
+dmexit.sh 
+nvim `which dmexit.sh `
+q
+x
+cp void-install-chroot.html ~
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/colors/
+nvim {f,b}g/*.h
+nvim {b,f}g/*.h
+dmenu -h
+nvim ../dmenu.c
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+cd ../dwm/
+make clean; make; sudo make install
+nvim ../dmenu/tmp.sh 
+q
+..
+make clean && make && sudo make install; make clean
+dmplay.sh 
+make clean && make && sudo make install; make clean
+dmplay.sh 
+nvim tmp.sh
+make clean && make && sudo make install; make clean
+nvim tmp.sh
+q
+pulsemixer 
+q
+dmkill.sh 
+nvim `which dmkill.sh `
+q
+bash -i
+bash -c htop -i
+q
+cls
+nvim config.def.h 
+q
+cp void-install-chroot.html ~
+make clean; make && sudo make install
+dmusb.sh 
+c
+dmkill.sh 
+nvim `which dmkill.sh`
+dmkill.sh 
+nvim `which dmkill.sh`
+dmkill.sh 
+nvim `which dmkill.sh`
+dmkill.sh 
+make clean; make && sudo make install
+ls | dmenu -m 
+man dmenu -m
+man dmenu 
+make clean; make; sudo make install
+make clean; make; sudo make install
+make clean && make && sudo make install
+c
+make clean && make && sudo make install
+c; make clean && make && sudo make install
+q
+dmusb.sh 
+rsync --progress dl/iso/void-live-x86_64-musl-20221001-base.iso /run/media/hos/Ventoy/
+btop
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+t
+q
+nvim ../../scripts/dmstexec.sh 
+cd ~/dl/iso/
+nvim ln.dl 
+rsync --progress void-live-x86_64-musl-20221001-xfce.iso /run/media/hos/Ventoy/
+btop
+q
+dmusb.sh 

@@ -1,0 +1,26 @@
+metadata:
+  keywords:
+    - 'Dracula theme'
+
+pdf-engine: xelatex
+highlight-style: /home/hos/.config/pandoc/highlight/dracula.theme
+verbosity: WARNING # INFO
+top-level-division: chapter # part, section
+toc: false
+number-sections: true
+
+variables:
+  geometry:  margin=1in
+  fontsize:  12pt
+  linkcolor: draculapink
+  filecolor: draculagreen
+  citecolor: draculapurple
+  urlcolor:  draculacyan
+  toccolor:  draculaorange
+  header-includes:
+    - \usepackage{/home/hos/.config/pandoc/defaults/main}
+    - \usepackage{/home/hos/.config/pandoc/defaults/dracula/theme}
+filters:
+    - /home/hos/.config/pandoc/filters/en-today.lua
+    - /home/hos/.config/pandoc/filters/tex-codeblock-en.lua
+    - /home/hos/.config/pandoc/filters/tex-quoteblock-en.lua

@@ -1,0 +1,8 @@
+nvim conv.sh
+q
+cd uni/computer-vision/
+cls
+nvim pres.tex 
+lf
+q
+x

@@ -1,0 +1,50 @@
+gss .
+q
+cls
+nvim ldoc/init.lua 
+q
+dmusb.sh 
+cd /run/media/hos/6ac87054-080b-40b9-a691-12681e8b52ef/home/deb/downloads/simp1e-cursors/
+cls
+find $PWD -type d | grep -v 'simp1e-cursors$'
+tar --xz -cvf Simp1e-Cursors.tar.xz `find $PWD -type d | grep -v 'simp1e-cursors$'`
+tar --lzip -cvf Simp1e-Cursors.tar.xz `find $PWD -type d | grep -v 'simp1e-cursors$'`
+tar --xz -cvf Simp1e-Cursors.tar.xz `find $PWD -type d | grep -v 'simp1e-cursors$'`
+tar --lzip -cvf Simp1e-Cursors.tar.lz `find $PWD -type d | grep -v 'simp1e-cursors$'`
+cls
+rm Simp1e-Cursors.tar.lz 
+mv Simp1e-Cursors.tar.xz ~/arch/
+cd
+dmusb.sh 
+pulsemixer 
+xbps-query -Rs kenshi
+mpc status
+mpc status | awk '/^volume/ {print $1}' | sed 's/.*: //'
+mpc status | awk '/^volume/ {print $2}' | sed 's/.*: //'
+mpc status | awk '/^volume/ {print $2}' 
+mpc status | awk '/^volume/ {print $1}' 
+mpc status | sed 's/: /:/g' | awk '/^volume/ {print $1}' 
+nvim `which dmplay.sh`
+q
+lua test.lua 
+s
+cks
+cls
+nvim test.lua 
+..
+ls
+la
+take .alpha
+take lraph
+nvim lrap.lua
+nvim test.lua
+mv lrap.lua lraph.lua 
+nvim test.lua 
+nvim *.lua
+lf ~/.local/share/nvim/site/pack/packer/start/
+nvim ldoc/init.lua 
+cd /data/dev/soda-sh/ldoc/
+cls
+t
+pulsemixer 
+x

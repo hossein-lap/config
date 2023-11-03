@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "Donate250602.au1.store",
+        "aid": 0,
+        "id": "e556d939-fa1e-4a32-ae85-33fd4a80bba4",
+        "name": "رایگان | VMESS | @VpnWLF | US🇺🇸 | 0️⃣3️⃣",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "none",
+            "host": "darkmode2.dnsfree.one",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048",
+            "sec": "tls",
+            "sni": "darkmode2.dnsfree.one"
+        }
+    },
+    "gid": 2,
+    "id": 1304,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

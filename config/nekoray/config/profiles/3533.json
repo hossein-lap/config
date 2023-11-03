@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "iran02.biqibao.site",
+        "aid": 0,
+        "id": "033f05a1-70e8-47b9-bdca-fc44f171654c",
+        "name": "رایگان | VMESS | @V2rayCollectorDonate | RELAY🚩 | 0️⃣2️⃣",
+        "port": 2052,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "de5.biqibao.site",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/public"
+        }
+    },
+    "gid": 3,
+    "id": 3533,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

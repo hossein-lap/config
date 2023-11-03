@@ -1,0 +1,12 @@
+cd .config/
+ln -s /data/dev/hossein-lap/nvim
+nvim pandoc/defaults/fa/main.sty 
+q
+cd uni/net-lap/
+cls
+cd notes/
+cls
+nvim note.md
+q
+lf uni/
+q

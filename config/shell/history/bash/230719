@@ -1,0 +1,35 @@
+cls
+s
+cls
+nvim pac-pres01.tex 
+nvim ~/.config/nvim/init.lua 
+nvim pac-pres01.tex 
+q
+lf 
+q
+ر
+amixer get Master
+ls -l .local/share/nvim/site/pack/packer/start/vim-octave
+nvim /home/hos/dev/hossein-lap/vim-colors/vim-octave/colors/octave.vim 
+nvim .local/share/nvim/site/pack/packer/start/vim-paramount/colors/paramount.vim 
+nvim .local/share/nvim/site/pack/packer/start/vim-paramount/colors/paramount.vim ~/dev/hossein-lap/vim-colors/vim-paramount/colors/paramount.vim 
+nvim .local/share/nvim/site/pack/packer/start/vim-paramount/colors/paramount.vim ~/dev/hossein-lap/vim-colors/vim-paramount/colors/paramount.vim -d
+q
+alsamixer 
+cls
+nvim test.tex 
+lf
+q
+lf
+q
+lf uni/
+cd w/devops/pipeline-as-code/pres/01/
+t
+c
+ls
+cls
+cd ~/w/german/
+cls
+t
+q
+x

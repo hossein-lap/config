@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "v2logy.ddns.net",
+        "name": "رایگان | REALITY | @v2logy | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "0bf950fe-e88b-495b-ba57-639177cbdb7e",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy,Telegram:@v2logy",
+            "pbk": "Qe27qPs5aIlRCaf8QwNQgzks3fHTVyx6WVkT7THuWSo",
+            "sec": "tls",
+            "sid": "70ff56",
+            "sni": "sourceforge.net",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3634,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

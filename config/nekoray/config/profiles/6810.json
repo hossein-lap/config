@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "172.67.204.17",
+        "name": "رایگان | VLESS | @fnet00 | US🇺🇸 | 0️⃣2️⃣",
+        "pass": "6a81765b-c396-41fc-82eb-8e80a5328f72",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "host": "hated.thenorthernlights.website",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/nimws",
+            "sec": "tls",
+            "sni": "hated.thenorthernlights.website"
+        }
+    },
+    "gid": 1,
+    "id": 6810,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "23.88.38.42",
+        "aid": 0,
+        "id": "090e504f-cf32-42d0-c7fc-b99fc714a503",
+        "name": "رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣3️⃣",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "http",
+            "host": "internet.life.com.by",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "path": "/"
+        }
+    },
+    "gid": 2,
+    "id": 1534,
+    "traffic": {
+        "dl": 21984562,
+        "ul": 820729
+    },
+    "type": "vmess",
+    "yc": 231
+}

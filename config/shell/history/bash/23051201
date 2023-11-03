@@ -1,0 +1,17 @@
+lf 
+sox f1.mp3 f2.mp3 tmp.mp3
+mpv tmp.
+mpv tmp.mp3 
+sox f1.mp3 f2.mp3 tmp.mp3
+mpv tmp.mp3 
+sox f1.mp3 f2.mp3 tmp.mp3
+mpv tmp.mp3 
+mpv output.mp3 
+mpv f4.mp3 
+mpv output.mp3 
+audacity output.mp3 
+sox
+xbps-query -Rs sox
+sudo xbps-install sox
+sox f{1..4}.mp3 output.mp3 
+mpv output.mp3 

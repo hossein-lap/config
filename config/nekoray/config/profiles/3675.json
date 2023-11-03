@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "49.13.81.157",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣1️⃣",
+        "pass": "eefcf749-fcfc-4321-b974-2828d4acb15c",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "GWLTRxw3B1iy29ZW4SqQH113-Gjup6-4vkOMksfEHB0",
+            "sec": "tls",
+            "sid": "0d8de1aa",
+            "sni": "spiegel.de",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3675,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

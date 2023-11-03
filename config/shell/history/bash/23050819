@@ -1,0 +1,8 @@
+nvim /tmp/test.tex
+nvim ~/dl/telegram-dl/functional.tex 
+q
+ls .cache/
+find . -iname 'tdata'
+ls .local/share/TelegramDesktop/
+ls .local/share/TelegramDesktop/tdata/
+loginctl reboot

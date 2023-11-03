@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "155.248.174.207",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @V2Hub | Donated | JP🇯🇵 | 2️⃣3️⃣",
+        "pass": "c43d01ee-f31e-4d3e-a7a0-c440ce5276e6",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "yhyFU_eBwXa7LEnHVLq099MJa0Gid6RQ7Mq1ZqC8rms",
+            "sec": "tls",
+            "sid": "47597714b20b56a2",
+            "sni": "www.apple.com",
+            "utls": "qq"
+        }
+    },
+    "gid": 3,
+    "id": 3814,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

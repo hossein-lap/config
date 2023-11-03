@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "author": "P J",
+    "license": "GPLv2 License",
+    "name": "Solarized dark",
+    "revision": 1
+  },
+  "background-color": null,
+  "line-number-background-color": "#e4e4e4",
+  "line-number-color": "#bcbcbc",
+  "text-color": "#000000",
+  "text-styles": {
+    "Keyword": {
+      "bold": true,
+      "text-color": "#00005f"
+    },
+    "Function": {
+      "bold": true,
+      "text-color": "#5f005f"
+    },
+    "Variable": {
+      "bold": true,
+      "text-color": "#005f5f"
+    },
+    "ControlFlow": {
+      "bold": true,
+      "text-color": "#00005f"
+    },
+    "Operator": {
+      "text-color": "#005f00"
+    },
+    "BuiltIn": {
+      "bold": true,
+      "text-color": "#5f5f00"
+    },
+    "Extension": {
+      "text-color": "#005f00"
+    },
+    "Preprocessor": {
+      "bold": true,
+      "text-color": "#005f5f"
+    },
+    "Attribute": {
+      "text-color": "#5f5f00"
+    },
+    "Char": {
+      "text-color": "#5f0000"
+    },
+    "SpecialChar": {
+      "text-color": "#5f0000"
+    },
+    "String": {
+      "text-color": "#005f00"
+    },
+    "VerbatimString": {
+      "text-color": "#005f00"
+    },
+    "SpecialString": {
+      "text-color": "#5f005f"
+    },
+    "Import": {
+      "bold": true,
+      "text-color": "#00005f"
+    },
+    "DataType": {
+      "bold": true,
+      "text-color": "#875f00"
+    },
+    "DecVal": {
+      "text-color": "#5f0000"
+    },
+    "BaseN": {
+      "bold": true,
+      "text-color": "#5f0000"
+    },
+    "Float": {
+      "text-color": "#5f0000"
+    },
+    "Constant": {
+      "text-color": "#5f0000"
+    },
+    "Comment": {
+      "italic": false,
+      "text-color": "#5f5f5f"
+    },
+    "Documentation": {
+      "text-color": "#875f00"
+    },
+    "Annotation": {
+      "text-color": "#5f0000"
+    },
+    "CommentVar": {
+      "text-color": "#5f005f"
+    },
+    "RegionMarker": {
+      "text-color": "#875f00"
+    },
+    "Information": {
+      "text-color": "#005f5f"
+    },
+    "Warning": {
+      "bold": true,
+      "text-color": "#5f0000"
+    },
+    "Alert": {
+      "bold": true,
+      "text-color": "#875f00"
+    },
+    "Error": {
+      "background-color": "#ff0000",
+      "text-color": "#ffffff"
+    },
+    "Other": {
+      "text-color": "#5f005f"
+    }
+  }
+}

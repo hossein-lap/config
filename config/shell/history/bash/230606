@@ -1,0 +1,674 @@
+nvim .config/nvim/init.lua 
+q
+nvim /data/dev/hossein-lap/vim-colors/vim-256noir/colors/256_noir.vim 
+cls
+q
+lf mus/
+q
+nvim .config/nvim/init.lua 
+nvim .config/nvim/lua/plugin/lsp/init.lua 
+nvim .config/nvim/init.lua 
+cls
+nvim .config/nvim/init.lua 
+nvim /data/w/go/markdown/markdown.go 
+nvim /data/w/go/markdown/tmp.go 
+nvim ~/.config/nvim/init.lua 
+nvim /data/w/go/markdown/tmp.go 
+nvim ~/.config/nvim/init.lua 
+nvim /data/w/go/markdown/tmp.go 
+nvim ~/.config/nvim/init.lua 
+nvim /data/w/go/markdown/tmp.go 
+cd .local/share/nvim/site/pack/packer/start/
+cls
+cl
+nvim vim-sunbather/colors/sunbather.vim 
+nvim -d vim-sunbather/colors/sunbather.vim /data/dev/hossein-lap/vim-colors/vim-sunbather/colors/sunbather.vim 
+nvim -d vim-paramount/colors/paramount.vim /data/dev/hossein-lap/vim-colors/vim-paramount/colors/paramount.vim 
+ls
+pwd
+cls
+cl
+pwd
+nvim /data/w/go/markdown/markdown.go 
+cls
+cl
+cp vim-256noir vim-testnoir
+cp vim-256noir vim-testnoir -r
+cd vim-testnoir/
+cls
+nvim colors/256_noir.vim 
+..
+rm -rf vim-testnoir/
+cls
+nvim ~/.zshrc
+nvim /tmp/test.md
+nvim /data/w/go/markdown/markdown.go 
+nvim ~/.config/nvim/init.lua 
+nvim /data/w/go/markdown/markdown.go 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim /data/w/go/markdown/markdown.go 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim /data/w/go/markdown/markdown.go 
+cd /data/dev/hossein-lap/vim-colors/
+cls
+nvim vim-sunbather/colors/sunbather.vim 
+cls
+for i in `ls`; do nvim -d ${i} /home/hos/.local/share/nvim/site/pack/packer/start/${i}; done
+for i in `ls`; do nvim -d ${i}/colors/*.vim /home/hos/.local/share/nvim/site/pack/packer/start/${i}/colors/*.vim ; done
+nvim -d vim-256noir/colors/256_noir.vim /home/hos/.local/share/nvim/site/pack/packer/start/vim-256noir/colors/256_noir.vim 
+cls
+cp vim-sunbather/ vim-test
+cp vim-sunbather/ vim-test -r
+nvim vim-test/colors/sunbather.vim 
+nvim vim-test/colors/test.vim 
+cls
+nvim vim-sunbather/colors/sunbather.vim 
+:q
+q
+nvim /data/dev/hossein-lap/vim-colors/vim-test/colors/test.vim 
+nvim .config/nvim/init.lua 
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+make clean; make; sudo make install
+pwd
+cd -
+make clean; make; sudo make install
+pwd
+cd -
+cls
+make clean; make
+sudo make install
+make clean; make; sudo make install
+make clean
+q
+gls
+gss
+q
+s
+cls
+cd /data/dev/hossein-lap/workflow/suckless/patched/
+cls
+lf dwm/
+cls
+q
+cd /data/w/
+cls
+take suckless/dwm/patches
+..
+git clone https://git.suckless.org/dwm --depth 1
+git clone --depth 1 https://git.suckless.org/dwm
+proxychains4 -q git clone --depth 1 https://git.suckless.org/dwm
+cls
+cd dwm/
+cls
+lf
+cls
+..
+cls
+cd dwm/patches/
+cls
+rawfetch.sh https://dwm.suckless.org/patches/systray/
+rawfetch.sh https://dwm.suckless.org/patches/systray/dwm-systray-6.4.diff
+rawfetch.sh https://dwm.suckless.org/patches/rainbowtags/dwm-rainbowtags-6.2.diff
+rawfetch.sh https://dwm.suckless.org/patches/gridmode/dwm-gridmode-20170909-ceac8c9.diff
+echo https://dwm.suckless.org/patches/systray/dwm-systray-6.4.diff https://dwm.suckless.org/patches/rainbowtags/dwm-rainbowtags-6.2.diff https://dwm.suckless.org/patches/gridmode/dwm-gridmode-20170909-ceac8c9.diff
+printf '%s\n' https://dwm.suckless.org/patches/systray/dwm-systray-6.4.diff https://dwm.suckless.org/patches/rainbowtags/dwm-rainbowtags-6.2.diff https://dwm.suckless.org/patches/gridmode/dwm-gridmode-20170909-ceac8c9.diff
+printf '%s\n' https://dwm.suckless.org/patches/systray/dwm-systray-6.4.diff https://dwm.suckless.org/patches/rainbowtags/dwm-rainbowtags-6.2.diff https://dwm.suckless.org/patches/gridmode/dwm-gridmode-20170909-ceac8c9.diff > list.txt
+nvim list.txt 
+for i in `grep -v '^# ' list.txt`; do echo ${i}; done
+for i in `grep -v '^# ' list.txt`; do rawfetch.sh ${i}; done
+زمس
+..
+cls
+git init
+git add .
+git commit -m 'init commit'
+git commit --no-gpg-sign -m 'init commit'
+cls
+nvim .gitignore
+patch -p1 < patches/dwm-systray-6.4.diff 
+mv patches/list.txt patches/dwm-patches-list.txt
+cls
+gss .
+nvim .gitignore 
+gss .
+nvim .gitignore 
+gss .
+nvim .gitignore 
+git add .
+gss .
+make clean
+make
+gss .
+nvim .gitignore 
+gss .
+git add .
+git commit -m 'applied systray-6.4 patch'
+git commit --no-gpg-sign -m 'applied systray-6.4 patch'
+gss .
+sudo make install
+patch -p1 < patches/dwm-bidi-restricted-20230512-e81f17d.diff 
+make clean; make; sudo make install
+gss .
+git add .
+git commit -m 'applied bidi-restricted-20230512-e81f17d patch' --no-gpg-sign 
+patch -p1 < patches/dwm-alpha-20230401-348f655.diff 
+nvim *.rej
+c
+gss .
+gls
+git restore --source=HEAD~1 .
+gss .
+git add .
+gls
+gss
+git restore --source=HEAD~1 .
+patch -p1 < patches/dwm-alpha-20230401-348f655.diff 
+nvim *.rej
+git restore --source=HEAD~2 .
+patch -p1 < patches/dwm-alpha-20230401-348f655.diff 
+make clean; make; sudo make install
+cls
+gls
+gss .
+nvim .gitignore
+git restore --source=HEAD .gitignore 
+gss .
+git add .
+git commit -m 'reverted systray, applied alpha'
+git commit -m 'reverted systray, applied alpha' --no-gpg-sign 
+gls
+patch -p1 < patches/dwm-systray-6.4.diff 
+nvim *.rej
+gls
+git restore --source=HEAD .
+git restore --source=HEAD~1 .gitignore 
+git restore --source=HEAD~1 patches/list.txt patches/dwm-patches-list.txt 
+gss .
+cls
+make clean
+gls
+gss .
+patch -p1 < patches/dwm-systray-6.4.diff 
+nvim *.rej
+gss .
+nvim .gitignore 
+git restore --source=HEAD config.def.h dwm.c 
+cd patches/
+rawfetch.sh https://raw.githubusercontent.com/bakkeby/patches/master/dwm/dwm-alpha-systray-6.2.diff
+cd -
+cls
+make clean
+cls
+patch -p1 < patches/dwm-alpha-systray-6.2.diff 
+nvim *.rej
+cls
+gss .
+nvim config.def.h 
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+dmexit.sh 
+make clean; make; sudo make install
+nvim config.def.h 
+cls
+make clean
+cls
+nvim config.def.h 
+make clean; make; sudo make install
+dmexit.sh 
+gss .
+git diff config.def.h
+nvim config.def.h 
+make clean; make; sudo make install
+git add .
+gls
+gss 
+nvim .gitignore 
+gss .
+nvim .gitignore 
+gss .
+nvim .gitignore 
+gls
+gll
+ls patches/
+mv patches/list.txt patches/dwm-patches-list.txt
+nvim patches/dwm-patches-list.txt 
+cls
+make clean;
+cls
+t
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+make clean; make; sudo make install
+pwd
+make clean; make; sudo make install
+..
+make clean; make
+t att
+gss .
+git restore --source=HEAD config.def.h dwm.c 
+rm .git/
+rm .git/ -r
+rm .git/ -rf
+lf
+q
+make clean; make
+sudo make install
+make clean; make; sudo make install
+pwd
+cls
+s
+cl
+git restore --source=e3486e3 config.def.h config.mk draw.c draw.h dwm.c 
+git reset config.def.h config.mk draw.c draw.h dwm.c 
+gls
+gss .
+cl
+make clean; make
+sudo make install
+gss .
+cls
+gls
+gln --depth 1 https://git.suckless.org/dwm
+take ../tmp
+gln --depth 1 https://git.suckless.org/dwm
+cd dwm/
+patch -p1 < ../../dwm/patches/dwm-barpadding-20211020-a786211.diff 
+make
+make clean; sudo make install
+dmexit.sh 
+pulsemixer 
+cls
+s
+cls
+cl
+gss .
+lf
+cls
+nvim Makefile 
+gss .
+lazygit 
+gls
+glg
+gll
+cls
+make clean
+cls
+patch -p1 < patches/dwm-barpadding-20211020-a786211.diff 
+make clean; make; sudo make install
+dmexit.sh 
+lazygit 
+cls
+gls
+gss .
+patch -p1 < patches/dwm-alpha-systray-6.2.diff 
+nvim *.rej
+make clean; make
+pwd
+gls
+git restore --source=HEAD .
+ls patches/
+patch -p1 < patches/dwm-alpha-20230401-348f655.diff 
+nvim *.rej
+make clean; make
+sudo make install
+dmexit.sh 
+patch -p1 < patches/dwm-alpha-systray-6.2.diff 
+nvim *.rej
+q
+make clean; make; sudo make install
+dmexit.sh 
+make clean; make; sudo make install; dmexit.sh 
+grep OPAQUE *
+make clean; make; sudo make install; dmexit.sh 
+pwd
+make clean; make; sudo make install; dmexit.sh 
+make clean; make; sudo make install
+dmexit.sh 
+make clean; make; sudo make install; dmexit.sh 
+nvim /data/w/go/markdown/markdown.go 
+q
+cls
+cl
+neofetch 
+c; neofetch 
+q
+make clean; make; sudo make install
+s
+cls
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+sudo make install
+cls
+make clean
+pwd
+cls
+nvim Makefile 
+make clean
+cls
+gls
+..
+cd -
+gls
+pwd
+sudo make install
+cls
+sudo make install
+pwd
+cls
+gls
+nvim config.def.h 
+q
+cls
+pulsemixer 
+q
+s
+cls
+lf
+cls
+ls patches/
+cd patches/
+rawfetch.sh https://dwm.suckless.org/patches/barpadding/dwm-barpadding-20211020-a786211.diff
+nvim dwm-patches-list.txt 
+..
+gss .
+patch -p1 < patches/dwm-barpadding-20211020-a786211.diff 
+nvim *.rej
+gss .
+git diff dwm.c
+git diff config.def.h
+gls
+cls
+gss .
+git restore dwm.c config.def.h 
+gls
+patch -p1 patches/dwm-alpha-systray-6.2.diff 
+patch -p1 < patches/dwm-alpha-systray-6.2.diff 
+make clean; make; sudo make install
+cls
+gls
+gss .
+ls patches/dwm-alpha-systray-6.2.diff 
+git commit --no-gpg-sign -m 'applied alpha-systray-6.2 patch'
+زمس
+cls
+gls
+gss .
+nvim .gitignore 
+cls
+make clean
+cls
+ls patches/dwm-barpadding-20211020-a786211.diff 
+patch -p1 < patches/dwm-barpadding-20211020-a786211.diff 
+nvim *.rej
+grep BARPAD .{c,h}
+grep BARPAD *.{c,h}
+nvim dwm.c
+cls
+nvim patches/dwm-alpha-systray-6.2.diff patches/dwm-barpadding-20211020-a786211.diff 
+nvim patches/dwm-alpha-systray-6.2.diff patches/dwm-barpadding-20211020-a786211.diff -o
+nvim patches/dwm-alpha-systray-6.2.diff patches/dwm-barpadding-20211020-a786211.diff -O
+nvim patches/dwm-alpha-systray-6.2.diff patches/dwm-barpadding-20211020-a786211.diff -o
+cls
+gls
+git diff --source=HEAD~4 .
+git diff HEAD~4 .
+git status HEAD~4 .
+git status HEAD~4 . -s
+git restore --source=HEAD~4 config.def.h dwm.c 
+patch -p1 < patches/dwm-barpadding-20211020-a786211.diff 
+git add .
+gls
+git commit --no-gpg-sign -m 'reverted alpha and systray patches'
+git commit --no-gpg-sign --amend -m 'reverted alpha and systray patches, applied barpadding-20211020-a786211'
+gls
+make clean; make; sudo make install
+gls
+gss .
+git reset 27b2e01
+gls
+git reset de7649a
+gls
+gss .
+git diff .
+git restore --source=HEAD~4 config.def.h dwm.c 
+gls
+gss .
+git diff .
+gls
+git add .
+git commit -m 'reverted alpha and systray patch, ready to patch'
+git commit -m 'reverted alpha and systray patch, ready to patch' --no-gpg-sign 
+cls
+gls
+patch -p1 < patches/dwm-barpadding-20211020-a786211.diff 
+make clean; make; sudo make install
+cd patches/
+cls
+rawfetch.sh https://dwm.suckless.org/patches/barpadding/dwm-barpadding-20200720-bb2e722.diff
+..
+gss .
+git restore --source=HEAD dwm.c config.def.h 
+patch -p1 < patches/dwm-barpadding-20200720-bb2e722.diff 
+make
+git restore --source=HEAD .
+cd patches/
+rawfetch.sh https://dwm.suckless.org/patches/barpadding/dwm-barpadding-6.2.diff
+cls
+..
+patch -p1 < patches/dwm-barpadding-6.2.diff 
+nvim *.rej
+make clean; make; sudo make install
+cls
+gss. 
+gss . 
+nvim dwm.c 
+nvim ~/.config/nvim/init.lua 
+nvim dwm.c 
+cls
+gls
+make
+nvim dwm.c/
+nvim dwm.c
+git restore --source=HEAD dwm.c config.def.h 
+gss .
+patch -p1 < patches/dwm-barpadding-20211020-a786211.diff 
+make
+nvim dwm.c
+cd patches/
+rawfetch.sh https://raw.githubusercontent.com/paulsso/dwm-alpha-barpadding/main/dwm-alpha-barpadding-20220104.diff
+..
+cls
+gss .
+git restore --source=HEAD dwm.c config.def.h 
+patch -p1 < patches/dwm-alpha-barpadding-20220104.diff 
+nvim patches/dwm-alpha-barpadding-20220104.diff 
+gss .
+patch -p1 < patches/dwm-alpha-barpadding-20220104.diff 
+nvim patches/dwm-alpha-barpadding-20220104.diff 
+gls
+gss .
+git reset de7649a config.def.h dwm.c
+gls
+git reset --hard de7649a config.def.h dwm.c
+gls
+gss .
+git reset HEAD~1 config.def.h dwm.c
+gls ..
+cls
+gls
+gss .
+git diff .
+..
+cd -
+gls
+git reset --hard HEAD~1 config.def.h dwm.c
+git reset --hard --source=HEAD~1 config.def.h dwm.c
+git reset --help
+lazygit 
+gss .
+git restore --sourec-HEAD config.def.h dwm.c 
+git restore --source-HEAD config.def.h dwm.c 
+git restore --source=HEAD config.def.h dwm.c 
+gss .
+lf
+gss .
+git rm --cached dwm.c config.def.h 
+gss .
+git restore --source=HEAD config.def.h dwm.c
+gss .
+gls
+git restore --source=HEAD~1 config.def.h dwm.c
+gss .
+nvim config.def.h 
+make clean; make; sudo make install
+cls
+gss .
+git add .
+git commit -m 'alpha and systray - stable'
+git commit -m 'alpha and systray - stable' --no-gpg-sign 
+زمس
+cls
+cd patches/
+cls
+..
+cls
+زمس
+cls
+gls
+git status e3486e3
+git status HEAD~1
+git status HEAD~2
+git status -s HEAD~2
+git status -s HEAD~2 .
+git status -s HEAD~3 .
+git diff HEAD~3 .
+gss .
+gls
+git diff e3486e3 .
+git diff e3486e3 . | grep '^diff --git '
+cls
+gss .
+lf
+gls
+..
+cls
+tar --gzip -cf dwm-conf-alpha-systray.tar.gz dwm
+cls
+pwd
+حصی
+pwd
+cd dwm/
+cls
+gss .
+make clean; make; sudo make install
+cls
+gls
+lsp a
+ls patches/
+patch -p1 < patches/dwm-vanitygaps-20200610-f09418b.diff 
+nvim *.rej
+make clean; make; sudo make install
+dmexit.sh 
+ls patches/dwm-vanitygaps-20200610-f09418b.diff 
+gss .
+git add .
+git commit -m 'applied vanitygaps-20200610-f09418b patch' --no-gpg-sign 
+cd patches/
+rawfetch.sh https://dwm.suckless.org/patches/autostart/dwm-autostart-20210120-cb3f58a.diff
+..
+patch -p1 < patches/dwm-autostart-20210120-cb3f58a.diff 
+make clean; make; sudo make install
+nvim patches/dwm-autostart-20210120-cb3f58a.diff 
+gls
+gss .
+git add .; git commit --no-gpg-sign -m 'applied autostart-20210120-cb3f58a patch'
+ls patches/
+patch -p1 < patches/dwm-bidi-
+patch -p1 < patches/dwm-bidi-restricted-20230512-e81f17d.diff 
+nvim config.mk.rej 
+make clean; make; sudo make install
+dmexit.sh 
+cls
+gls
+gss .
+ls patches/dwm-bidi-restricted-20230512-e81f17d.diff 
+git add .; git commit --no-gpg-sign -m 'applied bidi-restricted-20230512-e81f17d patch'
+cls
+make clean;
+cls
+patch -p1 < patches/dwm-colorbar-6.3.diff 
+nvim dwm.c.rej 
+make clean; make; sudo make install
+dmexit.sh 
+زمس
+cls
+nvim config.def.h 
+gss .
+git add .; git commit -m 'applied colorbar-6.3 patch' --no-gpg-sign 
+nvim config.def.h 
+nvim dwm.c 
+nvim config.def.h 
+cls
+gls
+gss .
+git add .
+git commit
+git commit --no-gpg-sign 
+nvim config.def.h 
+make clean; make; sudo make install; dmxe
+make clean; make; sudo make install; dmexit.sh 
+cls
+git add .
+git commit -m 'back to default layout sort' --no-gpg-sign 
+gls
+..
+tar --gzip -cf dwm.tar.gz
+tar --gzip -cf dwm.tar.gz dwm
+cd -
+make clean
+cls
+cd -
+tar --gzip -cf dwm.tar.gz dwm
+cls
+pwd
+nvim ~/.config/nvim/init.lua 
+nvim dwm/config.def.h 
+q
+t att
+q
+nvim `which dmexit.sh`
+q
+make clean; make; sudo make install
+dmexit.sh -wm dwm
+randr.sh 1
+dmusb.sh 
+nvim `which dmusb.sh `
+cd /run/media/hos/Ventoy/
+cls
+c
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+nvim `which dmexit.sh`
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+nvim `which dmexit.sh`
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+q
+sudo xbps-remove -Rs xfce4-terminal
+sudo xbps-remove -R xfce4-terminal
+sudo xbps-install lxterminal
+dmexit.sh dwm
+dmexit.sh -wm dwm
+q
+pulsemixer 
+cd /run/media/hos/Ventoy/
+cls
+ls GeckoLinux_ROLLING-OBS_Pantheon.x86_64-999.220820.0.iso linuxmint-2{1,0}-*.iso
+ls GeckoLinux_ROLLING-OBS_Pantheon.x86_64-999.220820.0.iso linuxmint-2{1,0.3}-*.iso
+ls GeckoLinux_ROLLING-OBS_Pantheon.x86_64-999.220820.0.iso linuxmint-2{1,0.3}-*.iso win_7.ISO 
+rm -rf GeckoLinux_ROLLING-OBS_Pantheon.x86_64-999.220820.0.iso linuxmint-2{1,0.3}-*.iso win_7.ISO 
+cls
+lf
+cls
+rsync --progress /home/hos/dl/iso/artix-lxde-runit-20230501-x86_64.iso .
+cd
+btop
+x

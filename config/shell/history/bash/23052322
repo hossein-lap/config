@@ -1,0 +1,2 @@
+nvim -d nvimtree/init.lua nvimtree.~1~/init.lua.bak 
+q

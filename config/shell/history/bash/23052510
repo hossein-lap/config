@@ -1,0 +1,54 @@
+neofetch 
+fc-list | grep Vazir | grep Code
+neofetch 
+nvim /rmp
+nvim /tmp
+nvim uni/micro-lap/reports/01/desc.md
+q
+st -h
+st -f 'Vazir Code Regular'
+st -f 'Vazir Code Regular:pixelsize=25'
+st -f 'Vazir Code:pixelsize=25'
+st -f 'Vazir Code:pixelsize=30'
+q
+cls
+nvim /data/dev/hossein-lap/workflow/suckless/st/config.def.h 
+cls
+nvim 01/desc.md
+زمس
+cls
+cd ~/.config/kitty/
+cls
+nvim kitty.conf 
+cls
+q
+cd uni/micro-lap/reports/
+t
+q
+cd uni/micro-lap/reports/
+cls
+nvim 01/01.tex 
+nvim t.sh 
+cls
+nvim t.sh 
+nvim 02/02.{tex,md}
+git add .
+git commit -m 'stage'
+nvim t.sh 
+git add .
+git commit -m 'moving to fully md'
+sh t.sh 
+gss .
+git diff .
+gss .
+git restore --source=HEAD .
+nvim sh.
+nvim t.sh 
+make
+nvim 06/06.
+nvim 06/06.md 
+lf
+r.sh zathura 0*/0*.pdf
+lf
+q
+x

@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.26.12.8",
+        "aid": 0,
+        "id": "617b2009-8eb3-4d07-e29c-6be1552875b0",
+        "name": "رایگان | VMESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣",
+        "port": 80,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "airusa.daozhang.link",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/cdn"
+        }
+    },
+    "gid": 3,
+    "id": 3534,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

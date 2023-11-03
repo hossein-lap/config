@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "all.shhproxy.cfd",
+        "name": "رایگان | VLESS | @shh_proxy | RELAY🚩 | 0️⃣3️⃣",
+        "pass": "1c097425-7a05-4c05-a0a1-accb2c62aef6",
+        "port": 8443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@Shh_Proxy,@Shh_Proxy",
+            "sec": "tls",
+            "sni": "uGshhproxyV2raykufukfkyKuyk-irancel-Mokhabera-Sshpr-raitel-MIc.Snappfoodd.site"
+        }
+    },
+    "gid": 1,
+    "id": 7034,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

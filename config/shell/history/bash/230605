@@ -1,0 +1,194 @@
+nvim files/test.md
+q
+take files
+nvim files.go
+nvim ~/.config/nvim/lua/plugin/lsp/init.lua 
+nvim files.go
+..
+c
+mv files/ nabi
+cd nabi/
+cls
+lf
+cls
+nvim nabi
+nvim nabi.go 
+nvim ~/.config/nvim/lua/module/extra.lua 
+nvim nabi.go 
+nvim tmp.go
+q
+cls
+cd nabi/
+cls
+nvim nabi.go 
+q
+cls
+nvim nabi/tmp.go
+cd nabi/
+cls
+nvim nabi.go 
+q
+t ls
+cd /data/w/
+cls
+cd go/
+cls
+t
+q
+pulsemixer 
+cd /data/dl/cnc-red_alert-3/ra3/Command\ and\ Conquer\ Red\ Alert\ 3/
+./run
+./run.sh 
+cd ~/.local/share/wine/drive_c/
+cls
+lf
+q
+t
+q
+make clean; make; sudo make instal
+make clean; make; sudo make install\
+cls
+cl
+cd /data/w/go/
+cls
+mv markdown
+mv nabi/ markdown
+cd markdown/
+cls
+lf
+t att
+xbps-query -Rs openblas
+sudo xbps-install openblas-devel
+cls
+nano rmd.sh
+:q
+Rscript -e "source('/home/hos/.config/pandoc/config.r'); rmarkdown::redner(input = '/tmp/test.rmd', output_format = 'pdf_document', params = list(pandoc_options = c(args = '--defaults', '/home/hos/.config/pandoc/defaults/dracula/dracula.yaml'))))"
+Rscript -e "source('/home/hos/.config/pandoc/config.r'); rmarkdown::redner(input = '/tmp/test.rmd', output_format = 'pdf_document', params = list(pandoc_options = c(args = '--defaults', '/home/hos/.config/pandoc/defaults/dracula/dracula.yaml')))"
+Rscript -e "source('/home/hos/.config/pandoc/config.r'); rmarkdown::render(input = '/tmp/test.rmd', output_format = 'pdf_document', params = list(pandoc_options = c(args = '--defaults', '/home/hos/.config/pandoc/defaults/dracula/dracula.yaml')))"
+r.sh zathura test.pdf 
+Rscript -e "source('/home/hos/.config/pandoc/defaults/r/config.r'); rmarkdown::render(input = '/tmp/test.rmd', output_format = 'pdf_document', params = list(pandoc_options = c(args = '--defaults', '/home/hos/.config/pandoc/defaults/r/r.yaml')))"
+Rscript -e "source('/home/hos/.config/pandoc/defaults/r/config.r'); rmarkdown::render(input = '/tmp/test.rmd', output_format = 'pdf_document', params = list(pandoc_options = c(args = '--defaults', '/home/hos/.config/pandoc/defaults/r/r.yaml')), output = 'test.pdf)"
+Rscript -e "source('/home/hos/.config/pandoc/defaults/r/config.r'); rmarkdown::render(input = '/tmp/test.rmd', output_format = 'pdf_document', params = list(pandoc_options = c(args = '--defaults', '/home/hos/.config/pandoc/defaults/r/r.yaml')), output = 'test.pdf')"
+Rscript -e "source('/home/hos/.config/pandoc/defaults/r/config.r'); rmarkdown::render(input = '/tmp/test.rmd', params = list(pandoc_options = c(args = '--defaults', '/home/hos/.config/pandoc/defaults/r/r.yaml')))"
+clear
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/init.lua
+nvim /tmp/test.rmd 
+q
+nvim flags.go
+nvim ~/.config/nvim/lua/module/keybind.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/neovim-ayu/lua/ayu/config.lua 
+q
+t att
+nvim .config/nvim/lua/module/rce.lua 
+nvim /tmp/test.lua
+nvim /tmp/test.sh 
+echopandoc --default ~/.config/pandoc/defaults/fa/fa.yaml -i test.md -o test.md 
+c
+echo pandoc --default ~/.config/pandoc/defaults/fa/fa.yaml -i test.md -o test.md 
+head ~/.config/pandoc/defaults/fa/fa.yaml
+head ~/.config/pandoc/defaults/dracula/dracula.yaml 
+clear
+pandoc --defaults ~/.config/pandoc/defaults/dracula/dracula.yaml -i test.md -o test.pdf
+c
+head ~/.config/pandoc/defaults/dracula/dracula.yaml 
+nvim /tmp/test.rmd
+cat /tmp/test.rmd | tb
+nvim /tmp/test.sh
+nvim ~/.config/pandoc/config.rmd 
+nvim /tmp/test.rmd 
+nvim ~/.config/pandoc/config.r /tmp/test.rmd
+xbps-query -Rs r
+xbps-query -Rs r | fzf -m
+sudo xbps-install -Su
+xbps-query -l | grep R
+xbps-query -l | grep R | fzf -m
+sudo xbps-install -Sy R
+sudo R
+nvim /tmp/test.rmd 
+cd /tmp
+cls
+cl
+s
+cl
+Rscript -e "markdown::render(input = 'test.rmd')"
+Rscript -e "markdown::render(input = 'test.rmd', output_format = 'pdf_document')"
+Rscript -e "rmarkdown::render(input = 'test.rmd', output_format = 'pdf_document')"
+nvim test.rmd 
+Rscript -e "rmarkdown::render(input = 'test.rmd', output_format = 'pdf_document')"
+Rscript -e "source('/home/hos/.config/pandoc/config.r'); rmarkdown::render(input = 'test.rmd', output_format = 'pdf_document', )"
+Rscript -e "source('/home/hos/.config/pandoc/config.r'); rmarkdown::render(input = 'test.rmd', output_format = 'pdf_document' )"
+cls
+r.sh zathura test.pdf 
+cls
+Rscript -e "source('/home/hos/.config/pandoc/config.r'); rmarkdown::render(input = 'test.rmd', output_format = 'pdf_document' )"
+nvim ~/.config/nvim/lua/module/rce.lua 
+q
+cd .config/pandoc/defaults/
+cls
+cd r/
+cls
+cp ../../config.r .
+nvim r.yaml 
+q
+xbps-query -Rs gfortran:
+xbps-query -Rs gfortran
+sudo xbps-install gfortran-devel
+sudo xbps-install libgfortran-devel
+sudo xbps-install gfortran-devel
+sudo xbps-query -Rs gfortran-devel
+sudo xbps-query -Rs fortran
+sudo xbps-install gcc-fortran
+xbps-query -Rs gfort
+gfortran
+find / -iname gfortran 2>/dev/null
+sudo xbps-install gcc-fortran
+nvim /tmp/test.rmd 
+cls
+nvim /tmp/test.rmd 
+cp ~/.config/nvim/lua/module/rmd.sh /tmp/
+cd /tmp
+nvim rmd.sh 
+q
+cls
+s
+cls
+nvim markdown.go 
+nvim /tmp/test.lua
+nvim /tmp/test.c
+nvim markdown.go 
+cls
+q
+nvim README.md 
+nvim Makefile 
+nvim ~/.config/nvim/lua/module/main.lua 
+nvim ~/.config/nvim/lua/plugin/comment/init.lua 
+nvim ~/.config/nvim/lua/module/extra.lua 
+nvim ~/.config/nvim/lua/module/keybind.lua 
+cls
+nvim tmp.go 
+nvim tmp.lua
+rm tmp.lua 
+cls
+nvim tmp.go 
+cls
+cd ~/.local/share/nvim/site/pack/packer/start/vim-sunbather/colors/
+cls
+nvim sunbather.vim 
+nvim ../../vim-256noir/colors/256_noir.vim 
+nvim ../../vim-256noir/colors/256_noir.vim sunbather.vim 
+q
+q
+nvim ~/.config/nvim/lua/plugin/lsp/init.lua 
+q
+lf /data/dev/hossein-lap/workflow/docs/go/
+nvim /data/dev/hossein-lap/suckless/st/hb.c 
+cd ~/.config/nvim/lua/plugin/
+cls
+nvim cmp/init.lua 
+nvim ../../init.lua 
+nvim cmp/init.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp/lua/cmp_nvim_lsp/init.lua \
+nvim cmp/init.lua 
+q
+x

@@ -1,0 +1,31 @@
+zsh
+cd /tmp/test
+zsh
+cat
+nvim .zshrc
+zsh
+nvim .zshrc
+zsh
+nvim .zshrc
+zsh
+bash
+nvim .zshrc
+TERM=xterm-256color
+s
+PS1
+echo $!!
+echo $PS1
+zsh
+zsh
+nvim ~/.config/zsh/zmachine.zsh-theme 
+nvim .config/shell/bashrc
+nvim
+cd .config/shell/
+ls -l
+ls ~/.cache/
+cd ~/.cache/
+ls -l
+mkdir bash
+cd -
+ls ~/.cache/zsh
+nvim bashrc

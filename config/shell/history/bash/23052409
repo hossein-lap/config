@@ -1,0 +1,64 @@
+q
+cd ~/uni/micro-lap/reports/05/
+cls
+cat diag.txt 
+c
+cat diag.txt 
+c
+cat diag.txt 
+mv /data/screen/shots/shot-230524_092654.png pic.png 
+imtrim.sh pic.png 
+make
+nvim ../04/04.tex 
+cd ../07
+cls
+nvim diag.txt 
+cat diag.txt 
+nvim diag.txt 
+cat diag.txt 
+nvim diag.txt 
+cat diag.txt 
+mv /data/screen/shots/shot-230524_094947.png pic.png 
+imtrim.sh pic.png 
+make
+cls
+..
+for i in `exa -D | grep -v '.tmp\|old'`; do echo $i; done
+for i in `exa -D | grep -v '.tmp\|old'`; do pandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx ${i}/${i}.tex -o ${i}/${i}.docx; done
+lf
+cls
+lowriter 01/01.docx 
+for i in `exa -D | grep -v '.tmp\|old'`; do cd ${i}; pandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx ${i}.tex -o ${i}.docx; cd ..; done
+lowriter 01/01.docx 
+for i in `exa -D | grep -v '.tmp\|old'`; do cd ${i}; pandoc -V dir=rtl --reference-doc ~/.config/pandoc/defaults/docx/art.docx ${i}.tex -o ${i}.docx; cd ..; done
+lowriter 01/01.docx 
+nvim /tmp/t.md
+for i in `exa -D | grep -v '.tmp\|old'`; do cd ${i}; pandoc -V dir:rtl --reference-doc ~/.config/pandoc/defaults/docx/art.docx ${i}.tex -o ${i}.docx; cd ..; done
+lowriter 01/01.docx 
+for i in `exa -D | grep -v '.tmp\|old'`; do cd ${i}; pandoc -V dir:rtl ${i}.tex -o ${i}.docx; cd ..; done
+lowriter 01/01.docx 
+lf
+q
+nvim 05/diag.txt 
+for i in `find $PWD -name '*.pdf'`; do echo $i; done
+for i in `find $PWD -name '*.pdf' | grep -v '\.tmp'`; do echo $i; done
+for i in `find $PWD -name '*.pdf' | grep -v '\.tmp\|old'`; do echo $i; done
+for i in `find $PWD -name '*.pdf' | grep -v '\.tmp\|old'`; do zathura $i; done
+man pandoc
+q
+cd uni/micro-lap/reports/
+t
+t att
+q
+..
+make clean; make; r.sh ./st
+lf .config/pandoc
+lowriter art.docx 
+man pandoc
+lowriter art.docx 
+man pandoc
+man st
+cd /data/dev/hossein-lap/
+cls
+lf workflow/
+x

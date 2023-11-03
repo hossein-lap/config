@@ -1,0 +1,21 @@
+..
+make clean; make; sudo make install
+sudo xbps-install newsboat
+sudo xbps-install -Sy newsboat
+q
+proxychains4 -q newsboat
+q
+sudo mount ~/arch/texlive/texlive2023.iso /mnt -o loop
+cd /mnt
+./install-tl --help
+./install-tl 
+./install-tl --help
+./install-tl -gui
+nvim ~/dev/hossein-lap/workflow/scripts/slsbattery.sh 
+q
+..
+make clean; make; sudo make install
+cd ~/dev/hossein-lap/suckless/st/
+nvim colors/schemes.h 
+q
+x

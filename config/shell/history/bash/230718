@@ -1,0 +1,30 @@
+mkdir taura
+cp marisol-price/{ln.dl,dl.sh} taura/
+mkdir other
+cp marisol-price/{ln.dl,dl.sh} other/
+lf vid/
+q
+man jdate
+nvim `which slsdate.sh`
+nvim ~/dev/hossein-lap/workflow/suckless/{dwm,dmenu}/config.def.h  -o
+nvim ~/.config/dunst/dunstrc 
+nvim `which datestartup.sh`
+lsblk
+free -m
+grep -v '^#' ~/.config/shell/bashrc | grep start
+grep -n -v '^#' ~/.config/shell/bashrc | grep start
+nvim ~/.config/shell/bashrc
+which datestartup.sh 
+sh -c 'st cli-visualizer; st ncmpcpp'
+sh -c 'st cli-visualizer & st ncmpcpp'
+q
+cli-visualizer 
+q
+lf vid/
+q
+cli-visualizer 
+pulsemixer 
+cli-visualizer 
+cli-visualizer 
+nvim ~/.config/vis/config
+x

@@ -1,0 +1,32 @@
+imshadow.sh shot-2211*.png
+q
+nsxiv .
+q
+nsxiv . -o
+sxiv ../2022-12-18-224540_1920x1080_scrot.png 
+q
+imappend.sh -h
+imappend.sh help
+nvim `which imappend.sh`
+imappend.sh shot-2211*.png 2022-12-18-224540_1920x1080_scrot.png 
+cls
+sxiv screenshots_merged_230525_161738.png 
+زمس
+cls
+lf
+lf pic/
+xbps-query -Rs litris
+xbps-query -Rs lutris
+sudo xbps-install -S lutris
+sudo xbps-install -Sy lutris
+xbps-query -Rs multilib
+sudo xbps-install -Sy void-repo-multilib void-repo-miltilib-nonfree
+sudo xbps-install -Sy void-repo-multilib void-repo-multilib-nonfree
+sudo xbps-install -Sy 
+xbps-query -Rs lutris retro
+xbps-query -Rs game | less -SR
+xbps-query -Rs retro
+sudo xbps-install -Sy lutris retroarch
+xbps-query -Rs wine
+sudo xbps-install -Sy wine wine-32bit
+q

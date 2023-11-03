@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.17.96.0",
+        "name": "رایگان | VLESS | @vless_vmess | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "e3c633c7-37de-4a73-9064-240b645777bc",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "host": "sgp.vps.wengmail.link",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048",
+            "sec": "tls",
+            "sni": "sgp.vps.wengmail.link"
+        }
+    },
+    "gid": 3,
+    "id": 1719,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

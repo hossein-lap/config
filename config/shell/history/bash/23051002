@@ -1,0 +1,8 @@
+cd /data/w/
+take nvim-ascii
+gln https://github.com/gsass1/ascii.nvim
+cd ascii.nvim/
+cls
+lf
+nvim ~/.vim/vimrc 
+q

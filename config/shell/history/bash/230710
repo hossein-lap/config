@@ -1,0 +1,59 @@
+cd tmp
+sudo sh -c 'xbps-install -Sy; xbps-install -u xbps'
+sudo vi /etc/default/grub 
+sudo update-grub
+sudo vi /etc/default/grub 
+sudo update-grub
+ls void-pkgs.list 
+grep '^#' void-pkgs.list 
+sudo xbps-install `cat void-pkgs.list`
+sudo xbps-install `cat void-pkgs.list | sed 's/-[0-9].*//'`
+sudo xbps-install -Syu
+sudo reboot
+pwd
+make clean; make; sudo make install
+cd st
+make clean; make; sudo make install
+nvim ~/dev/hossein-lap/suckless/st/
+q
+sudo xbps-install git
+lf ~/vid/
+q
+vim ~/tmp/void-pkgs.list 
+mpv
+mpc
+nvim
+sudo xbps-install nnn
+nvim `which slsbattery.sh`
+cd /etc/X11/
+ls
+ls xinit/
+find / -iname xorg.conf 2>/dev/null
+find / -iname '*xorg.conf' 2>/dev/null
+find / -iname '*xorg.conf*' 2>/dev/null
+cd /usr/share/X11/
+ls
+ls xorg.conf.d/
+nnn
+nnn -e
+cd ~/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+sudo update-grub 
+q
+sudo xbps-install -S
+sudo xbps-install -yu
+sudo bash
+ls
+cd dev/hossein-lap/workflow/
+cd suckless/
+cat deps.txt 
+echo make pkg-config >> deps.txt 
+grep -v '^#' deps.txt 
+sudo xbps-install -Sy `grep -v '^#' deps.txt `
+./make.sh 
+vim deps.txt 
+sudo xbps-install -Sy `grep -v '^#' deps.txt `
+./make
+./make.sh 
+./make.sh install
+x

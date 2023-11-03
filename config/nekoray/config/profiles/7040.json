@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "lightning6-joinbede.ddns.net",
+        "name": "رایگان | VLESS | @lightning6 | US🇺🇸 | 0️⃣3️⃣",
+        "pass": "88227a4a-ba21-4d6b-91d9-22224c259407",
+        "port": 2083,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "sec": "tls",
+            "sni": "Z.LiV2ray.top"
+        }
+    },
+    "gid": 1,
+    "id": 7040,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "join-v2raytz.sinotz.tk",
+        "name": "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "e18022d7-cbc0-404a-930f-28ac6916ad45",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@VPNCUSTOMIZE",
+            "sec": "tls",
+            "sni": "QvssvpfpV2ray-Soyosha-IranCCrl-mcisk-mtn-mciaoaovpn.SNAPP.monster"
+        }
+    },
+    "gid": 1,
+    "id": 7123,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

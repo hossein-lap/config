@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "5.42.77.255",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @hadisnajafi | Donated | SE🇸🇪 | 0️⃣6️⃣",
+        "pass": "7b6dd757-bc4d-4666-8ac1-543e1aa32398",
+        "port": 2085,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "aavnlQLG02yhc081P8alq9OelzNkbYRMDilXwnY-cj4",
+            "sec": "tls",
+            "sid": "cd3096bd30968340",
+            "sni": "aws.amazon.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3782,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

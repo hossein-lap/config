@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "net.1lagvpn13.cfd",
+        "name": "رایگان | VLESS | @L_AGVPN13 | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "810bf0c2-98c1-42f0-87ce-bd23ded601ec",
+        "port": 2087,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@L_AGVPN13+@L_AGVPN13+@L_AGVPN13+@L_AGVPN13",
+            "sec": "tls",
+            "sni": "telgram.1lagvpn13.cfd"
+        }
+    },
+    "gid": 1,
+    "id": 6849,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

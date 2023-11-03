@@ -1,0 +1,25 @@
+nvim .
+nvim after/colors.lua 
+mv after/colors.lua lua/scheme/init.lua
+rmdir after/
+nvim init.lua 
+cd lua/scheme/
+cls
+for i in `ls *.lua | grep -v init.lua`; do echo $i; done
+for i in `ls *.lua | grep -v init.lua`; do basename$i; done
+for i in `ls *.lua | grep -v init.lua`; do basename $i; done
+for i in `ls *.lua | grep -v init.lua`; do dirname $i; done
+for i in `ls *.lua | grep -v init.lua`; do j=$(echo $i | sed 's/\.lua$//'); echo ${i} ${j} ; done
+for i in `ls *.lua | grep -v init.lua`; do j=$(echo $i | sed 's/\.lua$//'); mkdir -v ${j}; mv -v ${i} ${j}/init.lua; done
+cls
+nvim init.lua 
+grep 'colorscheme */init.lua'
+grep 'colorscheme' */init.lua
+grep 'vim.cmd.colorscheme' */init.lua
+sed 'g/vim\.cmd\.colorscheme/d' */init.lua | grep 'vim.cmd.colorscheme'
+nvim */init.lua
+cls
+nvim init.lua 
+nvim ../../init.lua 
+lf
+q

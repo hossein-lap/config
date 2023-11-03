@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "pm.rxv2ray.space",
+        "name": "رایگان | VLESS | @rxv2ray | US🇺🇸 | 0️⃣2️⃣",
+        "pass": "1b9d5c2f-2a99-4dcc-ff78-e39e555e85f5",
+        "port": 2087,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@RxV2ray",
+            "sec": "tls",
+            "sni": "Pm.RxV2ray.space"
+        }
+    },
+    "gid": 3,
+    "id": 3607,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

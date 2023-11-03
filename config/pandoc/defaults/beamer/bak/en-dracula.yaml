@@ -1,0 +1,15 @@
+metadata:
+    keywords:
+        - 'English dark (dracula) theme for beamer'
+    documentclass: beamer
+pdf-engine: xelatex
+highlight-style: /home/hos/.config/pandoc/highlight/dracula-beamer.theme
+variables:
+    aspectratio: 169
+    background-image: /home/hos/.config/pandoc/background/luxury-dark-black-gradient-background-business-elegant-presentation-banner-vector
+    header-includes:
+        - \usepackage{/home/hos/.config/pandoc/defaults/beamer/en-dracula}
+        - \themeconfig{three=yes, shade=yes}
+
+filters:
+    - /home/hos/.config/pandoc/filters/en-today.lua

@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "sg-3.0rd.net",
+        "aid": 0,
+        "id": "c1bfd550-5e87-11ee-b939-205c6d5f5d78",
+        "name": "رایگان | VMESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣5️⃣",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "zula.ir",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/e96n0ac1",
+            "sec": "tls",
+            "sni": "zula.ir"
+        }
+    },
+    "gid": 2,
+    "id": 1517,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

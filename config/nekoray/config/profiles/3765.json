@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "149.202.82.172",
+        "method": "aes-256-gcm",
+        "name": "رایگان+|+SS+|+@DeamNet_Proxy+|+FR🇫🇷+|+0️⃣1️⃣",
+        "pass": "pKEW8JPByTVTLtM",
+        "port": 4444,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 3,
+    "id": 3765,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": -1
+}

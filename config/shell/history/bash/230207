@@ -1,0 +1,9 @@
+sudo xbps-install -Syu
+sudo xbps-install -S
+ping 1.1.1.1
+date
+sudo xbps-install -S
+sudo xbps-reconfigure xbps
+sudo xbps-reconfigure -f xbps
+sudo xbps-install -S
+sudo reboot

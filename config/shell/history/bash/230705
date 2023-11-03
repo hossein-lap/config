@@ -1,0 +1,57 @@
+cat /etc/resolv.conf
+etcresolve.sh 
+lspci -k
+man lspci
+take beamer
+nvim beamer-test.tex
+q
+nvim /tmp/test.tex
+lf /run/media/hos/3485-B904/
+dmusb.sh 
+cls
+dme
+dmusb.sh 
+pwd
+nvim ~/.config/nvim/lua/plugin/toggleterm/init.lua 
+cd │/home/hos/dev/hossein-lap/workflow/config/pandoc/defaults/beamer
+cd /home/hos/dev/hossein-lap/workflow/config/pandoc/defaults/beamer
+nvim conv_left_right.sh
+sudo xbps-install gcolor
+sudo xbps-install gcolor2
+yad
+zenity
+sudo xbps-install gcolor2 yad
+sudo xbps-install gcolor2 zenity
+sudo xbps-install gcolor2 zenity | less
+sudo xbps-install gcolor2 yad smenu
+sudo xbps-install gcolor2 smenu
+q
+nsxiv screen/shots/ -o
+nvim ~/.config/pandoc/defaults/solarized/theme.sty 
+q
+nvim `which dmshot.sh`
+q
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+lf
+nvim ~/.config/pandoc/defaults/dracula/dracula.yaml 
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+cls
+neofetch 
+echo $TERM
+nvim pac-pres01.md
+gss .
+cls
+git add .
+git init 
+git add .
+git commit -m 'init commit'
+lf ~/doc/books/
+cd w/devops/pipeline-as-code/
+cls
+cd pres/01/
+cls
+nvim Makefile 
+t
+lf .config/pandoc
+q
+x

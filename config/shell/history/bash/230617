@@ -1,0 +1,325 @@
+mpv Banshee.S03E09.720p.HDTV.2CH.x265.HEVC.mkv
+c
+mpv Banshee.S03E09.720p.HDTV.2CH.x265.HEVC.mkv
+mpv Banshee.S03E10.720p.HDTV.2CH.x265.HEVC.mkv
+mpv Banshee.S03E09.720p.HDTV.2CH.x265.HEVC.mkv
+mpv Banshee.S03E10.720p.HDTV.2CH.x265.HEVC.mkv
+lf
+pulsemixer 
+nload
+nvim /tmp/test.py
+nvim /data/w/benchmark-handmade/primes/prime-lua.lua 
+q
+lf /tmp
+q
+cd /data/vid/shows/
+cls
+aria2c -c -m 0 -j 1 -x 16 'https://dibacdn6.javanupload.com//DL2/series/Banshee/S03/720pX265/Banshee.S03E09.720p.HDTV.2CH.x265.HEVC.mkv'
+aria2c -c -m 0 -j 1 -x 16 'https://dibacdn6.javanupload.com//DL2/series/Banshee/S03/720pX265/Banshee.S03E10.720p.HDTV.2CH.x265.HEVC.mkv'
+imstring.sh -i 'نمونه شماره یک' -o test.png
+nsxiv test.png 
+ulimit 
+less /var/log/Xorg.0.log
+less /var/log/btmp 
+sudo less /var/log/btmp 
+less /var/log/wtmp 
+less /var/log/dmesg.log 
+sudo less /var/log/dmesg.log 
+cd /data/dl/iso/
+aria2c -m 0 -c debian-live-12.0.0-amd64-kde.iso.torrent 
+cd /data/w/
+nvim test.lua 
+nvim /tmp/test.lua 
+lf uni/exams/software-engineer/
+x
+nvim /tmp/test.py
+nvim ~/.vim/modules/extra.vim 
+nvim ~/.config/nvim/after/plugin/scheme.lua 
+nvim ~/.config/nvim/after/plugin/scheme.lua ~/.vim/vimrc 
+grep ^source ~/.vim/init.vim 
+grep ^source ~/.vim/init.vim | awk '{print $NF;}'
+c
+wc -l `grep ^source ~/.vim/init.vim | awk '{print $NF;}'`
+cat `grep ^source ~/.vim/init.vim | awk '{print $NF;}'` | wc -l
+cd .vim/modules/
+cls
+..
+grep ^source ~/.vim/init.vim | awk '{print $NF;}'
+wc -l vimrc ~/.vim/modules/main.vim ~/.vim/modules/keybinds.vim ~/.vim/modules/netrw.vim ~/.vim/modules/skels.vim ~/.vim/modules/oldcp.vim ~/.vim/modules/Note.vim ~/.vim/modules/abreviation.vim ~/.vim/modules/extra.vim  ~/.vim/modules/background.vim ~/.vim/modules/Note.vim
+c
+wc -l vimrc ~/.vim/modules/main.vim ~/.vim/modules/keybinds.vim ~/.vim/modules/netrw.vim ~/.vim/modules/skels.vim ~/.vim/modules/oldcp.vim ~/.vim/modules/Note.vim ~/.vim/modules/abreviation.vim ~/.vim/modules/extra.vim  ~/.vim/modules/background.vim ~/.vim/modules/Note.vim
+grep -v '^"' vimrc ~/.vim/modules/main.vim ~/.vim/modules/keybinds.vim ~/.vim/modules/netrw.vim ~/.vim/modules/skels.vim ~/.vim/modules/oldcp.vim ~/.vim/modules/Note.vim ~/.vim/modules/abreviation.vim ~/.vim/modules/extra.vim  ~/.vim/modules/background.vim ~/.vim/modules/Note.vim | wc -l
+cls
+nvim modules/
+lf
+nvim ~/.config/shell/aliases.sh 
+s
+c
+alias vi
+vi
+nvim ~/.config/shell/aliases.sh 
+vi
+lf .vim
+lf .vim/
+nvim ~/.config/shell/aliases.sh 
+حیبفن
+pdftk
+xbps-query -Rs pdftk
+sudo xbps-install pdftk
+man montage
+cls
+cd /data/dev/hossein-lap/suckless/st/
+nvim config.def.h 
+make clean; make; sudo make install
+vi
+c
+alias vi
+vi /tmp/test.py
+cd dl/telegram-dl/
+take m-reza
+mv ../833_12803802158856.pdf .
+cls
+zathura 833_12803802158856.pdf 
+pdftk 833_12803802158856.pdf cat all output extracted_page.pdf
+pdftk 833_12803802158856.pdf cat 10 output extracted_page.pdf
+cls
+zathura extracted_page.pdf 
+pdftk 833_12803802158856.pdf cat 2 output extracted_page.pdf
+r.sh zathura 833_12803802158856.pdf 
+for i in `seq 22`; do echo $i ; done
+for i in `seq 22`; do pdftk 833_12803802158856.pdf cat all ${i} page_${i}.pdf ; done
+for i in `seq 22`; do pdftk 833_12803802158856.pdf cat ${i} output page_${i}.pdf ; done
+cls
+rm extracted_page.pdf 
+zathura page_1
+zathura page_1.pdf 
+cls
+montage -mode concatenate -tile 2x2 page_*.pdf merged.pdf
+zathura merged.pdf 
+r.sh zathura merged.pdf 
+montage -density 300 -mode concatenate -tile 2x2 page_*.pdf merged.pdf
+du -h merged.pdf 
+man montage 
+montage -density 300 -page a4 -mode concatenate -tile 2x2 page_*.pdf merged_2.pdf
+zathura merged_2.pdf 
+montage -density 150 -page a4 -mode concatenate -tile 2x2 page_*.pdf merged_2.pdf
+r.sh zathura merged_2.pdf 
+r.sh zathura merged.pdf 
+lf
+montage -density 300 -page a4 -mode concatenate -tile 2x2 page_*.pdf merged_2.pdf
+r.sh zathura merged_2.pdf 
+mv merged_2.pdf merged.pdf 
+r.sh zathura merged.pdf 
+زمس
+cls
+zathura 833_12803802158856.pdf 
+zathura merged.pdf 
+man montage
+btop
+vim lua/plugin/undotree/init.lua 
+vim lua/module/main.lua 
+q
+ls ~/.vim/
+ls ~/.vim/ -a
+q
+cls
+nvim init.lua 
+q
+vi
+mv .vim .config/vim
+mkdir .vim
+vim ~/.config/shell/bashrc
+vim ~/.config/shell/aliases.sh 
+s
+vim ~/.config/shell/aliases.sh 
+cd .config/vim
+nvim init.vim 
+nvim `find $PWD -name '*.vim'`\
+nvim `find $PWD -name '*.vim'`
+nvim $(find $PWD -name '*.vim'(
+nvim $(find $PWD -name '*.vim')
+nvim init.vim */*.vim
+cls
+mkdir ~/.vim
+lf
+nvim ~/.config/bat/config 
+lf
+cls
+q
+pulsemixer 
+xbps-query -Rs You
+xbps-query -Rs YouCom
+xbps-query -Rs You-Com
+cd .config/vim
+cls
+gss .
+..
+unlink vim
+cp -r /data/dev/hossein-lap/workflow/vim vim
+cd vim
+cs
+cls
+nvim init.vim modules/*.vim
+vim
+nvim init.vim modules/*.vim
+vim
+cp -r colors/ ~/.vim/
+vim
+cls
+vim
+cd ~/.vim
+cls
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cls
+take modules
+vim plugin.vim
+cls
+nvim plugin.vim
+cls
+..
+cls
+vim vimrc
+cls
+tree
+vim vimrc
+vim ~/.config/shell/aliases.sh 
+s
+vi
+vim ~/.config/shell/aliases.sh 
+s
+vi ~/.config/shell/aliases.sh 
+vim vimrc 
+nvim vimrc 
+vi
+proxychains4 -q vi
+proxychains4 -q vim -
+rm plugged/YouCompleteMe/
+rm plugged/YouCompleteMe/ -r
+rm plugged/YouCompleteMe/ -rf
+proxychains4 -q vim 
+proxychains4 -q vim vimrc 
+vim --version
+vim --version | grep python
+rm plugged/YouCompleteMe/
+du -h plugged/YouCompleteMe/ 
+rm -rf plugged/YouCompleteMe/
+vim modules/plugin.vim 
+proxychains4 -q vim modules/plugin.vim 
+vi modules/plugin.vim 
+proxychains4 -q vim modules/plugin.vim 
+vim vimrc 
+alias vim
+alias vi
+vi
+vi vimrc 
+vi /tmp/test.py
+vi /tmp/test.c
+vi vimrc 
+vi ~/.config/vim/modules/extra.vim 
+vim vimrc 
+vi vimrc 
+vim vimrc 
+vi vimrc 
+lf
+s
+cls
+vi /tmp/test.p
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+vi /tmp/test.py
+vi vimrc 
+proxychains4 -q vi vimrc 
+proxychains4 -q vim vimrc 
+nvim vimrc 
+vi vimrc 
+nvi vimrc 
+nvim vimrc 
+nvim ~/.config/nvim/init.lua 
+nvim vimrc 
+q
+cls
+cd ldoc/
+cls
+nvim /tmp/test.lua
+cls
+mv ordered_indexed.lua ordered_unindexed.lua 
+nvim ~/.config/nvim/lua/plugin/lsp/init.lua 
+nvim ~/.config/nvim/init.lua 
+q
+cls
+nvim test.lua 
+nvim ldoc/init.lua 
+nvim /tmp/test.pl
+q
+nvim test.lua 
+q
+cd /data/w/lua/pandoc-conv/
+cls
+..
+cls
+ls trt
+ls ttr/
+lf
+cd notes/
+cls
+nvim te
+nvim tex.lua 
+..
+find . -name README.md
+..
+find . -name README.md
+find . -name ldoc
+cd /data/dev/soda-sh/ldoc/
+cls
+t
+q
+cd /data/tmp
+take latex
+take subtitle
+nvim st.md
+pandoc --defaults ~/.config/pandoc/defaults/dracula/dracula.yaml st.md -o st.pdf 
+nvim ~/.config/pandoc/defaults/dracula/dracula.yaml
+pandoc --defaults ~/.config/pandoc/defaults/dracula/dracula.yaml st.md -o st.pdf 
+pandoc --defaults ~/.config/pandoc/defaults/dracula/dracula.yaml st.md -o st.tex
+nvim st.tex 
+q

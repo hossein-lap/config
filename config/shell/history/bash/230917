@@ -1,0 +1,572 @@
+cd .config/doom/
+nvim init.el 
+doom sync
+ls
+nvim -d packages.el /media/hos/530A-A87E/config/doom/packages.el 
+nvim config.el /media/hos/530A-A87E/config/doom/config.el 
+nvim config.el /media/hos/530A-A87E/config/doom/config.el  -d
+emacs
+emacs --debug-init
+doom sync
+emacs
+nvim init.el 
+doom sync
+emacs
+emacs --debug-init
+doom install -f
+doom install 
+doom doctor
+clear
+emacs init.el 
+sudo vi /etc/proxychains.conf 
+cd .config/
+mv emacs/ emacs.bak
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+doom install
+cp /media/hos/530A-A87E/config/emacs . -r
+rm -rf emacs
+cp /media/hos/530A-A87E/config/emacs . -r
+rm -rf emacs
+cp /media/hos/530A-A87E/config/emacs . -rfv
+doom doctor
+doom install
+rm -rf emacs
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+doom install
+yes 
+yes  | doom install
+rm -rf emacs
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+yes|doom install
+echo $?
+tmp() { sleep 5; yes|doom install; [ "${?}" = '0' ] && echo DONE || tmp }
+tmp() { sleep 5; yes|doom install; [ "${?}" = '0' ] && echo DONE || tmp; }
+while true; do yes|doom install && exit 0 || rm -rf emacs ; sleep 5; done
+yes|doom install
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+yes|doom install
+ping 4.2.2.4
+ping 1.1.1.1
+nvim templates/passmenu.sh
+sh templates/passmenu.sh -c -wm -bw 4 -l 20
+nvim templates/passmenu.sh 
+sh templates/passmenu.sh -c -wm -bw 4 -l 20
+bash templates/passmenu.sh -c -wm -bw 4 -l 20
+bash templates/passmenu.sh -c -wm -bw 4 -l 20 -p passmenu
+bash downloads/passmenu2 -c -wm -bw 4 -l 20 -p passmenu
+mv downloads/passmenu2 templates/
+cp templates/passmenu.sh templates/passmenu
+nvim templates/passmenu.sh 
+bash templates/passmenu.sh -c -wm -bw 4 -l 20 -p passmenu
+bash templates/passmenu2 -c -wm -bw 4 -l 20 -p passmenu2
+clear
+vim templates/doom-install.sh
+doom sync
+emacs
+vim templates/doom-install.sh
+templates/doom-install.sh force
+doom
+templates/doom-install.sh force
+emacs
+doom install
+nvim templates/doom-install.sh 
+templates/doom-install.sh -f
+nvim templates/doom-install.sh 
+templates/doom-install.sh -f
+nvim templates/doom-install.sh 
+templates/doom-install.sh -f
+proxychains templates/doom-install.sh -f
+apt search elementary
+ls pictures/wall/elementary/
+sudo cp pictures/wall/elementary /usr/share/backgrounds/
+sudo cp pictures/wall/elementary /usr/share/backgrounds/ -rv
+ping 4.2.2.4
+nvim templates/doom-install.sh 
+ls dev/hossein-lap/workflow/config/fontconfig/
+mkdir ~/.config/fontconfig
+cp dev/hossein-lap/workflow/config/fontconfig/fonts.conf ~/.config/fontconfig/
+no
+pidof emacs
+emacs --daemon
+cd /home/hos/.config/doom/snippets/
+take /home/hos/.config/doom/snippets/
+sudo apt search emacs
+sudo apt install emacs-lucid
+pidof emacs
+kill `pidof emacs`
+emacs
+emacs --daemon
+emacsclient -nc ../config.el 
+pidof emacs
+kill `pidof emacs`
+emacs 
+emacs /tmp/test.tex
+nvim /tmp/test.sh
+bash /tmp/test.sh 
+/tmp/test.sh 
+chmod +x /tmp/test.sh 
+/tmp/test.sh 
+cd .config/emacs
+ls
+cd ../doom/
+emacs config.el 
+cd ~/dev/primejade/hos-writings/
+ls
+alias
+alias | grep emacs
+s
+emacsclient -nc -a emacs /tmp/test.c
+reboot
+df -h
+apt search intel
+apt search nvtop
+apt search iotop
+sudo apt install nvtop iotop-c
+cd .config/doo
+cd .config/doom/
+nvim init.el n
+nvim init.el 
+apt search glx
+df -h /home
+df -h /
+xed admin:///etc/default/grub
+pm
+sudo pm
+sudo apt install gparted
+cat /proc/swaps
+swaplabel 
+nvtop
+sudo touch /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+sudo nvim /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+btop
+free -m
+lsblk
+sudo swapin /dev/nvme0n1p4
+sudo swapon /dev/nvme0n1p4
+lsblk
+htop
+sudo apt install htop
+t
+lsblk -f
+reboot
+sudo bash
+sudo update-grub
+free -m
+htop
+top
+t
+lsblk
+iotop
+sudo apt purge iotop
+btop
+free -m
+htop
+htop
+lsb_release -i -s
+lsb_release -i 
+lsb_release -s
+lsb_release -i
+lsb_release -is
+cd st
+make clean; make; sudo make install
+
+htop
+cd tabbed/
+./tabbed -r st -w ''
+./tabbed  st -w ''
+man ./tabbed.1 
+./tabbed -r 2 st -w ''
+make clean; make; ./tabbed -r 2 st -w ''
+man ./tabbed.1 
+make clean; make; ./tabbed -ck -r 2 st -w ''
+make clean; make; ./tabbed -c -k -r 2 st -w ''
+make clean; make; ./tabbed -ck -r 2 st -w ''
+make clean; make; ./st
+sudo make install
+cd ../tabbed/
+sudo make install
+nvim Makefile 
+sudo make install
+emacs Makefile 
+sudo make install
+gss 
+git diff Makefile
+git add Makefile 
+git commit 
+gss
+nvim
+nnn
+alias nnn
+nvim ~/.config/shell/aliases.sh 
+s
+nnn
+gln git@gitlab.com:hos-workflow/tabbed.git
+cd tabbed/
+ls
+rm README.md 
+git clone https://git.suckless.org/tabbed
+proxychains -q git clone https://git.suckless.org/tabbed
+proxychains git clone https://git.suckless.org/tabbed
+nnn tabbed/
+ls tabbed
+ls tabbed -a
+rm -rf tabbed
+ls
+mv README README.md
+gss
+git add .
+git commit 
+git push
+.
+..
+nvim st/config.def.h 
+nnn
+nvim tabbed/colors/{void,hybrid}.h 
+cp tabbed/colors/{void,hybrid}.h 
+nvim tabbed/colors/hybrid.h 
+ls
+cd tabbed/
+gss
+git diff config.
+git diff config.def.h
+git add .
+git commit 
+cd ../st
+gss
+gls
+fzf
+printf '%s\n' $(ls -1 | grep -v '\.o$')
+printf '%s\n' $(gss | fzf | awk '{print $NF;}')
+git add $(gss | fzf | awk '{print $NF;}')
+git commit 
+git push
+btop
+nvim st/colorschemes.h 
+nvim /home/hos/.local/state/nvim/lsp.log
+nvim st/config.def.h 
+ls
+cd tabbed/
+ls
+gls
+take patches
+wget https://tools.suckless.org/tabbed/patches/clientnumber/tabbed-clientnumber-0.6.diff
+wget https://tools.suckless.org/tabbed/patches/autohide/tabbed-autohide-20201222-dabf6a2.diff
+wget https://tools.suckless.org/tabbed/patches/hidetabs/tabbed-hidetabs-20191216-b5f9ec6.diff
+wget https://tools.suckless.org/tabbed/patches/alpha/alpha.diff
+ls
+..
+gss
+cp ../../../hossein-lap/workflow/suckless/tabbed/{../.gitignore,Makefile} .
+nvim Makefile 
+gss
+nvim .gitignore 
+ls
+gss
+git add .
+git commit 
+nvim Makefile 
+nvim ../st/Makefile 
+ls -l
+git add Makefile 
+git commit 
+git push
+proxychains git push
+git push
+ls -l
+patch -p1 < patches/alpha.diff 
+gss
+patch -p1 < patches/tabbed-hidetabs-20191216-b5f9ec6.diff 
+nvim *.rej
+git restore --source=HEAD .
+cd patches/
+wget https://tools.suckless.org/tabbed/patches/keyrelease/tabbed-keyrelease-20191216-b5f9ec6.diff
+..
+patch -p1 < patches/tabbed-keyrelease-20191216-b5f9ec6.diff 
+patch -p1 < patches/tabbed-hidetabs-20191216-b5f9ec6.diff 
+nvim *.rej
+make clean; make
+git restore --source=HEAD .
+patch -p1 < patches/tabbed-clientnumber-0.6.diff 
+gss
+git add tabbed.c 
+git commit 
+rm patches/tabbed-keyrelease-20191216-b5f9ec6.diff 
+patch -p1 < patches/tabbed-autohide-20201222-dabf6a2.diff 
+make clean; make
+man ./tabbed.1 
+./tabbed -r 2 st -w ''
+ls patches/tabbed-autohide-20201222-dabf6a2.diff 
+gss
+git add .
+git commit 
+nvim config.def.h 
+ls
+nvim ../st/config.def.h 
+cd ../st
+make clean; make; ./st
+nvim config.def.h 
+cd -
+nvim config.def.h 
+tabber -ck -r 2 st -w ''
+tabbed -ck -r 2 st -w ''
+tabbed -ck -r 2 st
+tabbed -ck -r 2 st -w ''
+gss
+gls
+git push
+cd ../st
+git diff
+clear
+ls -l
+clear
+ls -l
+make clean
+gss
+ncim stack-fig-draw.sh 
+nvim stack-fig-draw.sh 
+nvim /etc/default/grub
+emacs --daemon
+sudo apt install xcompmgr
+xcompmgr 
+sudo apt purge xcompmgr
+clear
+cd dev/primejade/hos-workflow/
+ls
+t
+cd 
+cd dev/primejade/hos-writings/golang/
+t
+t ls
+t att
+nvim dev/primejade/hos-workflow/tabbed/config.def.h 
+make clean; make; sudo make install
+cd dev/primejade/hos-workflow/tabbed/
+make clean; make; sudo make install
+sudo ./install-tl
+nvim README.md 
+pandoc -t gfb src/golang.tex -o README.md 
+pandoc -t gfm src/golang.tex -o README.md 
+cd src/
+pandoc -t gfm golang.tex -o README.md 
+nvim ../README.md 
+nvim Makefile 
+make
+nvim golang.tex 
+nvim README.md 
+make
+nvim README.md 
+make
+nvim README.md 
+make
+nvim README.md 
+make
+nvim Makefile 
+nvim src/Makefile 
+apt search panwriter
+apt search pand
+apt search pandoc
+make build
+make clean
+make build
+apt search pyg
+apt search pygmentize
+clear
+t att
+make
+nvim Makefile 
+nvim src/Makefile 
+make
+nvim README.md 
+nvim src/README.md 
+nvim src/README.md README.md 
+make
+nvim src/README.md README.md 
+echo README.md | ent
+echo README.md | entr
+sudo apt install entr
+echo filters/test | entr make
+echo filters/test.lua | entr make
+echo filters/test.lua | entr sh -c 'make >/dev/null; cat README.md'
+echo filters/test.lua | entr sh -c 'make >/dev/null; head README.md'
+echo filters/test.lua | entr sh -c 'make >/dev/null; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'make >/dev/null; clear; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'make >/dev/null; clear; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'clear; make; head -n 20 README.md >/dev/null'
+echo filters/test.lua | entr sh -c 'clear; make; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'clear; make; echo; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; make; echo; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; pandoc -s --lua-filter=../filters/test.lua  -t gfm golang.tex -o ../README.md; echo; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter=../filters/test.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 20 README.md'
+clear
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter=../filters/test.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 20 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter=../filters/test.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 15 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter ../filters/titles.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 15 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter ../filters/titles.lua --lua-filter ../filters/test.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 15 README.md'
+nvim src/golang.tex 
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter ../filters/titles.lua --lua-filter ../filters/test.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 15 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter ../filters/titles.lua --lua-filter ../filters/test.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 15 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 15 README.md'
+echo filters/test.lua | entr sh -c 'clear; date; echo; cd src; pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md; cd ..; echo; head -n 15 README.md'
+pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md
+cd src; pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md; cd ..
+nvim README.md 
+cd src; pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md; cd ..
+clear
+cd src; pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md; cd ..
+highlight README.md 
+highlight -O ansi  README.md 
+highlight -O ansi  README.md | head -n 10
+highlight -O ansi  README.md | head -n 15
+clear; cd src; pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md; cd ..; highlight -O ansi  README.md | head -n 15
+clear; cd src; pandoc -s --lua-filter ../filters/md-heading-inc.lua --lua-filter ../filters/md-title2heading.lua -t gfm golang.tex -o ../README.md; cd ..; highlight -O ansi README.md | head -n 15
+..
+cd book-template/
+nvim book-template.md 
+nvim book-template.md
+rm book-template.md
+nvim README.md 
+nvim theme.sty 
+ls
+rm _minted-book-template/-rf
+rm _minted-book-template/ -rf
+ls -l
+make clean
+ls
+take themes
+mv ../theme.sty .
+nvim gen-theme.lua
+cp ~/dev/resume/gen.lua .
+cp ~/dev/resume/palette/ .
+cp ~/dev/resume/palette/ . -r
+nvim gen.lua 
+nvim *.lua
+ls -l
+nvim palette/*.lua
+nvim filters/en-today.lua 
+nvim src/Makefile 
+nvim filters/md-*.lua
+..
+gln git@gitlab.com:hos-writings/template.git
+mv template/ book-template/
+nvim book-template/.git/config 
+alias nnn
+nnn book-template/.git/
+rm -rf book-template/
+gln git@gitlab.com:hos-writings/book-template.git
+nnn
+ls -l
+ls golang/
+ls
+cd book-template/
+ls
+..
+gln git@gitlab.com:hos-writings/pandoc-filters.git
+ls
+mv book-template/filters/*.lua pandoc-filters/ -v
+ls -l
+ls book-template/
+gln git@gitlab.com:hos-writings/pandoc-themes.git
+gln git@gitlab.com:hos-writings/latex-styles.git
+ls -l
+rm -rf golang/
+cd book-template/
+ls
+git add .
+git rm --cache .
+git rm -r --cache .
+ls -l
+ls filters/
+rmdir filters/
+rm highlight.css 
+mv Makefile Makefile.old
+mv src/Makefile .
+clear; ls -l
+ls themes/
+mv themes/* ../pandoc-themes/ -v
+rmdir themes/
+rm pdf/*
+rm pdf -rf
+ls -l
+nvim src/
+mv src/*.{tex,pdf} .
+rm -rf src/
+mv golang.tex book-template.tex
+nvim book-template.tex 
+cp ~/dev/resume/theme.sty .
+nvim book-template.
+nvim book-template.tex 
+nvim book-template.
+nvim book-template.tex
+make build
+ls -l
+make build
+nvim book-template.tex 
+ls
+ls -l
+nvim Makefile 
+nvim src/
+nvim src/golang.tex 
+zathura src/golang.pdf & disown 
+nvim src/Makefile 
+ls
+nvim README.md 
+nvim src/Makefile 
+make
+ls
+cd src/
+pandoc golang.tex -o ../README.md 
+pandoc -f gfm golang.tex -o ../README.md 
+pandoc -t gfm golang.tex -o ../README.md 
+nvim golang.tex 
+nvim ../filters/titles.lua 
+w
+nvim ../filters/titles.lua 
+bg
+nvim ../filters/titles.lua 
+grep '\<el\>' ../filters/titles.lua 
+sed -i 's/\<el\>/header/g' ../filters/titles.lua 
+nvim ../filters/titles.lua 
+nvim ../filters/test.lua 
+mv ../filters/test.lua ../filters/md-title2heading.lua
+...
+cd book-template/
+ls
+nvim Makefile
+make build
+make clean
+make build
+make clean; make build
+make build
+make build -f
+clear
+make build -f
+c;make build
+make clean
+make
+make build
+make clean
+make build
+make {clean,build}
+make clean
+make build
+xelatex book-template.tex 
+nvim Makefile
+make clean; make build
+make build
+make clean
+make build
+nvim ~/w/devops/pipeline-as-code/pres/
+nnn ~/w/devops/pipeline-as-code/pres/
+nvim ~/.local/share/nvim/site/pack/packer/start/gruvbox.nvim/lua/gruvbox/palette.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/gruvbox.nvim/lua/gruvbox/
+cd dev/primejade/hos-writings/book-template/
+t
+cd dev/primejade/hos-writings/golang/filters/
+mv md-heading-inc.lua md-heading-dec.lua 
+nvim ../src/Makefile 
+...
+ls
+apt search zathura
+apt search zathura*
+apt install zathura zathura-{cd,djvu,ps,pdf-poppler}
+apt install zathura zathura-{cb,djvu,ps,pdf-poppler}

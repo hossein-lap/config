@@ -1,0 +1,24 @@
+metadata:
+  keywords:
+    - 'English Document'
+
+verbosity: WARNING # INFO
+top-level-division: chapter # part, section
+toc: false
+number-sections: true
+
+pdf-engine: xelatex
+#highlight-style: /home/hos/.config/pandoc/highlight/monochrome.theme
+#highlight-style: /home/hos/.config/pandoc/highlight/solarized-light.theme
+highlight-style: /home/hos/.config/pandoc/highlight/hybrid-light.theme
+
+variables:
+  geometry: margin=1in
+  fontsize:  12pt
+  header-includes:
+    - \usepackage{/home/hos/.config/pandoc/defaults/english/main}
+filters:
+    - /home/hos/.config/pandoc/filters/en-today.lua
+    - /home/hos/.config/pandoc/filters/tex-quoteblock-en.lua
+#    - /home/hos/.config/pandoc/filters/tex-codeblock-mc.lua
+#    - /home/hos/.config/pandoc/filters/tex-codeblock-en.lua

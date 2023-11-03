@@ -1,0 +1,18 @@
+clear
+make
+xelatex resume.tex 
+nvim resume.
+nvim resume.tex 
+man nvim
+nvim -R resume.tex 
+q
+cd dev/resume/
+gss .
+git add .
+gls
+git commit -m 'all done (but persian is not tested yet)'
+git commit -m 'all done (but Persian is not tested yet)'
+git remote -v
+lf vid/shows/anime/
+q
+x

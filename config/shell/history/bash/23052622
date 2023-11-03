@@ -1,0 +1,123 @@
+nvim patches/dmenu-password-5.0.diff 
+q
+neofetch 
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/st
+cls
+nvim patch/
+nvim config.def.h 
+nvim ~/.config/nvim/init.lua 
+nvim config.def.h 
+nvim ~/.config/nvim/
+nvim ~/.config/nvim/lua/module/main.lua 
+nvim ~/.config/nvim/lua/scheme/init.lua 
+q
+cd /data/dev/hossein-lap/config/
+gss .
+cls
+gls
+cls
+git restore --source=HEAD scope 
+lf ~/pic/
+q
+lf 
+lf ~/pic
+lf ..
+q
+lf pic/
+q
+lf .config/lf/
+q
+proxychains4 -q newsboat
+newsboat
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.dc
+nvim config.def.h
+make clean; make; sudo make install
+nvim ~/.config/shell/{zshrc,bashrc}
+q
+make clean; make; sudo make install
+dmenu -c -p password -P < /dev/null
+make clean; make; sudo make install
+dmenu -c -p password -P < /dev/null
+make clean; make; sudo make install
+dmenu -c -p password -P < /dev/null
+make clean; make; sudo make install
+dmenu -c -p password -P < /dev/null
+dmenu -c -bw 2 -p password -P < /dev/null
+dmenu -p password -P < /dev/null
+dmenu -p password -t sudo -P < /dev/null
+make clean; make; sudo make install
+dmenu -p password -t sudo -P < /dev/null
+make clean; make; sudo make install
+dmenu -p password -t (sudo) -P < /dev/null
+dmenu -p password -t '(sudo)' -P < /dev/null
+rm patches/dmenu-password-4.* -fv
+cls
+cl
+rm *.{rej,orig} -fv
+gss .
+git add .
+git commit -m 'applied dmenu-password-5.0.diff patch'
+make clean; make; sudo make install
+dmenu -p password -t '(sudo)' -P < /dev/null
+cd ../dwm/
+make clean; make; sudo make install
+cls
+s
+cls
+git diff .
+nvim config.def.h
+make clean; make; sudo make install
+ls -l | dmenu -p test -P -l 25
+ls -l | dmenu -l 25 -p test -P
+git restore --source=HEAD .
+make clean; make; sudo make install
+ls -l | dmenu -l 25 -p test -P
+ls -l | dmenu -l 25 -p test
+ls -l | dmenu -l 25 -p test -t test
+cls
+nvim dmenu.1
+git restore --source=HEAD .
+cd patches/
+rawfetch.sh https://tools.suckless.org/dmenu/patches/password/dmenu-password-4.9.diff
+..
+patch -p1 < patches/dmenu-password-4.9.diff 
+nvim *.rej
+make clean; make
+./dmenu -P < /dev/null
+git resore --source=HEAD .
+git restore --source=HEAD .
+patch -p1 < patches/dmenu-password-4.9.diff 
+nvim dmenu.c
+nvim dmenu.c.rej 
+rm *.rej -fv
+git restore --source=HEAD .
+gss .
+patch -p1 < patches/dmenu-password-4.9.diff 
+nvim *.rej
+git restore --source=HEAD .
+nvim patches/dmenu-password-4.9.diff 
+nvim -d patches/dmenu-password-*
+cd patches/
+rawfetch.sh https://tools.suckless.org/dmenu/patches/password/dmenu-password-4.7.diff
+nvim -d dmenu-password-4.7.diff dmenu-password-5.0.diff 
+..
+gss .
+patch -p1 < patches/dmenu-password-5.0.diff 
+nvim *.rej
+make clean; make
+./dmenu -P 
+./dmenu -P < /dev/null
+./dmenu -P -p test < /dev/null
+ls -l | ./dmenu -P -p test -l 20
+clear
+nvim config.def.h
+make clean; make; sudo make install
+dmenu -c -p password -P < /dev/null
+dmenu -p password -P < /dev/null
+nvim config.def.h
+nvim patches/dmenu-password-5.0.diff 
+nvim config.def.h
+q

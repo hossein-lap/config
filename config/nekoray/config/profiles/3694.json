@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "all.vpncustomize.cam",
+        "name": "رایگان | VLESS | @vmess_vless_v2rayng | CR🇨🇷 | 0️⃣1️⃣",
+        "pass": "c7b61c68-2ee6-4299-95ac-1c28697643fc",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@VPNCUSTOMIZE",
+            "sec": "tls",
+            "sni": "QvssvpfpV2ray-Soyosha-IranCCrl-mcisk-mtn-mciaoaovpn.SNAPP.monster"
+        }
+    },
+    "gid": 3,
+    "id": 3694,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,100 @@
+nvim `which xrate.sh`
+xbps-query -l | fzf -m -r
+xbps-query -l | fzf -m --reverse
+fzf -i -m \
+			--reverse \
+			--border=sharp \
+			--info=inline \
+			--prompt=: \
+			--marker=* \
+			--header=${prompt} --header-first
+fzf -i -m --reverse --border=sharp --info=inline --prompt=: --marker=* --header='xbps-query -l' --header-first
+xbps-query -l | fzf -i -m --reverse --border=sharp --info=inline --prompt=: --marker=* --header='xbps-query -l' --header-first
+xbps-query -l | fzf -i -m --reverse --border=sharp --info=inline --prompt=: --marker=* --header=xbps-query --header-first
+xbps-query -l | fzf -i -m --reverse --border=sharp --info=inline --prompt=: --marker=* --header=xbps-query --header-first | awk '{print $2;}'
+xbps-query -l | sed 's/        //' | fzf -i -m --reverse --border=sharp --info=inline --prompt=: --marker=* --header=xbps-query --header-first | awk '{print $2;}'
+xbps-query -l | sed 's/                        //' | fzf -i -m --reverse --border=sharp --info=inline --prompt=: --marker=* --header=xbps-query --header-first | awk '{print $2;}'
+xbps-query -l | sed 's/                    //' | fzf -i -m --reverse --border=sharp --info=inline --prompt=: --marker=* --header=xbps-query --header-first | awk '{print $2;}'
+man xbps-query 
+xbps-query -Rs slides
+xbps-query -Rs slide
+xbps-query -R slide
+xbps-query -R helix
+xbps-query -Rs helix
+sudo xbps-install helix
+hx
+take .config/helix
+hx config.toml
+nano config.toml
+nvim config.toml
+hx config.toml
+c
+hx config.toml
+hx /tmp/test.c
+nvim /tmp/test.tex
+hx /tmp/test.tex
+hx config.toml
+hx /tmp/test.tex
+hx /tmp/test.c
+hx config.toml 
+hx /tmp/test.c
+nano /tmp/test.c
+nvim /usr/share/nano/default.nanorc 
+find / -iname '*nano*' 2>/dev/null
+q
+man setxkbmap
+q
+xbps-query -l
+xbps-query -l | fzf
+xbps-query -l | fzf -m | awk '{print $2;}' 
+xbps-query -l | wc -l
+xbps-query -l | fzf -m | awk '{print $2;}' 
+man fzf
+dmkill.sh -h
+dmkill.sh -t tui
+dmkill.sh -s tui
+nvim `which dmkill.sh`
+nvim xbps-clean.sh
+awk -F '-' '{print $NF;}' void_clean 
+awk -F '-' '{print $NF;}' void_clean | lss 
+awk -F '-' '{print $NF;}' void_clean | less 
+sudo xbps-remove -o
+sudo xbps-remove -Rs `cat void_clean`
+sudo xbps-remove -R `cat void_clean`
+man xbps-remove
+sudo xbps-remove -R `cat void_clean` | awk '{print $NF;}' | sed 's/`//g' | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $NF;}' | sed 's/`//g' | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $NF;}' | sed 's/`//g;s/'//g' | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $NF;}' | sed 's/`//g;s///g' | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $NF;}' | sed 's/`//g;s/\'//g' | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $NF;}' | sed "s/`//g;s/'//g" | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $NF;}' | sed -e "s/`//g" -e "s/'//g" | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $NF;}' | sed -e 's/`//g' -e "s/'//g" | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $1;}' | sed -e "s/`//g" -e "s/'//g" | sort -u
+sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $1;}' | sed -e 's/`//g' -e "s/'//g" | sort -u
+for i in `sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $1;}' | sed -e 's/`//g' -e "s/'//g" | sort -u`; do sed "s/${i}//" void_clean; clean; grep -c ${i} void_clean; sleep 1; done
+for i in $(sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $1;}' | sed -e 's/`//g' -e "s/'//g" | sort -u); do sed "s/${i}//" void_clean; clean; grep -c ${i} void_clean; sleep 1; done
+for i in $(sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $1;}' | sed -e 's/`//g' -e "s/'//g" | sort -u); do sed "s/${i}//" void_clean; clear; grep -c ${i} void_clean; sleep 1; done
+for i in $(sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $1;}' | sed -e 's/`//g' -e "s/'//g" | sort -u); do clear; sed "s/${i}//" void_clean | grep -c ${i}; sleep 1; done
+for i in $(sudo xbps-remove -R `cat void_clean` 2>&1 | awk '{print $1;}' | sed -e 's/`//g' -e "s/'//g" | sort -u); do sed -i "s/${i}//" void_clean; done
+nvim void_clean 
+sudo xbps-remove -R `cat void_clean`
+xbps-query -l | grep gnups
+xbps-query -l | grep gnupg
+sudo xbps-remove -o
+xbps-query -Rs rust
+xbps-query -Rs rust | less -SR
+cls
+xbps-query -Rs rust | less -SR
+sudo xbps-install ytop
+ytop
+cls
+ls Downloads/
+ls Desktop/
+rmdir Downloads/ Desktop/
+cls
+find / -name '*nano*' 2>/dev/null
+c; find / -name '*nanorc' 2>/dev/null
+c; find / -name '*nanorc' 2>/dev/null | less -SR
+cp /usr/share/examples/nano/sample.nanorc ~/.config/nano/nanorc.rc
+lf .config/

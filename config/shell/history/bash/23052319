@@ -1,0 +1,66 @@
+docker pull redi
+docker pull redis
+cd /data/w/devops/voting-app-ol/
+cls
+docker compose up
+cls
+nvim .
+lf
+cls
+q
+cls
+s
+cls
+lf
+nvim .
+lf
+nvim
+vim
+nvim /tmp/t.txt
+lf
+cls
+lazygit 
+take /tmp/git
+touch tmp
+echo 1 > tmp
+cls
+nvim .
+nvim 
+nvim .
+nvim tmp 
+زمس
+cls
+nvim .
+q
+cd /data/w/devops/
+cls
+mv voting-app-ol/ voting-app
+cd voting-app/
+t
+q
+docker compose up
+xbps-query -Rs brave
+xbps-query -Rs libewolf
+xbps-query -Rs librewolf
+docker pull redis
+docker run hello-world
+proxychains4 -q docker pull redis
+cd /etc/docker/
+cls
+sudo bash
+pwd
+cls
+cd ~/.config/nvim/mod
+cd ~/.config/nvim/lua/module/
+cls
+nvim netrw.lua 
+nvim ~/.config/nvim/ 
+..
+nvim ini
+..
+nvim init.lua 
+nvim .
+nvim lua/plugin/init.lua 
+lf
+lf lua/plugin/nvimtree/
+q

@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "162.159.136.38",
+        "name": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
+        "pass": "96238469-713a-42ae-8093-ee6c20665aae",
+        "port": 2053,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "sec": "tls",
+            "sni": "kfkjhkuyg.mic-mokhaderat-irancell-shatel-irancel.shop"
+        }
+    },
+    "gid": 1,
+    "id": 7102,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,402 @@
+vim --version | grep fold
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-sunbather/colors/sunbather.vim 
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-256noir/colors/256_noir.vim 
+nvim .config/nvim/lua/module/extra.lua 
+nvim .config/nvim/lua/module/keybind.lua 
+nvim .config/vim/modules/netrw.vim 
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-256noir/colors/256_noir.vim 
+nvim
+vi /tmp/test.py
+s
+vi /tmp/test.py
+xbps-query -Rs flake
+vi .vim/modules/plugin.vim 
+vi /tmp/test.py
+vi .vim/modules/plugin.vim 
+vi /tmp/test.py
+vi .vim/modules/plugin.vim 
+vi /tmp/test.py
+vi .vim/modules/plugin.vim 
+vi .vim/vimrc 
+vi .vim/modules/plugin.vim 
+cls
+c
+vi .vim/modules/plugin.vim 
+vi /tmp/test.py
+find / -name vim 2>/dev/null
+find / -name vim 2>/dev/null | grep -v '/home/hos\|/data/'
+cd /usr/share/vim/vim90/colors/
+cls
+vi default.vim 
+cl
+lf
+s
+vi /tmp/test.py
+vi /tmp/test.lua
+vi ~/.config/vim/modules/extra.vim 
+lf ~/.config/vim
+pwd
+cd ~/.vim
+vi vimrc 
+lf ~/.config/vim/modules/
+vi /tmp/test.lua
+vi /tmp/test.c
+s
+vi /tmp/test.c
+vi /tmp/test.py
+vi /tmp/test.c
+q
+vi
+q
+bash-language-server 
+vi /tmp/test.py
+vi /tmp/test.c
+vi /data/dev/hossein-lap/workflow/suckless/st/config.def.h 
+s
+vi /data/dev/hossein-lap/workflow/suckless/st/config.def.h 
+vi /data/dev/hossein-lap/workflow/suckless/st/st.c
+vi /data/dev/hossein-lap/workflow/suckless/st/st.h
+vi /tmp/test.cpp
+vi /tmp/test.sh
+vi /tmp/test.cpp
+vi /tmp/test.c
+vi /tmp/test.sh
+vi /tmp/test.c
+vi /tmp/test.sh
+vi /tmp/test.c
+vi /tmp/test.sh
+vi /tmp/test.tex
+vi /tmp/test.sh
+\
+vi /tmp/test.sh
+vi /tmp/test.c
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+nvim /data/dev/hossein-lap/workflow/nvim/init.lua 
+nvim ~/.config/nvim/init.lua 
+cd /data/dev/hossein-lap/suckless/st
+make clean; make; sudo make install             
+c
+ip -c a
+nvim ~/.config/shell/aliases.sh 
+s
+cls
+ip a
+c
+ip a
+c
+ip a
+nvim `which imstring.sh`
+imstring.sh 
+imstring.sh -i 'نمونه شماره یک' -fn 'Vazir' -ps 400 -o /tmp/test.png
+magick -list -f
+magick -list font
+magick -list font | grep -i vazir
+imstring.sh -i 'نمونه شماره یک' -fn 'Vazir-Regular' -ps 400 -o /tmp/test.png
+r.sh nsxiv /tmp/test.png 
+imstring.sh -i 'نمونه شماره یک' -fn 'Vazir-Regular' -ps 40 -o /tmp/test.png
+imstring.sh 
+imstring.sh -i 'نمونه شماره یک' -fn 'Vazir-Regular' -ps 40 -o /tmp/test.png -g 5
+imstring.sh -i 'نمونه شماره یک' -fn 'Vazir-Regular' -ps 40 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک' -fn 'Yas' -ps 40 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک' -fn 'Yas' -ps 90 -o /tmp/test.png -g 1
+clear
+imstring.sh -i 'نمونه شماره یک' -fn 'Yas' -ps 90 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک 123' -fn 'Yas' -ps 90 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Yas' -ps 90 -o /tmp/test.png -g 1
+c
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Yas' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular -direction right-to-left ' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+c
+ims
+imstring.sh 
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e '-direction right-to-left'
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e '-direction lef'
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e '-direction right-to-left'
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e 'right-to-left'
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e 'right-to-left'
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e '-direction right-to-left'
+c
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e '-direction right-to-left'
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e '-direction right-to-left'
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800 -e '-direction right-to-left'
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+c
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+nvim `which imstring.sh`
+convert -gravity Center -size 200x200 -fill black -font Arial -pointsize 50 pango:"سلام" /tmp/test.png 
+nvim `which imstring.sh`
+convert -gravity Center -size 200x200 -fill black -font Arial -pointsize 50 pango:"سلام" /tmp/test.png 
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک' -fn 'Vazir' -ps 400 -o /tmp/test.png
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک' -fn 'Vazir' -ps 400 -o /tmp/test.png
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 1 -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -g 0 -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -w 800 -l 800
+c
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 90 -o /tmp/test.png -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 80 -o /tmp/test.png -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 60 -o /tmp/test.png -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -w 800 -l 800
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -w 800 -l 800 -g 0
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -w 800 -l 800 -g 0.1
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -w 800 -l 800 -g 1
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 0
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 50 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 1
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+c
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i 'Such a Life!' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i 'Such a Life!' -ps 70 -o /tmp/test.png -g 2
+nvim `which imstring.sh`
+imstring.sh -i 'Such a Life!' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -trl
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -rtl
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -rtl
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -rtl
+nvim `which imstring.sh`
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+nvim `which imstring.sh`
+c
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i 'نمونه شماره یک ۱۲۳۰' -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -rtl
+echo نمونه شماره یک ۱۲۳۴۰
+echo نمونه شماره یک ۱۲۳۴۰ > /tmp/fa.txt
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+nvim /tmp/fa.txt
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 70 -o /tmp/test.png -g 2
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 20 -o /tmp/test.png -g 2
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 20 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 10 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 15 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 15 -o /tmp/test.png -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 15 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 15 -o /tmp/test.png -g 3 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Vazir-Regular' -ps 15 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Yas' -ps 15 -o /tmp/test.png -g 2 -rtl
+imstring.sh -i @/tmp/fa.txt -fn 'Yas' -ps 15 -o /tmp/test.png -g 2 -rtl -bg none
+imstring.sh -i @/tmp/fa.txt -fn 'Yas' -ps 15 -o /tmp/test.png -g 2 -rtl -bg none -w 800 -l 800
+imstring.sh -i @/tmp/fa.txt -fn 'Yas' -ps 35 -o /tmp/test.png -g 2 -rtl -bg none -w 800 -l 800
+imstring.sh -i @/tmp/fa.txt -fn 'Yas' -o /tmp/test.png -g 2 -rtl -bg none -w 800 -l 800 -ps 20
+imstring.sh -i @/tmp/fa.txt -fn 'Yas' -o /tmp/test.png -g 2 -rtl -bg none -w 800 -l 800 -ps 25
+imstring.sh -i @/tmp/fa.txt -fn 'Yas' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 -
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel-Regular' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 -
+convert -list font
+convert -list font | grep -i sahel
+convert -list font | less -SR
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 -
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 
+vi /tmp/fa.txt 
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 
+vi /tmp/fa.txt 
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 
+vi /tmp/fa.txt 
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 
+imstring.sh -i @/tmp/fa.txt -fn 'Sahel' -o /tmp/test.png -g 2 -rtl -w 800 -l 800 -ps 25 -bg none
+imstring.sh -l 800 -w 800 -bg black -e '-alpha set -channel Alpha -evaluate set 50%' -o /tmp/bg.png
+r.sh nsxiv /tmp/bg.png
+take /data/w/im/texture
+nvim text.sh
+cp /tmp/fa.txt text.txt
+cls
+mv text.sh gen-text.sh
+nvim gen-bg.sh gen-merged.sh
+imalpha.sh 
+imalpha.sh -i bg.png -o bg.png -p 10
+imalpha.sh -i bg.png -o bg.png -p 50
+r.sh nsxiv .
+cls
+sh gen-text.sh 
+cls
+r.sh nsxiv . 
+magick bg.png text.png -compose copy-alpha -composite merged.png
+r.sh nsxiv . 
+imappend.sh 
+nvim `which imappend.sh `
+nvim *.sh
+cls
+nvim gen-img.sh gen-bg.sh 
+cls
+nvim Makefile
+chmod -v +x *.sh
+make
+nvim Makefile 
+cls
+nvim *.sh
+cls
+nvim gen-bg.sh 
+nvim gen-merged.sh 
+xbps-query -Rs --regex 'abduco\|dvtm'
+xbps-query -R --regex 'abduco\|dvtm'
+xbps-query -s -R --regex 'abduco\|dvtm'
+xbps-query --regex -Rs 'abduco\|dvtm'
+xbps-query --regex -Rs 'abduco'
+xbps-query --regex -Rs 'dvtm'
+xbps-query --regex -Rs 'dvt.'
+xbps-query --regex -Rs 'd.*m'
+xbps-query --regex -Rs 'dv.*m'
+xbps-query --regex -Rs 'dvt.*m'
+abduco 
+nvim ~/.config/nvim/lua/module/main.lua 
+dvtm
+alias dvtm
+echo $TERM
+dvtm
+cls
+xbps-query -Rs checkbash
+xbps-query -Rs lacheck
+xbps-query -Rs chtex
+xbps-query -Rs chktex
+vi
+nvim /data/dev/hossein-lap/vim-colors/vim-sunbather/colors/sunbather.vim 
+nvim .config/nvim/init.lua 
+nvim /data/dev/hossein-lap/vim-colors/vim-sunbather/colors/sunbather.vim 
+xbps-query -Rs jp2a
+xbps-query -Rs ascii
+xbps-query -Rs ascii | fzf -m --reverse | awk '{print $2;}'
+nvim ascii-pkgs.txt
+sudo xbps-install -S jp2a
+jp2a
+cd pi
+cd pic
+lf
+nsxiv -o .
+convert tmpfg.png tmpdraw.jpg
+jp2a tmpdraw.jpg 
+man jp2a
+nsxiv tmpdraw.jpg 
+jp2a tmpdraw.jpg --height 10
+jp2a tmpdraw.jpg --height=10
+nsxiv -o .
+jp2a wallpaper-20230615-005455.png --height=10
+wget https://wiki.installgentoo.com/images/thumb/0/0a/Freebsd.png/600px-Freebsd.png
+cls
+jp2a --height=10 600px-Freebsd.png 
+wget https://cdn.freebiesupply.com/logos/large/2x/freebsd-logo-png-transparent.png
+proxychains4 -q wget https://cdn.freebiesupply.com/logos/large/2x/freebsd-logo-png-transparent.png
+jp2a --height=10 freebsd-logo-png-transparent.png 
+jp2a --height=10 600px-Freebsd.png 
+jp2a --height=10 600px-Freebsd.png -i
+jp2a --height=10 freebsd-logo-png-transparent.png -i
+jp2a --height=10 freebsd-logo-png-transparent.png 
+cp freebsd-logo-png-transparent.png draw.tmp.png
+imcolor.sh 
+imcolor.sh -i draw.tmp.png -f red -r black -o draw-tmp.jpg -p 80
+r.sh nsxiv draw-tmp.jpg 
+jp2a --height 10 draw-tmp.jpg 
+jp2a --height=10 draw-tmp.jpg 
+jp2a --height=10 draw-tmp.jpg -i
+cp draw.tmp.png draw-tmp.jpg
+cp freebsd-logo-png-transparent.png draw.tmp.png 
+r.sh nsxiv draw-tmp.jpg 
+imcolor.sh -i draw.tmp.png -f red -r black -o draw-tmp.jpg -p 80
+nsxiv freebsd-logo-png-transparent.png 
+nsxiv 600px-Freebsd.png 
+imcolor.sh -i 600px-Freebsd.png -f red -r black -o draw-tmp.jpg -p 80
+cp 600px-Freebsd.png draw.tmp.png 
+imcolor.sh -i draw.tmp.png -f red -r black -o draw-tmp.jpg -p 80
+jp2a --height=10 draw-tmp.jpg -i
+jp2a --height=10 draw-tmp.jpg
+imcolor.sh -i draw.tmp.png -f red -r black -o draw-tmp.jpg -p 90
+imcolor.sh -i draw.tmp.png -f red -r black -o draw-tmp.jpg -p 100
+c
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 80
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 50
+imcolor.sh -i draw.tmp.png -r red -f black -o draw.tmp.jpg -p 80
+jp2a --height=10 draw-tmp.jpg
+jp2a --height=10 draw-tmp.jpg -i
+imcolor.sh -i draw.tmp.png -r red -f black -o draw.tmp.jpg -p 50
+jp2a --height=10 draw.tmp.jpg -i
+jp2a --height=10 draw.tmp.jpg 
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 50
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 10
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 20
+jp2a --height=10 draw-tmp.jpg 
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 40
+jp2a --height=10 draw-tmp.jpg 
+jp2a --height=11 draw-tmp.jpg 
+jp2a --height=11 draw-tmp.jpg  | cat -n
+jp2a --height=12 draw-tmp.jpg  | cat -n
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 10
+jp2a --height=12 draw-tmp.jpg
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 20
+jp2a --height=12 draw-tmp.jpg
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 25
+jp2a --height=12 draw-tmp.jpg
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 40
+jp2a --height=12 draw-tmp.jpg
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 80
+jp2a --height=12 draw-tmp.jpg
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 50
+jp2a --height=12 draw-tmp.jpg
+imcolor.sh -i draw.tmp.png -r red -f black -o draw-tmp.jpg -p 60
+jp2a --height=12 draw-tmp.jpg
+neofetch --ascii_distro freebsd
+wget -O fbsd-outline https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hR2z8HUedA9FHMgCoBYM5QHaHa%26pid%3DApi&f=1&ipt=9fee6a49b544963a7d47458fa3635739ca4b42017fc9a377dc11025e383ea2c2&ipo=images
+wget -O fbsd-outline https://www.jing.fm/clipimg/detail/154-1548301_clipart-of-freebsd-2d-png-and-freebsd-icon.png
+mv fbsd-outline fbsd-outline.png
+r.sh nsxiv fbsd-outline.png 
+c
+imcolor.sh -i fbsd-outline.png -r red -f white -o draw-tmp.jpg -p 60
+imcolor.sh -i fbsd-outline.png -r red -f white -o draw-tmp.jpg -p 50
+jp2a -i --height=12 draw.tmp.
+jp2a -i --height=12 draw.tmp.png 
+wget https://res.cloudinary.com/teepublic/image/private/s--MNX7kl54--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1493405360/production/designs/1537466_1.jpg
+r.sh nsxiv 1537466_1.jpg 
+imcolor.sh -i 1537466_1.jpg -r red -f white -o draw-tmp.jpg -p 50
+convert draw-tmp.jpg draw-tmp.png
+imalpha.sh draw-tmp.png 
+r.sh nsxiv draw-tmp.*
+jp2a draw-tmp.png 
+jp2a draw-tmp.png --height=12
+imshadow.sh draw-tmp.png 
+jp2a draw-tmp.png --height=12
+imcolor.sh -i draw-tmp.png -r none -f white -o draw-tmp.jpg -p 50
+jp2a draw-tmp.jpg 
+jp2a draw-tmp.jpg -i
+nvim draw-tmp.sh
+imcolor.sh -i draw-tmp.png -r none -f white -o draw-tmp.jpg -p 50
+jp2a --height=12 draw-tmp.jpg 
+jp2a --height=12 draw-tmp.jpg -i
+jp2a --height=12 draw-tmp.png 
+jp2a --height=12 draw-tmp.png -i
+nvim draw-tmp.sh
+q
+cd /tmp
+cls
+s
+cls
+lf
+q
+lf screen/record/
+nvim .vim/vimrc 
+vi
+nvim .vim/vimrc 
+x

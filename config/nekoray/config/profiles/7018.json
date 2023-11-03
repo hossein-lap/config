@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "95.216.161.81",
+        "name": "رایگان | REALITY | @ipV2Ray | FI🇫🇮 | 0️⃣2️⃣",
+        "pass": "04ba3531-57a5-4ef6-aba5-971867e3c9e4",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@ipV2Ray",
+            "pbk": "NlztKGcarhgMZABttaDayS_pnc6AKmGio_r06pB1yhQ",
+            "sec": "tls",
+            "sid": "0e596c3b",
+            "sni": "ftp.debian.org",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 1,
+    "id": 7018,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

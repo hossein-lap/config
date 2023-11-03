@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "m2rel.siasepid.sbs",
+        "name": "رایگان | REALITY | @V2rayNGmat | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "856e8298-3805-4011-9156-a926c94e9640",
+        "port": 446,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@V2rayNgMat,@V2rayNgMat",
+            "pbk": "EOJ7g8MfowwlpZg3D4dXwI_wGpluzU8HCznSRE-h200",
+            "sec": "tls",
+            "sid": "7d6e3cf8",
+            "sni": "tgju.org",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7042,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,405 @@
+neofetch 
+alias neofetch
+neofetch --ascii_distro mint_small
+neofetch --ascii_distro linuxmint_small
+unalias neofetch 
+neofetch 
+nvim ~/.config/shell/aliases.sh 
+which sh
+ls -l `which sh`
+nvim ~/.config/shell/aliases.sh 
+highlight -O ansi ~/.config/shell/aliases.sh 
+highlight -O term ~/.config/shell/aliases.sh 
+highlight -O xterm ~/.config/shell/aliases.sh 
+highlight -O xterm256 ~/.config/shell/aliases.sh 
+highlight -O ansi ~/.config/shell/aliases.sh 
+neofetch 
+nvim ~/.config/neofetch/config.conf 
+nvim ~/.config/shell/bashrc
+s
+apt search freefonts
+apt search freefont
+nvim /tmp/test.py 
+fc-list | grep -i noto | grep -o serif
+fc-list | grep -i noto | grep -i serif
+apt search notto
+apt search noto
+apt search devaju
+apt search dejavu
+fc-list | grep -i dejavu | grep -i serif
+sudo apt install fonts-noto-core
+clear
+vim 
+vi
+highlight -O ansi /tmp/test.py 
+vi /tmp/test.py 
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.py -/tmp/test.c -O
+nvim /tmp/test.py /tmp/test.c -O
+make build
+make clean
+xelatex src/book-template.tex 
+cd src/
+xelatex book-template.tex 
+free -m
+htop
+fc-list | grep -i serif
+fc-list | grep -i serif | grep -vi 'source\|free\|liber'
+texdoc minted
+fc-list | grep -i brains
+fc-list | grep -i jetbr
+apt search jenbrain
+apt search jetbrain
+sudo apt install fonts-jetbrains-mono
+fc-list | grep -i jetbr
+fc-list | grep -i jetbr | grep -i regular
+clear
+fc-list | grep -i jetbr | grep -i regular | less -SR
+texdoc listings
+s
+c;s
+nvim .config/nvim/lua/plugin/init.lua 
+nvim
+nvim /tmp/test.sh
+nvim /tmp/test.perl
+nvim /tmp/test.pl
+nvim /usr/share/nvim/runtime/lua/vim/lsp/rpc.lua:637
+nvim /usr/share/nvim/runtime/lua/vim/lsp/rpc.lua -637
+man nvim
+nvim /usr/share/nvim/runtime/lua/vim/lsp/rpc.lua +637
+perlnavigator 
+nvm ls-remote 
+nvm install v18.18.0
+npm
+node -v
+ls -l
+cd dev/primejade/
+ls -l
+cd hos-writings/
+ls -l
+..
+mv hos-writings/ hos-docs
+cd hos-docs/
+ls
+git remote
+git remote -v
+cd book-template/
+git remote -v
+nvim */.git/config
+ls -l
+..
+nvim */.git/config
+cd -
+gss
+git pull
+ls -l themes/
+git add themes/
+git commit -m 'create themes'
+git push
+nvim configure.pl
+nvim ~/.config/nvim/lua/plugin/lsp/init.lua 
+nvim ~/.config/nvim/lua/plugin/mason/init.lua 
+nvim configure.pl
+cd ~/.config/nvim/lua/plugin/lsp/
+ls
+nvim init.lua 
+nvim
+nvim bashls.lua 
+nvim init.lua 
+nvim /tmp/test.sh
+nvim init.lua 
+nvim ../mason/init.lua 
+nvim init.lua 
+nvim ../mason/init.lua 
+nvim /tmp/test.sh
+npm update self
+nvim /tmp/test.sh
+nvim bashls.lua 
+nvim /tmp/test.sh
+bash-language-server 
+perlnavigator 
+s
+perlnavigator 
+nvim /tmp/test.sh
+nvim /tmp/test.pl
+nvim init.lua 
+nvim /tmp/test.pl
+nvim /tmp/test.sh
+s
+nvm ls-remote 
+nvm install v20.7.0
+s
+perlnavigator 
+bash-language-server 
+lua-language-server 
+apt search pyright
+n,p
+npm
+nvim
+apt search lsp
+clear; apt search lsp | less -SR
+apt search texlab
+apt search perl
+apt search perl | less
+ls -l
+nvim -c ':healthcheck'
+take .config/nvim/lua/plugin/treesitter/
+nvim context.lua
+...
+nvim module/extra.lua 
+ls -l
+vim ~/.vim/modules/status.vim 
+nvim ~/.vim/modules/status.vim 
+nvim
+g++
+nvim .bashrc
+take /tmp/test
+git init
+nvim test.txt
+git add .
+git commit --no-gpg-sign -m 'init commit'
+glg
+alias gls
+gls
+clear; ls
+c
+ls ../test*
+gss
+mv ../test.* .
+gss
+git add .
+git commit --no-gpg-sign -m 'second commit'
+ls -l
+gls
+git switch -C devel
+nvim test.c
+nvim test.p
+nvim test.py
+gss .
+gls
+git add .
+git commit --no-gpg-sign -m 'third commit from `devel` branch'
+gls
+git switch master
+git merge devel
+gls
+glg
+git reset --hard 6b74995
+gls
+glg
+git switch -C test
+ls -l
+nvim test.rs
+ls -l
+glg
+gls
+alias gls
+alias glg
+gss
+ls -l
+c
+nvim test.pl
+gss
+git add .
+gls
+git branch
+git commit --no-gpg-sign -m 'first commit in `test` branch'
+glg
+ls -l
+nvim test.sh
+git add .
+git commit --no-gpg-sign -m 'second commit in `test` branch'
+gl
+gls
+git switch master
+nvim test.tex
+git add test.tex 
+gls
+git commit --no-gpg-sign -m 'third commit in `master` branch'
+gls
+git switch devel
+ls -l
+nvim test.txt
+git commit -a --no-gpg-sign -m 'second commit in `devel` branch'
+gls
+git switch master
+gls
+git switch devel
+git merge test
+git merge --no-gpg-sign test
+ls -l
+gss
+git commit --no-gpg-sign -m 'Merge branch `test` into `devel'
+git commit --no-gpg-sign --amend -m 'Merge branch `test` into `devel`'
+gls
+git switch master
+git merge devel
+gss
+git commit --no-gpg-sign -m 'Merge branch `devel`'
+gls
+clear; 
+gls
+clear
+alias gls
+clear
+git log --oneline --all --graph
+git switch devel
+git log --oneline --all --graph
+nvim
+nvim test.rs
+take rust
+cargo
+cargo init
+ls -l
+nvim src/main.rs 
+..
+nvim test.rs 
+nvim rust/src/main.rs 
+s
+nvim test.rs 
+nvim rust/src/main.rs 
+ls -l
+nvim test.ts
+nvim test.rs
+nvim rust/src/main.rs 
+ls -l
+gss
+cd rust/
+ls
+ls -l
+cargo build
+nvim src/main.rs 
+cargo build
+ls -l
+ls target/
+ls target/debug/
+du -h .
+..
+uptime
+btop
+htop
+clear
+uptime
+free -m
+free -h
+btop
+take templates/src2pic
+nvim test.c
+nvim ~/.config/nvim/lua/module/skel.lua 
+nvim test.c
+rm test.c 
+nvim test.c
+nnn ~/videos/MyTube/
+nodejs -v
+nvim /tmp/test.p
+nvim /tmp/test.py
+s
+nvim /tmp/test.py
+cargo
+zsh
+clear
+zsh
+nvim .zshrc
+zsh
+nvim .zshrc
+zsh
+apt search shellcheck
+apt install shellcheck
+c;s
+cd .config/nvim
+nvim init.lua lua/plugin/init.lua 
+apt search perl
+apt search perlnav
+apt search perl-nav
+apt search perl:nav
+apt search perl::nav
+nvim init.lua lua/plugin/init.lua 
+npm search bash-language-server
+rm ~/.local/share/nvim/mason/ -rf
+nvim
+vim lua/plugin/mason/init.lua 
+nvim lua/plugin/lsp-2/init.lua 
+vim lua/plugin/mason/init.lua 
+nvim lua/plugin/lsp-2/init.lua 
+nvim lua/plugin/lsp-2/init.lua +245
+nvim lua/plugin/lsp-2/init.lua
+grep LspInfo lua/plugin/*/*.lua
+grep LspInfo lua/module/*/*.lua
+grep LspInfo lua/module/*.lua
+nvim nvim lua/module/keybind.lua 
+mv lua/module after/plugin/
+vim init.lua 
+nvim nvim lua/module/keybind.lua 
+cd after/
+ls -l
+cd plugin/module/
+ls -l
+rm *.lua~ -fv
+ls *.lua
+basename
+ls -l | basename
+ls | basename
+ls | basename -
+basename `ls`
+ls rce.lua | basen
+ls rce.lua | basename 
+echo rce.lua | basename 
+basename rce.lua 
+man basename
+basename rce.lua .lua
+for i in `ls *.lua`; do $(basename "${i}" .lua); mkdir -v "${j}"; mv -v "${i}" "${j}/init.lua"; done
+ls -l
+for i in `ls *.lua`; do j=$(basename ${i} .lua); mkdir -v ${j}; mv -v ${i} ${j}/init.lua; done
+ls -l
+mv main/ netrw/ helper/ ../../../lua/
+mv main/ netrw/ helper/ ../../../lua/
+cd ../../../lua/
+nvim
+ls -l
+ls helper/
+nvim helper/init.lua 
+ls -l
+nvim ../init.lua 
+..
+nvim lua/plugin/undotree/init.lua 
+grv
+gss
+du -h spell/
+git add .
+git commit 
+git push
+apt search clangd
+apt install clangd
+cd .config/nvim/lua/plugin/
+ls
+mv .tmp/lsp/ lsp-2
+nvim lsp-2/init.lua 
+ls -l
+nvim /tmp/test.py
+s
+nvim /tmp/test.py
+nvim /tmp/test.tex
+nvim treesitter/context.lua 
+nvim ../../init.lua 
+nvim /tmp/test.tex
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+nvim ~/.bashrc
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+NODE_MAJOR=20
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+sudo apt update -y && sudo apt install nodejs
+wsudo apt install npm
+sudo apt install npm
+sudo apt install nodejs
+NODE_MAJOR=16
+sudo apt install nodejs
+sudo apt purge nodejs
+sudo apt install nodejs
+export NODE_MAJOR=16
+sudo apt install nodejs
+sudo apu update
+sudo apt update
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+proxychains sh -c '!!'
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | proxychains sh
+proxychains bash -c 'curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh'

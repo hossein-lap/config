@@ -1,0 +1,57 @@
+cls
+chmod 755 Noureddin\ Sadawi/
+cls
+q
+cd vid/MyTube/
+for i in `find $PWD -type d`; do chmod -v 755 "${i}"; done
+cd packed/07-sql/Noureddin\ Sadawi/
+cls
+..
+cls
+cd Noureddin\ Sadawi/
+cls
+lf
+newsboat 
+nvim .config/newsboat/urls 
+xbps-query -Rs newsfl
+sudo xbps-install -S newsflash
+com.gitlab.newsflash 
+sudo xbps-remove -Rs newsflash
+sudo xbps-remove -R newsflash
+xbps-query -Rs news
+xbps-query -Rs rss
+cls
+nvim ln.dl
+nvim dl.sh 
+take test
+gln https://github.com/Vergil9000/LoyalFans
+cls
+cd LoyalFans/
+cls
+lf
+python loyalfans.py
+xbps-query tqdm
+grep venv ~/.config/shell/history/bash/*
+python -m venv tmp
+cls
+. tmp/bin/activate
+pip install -i requirements.txt 
+pip install -r requirements.txt 
+python loyalfans.py
+proxychains4 -q python loyalfans.py
+python loyalfans.py
+cls
+nvim config.json 
+python loyalfans.py
+proxychains4 -q python loyalfans.py
+xbps-query -Rs efl
+sudo xbps-install efl efl-devel 
+sudo xbps-install -Sy efl efl-devel 
+xbps-query -Rs jre
+sudo xbps-install openjdk17
+sudo xbps-install openjdk11
+sudo xbps-remove openjdk17
+sudo xbps-remove -R openjdk17
+nvtio
+nvtop
+x

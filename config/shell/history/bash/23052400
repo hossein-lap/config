@@ -1,0 +1,31 @@
+nvim .
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+..
+nvim {dmenu,dwm}/config.def.h
+./make.sh 
+q
+xbps-query -Rs minetest
+minetest
+xbps-query -Rs vulk
+xbps-query -Rs quake
+xbps-query -Rs veloren
+xbps-query -Rs velo
+xbps-query -Rs velor
+xbps-query -Rs quake
+xbps-query -Rs game
+xbps-query -Rs game | less -SR
+mv dl/airshipper-linux\(1\).tar.gz games/
+take games/veloren
+mv ../airshipper-linux\(1\).tar.gz 
+mv ../airshipper-linux\(1\).tar.gz  .
+cls
+tar -tf airshipper-linux\(1\).tar.gz 
+tar -xvf airshipper-linux\(1\).tar.gz 
+cls
+cd airshipper-linux/
+cls
+./airshipper 
+xbps-query -Rs cube
+xbps-query -Rs hexen
+xbps-query -Rs airship

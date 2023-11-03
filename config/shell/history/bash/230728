@@ -1,0 +1,132 @@
+urf
+surf
+qutebrowser 
+grep 'alias sudo=' ~/.config/shell/aliases.sh 
+sed -i 's/alias sudo=/#&/' ~/.config/shell/aliases.sh 
+s
+unalias sudo
+s
+sudo test
+make clean; make; sudo make install
+xbps-query -Rs lua | fzf
+sudo xbps-install luasocket
+cd dev/hossein-lap/workflow/scripts/
+nvim slsnetwork.pl
+rm slsnetwork.{lua,pl}
+q
+slsdate.sh 
+nvim `which slsdate.sh `
+cd dev/hossein-lap/workflow/scripts/
+mv slsping.sh slsnetwork.sh
+mv slsping.sh slsnetwork.lua
+nvim slsnetwork.lua
+xbps-query -Rs perl | fzf
+find $PWD -type f
+for i in `find $PWD -type f`; do chmod -v -x "${1}"; done
+for i in `find $PWD -type f`; do chmod -v -x "${i}"; done
+lf
+q
+xbps-query -Rs perl | fzf
+free -m
+free -h
+top -b
+top -b -n1
+top -b -n1 | grep 'Cpu'
+while true; do top -b -n1 | grep 'Cpu'; sleep 1; done
+while true; do  | grep 'Cpu'; sleep 1; done
+while true; do cut -f2 -d' ' < /proc/loadavg; sleep 1; done
+while true; echo "$(do cut -f2 -d' ' < /proc/loadavg) * 10" | bc; sleep 1; done
+while true; do echo "$(cut -f2 -d' ' < /proc/loadavg) * 10" | bc; sleep 1; done
+cd dev/hossein-lap/workflow/suckless/slstatus/components/
+ls
+nvim cpu.c 
+btop
+lf ~/screen/record/
+q
+uptime
+cd dev/hossein-lap/workflow/dw
+cd dev/hossein-lap/workflow/suckless/dwm/
+ls patches/
+gss .
+git add .
+git commit -m 'next stable'
+clear
+patch -p1 < patches/dwm-extrabar-6.2-20210930-a786211.diff 
+nvim *.rej
+make clean; make; sudo make install
+nvim `which slsextra.sh`
+cd ../slstatus/
+nvim config.def.h 
+nvim ~/dev/hossein-lap/workflow/scripts/slsdate.sh 
+cd ~/dev/hossein-lap/workflow/scripts
+nvim slsextra.sh 
+mv slsextra.sh slsrecord.sh
+nvim slsrecord.sh 
+q
+make clean; make; sudo make install
+echo config.def.h | entr sh -c '!!'
+echo config.def.h | entr sh -c 'make clean && make && sudo make install'
+echo config.def.h | entr sh -c 'make clean && make && sudo make install; date +%H:%M:%S'
+nvim ~/dev/hossein-lap/workflow/suckless/slstatus/config.def.h 
+q
+make clean; make; sudo make install
+nvim dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+nvim dev/hossein-lap/workflow/suckless/slstatus/config.def.h 
+nvim `which slsrecord.sh`
+make clean; make; sudo make install
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+nvim ../dmenu/config.def.h 
+make clean; make; sudo make install
+cd dev/hossein-lap/workflow/suckless/slstatus/
+nvim config.def.h 
+x
+lsblk
+udisksctl \
+dmusb.sh 
+rsync --progress dl/iso/arcolinuxb-plasma-v23.05.04-x86_64.iso /run/media/hos/Ventoy/
+btop
+dmexit.sh 
+dmusb.sh 
+dmexit.sh 
+lf vid/shows/series/the-rookie/
+q
+x
+sxwall.sh 
+cp -iv `nsxiv -o dl/telegram-dl/wp*` pic/wall/
+sxwall.sh 
+sxwall.sh pic/mint-background/
+nvim `which sxwall.sh`
+q
+man nsxiv
+q
+c
+unix
+c
+unix
+jdate '+%a'
+jdate '+%A'
+jdate '+%E'
+mv pic/mint-background/ pic/wall/ -v
+nvim 
+jdate
+jdate -P
+jdate -
+jdate -p
+man jdate
+imstring.sh -h
+imshadow.sh 
+imshadow.sh -h
+notify-send -i play
+notify-send -i play test is
+notify-send -i music-play test is
+ls .local/share/icons/Obsidian/actions/96/
+nsxiv .local/share/icons/Obsidian/actions/96/
+nsxiv .local/share/icons/Obsidian/actions/96/ -o
+ls .local/share/icons/Obsidian/*/96/ | nsxiv -or -
+ls .local/share/icons/Obsidian/*/96/*.png | nsxiv -or -
+ls .local/share/icons/Obsidian/*/96/*play*.png | nsxiv -or -
+ls .local/share/icons/Obsidian/*/96/*.png | nsxiv -or -
+ls .local/share/icons/Obsidian/*/96/*volume*.png | nsxiv -or -
+ls .local/share/icons/Obsidian/*/96/*.png | nsxiv -or -
+q

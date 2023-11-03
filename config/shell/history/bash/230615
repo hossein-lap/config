@@ -1,0 +1,270 @@
+nvtop
+c
+startsay.sh 
+c
+startsay.sh 
+fortune 
+fortune  | sed 's/\t/        /g' | cowsay 
+clear
+fortune  | sed 's/\t/    /g' | cowsay 
+fortune  | cowsay 
+c
+unalias cowsay
+c
+fortune  | cowsay 
+c
+fortune  | cowsay -f tux
+c
+fortune | cowsay -f test
+fortune | cowsay -f www
+fortune | cowsay -f vader
+fortune | cowsay -f turtle 
+c
+fortune | cowsay -f daemon 
+fortune | cowsay -f kiss
+fortune | cowsay -f blowfish 
+fortune | cowsay -f eyes 
+fortune | cowsay -f surgery 
+fortune | cowsay -f kitty 
+fortune | cowsay -f kosh 
+c
+fortune | cowsay -f cower 
+fortune | cowsay -f hellokitty 
+c
+fortune | cowsay -f hellokitty 
+c
+fortune | cowsay -f hellokitty 
+c
+fortune | cowsay -f moose 
+fortune | cowsay -f satanic 
+fortune | cowsay -f ren
+fortune | cowsay -f sheep 
+c
+fortune | cowsay -f skeleton 
+fortune | cowsay -f mutilated 
+fortune | cowsay -f turkey 
+c
+fortune | cowsay -f koala 
+fortune | cowsay -f bunny 
+fortune | cowsay -f bud-frogs 
+c
+fortune | cowsay -f bud-frogs 
+c
+fortune | cowsay -f udder 
+c
+fortune | cowsay -f udder 
+c
+fortune | cowsay -f udder 
+c
+fortune | cowsay -f ghostbusters 
+c
+fortune | cowsay -f eyes 
+nvim .config/shell/bashrc
+lowdown -stman todo.md | groff -itk -man -Tutf8
+lowdown -stman /data/local/hos/todo.md | groff -itk -man -Tutf8
+lowdown -stman /data/local/hos/todo.md | mandoc
+nvim /data/local/hos/todo.md 
+lowdown -tterm /data/local/hos/todo.md
+s
+glow /data/local/hos/todo.md
+lowdown -tterm /data/local/hos/todo.md 
+lowdown -tterm /data/local/hos/todo.md  | sed 's/\t/  /g'
+lowdown -tterm /data/local/hos/todo.md  | sed 's/^  //g'
+lowdown -tterm /data/local/hos/todo.md  | sed -e 's/^  //s' -e 's/^/  /'
+lowdown -tterm /data/local/hos/todo.md  | sed -e 's/^  //g' -e 's/^/  /'
+lowdown -tterm /data/local/hos/todo.md  | sed -e 's/^   //g' -e 's/^/  /'
+s
+c
+s
+nvim 
+c
+s
+c;s
+man lowdown
+nvim ~/.config/shell/bashrc
+زمس
+c
+cls
+nvim /data/local/hos/todo.md
+cd /data/local/hos/
+cls
+more note.
+more note.md 
+lowdown -tterm todo.md 
+lowdown -tman todo.md 
+lowdown -tman todo.md | mandoc
+lowdown -tman todo.md | groff -itk -man -Tutf8
+c
+lowdown -stman todo.md | groff -itk -man -Tutf8
+c
+lowdown -stman todo.md | groff -itk -man -Tutf8
+lowdown -stman todo.md | mandoc
+lowdown -tman todo.md | mandoc
+nvim todo.md 
+lowdown -tman todo.md | mandoc
+lowdown -stman todo.md | mandoc
+nvim todo.md 
+lowdown -stman todo.md | mandoc
+man man
+lowdown -stman todo.md | groff -itk -man -Tutf8
+cl
+c
+lowdown -stman todo.md | groff -itk -man -Tutf8
+c
+lowdown -stman todo.md | mandoc
+lowdown -stterm todo.md
+lowdown -tterm todo.md
+nvim todo.md 
+lowdown -tterm todo.md
+c
+lowdown -tterm todo.md
+lowdown -stman todo.md | mandoc
+nvim todo.md 
+q
+lf /run/media/hos/pers/Videos/movies/
+q
+pulsemixer 
+notify-send -u critical -a test -i play this is
+notify-send -a test -i play this is
+notify-send -a test -i folder this is
+notify-send -a test -i home-folder this is
+notify-send -a test -i home this is
+notify-send -a test -i home-dir this is
+notify-send -a test -i directory this is
+notify-send -a test -i home this is
+notify-send -a test -i folder this is
+notify-send -a test -i music this is
+pulsemixer 
+notify-send -u critical -a test -i play this is
+notify-send -u critical -a test -i play this is critical
+notify-send -u critical -a test -i play new 'This is critical'
+notify-send -u critical -a test -i play this is critical
+notify-send -u critical -a test -i play new 'This is critical'
+cd /data/w/c/
+cls
+take calc
+..
+rmdir  calc
+cd ../python/
+take calc
+nvim calc.py
+nvim ~/.config/nvim/lua/plugin/lsp/init.lua 
+nvim calc.py
+unix2dos calc.py 
+nvim calc.py
+cls
+gameOfLife
+clear
+ulimit 
+nvim /etc/security/limits.d/*
+nvim /etc/security/limits.conf 
+cd ~/vid/MyTube/jadi/
+cls
+nvim dl.sh 
+chmod +x dl.sh 
+./dl.sh 
+nvim dl.sh 
+ulimit 
+uname -r
+nvim .config/dunst/dunstrc 
+find / -iname 'gameOfLife' 2>/dev/null
+cd /data/w/c
+cls
+take game-of-life
+nvim gof.c gof.h Makefile
+cls
+nvim gof.c gof.h Makefile
+nvim /etc/sysctl.conf 
+sysctl net.core.napi_threads
+sudo sysctl net.core.napi_threads
+modinfo napi
+modinfo 
+modinfo list
+x
+irssi
+nvim .irssi/config 
+sudo xbps-remove -R weechat
+sudo xbps-remove -R --regex weechat*
+sudo xbps-remove -R 'weechat.*'
+sudo xbps-remove -R 'weechat*'
+sudo xbps-remove -Rf 'weechat*'
+sudo xbps-remove -Rf weechat
+sudo xbps-remove -R  weechat weechat-aspell weechat-devel weechat-lua weechat-perl  weechat-python weechat-ruby weechat-tcl wee-slack
+sudo xbps-remove weechat weechat-aspell weechat-devel weechat-lua weechat-perl  weechat-python weechat-ruby weechat-tcl wee-slack
+weechat
+clear
+echo 'proxychains4 -q yt-dlp -f 22 'https://www.youtube.com/watch?v=VuMHH7aC50g' | mpv'
+man yt-dlp
+proxychains4 -q newsboat
+c
+proxychains4 -q newsboat
+c
+proxychains4 -q newsboat
+c
+proxychains4 -q newsboat
+c
+proxychains4 -q newsboat
+q
+pass ls 
+pass ls irc/libera-chat/
+pass ls irc/libera-chat/primejade 
+c
+irssi 
+nvim .config/shell/aliases.sh 
+s
+irssi 
+q
+proxychains4 -q ping 1.1.1.1
+proxychains4 -q ping 89.144.180.175
+pwgen
+alias pwgen
+pwgen 20
+pwgen 20 2
+pwgen 20 1
+pwgen 20 1 -s
+pwgen 20 1 
+rmdir .irssi/ -r
+rmdir .irssi/ -rf
+rm .irssi/ -rf
+cd .local/share/irssi/
+proxychains4 -q newsboat
+nvim /data/w/sh/yt-play.sh
+q
+nvim /etc/sysctl.conf 
+cd .config/hexchat/
+cls
+wget https://dl.hexchat.net/themes/Solarized%20Dark.hct
+wget https://dl.hexchat.net/themes/Debian.hct
+cls
+xarchiver Debian.hct 
+cls
+unzip Solarized\ Dark.hct
+cls
+unzip Solarized\ Dark.hct
+unzip Debian.hct
+xbps-query -Rs irssi
+sudo xbps-install -S `xbps-query -Rs irssi | fzf -m --reverse | awk '{print $2;}'`
+clear
+..
+cls
+mv ~/.irssi irssi
+ls irssi/
+ls ~/.irssi/
+cd newsboat
+cls
+nvim urls 
+q
+echo "This is a mfing test" | nc termbin.com 9999
+date
+xbps-query -Rs fzfy
+xbps-query -Rs ytfzf
+xbps-query -Rs youtube | fzf -m --reverse
+xbps-query -Rs ty | fzf -m --reverse
+xbps-query -Rsyty | fzf -m --reverse
+xbps-query -Rs yt | fzf -m --reverse
+htop
+btop
+find . -name 'mpv' 2>/dev/null | grep cache
+man yt-dlp 
+nvim /tmp/test.txt
+q

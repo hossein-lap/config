@@ -1,0 +1,394 @@
+make clean; make; sudo make install
+dmsrun.sh -fn 'Go Mono:size=14' 
+dmsrun.sh "-fn 'Go Mono:size=14'"
+dmsrun.sh "-fn Go Mono:size=14"
+dmsrun.sh "-fn 'Go Mono:size=14'"
+dmsrun.sh '-fn "Go Mono:size=14"'
+ls | dmenu -c -bw 4 -p test -fn 'Go Mono:size=14'
+make clean; make; sudo make install
+sudo xbps-install brightnessctl 
+cd /sys/class/backlight/intel_backlight/
+ls
+ls -l
+..
+chown hos:hos -R intel_backlight
+sudo chown hos:hos -R intel_backlight
+ls -l
+ls -l intel_backlight
+ls -l intel_backlight/
+sudo chown hos:hos -R intel_backlight/*
+ip -c a
+q
+nvim /etc/v2ray/config.json 
+xbps-query -Rs pugin
+xbps-query -Rs puigin
+xbps-query -Rs puigui
+xbps-query -Rs irc
+xbps-query -Rs irc | fzf
+xbps-query -Rs fluff
+vim
+vi
+s
+alias vo
+alias vi
+alias vim
+cd ~/.config/nvim
+vim
+nvim
+vim
+xbps-query -Rs vim
+which vim
+ls -l `which vim`
+sudo xbps-reconfigure -f vim
+vim
+nvim ../shell/aliases.sh 
+cd ../shell
+ls
+cls
+more aliases.sh 
+nvim aliases.sh 
+s
+vim
+ls -l ~/.vim
+vim
+cd ~/.vim
+ls autoload/
+cls
+vim -u vimrc 
+vim -u NONE
+vi
+cd /bin
+ls vim
+ls vi
+sudo xbps-install vim
+sudo xbps-remove -R vim
+sudo xbps-install vim
+vi
+vim
+ls -l vi*
+sudo unlink vim
+vim
+sudo xbps-install vim
+sudo xbps-install vim-huge
+sudo xbps-install gvim
+ls -l *vi*
+ls vim
+vim
+gvim
+cls
+l
+c
+sudo xbps-install `xbps-query -Rs vim | fzf`
+sudo xbps-install `xbps-query -Rs vim | fzf | awk '{print $2;}'`
+sudo mount ~/arch/texlive/texlive2023.iso /mnt
+cd /mnt/
+ls
+find . -iname '*musl*'
+./install-tl --help
+./install-tl /tmp/test.profile
+cd source/
+cls
+cl
+..
+cls
+./install-tl
+nvim install-tl
+df -h /home
+nvim /tmp/test.tex
+rm ~/.local/share/nvim/mason/bin/*
+rm ~/.local/share/nvim/mason/bin/* -f
+nvim
+. /etc/profile
+tlmgr check xetex
+tlmgr check xelatex
+tlmgr install small-scheme
+sudo tlmgr install small-scheme
+sudo tlmgr install scheme-small
+take ~/arch/texlive/2023
+rsync -r --progress /mnt/* .
+./install-tl
+ls texlive.profile 
+./install-tl
+. /etc/profile
+tlmgr 
+tlmgr --help
+nvim texlive.profile 
+q
+q
+v2ray
+sudo ln -s /etc/sv/v2ray /var/service/
+for i in rsyncd,sulogin,acpid,sshd,socklog-unix,mpd,polkitd,elogind} /var/service/
+for i in rsyncd sulogin acpid sshd socklog-unix mpd polkitd elogind do echo $i ; done
+for i in rsyncd sulogin acpid sshd socklog-unix mpd polkitd elogind ; do echo $i ; done
+for i in rsyncd sulogin acpid sshd socklog-unix mpd polkitd elogind ; do sudo ln -s /etc/sv/$i /var/service/ ; done
+mpc
+xbps-query -Rs ntpd
+sudo xbps-install openntpd
+sudo ln -s /etc/sv/ntpd/ /var/service/
+nvim
+cd /mnt/
+./install-tl --help
+./install-tl --init-from-profile /home/hos/arch/texlive/2023/texlive.profile 
+sudo ./install-tl --init-from-profile /home/hos/arch/texlive/2023/texlive.profile 
+sudo ./install-tl
+ls /usr/local/texlive/2023/bin/
+ls /usr/local/texlive/2023/bin/x86_64-linux/
+ls /usr/local/texlive/2023/bin/x86_64-linux/xelatex
+ls /usr/local/texlive/2023/bin/x86_64-linux/xelatex -l
+/usr/local/texlive/2023/bin/x86_64-linux/xelatex
+/usr/local/texlive/2023/bin/x86_64-linux/xetex
+slides
+xbps-query -Rs pigin
+xbps-query -Rs pidgin
+sudo xbps-install pidgin
+./install-tl
+sudo ./install-tl
+xbps-query -Rs tlmgr
+s
+tlmgr
+xbps-query -l | grep texlive
+sudo xbps-install texlive-bin
+q
+xbps-query -Rs texlive | fzf
+sudo xbps-install {
+}
+sudo xbps-install texlive2023-bin
+tlmgr install small-basic
+so /etc/profile
+. /etc/profile
+tlmgr install small-basic
+/usr/local/texlive/2023/bin/tlmgr install small-basic
+sudo rm -rf /usr/local/texlive/
+sudo xbps-install texlive2023-bin
+sudo xbps-remove -R texlive2023-bin
+sudo xbps-install texlive2023-bin
+nload
+sudo xbps-install nload
+sudo shutdown -h now
+clear
+sudo sh -c 'xbps-install -Sy && xbps-install -yu xbps && xbps-install -Sy'
+sudo xbps-install -Syu
+sudo reboot
+sudo bash
+cd dev/hossein-lap/workflow/suckless/
+sudo xbps-install < deps.txt
+sudo xbps-install `cat deps.txt`
+sudo xbps-install `gre -v '^#' deps.txt`
+sudo xbps-install `grep -v '^#' deps.txt`
+vi deps.txt 
+`which vi` deps.txt 
+sudo xbps-install `grep -v '^#' deps.txt`
+./make.sh 
+sudo xbps-install gcc
+./make.sh 
+x
+init 3
+sudo init 3
+sudo init 4
+man init
+runit-init 4
+runsvdir 
+runit
+sudo bash
+groups
+ls /etc/runit/
+runit 3
+sudo bash
+sudo reboot
+xbps-query -Rs tty
+xbps-query -Rs tty | fzf
+sudo xbps-install fzf
+xbps-query -Rs tty | fzf
+c
+sudo reboot
+x
+vi /etc/rc.conf 
+nvi /etc/rc.conf 
+sudo nvi /etc/rc.conf 
+sudo reboot
+irssi
+sudo xbps-install qutebrowser
+sudo xbps-install v2ray firefox
+sudo xbps-install vim tmux
+sudo updare-grub
+sudo update-grub
+sudo nvi /etc/default/grub 
+sudo update-grub
+cd tmp/
+grep -v '^#' void-pkgs.list 
+grep '^#' void-pkgs.list 
+sed 's/-[0-9].*//' void-pkgs.list 
+sed 's/-[0-9].*//' void-pkgs.list | fzf > vpkgs.txt
+sudo xbps-install fzf
+sed 's/-[0-9].*//' void-pkgs.list | fzf > vpkgs.txt
+sed 's/-[0-9].*//' void-pkgs.list > vpkgs.txt
+mv vpkgs.txt > void-pkgs.list 
+mv vpkgs.txt void-pkgs.list 
+wc -l void-pkgs.list 
+sudo xbps-install `cat void-pkgs.list`
+sudo xbps-install perl
+sudo xbps-install `cat void-pkgs.list`
+dmusb.sh 
+lsblk
+udisksctl power-off -b /dev/sda
+ls /etc/sv/
+lsblk
+dmusb.sh 
+udisksctl power-off -b /dev/sda
+cls
+cd arch/texlive/
+mv 2023/texlive.profile .
+rm -rf 2023/
+cd
+sudo mount ~/arch/texlive/texlive2023.iso /mnt -o loop
+cd /mnt/
+sudo ./install-tl --ini-from-profile ~/arch/texlive/texlive.profile 
+cd -
+cd arch/texlive/
+cls
+clear; ls
+mv texlive.profile profile
+nvi profile 
+mv profile profile.conf
+nvim ~/tmp/void-sv.sh
+pandoc
+nvim
+sudo ./install-tl --init-from-profile ~/arch/texlive/profile.conf 
+nvim /tmp/test.tex
+q
+nvi /etc/rc.conf 
+x
+sudo mount ~/arch/texlive/texlive2023.iso /mnt
+cd /mnt
+sudo ./install-tl
+cd ~/arch/texlive/
+cls
+mkdir 2023
+cd 2023/
+./install-tl
+cp texlive.profile ../profile.conf 
+./install-tl --init-from-profile ../profile.conf 
+./install-tl
+./install-tl --init-from-profile ../profile.conf 
+./install-tl --profile ../profile.conf 
+sudo ./install-tl --profile ../profile.conf 
+..
+cls
+rm -rf 2023/
+cls
+q
+lsblk
+ls /etc/sv/udevd/
+ls /var/service/
+nvim tmp/void-sv.sh 
+lsblk
+dmusb.sh 
+dunst
+xbps-query -Rs libnotify
+xbps-query -Rs freedesktop
+xbps-query -Rs notification | fzf
+ls /mnt
+rsync -r --progress /mnt/* /home/hos/arch/texlive/2023/
+q
+sudo xbps-install -ff runit-void
+cd .config/nvim/lua/plugin/
+vi init.lua 
+vim init.lua 
+vi mason/init.lua 
+vi cmp/init.lua 
+vi mason/init.lua 
+vim mason/init.lua 
+lsblk
+dmusb.sh 
+xbps-query -Rs udisks2 | fzf
+xbps-query -Rs polkit | fzf
+sudo vi /etc/gshadow
+sudo cat /etc/gshadow | grep hos
+sudo cat /etc/gshadow | grep hos | grep '^h'
+sudo cat /etc/gshadow | grep hos | grep -v '^h'
+sudo cat /etc/gshadow | grep hos | grep -v '^h' | awk -F ':' '{print $1;}'
+sudo cat /etc/gshadow | grep hos | grep -v '^h' | awk -F ':' '{print $1;}' | tr '\n' ','
+sudo cat /etc/gshadow | grep hos | grep -v '^h' | awk -F ':' '{print $1;}' | tr '\n' ','; echo
+sudo vi /etc/gshadow
+sudo vim /etc/gshadow
+irssi 
+nvim
+cd ~/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+cd ~/.local/share/nvim/site/pack/packer/start/
+ls
+lf
+...
+..
+...
+rm -rf nvim
+nvim
+vi /etc/rc.conf 
+x
+slsextra.sh 
+nvim `slsextra.sh `
+dmusb.sh 
+xbps-query -Rs polkit
+sudo xbps-install pantheon-agent-polkit-1.0.0_2
+nvim tmp/void/void-sv.sh 
+vim tmp/void/void-sv.sh 
+xbps-query -l | sc -l
+xbps-query -l | wc -l
+udisksctl status
+ls /etc/sv/
+udisksctl status
+dmusb.sh 
+nvim `which dmusb.sh `
+dmusb.sh 
+vim `which dmusb.sh `
+vim .vim/vimrc 
+vi .config/vi/vimrc 
+sudo xbps-install mate-polkit-1.26.1_1
+sudo xbps-install polkit-gnome-0.105_8
+sudo xbps-install polkit-qt5-0.114.0_1
+sudo xbps-install polkit-kde-agent-5.27.6_1
+sudo xbps-install mate-polkit-1.26.1_1
+ls /etc/sv/
+dmusb.sh 
+cd /run/media/hos/mint/etc/v2ray/
+cat config.json | sudo tee /etc/v2ray/config.json 
+sudo sv restart v2ray
+vim /etc/proxychains.conf 
+nvim
+dmusb.sh 
+lsblk
+udisksctl mount -b /dev/nvm
+cd tmp
+take void
+mv ../void-* .
+cls
+nvim void-polkit.sh
+vim void-polkit.sh
+vi void-polkit.sh
+nvim /tmp/test.tex
+loginctl reboot
+loginctl -i reboot
+groups
+sudo reboot
+lf 
+lf /run/media/hos/mint/
+q
+lsblk
+ls /etc/sv
+groups
+sudo vim /etc/gshadow
+ls /var/service/elogind
+xbps-query -Rs dbus-el
+sudo xbps-install --regex dbus-elogind-*
+sudo xbps-install --regex -y dbus-elogind-*
+sudo xbps-install dbus-elogind-*
+xbps-query -Rs dbus-el
+sudo xbps-install dbus-elogind dbus-elogind-libs-1.14.6_1 dbus-elogind-x11-1.14.6_1
+ls /etc/sv/
+sudo vim /etc/gshadow
+q
+loginctl reboot
+loginctl reboot -i
+sudo loginctl reboot -i
+x
+loginctl reboot

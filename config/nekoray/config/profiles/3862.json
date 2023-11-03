@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "77.91.84.45",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣3️⃣",
+        "pass": "a282bb11-2649-44cc-9bf1-867f689d59af",
+        "port": 8880,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "MtDtesqzQ0FgKQOvFFsBO_h8iZji_N9GBZpOcocoIkw",
+            "sec": "tls",
+            "sid": "7faaaa4a8a3d1134",
+            "sni": "speed.cloudflare.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3862,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

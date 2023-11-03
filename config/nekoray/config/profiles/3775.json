@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "161.123.69.19",
+        "allowInsecure": true,
+        "connectionReceiveWindow": 0,
+        "disableMtuDiscovery": false,
+        "disableSni": false,
+        "downloadMbps": 0,
+        "forceExternal": false,
+        "hopInterval": 10,
+        "name": "رایگان | HY2 | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣1️⃣",
+        "obfsPassword": "2915ed88",
+        "password": "0f737d73b058c8cf",
+        "port": 1602,
+        "streamReceiveWindow": 0,
+        "uploadMbps": 0
+    },
+    "gid": 3,
+    "id": 3775,
+    "report": "Core not found: hysteria2",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "hysteria2",
+    "yc": 0
+}

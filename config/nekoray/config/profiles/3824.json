@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "91.241.93.177",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣3️⃣",
+        "pass": "0e17a21b-fde2-45ad-90ae-07245bedb8e8",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "Bkdg-39xfyTsJrtwWc2E_ryBf7oRee2SqjdbfJZTfls",
+            "sec": "tls",
+            "sid": "e5225efb7d",
+            "sni": "tradingview.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3824,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

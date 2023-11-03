@@ -1,0 +1,9 @@
+lf mus/
+lf screen/record/
+cd /data/dev/hossein-lap/workflow/suckless/
+sed -i 's/default.h"/dracula.h"/g' */config.def.h
+./make.sh 
+nvim st/colors/
+nvim st/config.def.h 
+./make.sh 
+t

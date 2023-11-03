@@ -1,0 +1,7 @@
+make clean; make; sudo make install
+
+
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h
+q
+x

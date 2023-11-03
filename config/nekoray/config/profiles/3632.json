@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "fh.news-mobile-liqgroup69.site",
+        "name": "رایگان | REALITY | @liq_VPN | FI🇫🇮 | 0️⃣2️⃣",
+        "pass": "84339efa-a85e-4e32-9b05-49658a89d0d4",
+        "port": 10198,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "PbFhLwQwhaVpm0arMUBY859TA8-wXH5Y1gAFbAAIQzU",
+            "sec": "tls",
+            "sid": "7c9ece39",
+            "sni": "Yahoo.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3632,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

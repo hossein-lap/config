@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "206.168.190.219",
+        "name": "رایگان | VLESS | @FOX_VPN66 | US🇺🇸 | 0️⃣1️⃣",
+        "pass": "abf07c60-7487-11ee-8e90-1239d0255272",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "vlgrpc",
+            "sec": "tls",
+            "sni": "dash.cloudflare.com"
+        }
+    },
+    "gid": 1,
+    "id": 7044,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

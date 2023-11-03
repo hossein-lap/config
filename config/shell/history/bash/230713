@@ -1,0 +1,98 @@
+nvim ~/.config/pandoc/defaults/main.sty 
+q
+man pandoc
+cls
+man man
+man pandoc
+sudo makewhatis /usr/share/man
+sudo xbps-install opendoas
+sudo vi /etc/doas.conf
+doas xbps-query -Rs test
+xbps-query -Rs doas | fzf
+clear
+cls
+r.sh zathura daily.pdf 
+fc-list Libertinus
+fc-list | grep Libertinus
+texdoc fontawesome5
+lf 
+entr
+sudo xbps-install entr
+vi ~/.config/shell/aliases.sh l
+vi l
+s
+q
+lf
+q
+nvim
+texdoc fontawesome5
+q
+cls
+nvim init.lua
+gss .
+git init 
+cls
+nvim .gitignore
+gss .
+git add .
+git commit -m 'init commit'
+gss .
+cls
+gls
+mv init.lua gen.lua
+git add .
+git commit -m 'simple rename'
+nvim gen.lua 
+gss .
+git add .
+git commit -m 'nice place'
+q
+lf
+cls
+nvim output.tex 
+tail -F output.tex 
+tail -f output.tex 
+nvim output.tex 
+echo output.tex | entr xelatex output.tex
+q
+nvim resume.tex
+nvim output.
+nvim output.tex 
+nvim resume.tex
+nvim output.tex 
+nvim resume.tex
+q
+neofetch 
+nvim ~/dev/hossein-lap/suckless/st/colors/schemes.h 
+q
+nvim pac-pres01.md 
+cls
+nvim pac-pres01.tex
+nvim pac-pres01.md 
+nvim pac-pres01.tex
+q
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+cls
+take figs
+vifm
+cp /home/hos/screen/shots/shot-230713_185840.png microservies-diag.png
+cp `nsxiv -o ~/screen/shots/` monilithic-arc-diag.png
+mv microservies-diag.png microservies-arc-diag.png 
+r.sh nsxiv .
+imshadow.sh microservies-arc-diag.png 
+imshadow.sh monilithic-arc-diag.png 
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+q
+lf ~/doc/books/
+q
+dc
+man dc
+man bc
+ls -l `which dc`
+ls -l `which bc`
+cd w/devops/pipeline-as-code/
+cls
+cd pres/01/
+t
+q
+x

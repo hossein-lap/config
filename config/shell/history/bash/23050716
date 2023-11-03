@@ -1,0 +1,145 @@
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+git pull
+cd ../vim
+git pull
+..
+cls
+ls vim
+ls nvim
+gln git@github.com:hossein-lap/vim.git
+زمس
+cls
+q
+lf ~/.config/
+lf /data/dev/hossein-lap/workflow/config/
+yes | cp -rf /data/dev/hossein-lap/workflow/config/* /data/dev/hossein-lap/config/
+c
+cls
+nano README.md 
+git diff README.md
+cls
+pwd
+lf
+q
+..
+lf
+cd config/
+cp -rf /data/dev/hossein-lap/workflow/config/* .
+yes | cp -rf /data/dev/hossein-lap/workflow/config/* .
+cls
+gss .
+rm obmenu-generator/ -rf
+cls
+gss .
+sudo xbps-install -S emacs-common emacs-gtk3
+sudo xbps-reconfigure vim
+sudo xbps-reconfigure neovim-qt
+update-mime-database 
+update-mime-database -h
+man update-mime-database 
+sudo xbps-remove -R emacs-common geany
+sudo xbps-remove -R emacs-common emacs-gtk3 
+sudo xbps-install neovim neovim-qt
+sudo xbps-install -f neovim neovim-qt
+nvim-qt 
+nvim-qt ~/.config/nvim/init.lua 
+nvim-qt -A ~/.config/nvim/init.lua 
+nvim-qt -a ~/.config/nvim/init.lua 
+man nvim-qt
+nvim-qt --help
+xbps-query -Rs neovide
+xbps-query -Rs neovim
+cls
+gss .
+mv emacs/ ..
+gss .
+cd shell/
+gss .
+..
+git add .
+git commit -m 'import from local'
+du -h yarn/
+rm -rf yarn/
+git add yarn 
+git commit -m 'removed yarn :/'
+gss  .
+gss .
+cls
+cl
+gss .
+ls -lA
+cd .git/
+ls -lA
+tree -p
+tree -P
+tree -f
+`which tree` -p
+gss
+..
+gss
+ls surf/
+ls surf/ -l
+ls surf/cache/ -l
+ls surf/cache/WebKitCache/ -l
+rm surf/cache/ -fr
+sudo rm surf/cache/ -fr
+gss .
+git add .
+git commit -m 'removed surf cache'
+gss .
+cls
+cl
+git push
+du -h
+du -h | grep 'M '
+du -h | grep 'M\t'
+du -h | grep 'M\\t'
+du -h | grep 'M	'
+ld weechat/
+ls dwm/
+ls dwm/ -l
+less dwm/logs
+cat -n dwm/logs | less -SR
+> dwm/logs
+nvim .gitignore 
+git rm dwm/log*
+git rm -f dwm/log*
+gss .
+git rm -f dwm/dwm.log 
+tail dwm/stat 
+tail -F dwm/stat 
+tail -f dwm/stat 
+c
+cls
+c
+cls
+cd awesome/
+cls
+..
+lf
+q
+..
+mv docs/ docs.bak
+gln --bare git@github.com:hossein-lap/docs.git
+cd docs.
+cd docs
+cls
+ls
+mv docs.git/ docs
+cd docs
+cls
+..
+cls
+cd docs
+cls
+...
+q
+env | grep VISUAL
+env | grep EDITOR
+sudo update-alternatives --config editor
+xbps-query -Rs update-alternatives
+xbps-query -Rs alternatives
+select-editor
+xbps-query -Rs select-editor

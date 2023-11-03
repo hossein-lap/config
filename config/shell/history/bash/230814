@@ -1,0 +1,128 @@
+lf ~/.config/zathura
+q
+gss .
+..
+gss .
+git add tmp
+nvim .gitignore 
+git add tmp
+git commit -m 'init of new base (modular)'
+q
+mv resume.pdf en-resume.pdf
+cls
+mv resume.pdf fa-resume.pdf
+jcal
+lf dl/telegram-dl/
+xbps-query -Rs vi
+xbps-query -Rs nvi
+clear
+sudo xbps-install fish
+sudo xbps-install -Sy
+sudo xbps-install fish
+xbps-query -Rs fish | fzf
+sudo xbps-install fish-shell
+بهسا
+fish
+xbps-query -Rs vimium
+nvim ~/.local/share/nvim/site/pack/packer/start/tokyodark.nvim/colors/tokyodark.lua 
+lf ~/.local/share/nvim/site/pack/packer/start/tokyodark.nvim/
+ls -l `which lua5.3`
+du -m `which lua5.3`
+du -h `which lua5.3`
+clear
+ls -l `which lua5.3`
+du -h `which lua5.3`
+cat /etc/hostname 
+nvim /etc/hostname 
+nsxiv -o screen/shots/
+cd ~/.config/mpv/
+cls
+ls script
+ls scripts
+tar --xz -cvf mpv-scripts-demo.tar.xz scripts/
+مس
+ls
+tar --xz -cvf fonts.tar.xz fonts/
+nvim mpv.conf
+grep Yas *
+nvim main.lua 
+q
+take vid/shows/series/witcher/s03
+cp ../s02/{ln.dl,dl.sh} .
+nvim ln.dl 
+lf ~/.config/mpv
+q
+lf
+q
+nvim ~/.config/mpv/mpv.conf
+sudo xbps-remove -R fish-shell
+c
+cls
+nvim gen.lua
+make
+lf
+nvim ~/.config/nvim/lua/module/rce.lua 
+cls
+rm role/devops.lua~ 
+cls
+nvim ~/.config/nvim/lua/module/main.lua
+cls
+nvim role/{en,fa}/*.lua
+make
+nvim fa/python.lua
+nvim role/fa/python.lua
+mv role/fa/python.lua role/fa/python-teach.lua 
+nvim role/fa/python-teach.lua 
+lf
+lf ~/vid/
+cd palette/
+cls
+nvim dracula.lua
+cp dracula.lua template.lua
+nvim template.lua 
+for i in 'solarized-dark nord ayu'; do echo "${i}"; done
+for i in "solarized-dark nord ayu"; do echo "${i}"; done
+for i in solarized-dark nord ayu; do echo "${i}"; done
+for i in solarized-{dark,light} nord ayu; do echo "${i}"; done
+for i in solarized-{dark,light} hybrid-{light,dark} gruvbox-{light,dark} plain onedark material nightfox nord ayu; do echo "${i}"; done
+for i in solarized-{dark,light} hybrid-{light,dark} gruvbox-{light,dark} plain onedark material nightfox nord ayu; do cp -v template.lua "${i}.lua"; done
+cls
+nvim dracula.lua 
+nvim *.lua
+cls
+nvim solarized-dark.lua dracula.lua 
+cls
+..
+cls
+q
+cls
+r.sh zathura resume.pdf 
+nvim gen.lua
+cls
+mkdir palette
+nvim gen.lua
+q
+cd dev/resume/tmp/
+t
+lf
+..
+cls
+nvim ~/.config/nvim/lua/module/main.lua
+cls
+rm Makefile~ 
+cls
+gss .
+cls
+rm {fa,en}-resume.pdf
+cls
+gss .
+nvim .gitignore
+gss .
+git add .
+git commit -m 'ready to go'
+cls
+r.sh zathura resume.pdf 
+nvim gen.lua 
+t
+q
+x

@@ -1,0 +1,16 @@
+[build-menu]
+FT_00_LB=LaTeX -> _PDF
+FT_00_CM=xelatex --file-line-error-style "%f"
+FT_00_BD=false
+FT_01_LB=LaTeX -> _DVI
+FT_01_CM=latex --file-line-error-style "%f"
+FT_01_BD=false
+FT_02_LB=Bibtex
+FT_02_CM=bibtex "%e"
+FT_02_WD=
+EX_00_LB=V_iew PDF File
+EX_00_CM=zathura "%e.pdf"
+EX_00_BD=false
+EX_01_LB=_View DVI File
+EX_01_CM=zathura "%e.dvi"
+EX_01_BD=false

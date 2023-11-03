@@ -1,0 +1,10 @@
+cd .config/nvim/lua/plugin/
+nvim init.lua 
+nvim ../../init.lua 
+nvim venn/init.lua 
+cls
+nvim venn/init.lua 
+man groff_char
+man 7 groff_char
+nvim /tmp/test.md
+q

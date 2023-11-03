@@ -1,0 +1,719 @@
+pulsemixer 
+x
+cd dl/telegram-dl/
+timeout 2 mpv 91847727.mp3 
+timeout $(echo 2 * 60 | bc) mpv 91847727.mp3 
+timeout $(echo 2 \* 60 | bc) mpv 91847727.mp3 
+timeout 2 mpv 91847727.mp3 && notify-send 1 || notify-send 2
+timeout 2 mpv 91847727.mp3; notify-send test
+alias mpv
+mpv --help | grep loop
+mpv --help | grep inf
+man mpv
+timeout 2 mpv --loop 91847727.mp3; notify-send test
+timeout 2 mpv --loop 91847727.mp3; dmexit.sh 
+timeout $(echo 20 \* 60 | bc) mpv 91847727.mp3; loginctl poweroff -i
+find $PWD
+q
+xbps-query -Rs crontab\
+xbps-query -Rs cronta
+xbps-query -Rs cronjob
+xbps-query -Rs crontab
+cls
+groups | grep mpd
+cd ~/.local/share/
+take mpd/playlists
+cls
+..
+s
+cls
+mpc update
+sudo sv restart mpd
+mpc update
+cls
+mkdir database
+mpc update
+sudo sv restart mpd
+mpc update
+mpc play
+mpc help
+mpc update ~/mus
+mpc update ~/mus/
+mpc update ~/mus/*
+mpc update /data/m
+mpc update /data/mus
+mpc update /data/mus/
+gpasswd -a mpd hos
+sudo gpasswd -a mpd hos
+groups
+mpc update /data/mus/
+ls /var/lib/mpd/
+cls
+pwd
+nvim ~/.config/mpd/mpd.conf 
+cls
+rmdir database/
+cls
+nvim ~/.config/mpd/mpd.conf 
+mpc play
+vimpc
+man mpc
+cls
+more log 
+sudo vim /etc/passwd
+sudo vim /etc/gshadow
+newgrp 
+find $PWD
+find $PWD | grep -v 'play$'
+find $PWD | grep -v 'play$' > ~/.local/share/mpd/playlists/for-work
+mpc lsplaylists 
+mpc load for-work
+vimpc
+cls
+mpc update
+mpc
+mpc pause
+mpc
+mpc close
+mpc clear
+mpc
+cls
+cls
+cd -
+cd ~/.local/share/mpd/
+cls
+nvim database 
+cls
+ls playlists/
+mpc list
+mpc list help
+mpc list Name
+mpc lsplaylists
+mpc ls
+mpc ls | wc -l
+cd ~/mus/
+cls
+cls -D
+c
+exa -D
+cls
+cd long-for-work/
+cls
+s
+cls
+lf
+mpc update
+mpc help
+mpc list
+mpc play
+cls
+pwd
+cd ~/.local/share/mpd/playlists/
+cls
+mpc save www
+cls
+mpc playlist
+mpc add /data/mus/long-for-work/Azaleh_Mix_sOeZShrENdo.m4a
+sudo umount --bind /var/lib/mpd/music 
+sudo umount /var/lib/mpd/music 
+vimpc
+q
+cls
+nvim mpd.conf 
+sudo mount --bind /data/mus/long-for-work /var/lib/mpd/music
+sudo mkdir /var/lib/mpd/music
+dmsg
+dmesg
+sudo dmesg
+sudo dmesg | less -SR
+cls
+sudo mount --bind /data/mus/long-for-work /var/lib/mpd/music
+mpc update
+ls /var/lib/mpd/music/
+man mpd
+sudo makewhatis /usr/share/man
+cls
+s
+cls
+sudo sv down mpd
+sudo unlink /var/service/mpd
+cls
+mpd
+mpd --no-daemon
+q
+xbps-query -Rs mpris
+xbps-query -Rs mpd
+sudo xbps-install mpd mpc vimpc
+sudo ln -s /etc/sv/mpd /var/service/
+mpc 
+man mpc
+vimpc
+man vimpc
+vimpc
+cls
+cd .config/
+cls
+ls mpd
+take mpd
+nvim mpd.conf
+head /usr/share/doc/mpd/mpdconf.example
+head /usr/share/doc/mpd/README.md 
+head /usr/share/doc/mpd/NEWS 
+head /usr/share/doc/mpd/COPYING 
+head /usr/share/doc/mpd/AUTHORS 
+rawfetch.sh https://raw.githubusercontent.com/MusicPlayerDaemon/MPD/master/doc/mpdconf.example
+mv mpdconf.example mpd.conf
+nvim mpd.conf 
+mpc update
+vimpc
+cls
+man mpc
+mpv ply
+mpv play
+man mpc
+t
+q
+cmus
+x
+cd /data/dev/hossein-lap/workflow/suckless/scroll/
+cd /data/dev/hossein-lap/workflow/scripts/
+cls
+nvim dmshot.sh 
+nvim dmshot.sh dm*.sh
+cd ~/screen/shots/
+cls
+imtrim.sh `nsxiv -o`
+imtrim.sh $(nsxiv -o)
+imtrim.sh 
+for i in $(nsxiv -o); do imtrim.sh ${i}; done
+imtrim.sh $(nsxiv -o .)
+cls
+q
+make clean; make; sudo make install
+mpc
+mpc sinlge on
+mpc single on
+mpc pause
+notify-send -i music test
+notify-send -i Music test
+notify-send -i cmus test
+notify-send -i mpd test
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/scripts/
+mpc pause
+mpc stop
+mpc exit
+mpc quit
+mpc close
+mpc status '%state%'
+sudo sv restart mpd
+sudo ln -s /etc/sv/mpd /var/service/
+nvim slsffmpeg.sh 
+mv slsffmpeg.sh slsextra.sh
+nvim /data/dev/hossein-lap/workflow/suckless/slstatus/config.def.h 
+ls -l slsextra.sh 
+nvim /data/dev/hossein-lap/workflow/suckless/slstatus/config.def.h 
+which slsextra.sh
+chmod +x slsextra.sh 
+which slsextra.sh
+pwd
+which dmexit.sh 
+ls -n $(which slsextra.sh) /home/hos/.local/bin/
+ln -n $(which slsextra.sh) /home/hos/.local/bin/
+rm /home/hos/.local/bin/{slsffmpeg.sh,slsextra.sh}
+find $PWD -name slsextra.sh
+ln -n $(find $PWD -name slsextra.sh) /home/hos/.local/bin/
+cd /home/hos/.local/bin/
+cls
+ln -s /data/dev/hossein-lap/workflow/scripts/slsextra.sh 
+mpc ls
+mpc lsplaylists 
+mpc load for-work
+mpc load work
+mpc status
+mpd
+mpc play
+mpc play work
+sudo unlink /var/service/mpd/
+sudo unlink /var/service/mpd
+mpc play
+mpc lsplaylists 
+mpd
+mpd --no-daemon
+nvim /etc/sv/mpd/run 
+sudo ln -s /etc/sv/mpd /var/service/
+sudo unlink /var/service/mpd
+nvim ~/.xprofile 
+nvim ~/.config/nvim/init.lua 
+cls
+c
+nvim ~/.config/mpd/mpd.conf 
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+q
+cd /data/dev/hossein-lap/scripts/
+cls
+cd ../workflow/scripts/
+nvim dmmus.sh
+mv dmmus.sh mpd-mpc.md
+nvim mpd-mpc.md 
+mkdir /data/doc/tools
+mv mpd-mpc.md /data/doc/tools/
+cls
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/
+cls
+nvim dmenu.c
+make clean; make; ./dmenu -v
+sudo make install
+cd ../../../suckless/dmenu/
+cls
+gss .
+gls
+pwd
+nvim Makefile 
+make clean; make; sudo make install
+cd -
+make clean; make; sudo make install
+vimpc 
+xbps-query -Rs mpc
+c; xbps-query -Rs mpd
+c; xbps-query -Rs mpd | fzf -m -r
+c; xbps-query -Rs mpd | fzf -m --reverse
+sudo xbps-install ncmpc mpdevil mpdviz
+mpdviz 
+ncmpc 
+which capitalll && notify-send 1 || 2
+which capitalll && notify-send 1 || notify-send 2
+which ls && notify-send 1 || notify-send 2
+fid
+ftcftb
+cls
+pgrep nvim
+pgrep nvim -c
+cls
+make clean
+cls
+nvim Makefile 
+make clean
+cls
+..
+cls
+find / -iname '*smenu*' 2>/dev/null | grep '\.mkv$\|\.mp4$'
+cd ~/vid/MyTube/packed/
+cls
+take 10-BrodieRobertson
+lf
+lf ~/dl/yt/
+cd -
+mpc play
+mpc lsplaylists 
+mpc play for-w
+mpc play for-work
+mpc load for-work
+mpc play
+mpc random on repeat on
+mpc 'random on' 'repeat on'
+mpc '[random on] [repeat on]'
+mpc random on
+mpc repeat on
+mpc load for-work
+mpc play
+mpc stop
+mpc load for-work
+mpc play
+mpc load for-work
+mpc random on
+mpc repeat on
+mpc play
+mpc next
+mpc status '%title%'
+mpc status '[%title%]'
+mpc -f '[%title%]'
+mpc -f '[%title% - %artist%]'
+mpc status '[%title% - %artist%]'
+mpc status "[%title% - %artist%]"
+mpc -f '[%title% - %artist%]'
+mpc next
+mpc volume -20
+q
+mpc 
+mpc random toggle
+mpc random
+mpc random | sed 's/ /\n/g'
+mpc random | sed 's/: //g'
+mpc random | sed 's/: /:/g'
+mpc single no
+mpc next 
+c
+mpc random | sed 's/: /:/g'
+mpc random | tail -1 | sed 's/: /:/g'
+mpc random | tail -1 | sed -e 's/: /:/g' -e 's/  //g'
+mpc random | tail -1 | sed -e 's/: /:/g' -e 's/ //g'
+mpc random | tail -1 | sed -e 's/: /:/g' -e 's/   //g'
+mpc random | tail -1 | sed -e 's/: /:/g' -e 's/  //g'
+mpc random | tail -1 | sed -e 's/: /:/g' -e 's/  /-/g'
+mpc random | tail -1 | sed -e 's/: /:/g' -e 's/   /-/g'
+mpc random | tail -1 | sed -e 's/: /:/g' | awk '{print $2"="$3"="$4"="$5;}'
+mpc random | tail -1 | sed -e 's/: /:/g' | awk '{print $2" "$3" "$4" "$5;}'
+mpc next 
+mpc volume +10
+mpc random | tail -1 | sed -e 's/: /:/g' | awk '{print $2" "$3" "$4" "$5;}'
+mpc random on
+mpc random of
+mpc random off
+mpc random on
+mpc | tail -1 | sed -e 's/: /:/g' | awk '{print $2" "$3" "$4" "$5;}'
+mpc next 
+mpc stop
+cd ~/.local/share/mpd/playlists/
+cls
+cp sorena.m3u bahram.m3u 
+find ~/mus/bahram.n/ -name '*.mp3'
+find ~/mus/bahram.n/ -name '*.mp3' > bahram.m3u 
+mpc load bahram
+mpc clear
+mpc load bahram
+mpc play
+cmus play for-work
+mpc play for-work
+mpc play help
+mpc load for-work
+mpc play
+mpc volume 0
+mpc volume 50
+cls
+rm www.m3u 
+mpc
+mpc -f '%name%'
+mpc random on
+mpc repeat on
+pulsemixer 
+mpc next
+mpc prev 
+mpc -f '%name%'
+mpc -f '%title%'
+mpc -f '%artist%'
+mpc -f "[[%artist% - ]%title%]|[%file%]"
+mpc -f "[[%artist% - ]%title%] | [%file%]"
+mpc -f ""
+mpc -f "none"
+mpc -f "%none%"
+mpc -f '%none%'
+mpc -f '[[%artist% - ]%title%] | [%file%]'
+mpc volume +5
+mpc -f '[%songpos%]'
+mpc status '[%songpos%]'
+mpc status '[%songpos%/%length%]'
+mpc status '[%songpos%/%length%][%currenttime%]'
+mpc status '[%songpos%/%length%] [%currenttime%]'
+mpc status '[%songpos%/%length%] [%currenttime%/%totaltime%]'
+mpc status '[\[%songpos%/%length%\]] [%currenttime%/%totaltime%]'
+mpc status '[%currenttime%/%totaltime%] [\[%songpos%/%length%\]]'
+mpc status '[%currenttime%/%totaltime%] [(%songpos%/%length%)]'
+mpc pause
+mpc status '[%currenttime%/%totaltime%] [(%songpos%/%length%)]'
+mpc play
+mpc pause
+mpc resume
+mpc play
+c
+mpc pause
+mpc stop
+nvim ~/doc/tools/mpd-mpc.md 
+nvim /data/dev/hossein-lap/workflow/scripts/slsextra.sh 
+cls
+cd ~/.local/bin/
+ln -s /data/dev/hossein-lap/workflow/scripts/dmplay.sh 
+cls
+unlink tmp.png 
+cl
+nsxiv fg.png 
+rm fg.png -f
+cl
+adl.sh 
+nvim adl.sh 
+rm adl.sh 
+cls
+cl
+cls
+s
+cls
+say.sh 
+c;say.sh 
+cd ~/.local/share/mpd/playlists/
+cls
+find ~/mus/ -iname '*.mp3' -iname 'test
+'
+find ~/mus/ -iname '*.mp3' -iname '*.m4a'
+find ~/mus/ -iname '*.mp3' -iname '*.m4a' 2>/dev/null
+find ~/mus/ -iname '*.mp3' 2>/dev/null
+find ~/mus/ -iname '*.m4a' 2>/dev/null
+{ find ~/mus/ -iname '*.m4a' 2>/dev/null; find ~/mus/ -iname '*.m4a' 2>/dev/null; } | cat -n
+{ find ~/mus/ -iname '*.m4a' 2>/dev/null; find ~/mus/ -iname '*.mp3' 2>/dev/null; } | cat -n
+{ find ~/mus/ -iname '*.m4a' 2>/dev/null; find ~/mus/ -iname '*.mp3' 2>/dev/null; } > all.m3u
+nvim `which dmplay.sh`
+q
+man mpc
+q
+clear
+mpc status '%state%'
+mpc play
+mpc next
+cmus
+mpc volume 60
+mpc volume 65
+cls
+mpc load for-work
+mpv play
+mpc play
+mpc pause
+mpc load for-work
+mpc play
+lf
+mpd stop
+mpc load work
+mpc play
+mpc next
+mpc load relax
+mpc load play
+mpc loadplay
+mpc play
+mpc next
+mpc stop
+mpc play
+mpc unload play
+mpc close play
+man mpc
+mpc rm relax
+cls
+mpc clear
+mpv load work
+mpc load work
+cls
+mpc clear
+find ~/mus/a.sorena/ -name '*.mp3'
+find ~/mus/a.sorena/ -name '*.mp3' > sorena.m3u 
+mpc load sorena
+mpc random on
+mpc repeat on
+mpc play
+nvim `which slsextra.sh`
+q
+..
+cls
+tail -F log 
+tail -F log -n
+tail -F log
+cls
+mpc status '%state%'
+nvim `which slsffmpeg.sh`
+cd /data/dev/hossein-lap/workflow/scripts/
+cls
+nvim dmplay.sh
+chmod +x dmplay.sh 
+cls
+nvim slsextra.sh 
+nvim dmplay.sh
+nvim ~/.config/nvim/init.lua 
+nsxiv tmp.png 
+rm tmp.png 
+cls
+randr.sh 2
+cls
+cl
+nvim 1
+rm 1
+cls
+cl
+pwd
+q
+groups 
+mpc play
+mpc lsplaylists 
+cd .local/share/mpd/playlists/
+cls
+mv for-work for-work.m3u
+mpc lsplaylists 
+mpc play 
+mpc play for-w
+mpc play for-work
+t
+q
+sudo usermod -aG mpd hos
+sudo newgrp 
+clear
+cls
+newgrp 
+q
+lf vid/MyTube/packed/
+cd doc/tools/smenu/
+cls
+nvim smenu.md
+cd ../
+take planner
+nvim planner.lua
+q
+ls | smenu -2
+ls | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 10
+ls /tmp | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 10
+ls /tmp | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0
+ls /tmp | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m 'this is the title'
+ls /tmp | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[this is the title]'
+ls /tmp | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[ this is the title ]'
+printf '%s\n' 'yes' 'no' 'cancel' | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[ this is the title ]'
+smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[ this is the title ]' < "yes no cancel"
+smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[ this is the title ]' << "yes no cancel"
+smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[ this is the title ]' <<< "yes no cancel"
+sh
+cls
+c
+printf '%s\n' 'yes' 'no' 'cancel' | smenu -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m -c '[ this is the title ]'
+printf '%s\n' 'yes' 'no' 'cancel' | smenu -c -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[ this is the title ]'
+printf '%s\n' 'yes no' 'cancel' | smenu -c -2 ^Y -1 ^N -3 ^C -s /^N -x cur 0 -m '[ this is the title ]'
+dash
+printf '%s\n' 'yes' 'no' 'nah' | smenu -c -W $'\n'
+sh -c "printf '%s\n' 'yes' 'no' 'nah' | smenu -c -W $'\n'"
+sh -c "printf '%s\n' 'yes' 'no' 'nah' | smenu -c -W '\n'"
+sh -c "IFS='\n' printf '%s\n' 'yes' 'no' 'nah' | smenu -c -W '\n'"
+sh -c "printf '%s\n' 'yes' 'no' 'nah' | smenu -c -W $'\n'"
+bash -c "printf '%s\n' 'yes' 'no' 'nah' | smenu -c -W $'\n'"
+sh -c "printf '%s\n' 'yes' 'no' 'nah' | fzf -m --reverse"
+q
+cd /data/doc/tools/
+cls
+take smenu
+cls
+mkdir simple-menu yesno lvm-menu
+cd lvm-menu/
+rawfetch.sh https://raw.githubusercontent.com/p-gen/smenu/master/examples/yesno/yesno.sh
+mv yesno.sh ../yesno/
+rawfetch.sh https://raw.githubusercontent.com/p-gen/smenu/master/examples/lvm_menu/lvm_menu.sh
+rawfetch.sh https://raw.githubusercontent.com/p-gen/smenu/master/examples/lvm_menu/menu.sh
+cd ../simple-menu/
+cls
+nvim raws.txt
+for i in `cat raws.txt`; do rawfetch.sh "${i}"; done
+cls
+nvim simple_menu.sh 
+cls
+..
+cls
+find $PWD -type
+find $PWD -type f
+rm simple-menu/raws.txt -f
+find $PWD -type f -exec 'chmod +x -v {}'
+find $PWD -type f -exec 'chmod +x -v {f}'
+for i in `find $PWD -type f`; do chmod -v +x ${i}; done
+cls
+nvim simple-menu/
+lf
+pwd
+man smenu
+q
+pulsemixer 
+cd vid/
+lf
+cd .config/lf
+cls
+chmod +x lfrc
+chmod +x scope
+chmod +x scope.sh 
+nvim lfrc
+lf
+q
+grops | grep mpd
+groups | grep mpd
+x
+lf vid/MyTube/
+pulsemixer 
+lf vid/MyTube/packed/
+nvim /tmp/test.md
+python -e 'print("tes")'
+python -c 'print("tes")'
+lua -e 'print("tes")'
+nvim /tmp/test.md
+cd .config/pandoc
+cls
+cd dwe
+cd defaults/
+cls
+nvim r/config.r 
+nvim /tmp/test.rmd 
+nvim ../filters/tex-codeblock-en.lua 
+nvim /tmp/test.rmd 
+nvim ~/.config/nvim/lua/module/skel.lua 
+nvim ~/.config/nvim/skels/skel.rmd 
+nvim /tmp/test.rmd 
+q
+grep 'os\.' *.lua
+nvim cboutput.lua fa-today.lua 
+nvim cboutput.lua
+nvim cboutput.lua fa-today.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+q
+lf ~/.config/pandoc/
+q
+nvim /data/dev/hossein-lap/workflow/suckless/st/colors/solarized-dark.h 
+lf 
+texdoc tcolorbox
+texdoc tabulat
+texdoc tabular
+texdoc table
+texdoc tables
+cd /usr/local/texlive/2022/texmf-dist/doc/
+find . -name table.pdf
+zathura ./fonts/boisik/example/table.pdf
+find . -name tabular.pdf
+bg
+fg
+cls
+lf
+texdoc tabularx
+texdoc minipage
+texdoc minipage-en
+find $PWD '*minipage*.pdf'
+c; find $PWD -iname '*minipage*.pdf' 2>/dev/null
+texdoc fancyvrb
+nvim ~/.config/nvim/lua/plugin/lsp/init.lua 
+nvim ~/.config/pandoc/defaults/solarized/solarized.yaml 
+nvim /tmp/test.rmd
+pwd
+cd ~/.config/pandoc/defaults/
+cls
+nvim solarized/theme.sty main.sty 
+nvim ~/uni/micro-lap/micro-lap-reports/07/07.md 
+q
+nvim /tmp/test.tex
+ls /tmp/test.tex
+bash -c "a=\"this is Bash\"; echo ${a}"
+bash -c "a=\\"this is Bash\\"; echo ${a}"
+bash -c "a='this is Bash'; echo ${a}"
+bash -c "a='this is Bash' echo ${a}"
+a="this is Bash"; echo ${a}
+bash -c a="this is Bash"; echo ${a}
+bash -c 'a="this is Bash"; echo ${a}'
+unset a
+bash -c 'a="this is Bash"; echo ${a}'
+bash -c "a="this is Bash"; echo ${a}"
+bash -c "a=\"this is Bash\"; echo ${a}"
+bash -c "a=\\"this is Bash\\"; echo ${a}"
+bash -c "a=\\\"this is Bash\\\"; echo ${a}"
+bash -c "a=\\\\"this is Bash\\\\"; echo ${a}"
+bash -c 'a='this is Bash'; echo ${a}'
+bash -c 'a=\'this is Bash\'; echo ${a}'
+bash -c 'a=\'this is Bash\' ; echo ${a}'
+lf doc/books/
+q
+cd mus/long-for-work/
+cls
+find $PWD -type f | grep '\.mp3$\|\.m4a$'
+find $PWD -type f | grep '\.mp3$\|\.m4a$' > ~/.local/share/mpd/playlists/work.m3u 
+man r
+man R
+man Rscript 
+R
+nvim `which dmplay.sh`
+cd .config/pandoc
+cls
+take tmp
+lf
+q

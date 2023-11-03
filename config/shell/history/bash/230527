@@ -1,0 +1,219 @@
+lf
+cls
+cd themes/
+cls
+unlink allgray
+mv allgray.old/ allgray
+ض
+q
+cls
+s
+cls
+cd themes/allgray/
+cls
+nvim static/css/style.css 
+q
+hugo server
+hugo server --disableFastRender
+q
+hugo server 
+hugo server --disableFastRender
+q
+cls
+nvim config.toml
+nvim content/test/index.md 
+...
+cd blog/
+cls
+cp hos tmp -r
+cd tmp/
+q
+git diff .
+git restore --source=HEAD cleaner 
+lf 
+lf themes/allgray/
+nvim -o ~/.config/lf/{cleaner,scope}
+cls
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/tmux/tmux.conf 
+q
+cd themes/allgray
+cls
+s
+cls
+lf
+nvim ~/.config/lf/lfrc 
+lf
+nvim ~/.config/lf/lfrc 
+lf
+nvim ~/.config/lf/lfrc 
+lf
+nvim ~/.config/lf/lfrc 
+echo $TERM
+nvim ~/.config/lf/lfrc 
+lf
+nvim ~/.config/tmux/tmux.conf 
+man tmux
+nvim ~/.config/tmux/tmux.conf 
+lf 
+cls
+nvim .
+cls
+nvim ~/.config/lf/lfrc 
+lf 
+q
+cd themes/
+cls
+mv allgray/ allgray.old
+ln -s ../../../allgray
+...
+cd -
+..
+cls
+s
+cls
+hugo new test/index.md
+nvim content/test/index.md 
+q
+hugo server --disableFastRender
+q
+awk '{print $1;}' | dmenu -p emoji 
+awk '{print $1;}' emoji.txt | dmenu -p emoji 
+cat emoji.txt | dmenu -p emoji 
+cls
+cl
+make clean; make; sudo make install
+cd screen/shots/
+lf 
+q
+notify-send -u critical test
+notify-send -u normal test
+nvim .config/dunst/dunstrc 
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim colors/
+nvim config.def.h
+make clean; make; sudo make install
+cd ../dwm/
+cd ../dmenu/
+nvim config.def.h 
+make clean; make; sudo make install
+cls
+man nvim
+nvim -o 2 colors/default.h ../dwm/colors/void.h 
+nvim -O 2 colors/default.h ../dwm/colors/void.h 
+nvim -O 1 colors/default.h ../dwm/colors/void.h 
+nvim -O  colors/default.h ../dwm/colors/void.h 
+nvim -o  colors/default.h ../dwm/colors/void.h 
+nvim -o  colors/void.h ../dwm/colors/void.h 
+nvim config.def.h 
+make clean; make; sudo make install
+nvim `which dmchar_emoji.sh`
+nvim config.def.h 
+nvim `which dmchar_emoji.sh`
+nvim colors/void.h 
+cd ../dwm/
+grep 'mon ' *.{c,h}
+nvim config.def.h
+lf
+make clean
+lf
+gss .
+git add .
+git commit -m 'stable: allbar'
+patch -p1 < patches/dwm-extrabar-6.2-20210930-a786211.diff 
+nvim *.rej
+nvim ~/.config/nvim/init.lua 
+nvim *.rej
+make clean; make; sudo make install
+c
+cls
+xsetroot -name "standard status text;extra bar left status text;extra bar right status text"
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 1; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; done
+sleep 1; while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 1; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 3; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 0.5; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 0.1; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 0.01; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 0.005; done
+slstatus 
+slstatus -h
+slstatus -1
+slstatus -s
+nvim config.def.h
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 0.1; done
+while true; do xsetroot -name "standard status text;extra bar left status text;extra bar right status text"; sleep 1; done
+while true; do xsetroot -name ";extra bar left status text;extra bar right status text"; sleep 1; done
+while true; do xsetroot -name "$(date);extra bar left status text;extra bar right status text"; sleep 1; done
+while true; do      (( 10#$(date +%s) % 60 )) || bottomdisp=$(date)
+    xsetroot -name "$(topbar);$bottomdisp";     sleep 1; done  &
+while true; do      (( 10#$(date +%s) % 60 )) || bottomdisp=$(date)
+    xsetroot -name "$(topbar);$bottomdisp"fg;     sleep 1; done  &
+ccbg
+cd themes/allgray
+cls
+s
+cls
+lf
+q
+cls
+s
+cls
+nvim content/test/index.md 
+q
+hugo server --disableFastRender
+q
+cd /data/dev/hossein-lap/allgray/
+cls
+cd ../blog/hos/
+cls
+cd themes/
+cls
+mv allgray/ allgray.old
+..
+cd -
+ln -s ../../../allgray 
+..
+t
+cd ../../
+cls
+cl
+cd all-write/
+cls
+cd all-write-blog/
+cls
+tree content/
+rm -rf content/
+cp -r ../../blog/hos/content .
+cd content/
+cls
+..
+hugo new test/index.md
+cls
+ls themes/
+cd themes/
+ln -s ../../../allgray 
+nvim cond
+..
+nvim config.toml
+t
+cd ../../blog/tmp/
+cls
+nvim ../.giti
+nvim ../.gitignore
+..
+gss .
+cd -
+cls
+t
+q
+x
+c
+x
+c
+x
+vim .xprofile 
+x

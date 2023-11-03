@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "5.42.86.225",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @mahsa_amini2 | Donated | SE🇸🇪 | 0️⃣1️⃣",
+        "pass": "3cded858-b792-4d61-951d-38def9db47e8",
+        "port": 22,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "b02OPlsmscjam5OQNZQNJbbdX9pPsgtCH43tEIXo5V8",
+            "sec": "tls",
+            "sid": "744ab81d842b1348",
+            "sni": "ftp.debian.org",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3897,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

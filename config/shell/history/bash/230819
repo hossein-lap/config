@@ -1,0 +1,204 @@
+xbps-query -Rs vintage
+xbps-query -Rs rpg
+make clean; make; sudo make install
+sxwall.sh 70586.jpg 
+sxwall.sh -h
+sxwall.sh .
+sxwall.sh
+c
+neofetch 
+nvim ~/dev/hossein-lap/suckless/st/config.def.h 
+clear; ls
+nvim ~/dev/hossein-lap/suckless/st/config.def.h 
+مب حهز
+lf pic/
+nvim
+nvim ~/.config/nvim/init.lua 
+cd dev/hossein-lap/blog/hos/themes/allgray/static/css/
+cls
+nvim gen.lua
+nvim style.css 
+nvim gen.lua 
+loginctl power-off
+loginctl poweroff
+nvim role/fa/python-teach.lua 
+nvim palette/plain.lua 
+nvim /tmp/test.lua
+nvim role/{en,fa}/init
+grep toggle *.lua
+grep 'function toggle' *.lua
+grep 'function comment' *.lua
+grep 'function .*() ' *.lua
+grep 'function .*()' *.lua
+nvim utils.lua 
+q
+..
+sh Comment/lg.sh 
+nvim ~/.config/nvim/init.lua 
+cd ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/
+grep toggle *.lua
+cls
+cd Comment/
+grep toggle *.lua
+grep toggler *.lua
+nvim init.lua config.lua 
+grep toggle *.lua | grep force
+nvim opfunc.lua 
+nvim *.lua
+man fzf
+nvim ~/.config/nvim/lua/module/main.lua
+cd ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/
+cls
+lf
+lf ~/.config/nvim/lua/plugin/
+nvim lua/
+cls
+nvim lua/Comment/lg.sh 
+lg test
+s
+lg test ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/
+s
+lg test ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/
+s; lg test ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/
+lg
+s
+lg
+s
+lg
+s
+lg
+s; lg
+s
+s; lg
+lf
+lg
+gz
+lz
+lg
+s; lg
+s
+s; lg
+highlight -O ansi ./.old/fa/cv/Makefile~
+highlight -O ansi ./.old/fa/cv/Makefile~ || cat ./.old/fa/cv/Makefile~
+highlight -O ansi ./.old/fa/cv/Makefile~ 2>/dev/null || cat ./.old/fa/cv/Makefile~
+s; lg
+clear
+nvim ~/.config/nvim/lua/plugin/comment/init.lua 
+ip a
+c
+clear
+for i in `find . -name resume.pdf`; do zathura $i ; done
+lf doc/books/
+t att -n 0
+t att -t 0
+lg M.cert
+cd dev/resume/
+cls
+t
+nvim ~/.config/nvim/lua/module/rce.lua
+lg
+s
+lg test
+s
+lg test
+cls
+highlight gen.lua 
+highlight gen.lua  | grep -n test
+highlight gen.lua  | grep -n post
+man highlight
+highlight gen.lua -O ansi | grep -n post
+highlight gen.lua -O xterm256 | grep -n post
+highlight gen.lua -O ansi | grep -n post
+highlight gen.lua -O xterm256 | grep -n post
+man highlight
+man fzf
+c
+s
+c;s
+s
+lg M.cert
+grep M.cert role/*/*.lua
+nvim gen.lua 
+make
+nvim 
+cls
+nvim gen.lua 
+pwgen -c 20 1
+pwgen -c 30 1
+nvim role/fa/init.lua 
+nvim gen.lua 
+q
+nvim role/fa/devops.lua 
+nvim role/fa/sysadmin.lua
+nvim role/en/devops.lua 
+nvim role/fa/sysadmin.lua 
+nvim role/fa/{init.lua,linux-teach.lua}
+cls
+mv palette/ utils
+cd utils/
+cls
+mkdir palette
+mv *.lua palette/
+mkdir style
+nvim style/one.lua
+cls
+nvim style/
+mv palette/ ..
+..
+rm -rf utils/
+clear; ls
+make
+q
+t att
+q
+cls
+man bat
+nvim lg.sh 
+q
+nvim /tmp/test.lua 
+cd ~/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua/Comment/
+testfzf() { ls | fzf --preview "grep ${1}"; }
+testfzf toggle
+testfzf() { ls | fzf --preview "grep ${1} {}"; }
+testfzf toggle
+testfzf() { grep -c "${1}" * | awk -F ':' '{print $1;}' | fzf --preview "grep ${1} {}"; }
+testfzf toggle
+grep -c toggle *
+testfzf() { grep -c "${1}" * | grep -v ':0$' | awk -F ':' '{print $1;}' | fzf --preview "grep ${1} {}"; }
+testfzf toggle
+testfzf() { grep -c "${1}" $(find $PWD -type f) | grep -v ':0$' | awk -F ':' '{print $1;}' | fzf --preview "grep ${1} {}"; }
+testfzf toggle
+nvim lg.sh
+t
+q
+hugo -t allgray 
+cd public/
+gss .
+git add .
+git commit -m 'Hotfix: top-navbar background/style'
+git push
+q
+nvim themes/allgray/layouts/_default/baseof.html 
+hugo -t allgray 
+cd public/
+git add .
+git commit -m 'testing the top-navbar bg'
+git push
+nvim ../content/_index.md 
+..
+nvim themes/allgray/layouts/_default/baseof.html 
+q
+hugo server
+cd dev/hossein-lap/blog/hos/
+nvim content/_index.md 
+hugo -y allgray
+hugo -t allgray
+cd public/
+git add .
+git commit -m 'under maintenance'
+git push
+..
+t
+lf dl/telegram-dl/
+q
+x

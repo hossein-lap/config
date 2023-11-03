@@ -1,0 +1,41 @@
+nvim .config/fontconfig/fonts.conf 
+cd vid/shows/series/the-rookie/
+lf
+q
+lf vid/
+x
+lf vid/shows/series/the-rookie/
+sudo xbps-install -Syu
+take w/qrencode
+take rj
+sudo xbps-install qrencode
+qrencode -s 6 -l H -o "text.png" "This type of QR holds plain text. This text is shown to the user when they scan the QR code. No other action is automatically triggered."
+mv text.png qrcode.png 
+qrencode -s 6 -l H -o "qrcode.png" "This type of QR holds plain text. This text is shown to the user when they scan the QR code. No other action is automatically triggered."
+r.sh nsxiv qrcode.png 
+qrencode -s 6 -l H -o "qrcode.png" "https://www.rezajalali-lawyer.ir"
+pwd
+nvim details.txt
+nvim Makefile
+make
+nsxiv output.png 
+ls
+lsblk
+dmusb.sh 
+cd /run/media/hos/3485-B904/
+ls
+mkdir ~/usb/32-black
+rsync -r --progress * /home/hos/usb/32-black/
+cd
+dmusb.sh 
+lsblk
+sudo fdisk /dev/sda
+lsblk
+sudo mkfs.vfat /dev/sda1
+lsblk
+lsblk -f
+dmusb.sh 
+nvim ~/.config/nvim/lua/module/keybind.lua 
+cd vid/shows/series/the-rookie/s05
+sh dl.sh 
+nvim dl.sh 

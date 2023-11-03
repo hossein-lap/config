@@ -1,0 +1,23 @@
+metadata:
+  keywords:
+    - 'English Document (monochrome)'
+
+verbosity: WARNING # INFO
+top-level-division: section # part, chapter
+toc: false
+number-sections: false
+
+pdf-engine: xelatex
+highlight-style: /home/hos/.config/pandoc/highlight/monochrome.theme
+
+variables:
+  geometry: margin=3cm
+  fontsize: 12pt
+  header-includes:
+    - \usepackage{/home/hos/.config/pandoc/defaults/monochrome/main}
+filters:
+    - /home/hos/.config/pandoc/filters/en-today.lua
+    - /home/hos/.config/pandoc/filters/tex-quoteblock-en.lua
+    - /home/hos/.config/pandoc/filters/tex-definition_list-en.lua
+    - /home/hos/.config/pandoc/filters/tex-codeblock-mc.lua
+#    - /home/hos/.config/pandoc/filters/tangle.lua

@@ -1,0 +1,20 @@
+clear; ls
+clear
+ls
+ls ../..
+ls
+cowsay 'PJ'
+c
+figlet PJ
+figlet Hos
+figlet -f small HOS
+clear
+figlet -f small Hos
+figlet -f small HOS
+c
+figlet -f small HOS
+cd .config/nvim
+cls
+lf
+q
+x

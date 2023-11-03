@@ -1,0 +1,120 @@
+pulsemixer 
+sxwall.sh 
+which sxwall.sh 
+nvim `which sxwall.sh `
+sxwall.sh 
+q
+pulsemixer 
+cd vid/shows/
+cls
+cd movies/
+cls
+nvim dl.sh links.dl 
+cls
+chmod +x dl.sh 
+./dl.sh 
+x
+lf uni/
+t
+cd doc/tools/latex/
+cls
+nvim latex.tex 
+nvim bidi.
+nvim bidi.tex 
+q
+cls
+l
+lf
+nvim summary.pdf 
+nvim summary.md 
+cd ../../computer-vision/
+cls
+cd ../exams/computer-vision/
+cls
+take 1
+grep pdftk ~/.config/shell/history/bash/*
+for i in `seq 110`; do pdftk ../image\ processing-Final.pdf cat all ${i} page_${i}.pdf ; done
+cls
+grep pdftk ~/.config/shell/history/bash/*
+for i in `seq 110`; do pdftk ../image\ processing-Final.pdf cat ${i} output page_${i}.pdf ; done
+grep merged ~/.config/shell/history/bash/*
+montage -density 300 -mode concatenate -tile 2x3 page_*.pdf merged.pdf
+montage -density 200 -mode concatenate -tile 2x3 page_*.pdf merged.pdf
+cd ../2/
+for i in `seq 41`; do pdftk ../image\ processing.\ shahid\ beheshti.pdf ${i} output page_${i}.pdf ; done
+for i in `seq 41`; do pdftk ../image\ processing.\ shahid\ beheshti.pdf cat ${i} output page_${i}.pdf ; done
+echo montage -density 200 -mode concatenate -tile 2x3 page_*.pdf merged.pdf
+cls
+zathura ../image\ processing.\ shahid\ beheshti.pdf 
+q
+cls
+lf vid/shows/anime/conan/
+lf vid/shows/anime/
+q
+cd ../../exams/computer-vision/1
+cls
+vidir 
+vidir -h
+vidir page_?.pdf
+cls
+cls | head
+cls
+du merged.pdf
+while true; do du merged.pdf; sleep 1; done
+while true; do du -h merged.pdf; sleep 1; done
+zathura merged.pdf 
+..
+cls
+take 2
+cd /data/dev/hossein-lap/workflow/scripts/
+cls
+nvim dmpdf.sh
+cd -
+cd ../../exams/computer-vision/2/
+cls
+echo montage -density 200 -mode concatenate -tile 2x3 page_*.pdf merged.pdf
+montage -density 200 -mode concatenate -tile 2x3 page_*.pdf merged.pdf
+du -h merged.pdf 
+zathura merged.pdf 
+cls
+rm page_??.pdf
+rm page_??.pdf -f
+cls
+rm page_?.pdf -f
+cls
+..
+cls
+rm 1/page_*.pdf -f
+ls 1
+cls
+man figl
+man figlet
+c
+nvim ../plugin/alpha/init.lua 
+..
+nvim ~/.config/pandoc/filters/tangle.lua 
+grep os.capture ~/.config/pandoc/filters/*.lua
+nvim /home/hos/.config/pandoc/filters/cb.lua
+nvim module/rce.lua 
+q
+cd .config/nvim/lua/module/
+grep Grep *.lua
+..
+for i in `find $PWD -iname '*.lua'`; do grep Grep "${i}"; done
+..
+for i in `find $PWD -iname '*.lua'`; do grep Grep "${i}"; done
+for i in `find $PWD -iname '*.lua'`; do cat ${i} | grep Grep; done
+nvim
+nvim lua/plugin/telescope/init.lua 
+cls
+cd lua/module/
+cls
+nvim figlet.lua
+nvim ../../init.lua 
+nvim figlet.lua
+nvim keybind.lua 
+nvim figlet.lua
+q
+q
+t att
+q

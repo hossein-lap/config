@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "mkh.arv2ray.host",
+        "name": "رایگان | VLESS | @ARv2ray | RU🇷🇺 | 0️⃣1️⃣",
+        "pass": "00071180-de1b-4eb9-9000-e2205aeb82b8",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+            "sec": "tls",
+            "sni": "tel.ArV2ray.fun"
+        }
+    },
+    "gid": 1,
+    "id": 7029,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

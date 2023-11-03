@@ -1,0 +1,24 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "a.vip-se.life",
+        "name": "رایگان | VLESS | @FalconPolV2rayNG | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "a0d68bf7-f1e3-4c5a-969f-04f58da8fa09",
+        "port": 49418,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@FalconPolV2rayNG"
+        }
+    },
+    "gid": 3,
+    "id": 3673,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,12 @@
+du -h .
+.
+q
+cls
+..
+cls
+chmod +x Code\ with\ Mosh\ -\ Python\ Programming\ for\ Developers\ 2019-6/
+cd Code\ with\ Mosh\ -\ Python\ Programming\ for\ Developers\ 2019-6/
+cls
+chmod +x {0,1}?_*
+cls
+q

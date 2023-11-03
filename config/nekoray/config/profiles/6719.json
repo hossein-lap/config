@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "168.119.97.46",
+        "name": "رایگان | REALITY | @proxy_kafee | DE🇩🇪 | 0️⃣1️⃣",
+        "pass": "8ae2dfe6-8e53-4936-c131-acc837dadaf7",
+        "port": 993,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@proxy_kafee,@proxy_kafee,@proxy_kafee",
+            "pbk": "1vuWshgAbJUP6OiL5vfttyA1_kmNdFjUmEQLyH4KNRE",
+            "sec": "tls",
+            "sni": "grseven.AhV2ray.cfd",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 6719,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": 440
+}

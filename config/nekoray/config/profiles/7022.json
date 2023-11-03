@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "13.melov2ray.store",
+        "name": "رایگان | REALITY | @melov2ray | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "5679d0e9-fd66-488e-8b31-2ee08825ece9",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
+            "pbk": "dSVEQtvtffLWkH3XjEY-KVmtS1me9_Iw2ZFZKpse4VM",
+            "sec": "tls",
+            "sid": "25146608",
+            "sni": "eset.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7022,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

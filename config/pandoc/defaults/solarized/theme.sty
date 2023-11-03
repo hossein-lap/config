@@ -1,0 +1,84 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{solarizedtheme}[2021/02/26 Solarized (Dark) Theme]
+\RequirePackage{xcolor,tikz,tcolorbox,listings}
+
+\tcbuselibrary{breakable}
+
+% colors {{{
+\definecolor{solarizedbg}      {HTML} {002b36} % #002b36
+%\definecolor{solarizedcl}      {HTML} {05221d} % #05221d
+\definecolor{solarizedcl}      {HTML} {073642} % #073642
+\definecolor{solarizedfg}      {HTML} {fdf6e3} % #fdf6e3
+\definecolor{solarizedcomment} {HTML} {93a1a1} % #93a1a1
+\definecolor{solarizedcyan}    {HTML} {2aa198} % #2aa198
+\definecolor{solarizedgreen}   {HTML} {859900} % #859900
+\definecolor{solarizedorange}  {HTML} {cb4b16} % #cb4b16
+\definecolor{solarizedpink}    {HTML} {d33682} % #d33682
+\definecolor{solarizedpurple}  {HTML} {6c71c4} % #6c71c4
+\definecolor{solarizedred}     {HTML} {dc322f} % #dc322f
+\definecolor{solarizedyellow}  {HTML} {b58900} % #b58900
+% }}}
+% box env {{{
+\newtcolorbox{bbox}{
+%	title={\centering \color{black}{\textsf{Example} }},
+	boxrule=1pt,
+	arc = 0.5mm,
+	%sharp corners = downhill,
+	enlarge top by=3mm,
+	minipage boxed title*=-15cm,
+%	beamer,
+	enhanced,
+	center,
+    breakable,
+	%attach boxed title to top center={yshift=-2.5mm},
+	attach boxed title to top left={yshift=-2mm, xshift=1cm},
+	colback  = solarizedcl,
+	colframe = black!90!white,
+	colbacktitle = white,
+}
+% }}}
+% lstlisting formatting {{{
+\lstset{frame=tb,
+	showstringspaces=false,
+	% columns=flexible,
+	% numbers=left,
+	% xleftmargin=.03\textwidth,
+	% xrightmargin=.03\textwidth,
+    basicstyle={\ttfamily\color{solarizedfg}},
+	keywordstyle={\color{solarizedyellow}},
+	ndkeywordstyle={\color{solarizedred}},
+    commentstyle={\color{solarizedcomment}},
+	emphstyle={\underline},
+    stringstyle={\color{solarizedcyan}},
+	numberstyle={\ttfamily\scriptsize\color{solarizedcomment}},
+%
+	rulecolor=\color{black!50!white},
+%
+%	keywordstyle={\color{codepurple}},
+%	commentstyle={\color{frenchbeige}},
+%	stringstyle={\color{alizarin}},
+%	keywordstyle={\color{codepurple}},
+%	ndkeywordstyle={\ttfamily\color{keywordsColor}},
+%	emph={ls},
+%	emphstyle={\color{red}},
+%	backgroundcolor=\color{white!96!black},
+%	ndkeywordstyle={\underline},
+%	emphstyle={\color{red}},
+	breaklines=true,
+	breakatwhitespace=false,
+	% numbersep=3mm,
+	frame=leftline,
+%	frame=left top right bottom,
+%	caption=\code{e.g.},
+	frame=shadowbox,
+	% frame=none,
+%
+	% aboveskip=5mm,
+	% belowskip=2mm,
+	captionpos=t,
+	tabsize=6
+}
+% end code block formatting }}}
+
+\pagecolor{solarizedbg}
+\color{solarizedfg}

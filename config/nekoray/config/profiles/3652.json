@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "jdjjxkckxkxjkxkxn.ddns.net",
+        "name": "رایگان | REALITY | @V2rayCollectorDonate | SE🇸🇪 | 1️⃣3️⃣",
+        "pass": "9d8d4e29-0624-4508-8f24-463e9ef74003",
+        "port": 40898,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "uGxKPMYMMUSC_3JpxaL_dkQ5E3XZGCelzGYZEPjgaWA",
+            "sec": "tls",
+            "sid": "deb45a8d",
+            "sni": "www.discordapp.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3652,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

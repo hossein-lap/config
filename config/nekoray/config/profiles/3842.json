@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "49.12.114.8",
+        "name": "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 5️⃣1️⃣",
+        "pass": "4fa32de3-c0ed-499e-8c99-523c15e1e7f7",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "yUkPFWJWo9UEkqCb-11ohQ3zM4Vjy-aQqWBq6lvmAkI",
+            "sec": "tls",
+            "sid": "76a7fbbc",
+            "sni": "cdn.discordapp.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3842,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

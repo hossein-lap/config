@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "fd.shabijichang.com",
+        "aid": 0,
+        "id": "d0c965df-5572-4ada-ae71-afe5e1186410",
+        "name": "رایگان | VMESS | @v2ray_vpn_ir | US🇺🇸 | 0️⃣1️⃣",
+        "port": 80,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "ms.shabijichang.com",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/"
+        }
+    },
+    "gid": 2,
+    "id": 1541,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

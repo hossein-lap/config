@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "49.13.72.189",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @V2rayngninja | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "57472176-b5f6-4cef-803e-66491cc0eb49",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "kvq3JTPJ2_QEDCGf5l7mwLtxg-0QcfmDbJvlCVopNUg",
+            "sec": "tls",
+            "sid": "63",
+            "sni": "edudip.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 1742,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "5.42.86.226",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @mahsa_amini1 | Donated | SE🇸🇪 | 0️⃣4️⃣",
+        "pass": "6a3a00ff-e945-4cc0-a34f-11ba26873dcd",
+        "port": 8880,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "I1Ak8mxtC1NVVcJwghjn9P8pNwvYTqOXznuJd5Vh3ms",
+            "sec": "tls",
+            "sid": "90a27d2f26402cac",
+            "sni": "speed.cloudflare.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3885,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

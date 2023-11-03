@@ -1,0 +1,57 @@
+lf screen/shots/
+q
+cd /data/vm/debian-docker/
+cls
+nvim run.sh 
+ls share/
+cd ../qemu/debian/
+cls
+du -h .
+..
+du -h .
+cls
+cd fbsd/
+cls
+..
+cls
+nvim run.sh 
+./run.sh 
+nvim run.sh 
+nvim create.sh 
+nvim install.sh 
+q
+find / -iname '*elementary*' 2>/dev/null
+c; find / -iname '*elementary*.iso' 2>/dev/null
+pulsemixer 
+nvim
+cat /etc/os-release 
+dmusb.sh 
+cd dl/iso/
+ls *.iso | fzf
+find / -iname '*.iso' 2>/dev/null | fzf -m
+ls /data/deb/downloads/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20230212-Media.iso*
+ls /data/deb/downloads/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20230212-Media*
+find / -iname '*solus*.iso' 2>/dev/null | fzf -m
+find / -iname '*solus*.iso' 2>/dev/null | fzf -m --reverse
+find / -iname 'fedora*.iso' 2>/dev/null 
+nvim
+car /etc/os-release 
+cat /etc/os-release 
+nvim `which fm4000`
+nvim ~/.config/pandoc/filters/tangle.lua 
+nvim ~/.config/pandoc/filters/cb.lua 
+nvim /tmp/test.lua
+nvim `which dmshot.sh`
+nvim `which dmusb.sh`
+s
+xbps-query -l | fzf
+nvim `which dmusb.sh`
+s
+xbps-query -l | fzf
+s
+xbps-query -l | fzf
+nvim `which dmusb.sh`
+q
+r.sh loimpress IE-P03JavaScript_.ppt 
+pulsemixer 
+x

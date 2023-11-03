@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "www.outline.network.ak1894.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+        "method": "chacha20-ietf-poly1305",
+        "name": "رایگان+|+SS+|+@OutlineVpnOfficial+|+CA🇨🇦+|+0️⃣2️⃣",
+        "pass": "AwObceGhTnGcDacA",
+        "port": 51348,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 4,
+    "id": 3529,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": -1
+}

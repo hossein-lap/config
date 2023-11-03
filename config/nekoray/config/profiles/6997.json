@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "128.140.3.97",
+        "name": "رایگان | REALITY | @Parsashonam | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "---Telegram-Parsashonam---",
+        "port": 444,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,@Parsashonam,",
+            "pbk": "ZJtWwVRQu5Y7OneS56N9zzgmDEBXnayJMMLMRR_p7E0",
+            "sec": "tls",
+            "sid": "02c24a2c",
+            "sni": "www.speedtest.net",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 6997,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

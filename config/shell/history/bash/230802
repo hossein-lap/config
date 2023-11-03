@@ -1,0 +1,24 @@
+nvim dev/resume/en/resume/gen.lua 
+xbps-query -Rs warp
+lf vid/shows/
+dmusb.sh 
+cd /run/media/hos/4DD6F99C3A308995/
+lf
+q
+make clean; make; sudo make install
+cal
+cal -4
+cal -3
+echo 'Mohamed Labouardy - Pipeline as Code, Continuous Delivery with Jenkins'
+c
+cd w/devops/pipeline-as-code/pres/
+take intro
+nvim intro.txt
+cd dev/hossein-lap/workflow/suckless/sent/
+nvim config.def.h 
+nvim pac-pres01.pdf 
+nvim pac-pres01.tex 
+cd w/devops/pipeline-as-code/pres/01/
+t
+lf doc/books/tools/
+x

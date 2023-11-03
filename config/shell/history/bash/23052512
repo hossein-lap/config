@@ -1,0 +1,99 @@
+t att
+cls
+nvim 01/01.tex 
+sh t.sh 
+make
+nvim t.sh 
+cls
+nvim 06/Makefile 
+cs
+cls
+nvim make.sh 
+nvim t.sh 
+..
+cd micro-lap-reports/
+cls
+sh t.sh 
+chmod +x t.sh 
+nvim t.sh 
+q
+sudo xbps-install kitty
+cls
+s
+cls
+nvim config.sty 
+cls
+nvim Makefile 
+nvim t.sh 
+nvim 01/01.md
+man pandoc
+git diff show config.sty
+git diff show HEAD config.sty
+git restore --source=HEAD config.sty
+nvim config.sty 
+lowriter 06/06.docx 
+cd ~/.config/pandoc/defaults/docx/
+cls
+cp reference.docx vazir.docx
+lowriter vazir.docx 
+lowriter 06/06.docx 
+cd -
+lowriter 06/06.docx 
+cd -
+lowriter /home/hos/.config/pandoc/defaults/docx/vazir.docx 
+make
+lowriter 06/06.docx 
+cls
+nvim t.sh 
+lowriter 06/06.docx 
+nvim 06/d.md 
+lowriter 06/06.docx 
+cls
+tail -n +2 06/docx.md 
+tail -n +9 06/docx.md 
+tail -n -9 06/docx.md 
+tail -n -6 06/docx.md 
+tac 06/docx.md | tail -n -6
+tac 06/docx.md | tail -n +6 | tac
+tac 06/docx.md | tail -n +7 | tac
+tac 06/docx.md | tail -n +8 | tac
+tac 06/docx.md | tail -n +6 | tac
+tac 06/docx.md | tail -n +5 | tac
+q
+cls
+take config
+mv ../config.sty main.sty
+cp ~/.config/pandoc/defaults/fa/* .
+nvim fa.yaml 
+cls
+..
+nvim 06/06.md
+make
+lowriter 06/06.docx 
+nvim t.sh 
+make
+clear
+cls
+nvim t.sh 
+make
+lowriter 06/06.docx 
+q
+lsblk
+dmusb.sh 
+sudo gparted
+cls
+lf /data/usb/
+dmusb.sh 
+lsblk
+lf /run/media/hos/pers/
+lf
+lf uni/micro-lap/reports/
+q
+unix
+c
+unix
+q
+neofetch 
+c
+neofetch 
+q

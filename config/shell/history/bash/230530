@@ -1,0 +1,715 @@
+nvim dl/telegram-dl/markdown.md 
+cd /data/dev/hossein-lap/workflow/suckless/
+nvim */config.def.h
+./make.sh 
+..
+make clean; make; sudo make install
+neofetch 
+..
+make clean; make; sudo make install
+neofetch 
+q
+dmkill.sh 
+sudo bash
+pgrep bash
+pgrep bash -u $USER
+dmkill.sh -s tui
+kill `pgrep -u root bash`
+sudo kill `pgrep -u root bash`
+sudo kill `pgrep bash -u root`
+rawfetch.sh https://tools.suckless.org/slock/patches/user/
+rawfetch.sh https://tools.suckless.org/slock/patches/dwmlogo/slock-dwmlogo-20210324.diff
+rawfetch.sh https://tools.suckless.org/slock/patches/capscolor/slock-capscolor.diff
+rawfetch.sh https://tools.suckless.org/slock/patches/capscolor/slock-capscolor-20170106-2d2a21a.diff
+rawfetch.sh https://tools.suckless.org/slock/patches/capscolor/slock-capscolor-20220921-35633d4.diff
+rawfetch.sh https://tools.suckless.org/slock/patches/user/slock-user-1.5.diff
+q
+cd ../../workflow/suckless/
+lf
+q
+rawfetch.sh https://st.suckless.org/patches/ligatures/0.9/st-ligatures-alpha-scrollback-20230105-0.9.diff
+q
+cd /data/dev/hossein-lap/workflow/suckless/
+nvim dwm/colors/solarized-dark.h 
+nvim ~/.config/{dunst/dunstrc,nvim/init.lua}
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/{dunst/dunstrc,nvim/init.lua}
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/tmux/tmux.conf 
+nvim dmenu/colors/solarized-dark.h 
+loginctl suspend -i
+nvim `which dmexit.sh`
+man loginctl
+nvim `which dmexit.sh`
+nvim ~/.config/nvim/lua/module/rce.lua 
+cls
+nvim keysymdef.h 
+cd ../../suckless
+cd def
+cls
+tree -D
+lf
+q
+nvim `which dmexit.sh`
+q
+x
+cls
+s
+cls
+gss .
+ls patch/
+patch -p1 < patch/st-alpha-20220206-0.8.5.diff 
+git restore --source=HEAD .
+neofetch 
+=neofe
+c
+neofetch 
+c
+cls
+wc -l *.{c,h}
+make
+./st
+nvim ../../workflow/suckless/st/config.def.h 
+lf ../../workflow/suckless/patched/st
+c
+pwd
+nvim ../../workflow/suckless/dwm/config.def.h
+nvim colors/schemes.h 
+q
+make clean; make
+./st
+cd /data/dev/hossein-lap/suckless/def
+cls
+cd st
+t
+..
+lf
+gss .
+git add .
+find $PWD name '\.git'
+find $PWD -name '\.git'
+find $PWD -name '\.git' | grep -v 'less\/\.'
+for i in `find $PWD -name '\.git' | grep -v 'less\/\.'`; do rm -rf "$i"; done
+find $PWD -name '\.git'
+gss .
+git add .
+git commit -m 'new plain, ready to patch'
+cd st
+cls
+patch -p1 < patch/st-alpha-20220206-0.8.5.diff 
+nvim config.def.h 
+nvim ../../workflow/suckless/st/patch/st-alpha-20220206-0.8.5.diff 
+nvim ../../workflow/suckless/patched/st/patches/changealpha.diff 
+patch -p1 < ../../workflow/suckless/patched/st/patches/changealpha.diff 
+nvim ../../workflow/suckless/patched/st/patches/changealpha.diff 
+patch -p1 < ../../workflow/suckless/patched/st/patches/changealpha.diff 
+nvim config.def.h.rej 
+nvim ../.gitignore
+gss .
+git add .
+ls patch/st-alpha-20220206-0.8.5.diff 
+git commit -m 'applied alpha-20220206-0.8.5 patch with changealpha'
+ls patch/st-*
+patch -p1 < patch/st-scrollback-0.8.5.diff 
+nvim config.def.h.rej 
+echo patch -p1 < patch/st-scrollback-0.8.5.diff 
+gss .
+git add .
+git commit -m 'applied scrollback-0.8.5.diff patch'
+cls
+ls patch/
+gss .
+patch -p1 < patch/st-newterm-0.9.diff 
+nvim *.rej
+gls 
+ls patch/st-newterm-0.9
+ls patch/st-newterm-0.9*
+git diff .
+ls patch/st-newterm-0.9*
+gss .
+git add .
+patch -p1 patch/st-newterm-0.9-tabbed.diff 
+patch -p1 < patch/st-newterm-0.9-tabbed.diff 
+nvim patch/st-newterm-0.9-tabbed.diff 
+git add .
+git commit -m 'applied newterm-0.9 and newterm-0.9-tabbed patch'
+c
+cls
+gss .
+rm *.{rej.orig}
+rm *.{rej,orig}
+cls
+gls
+ls patch/
+patch -p1 < patch/st-ligatures-alpha-scrollback-20230105-0.9.diff 
+cls
+ls patch/st-ligatures-alpha-scrollback-20230105-0.9.diff 
+gss .
+git add .
+git commit -m 'applied ligatures-alpha-scrollback-20230105-0.9 patch'
+make clean; make
+./st
+cls
+make clean
+nvim Makefile 
+make clean
+gss .
+nvim ../.gitignore
+gss .
+nvim Makefile 
+make clean
+cls
+git add Makefile 
+git commit -m 'cleaner `make clean`'
+gss .
+ls patch/
+patch -p1 < patch/st-font2-0.8.5.diff 
+git add .
+git commit -m 'applied font2-0.8.5 patch'
+gls
+cls
+patch -p1 < patch/st-bold-is-not-bright-20190127-3be4cf1.diff 
+git add .
+git commit -m 'applied bold-is-not-bright-20190127-3be4cf1 patch'
+cls
+make clean
+cls
+gss .
+cp ../../workflow/suckless/patched/st/patches/st-colorschemes-0.8.5.diff patch/
+nvim patch/st-colorschemes-0.8.5.diff 
+patch -p1 < patch/st-colorschemes-0.8.5.diff 
+nvim *.rej
+cls
+make clean
+gss .
+git add .
+git commit -m 'applied colorschemes-0.8.5 patch'
+cls
+gss .
+gls
+cls
+nvim config.def.h 
+cls
+nvim -d config.def.h ../../workflow/suckless/st/config.def.h 
+nvim config.def.h 
+cls
+cp -r ../../workflow/suckless/st/colors .
+mv schemes.h colors/
+nvim config.def.h 
+nvim -d config.def.h ../../workflow/suckless/st/config.def.h 
+nvim config.def.h 
+q
+cd /data/dev/hossein-lap/suckless/st
+sudo make install
+nvim
+nvim /data/dev/hossein-lap/workflow/suckless/st/colors/ayu-dark.h 
+neofetch 
+c
+neofetch 
+q
+cd /data/dev/hossein-lap/suckless/st/
+t
+cd /data/dev/hossein-lap/suckless/st
+nvim config.def.h 
+make clean; make; sudo make install
+nvim colors/schemes.h 
+neofetch 
+c
+make clean; make; sudo make install
+neofetch 
+c
+neofetch 
+nvim colors/schemes.h 
+make clean; make; sudo make install
+nvim colors/schemes.h 
+make clean; make; sudo make install
+nvim colors/schemes.h 
+cls
+cd ~/vid/shows/movies/
+nvim links.dl 
+nvim colors/hybrid-
+nvim colors/hybrid-dark.h 
+q
+make clean; make; sudo make install
+clear
+neofetch e
+yes
+c
+ls
+gss .
+nvim colors/schemes.h 
+q
+nvim colors/schemes.h 
+q
+cd vid/shows/movies/
+nvim links.dl 
+nvim links.dl 
+echo ||<| [] || |> |>||
+echo '||<| [] || |> |>||'
+printf '%b\b' '\uee00'
+printf '%b' '\uee00'
+printf '%b' '\uee01'
+printf '%b' '\uee00'; for i in `seq 15`; do printf '%b' '\uee01'; done; printf '%b\n' '\uee02'
+printf '%b' '\uee00'; for i in `seq 25`; do printf '%b' '\uee01'; sleep 1; done; printf '%b\n' '\uee02'
+printf '%b' '\uee00'; for i in `seq 25`; do printf '%b' '\uee01'; sleep .1; done; printf '%b\n' '\uee02'
+printf '%b' '\uee00'; for i in `seq 25`; do printf '%b' '\uee01'; sleep .1; done; printf '%b\n' '\uee02'
+printf '%b' '\uee03'; for i in `seq 25`; do printf '%b' '\uee04'; sleep .1; done; printf '%b\n' '\uee05'
+neofetch 
+for i in `seq 10`; do echo '|'; done
+neofetch 
+dmkill.sh -s tui
+<= clear
+c
+echo <=
+echo <=
+c
+:= 
+t att
+make clean; make; sudo make install
+t att
+neofe
+c
+neofetch 
+cls
+neofetch 
+c
+neofetch 
+c
+neofetch 
+cls
+neofetch 
+..
+make clean; make; sudo make install
+nvim config.def.h 
+gls
+cls
+s
+cls
+nvim patch/st-newterm-0.9.diff 
+nvim config.def.h 
+cls
+neofetch 
+nvim config.def.h 
+c
+nvim colors/schemes.h 
+q
+printf '%s\n' '|' '|'
+printf '%s\n' '|' '|' '|' '|'
+for i in `seq 5`; do echo '|'; done
+make clean; make
+nvim ../../workflow/suckless/dwm/patches/dwm-exitmenu-6.3.diff 
+q
+t att
+c;s
+q
+cls
+neofe
+neofetch 
+c
+neofetch 
+cls
+..
+make clean; make; sudo make install
+cls
+c
+cls
+cls
+t ls
+cd /data/dev/hossein-lap/suckless/st/
+t
+..
+t
+nvim ../workflow/suckless/st/colors/dracula.h 
+nvim ../workflow/suckless/st/colors/ayu-dark.h 
+nvim ../workflow/suckless/patched/st/schemes.h 
+cls
+s
+cls
+q
+nvim st/colors/schemes.h 
+nvim st/config.def.h 
+cls
+s
+cls
+q
+neofetch 
+c
+cls
+t att
+make clean; make; sudo make install
+t att
+cd /data/dev/hossein-lap/suckless
+t
+nvim .Xresources
+nvim /data/dev/hossein-lap/workflow/suckless/st/config.def.h 
+nvim /data/dev/hossein-lap/workflow/suckless/st/colors/ayu-dark.h 
+make clean; make; sudo make install
+cls
+s\
+cls
+nvim st/hb.c 
+nvim ~/.config/tmux/tmux.conf 
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h
+nvim ../dmenu/config.def.h 
+neofetch e
+neofetch 
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/colors/void.h 
+neofetch 
+cd /data/dev/hossein-lap/suckless
+t
+nvim ~/.config/lf/lfrc 
+lf ~/pic/
+q
+c
+s
+cls
+neofetch 
+..
+make clean; make; sudo make install
+q
+neofetch 
+c
+neofetch 
+c
+neofetch 
+c
+neofetch 
+c
+neofetch 
+lf
+..
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+nvim ~/.Xresources.d/hybrid
+nvim ~/.Xresources
+q
+neofetch 
+c
+neofetch 
+lf
+c
+neofetch 
+cls
+c
+cls
+c
+cls
+c
+cls
+neofetch 
+cls
+c
+neofetch 
+cls
+c
+cls
+cd uni/micro-lap/micro-lap-reports/
+cls
+find $PWD -iname '*.bas'
+for i in `find $PWD -iname '*.bas'`; do unix2dos ${i}; done
+for i in `find $PWD -iname '*.bas'`; do echo $i; done
+c
+for i in `find $PWD -iname '*.bas' | grep -v '\.tmp'`; do echo $i; done
+for i in `find $PWD -iname '*.bas' | grep -v '\.tmp'`; do j=$(echo ${i} | awk -F '/' '{print $6;}'); echo $i $j; done
+for i in `find $PWD -iname '*.bas' | grep -v '\.tmp'`; do j=$(echo ${i} | awk -F '/' '{print $7;}'); echo $i $j; done
+for i in `find $PWD -iname '*.bas' | grep -v '\.tmp'`; do j=$(echo ${i} | awk -F '/' '{print $7;}'); cp $i .tmp/${j}.bas; done
+nvim .tmp/0?.bas
+pcmanfm .tmp
+c
+q
+c
+cls
+c
+cls
+c
+cls
+neofetch 
+c
+cls
+neofetch 
+c
+ccls
+cls
+neofetch e
+neofetch 
+c
+cl
+cls
+nvim .Xresources
+neofetch 
+c
+cls
+neofe
+cls
+neofetch 
+cls
+neofetch 
+c
+neofetch 
+cls
+neofetch 
+cls
+c
+cls
+neofetch 
+cls
+neofetch 
+ls
+cls
+c
+ls
+cls
+cls
+c
+cls
+neofetch e
+cmus
+weechat
+newsboat 
+cls
+neofetch 
+c
+ls
+cls
+neofetch 
+c
+cls
+cd tmp
+rawfetch.sh 
+rawfetch.sh https://gist.githubusercontent.com/w0ng/3278077/raw/4c9e1510a7ade25b787efed0ad435234c0af1ba5/.Xresources-hybrid
+mv .Xresources-hybrid Xresources-hybrid 
+nvim Xresources-hybrid 
+cls
+c
+cl
+c
+cd
+cls
+neofetch 
+weechat
+cls
+c
+cls
+c
+cls
+..
+make clean; make; sudo make install
+make clean; make; sudo make install
+sudo xbps-install -Sy love-11.4_1
+sudo xbps-install -Sy love
+neofetch 
+cd /data/tmp/lua/
+cls
+./draw.lua 
+c; ./draw.lua 
+c
+c; ./draw.lua 
+cd /data/tmp/lua/
+./draw.lua 
+c
+./draw.lua 
+nvim tmp.lua
+q
+cd tmp
+take pc-yt-dlp
+nvim ln.dl
+colormgr 
+colorview 
+nvim colors.lua
+c
+datestartup.sh 
+lazygit 
+ssh ali@192.168.1.236
+c
+neofetch 
+colortest
+colortest-slim 
+clear
+colortest-slim 
+c; colortest-slim 
+c
+c; colortest-slim 
+pwd
+neofetch 
+nvim st/config.def.h 
+nvim -d st/colors/schemes.h*
+cd st/colors/
+mv schemes.h.new schemes.h -f
+nvim schemes.h 
+cls
+..
+s
+cls
+make clean
+cls
+gss .
+git diff x.c
+git add x.c 
+git commit -m 'revert bold-is-bright patch'
+gss .
+git add .
+git commit -m 'hos changes, keybinds, colors and more'
+gss .
+cls
+take shot
+cp /data/screen/shots/shot-230530_204518.png dracula.png
+cp /data/screen/shots/shot-230530_204549.png 01-solarized-dark.h
+mv dracula.png 00-dracula.png 
+cp /data/screen/shots/shot-230530_204624.png 02-ayu-dark.png
+lf /data/w
+find / -iname '*color*.lua' 2>/dev/null
+cls
+mv 01-solarized-dark.h 01-solarized-dark.png
+cls
+nsxiv .
+cd /usr/share/lua
+cls
+tree
+tree -L 2
+luarocks -h
+luarocks -h | less -SR
+find / -iname '*color*.lua' 2>/dev/null | grep '^\/data'
+nvim /data/tmp/lua/color.lua
+cd /data/tmp/lua/
+cls
+nvim draw.lua
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim draw.lua
+nvim ~/.config/nvim/lua/in
+nvim ~/.config/nvim/init.lua 
+nvim draw.lua
+nvim ~/.config/nvim/init.lua 
+nvim draw.lua
+q
+nvim ~/.config/tmux/tmux.conf 
+cls
+s
+cls
+lf ~/pic/
+nvim st/colors/hybrid-16.h 
+nvim st/colors/schemes.h 
+cd ~/tmp
+rawfetch.sh https://gist.githubusercontent.com/w0ng/16e33902508b4a0350ae/raw/5f529f0a5a61e6e66e4ab188829f2d79e3aa4d8b/.Xresources-hybrid-reduced-contrast
+mv .Xresources-hybrid-reduced-contrast Xresources-hybrid-reduced-contrast 
+nvim Xresources-hybrid-reduced-contrast 
+mv Xresources-hybrid-reduced-contrast ~/.Xresources.d/hybrid-red-cont
+nvim ~/.Xresources
+rm ~/.Xresources.d/hybrid-red-cont 
+nvim -c 'colorscheme hybrid'
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim -c 'colorscheme hybrid'
+nvim -c 'colorscheme hybrid-reverse'
+nvim -c 'colorscheme hybrid'
+nvim
+c
+cd -
+nvim st/patch/st-bold-is-not-bright-20190127-3be4cf1.diff 
+nvim /data/tmp/lua/color.lua
+luarocks search color
+luarocks install color
+sudo luarocks install color
+xbps-query -Rs lua | grep header | less -SR
+xbps-query -Rs lua | grep header 
+xbps-query -Rs lua | less -SR
+sudo xbps-install lua5{1..4}-devel
+sudo xbps-install lua5{1..4}-devel -Sy
+nvim st/hb.c 
+pwd
+cd ../tabb
+cd tabbed/
+cls
+ls patch/
+cd patch/
+rawfetch.sh https://tools.suckless.org/tabbed/patches/clientnumber/tabbed-clientnumber-0.6.diff
+rawfetch.sh https://tools.suckless.org/tabbed/patches/clientnumber/tabbed-clientnumber-20160702-bc23614.diff
+rawfetch.sh https://tools.suckless.org/tabbed/patches/hidetabs/tabbed-hidetabs-20191216-b5f9ec6.diff
+rawfetch.sh https://tools.suckless.org/tabbed/patches/keyrelease/tabbed-keyrelease-20191216-b5f9ec6.diff
+rawfetch.sh https://tools.suckless.org/tabbed/patches/separator/tabbed-separator-20230128-41e2b8f.diff
+cls
+..
+gss .
+git add .
+patch -p1 < patch/tabbed-clientnumber-0.6.diff 
+make clean; make; sudo make install
+cls
+gss .
+nvim ../.gitignore
+gss .
+ls ..
+nvim ../.gitignore
+gss .
+git add .
+gss .
+git rm --cached tabbed.c
+gss .
+git restore --source=HEAD tabbed.c
+gss .
+cls
+make clean
+gss .
+git commit -m 'tabbed: pachtes'
+gss .
+cls
+patch -p1 < patch/tabbed-clientnumber-0.6.diff 
+gss .
+git add tabbed.c
+nvim ../.gitignore
+gss .
+git add .
+..
+gss .
+cd tabbed/
+cls
+gss .
+git add .
+..
+nvim .gitignore
+gss .
+cd tabbed/
+git add tabbed.c 
+make clean; make; sudo make install
+git commit -m 'applied tabbed-clientnumber-0.6 patch'
+patch -p1 < patch/tabbed-keyrelease-20191216-b5f9ec6.diff 
+git add .
+git commit -m 'applied tabbed-keyrelease-20191216-b5f9ec6 patch'
+patch -p1 < patch/tabbed-hidetabs-20191216-b5f9ec6.diff 
+nvim *.rej
+gss .
+cls
+make clean; make; sudo make install
+gss .
+gls
+nvim patch/tabbed-keyrelease-20191216-b5f9ec6.diff 
+clear; make
+make clean; make
+gss .
+git restore --source=HEAD .
+make clean; make
+git restore --source=HEAD~1 .
+make clean; make
+gss .
+make clean; make; sudo make install
+tabbed -v
+git add .
+git commit -m 'reverted tabbed-keyrelease-20191216-b5f9ec6 patch; was broken'
+gls
+patch -p1 < patch/tabbed-hidetabs-20191216-b5f9ec6.diff 
+nvim *.rej 
+git restore --source=HEAD .
+cd patch/
+rawfetch.sh https://tools.suckless.org/tabbed/patches/autohide/tabbed-autohide-20201222-dabf6a2.diff
+..
+cls
+patch -p1 < patch/tabbed-autohide-20201222-dabf6a2.diff 
+make clean; make; sudo make install
+git restore --source=HEAD .
+nvim patch/tabbed-keyrelease-20191216-b5f9ec6.diff 
+make clean;
+make
+q
+t att
+q
+x

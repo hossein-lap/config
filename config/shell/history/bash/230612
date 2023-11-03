@@ -1,0 +1,221 @@
+neofetch 
+neofetch 
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+gss .
+gls
+git add .
+git commit -m 'maybe stable'
+gls
+git restore --source=89332f5 .
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+cd ../st
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+neofetch 
+pwd
+ls patch/
+nvim patch/st-bold-is-not-bright-20190127-3be4cf1.diff 
+make clean; make; sudo make install
+neofetch 
+nvim colors/hybrid-dark.h 
+make clean; make; sudo make install
+neofetch 
+cls
+clear
+echo \\\ -
+echo \ -\ -
+cd /tmp
+nvim :
+chmod +x :
+./:
+nvim :
+clear
+./: what the 'FUCK?!'
+nvim :
+./: what the 'FUCK?!'
+./:
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+gls
+gll
+gss .
+git restore --source=HEAD .
+make clean; make; sudo make install
+cd uni/internet-engineer/
+cls
+cd art/
+cls
+t
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+wc -l *.*
+wc -l *.{c,h,mk,1} Makefile 
+c; wc -l *.{c,h,mk,1} Makefile 
+wc -l *.{c,h,mk,1} Makefile 
+c
+wc -l *.{c,h,mk,1} Makefile 
+ln -s ../../../newdark
+cls
+q
+nvim `which dmchar_nerdfont.sh`
+cd /tmp
+gln https://github.com/voidlinux/runit
+gln https://github.com/void-linux/runit
+cd runit/
+cls
+cd src/
+cls
+nvim iopause.
+nvim iopause.h1
+nvim iopause.h2
+cl
+lf
+cl
+wc -l *
+clear;
+pwd
+wc -l * | tail
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+gss .
+gll
+nvim patches/dwm-dualstatus-6.1.diff 
+nvim patches/dwm-multimon-4-status_all-6.4.diff 
+nvim config.def.h 
+q
+make clean; make; sudo make install
+nvim dwm.c 
+q
+s
+cls
+cl
+c
+cd /tmp
+take www
+nvim index.html
+cls
+s
+cls
+cd themes/newdark
+cls
+tree
+cd layouts/
+cls
+nvim _default/
+nvim .
+cls
+grep '<h1>' */*
+grep '<h1>' */*/*
+grep '<h2>' */*/*
+grep '<h2>' */*
+nvim _default/list.html 
+nvim ../../../config.toml
+lf
+nvim ../../../config.toml
+lf
+nvim ../../../../all-write-blog/config.toml
+lf
+cd ../../mainroad/
+cls
+cd ../newdark
+cls
+..
+lf 
+cls
+hugo new post/absolute/index.md
+nvim content/post/absolute/index.md 
+q
+hugo servert
+hugo server
+hugo server --disableFastRender 
+cls
+s
+cls
+nvim config.toml
+lf
+cd themes/newdark
+t
+lf
+cd ../mainroad/
+cls
+lf
+rm -f /home/hos/.cache/lf/ueberzug-8433
+lf
+cd ../newdark
+nvim layouts/_default/baseof.html 
+lf
+q
+qutebrowser 127.0.0.1:1313
+r.sh qutebrowser 127.0.0.1:1313
+nvim content/_index.md 
+cd content/
+cls
+mkdir post
+cp _index.md post/index.md
+nvim post/index.md 
+lf
+...
+cls
+cd all-write-blog/
+nvim config.toml
+q
+cls
+ls themes/
+cd themes/mainroad/
+cls
+s
+cls
+lf
+..
+rm mainroad/ -rf
+gln git@github.com:hossein-lap/Mainroad.git
+cls
+mv Mainroad/ mainroad
+..
+cls
+nvim config.toml
+hugo -t mainroad
+cd public/
+cls
+nvim index.
+nvim index.html 
+q
+t
+q
+cd /data/dev/hossein-lap/
+cp -r allgray/ newdark
+cd newdark/
+cls
+lf
+q
+hugo server --disableFastRender
+r.sh qutebrowser 127.0.0.1:1313
+hugo server --disableFastRender
+c
+hugo server --disableFastRender
+c
+hugo server --disableFastRender
+hugo server
+q
+cls
+cd ../all-write/all-write-blog/
+t
+q
+xbps-query -Rs sublime
+sudo xbps-install sublime-text
+sudo xbps-install sublime-text4
+subl4 
+xbps-query -Rs sublime-text4
+sudo xbps-remove -Rs sublime-text4
+sudo xbps-remove -R sublime-text4
+x
+clear
+x
+cls
+s
+cls
+nvim summary.
+nvim summary.md 

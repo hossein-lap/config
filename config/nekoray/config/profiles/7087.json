@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "origin.safeaccessnet.xyz",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @ShadowSocks_s | GB🇬🇧 | 0️⃣2️⃣",
+        "pass": "b267cc24-939e-453c-8700-d2390458de21",
+        "port": 8443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+            "sec": "tls",
+            "sni": "www.speedtest.net",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7087,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

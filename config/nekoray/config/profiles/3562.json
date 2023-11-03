@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "135.181.93.118",
+        "name": "رایگان | REALITY | @Parsashonam | FI🇫🇮 | 0️⃣2️⃣",
+        "pass": "---Telgram-Parsashonam---",
+        "port": 4568,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "afOdnTTdj045fWUQaRiShudeyk8_85EwOTNGUmPXd2c",
+            "sec": "tls",
+            "sid": "1b3eccdd",
+            "sni": "eset.com",
+            "spx": "/",
+            "utls": "random"
+        }
+    },
+    "gid": 3,
+    "id": 3562,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

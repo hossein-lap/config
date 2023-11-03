@@ -1,0 +1,7 @@
+lf vid/
+vim /etc/proxychains.conf 
+lf vid/
+lf mus/yt/
+man yt-dlp
+nvim `which dmexit.sh`
+x

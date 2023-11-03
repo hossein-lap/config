@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "49.13.75.84",
+        "name": "رایگان | REALITY | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "b40ecbcb-6133-4df6-a22d-488209b7255e",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER",
+            "pbk": "RCcFDOa4rYPIqHl0fz1CM5ObzeuxkMN64NhzP8o6YRA",
+            "sec": "tls",
+            "sid": "c5407ecd",
+            "sni": "www.zula.ir",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3624,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

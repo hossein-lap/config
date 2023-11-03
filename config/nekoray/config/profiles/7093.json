@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "2bia-channel.unlimiteddev.xyz",
+        "name": "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
+        "pass": "7c4d187c-ab82-4e4d-eb2e-9a71c4ba9a82",
+        "port": 80,
+        "stream": {
+            "ed_len": 0,
+            "host": "bia-to-channel.unlimiteddev.xyz",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/"
+        }
+    },
+    "gid": 1,
+    "id": 7093,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

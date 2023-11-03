@@ -1,0 +1,8 @@
+proxychains4 -q yt-dlp -F https://www.xozilla.com/videos/113570/hottie-porn-stars-fetish-porn/
+proxychains4 -q yt-dlp https://www.xozilla.com/videos/113570/hottie-porn-stars-fetish-porn/
+proxychains4 -q yt-dlp -c https://www.xozilla.com/videos/113570/hottie-porn-stars-fetish-porn/
+mpv Hottie\ porn\ stars\ fetish\ porn\ ⧸\ Xozilla.com\ \[113570\].mp4.part 
+proxychains4 -q yt-dlp -c https://www.xozilla.com/videos/113570/hottie-porn-stars-fetish-porn/
+yt-dlp -c -R infinite 'https://vdownload-23.sb-cd.com/8/6/865050-480p.mp4?secure=Coh4yDZ0RhrLFg_Lj7JesQ,1685020345&m=23&d=1&_tid=865050'
+mpv 865050-480p\ \[865050-480p\].mp4 
+q

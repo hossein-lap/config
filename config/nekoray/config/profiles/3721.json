@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "con4me.rayvps.sbs",
+        "name": "رایگان | VLESS | @rayvps | RELAY🚩 | 0️⃣2️⃣",
+        "pass": "089b42b0-4a5a-4de7-ac8f-51a2b4c71efe",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "Telegram:@RayVPS,@RayVPS,@RayVPS,@RayVPS,@RayVPS,@RayVPS",
+            "sec": "tls",
+            "sni": "con4.rayvps.sbs",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3721,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

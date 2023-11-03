@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "joinbedevmessorg.mokhin.me",
+        "name": "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣2️⃣",
+        "pass": "86ee957e-4ec6-40c1-93f2-c7d6eef6e2de",
+        "port": 80,
+        "stream": {
+            "ed_len": 0,
+            "host": "bia-to-channel.vmessorg.fun",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/"
+        }
+    },
+    "gid": 1,
+    "id": 6922,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,211 @@
+pandoc --reference-doc=/home/hos/.config/pandoc/defaults/docx/reference.docx docker-in-ai.tex -o test.docx
+sudo xbps-install lowriter
+sudo xbps-query -Rs libreoffice
+du -h test.docx 
+pwd
+clear
+sudo xbps-install libreoffice
+man pandoc
+q
+sudo xbps-install -y libreoffice
+lf sahar/
+q
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc --filter pandoc-crossref -L resolve-references.lua docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc --filter pandoc-crossref -L resolve-references.lua docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+ls
+ls -l
+ls -lh
+s
+ls -l
+cls
+r.sh lowriter test.docx 
+pandoc --reference-doc=/home/hos/.config/pandoc/defaults/docx/reference.docx --bibliography=references.bib --citeproc docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+pandoc --reference-doc=${HOME}/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+pandoc --reference-doc=${HOME}/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc --filter pandoc-crossref docker-in-ai.tex -o test.docx
+xbps-query -Rs pandoc-corss
+xbps-query -Rs pandoc | fzf
+sudo xbps-install pandoc-crossref pandoc-sidenote
+pandoc --reference-doc=${HOME}/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc --filter pandoc-crossref docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.odt --bibliography=references.bib --citeproc --filter pandoc-crossref docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+wget https://raw.githubusercontent.com/openjournals/inara/main/data/filters/resolve-references.lua
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.odt --bibliography=references.bib --citeproc --filter pandoc-crossref --lua-fiter resolve-references.lua docker-in-ai.tex -o test.docx
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.odt --bibliography=references.bib --citeproc --filter pandoc-crossref --fiter resolve-references.lua docker-in-ai.tex -o test.docx
+man pandoc
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.odt --bibliography=references.bib --citeproc --filter pandoc-crossref -L resolve-references.lua docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc --filter pandoc-crossref -L resolve-references.lua docker-in-ai.tex -o test.docx
+r.sh lowriter test.docx 
+grep '\lr' docker-in-ai.tex 
+grep '\\lr' docker-in-ai.tex 
+grep '\\lr' docker-in-ai.tex | sed 's/\\lr{//'
+grep '\\lr' docker-in-ai.tex | sed 's/\\lr{//g'
+sed 's/\\lr{//g' docker-in-ai.tex | grep '} '
+nvim docker-in-ai.tex 
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc --filter pandoc-crossref -L resolve-references.lua docker-in-ai.tex -o test.docx
+nvim docker-in-ai.tex 
+pandoc --reference-doc /home/hos/sahar/uni/tolid_zinc/doc-reference/custom-reference.docx --bibliography=references.bib --citeproc --filter pandoc-crossref -L resolve-references.lua docker-in-ai.tex -o test.docx
+nvim docker-in-ai.tex 
+q
+lf 
+q
+cd uni/Documents/old/ravesh-erae/docker-in-ai/
+ls
+t
+q
+cd doc/todo/daily/
+ls
+sh dai
+sh dmdaily.sh 
+nvim build.lua 
+nvim .tmp.lua 
+mv .tmp.lua gen.lua
+cls
+nvim build.lua 
+q
+cd dl/iso/
+ls artix-*.iso
+rsync --progress artix-cinnamon-runit-20230711-x86_64.iso /run/media/hos/Ventoy/
+btop
+dmusb.sh 
+dmkill.sh 
+make clean; make; sudo make install
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+cd ../../scripts/
+grep 'bw .' dm*.sh
+grep 'bw .' dm*.sh | awk -F ':' '{print $1;}' | sort -u
+nvim `grep 'bw .' dm*.sh | awk -F ':' '{print $1;}' | sort -u`
+grep 'bw .' dm*.sh
+grep 'bw .' dm*.sh | grep patches
+du -h .
+q
+x
+lf
+make clean; make; sudo make install
+dmexit.sh -F
+dmexit.sh 
+dmexit.sh -h
+c
+dmexit.sh -h
+make clean; make; sudo make install
+pwd
+ls
+q
+ls
+mkdir scripts
+cd scripts/
+gln https://github.com/maoiscat/mpv-osc-modern
+cd ~/dl/
+mv material-design-iconic-font.zip ~/.local/share/fonts/arch/
+cd ~/.local/share/fonts/arch/
+unzip material-design-iconic-font.zip 
+ls
+lf
+cd -
+cd ~/.config/mpv/
+ls
+cd scripts/
+cls
+ls
+mv mpv-osc-modern/ ..
+cd ..
+ls
+cp mpv-osc-modern/modern.lua scripts/
+mkdir fonts
+mkdir script-opts/
+touch script-opts/osc.conf
+ls
+mv mpv-osc-modern/ scripts/
+cd scripts
+ls
+ls mpv-osc-modern/
+rm modern.lua -r
+ls
+lf
+mpv 01-Vim_As_Your_Editor-Introduction.mp4 
+nvim ~/.config/lf/lfrc
+q
+man mpv
+nvim ~/.config/lf/lfrc
+mpv 03-Vim_As_Your_Editor-Vertical_Movements.mp4 
+mpv --no-term-osd-bar 03-Vim_As_Your_Editor-Vertical_Movements.mp4 
+mpv 03-Vim_As_Your_Editor-Vertical_Movements.mp4 
+q
+lf vid/MyTube/
+q
+nvim mpv.conf 
+q
+wget https://raw.githubusercontent.com/maoiscat/mpv-osc-framework/main/expansion.lua
+ls
+nvim main.lua 
+lf
+lf ~/vid/shows/anime/
+q
+ls
+cls
+cd scripts/
+ls
+gln https://github.com/maoiscat/mpv-osc-framework
+ls
+mv modern.lua mpv-osc-modern/
+ls
+ls mpv-osc-framework/
+mkdir demo
+cp mpv-osc-framework/oscf.lua demo/
+cd demo/
+ls
+cp ../mpv-osc-framework/main.lua .
+nvim main.lua 
+lf
+q
+man yt-dlp
+nvim ~/.config/mpv/mpv.conf 
+nvim ~/.config/lf/scope
+nvim ~/.config/lf/lfrc
+nvim ~/.config/mpv/mpv.conf 
+cp ~/.local/share/fonts/material-design/fonts/Material-Design-Iconic-Font.ttf ~/.config/mpv/fonts/
+nvim ~/.config/mpv/mpv.conf 
+cd ~/.config/mpv/
+t
+q
+nvim .config/shell/bashrc
+dmpass.sh 
+dmusb.sh 
+lf /run/media/hos/4DD6F99C3A308995/
+cls
+lf vid/
+q
+lf vid/MyTube/
+cd ~/.config/mpv/
+ls
+rm old.scripts/
+rm old.scripts/ -rf
+cls
+nvim restore-old-bindings.conf 
+q
+cd dev/hossein-lap/workflow/scripts/
+nvim dmchar_emoji.sh 
+nvim dmchar_nerdfont.sh 
+nvim dmchar_*.sh 
+nvim ../suckless/dmenu/config.def.h 
+nvim ~/.config/mpv/mpv.conf 
+q
+alias lolcat
+ls | lolcat
+c\ls | lolcat
+cls | lolcat
+{ cls; cls } | lolcat
+{ cls; cls; } | lolcat
+{ cls; l; } | lolcat
+ls -ls | lolcat
+clear
+ls -ls | lolcat
+q
+nvim --version
+xbps-query -Rs sxiv | fzf

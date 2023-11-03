@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "91.107.177.66",
+        "name": "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 5️⃣2️⃣",
+        "pass": "5e57804b-2966-4fdb-a479-644cf12e1483",
+        "port": 21924,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "TohGOM8sCb9oiqGq99Jn9OyE0pY1FTy0e_qIKqsxC2g",
+            "sec": "tls",
+            "sid": "a95efa3f",
+            "sni": "www.eset.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3843,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

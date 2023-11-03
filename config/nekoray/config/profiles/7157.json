@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "mtn.vpnprosec.com",
+        "name": "رایگان | VLESS | @VpnFreeSec | US🇺🇸 | 0️⃣2️⃣",
+        "pass": "cf88a597-a264-45fa-ac73-7c829932e6cc",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "sec": "tls",
+            "sni": "V2ray.svnreallity.online"
+        }
+    },
+    "gid": 1,
+    "id": 7157,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

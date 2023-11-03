@@ -1,0 +1,81 @@
+nviom
+nvim
+vi
+vi /tmp/test.sh
+vi /tmp/test.c
+vi .config/vi/vimrc 
+vi /tmp/test.c
+vi .config/vi/vimrc 
+vi /tmp/test.c
+vi .config/vi/vimrc 
+vi /tmp/test.c
+cd .config/vi
+gss .
+vi /tmp/test.c
+du -h .
+cls
+ls modules/
+cls
+tree
+tree -L1
+tree -L2
+nvim ~/.config/shell/bashrc
+s
+x
+nvim ~/.config/mpv/mpv.conf
+nvim w/devops/pipeline-as-code/pres/01/pac-01.tex 
+q
+nvim /tmp/test.tex
+q
+cd ../art/templates/code/latex/git\ test/
+clear; ls
+vidir 
+cls
+..
+mv git\ test/ git-TeXstudio
+cd git-TeXstudio/
+gss .
+rm -rf .git/
+clear; ls
+cd figs/
+cls
+clear; ls
+for i in `ls test/*.png`; do unlink ${i}; done
+ls
+git init
+git add .
+git commit --no-gpg-sign -m init
+rm -rf test/
+cls
+rm -rf .git/
+clear; ls
+..
+cls
+mkdir fonts
+find / -iname 'parastoo*.ttf' 2>/dev/null
+fc-list | grep Parstoo
+fc-list | grep Parastoo
+rmdir fonts/
+cp -r /home/hos/.local/share/fonts/persian/dl/parastoo-fonts/ fonts -v
+clear; ls
+du -h .
+..
+tar --gzip -cvf git-TeXstudio.tar.gz git-TeXstudio/
+du -h git-TeXstudio.tar.gz 
+rm git-TeXstudio.tar.gz -fv
+ls git-TeXstudio/
+ls
+unix2dos git-TeXstudio/git-TeXstudio.tex 
+tar --xz -cvf git-TeXstudio.tar.xz git-TeXstudio/
+du -h
+du -h git-TeXstudio.tar.xz 
+tar --gzip -cvf git-TeXstudio.tar.gz git-TeXstudio/
+rm git-TeXstudio.tar.xz 
+sudo xbps-remove libreoffice
+q
+xbps-query -Rs pdftk
+xbps-query -Rs qpdf
+sudo xbps-install qpdf
+sudo xbps-remove pdftk
+pulsemixer 
+lf ../art

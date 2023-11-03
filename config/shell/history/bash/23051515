@@ -1,0 +1,41 @@
+cd .config/
+cls
+mv emacs/ emacs.bak
+mv doom/ doom.bak
+..
+mv .doom-emacs.d/ .doom-emacs.d.bak
+xbps-remove -R emacs-x11
+sudo xbps-remove -R emacs-x11
+xbps-query -Rs emacs
+sudo xbps-install emacs
+sudo xbps-install -y emacs
+emacs
+emacs /tmp/test.c
+sudo xbps-install emacs-x11
+cls
+mv .doom-emacs.d.bak/ .doom-emacs.d
+cd .config/
+rm -rf emacs
+mv emacs.bak/ emacs
+mv ~/.doom-emacs.d/ ~/.doom-emacs.d.bak
+mv doom.bak/ doom
+lf .config/nvim
+q
+sudo xbps-remove emacs-x11
+emacs
+sudo xbps-install emacs
+emacs
+em
+emacsclient -c -a emacs
+sudo xbps-install emacs-x11
+sudo xbps-remove emacs-x11
+sudo xbps-install emacs-gtk
+sudo xbps-install emacs-gtk3
+xbps-query -Rs emacs
+sudo xbps-remove emacs-gtk3
+sudo xbps-install emacs
+xbps-query -Rs emacs
+sudo xbps-install mg
+cd .config/nvim/lua/plugin/cmp/
+nvim init.lua 
+xbps-query -Rs obs

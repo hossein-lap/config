@@ -1,0 +1,28 @@
+lsblk
+clear; lsblk
+while true; do sleep 1; clear; lsblk; done
+x
+lsblk
+clear; lsblk
+loginctl rebo
+loginctl reboot
+q
+x
+dmusb.sh 
+lsblk
+udisksctl mount -b /dev/sda
+lsblk
+udisksctl mount -b /dev/sda
+lsblk
+udisksctl mount -b /dev/sda
+lsblk
+udisksctl mount -b /dev/sda
+lsblk
+x
+lsblk
+dmexit.sh 
+x
+lsblk
+dmexit.sh 
+xbps-query -Rs blackbox
+x

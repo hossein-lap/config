@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "free1.h3lixchannel.fun",
+        "name": "رایگان | REALITY | @Helix_Servers | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "e722d999-4f72-47eb-8e7c-e3eac6b04e0e",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+            "pbk": "Yjc8RJMpXQ6WafcY7QM8KAqc9_DuAVba96TYLk-ZQSQ",
+            "sec": "tls",
+            "sid": "836f3609",
+            "sni": "zula.ir",
+            "spx": "/system-requirements",
+            "utls": "firefox"
+        }
+    },
+    "gid": 1,
+    "id": 6995,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

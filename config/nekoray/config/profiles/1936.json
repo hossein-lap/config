@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "80.240.30.104",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @testreality | Donated | DE🇩🇪 | 0️⃣1️⃣",
+        "pass": "14b53e1c-0259-458e-a972-b65151016ff4",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "rTfXGCNFOYr5aAGgwYjinU6J2cKWv3zOWEgz33K1M0w",
+            "sec": "tls",
+            "sid": "1056cba061916e03",
+            "sni": "www.speedtest.net",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 1936,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

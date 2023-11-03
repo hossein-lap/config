@@ -1,0 +1,23 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "51.210.110.248",
+        "name": "رایگان | VLESS | @FreakConfig | FR🇫🇷 | 0️⃣2️⃣",
+        "pass": "5bb60c3f-c1dd-4168-9a09-ec4c5ada17ce",
+        "port": 24057,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        }
+    },
+    "gid": 1,
+    "id": 6982,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

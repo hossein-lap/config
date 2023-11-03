@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "128.140.100.144",
+        "name": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣4️⃣",
+        "pass": "1e620dbe-0548-43c7-a074-dbbd5f811084",
+        "port": 26920,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "Telegram:@v_2ra_y@v_2ra_y@v_2ra_y@v_2ra_y@v_2ra_y@v_2ra_y@v_2ra_y@v_2ra_y@v_2ra_y",
+            "pbk": "WZNfM0ityqWJftr60-NcEMXip9Tuxgk7tAMAjdM-7ls",
+            "sec": "tls",
+            "sid": "f632e916",
+            "sni": "fsat.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 1,
+    "id": 7068,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

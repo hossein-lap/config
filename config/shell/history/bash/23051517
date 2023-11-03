@@ -1,0 +1,9 @@
+cd uni/micro-lap/
+cks
+cs
+cls
+cd reports/
+cls
+lf
+nvim */src.bas
+q

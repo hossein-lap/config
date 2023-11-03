@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "bia.alpha2.top",
+        "name": "رایگان | REALITY | @customv2ray | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "e3ba794d-1709-43fe-c8d9-9c8d7afe614f",
+        "port": 52806,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@V2ray_Alpha+@V2ray_Alpha+@V2ray_Alpha",
+            "pbk": "bKFOTU1XNtJNFeNvcfQt7To5g8wO5eYT6UXZkD_bems",
+            "sec": "tls",
+            "sid": "6f5fea46",
+            "sni": "cdn.accuweather.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 1,
+    "id": 7091,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

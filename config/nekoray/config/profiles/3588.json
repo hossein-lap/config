@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "13.melov2ray.store",
+        "name": "رایگان | REALITY | @melov2ray | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "5698a1b6-d966-4afe-a930-58841a851c77",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray",
+            "pbk": "PArdGMnMynlQW_QcOl6Qvd7yySE_1JT9JXxwnBZ2R2c",
+            "sec": "tls",
+            "sid": "2d9775c7",
+            "sni": "eset.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3588,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,23 @@
+q
+git diff rce.lua 
+git show rce.lua
+cp rce.lua rce.lua.bak
+git restore --source=HEAD rce.lua 
+nvim /tmp/test.c
+cls
+nvim rce.lua
+..
+lf plugin/
+q
+nvim init.lua 
+cls
+s
+lf
+q
+cd .config/nvim
+lcs
+lc
+cls
+t ls
+t
+q

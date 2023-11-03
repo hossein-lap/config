@@ -1,0 +1,207 @@
+make clean; make; sudo make install
+make clean; make; sudo make install
+cd .config/
+ls -l mimeapps.list 
+cp /home/hos/dev/hossein-lap/workflow/config/mimeapps.list
+cp /home/hos/dev/hossein-lap/workflow/config/mimeapps.list mimeapps.list.bak
+sudo xbps-install libreoffice
+nvim -d mimeapps.list*
+grep quotation *.lua
+sed -i 's/quotation/quote/g' *.lua
+cd .config/pandoc/templates/
+ls
+mv per.tex fa.tex
+nvim /tmp/test.lua
+nvim `which dmnotes.sh`
+q
+cd .config/nvim/lua/module/
+nvim rce.lua 
+man pandoc
+q
+nvim ~/.config/pandoc/defaults/monochrome/monochrome.yaml 
+q
+nvim `which dmnotes.sh`
+q
+nvim `which imshadow.sh`
+q
+cp doc/notes/md/2023-08-04.md /tmp/
+nvim /tmp/2023-08-04.md 
+q
+nvim `which dmnotes.sh`
+q
+ip -c route 
+nvim ~/.config/shell/aliases.sh 
+s
+ip a
+arp
+sudo xbps-install iproute
+sudo xbps-install iptrace
+sudo xbps-install traceroute
+traceroute 4.2.2.4
+c
+traceroute 4.2.2.4
+ض
+q
+lf
+q
+lsblk
+xbps-query -Rs jenkins
+pass ls | grep link
+pass ls linkedin/hosteam01 
+pass edit linkedin/hosteam01 
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+cls
+s
+cls
+xbps-query -Rs xonotic
+xbps-install -Sy xonotic 0ad
+sudo xbps-install -Sy xonotic 0ad
+xonotic-glx 
+xonotic-sdl 
+clear
+0ad 
+sudo xbps-remove -R xonotic 0ad
+sudo xbps-remove -Rxonotic 0ad
+sudo xbps-remove xonotic 0ad
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+q
+xbps-query -Rs game | fzf
+cd dev/hossein-lap/workflow/scripts/
+nvim dmpkg.sh
+xbps-query -Rs game | dmenu -c -bw 4 -p package-manager -l 25
+xbps-query -Rs game | dmenu -c -bw 4 -p pkg -l 25
+xbps-query -Rs game | dmenu -p pkg -l 25
+xbps-query -Rs game | dmenu -p pkg -l 25 | awk '{print $2;}'
+nvim ~/dev/hossein-lap/workflow/suckless/dmenu/config.def.h 
+xbps-query -Rs game | dmenu -p pkg -l 25 -F | awk '{print $2;}'
+nvim pkgs.lua
+pkgs.lua test
+nudoku 
+nudoku -h
+nudoku -d hard
+nudoku -d hard -c
+nudoku -d hard -s
+nudoku -d hard -s /dev/stdout
+nudoku -d hard -s stdout
+nudoku -d hard -n 6
+nudoku -d hard -n 6 -p sudoku-hard.pdf
+cd ~/dev/
+cls
+gln https://github.com/void-linux/void-packages
+cd resume/fa/
+cls
+t
+make clean;make; sudo make install
+t att
+nudoku -h
+nudoku -p
+nudoku -p test.pdf
+sudo xbps-install mate-teminal
+sudo xbps-install mate-terminal
+sudo xbps-install gnome-terminal
+nvim ~/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+nvim cv/cv-fa.log 
+nvim cv/gen.lua 
+nvim -d cv/gen.lua ../en/cv
+cls
+nvim -d cv/gen.lua resume/gen.lua 
+cls
+cp cv/devops.lua resume/ -v
+nvim resume/gen.lua 
+lf
+cls
+nvim resume/gen.lua 
+nvim ~/.config/nvim/init.lua 
+nvim resume/gen.lua 
+q
+touch sysadmin.lua sysdev.lua backend.lua
+touch computer.lua
+nvim devops.lua 
+for i in `ls *.lua | grep -v 'devops\|gen'`; do echo $i done
+for i in `ls *.lua | grep -v 'devops\|gen'`; do echo $i ; done
+for i in `ls *.lua | grep -v 'devops\|gen'`; do cp devops.lua $i ; done
+ls
+ln -s ../../info.lua info.lua
+ls -l
+unlink info.lua 
+cd ../resume/
+nvim role/devops.lua 
+q
+ls
+lf
+q
+q
+nvim
+cd dl/yt/
+ls
+find $PWD -name '*.mp3'
+find $PWD -name '*.m4a'
+find $PWD -name '*.m4a' > ~/.local/share/mpd/playlists/yt.m3u
+find $PWD -name '*.m4a' | sed -e "s/^/'/" -e "s/$/'/"
+find $PWD -name '*.m4a' | sed -e "s/^/'/" -e "s/$/'/" > ~/.local/share/mpd/playlists/yt.m3u 
+find $PWD -name '*.mp3' > ~/.local/share/mpd/playlists/yt.m3u
+find $PWD -name '*.mp3'
+find $PWD -name '*.mp3' | grep -v Darush
+find $PWD -name '*.mp3' | grep -v Dariush
+find $PWD -name '*.mp3' | grep -v Dariush > ~/.local/share/mpd/playlists/yt.m3u 
+find $PWD -name '*.mp3' | wc -l
+for i in `find $PWD -name '*.mp3'`; do echo "${i}" ; done
+for i in `find $PWD -name '*.mp3'`; do echo "${i}"; done
+for i in `find $PWD -name '*.m4a'`; do echo "${i}"; done
+cls
+cd m
+cd music/
+cls
+vidir 
+ls
+exa -D
+cd tokyoghoul/
+ls
+vidir 
+..
+cls
+cd m4a/
+ls
+vidir 
+find $PWD -name '*.m4a'; do echo "${i} ${RANDOM}.m4a"; o
+for i in `find $PWD -name '*.m4a'`; do echo "${i} ${RANDOM}.m4a"; done
+..
+for i in `find $PWD -name '*.m4a'`; do echo "${i} ${RANDOM}.m4a"; done
+for i in `find $PWD -name '*.mp3'`; do echo "${i} ${RANDOM}.mp3"; done
+for i in `find $PWD -name '*.mp3' | grep -v Dariush`; do "${i} ${RANDOM}.mp3"; done
+mkdir rand-mp3
+for i in `find $PWD -name '*.mp3' | grep -v Dariush`; do cp -v ${i} rand-mp3/${RANDOM}.mp3; done
+find rand-mp3
+find $PWD/rand-mp3
+find $PWD/rand-mp3 > ~/.local/share/mpd/playlists/yt.m3u 
+nvim ~/.local/share/mpd/playlists/yt.m3u 
+mv rand-mp3/ ~/mus/
+nvim ~/.local/share/mpd/playlists/yt.m3u 
+ls
+ls m
+mv m4a ~/mus/yt
+find ~/mus/yt/
+ls
+cd music/
+cls
+ls *.m4a
+mv *.m4a ~/mus/yt/
+mv *.mp3 ~/mus/yt/
+ls
+mv tokyoghoul/Tokyo-Ghoul-▪-Das-Zweite-Kapitel-▪-OST---Extended-\[bOcvndS_X1U\].m4a ~/mus/yt/
+..
+ls
+ls codmw2/
+mv codmw2/*.m4a ~/mus/yt/
+clear
+nvim ~/.config/nvim/lua/module/rce.lua 
+q
+cd dev/void-packages/
+cd srcpkgs/nudoku/
+ls
+nvim template 
+cd ../..
+./xbps-src pkg nudoku
+xbps-query -Rs bootstrap
+./xbps-src binary-bootstrap
+x

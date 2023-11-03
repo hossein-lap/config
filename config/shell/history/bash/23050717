@@ -1,0 +1,134 @@
+tar --lzip -cf arch.tar.lz arch/
+cls
+cl
+du -h arch.tar.lz 
+du -h arch
+tar --zstd -cf arch.tar.zstd arch/
+tar --xz -cf arch.tar.xz arch/
+du -h arch*
+rm arch.*
+mv arch/* ~/pic/pr/
+rmdir arch/
+cls
+cl
+du -h .
+..
+cd ../awesome/
+cls
+du -h .
+..
+lf
+q
+s
+lf vid/
+q
+find . -iname '*~'
+find . -iname '*~' -exec 'rm {}'
+for i in `find . -iname '*~'` do rm $i; done
+for i in `find . -iname '*~'`; do rm $i; done
+gss .
+git addd .
+git add .
+vcl
+c
+cl
+gls
+pwd
+git add .
+git commit -m 'more imports'
+git push
+nvim 
+nvim /tmp/test/t.c 
+nvim /tmp/test/t*
+nvim i3/*
+gss 
+..
+cd -
+git push
+nvim i3/*
+nvim .
+cls
+gss .
+nvim ../nvim/lua/plugin/init.lua 
+nvim ../nvim/lua/plugin/
+nvim ../nvim/{init.lua,lua/plugin/git-worktree/init.lua}
+lf ../nvim/lua/plugin/
+q
+cd ../config/
+gss .
+git add .
+mv emacs/ ..
+mv emacs.old
+mv emacs/ emacs.old
+cl
+mv emacs.old/ ..
+cl
+rm -rf obmenu-generator/
+cl
+ls screens/
+rmdir screens/
+cl
+ls dwm/
+ls dwm/ -l
+rm dwm/logs 
+ls dwm/ -lh
+rm dwm/logs -f
+cls
+lf dwm/
+q
+ls -l .config/ | grep nvim
+cd /data/dev/hossein-lap/nvim
+cls
+cd ../docs/
+git pull
+git pull devel
+gss .
+lf lua/
+..
+cls
+cd docs
+cls
+..
+rm docs -rf
+gln --bare git@github.com:hossein-lap/docs
+mv docs.git/ docs
+cd docs
+cls
+more HEAD 
+c
+git worktree add master
+git worktree add devel
+cd master/
+cls
+nvim README.md 
+basename
+echo $PWD
+pwd
+basename `pwd`
+dirname `pwd`
+basename (dirname `pwd`)
+basename $(dirname `pwd`)
+nvim ~/.config/shell/bashrc
+s
+nvim ~/.config/shell/bashrc
+s
+cls
+cl
+..
+s
+nvim ~/.config/shell/bashrc
+s
+cls
+git branch
+nvim ../nvim/lua/plugin/telescope/init.lua 
+nvim ../nvim/init.lua 
+lf ../nvim
+..
+du -g docs docs.bak/
+du -h docs docs.bak/
+du -h docs docs.bak/ -d 1
+du -h docs docs.bak/ -d 0
+cd docs
+cls
+nvim q
+q

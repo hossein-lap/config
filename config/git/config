@@ -1,0 +1,42 @@
+[user]
+	name = hossein
+	email = hosteam01@gmail.com
+	signingkey = 4CED6D42A47C69139574EAC50B997DB802CA5730
+	useConfigOnly = true
+[core]
+	; editor = gvim -f
+	; editor = neovide --nofork
+	; editor = emacsclient -nc -a 'emacs --init-dir ~/.config/evil'
+	; editor = geany
+	editor = mg
+	autocrlf = input
+	pager = less -S
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[merge]
+#	ff = false
+	tool = nvim -d
+[init]
+	defaultBranch = master
+
+; # optional (if you sometimes work outside of your regular directories)
+; [include]
+; 	path = ~/.config/git/config.hossein-lap
+
+; #[includeIf "gitdir:~/.local/dev/capiknev/"]
+; #	path = ~/.config/git/config.capiknev
+
+; # when working with hossein-lap
+; [includeIf "gitdir:~/.local/dev/hossein-lap/"]
+;	path = ~/.config/git/config.hossein-lap
+;
+; # when working with primejade
+; [includeIf "gitdir:~/.local/dev/primejade/"]
+; 	path = ~/.config/git/config.primejade
+
+[advice]
+	addIgnoredFile = false
+[color]
+	pager = true

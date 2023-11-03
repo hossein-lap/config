@@ -1,0 +1,83 @@
+alsamixer 
+mkdir ~/pub/share/void
+dmvm.sh
+which dmvm.sh
+nvim /home/hos/.local/bin/scripts/dmvm.sh
+mv /home/hos/.local/bin/scripts/dmvm.sh /home/hos/.local/bin/scripts/dmvirt.sh -i
+make clean; make; sudo make install
+q
+btop
+sudo shutdown -h now
+lf ../root/usr/share/themes/
+q
+nvim ~/.config/lf/icons.sh 
+neofetch 
+c
+neofetch 
+c
+pulsemixer 
+mpv
+pulsemixer 
+neofetch 
+ip -c a
+nvim `which slsping.sh`
+pulsemixer 
+cd .config/nvim
+nvim lua/plugin/init.lua 
+lf lua/
+xbps-query -l | wc -l
+while true; do xbps-query -l | wc -l; sleep 1; done
+nvim init.lua 
+xbps-query -l | wc- l
+xbps-query -l | wc -l
+cd dl/iso/
+alias aria2c
+aria2c debian-live-12.0.0-amd64-kde.iso.torrent 
+alias aria2c
+aria2c debian-live-12.0.0-amd64-kde.iso.torrent 
+cls
+aria2c neon-user-20221020-0947.iso.torrent 
+wget https://files.kde.org/neon/images/user/20230629-0719/neon-user-20230629-0719.iso.torrent
+aria2c neon-user-20230629-0719.iso.torrent 
+pulsemixer 
+neofe
+neofetch 
+nvim /tmp/test.c
+lf ~/screen/record/
+nvim /tmp/test.c
+clangd
+xbps-query -Rs clangd
+sudo xbps-remove -R clang
+xbps-query -Rs ccls
+sudo xbps-install ccls
+nvim ~/.config/nvim/lua/plugin/cmp/init.lua 
+nvim ~/dev/hossein-lap/vim-colors/octave.vim 
+nvim ~/.config/nvim/init.lua 
+nvim ~/dev/hossein-lap/vim-colors/octave.vim 
+xbps-query -Rs udisks2 logind
+xbps-query -Rs udisks2
+xbps-query -Rs logind
+sudo xbps-install udisks2 elogind
+dmusb.sh 
+xbps-query -Rs polkit
+sudo xbps-install polkit-elogind
+sudo ln -s /etc/sv/elogind /var/service/
+loginctl -h
+nvim ~/tmp/dmenu_polkit
+ls /etv/sv/
+sudo ln -s /etc/sv/polkitd /var/service/
+nvim ~/tmp/dmenu_polkit
+xbps-query -Rs cmd_pol
+sudo sv status elogind 
+sudo sv status polkitd 
+sudo sv up polkitd 
+sudo sv up elogind 
+dmusb.sh 
+xbps-query -Rs udisks2
+xbps-query -Rs udisks
+nvim /etc/udisks2/mount_options.conf
+nvim /etc/udisks2/mount_options.conf.example 
+groups
+sudo usermod -aG udev hos
+sudo vim /etc/gshadow
+x

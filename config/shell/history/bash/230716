@@ -1,0 +1,33 @@
+lf
+q
+nvim tmp.sh
+man lowdown
+q
+dmnotes.sh 
+nvim ~/.config/nvim/lua/module/rce.lua 
+man lowdown
+nvim `which dmnotes.sh`
+q
+man groff
+nvim ~/.config/groff/settings.ms 
+q
+lsblk
+df -h
+df -h | awk '$5 > 80'
+df -h | awk '$5 > 10'
+df -h | awk '$5 > 10\%'
+df -h | awk '$5 > 10\\%'
+df -h | awk '$5 > 10\\\%'
+df -h | awk '$5 > 10"%"'
+sudo blkid
+clear
+pulsemixer 
+sudo unlink /var/service/iwd
+dmkill.sh 
+x
+cd w/
+cls
+take german
+cls
+nvim german.tex
+q

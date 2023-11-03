@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "all.irn-vpn-ay.online",
+        "name": "رایگان | VLESS | @IRN_VPN | CR🇨🇷 | 0️⃣3️⃣",
+        "pass": "5b45abee-7d3d-4261-916a-532eb11d4982",
+        "port": 8443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@IRN_VPN,@IRN_VPN,@IRN_VPN,@IRN_VPN,@IRN_VPN",
+            "sec": "tls",
+            "sni": "telegram.irn-vpn-ay.online"
+        }
+    },
+    "gid": 1,
+    "id": 6659,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

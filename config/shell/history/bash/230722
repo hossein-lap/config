@@ -1,0 +1,20 @@
+ls
+mkdir s03
+cp s02/{dl.sh,ln.dl} s03
+nvim s02/ln.dl 
+cp s02/ln.dl s03/ln.dl 
+nvim s02/ln.dl 
+nvim s03/ln.dl 
+q
+lf
+sudo xbps-install -Syu
+lf
+q
+cd vid/shows/series/the-rookie/
+ls
+mksir s02
+mkdir s02
+cp s01/{ln.dl,dl.sh} s02/
+nvim s02/ln.dl 
+q
+x

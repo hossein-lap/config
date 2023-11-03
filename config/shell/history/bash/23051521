@@ -1,0 +1,12 @@
+nvim */desc.md
+nvim */src.bas
+bash make.sh 
+sed -i 's/ , /, /g' */src.bas
+./ma
+make
+grep port */src.bas
+sed -i 's/port/Port/g' */src.bas
+make
+cls
+nvim 01/desc.md 
+t att

@@ -1,0 +1,28 @@
+{
+    "archive": false,
+    "column_width": [
+    ],
+    "front_proxy_id": -1,
+    "id": 4,
+    "lastup": 1696885331,
+    "manually_column_width": false,
+    "name": "ss",
+    "order": [
+        3518,
+        3519,
+        3520,
+        3521,
+        3522,
+        3523,
+        3524,
+        3525,
+        2209,
+        3527,
+        3528,
+        3529,
+        3530,
+        3531
+    ],
+    "skip_auto_update": false,
+    "url": "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/base64/shadowsocks"
+}

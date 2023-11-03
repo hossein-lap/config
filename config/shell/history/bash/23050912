@@ -1,0 +1,10 @@
+cd /data/dev/hossein-lap/blog/hos/
+cls
+t
+x
+nvim content/_index.md 
+lf
+nvim /tpmp/t.txt
+nvim /tmp/t.txt
+hugo server
+hugo server --disableFastRender

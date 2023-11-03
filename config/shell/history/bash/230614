@@ -1,0 +1,507 @@
+ls .local/share/themes/
+cd /usr/share/themes/
+cls
+cl
+ls ~/.themes/
+find / -iname 'ambiant*' 2>/dev/null
+find / -iname 'ambiant*' 2>/dev/null | grep -v '/data/'
+ls ~/.icons/
+rm -rf ~/.icons/Ambiant-MATE-ambiance/
+rm ~/.local/share/icons/Radiant-MATE* ~/.local/share/icons/Ambiant-MATE* -rf
+ls ~/.icons/
+ls /usr/share/icons/
+nvim .config/dunst/dunstrc 
+find / -iname '*Obsidian*' 2>/dev/null
+find / -iname '*Obsidian*' 2>/dev/null | fzf -m --reverse
+cd dl/icon-themes/
+cls
+ls ocidan/
+mv ocidan/ obsidian
+cd obsidian/
+cls
+..
+cls
+lf
+ls | grep -v 'Light'
+find $PWD -maxdepth 1 -type d | ls | grep -v 'Light'
+find $PWD -maxdepth 1 -type d | grep -v 'Light'
+find $PWD -maxdepth 1 -type d | grep -v 'Light\|pack$'
+cp `find $PWD -maxdepth 1 -type d | grep -v 'Light\|pack$'` ~/.local/share/icons/ -rv
+cd .local/share/themes/
+cls
+mv ~/dl/theme-obsidian-2-master.zip .
+unzip theme-obsidian-2-master.zip 
+cls
+ls theme-obsidian-2-master
+mv theme-obsidian-2-master/Obsidian-2 .
+xbps-query -Rs Theme
+xbps-query -Rs ThemeCh
+xbps-query -Rs Theme-Ch
+gtk-theme-config 
+xbps-query -Rs themechanger
+find / -iname '*themechanger*' 2>/dev/null
+cd /data/local/theme/
+git clone https://github.com/ALEX11BR/ThemeChanger
+find / -iname '*theme.changer*' 2>/dev/null
+cd ThemeChanger/
+cls
+meson
+xbps-query -Rs meson | fzf -m
+..
+cd ~/.local/share/themes/Obsidian-2/
+cls
+nvim index.theme 
+lf
+pwd
+cls
+man aria2c
+q
+man aria2
+man aria2c
+cd /data/local/theme/
+cls
+mkdir obsidian-2
+nvim obsidian-2/ln.dl
+lf
+cls
+cd obsidian-2/
+tar -xf theme-obsidian-2-master.tar.gz 
+cp -r theme-obsidian-2-master/Obsidian-2 ~/.local/share/themes/ -rfv
+yes | cp -r theme-obsidian-2-master/Obsidian-2 ~/.local/share/themes/ -rfv
+cls
+..
+mkdir jade-1
+cp obsidian-2/{ln.dl,dl.sh} jade-1/
+nvim jade-1/dl.sh 
+nvim obsidian-2/ln.dl 
+nvim jade-1/dl.sh 
+cls
+mkdir schemes themes icons
+lf
+find / -iname simp1e 2>/dev/null
+q
+cd '/home/hos/.config/geany/colorschemes'
+find / -name Simp1e 2>/dev/null
+find / -name simp1e 2>/dev/null
+clear
+cd '/tmp'
+/bin/sh /tmp/geany_run_script_U0AL61.sh
+/bin/sh /tmp/geany_run_script_EBNO61.sh
+/bin/sh /tmp/geany_run_script_FMPE61.sh
+/bin/sh /tmp/geany_run_script_X7ZH61.sh
+cd '/data/dev/hossein-lap/workflow/config/shell'
+ls
+neofetch 
+clear
+cd '/tmp'
+cd '/data/dev/hossein-lap/all-write/all-write-blog'
+curl https://www.gnome-look.org/p/1932768 > /tmp/themes-tmp.html
+proxychains4 curl https://www.gnome-look.org/p/1932768 > /tmp/themes-tmp.html
+grep 'gitlab.com' /tmp/themes-tmp.html 
+nvim .config/dunst/dunstrc 
+q
+cd /data/local/theme/cursors/simp1e/
+lf
+grep 'gitlab.com' tmp.html 
+grep 'gitlab.com' tmp.html | sed -e 's/href="//g' -e 's/"//g'
+grep 'gitlab.com' tmp.html | sed -e 's/^.*href="//g' -e 's/"//g'
+grep 'gitlab.com' tmp.html | sed -e 's/^.*href="//g' -e 's/"//g' | less -SR
+grep 'gitlab.com' tmp.html | sed -e 's/^.*href="//g' -e 's/"//g' > ln.dl 
+nvim ln.dl 
+..
+find $PWD -name dl.sh
+chmod -v +x `find $PWD -name dl.sh`
+cd cursors/simp1e/
+./dl.sh 
+cls
+tar -xf Simp1e-Breeze.tgz 
+cls
+ls Simp1e
+ls Simp1e-
+ls Simp1e-Breeze
+ls Simp1e-Breeze/cursors/
+cls
+mv Simp1e-Breeze ~/.local/share/icons/
+tar -xf Simp1e-Breeze-Snow.tgz 
+lf
+tar -xf Simp1e-Breeze.tgz 
+nvim Simp1e-Breeze/index.theme 
+rm -rf ~/.local/share/icons/Simp1e-Breeze/
+lf
+cp -r Simp1e-Breeze* ~/.local/share/icons/
+for i in `ls *.tgz`; do tar -xf $i ;done
+cls
+ls Simp1e/index.theme 
+cat Simp1e/index.theme 
+grep '"' */index.theme 
+sed 's/"//g' */index.theme 
+sed -i 's/"//g' */index.theme 
+for i in `find $PWD -maxdepth 1 -type d`; do echo $i ; done
+for i in `find $PWD -maxdepth 1 -type d | grep -v simp1e$`; do echo $i ; done
+for i in `find $PWD -maxdepth 1 -type d | grep -v simp1e$`; do tar -cvf ${i}.tar ${i}; done
+cls
+mkdir .tmp
+mv *.tgz .tmp/
+cls
+for i in `find $PWD -maxdepth 1 -type d | grep -v 'simp1e$\|\.tmp'`; do tar --xz -cvf ${i}.tar.xz ${i}; done
+cls
+mv *.tar .tmp/
+cl
+lf
+tar -cvf simp1e-cursors.tar simp1e*.tar.xz
+cls
+du -ch *.xz
+du -h simp1e-cursors.tar 
+du -m simp1e-cursors.tar 
+du -hm simp1e-cursors.tar 
+du -hk simp1e-cursors.tar 
+du -chk *.xz
+du -c *.xz
+du simp1e-cursors.tar 
+cls
+du .tmp/
+du .tmp/ -h
+ls .tmp
+rm -rf .tmp
+cls
+mkdir simp1e-cursors
+lf
+tar -cf simp1e-cursors.tar simp1e-cursors/
+cls
+rm simp1e-cursors -rf
+cls
+yes | cp -rf Simp1e* ~/.local/share/icons/
+c
+xbps-query -Rs radiant
+xbps-query -Rs ambiant
+xbps-query -Rs radiant
+cd /data/local/theme/
+cls
+mv ~/dl/theme-obsidian-2-gray.tar.gz .
+tar -tf theme-obsidian-2-gray.tar.gz 
+tar -xf theme-obsidian-2-gray.tar.gz 
+cp theme-obsidian-2-gray/Obsidian-2-Gray/ ~/.local/share/themes/
+cp theme-obsidian-2-gray/Obsidian-2-Gray/ ~/.local/share/themes/ -r
+/bin/sh /tmp/geany_run_script_H6HL61.sh
+/bin/sh /tmp/geany_run_script_IYBH61.sh
+/bin/sh /tmp/geany_run_script_R3BD61.sh
+lf dl/yt/
+find $PWD -name '*.mp3\|*.m4a'
+find $PWD -name '*.mp3'
+find $PWD -name '*.m4a'
+find $PWD -name '*.m4a' > ~/.local/share/mpd/playlists/yt-rock
+find $PWD -name '*.m4a' > ~/.local/share/mpd/playlists/yt-metal
+rm ~/.local/share/mpd/playlists/yt-rock
+nvim ~/.local/share/mpd/playlists/yt-metal 
+cd /data/dev/hossein-lap/suckless/st/
+cls
+gls
+gss .
+gls
+find / -name 'napi' 2>/dev/null
+x
+ulimit -s
+ulimit -c
+nvim /etc/security/limits.
+nvim /etc/security/limits.conf 
+lf .config/dwm
+cls
+tail dwm.log 
+tail log
+tail logs
+cls
+wc -l logs
+sort -u logs | wc -l
+more log
+more logs
+cat -n logs | less -SR
+more logs
+less -SR logs
+ls ~/.dwm
+clear
+cat -n logs | more
+nvim /tmp/test.go
+/tmp/test
+clear
+nvim /tmp/test.c
+/tmp/test
+nvim /tmp/test.lua
+chmod +x /tmp/test.lua 
+/tmp/test.lua 
+clear
+nvim `which dmplay.sh`
+q
+nvim .local/share/mpd/playlists/all.m3u 
+man mpc
+playli
+mpc playlist 
+mpc lsplaylist 
+mpc lsplaylist help
+mpc ls
+cls
+man mpc
+moc status '%volume%'
+mpc status '%volume%'
+q
+cd .local/share/mpd/playlists/
+cls
+mv yt-metal yt-metal.m3u
+nvim yt-metal.m3u 
+ls /tmp
+nvim /etc/security/limits.conf 
+nvim yt-metal.m3u 
+mpc load yt-metal
+mpc 
+mpc play
+cls
+nvim yt-metal.m3u 
+lf ~/dl/yt/
+cls
+mpc load yt-metal
+mpc load yt-metal -v
+mpc -v load yt-metal
+man mpc
+mpc --verbose load yt-metal
+mpc --verbose play
+mpc load all
+mpc play
+mpc
+mpc -f '[%name%]'
+mpc -f '[%name%][%artist%][%album%]'
+mpc -f '[%name%]-[%artist%]-[%album%]'
+mpc -f '[%name%] - [%artist%] - [%album%]'
+mpc -f '[%name%] - [%artist%] - [%album%] - [%title%]'
+nvim /tmp/mpc-format.sh
+q
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+cls
+make clean
+cls
+dmplay.sh 
+nvim `which dmplay.sh`
+dmplay.sh 
+neofe
+neofetch 
+c
+nsxiv -o screen/shots/
+nsxiv screen/shots/shot-230609_184301.png
+q
+pwd
+cd uni/
+cls
+nvim exams.md
+lowriter exams.otf
+lowriter .
+lowriter
+cls
+lowriter --help
+man lowriter 
+lowriter --convert-to pdf exams.odt 
+r.sh zathura exams.pdf 
+lowriter exams.odt 
+lowriter --convert-to pdf exams.odt 
+cls
+q
+cd .local/share/mpd/playlists/
+cls
+nvim yt-metal.m3u 
+find ~/dl/yt/music/ -name '*.m4a'
+find ~/dl/yt/music/ -name '*.m4a' > yt-metal.m3u 
+nvim yt-metal.m3u 
+imstring.sh 
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus Serif' -fg white -bg black -o /tmp/test.png
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif' -fg white -bg black -o /tmp/test.png
+imstring.sh -i 'Darkness of my mind' -fn 'LibertinusSerif' -fg white -bg black -o /tmp/test.png
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus Serif' -fg white -bg black -o /tmp/test.png
+r.sh nsxiv /tmp/test.png 
+magick list
+magick -list font
+magick -list font | less -SR
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -o /tmp/test.png 
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -o /tmp/test.png -g 1
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -o /tmp/test.png -x 800 -y 800
+imstring.sh 
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -o /tmp/test.png -l 800 -h 800
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -h 800 -o /tmp/test.png
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -ps 80 -o /tmp/test.png
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -ps 80 -o /tmp/test.png -g 1
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -ps 50 -o /tmp/test.png -g 1
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 1 -ps 80
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 1 -ps 70
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 2 -ps 70
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 2 -ps 75
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 2 -ps 70
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 1 -ps 70
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Regular' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 1 -ps 70 -x 50
+imstring.sh -i 'Darkness of my mind' -fn 'Libertinus-Serif-Bold' -fg white -bg black -l 800 -w 800 -o /tmp/test.png -g 1 -ps 70 -x 50
+q
+cls
+nvim ~/.config/tmux/tmux.conf 
+q
+t
+r.sh loimpress IE-P02DesigingYourOwnWebsite,HtmlBasics-Copy.ppt 
+s
+cls
+nvim summary.md 
+q
+mv /data/screen/shots/shot-230614_090441.png shots/03-whois.domaintools.com.png
+mv /data/screen/shots/shot-230614_090634.png shots/04-whois.domaintools.com.png 
+mv /data/screen/shots/shot-230614_090716.png shots/05-whois.domaintools.com.png 
+mv /data/screen/shots/shot-230614_090743.png shots/06-whois.domaintools.com.png 
+mv /data/screen/shots/shot-230614_090848.png shots/07-website-cpanel.png
+cd shots/
+mv /data/screen/shots/shot-230614_090940.png 08-website-cpanel.png 
+mv /data/screen/shots/shot-230614_091016.png 09-website-cpanel.png 
+mv /data/screen/shots/shot-230614_091038.png 10-website-cpanel.png 
+mv /data/screen/shots/shot-230614_091214.png 11-website-cpanel.png 
+mv /data/screen/shots/shot-230614_091518.png 12-website-cpanel.png 
+mv /data/screen/shots/shot-230614_091621.png 13-website-cpanel.png 
+mv /data/screen/shots/shot-230614_092153.png 14-texteditor.png
+mv /data/screen/shots/shot-230614_092544.png 15-texteditor.png 
+mv /data/screen/shots/shot-230614_092828.png 16-texteditor.png
+mv /data/screen/shots/shot-230614_093011.png 17-texteditor.png 
+mv /data/screen/shots/shot-230614_093225.png 18-texteditor.png 
+mv /data/screen/shots/shot-230614_094408.png 19-website.png
+nvim ~/.config/pandoc/defaults/fa/fa.yaml 
+mv /data/screen/shots/shot-230614_100808.png 20-html.png
+nvim ~/.config/pandoc/defaults/persian/persian.yaml 
+cp /data/screen/shots/shot-230614_103338.png 21-html.png
+cp /data/screen/shots/shot-230614_103542.png 22-html.png
+cp /data/screen/shots/shot-230614_103613.png 23-html.png
+cp /data/screen/shots/shot-230614_103725.png 24-html.png
+cp /data/screen/shots/shot-230614_103804.png 25-html.png
+cp /data/screen/shots/shot-230614_103858.png 26-html.png
+cp /data/screen/shots/shot-230614_103916.png 27-html.png
+cp /data/screen/shots/shot-230614_103935.png 28-html.png
+cp /data/screen/shots/shot-230614_103958.png 29-html.png
+cp /data/screen/shots/shot-230614_104019.png 30-html.png
+q
+lf
+q
+cd uni/internet-engineer/art/
+t
+nvim ~/.config/tmux/tmux.conf 
+t
+q
+mpc status '%file%'
+mpc status '[%file%]'
+mpc f '[%file%]'
+mpc -f '[%file%]'
+echo $TERM
+nvim .config/shell/bashrc
+nvim ~/.bashrc
+vim /etc/bash/bashrc
+vim /etc/environment 
+sudo xbps-install -Syu
+q
+cls
+lf
+q
+x
+cls
+take picked
+lf
+nvim dl.sh ln.dl
+nvim ln.dl 
+q
+ip -c a
+ping 1.1.1.1
+lf
+q
+pulsemixer 
+x
+lsblk
+sudo grub-install /dev/nvme0n1
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+vkpurge 
+vkpurge list
+uname -r
+sudo vkpurge rm all
+vkpurge list
+ls /boot/
+sudo xbps-install -Su
+dmexit.sh 
+ls /proc/
+ls /proc/ | less
+ls /proc/cpuinfo 
+less /proc/cpuinfo 
+lsblk
+lsblk -n
+lsblk -l
+lsblk -d
+lsblk -p
+man ls
+ls /dev/nvme0n1p3
+file /dev/nvme0n1p3
+cd
+cd /
+cler;
+c
+ls
+tree -L 1
+ls
+unalias tree
+c
+cd
+ls
+cat luks-efi.url 
+nvim luks-efi.url
+cat xbps-clean.sh 
+more kate5-req.txt 
+c
+cls
+cat void_clean 
+more void_clean 
+less void_clean 
+clear
+bc 
+lf screen/record/
+ls
+lf
+cd pic/
+nsxiv Screenshot_20220822_223751.png 
+neofetch e
+neofetch 
+پشد پحر
+man mpv
+lf screen/record/
+cd /data/dev/hossein-lap/suckless/st
+cls
+gls
+git restore --source=HEAD .
+make clean
+make; sudo make install
+gls
+gss .
+nvim config.def.h 
+make clean; make; make clean; sudo make install
+cd ~/dl/cnc-red_alert-3/ra3/
+cls
+cd Command\ and\ Conquer\ Red\ Alert\ 3/
+cls
+./run.sh 
+cls
+nvim run.sh 
+cd ~/pic/
+cp .wall wallpaper-`date +%Y%m%d-%H%M%S`.png
+ls wallpaper-20230615-005455.png 
+c
+nvim /tmp/map.txt
+unalias tree
+tree / -L 1
+tree / -L 2
+ls 
+ls | cat -n
+ls | cat -n | lolcat 
+ls | cat -n | tac
+ls | cat -n | tac | lolcat 
+cls
+c
+nvim /tmp/map.txt 
+nvim `which startsay.sh`
+c
+cls
+x

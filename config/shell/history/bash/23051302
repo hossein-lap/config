@@ -1,0 +1,58 @@
+nvim t.lua
+xbps-query -Rs lua-lang
+cls
+btop
+nvim t.lua
+ls ~/.npm/
+nvim ~/dl/telegram-dl/net/startbootstrap-creative-gh-pages/js/
+cls
+nvim lsp/init.lua 
+cd ~/.local/share/nvim/mason/
+cls
+tree bin/
+pwd
+nvim ~/.config/shell/bashrc
+env | grep NPM
+cls
+s
+cls
+cd -
+cls
+nvim ~/dl/telegram-dl/net/startbootstrap-creative-gh-pages/js/scripts.js 
+cd -
+cls
+ls bi
+ls bin/
+cd -
+nvim lsp/init.lua 
+s
+which lua-language-server 
+whereis lua-language-server 
+whereis eslint
+xbps-query -Rs eslint
+nvim lsp/init.lua 
+cls
+take null-ls
+nvim init.lua
+nvim ../../../init.lua 
+nvim ../lsp/init.lua 
+nvim init.lua 
+nvim ../lsp/init.lua 
+nvim init.lua 
+cls
+...
+cls
+nvim ../init.lua 
+nvim
+nvim /tmp/test.md
+nvim cmp/init.lua 
+lf ~/.local/share/nvim/mason/
+nvim /tmp/test.md
+nvim init.lua ../../init.lua 
+nvim
+nvim /tmp/test.md
+nvim init.lua 
+nvim .
+nvim ../../init.lua 
+nvim trouble/init.lua 
+q

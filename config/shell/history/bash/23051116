@@ -1,0 +1,4 @@
+prime-run xonotic-glx
+prime-run xonotic-sdl 
+prime-run xonotic-glx
+java -jar games/TLauncher-2.885.jar 

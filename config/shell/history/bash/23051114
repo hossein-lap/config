@@ -1,0 +1,33 @@
+cd dl/
+cls
+mv TLauncher-2.885.zip ~/arch/
+cd ~/arch
+cls
+xarchiver TLauncher-2.885.zip 
+take tlr
+mv ../TLauncher-2.885.zip .
+unzip TLauncher-2.885.zip 
+cls
+mv TLauncher-2.885.zip ..
+cd
+cls
+ln -s /data/games
+cls
+mv arch/tlr/TLauncher-2.885.jar games/
+java -jar games/TLauncher-2.885.jar 
+proxychains4 -q java -jar games/TLauncher-2.885.jar 
+java -jar games/TLauncher-2.885.jar 
+proxychains4 -q java -jar games/TLauncher-2.885.jar 
+java -jar games/TLauncher-2.885.jar 
+c
+java -jar games/TLauncher-2.885.jar 
+btop
+xonotic-
+xonotic-glx 
+btop
+زمس
+cls
+lf /run/media/hos/
+du -h .
+cls
+lf

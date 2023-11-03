@@ -1,0 +1,117 @@
+nvim /data/dev/hossein-lap/vim-colors/vim-sunbather/colors/sunbather.vim 
+nvim ~/.vim/colors/sunbather.vim 
+nvim ~/.vim/modules/extra.vim 
+q
+take test
+mv ../test.lua .
+lazygit 
+gss .
+pwd
+cls
+..
+cls
+cd test/
+cls
+gss .
+lazygit 
+q
+neofetch 
+nvim -c ':h indent'
+nvim
+nvim /tmp/test/test.lua 
+nvim
+q
+nvim .config/nvim/init.lua 
+cd .config/nvim/lua/plugin/
+nvim lualine/init.lua 
+nvim gitsigns/
+nvim ../module/main.lua 
+nvim lualine/init.lua 
+q
+pulsemixer 
+lf vid/
+lf
+q
+pulsemixer 
+x
+c
+make clean; make; sudo make install
+xbps-query -l | fzf
+xbps-query -l | fzf
+q
+nvim .config/shell/bashrc
+s
+nvim .config/shell/bashrc
+c;s
+neofetch 
+c;s; neofetch 
+c;s
+cd /data/dev/hossein-lap/suckless/st
+nvim config.def.h 
+nvim hb.c
+nvim .config/shell/aliases.sh 
+s
+c
+xbps-query -l | fzf
+nvim `which dmplay.sh`
+nvim ~/.config/nvim/init.lua 
+q
+dmplay.sh 
+q
+pulsemixer 
+cd .local/share/mpd/playlists/
+cls
+nvim all.m3u 
+q
+x
+q
+vim `which datestartup.sh
+`
+vim `which datestartup.sh`
+c;s
+vim `which datestartup.sh`
+c;s
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+take /tmp/c
+nvim test.c test.h
+vim `which datestartup.sh`
+vim ~/.vim/modules/keybinds.vim 
+c;s
+vim `which datestartup.sh`
+c;s
+vim `which datestartup.sh`
+c;s
+nvim .config/nvim/lua/plugin/lualine/init.lua 
+nvim .xprofile 
+cls
+nvim .
+nvim /tmp/test.c
+fc-cache; fc-list | awk -F ':' '/Nerd/ {print $1;}' | fzf
+fc-cache; fc-list | awk -F ':' '/Nerd/ {print $1;}' | sort | fzf
+cls
+fc-cache; fc-list | awk -F ':' '/Nerd/ {print $1;}' | sort | fzf
+cl
+c
+neoef
+cd .local/share/fonts/nerds/
+cls
+ls fira-nerd/
+rm nerd-fonts/ fira-nerd/Fura\ Mono\ * -fv
+rm nerd-fonts/ fira-nerd/Fura\ Mono\ * -rfv
+cls
+rm -rf NerdFonts/
+sudo rm -rf /usr/share/fonts/NerdFonts/otf/
+nvim
+btop
+lf vid/
+q
+emacs
+cls
+lf vid/
+notify-send -a 'نام' عنوان 'مقداری متن نمونه'
+notify-send -a 'نام' عنوان 'مقداری متن نمونه' -u critical
+nvim .config/dunst/dunstrc 
+q
+x
+c
+x

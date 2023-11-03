@@ -1,0 +1,24 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "91.107.184.223",
+        "name": "رایگان | VLESS | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "9f3e4864-3efb-48ca-a82c-7b1958c313b2",
+        "port": 8585,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/"
+        }
+    },
+    "gid": 1,
+    "id": 7140,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": 532
+}

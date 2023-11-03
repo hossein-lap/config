@@ -1,0 +1,45 @@
+xbps-query -Rs kubernetes
+minikube 
+minikube ctx
+cls
+kubectl ctx
+man kubectl
+kubectl -n test
+kubectl apply -f kube/database/
+q
+lf
+q
+cls
+s
+kubectl ctx
+kind ctx
+k9s cts
+k9s ctx
+nvim kube/database/deploy.yaml 
+cls
+nvim .
+...
+cls
+cd -
+cls
+cd src/
+nvim .
+..
+cls
+lf
+q
+cd uni/micro-lap/micro-lap-reports/08
+cls
+nvim src.bas 
+cd ~/data/w
+cd /data/w/devops/voting-app/
+cls
+cd kube/
+cls
+nvim database/deploy.yaml 
+nvim ~/.config/nvim/init.lua 
+nvim database/deploy.yaml 
+..
+t
+q
+x

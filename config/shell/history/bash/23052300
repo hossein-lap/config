@@ -1,0 +1,12 @@
+pdftotext cancers-11-01673-with-cover.pdf 
+cls
+nvim cancers-11-01673-with-cover.txt 
+q
+neofetch 
+sxwall.sh 
+q
+cd /data/dev/hossein-lap/workflow/st
+cd /data/dev/hossein-lap/workflow/suckless/st
+nvim config.def.h 
+make clean; make; sudo make install
+x

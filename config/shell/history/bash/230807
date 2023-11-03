@@ -1,0 +1,21 @@
+x
+lf mus/yt/
+dmplay.sh 
+cd dev/resume/
+cls
+nsxiv .
+cls
+cp untitled.jpg untitled.jpg.bak
+imtrim.sh untitled.jpg
+nsxiv .
+r.sh nsxiv .
+c
+imtrim.sh untitled.jpg
+lf
+q
+x
+cd .password-store/firefox/
+ls
+gpg -d hosteam01.gpg 
+gpg -d hosteam01.gpg > /home/deb/Desktop/firefox.txt
+dmexit.sh 

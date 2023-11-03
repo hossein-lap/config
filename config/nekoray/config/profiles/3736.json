@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "mci.vpnprosec.com",
+        "name": "رایگان | VLESS | @VpnFreeSec | US🇺🇸 | 0️⃣2️⃣",
+        "pass": "2a5f6764-0e63-4ff2-ae0b-8ef7060638a8",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "SvnTeam,SvnTeam,SvnTeam,SvnTeam",
+            "sec": "tls",
+            "sni": "Site.SvnRealliTy.online"
+        }
+    },
+    "gid": 3,
+    "id": 3736,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

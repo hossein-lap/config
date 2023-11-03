@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "cloud.tel-parsashonam.website",
+        "name": "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "Parsashonam-28",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@Parsashonam",
+            "sec": "tls",
+            "sni": "Usa1.Parsashonam.Tech"
+        }
+    },
+    "gid": 3,
+    "id": 3561,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

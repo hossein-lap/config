@@ -1,0 +1,56 @@
+q
+lf
+q
+cd dl/telegram-dl/net/startbootstrap-creative-gh-pages/
+cls
+cd js/
+cls
+nvim scripts.js 
+nvim ../css/styles.css scripts.js 
+nvim ../index.html 
+pwd
+xbps-query -Rs vscode-langservers
+xbps-query -Rs vscode
+xbps-query -Rs langservers
+sudo npm i -g vscode-langservers-extracted
+cd .config/nvim/plugin/cm
+cd .config/nvim/lua/plugin/cls
+cd .config/nvim/lua/plugin/cmp/
+cls
+nvim bashls.lua 
+nvim init.lua 
+nvim /tmp/test.html
+nvim ../init.lua 
+nvim /tmp/test.html
+cls
+nvim html.lua 
+nvim init.lua 
+nvim ../init.lua 
+nvim /tmp/test.html
+nvim ../init.lua init.lua 
+nvim /tmp/test.css
+nvim init.lua 
+nvim /tmp/test.json
+cls
+mv html.lua web.lua
+nvim /tmp/test.json
+nvim /tmp/test.js
+nvim init.lua 
+mv web.lua html-css.lua
+nvim init.lua 
+...
+cls
+cd plugin/
+cls
+nvim init.lua 
+nvim lsp/init.lua 
+nvim init.lua 
+nvim ../../init.lua 
+nvim lsp/init.lua 
+nvim /tmp/test.lua
+nvim lsp/init.lua 
+nvim ../../init.lua 
+nvim /tmp/test.lua
+nvim ../../init.lua lsp/init.lua 
+nvim tmp.lua
+q

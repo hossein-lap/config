@@ -1,0 +1,24 @@
+cd uni/micro-lap/reports/
+cls
+tree
+tree | grep -v 'noname\|project'
+cls
+tree 0{1..8}
+tree 0{1..8} | grep -v '01\.'
+lf
+tree 0{1..8}
+clear
+tree 0{1..8}
+cd ~/dl/telegram-dl/
+cls
+nvim audio-cut-append.sh
+lf
+mv ~/kaaj-code-intro.mp3 ~/tmp/audio-project/shargh-vahshi/ -iv
+cls
+nvim ~/uni/micro-lap/reports/session-02/05/noname2.bas 
+vim
+vim -c 'set ls=0'
+vim -c 'set ls=0' -c 'set background=light'
+vim -c 'set ls=0' -c 'set background=light' -c 'colorscheme sunbather'
+vim -c 'set ls=0' -c 'set background=light' -c 'colorscheme sunbather' ~/uni/micro-lap/reports/session-02/05/noname2.bas
+vim -c 'set ls=0' -c 'set background=light' -c 'colorscheme hybrid' ~/uni/micro-lap/reports/session-02/05/noname2.bas

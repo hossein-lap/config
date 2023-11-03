@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "45.89.127.210",
+        "name": "رایگان | REALITY | @frev2ray | DE🇩🇪 | 0️⃣1️⃣",
+        "pass": "df7f5452-227a-4909-9e2c-fa43c522bbaa",
+        "port": 1626,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "8AD_ubXLkiXejg_5bO0CHA220L2NwG52RJLjPCz_DSQ",
+            "sec": "tls",
+            "sid": "fb2adfad",
+            "sni": "sni.vickiphone.top",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3592,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,40 @@
+ps --cols 110 axo pid,%mem,%cpu,user,cmd  k %mem 
+ps --cols 110 axo pid,%mem,%cpu,user,cmd  k %mem | head
+ps --cols 110 ax pid,%mem,%cpu,user,cmd  k %mem | head
+ps --cols 110 ao pid,%mem,%cpu,user,cmd  k %mem | head
+man ps
+groups
+sudo usermod -aG docker hos
+newgrp docker
+group
+groups
+docker pull alpine
+sudo xbps-install -S docker
+sudo ln -s /etc/sv/docker /var/service/
+docker pull aplin
+docker pull apline
+docker log
+docker loging
+kubectl
+clear
+lf uni/
+cd /data/dev/hossein-lap/workflow/suckless/
+nvim {dwm,dmenu}/config.def.h
+./make.sh 
+nvim dmenu/config.def.h
+nvim {dwm,dmenu}/config.def.h
+./make.sh 
+nvim `which dmkill.sh`
+docker pull alpine
+docker pull alpine:latest
+sudo docker pull alpine
+docker pull alpine
+groups
+sudo usermod -aG docker hos
+newgrp hos
+docker pull alpine
+newgrp docker
+docker pull alpine
+proxychains4 -q docker pull alpine
+docker pull alpine
+docker run hello-world

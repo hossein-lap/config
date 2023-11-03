@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "fusion.mlinuu.top",
+        "aid": 0,
+        "id": "ce6c3ee0-e0bd-39d2-8b49-97c6add325c6",
+        "name": "رایگان | VMESS | @mftizi | HK🇭🇰 | 0️⃣2️⃣",
+        "port": 10008,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "none",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "path": "/"
+        }
+    },
+    "gid": 2,
+    "id": 1526,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

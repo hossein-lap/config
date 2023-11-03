@@ -1,0 +1,128 @@
+#+1683912800
+cd .config/shell/
+#+1683912801
+cls
+#+1683912803
+clear ; ls
+#+1683912805
+ls history/
+#+1683912814
+cd history/
+#+1683912816
+clear ; ls
+#+1683912820
+clear ; ls -l
+#+1683912832
+mv zsh zsh.txt
+#+1683912835
+mkdir zsh
+#+1683912841
+mkdir tcsh
+#+1683912854
+tree
+#+1683912857
+tree -L 2
+#+1683912859
+tree -L 1
+#+1683912865
+ls b
+#+1683912868
+ls z
+#+1683912871
+rmdir z
+#+1683912881
+mv b/old bash/
+#+1683912883
+clear ; ls
+#+1683912887
+rmdir b
+#+1683912889
+clear ; ls
+#+1683912895
+mv zsh.txt zsh/old
+#+1683912909
+clear ; ls
+#+1683912968
+cd .config/shell/
+#+1683912970
+clear ; ls
+#+1683913082
+cd /etc/
+#+1683913091
+ls csh.*
+#+1683913098
+vim csh.cshrc
+#+1683913206
+cd
+#+1683913213
+mv .tcshrc ~/.config/shell/tcshrc
+#+1683913217
+cd ~/.config/shell/
+#+1683913217
+cls
+#+1683913220
+clear ; ls
+#+1683913288
+cls
+#+1683913307
+dmusb.sh
+#+1683913320
+which dmusb.sh
+#+1683913325
+sh `which dmusb.sh`
+#+1683913328
+bash `which dmusb.sh`
+#+1683913334
+nvim `which dmusb.sh`
+#+1683913363
+dmusb.sh -h
+#+1683913366
+nvim `which dmusb.sh`
+#+1683913399
+dmusb.sh -i
+#+1683913406
+nvim `which dmusb.sh`
+#+1683913435
+lsblk
+#+1683913603
+cd /data/w/
+#+1683913603
+cls
+#+1683913636
+take mdinterm
+#+1683913654
+nvim ~/.config/shell/tcshrc
+#+1683913766
+source ~/.config/shell/tcshrc
+#+1683913771
+man tcsh
+#+1683913877
+nvim ~/.config/shell/tcshrc
+#+1683913922
+s
+#+1683913927
+take test
+#+1683913937
+clear
+#+1683913945
+clear
+#+1683913946
+cls
+#+1683913952
+nvim ~/.config/shell/tcshrc
+#+1683913965
+mkdir md2term
+#+1683913970
+cd md2term/
+#+1683913971
+cls
+#+1683913983
+nvim t.md
+#+1683914186
+lowdown -h
+#+1683914191
+man lowdown
+#+1683914210
+lowdown -tterm t.md
+#+1683914224
+slides

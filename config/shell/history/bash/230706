@@ -1,0 +1,129 @@
+nvim ~/dev/hossein-lap/suckless/st/colors/schemes.h 
+nvim ~/.config/nvim/lua/in
+nvim ~/.config/nvim/init.lua \
+nvim ~/.config/nvim/lua/plugin/lualine/
+nvim ~/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua/
+q
+lf uni/
+q
+man loginctl 
+nvim `which dmexit.sh`
+dmexit.sh 
+pulsemixer 
+nvim .config/pandoc/defaults/beamer/fa-ubuntu.sty 
+q
+nvim /tmp/test.tex 
+q
+git diff en-ubuntu.sty
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+nvim ~/.config/pandoc/filters/tex-duplicate-headers.lua
+q
+nvim `which slsextra.sh`
+xbps-query -Rs kaukne
+xbps-query -Rs helix
+xbps-query -Rs vim
+lf vid/shows/anime/tokyo-ghoul/
+q
+git remote -v
+nvim ~/.vim/colors/hybrid_material.vim 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+nvim ~/.config/nvim/{init.lua,lua/plugin/lualine/init.lua}
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-lupper/colors/lupper.vim 
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-octave/colors/octave.vim 
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-octave/colors/octave.vim 
+nvim ~/.config/nvim/lua/plugin/cmp/init.lua 
+nvim /tmp/test.pl
+cd w/benchmark-handmade/count/
+cls
+nvim count-pl.pl 
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-hybrid/colors/hybrid.vim 
+cd ~/.config/pandoc/highlight/
+cls
+cp solarized-dark.theme hybrid-dark.theme
+cp solarized-light.theme hybrid-light.theme
+nvim hybrid-*
+nvim hybrid-dark.theme 
+cp hybrid-dark.theme hybrid-light.theme 
+nvim hybrid-light.theme 
+q
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-hybrid/colors/hybrid.vim 
+nvim .config/nvim/after/plugin/scheme.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-hybrid/colors/hybrid.vim 
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+q
+nvim ~/.config/pandoc/defaults/beamer/en-ubuntu.sty 
+nvim ~/w/devops/pipeline-as-code/pres/01/pac-pres01.md 
+nvim /tmp/test.tex
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+nvim ~/.config/pandoc/defaults/beamer/{en,fa}-manjaro.sty -d
+nvim ~/.config/pandoc/defaults/beamer/{en,fa}-manjaro.sty -d -c 'lua ColorThem("ayu-dark")'
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+nvim /tmp/test.c
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+nvim /tmp/test.c
+ls .local/share/nvim/mason/bin/
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim /usr/share/nvim/runtime/lua/vim/lsp/rpc.lua
+nvim ~/.config/nvim/lua/module/rce.lua 
+c
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+q
+nvim /tmp/test.tex 
+nvim tmp/latex/beamer.tex 
+nvim .config/pandoc/defaults/beamer/en-manjaro.yaml 
+nvim .config/pandoc/defaults/beamer/en-{ubuntu,manjaro}.sty 
+nvim .config/pandoc/defaults/{solarized/solarized.yaml,beamer/en-manjaro.yaml}
+nvim .config/pandoc/defaults/beamer/en-manjaro.sty 
+cd .config/pandoc/defaults/beamer/
+cls
+lf
+vidir 
+lf
+nvim ~/tmp/latex/beamer.
+nvim ~/tmp/latex/beamer.t
+nvim ~/tmp/latex/beamer.tr
+nvim ~/tmp/latex/beamer.tex 
+q
+nvim /tmp/test.md
+nvim /tmp/test.tex
+t
+q
+vim ~/.vim/vimrc 
+cd .vim/colors/
+cls
+wget -O hb.vim
+wget -O hb.vim https://raw.githubusercontent.com/w0ng/vim-hybrid/master/colors/hybrid.vim
+mv hybrid.vim hybrid.vim.bak
+mv hb.vim hybrid.vim
+vim ../vimrc 
+cls
+wget https://raw.githubusercontent.com/chriskempson/vim-tomorrow-theme/master/colors/Tomorrow.vim
+vim Tomorrow.vim 
+vim ../init.vim 
+wget https://raw.githubusercontent.com/chriskempson/base16-vim/master/colors/base16-solarized-dark.vim
+vim ../init.vim 
+nvim hybrid.vim
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-hybrid/colors/hybrid.vim 
+q
+find / -iname '*Marburg*.sty'
+find / -iname '*Marburg*.sty' 2>/dev/null
+find /usr/local/texlive/ -iname '*Marburg*.sty' 2>/dev/null
+nvim /usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeMarburg.sty
+lf pic/
+cd dev/hossein-lap/workflow/suckless/dwm/colors/
+cls
+nvim bw.h
+neofetch 
+cd ../../../suckless/st/
+cls
+nvim config.def.h 
+cd ../../../../suckless/st
+cd ../../../suckless/st
+nvim config.def.h 
+lf mus/
+q
+x

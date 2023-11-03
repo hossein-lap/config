@@ -1,0 +1,25 @@
+cd uni/micro-lap/
+cls
+cd reports/
+cls
+cd 01
+cls
+nvim 01.tex 
+nvim diag.txt
+cat diag.txt 
+nvim diag.txt
+cat diag.txt 
+cat diag.txt | sed 's/►/▸/'
+cat diag.txt 
+cat diag.txt | sed 's/►/▸/'
+cat diag.txt 
+..
+cls
+ls 02
+cp 01/diag.txt 02/
+cd 02
+cls
+nvim diag.txt 
+lf
+q
+x

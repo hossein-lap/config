@@ -1,0 +1,21 @@
+cd /data/w/
+find . -name 'term*'
+find . -name 'term*' | grep -v venv
+find . -name 'term*' | grep -v 'venv\|ly'
+find . -name 'term*' | grep -v 'venv\|ly\|python'
+c
+find . -name 'term*' | grep -v 'venv\|ly\|python\|hugo'
+cls
+cd terminal/
+cls
+cd stty/
+cls
+more typescript 
+less typescript 
+less typescript -R
+less typescript -r
+less -R typescript
+less -r typescript
+less -R typescript
+less -r typescript
+tcsh

@@ -1,0 +1,104 @@
+# minimal zsh config
+# Enable colors and change prompt
+autoload -U colors && colors	# Load colors
+
+if [ "${EUID}" = "0" ]; then
+	PS1="%B%{$fg[red]%}%n@%{$reset_color%}%M:%~%{%}%{$reset_color%}#%b "
+else
+	case "${TERM}" in
+		st*color|xterm-kitty)
+			PS1="%B%{$fg[green]%}%M%b%{$fg[white]%}:%{$fg[red]%}[%B%{$fg[blue]%}%n%b%{$fg[red]%}]%b%{$fg[white]%}:%{$fg[magenta]%}%.%B%{$fg[yellow]%}$%b%{$reset_color%} "
+			;;
+		tmux*color*|screen*color*)
+			# PS1="%B%{$fg[green]%}%~ %B%{$fg[blue]%}$%{$reset_color%}%b "
+			PS1="%B%{$fg[green]%}%. %B%{$fg[blue]%}$%{$reset_color%}%b "
+			;;
+		xterm*color)
+			# PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\[\033[00m\] "
+			PS1="%B%{$fg[green]%}%n@%M%{$reset_color%}:%B%{$fg[blue]%}%~%{$reset_color%}$%b "
+			;;
+		*)
+			PS1="[%n@%M %~]$%b%{$reset_color%} "
+			;;
+	esac
+fi
+
+# PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+# PS1="%B%{$fg[green]%}%n@%M%{$reset_color%}:%B%{$fg[blue]%}%~%{$reset_color%}$%b "
+# PS1='%F{blue}%. %(?.%F{green}.%F{red})$%f '
+setopt autocd		# Automatically cd into typed directory.
+stty stop undef		# Disable ctrl-s to freeze terminal.
+setopt interactive_comments
+
+# History in cache directory
+HISTSIZE=10000000
+SAVEHIST=10000000
+HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
+
+if [ ! -d $HOME/.cache/zsh ]; then
+	mkdir -p $HOME/.cache/zsh
+	echo "History file created."
+fi
+
+# Defined shortcut keys
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey -s ^F "tmux-sessionizer\n"
+
+# bash-like behaviour for alt key
+autoload -U select-word-style
+select-word-style bash
+
+# Basic auto/tab complete
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files.
+
+# env vars
+export ZDOTDIR=$HOME/.config/shell/zsh.d
+
+# Fetching required plugins 
+function zsh_add_plugin() {
+	if [ "${EUID}" != "0" ]; then
+		PLUGIN_NAME=$(echo $1 | cut -d "/" -f 2)
+		if [ ! -d "$ZDOTDIR/plugins/$PLUGIN_NAME" ]; then
+			printf "Fetching plugins: \033[32m$PLUGIN_NAME\033[0m..."
+			git clone --depth=1 "https://github.com/$1.git" "$ZDOTDIR/plugins/$PLUGIN_NAME" 2>/dev/null
+			echo "\033[34mDone\033[0m!"
+		fi
+	fi
+}
+
+zsh_add_plugin "agkozak/zsh-z"
+zsh_add_plugin "zsh-users/zsh-autosuggestions"
+zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
+zsh_add_plugin "zsh-users/zsh-history-substring-search"
+
+sourceit() {
+	if [ -f "${1}" ]; then
+		source "${1}"
+	fi
+}
+
+sourceit "${HOME}/.config/shell/aliases.sh"
+sourceit "${HOME}/.config/shell/env.sh"
+
+sourceit "$ZDOTDIR/plugins/zsh-z/zsh-z.plugin.zsh"
+# sourceit "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+# sourceit "$ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" 2>/dev/null
+sourceit "$ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh"
+sourceit "$ZDOTDIR/zmachine.zsh-theme"
+
+# aliases
+alias s='source ~/.zshrc'
+sourceit "${HOME}/.config/shell/aliases.sh"
+
+# global env variables
+sourceit "${HOME}/.config/shell/env.sh"
+
+unset sourceit
+

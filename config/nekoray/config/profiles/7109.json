@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "jioin-severnett2.numalla.top",
+        "name": "رایگان | VLESS | @ServerNett | RELAY🚩 | 0️⃣3️⃣",
+        "pass": "da0423f8-1221-4880-8d09-8fec4ae062c8",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+            "sec": "tls",
+            "sni": "jioin-severnett2.numalla.top"
+        }
+    },
+    "gid": 1,
+    "id": 7109,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

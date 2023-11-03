@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "::ffff:142.132.167.95",
+        "name": "رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣8️⃣",
+        "pass": "3ec80ab1-f83c-4cae-a965-d7a708a2795c",
+        "port": 27721,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "bnlFxTwIumgBzn0ZT6HTA0alh_J28cwgT0IaDSfkowU",
+            "sec": "tls",
+            "sid": "3bb5e87b",
+            "sni": "flutter.dev",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3799,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "vpncustomize.cam",
+        "name": "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣1️⃣",
+        "pass": "ef062d36-bcbe-4f27-bb12-ae4b0fbe10a0",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@VPNCUSTOMIZE",
+            "pbk": "55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I",
+            "sec": "tls",
+            "sid": "6b0541cd",
+            "sni": "www.iranserver.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3683,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

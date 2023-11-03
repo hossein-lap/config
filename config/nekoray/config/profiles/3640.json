@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "four.felinetest.site",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "fbe02c0b-775f-4431-8615-a9497255c876",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
+            "sec": "tls",
+            "sid": "6f9deca7",
+            "sni": "none.felinetest.site",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3640,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": 2084
+}

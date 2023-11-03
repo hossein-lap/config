@@ -1,0 +1,121 @@
+nvim .config/nvim/lua/plugin/init.lua 
+nvim .local/share/nvim/site/pack/packer/start/onedark.nvim/colors/onedark.lua 
+nvim .local/share/nvim/site/pack/packer/start/onedark.nvim/lua/onedark/colors.lua 
+cd .local/share/nvim/site/pack/packer/start/onedark.nvim/lua/
+cls
+lf
+nvim ~/dev/hossein-lap/suckless/st/colors/schemes.h 
+q
+nvim Makefile
+make
+nvim Makefile
+cls
+nvim role/*/init.lua
+cls
+nvim role/*/init.lua
+nvim role/en/template.lua 
+q
+l
+lf
+nvim image-edit.sh 
+nvim palette/nord.lua 
+nvim role/en/template.lua 
+q
+..
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+ls | dmenu -l 20 -c
+make clean; make; sudo make install
+cd ../dmenu/
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+slock
+..; make clean; make; sudo make install
+cd -
+make clean; make; sudo make install
+lf .local/share/nvim/site/pack/packer/start/
+nvim dev/hossein-lap/workflow/suckless/dwm/colors/dracula.h 
+nvim dev/hossein-lap/workflow/suckless/dmenu/colors/dracula.h 
+nvim dev/hossein-lap/workflow/suckless/{dwm,dmenu}/config.def.h
+nvim dev/hossein-lap/workflow/suckless/slock/config.def.h
+nvim dev/hossein-lap/workflow/suckless/sent/colors/dracula.h 
+nvim dev/hossein-lap/workflow/suckless/sent/config.def.h 
+..
+make clean; make; sudo make install
+dev/hossein-lap/workflow/suckless/dwm/
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim colors/dracula.h 
+q
+nvim role/fa/python-teach.lua 
+nvim palette/dracula.lua 
+q
+cls
+nvim gen.lua 
+gss .
+git diff .
+make
+nvim gen.lua 
+q
+make clean; make; sudo make install
+nvim dev/hossein-lap/suckless/st/config.def.h 
+nvim .config/nvim/init.lua 
+..
+make clean; make; sudo make install
+nvim
+nvim dev/hossein-lap/suckless/st/colors/schemes.h 
+nvim dev/resume/palette/dracula.lua 
+nvim .config/nvim/init.lua 
+nvim
+grep 'bw [3-4]' dm*.sh
+sed -i 's/bw [3-4]/bw 2/' dm*.sh
+pulsemixer 
+make clean; make; sudo make install
+nvim `which dmexit.sh`
+cls
+nvim dev/hossein-lap/workflow/suckless/dwm/config.def.h
+nvim `which dmnotes.sh`
+q
+nvim `which dmshot.sh`
+cd dev/hossein-lap/workflow/scripts/
+nvim dmchar_*.sh
+grep -- '-g 2' *
+grep -- '-g 2' *.sh
+nvim `which dmexit.sh`
+dmexit.sh 
+nvim `which dmexit.sh `
+x
+lsblk
+sudo mount /dev/nvme0n1p4 /mnt
+sudo mount /dev/nvme0n1p3 /mnt/home
+sudo mount /dev/nvme0n1p1 /mnt/boot/efi/
+sudo mount --rbind /sys /mnt/sys
+sudo mount --rbind /dev /mnt/dev
+sudo mount --rbind /proc /mnt/prov
+sudo mount --rbind /proc /mnt/proc
+sudo chroot /mnt
+loginctl reboot
+mv ~/.config/mpv/scripts/ ~/.config/mpv/scripts.bak
+q
+..
+make clean; make; sudo make installl
+make clean; make; sudo make install
+lf /run/media/hos/Ventoy/
+nvim dl/debian-live-12.1.0-amd64-cinnamon.iso.packages 
+xbps-query -l | grep fs
+cd dl/
+aria2c -x 16 -m 0 debian-live-12.1.0-amd64-cinnamon.iso.torrent 
+echo 919 919 4987
+aria2c -x 16 -m 0 debian-live-12.1.0-amd64-cinnamon.iso.torrent 
+nvim /tmp/test.txt
+nvim ~/.config/nvim/init.lua 
+nvim ~/dev/hossein-lap/workflow/suckless/dwm/config.def.h
+nvim ~/.config/nvim/init.lua 
+x
+df -h /home
+lf vid/shows/
+x
+cd ../art/pictures/screenshots/
+nsxiv .
+loginctl reboot

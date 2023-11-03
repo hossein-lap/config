@@ -1,0 +1,23 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "91.107.180.163",
+        "name": "رایگان | VLESS | @v2rayngvpn | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "8dfd1bf6-1efd-4ac6-9361-665713490079",
+        "port": 2053,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        }
+    },
+    "gid": 1,
+    "id": 7103,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

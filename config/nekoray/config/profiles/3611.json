@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "lightning6-joinbede.mamd.sbs",
+        "name": "رایگان | VLESS | @lightning6 | CR🇨🇷 | 0️⃣1️⃣",
+        "pass": "2c72803c-b2c7-494a-d89a-f21034f4cdae",
+        "port": 2083,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@LIGHTNING6",
+            "sec": "tls",
+            "sni": "lightning6.LiV2ray.top"
+        }
+    },
+    "gid": 3,
+    "id": 3611,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

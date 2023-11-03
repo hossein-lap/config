@@ -1,0 +1,140 @@
+python -v
+c
+python
+q
+java -run Test.java
+man java
+javac Test.java
+cls
+java Test 
+time java Test 
+c; time java Test 
+c
+time java Test 
+lg
+lf
+nvim s.sh 
+which julia
+c
+nvim count-julia.jl 
+lf
+time ./count-lua.lua 
+nvim count-
+pulsemixer 
+chmod +x s.sh 
+./s.sh > output.txt
+tead output.txt 
+head output.txt 
+cat output.txt 
+c
+nvim s.sh 
+./s.sh > output.txt
+ز
+c
+nvim s.sh 
+more output.txt 
+./s.sh > output.txt
+nvim s.sh 
+./s.sh > output.txt
+nvim s.sh 
+./s.sh > output.txt
+nvim s.sh 
+./s.sh > output.txt
+time java Test
+more output.txt 
+cls
+q
+cd /data/w/benchmark-handmade/
+cls
+nvim s.sh 
+lf
+q
+pulsemixer 
+htop
+btop
+nvim ln.dl
+q
+nvim .config/nvim/lua/plugin/undotree/init.lua 
+vim
+pulsemixer 
+mplayer 
+clear
+dmplay.sh 
+c
+pulsemixer 
+nvim .config/nvim/lua/module/rce.lua 
+clear
+dmplay.sh 
+clear
+dmplay.sh 
+lf
+man ffmpeg
+nvim /data/w/benchmark-handmade/s.sh 
+c
+cd /data/dev/hossein-lap/workflow/suckless/slock/
+cls
+take patch
+rawfetch.sh https://tools.suckless.org/slock/patches/user/slock-user-1.5.diff
+..
+patch -p1 < patch/slock-user-1.5.diff 
+nvim config.def.h.rej 
+make clean; make; sudo make install
+wget https://tools.suckless.org/slock/patches/dwmlogo/slock-dwmlogo-20210324.diff
+mv slock-dwmlogo-20210324.diff patch/; cd patch/
+cls
+wget https://tools.suckless.org/slock/patches/capscolor/slock-capscolor-20220921-35633d4.diff
+..
+patch -p1 < patch/slock-dwmlogo-20210324.diff 
+nvim config.def.h.rej 
+patch -p1 < patch/slock-capscolor-20220921-35633d4.diff 
+nvim *.rej
+make clean; make; sudo make install
+c
+pulsemixer 
+nvim `which dmrecord.sh`
+q
+nvim `which dmrecord.sh`
+cd /data/w/lua/
+cls
+take notes
+nvim notes.lua
+lf 
+lf
+cls
+git add lua/ldoc.lua 
+gss .
+git commit -m 'import from local'
+git push origin 
+lf
+cs
+cls
+nvim .gitignore 
+gss .
+git add .gitignore 
+git commit -m 'ignore tests'
+git push origin 
+cls
+nvim test.lua 
+cls
+nvim test.lua 
+tree
+nvim test.lua 
+mv lua/ ldoc
+mv ldoc/ldoc.lua ldoc/init.lua
+nvim test.lua 
+q
+take /data/dev/soda-sh
+gln git@github.com:soda-sh/ldoc.git
+cd ldoc/
+cls
+t
+q
+vim --version
+vim --version | les -SR
+vim --version | less -SR
+nvim
+nvim /tmp/test.sh
+cls
+c
+lf screen/record/
+x

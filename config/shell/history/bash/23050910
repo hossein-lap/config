@@ -1,0 +1,19 @@
+cls
+nvim themes/allgray/static/css/style.css 
+lf
+q
+lf
+q
+hugo server
+grep 'hugo server' ~/.config/shell/history/b/old 
+grep 'hugo server' ~/.config/shell/history/bash/23050* 
+man hugo
+man hugo-server
+hugo server
+hugo server --disableFastRender
+q
+cd /data/dev/hossein-lap/blog/
+cls
+cd hos/
+t
+x

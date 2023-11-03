@@ -1,0 +1,443 @@
+gvim --version | grep python
+xbps-query -Rs monkey
+xbps-query -Rs icemonkey
+xbps-query -Rs seamonkey
+gvim
+gvim -u ~/.config/nvim/init.lua 
+gvim -U ~/.config/nvim/init.lua 
+gvim -U ~/.config/vim/init.lua 
+gvim -u ~/.config/vim/init.lua 
+mv .vim .config/vi
+mv .config/vim .vim
+nvim ~/.config/shell/aliases.sh 
+s
+vi
+nvim .config/vi/vimrc 
+vi
+vim
+nvim dl/install.sh 
+lf .config/vi
+gvim .vim/gvimrc 
+gvim .vim/{g,}vimrc
+gvim /tmp/test.py
+gvim .vim/{g,}vimrc
+gvim /tmp/test.py
+gvim .vim/{g,}vimrc
+gvim /tmp/test.py
+vim /tmp/test.py 
+cd .vim
+nvim gvimrc vimrc 
+vim gvimrc vimrc 
+vim /tmp/test.py 
+vim init.vim 
+vim gvimrc vimrc 
+nvim gvimrc vimrc 
+mv gvimrc gvimrc.bak
+gvim
+vim /tmp/test.py 
+cls
+rm plugged/ -rf
+vim
+vim modules/extra.vim 
+vim /tmp/test.py 
+vim modules/extra.vim 
+vi modules/extra.vim 
+vi /tmp/test.py 
+cls
+nvim modules/extra.vim 
+ls plugged/
+cls
+unlink vimrc 
+mv init.vim vimrc
+ln -s vimrc init.vim
+vi
+nvim modules/extra.vim 
+vi /tmp/test.py
+alias vi
+vim /tmp/test.py
+cls
+vim vimrc 
+vim /tmp/test.py
+./prime-rb.rb 
+زمس
+cls
+nvim /tmp/test.pl
+make clean; make; sudo make install
+for i in `exa -D`; do echo $i ; done
+for i in `exa -D`; do mv ${i}/init.lua ${i}.lua; rmdir ${i} ; done
+cls
+nvim cmp.lua.bak
+mv cmp.lua cmp.lua.bak
+q
+exit
+nvim
+q
+neofetch 
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/suckless/st
+nvim config.def.h 
+cd ~/.config/nvim
+git remove -v
+git remote -v
+cls
+nvim .gitignore 
+nvim /tmp/test.camel
+زمس
+cls
+gss .
+cls
+ls plugin/
+lf
+vim init.lua 
+nvim
+cls
+cd lua/plugin/
+cls
+nvim init.lua 
+rm -rf ~/.local/share/nvim/
+nvim
+pwd
+...
+mv after/plugin/trouble.lua after/plugin/trouble.lua.bak
+nvim
+nvim lua/plugin/init.lua 
+rm -rf ~/.local/share/nvim
+nvim
+vim lua/plugin/init.lua 
+nvim
+vim lua/plugin/init.lua 
+nvim
+vim lua/plugin/init.lua 
+vim ~/.vim/init.vim 
+vim lua/plugin/init.lua 
+nvim
+vim lua/plugin/init.lua 
+nvim
+rm -rf ~/.local/share/nvim
+nvim
+rm -rf ~/.local/share/nvim
+nvim
+cls
+nvim after/tr
+nvim
+rm -rf ~/.local/share/nvim
+nvim
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+q
+neofetch 
+nvim /data/dev/hossein-lap/workflow/nvim/lua/rce.lua 
+btop
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+neofetch 
+imshadow.sh shot-230620_144843.png 
+q
+cls
+nvim /tmp/test.pl
+vim .config/nvim/after/plugin/treesitter.lua 
+cd .config/nvim
+gss. 
+gss .
+nvim skels/skel.sh 
+r.sh nsxiv shots/
+nvim init.lua 
+gss .
+git add .
+git commit -m 'moved configs to after/ dir'
+git commit -m 'moved plugin configs to after/ dir'
+cp /data/screen/shots/shot-230620_143136.png shots/
+nvim README.md 
+gss .
+git add .
+nvim README.md 
+git commit -m 'moved plugin configs to after/ dir + new shot + lualine scheme'
+git push
+pwd
+git remote -v
+git branch
+nvim README.md 
+git add README.md 
+git commit -m 'fixed image type :/'
+git push
+git add README.md 
+nvim README.md 
+git add README.md 
+git commit -m 'screenshot - removed bullet list'
+git push
+nvim lua/plugin/init.lua 
+pwd
+cp /data/screen/shots/shot-230620_144843.png shots/
+pwd
+l
+lf
+gss .
+git diff .
+git add .
+git commit -m 'fixed local colorschemes, auto install TS parsers, shot updated'
+rm ~/.local/share/nvim
+rm ~/.local/share/nvim -rf
+nvim
+..
+make clean; make; sudo make install
+cd .config/nvim
+cls
+زمس
+cls
+nvim README.md 
+git add .
+git commit -m 'shot updated'
+git push
+nvim init.lua 
+cls
+nvim init.lua 
+q
+git diff .
+q
+nvim
+nvim /tmp/test.p
+nvim /tmp/test.py
+cd /data/dev/hossein-lap/vim-colors/
+cls
+nvim vim-c
+nvim vim-octave/
+nvim vim-*/colors/*.vim
+lf vid/MyTube/packed/
+q
+cd .config/
+dc
+cd nvim
+nvim init.lua 
+nvim after/plugin/alpha.lua 
+c
+nvim lua/module/main.lua 
+nvim
+nvim /tmp/test.pl 
+proxychains4 -q nvim
+nvim
+proxychains4 -q nvim
+nvim /tmp
+nvim /tmp/new.txt 
+nvim /tmp/test.lua 
+nvim after/plugin/lsp.lua 
+nvim /tmp/test.py 
+nvim /tmp/test.c
+nvim lua/plugin/init.lua 
+lf
+nvim after/plugin/lsp.lua 
+nvim after/plugin/lualine.lua 
+cls
+mv after/plugin/notify.lua after/plugin/notify.lua.bak
+nvim lua/plugin/init.lua 
+cls
+nvim lua/plugin/init.lua 
+nvim lua/module/extra.lua 
+nvim init.lua 
+cls
+nvim lua/module/keybind.lua 
+xbps-query -Rs livegrep
+rd
+lg
+lf
+cls
+grep comment lua/module/*
+grep unomment lua/module/*
+grep Comment lua/module/*
+nvim lua/module/keybind.lua 
+ls
+cls
+ls colors/
+cp /data/dev/hossein-lap/vim-colors/vim-lupper/colors/lupper.vim colors/lupper-test.vim
+nvim
+nvim /tmp/test.c
+nvim /tmp/test.p
+nvim /tmp/test.py
+rm colors/lupper-test.vim 
+ln -s /data/dev/hossein-lap/vim-colors/vim-.vim colors/octave-test.vim
+rm colors/lupper-test.vim 
+nvim /tmp/test.py
+nvim init.lua 
+nvim /tmp/test.py
+nvim /data/dev/hossein-lap/vim-colors/vim-lupper/colors/lupper.vim
+ln -s /data/dev/hossein-lap/vim-colors/vim-octave/colors/octave.vim colors/octave-test.vim
+nvim init.lua 
+ln -s /data/dev/hossein-lap/vim-colors/vim-sunbather/colors/sunbather.vim colors/sunbather-test.vim
+nvim init.lua 
+cd colors/
+cls
+unlink sunbather-test.vim octave-test.vim 
+unlink sunbather-test.vim 
+unlink octave-test.vim 
+unlink lupper-test.vim 
+cls
+..
+ln -s /data/dev/hossein-lap/vim-colors/vim-paramount/colors/paramount.vim colors/paramount-test.vim
+vim init.lua 
+nvim init.lua 
+gss .
+nvim init.lua 
+nvim /tmp/c/test.c
+nvim init.lua 
+nvim lua/plugin/init.lua 
+nvim
+nvim lua/plugin/init.lua 
+nvim
+nvim lua/plugin/init.lua 
+q
+cls
+cd /home/hos/.config/nvim
+cls
+nvim lua/module/rce.lua 
+vim lua/plugin/init.lua 
+nvim lua/plugin/init.lua 
+nvim .
+nvim lua/module/keybind.lua 
+nvim after/plugin/lsp.lua 
+nvim /tmp/test.py
+nvim after/plugin/lualine.lua 
+nvim /tmp/test.py
+nvim
+nvim /tmp/test.py
+cd /data/dev/hossein-lap/vim-colors/
+cls
+nvim */colors/*.vim
+cls
+nvim vim-blud/colors/blud.vim 
+nvim vim-lupper/colors/lupper.vim 
+nvim vim-octave/colors/octave.vim 
+cls
+cd vim-blud/
+gss .
+git diff .
+git remote -v
+..
+cd vim-octave/
+cls
+git diff .
+cls
+nvim colors/octave.vim 
+git remote -v
+cls
+nsxiv screenshots/
+nvim colors/octave.vim 
+git add .
+git commit -m 'more unified'
+git push
+cls
+..
+cls
+cd lu
+cd vim-lupper/
+csl
+git remote -v
+nvim colors/lupper.vim 
+...
+cd nvim
+ls -l ~/.config/ | grep nvim
+pwd
+cls
+nvim init.lua 
+nvim ../vim-colors/vim-lupper/colors/lupper.vim 
+cls
+nvim /tmp/test.py
+take /tmp/c
+mv ../test.c .
+nvim Makefile
+nvim test.c 
+cls
+nvim test.
+nvim test.c
+take ../groff
+nvim test.ms
+nvim makefile
+nvim test.ms
+cd /data/dev/hossein-lap/vim-colors/vim-paramount/colors/
+nvim paramount.vim 
+cd ../../
+nvim vim-sunbather/colors/sunbather.vim 
+grep s:active vim-*/colors/*.vim
+grep 's:active=' vim-*/colors/*.vim
+grep 's:active =' vim-*/colors/*.vim
+grep 'let s:active' vim-*/colors/*.vim
+c
+grep 'let s:active' vim-*/colors/*.vim
+nvim vim-lupper/colors/lupper.vim 
+nvim vim-sunbather{paramount,octave,lupper}/colors/*.vim
+nvim vim-{sunbather,paramount,octave,lupper}/colors/*.vim
+cp /data/screen/shots/shot-230621_035208.png vim-lupper/screenshots/
+lf vim-lupper/
+q
+versions.sh 
+c
+nvim
+cls
+cd .config/nvim
+cls
+lf
+q
+nvim /tmp/test.js
+cd .config/nvim/after/
+cd plugin/
+cls
+nvim cls
+nvim lualine.lua 
+vim /tmp/test.pl 
+vim /tmp/test.lua
+vim ~/.vim/modules/extra.vim 
+vim /tmp/test.lua
+vim /tmp/test.python
+vim /tmp/test.py
+gvim ~/.vim/init.vim 
+gvim ~/.vim/gvimrc.bak 
+gvim ~/.vim/init.vim 
+gvim ~/.vim/gvimrc.bak 
+gvim ~/.vim/init.vim 
+cls
+gvim ~/.vim/init.vim 
+cls
+gvim trouble.lua.bak 
+cls
+gvim
+xbps-query -Rs neovide
+cls
+cd ..
+..
+nvim lua/module/keybind.lua 
+nvim lua/module/rce.lua 
+q
+cd /data/w/benchmark-handmade/primes/
+nvim prime-rb.rb 
+clear
+ls prime-*.*
+ls prime-*.* -1
+c
+ls -1 prime-*.*
+cd ../count/
+cls
+c
+ls count-*.*
+c
+ls -1 count-*.*
+cls
+exa -1 count-*.*
+l -1 count-*.*
+ll -1 count-*.*
+c;
+ll -1 count-*.*
+cd -
+ll -1 prime-*.*
+c
+ll -1 prime-*.*
+nload
+btop
+neofe
+neofetch 
+nvim /data/dev/hossein-lap/suckless/st/colors/ayu-dark.h 
+mplayer 
+dmplay.sh 
+dmplay.sh -s
+dmplay.sh -s tui
+dmplay.sh 
+pulsemixer 
+btop
+nvim /tmp/test.py
+pulsemixer 
+x

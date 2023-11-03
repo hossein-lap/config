@@ -1,0 +1,366 @@
+lf 
+prime-run wine game/Command\ and\ Conquer\ Red\ Alert\ 3/RA3.exe 
+cd game/
+cd Command\ and\ Conquer\ Red\ Alert\ 3/
+cls
+prime-run wine RA3.exe 
+prime-run wine runme.exe 
+q
+cls
+wine RA3.exe 
+prime-run wine RA3.exe 
+q
+prime-run wine RA3.exe -ui
+cls
+cl
+prime-run wine runme.exe 
+prime-run wine runme.exe -ui
+cls
+..
+q
+prime-run wine RA3.exe 
+prime-run wine Mods/GenEvo/GenEvoLauncher.exe 
+cls
+cl
+lf
+prime-run wine RA3.exe 
+prime-run wine RA3.exe -ui
+clear; prime-run wine RA3.exe -ui
+ls
+lf
+q
+wine GenEvo_Setup.exe 
+cls
+lf
+..
+cls
+cd GenEvoBETA03/
+cls
+more StrategicClub.ir.url 
+clear; ls
+cls
+wine GenEvo_Setup.exe 
+...
+ls
+lf
+q
+cd /data/deb/games/wine-games/games/cs/cs-1.6-e
+cd /data/deb/games/wine-games/games/cs/cs-1.6-eswc/
+cls
+prime-run wine ESWC\ Cstrike.exe 
+winecfg 
+prime-run wine ESWC\ Cstrike.exe 
+cd ..
+cls
+cd ~/dl/
+cls
+cl
+..
+find / -iname '*red*alert*' 2>/dev/null
+cd /data/dl/cnc-red_alert-3
+cls
+wine Command\ and\ Conquer\ Red\ Alert\ 3\ \[www.StrategicClub.ir\].part1.exe 
+wine GenEvoBETA03\ \[www.StrategicClub.ir\].exe 
+cls
+wine RA3CRACK\ \[www.StrategicClub.ir\].exe 
+cls
+mv game-crack/ crack
+ls crack/
+ls crack/RA3CRACK/
+ls crack/RA3CRACK/Crack/
+lf
+q
+wine setup.exe 
+cls
+cd ..
+cls
+q
+rm -rf ./*
+cls
+cp /mnt/11/* . -rfv
+s
+cls
+q
+cp /mnt/12/* . -rfv
+wine ./setup.exe 
+q
+cp /mnt/21/* . -rfv
+l
+q
+lf /mnt/21/
+q
+sudo mkdir -v /mnt/1{1,2} /mnt/2{1,2}; sudo mount generals-1-cd-1.iso /mnt/11 -o loop
+sudo mount generals-1-cd-2.iso /mnt/12 -o loop
+sudo mount generals-zh-cd-1.iso /mnt/21 -o loop
+sudo mount generals-zh-cd-2.iso /mnt/22 -o loop
+cd /mnt/11
+wine setup.exe 
+clear; ls
+wine setup.exe 
+cls
+lf
+q
+cd /data/deb/games/command-conquer-generals/drive_c/Program\ Files/EA\ Games/
+cls
+cd Command\ \&\ Conquer\ Generals\ Zero\ Hour/
+prime-run wine generals.exe 
+cls
+cl
+..
+lf
+q
+cls
+lf
+q
+cp /mnt/22/* . -rfv
+wine ./setup.exe 
+q
+sudo umount /mnt/11
+cls
+..
+cls
+mkdir -p data/{1,zh}
+lf data/1
+q
+prime-run wine GenEvoLauncher.exe 
+lf
+cd ~/.local/share/wine/drive_c/Program\ Files\ \(x86\)/EA\ Games/
+clear; ls
+tree
+rm -rf Command\ and\ Conquer\ Generals/
+cd -
+lf /data/deb/games/wine-games/games/generals-1-and-zh/Archive/
+q
+cls
+cd game/Command\ and\ Conquer\ Red\ Alert\ 3/
+cls
+cl
+lf ../../genevo/
+q
+cd .local/share/wine/drive_c/Program\ Files\ \(x86\)/EA\ Games/Command\ and\ Conquer\ Generals\ Zero\ Hour/
+cls
+cp /mnt/21/Crack/generals.exe generals.exe.new
+mv generals.exe generals.exe.bak
+mv generals.exe.new generals.exe
+prime-run wine ./generals.exe
+cls
+cl
+wine ./generals.exe 
+...
+cls
+rm -rf EA\ Games/
+slides tmp/container.md 
+nvim tmp/container.md 
+slides tmp/container.md 
+nvim tmp/container.md 
+slides tmp/container.md 
+nvim tmp/container.md 
+slides tmp/container.md 
+cd tmp
+rawfetch.sh 
+rawfetch.sh https://raw.githubusercontent.com/charmbracelet/glamour/master/styles/dracula.json
+slides container.md 
+nvim container.md 
+slides container.md 
+nvim container.md 
+slides container.md 
+nvim container.md 
+slides container.md 
+slides container.md \
+q
+nvtop 
+wine Counter.Strike.Source.v70.exe 
+prime-run wine ~/.local/share/wine/drive_c/Program\ Files\ \(x86\)/cs-source/Counter\ Strike\ Source\ v70/hl2.exe 
+prime-run wine ~/.local/share/wine/drive_c/Program\ Files\ \(x86\)/cs-source/Counter\ Strike\ Source\ v70/hl2.exe -game cstrike
+cd ~/.local/share/wine/drive_c/Program\ Files\ \(x86\)/cs-source/Counter\ Strike\ Source\ v70/hl2.exe -game cstrike
+cd ~/.local/share/wine/drive_c/Program\ Files\ \(x86\)/cs-source/Counter\ Strike\ Source\ v70/hl2.exe
+cls
+cd ~/.local/share/wine/drive_c/Program\ Files\ \(x86\)/cs-source/Counter\ Strike\ Source\ v70
+cls
+wine hl2.exe 
+nvim /data/deb/games/wine-games/games/cs/cs-1.6-adrenaline/run.sh 
+wine hl2.exe  -master -game cstrike
+xbps-query -Rs winebind
+xbps-query -Rs wine
+sudo xbps-install -Sy wineasio-32bit
+.
+..
+cls
+rm -rf Counter\ Strike\ Source\ v70/
+cls
+cd ../Counter\ Strike\ Source/
+cls
+df -h /
+xbps-query -Rs steam
+cls
+wine Counter-Strike\ Source.exe 
+c\
+wine64 Counter-Strike\ Source.exe 
+wine64 hl2.exe 
+lutri
+xbps-query -Rs lutris
+sudo xbps-install lutris
+du -h .
+q
+prime-run wine Counter-Strike\ Source.exe 
+q
+prime-run wine generals.exe 
+wine generals.exe 
+q
+wine Counter-Strike\ Source.exe 
+man prime-run
+prime-run --help
+prime-run help
+prime-run -h
+which prime-run
+nvim `which prime-run`
+nvim `which primes`
+primes --help
+primes -h
+primes help
+man primes
+bumblebeed --help
+optirun --help
+glxgears
+optirun glxgears
+optirun wine Counter-Strike\ Source.exe 
+optirun --help
+prime-run glxspheres64 
+optirun glxspheres64 
+optirun -c yuv glxspheres64 
+xbps-query -Rs vglclient | fzf -m 
+xbps-query -Rs opengl | fzf -m 
+clear
+optirun glxspheres64 
+nvim `which optirun`
+q
+optirun generals.exe 
+optirun wine ./generals.exe 
+optirun xonotic-glx 
+prime-run xonotic-glx
+clear
+cls
+q
+winetricks dxvk
+proxychains4 -q winetricks dxvk
+sh run.sh 
+q
+optirun wine generals.exe 
+q
+cls
+wine Command\ and\ Conquer\ Red\ Alert\ 3\ \[www.StrategicClub.ir\].part1.exe 
+df -h /
+pwd
+df -h /data
+bg
+fg
+cls
+cd ra3/Command\ and\ Conquer\ Red\ Alert\ 3/
+cls
+nvim run.sh
+...
+cls
+wine RA3CRACK\ \[www.StrategicClub.ir\].exe 
+mv crack/RA3CRACK/Crack/* ra3/Command\ and\ Conquer\ Red\ Alert\ 3/
+mv crack/RA3CRACK/Crack/Data/ ra3/Command\ and\ Conquer\ Red\ Alert\ 3/Data/
+mv crack/RA3CRACK/Crack/Data/* ra3/Command\ and\ Conquer\ Red\ Alert\ 3/Data/
+cd -
+sh run.sh 
+ض
+q
+cls
+./GenEvo\ Launcher.desktop 
+clear; ls
+lf /data/dl/cnc-red_alert-3
+q
+lf /home/hos/
+lf /home/hos/Red\ Alert\ 3
+q
+nvim run.sh
+q
+take css
+mv ../CounterStrikeSource.www.gameniko.ir.rar .
+unrar x CounterStrikeSource.www.gameniko.ir.rar 
+cls
+wine CounterStrikeSource.www.gameniko.ir.EXE 
+winetricks 
+wine CounterStrikeSource.www.gameniko.ir.EXE 
+df -h /
+cls
+..
+cls
+cd cs/cs-1.6-eswc/
+optirun ./ESWC\ Cstrike.exe 
+optirun wine ./ESWC\ Cstrike.exe 
+cd ../cs-1.6-adrenaline/
+cls
+nvim run.sh 
+sh run.sh 
+cp run.sh ../cs-1.6-eswc/
+nvim ../cs-1.6-eswc/run.sh run.sh 
+lf
+find / -iname '*red*alert*' 2>/dev/null
+lf ~/.local/share/wine/drive_c/
+q
+df -h
+lf /data/deb/games/wine-games/
+q
+winetricks atmlib corefonts gdiplus msxml3 msxml6 vcrun2008 vcrun2010 vcrun2012 fontsmooth-rgb gecko
+proxychains4 -q winetricks atmlib corefonts gdiplus msxml3 msxml6 vcrun2008 vcrun2010 vcrun2012 fontsmooth-rgb gecko
+s
+cls
+cd Program\ Files
+cls
+cd ../Program\ Files\ \(x86\)/
+cls
+lf
+q
+wine generals.exe 
+clear; 
+cls
+cl
+..
+cls
+cd Command\ \&\ Conquer\(tm\)\ Generals
+cls
+wine generals.exe 
+cls
+cd -
+cd Command\ \&\ Conquer\(tm\)\ Generals\ Zero\ Hour/
+wine64 generals.
+wine64 generals.exe 
+cls
+lf ~/.local/share/wine/drive_c/
+q
+df -h /run/media/hos/work/
+aria2c -c -x 16 -j 1 -m 0 'https://s1.strategicclub.ir/Games/Command%20and%20Conquer%20Generals%20Deluxe%20Edition%20[www.StrategicClub.ir]/CCG%20&%20ZH%20[www.StrategicClub.ir].rar'
+cls
+unrar x CCG\ \&\ ZH\ \[www.StrategicClub.ir\].rar 
+cls
+cd CCG\ \&\ ZH\ \[www.StrategicClub.ir\]/
+cls
+cd Run/
+cls
+ls DirectX
+wine DirectX/DXSETUP.exe 
+cls
+wine setup.exe 
+cd ~/.local/share/wine/drive_c/
+lfg
+lf
+q
+lf /run/media/hos/work/Archive/
+q
+df -h /
+lf arch/iso/
+lsblk
+df -h /
+lf /run/media/hos/work/Archive/iso/
+cls
+cl
+du -h .local/
+xbps-query -Rs virtualgl
+sudo xbps-install VirtualGL-32bit VirtualGL-devel
+q
+nvtop 
+x

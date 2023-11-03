@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.18.225.233",
+        "aid": 0,
+        "id": "7e2a9a57-299d-4f55-a4d5-36fe13e00945",
+        "name": "رایگان | VMESS | @ConfigsHUB | RELAY🚩 | 0️⃣2️⃣",
+        "port": 2086,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "cf-de6.doushimeng.com",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/asdas"
+        }
+    },
+    "gid": 3,
+    "id": 3551,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": 1282
+}

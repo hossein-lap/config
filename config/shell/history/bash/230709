@@ -1,0 +1,48 @@
+make clean; make; sudo make install
+sh -c 'which dmshot.sh'
+ls -l $(sh -c 'which dmshot.sh')
+ls -l $(sh -c 'which dmusb.sh')
+q
+nvim /tmp/test.c
+q
+nvim /tmp/test.c
+dmstexec.sh 
+dmstexec.sh -p test
+dmstexec.sh -bg blue
+dmstexec.sh -nb blue
+dmstexec.sh -nf blue
+dmenu_run 
+nvim `which dmenu_run `
+ls -l `which dmusb.sh`
+ls -l /home/hos/.local/bin/scripts/dm*.sh
+q
+echo test | notify-send 
+echo test | notify-send -a test
+echo test | notify-send -a test thi
+echo test | xargs notify-send
+q
+make clean; make; sudo make install
+dmstexec.sh -p TEST: 
+make clean; make; sudo make install
+q
+make clean; make; sudo make install
+dmusb.sh -vf
+dmusb.sh 
+grep dmenucmd *.{c,h}
+make clean; make; sudo make install
+dmusb.sh 
+cd arch/iso/
+pwd
+ls MX-21.3_*
+rsync --progress MX-21.3_KDE_x64.iso /run/media/hos/Ventoy/
+dmusb.sh -wm
+which dmusb.sh 
+nvim `which dmusb.sh `
+dmusb.sh -wm
+nvim ~/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+dmusb.sh -wm
+cd ~/dev/hossein-lap/workflow/suckless/dwm
+nvim config.def.h 
+q
+nvim `which dmusb.sh `
+q

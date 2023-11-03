@@ -1,0 +1,107 @@
+free -m
+x
+f
+lf
+find ~ -name '*.iso' | fzf
+x
+cls
+nvim cv/gen.lua 
+cls
+nvim resume/gen.lua 
+cls
+nvim pkg.txt 
+cls
+find ~ -name resume.ms
+find ~ -name resume.pdf
+for i in `find ~ -name resume.pdf`; done zathura "${i}"; done
+for i in `find ~ -name resume.pdf`; do zathura "${i}"; done
+r.sh zathura w/groff/resume/resume.pdf 
+nvim ~/.config/nvim/lua/module/rce.lua 
+cls
+nvim gen.lua 
+q
+nvim resume.ms 
+q
+cls
+nvim role/devops.lua 
+t
+q
+nvim ../en.bak/cv/gen.lua 
+q
+ls *.lua | grep -v devops
+for i in `ls *.lua | grep -v devops`; do cp -fv "${i}"; done
+for i in `ls *.lua | grep -v devops`; do cp devops.lua -fv "${i}"; done
+cls
+..
+cls
+zathura cv-en.pdf 
+r.sh zathura cv-en.pdf 
+nvim role/devops.lua 
+q
+nvim cv/gen.lua 
+lf
+q
+nvim */gen.lua
+t
+q
+iwctl 
+nmtui
+clear
+cd dev/resume/
+cls
+cd en/
+t
+cls
+..
+cls
+nvim fa/cv/gen.lua 
+..
+cd -
+cls
+mv en/ en.bak
+cp -rv fa/ en
+clear;
+lf
+q
+cd w/groff/resume/
+cls
+nvim gen.lua
+mkdir role
+cls
+touch role/devops.lua
+cls
+nvim /tmp/test.md
+q
+cd /run/media/hos/Ventoy/fonts/
+cls
+cp -r samim/ shabnam/ tanha/ ttf-yas/ ~/.local/share/fonts/persian/test/
+fc-cache 
+fc-list | grep test
+fc-list | grep test | grep -v WOL | grep -v FD
+fc-list | grep test | grep -v WOL | grep -v FD | fzf
+fc-list | grep test | grep -v WOL | grep -v FD | sort
+fc-list | grep test | grep -v WOL | grep -v FD | sort | fzf
+fc-list | grep test | grep -v WOL | grep -v FD | sort | grep -v ',' | fzf
+fc-list | grep test | grep -v WOL | grep -v FD | sort | grep -v ',' | grep 'style=regular' | fzf
+fc-list | grep test | grep -v WOL | grep -v FD | sort | grep -v ',' | grep -i 'style=regular' | fzf
+fc-list | grep Yas
+fc-list | grep ' Yas:'
+fc-list | grep ': Yas:'
+fc-list | grep ': Yas:' | grep -i style=regular
+ls Yas
+pwd
+fc-list | grep ': Yas:' | grep -i style=regular
+nvim /tmp/test.tex 
+q
+nvim /tmp/test.tex
+cd .local/share/fonts/
+ls
+mkdir test
+mv test/ persian/
+cd persian/
+ls
+tar -cf Yas.tar Yas
+rm Yas -rf
+nvim /tmp/test.lua
+q
+x

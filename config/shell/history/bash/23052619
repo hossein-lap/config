@@ -1,0 +1,12 @@
+ssh 192.168.1.236
+ssh ali@192.168.1.236
+cd dl/telegram-dl/
+cls
+take arch-bspwm-conf
+mv ../arch-bspwm-conf.rar .
+unrar x arch-bspwm-conf.rar 
+cls
+nsxiv .
+nsxiv . -o
+sxwall.sh .
+q

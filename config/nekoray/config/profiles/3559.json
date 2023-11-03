@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "aidarostami.ddns.net",
+        "aid": 0,
+        "id": "6B21EBEE-17AD-4B04-B498-561D5B4CA0EB",
+        "name": "رایگان | VMESS | @Awlix_ir | US🇺🇸 | 0️⃣3️⃣",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "fn.mostafago.tk",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/speedtest",
+            "sec": "tls",
+            "sni": "fn.mostafago.tk"
+        }
+    },
+    "gid": 3,
+    "id": 3559,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": 2034
+}

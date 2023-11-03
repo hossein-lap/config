@@ -1,0 +1,23 @@
+kitty
+cls
+sudo xbps-remove -R openjdk11
+sudo xbps-install openjdk8
+java -jar games/TLauncher-2.885.jar 
+sudo xbps-remove -R openjdk8
+sudo xbps-install openjdk17
+java -jar games/TLauncher-2.885.jar 
+prime-run java -jar games/TLauncher-2.885.jar 
+btop
+prime-run java -jar games/TLauncher-2.885.jar 
+btop
+pass ls social/discord/
+pass ls social/discord/hosteam01 
+c
+ls .xonotic/
+btop
+rm .xonotic/lock 
+prime-run xonotic-glx
+proxychains4 -q xonotic-glx
+prime-run xonotic-glx
+xonotic-glx
+proxychains4 -q xonotic-glx

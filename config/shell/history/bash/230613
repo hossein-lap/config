@@ -1,0 +1,235 @@
+cls
+cl
+l
+lf
+q
+echo $TERM
+s
+neofetch 
+s
+clear
+neofetch 
+cls
+lf
+q
+nvim ln.dl
+nvim dl.sh
+q
+ls .themes/
+cd .local/share/themes/
+lf
+sudo xbps-install kate5
+pulsemixer 
+python
+python2
+st -t Terminal -e 'sh echo test'
+st -t Terminal -e 'sh -c "echo test"'
+st -T Terminal -e 'sh -c "echo test"'
+st -T Terminal -e 'sh htop'
+st -T Terminal -e 'sh -c htop'
+st -T Terminal 'sh -c htop'
+st -T Terminal sh -c htop
+st -t Terminal sh -c htop
+clear
+man st
+cd '/data/doc/tools'
+cd '/tmp'
+/bin/sh /tmp/geany_run_script_32S651.sh
+/bin/sh /tmp/geany_run_script_9ZX851.sh
+/bin/sh /tmp/geany_run_script_TOLB61.sh
+for i in `find $PWD -maxdepth -type f`; do tail -n 13 "${i}" | dmenu -c -l 20 -p "${i}"; done
+for i in `find $PWD -maxdepth 1 -type f`; do tail -n 13 "${i}" | dmenu -c -l 20 -p "${i}"; done
+for i in `find $PWD -maxdepth 1 -type f`; do tail -n 13 "${i}" | dmenu -c -l 20 -p $(echo ${i} | awk -F '/' '{print $NF;}'); done
+for i in `find $PWD -maxdepth 1 -type f`; do tail -n 13 "${i}" | sed 's/\t/    /g' | dmenu -bw 4 -vf -c -l 20 -p $(echo ${i} | awk -F '/' '{print $NF;}'); done
+for i in `find $PWD -maxdepth 1 -type f`; do tail -n 13 "${i}" | cat -n | sed 's/\t/    /g' | dmenu -bw 4 -vf -c -l 20 -p $(echo ${i} | awk -F '/' '{print $NF;}'); done
+cls
+cl
+grep -n 'build-menu' filetypes.*
+grep -n 'build-menu' filetypes.* | awk -F ':' '{print $2;}'
+nvim extract.sh
+nvim /data/w/extract-geany-ft.sh 
+pwd
+q
+lf .config/geany/
+q
+cd .config/
+cls | grep gtk
+cd gtk-4.0/
+cls
+gln https://github.com/lassekongo83/adw-colors
+cls
+lf
+gln https://github.com/bulantoni/numix-solarized-gtk-theme
+cp -r numix-solarized-gtk-theme/src ~/.local/share/themes/solarized
+lxappearance 
+cls
+cl
+cd numix-solarized-gtk-theme/
+cls
+lc
+scls
+cls
+glow README.md
+xbps-query -Rs numix
+sudo xbps-install numix-themes
+..
+pwd
+gln https://github.com/rtlewis88/rtl88-Themes/tree/Solarized-Dark
+gln https://github.com/rtlewis88/rtl88-Themes
+mv ~/dl/Solarized-Dark_1.9.zip .
+unzip Solarized-Dark_1.9.zip 
+cls
+cd Solarized-Dark/
+cls
+..
+cp -r Solarized-Dark ~/.local/share/themes/
+cls
+lf Solarized-Dark
+papirus-folders -C bluegrey -t Papirus-Dark
+xbps-query -Rs theme
+xbps-query -Rs themeconfig
+xbps-query -Rs themechange
+xbps-query -Rs colorcham
+xbps-query -Rs colorchan
+sudo xbps-install kate
+sudo xbps-query -Rs kate
+sudo xbps-install kate5
+script -c dash
+script -c dash -o kate5-req.txt
+script -c dash kate5-req.txt
+nvim kate5-req.txt 
+less -R kate5-req.txt 
+nvim kate5-req.txt 
+kate
+nvim kate5-req.txt 
+cat kate5-req.txt | awk '{print $1;}'
+cat kate5-req.txt | awk '{print $1;}' > kate5-req.txt 
+sudo xbps-remove -R kate5
+xbps-query -Rs ycm
+xbps-query -Rs ycmd\
+xbps-query -Rs ycmd
+xbps-query -Rs gycmd
+xbps-query -Rs gycm
+nvim ~/.config/shell/bashrc
+cd /data/loth
+cd /data/local/theme/
+mv ~/dl/NumixSolarized-20230408.tar.gz .
+tar -xf NumixSolarized-20230408.tar.gz 
+cd NumixSolarized/
+cls
+sudo cp -r * /usr/share/themes/
+lf
+cd .config/
+mv geany/ geany.bak
+lf geany.bak/
+nvim /data/dev/hossein-lap/workflow/suckless/st/colors/dracula.h 
+mpv ~/screen/record/geany-test-230613_220128.mp4 
+nvim `which dmrecord.sh`
+man st
+echo "       -g geometry
+              defines the X11 geometry string.  The form is
+              [=][<cols>{xX}<rows>][{+-}<xoffset>{+-}<yoffset>]. See
+              XParseGeometry(3) for further details.
+"
+clear
+c; clear
+echo "       -g geometry
+              defines the X11 geometry string.  The form is
+              [=][<cols>{xX}<rows>][{+-}<xoffset>{+-}<yoffset>]. See
+              XParseGeometry(3) for further details.
+"
+c; echo "       -g geometry
+              defines the X11 geometry string.  The form is
+              [=][<cols>{xX}<rows>][{+-}<xoffset>{+-}<yoffset>]. See
+              XParseGeometry(3) for further details.
+"
+st -t Terminal -g 80x24
+st -t Terminal -g 24x80
+st -t Terminal -g 80x24 -fn 'fantastique:size=24'
+fc-list | grep -i fantas
+st -t Terminal -g 80x24 -fn 'Fantasque Sans Mono:size=24'
+st -t Terminal -g 80x24 -fn 'Fantasque Sans Mono'
+st -h
+st -t Terminal -g 80x24 -f 'Fantasque Sans Mono'
+st -t Terminal -g 80x24 -f 'Fantasque Sans Mono:size=20'
+st -t Terminal -g 80x24 -f 'Fantasque Sans Mono:size=15'
+st -t Terminal -g 80x24 -f 'Fantasque Sans Mono:size=18'
+st -t Terminal -g 80x24 -f 'Fantasque Sans Mono:size=15'
+nvim /tmp/geany_run_script_*
+cd .conf
+find / -iname geany 2>/dev/null
+lf /usr/share/geany/
+nvim geany/filedefs/filetypes.latex 
+sudo xbps-install kate5
+xbps-query -Rs themechange
+xbps-query -Rs theme-change
+xbps-query -Rs Theme
+xbps-query -Rs ThemeC
+xbps-query -Rs Theme-C
+sudo xbps-install gtk-theme-config
+gtk-theme-config 
+mate-color-select 
+xbps-query -Rs mate-color
+xbps-query -Rs mate
+xbps-query -Rs mate-extra
+xbps-query -Rs mate-color
+clear; ls
+xbps-query -l | grep theme
+xbps-query -Rs theme | fzf -m --reverse
+pkg-s() { xbps-query -Rs  | fzf -m --reverse; }
+pkg-s() { xbps-query -Rs "${@}"  | fzf -m --reverse; }
+pkg-s theme change
+pkg-s() { xbps-query -Rs "${1}"  | fzf -m --reverse; }
+pkg-s theme change
+pkg-s elementary
+xbps-query -l
+xbps-query -R
+xbps-query -Rs
+xbps-query -Rs *
+xbps-query -Rs \*
+xbps-query -Rs \* | wc -l
+xbps-query -Rs \* | fzf -m -reverse | awk '{print $2;}'
+xbps-query -Rs \* | fzf -m --reverse | awk '{print $2;}'
+sudo xbps-install -Sy io.elementary.icons
+xbps-query -Rs \* | fzf -m --reverse | awk '{print $2;}'
+xbps-query -Rs \* | fzf -m --reverse | awk '{print $1\t$2}'
+c
+xbps-query -Rs \* | fzf -m --reverse | awk '{print $1"\t"$2}'
+xbps-query -Rs \* | fzf -m --reverse | awk '{print $1"\t"$2"\t"$3}'
+xbps-query -Rs \* | fzf -m --reverse | awk '{print $1"\t"$2"\t"$3}'
+xbps-query -Rs \* | awk '{print $1"\t"$2"\t"$3}' | fzf -m --reverse | awk '{print $2;}'
+xbps-query -Rs \* | awk '{print $1"\t"$2"\t\t\t"$3}' | fzf -m --reverse | awk '{print $2;}'
+xbps-query -Rs \* | awk '{print $1"\t"$2"\t\t    "$3}' | fzf -m --reverse | awk '{print $2;}'
+xbps-query -Rs \* | awk '{print $1"\t"$2"\t    "$3}' | fzf -m --reverse | awk '{print $2;}'
+xbps-query -Rs \* | awk '{print $1" "$2"\t\t    "$3}' | fzf -m --reverse | awk '{print $2;}'
+xbps-query -Rs \* | awk '{print $1" "$2"\t\t    "$3..$NF;}' | fzf -m --reverse | awk '{print $2;}'
+c
+xbps-query -Rs \* | awk '{print $1" "$2"\t\t    "$3}' | fzf -m --reverse | awk '{print $2;}'
+cd .config/geany/
+cls
+lf
+xbps-query -Rs cppcheck
+sudo xbps-install cppckeck
+sudo xbps-install cppcheck
+nvim .config/geany/filedefs/
+cd .config/geany/filedefs/
+cls
+pwd
+cd /usr/share/geany/
+lf
+xbps-query -Rs fantasque
+xbps-query -Rs solarized
+xbps-query -Rs solariz
+xbps-query -Rs geany
+sudo xbps-install geany-devel
+c
+cd /data/local/
+take theme
+gln https://github.com/geany/geany-themes.git
+cd geany-themes/
+cls
+./in
+./install.sh 
+xbps-query -Rs mononoki
+cd '/tmp'
+clear; ls

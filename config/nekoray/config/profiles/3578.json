@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "172.67.81.238",
+        "name": "رایگان | VLESS | @L_AGVPN13 | US🇺🇸 | 0️⃣2️⃣",
+        "pass": "f9a3dcab-fa06-46e6-b968-512f3d417576",
+        "port": 2087,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@L_AGVPN13",
+            "sec": "tls",
+            "sni": "mh.lagvpn13.cfd"
+        }
+    },
+    "gid": 3,
+    "id": 3578,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

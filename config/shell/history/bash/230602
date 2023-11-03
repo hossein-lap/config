@@ -1,0 +1,74 @@
+./test > /dev/null
+./test 2> /dev/null
+cd /data/dev/hossein-lap/suckless/st
+sudo make install
+man xbps-install 
+sudo xbps-install -Du
+sudo xbps-install -SDu
+sudo xbps-install -Syu
+lf pic/
+make clean; make; sudo make install
+htop
+cd
+cd
+cls
+cd /tmp
+ls
+cd /tmp/
+cd
+cd /tmp
+cd 
+take /tmp/test
+cd /tmp/test
+cd /tmp/
+clear
+cd /tmp
+make clean; make; sudo make install
+cd /data
+cd dev/hossein-lap/workflow/suckless/tabbed/
+nvim ../../../suckless/tabbed/patch/tabbed-clientnumber-0.6.diff 
+nvim ../../../suckless/tabbed/patch/tabbed-clientnumber-0.6.diff  tabbed.c
+nvim -o ../../../suckless/tabbed/patch/tabbed-clientnumber-0.6.diff  tabbed.c
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/tabbed/
+nvim config.def.h 
+lf
+lf doc/
+ssh-copy-id ali@192.168.1.236
+ssh ali@192.168.1.236
+slides container.md 
+nvim tmp/container.md
+slides tmp/container.md 
+nvim tmp/container.md
+slides tmp/container.md 
+nvim tmp/container.md
+slides tmp/container.md 
+nvim tmp/container.md
+slides tmp/container.md 
+nvim /tmp/test.md
+sli /tmp/test.md
+slides /tmp/test.md
+slides tmp/container.md 
+slides /tmp/test.md
+cls
+grep -v '^#' | wc -l
+grep -v '^#' ln.dl | wc -l
+df -h
+df -h | grep '^/'
+pulsemixer 
+man slides
+slides --help
+slides help --help
+clear
+nvim tmp/container.md 
+rawfetch.sh https://raw.githubusercontent.com/maaslalani/slides/main/examples/metadata.md
+nvim metadata.md 
+slides metadata.md 
+nvim metadata.md 
+slides metadata.md 
+cd tmp
+cls
+nvim container.md 
+slides container.md 
+nvim container.md 
+x

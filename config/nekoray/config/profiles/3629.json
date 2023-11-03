@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "31.22.116.26",
+        "name": "رایگان | VLESS | @Awlix_V2RAY | GB🇬🇧 | 0️⃣1️⃣",
+        "pass": "c8b32a6d-ebb9-46cd-8a4a-5a5df9150e4c",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "sec": "tls",
+            "sni": "mjgkkhgvkutfkhg.mic-mokhaderat-irancell-shatel-irancel.shop"
+        }
+    },
+    "gid": 3,
+    "id": 3629,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

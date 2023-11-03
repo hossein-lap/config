@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "[0000:0000:0000:0000:0000:ffff:33ff:9aff]",
+        "aid": 0,
+        "id": "347486b0-604e-48b0-a525-f84042fd97c3",
+        "name": "رایگان | VMESS | @prrofile_purple | IR🇮🇷 | 0️⃣2️⃣",
+        "port": 80,
+        "sec": "chacha20-poly1305",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "http",
+            "host": "cafebazaar.ir",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "path": "/W2Wr6gy0ZMUSYRNss6v"
+        }
+    },
+    "gid": 2,
+    "id": 1317,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

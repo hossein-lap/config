@@ -1,0 +1,118 @@
+cls
+ls Command\ and\ Conquer\ Generals\ Zero\ Hour\ Data/
+rmdir Desktop/ Command\ and\ Conquer\ Generals\ Zero\ Hour\ Data/
+cls
+export SUDO_ASKPASS="dmenu -p password -P </dev/null"
+sudo xbps-query -Rs ls
+nvim /tmp/test.ts 
+grep sudo ~/.config/shell/history/bash/*
+grep SUDO ~/.config/shell/history/bash/*
+export SUDO_ASKPASS="dmenu -p password -P < /dev/null"
+nvim ~/.config/shell/bashrc
+cd .config/nvim/lua/plugin/lualine/
+cls
+nvim init.lua 
+...
+nvim ../init.lua 
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+..
+sed -i 's/purple.h"/blue.h"/' {dmenu,dwm}/config.def.h
+./make.sh 
+nvim dmenu/config.def.h 
+./make.sh 
+dmstexec.sh -a -vf
+dmstexec.sh -vf
+dmstexec.sh -h
+ls -l | dmenu -l 25
+ls -l | dmenu -l 25 -vf
+ls -l | dmenu -l 25 -vf 2
+ls -l | dmenu -l 25 -vf
+ls -l | dmenu -l 25 -p test -vf
+ls -l | dmenu -l 25 -p test
+nvim dmenu/dmenu.c 
+./make.sh 
+ls -l | dmenu -l 25 -p test -g 2
+ls -l | dmenu -l 5 -p test -g 2
+ls -l | dmenu -l 5 -p test -g 2 -vf
+ls -l | dmenu -l 5 -p test -g 2
+ls -l | dmenu -l 5 -p test -g 2 -t simpletitile
+ls -l | dmenu -l 5 -p test -g 2 -t simpletitile -vf
+sed -i 's/bg\/blue.h"/dracula.h"/' {dmenu,dwm}/config.def.h
+./make.sh 
+nvim dwm/colors/dracula.h 
+./make.sh 
+nvim dwm/colors/dracula.h 
+./make.sh 
+nvim dwm/colors/dracula.h 
+nvim ~/.config/tmux/tmux.conf 
+t
+t att
+t
+q
+..
+./make.sh 
+make clean; make; sudo make install
+neofetch 
+c
+uni
+unix
+c
+pfetch 
+screenfetch 
+c; neofetch 
+startsay.sh 
+lolcat
+startsay.sh | lolcat
+xbps-query -Rs lolcat
+sudo xbps-install lolcat-c
+startsay.sh | lolcat 
+clear
+startsay.sh | lolcat 
+c
+startsay.sh | lolcat 
+datestartup.sh 
+c
+datestartup.sh 
+c
+versions.sh 
+datestartup.sh; versions.sh 
+c
+datestartup.sh; versions.sh 
+neofetch; versions.sh 
+c
+neofetch; versions.sh 
+lf ~/pic/wall/
+cd .config/nvim
+cls
+cd colors/
+cls
+cp hos.vim void.vim
+nvim void.vim 
+cls
+mvo, hos.vim 
+nvim hos.vim 
+nvim void.vim 
+rm void.vim -f
+cp blud.vim void.vim
+nvim void.vim 
+cp void.vim debian.vim
+nvim debian.vim 
+mv debian.vim suse.vim
+nvim suse.vim 
+..
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h
+cd colors/
+cls
+nvim ubuntu.h 
+nvim void.h 
+...
+./make.sh 
+nvim dwm/colors/void.h 
+nvim dwm/config.def.h
+lf dwm/colors/
+./make.sh 
+nvim dwm/colors/arch.h 
+q

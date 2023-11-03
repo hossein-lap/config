@@ -1,0 +1,5 @@
+cls
+s
+cls
+nvim pres.tex 
+q

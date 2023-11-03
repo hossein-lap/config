@@ -1,0 +1,49 @@
+cd /data/w/
+cls
+ls devops/
+cd devops/
+cls
+take doc
+mv `ls .. | grep -v doc` .
+cls
+lf
+take ../voting-app
+mv ~/dl/voting-app.zip .
+unzip voting-app.zip 
+cls
+cd voting-app/
+cls
+nvim README.md 
+pandoc README.md -o README.pdf
+zathura README.pdf 
+pandoc --default ~/.config/pandoc/defaults/solarized/solarized.yaml README.md -o README.pdf
+pandoc --defaults ~/.config/pandoc/defaults/solarized/solarized.yaml README.md -o README.pdf
+r.sh zathura README.pdf 
+docker compose up
+proxychains4 -q docker compose up
+docker pull redis
+proxychains4 -q docker pull redis
+vim /etc/proxychains.conf 
+proxychains4 -q docker pull redis
+docker pull redis
+docker run hello-world
+clear
+docker pull redis
+proxychains4 -q docker pull redis
+docker run busybox echo "Test"
+q
+docker compose up
+cls
+find / -name docker 2>/dev/null
+sudo bash
+cls
+cd /data/w/devops/
+cls
+cd voting-app/
+docker pull redis
+find / -name docker 2>/dev/null | less
+find / -name 'docker*.json' 2>/dev/null | less
+docker compose up
+cls
+lf
+q

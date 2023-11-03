@@ -1,0 +1,232 @@
+./img 
+./img -name void -size 25G
+..
+void/img -name void -size 25G
+./void/img -name void -size 25G
+cd -
+./img -name void -size 25G
+make clean; make
+sudo make install
+ls | dmenu -l 15 -c -p test-dy -dy notify-send
+ls | dmenu -l 15 -c -p test-dy -dy ls
+ls | dmenu -l 15 -c -p test-dy
+ls | dmenu -l 15 -c -p test-dy -dy ls
+ls | dmenu -l 15 -c -p test-dy -bw 2 -dy ls
+ls | dmenu -dy ls
+ls | dmenu -l 10 -dy ls
+ls | dmenu -l 15 -c -p test-dy -bw 2 -dy ls
+dmenu -l 15 -c -p test-dy -bw 2 -dy ls
+dmenu -l 15 -c -p test-dy -bw 2 -dy notify-sent
+dmenu -l 15 -c -p test-dy -bw 2 -dy notify-send
+dmenu -l 15 -c -p test-dy -bw 2 -dy 'notify-send -a dmenu-text -i menu'
+ls | dmenu -l 15 -c -p test-dy -bw 2 -dy ls
+git restore --source=HEAD .
+make clean; make; sudo make install
+ls | dmenu -l 15 -c -p test-dy -bw 2 -dy ls
+ls | dmenu -l 15 -c -p test-dy -bw 2
+dmenu -l 15 -c -p test-dy -bw 2
+dmenu -l 15 -c -p test-dy -bw 2 < /dev/null
+dmenu -l 15 -c -p test-dy -bw 2 < /dev/zero 
+dmenu -l 15 -c -p test-dy -bw 2 < /dev/stdin 
+cd patches/
+wget https://tools.suckless.org/dmenu/patches/restrict-return/dmenu-restrictreturn-5.0.diff
+gss .
+wget https://tools.suckless.org/dmenu/patches/scroll/dmenu-scroll-20180607-a314412.diff
+wget https://tools.suckless.org/dmenu/patches/vi-mode/
+wget https://tools.suckless.org/dmenu/patches/vi-mode/dmenu-vi_mode-20230416-0fe460d.diff
+rm index.html -f
+wget https://tools.suckless.org/dmenu/patches/xyw/dmenu-xyw-5.0.diff
+./ssh 
+grep '@{ip}' *
+gls
+nvim dmenu.c
+gss .
+lf patches/
+cd ~/dev/hossein-lap/workflow/suckless/dmenu/patches/
+wget https://tools.suckless.org/dmenu/patches/dynamicoptions/dmenu-dynamicoptions-5.0.diff
+..
+gss .
+gls
+gll
+gss .
+git diff dmenu.c
+gss .
+git diff config.def.h
+git add dmenu.c config.def.h 
+git commit 
+gss .
+lat tmp.sh 
+mv void-install-chroot.html ~/tmp/ -i
+mv tmp.sh ..
+cls
+gss .
+patch -p1 < patches/dmenu-dynamicoptions-5.0.diff 
+nvim *.rej
+make clean; make; 
+cd patches/
+wget https://tools.suckless.org/dmenu/patches/dynamicoptions/dmenu-dynamicoptions-20200526-01e2dfc7.diff
+wc -l dmenu-dynamicoptions-*
+nvim dmenu-dynamicoptions-*
+q
+q
+sudo xbps-query -Rs office | fzf
+sudo xbps-query -l
+sudo xbps-query -Rs office | fzf
+lf .config/pandoc/background/
+q
+nvim .config/pandoc/defaults/beamer/en-ubuntu.sty 
+lf .config/pandoc/defaults/beamer/
+texdoc beamer
+cd .config/pandoc/defaults/beamer/
+nvim en-ubuntu.
+nvim en-ubuntu.yaml 
+cls
+nvim -d en-ubuntu.sty en-manjaro.sty 
+pwd
+nvim en-manjaro.sty 
+nvim *.sty
+q
+cd w/devops/
+take pipeline-as-code/pres/01
+nvim test.md
+nvim ~/.config/nvim/lua/plugin/mason/init.lua 
+nvim test.tex
+mkdir pandoc
+nvim Makefile
+lf ~/.config/pandoc/defaults/beamer/
+nvim pandoc/*
+nvim test.md
+q
+nvim .config/nvim/lua/module/rce.lua 
+nvim -c Mason
+q
+nvim ~/w/devops/pipeline-as-code/pres/01/test.md
+q
+cd .config/nvim/lua/plugin/null-ls/
+cls
+nvim init.lua 
+nvim ../cmp/init.lua 
+q
+lf sahar/uni/
+sudo grub-install /dev/nvme0n1
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+dmusb.sh 
+udisksctl mount -b /dev/nvme0n1p2
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+sudo os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+loginctl reboot
+sudo xbps-install yt-dlp
+lsblk
+sudo grub-install /dev/nvme0n1
+sudo grub-mkconfig -o /dev/null
+sudo update-grub
+cd /etc/grub.d/
+grep GRUB_DISABLE_OS_PROBER *
+vim 30_os-prober 
+dmusb.sh 
+sudo os-prober
+sudo update-grub 
+pulsemixer 
+cd
+lf vid/
+sudo xbps-remove -o
+vim /etc/default/grub
+lf vid/
+q
+pulsemixer 
+x
+xbps-query -Rs odt2txt
+for i in `ls *.wav`; do j=$(echo "${i}" | sed 's/wav$/mp3/'); ffmepg -i "${i}" "${j}"; done
+for i in `ls *.wav`; do j=$(echo "${i}" | sed 's/wav$/mp3/'); ffmpeg -i "${i}" "${j}"; done
+cls
+q
+x
+xbps-query -Rs pdftoppm
+xbps-query -Rs poppler | fzf
+sudo xbps-install poppler
+lsblk
+dmusb.sh 
+sudo chroot /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/
+sudo mount /dev/nvme0n1p1 /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/boot/efi/
+sudo mount --rbind /dev /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/dev/
+sudo mount --rbind /sys /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/sys/
+sudo mount --rbind /proc /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/proc/
+sudo mount /dev/nvme0n1p4 /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/home/
+ls ..
+sudo mount /dev/nvme0n1p4 /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/
+sudo chroot /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/
+lsblk
+lf dl/telegram-dl/
+nvim ~/.config/lf/lfrc
+lf dl/telegram-dl/
+lf doc/books/
+nvim ~/.config/lf/lfrc
+nvim ~/.config/lf/scope
+cd mus/
+lf
+du -h ~/arch/texlive/*.iso
+nvim ~/.config/pandoc/defaults/beamer/en-dracula.sty 
+nvim ~/.config/pandoc/defaults/beamer/fa-dracula.*
+q
+cd w/devops/pipeline-as-code/pres/
+cls
+cd 01/
+cls
+q
+nvim .config/nvim/lua/plugin/null-ls/init.lua 
+xbps-query -Rs mediainfot
+xbps-query -Rs mediainfo
+sudo xbps-install mediainfo
+cd mus/
+cls
+ffmpeg -i t_voice5859302506709911017.ogg 
+ffmpeg -i t_voice5859302506709911017.ogg -hide_banner
+ffmpeg -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banner
+ffmpeg -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banner 2>/dev/null
+ffprobe -v quiet -print_format json -show_format -show_streams Ziba-Rahimi-Ghorur-320.mp3 
+ffprobe -v quiet -print_format text -show_format -show_streams Ziba-Rahimi-Ghorur-320.mp3 
+ffprobe -v quiet -print_format term -show_format -show_streams Ziba-Rahimi-Ghorur-320.mp3 
+ffprobe -v quiet -show_format -show_streams Ziba-Rahimi-Ghorur-320.mp3 
+ffprobe -v quiet -show_format -show_streams Ziba-Rahimi-Ghorur-320.mp3 -hide_banner
+ffprobe -v quiet -show_streams Ziba-Rahimi-Ghorur-320.mp3 -hide_banner
+ffprobe -v quiet Ziba-Rahimi-Ghorur-320.mp3 -hide_banner
+ffmpeg -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banne -v quiet
+ffmpeg -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banner -v quiet
+ffmpeg -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banner
+ffprobe -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banner
+ffprobe -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banner 
+ffprobe -v quiet -i Ziba-Rahimi-Ghorur-320.mp3 
+ffprobe -v quiet Ziba-Rahimi-Ghorur-320.mp3 -show_streams
+ffprobe -v quiet Ziba-Rahimi-Ghorur-320.mp3 -show_streams -of default=nw=1:nk=1
+ffprobe -v quiet Ziba-Rahimi-Ghorur-320.mp3 -show_streams -select_stream a -of default=nw=1:nk=1
+ffmpeg -i Ziba-Rahimi-Ghorur-320.mp3 -hide_banner
+for i in `ls *.mp3`; do clear; ffmpeg -i "${i}" -hide_banner; read tmp; unset tmp; done
+c
+lf
+q
+pulsemixer 
+lf mus/
+q
+nvim `which dmrecord.sh`
+q
+dmusb.sh 
+cd /run/media/hos/a9299301-5bd4-4d0a-b466-60737041ac9f/etc
+nvim fstab 
+ip -c a
+sudo xbps-install NetworkManager
+nmtui
+sudo ln -s /etc/sv/NetworkManager /var/service/
+ip -c a
+nmtui
+lsblk -f
+nvim /etc/fstab 
+lsblk -fs
+c; lsblk -f
+x
+sudo xbps-remove -R NetworkManager
+clear
+lf vid/
+q
+sudo unlink /var/service/NetworkManager 
+ip -c a

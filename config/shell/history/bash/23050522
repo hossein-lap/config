@@ -1,0 +1,22 @@
+ls
+lf
+man nano
+ls ~/.nano*
+nano ~/.nanorc 
+mkdir ~/.config/nano
+mv ~/.nanorc ~/.config/nano/nanorc
+nano ~/.config/nano/nanorc 
+nano /tmp/test.sh
+c
+sudo xbps-query -Rs test
+ls
+cd uni
+cls
+take software-engineer
+take articles
+cls
+nvim structured.md
+nvim allinone.md
+neofetch 
+cls
+q

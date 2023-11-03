@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "b2.v2parsin.site",
+        "name": "رایگان | VLESS | @V2parsin | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "13fc02a7-4c11-4483-c485-05ab4f2c1ae8",
+        "port": 17407,
+        "stream": {
+            "ed_len": 0,
+            "h_type": "http",
+            "host": "cloudflare.com",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        }
+    },
+    "gid": 3,
+    "id": 3745,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

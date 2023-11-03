@@ -1,0 +1,20 @@
+nvim `which dmnotes.sh`
+dmnotes.sh -wm
+neofetch 
+nvim `which dmnotes.sh`
+q
+nvim `which dmnotes.sh`
+q
+nvim `which dmexit.sh`
+x
+reboot
+loginctl reboot
+xbps-query -Rs rog-control
+uname -r
+xbps-query -Rs asus | fzf
+xbps-query -Rs tuf | fzf
+xbps-query -Rs rog | fzf
+xbps-query -Rs asusctl | fzf
+xbps-query -Rs asusctl
+xbps-query -Rs supergfx
+x

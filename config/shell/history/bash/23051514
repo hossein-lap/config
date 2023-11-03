@@ -1,0 +1,16 @@
+cd /data/w/c
+cls
+cd ../lua/
+cls
+take str2bin
+nvim strbin.lua
+nvim strbin.lua\
+nvim strbin.lua
+xbps-query -Rs emacs
+sudo xbps-install emacs-x11-28.2_2
+emacs
+nvim strbin.lua 
+vim strbin.lua 
+vim ~/.vim/vimrc 
+vim strbin.lua 
+nvim strbin.lua 

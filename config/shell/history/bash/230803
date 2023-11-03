@@ -1,0 +1,186 @@
+lf /run/media/hos/4DD6F99C3A308995/
+dmusb.sh 
+x
+nvim /etc/v2ray/config.json 
+sudo sv restart v2ray
+man loginctl
+q
+nvim `which dmexit.sh`
+dmexit.sh 
+make clean; make; sudo make install\
+make clean; make; sudo make install
+cd colors/
+ls
+cp default.h void.h
+make clean; make; sudo make install
+nvim dev/hossein-lap/workflow/suckless/dwm/colors/void.h 
+nvim /tmp/test.md 
+nvim ../defaults/main.sty 
+nvim ../defaults/dracula/dracula.yaml 
+nvim .config/nvim/lua/module/rce.lua 
+cd .config/pandoc/templates/
+nvim en.tex 
+nvim dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+nvim dev/hossein-lap/workflow/suckless/dmenu/config.def.h 
+nvim dev/hossein-lap/workflow/suckless/slock/config.def.h 
+cd .config/pandoc
+mkdir template
+mkdir templates
+rmdir template
+cd templates/
+wget https://raw.githubusercontent.com/hossein-lap/pandoc/main/data/templates/default.latex
+mv default.latex en.tex
+man pandoc
+nvim /tmp/test.md
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.md
+nvim
+nvim /tmp/test.md
+t
+cd q
+nvim .config/pandoc/defaults/beamer/en-manjaro.sty 
+q
+dmenupass 
+which `dmenupass `
+nvim `which `dmenupass ``
+nvim `which dmenupass`
+cal
+pwd
+q
+cd .config/pandoc/defaults/
+nvim groff/groff.yaml 
+q
+c
+neofe
+c
+neofetch 
+ز
+c
+unix
+c
+unix
+c
+unix
+pulsemixer 
+clear
+nvim ~/.config/dunst/dunstrc 
+lf
+xbps-reconfigure -f zathura
+sudo xbps-reconfigure -f zathura
+make clean; make; sudo make install
+nvim ~/.config/nvim/init.lua 
+nvim dev/hossein-lap/suckless/st/config.def.h 
+q
+nvim ~/dev/hossein-lap/suckless/st/colors/schemes.h 
+nvim dev/hossein-lap/suckless/st/colors/schemes.h 
+lf vid/
+q
+nvi /tmp/test.tex
+ex
+clear
+jdate +%A
+jdate +%a
+man jdate
+jdate +%G
+jdate +%u
+jdate +%U
+jdate +%G
+xbps-query -l | greo libreoffice
+xbps-query -l | grep libreoffice
+sudo xbps-remove -R libreoffice
+xbps-query -l | grep libreoffice | wc -l
+xbps-query -l | grep libreoffice | awk '{print $2}'
+sudo xbps-remove `xbps-query -l | grep libreoffice | awk '{print $2}'`
+sudo xbps-remove -R `xbps-query -l | grep libreoffice | awk '{print $2}'`
+sudo xbps-remove `xbps-query -l | grep libreoffice | awk '{print $2}'`
+cd .config/
+ls mimeapps.list 
+ls mimeapps.list  -l
+cls
+nvim pac-pres01.tex 
+cls
+nvim pac-01.tex 
+q
+nvim /tmp/test.tex
+cd figs/
+ls
+cp /home/hos/screen/shots/shot-230803_144544.png jenking-blue-ocean-visual.png
+r.sh nsxiv jenking-blue-ocean-visual.png 
+imtrim.sh jenking-blue-ocean-init.png 
+imshadow.sh jenking-blue-ocean-vis
+cp /home/hos/screen/shots/shot-230803_144719.png jenking-blue-ocean-init.png 
+r.sh nsxiv jenking-blue-ocean-init.png 
+c
+imtrim.sh jenking-blue-ocean-init.png 
+imshadow.sh jenking-blue-ocean-init.png 
+nvim
+vim
+nano
+xbps-query -Rs emacs
+sudo xbps-install mg
+sudo xbps-install zile
+sudo xbps-install mg
+mg
+ls
+mg
+cp /home/hos/screen/shots/shot-230803_145237.png jenking-menu.png
+imtrim.sh jenking-menu.png 
+imshadow.sh jenking-menu.png 
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+nvim ../../intro/pac-pres00.tex 
+pwd
+cp /home/hos/screen/shots/shot-230803_154930.png jenking-assign-label.png
+imshadow.sh jenking-assign-label.png 
+cd ..
+cls
+lf
+vidir 
+vidir ../intro/
+..
+pwd
+cls
+mv intro/ 00
+for i in `exa -D`; do printf 'all:\n\t xelatex %s\n\txelatex %s' $i $i ; done
+for i in `exa -D`; do printf 'all:\n\t xelatex %s\n\txelatex %s\n' $i $i ; done
+clear
+for i in `exa -D`; do printf 'all:\n\t xelatex %s\n\txelatex %s\n' $i $i ; done
+for i in `exa -D`; do printf 'all:\n\txelatex %s\n\txelatex %s\n' $i $i ; done
+for i in `exa -D`; do printf 'all:\n\txelatex %s\n\txelatex %s\n' ${i}.tex ${i}.tex ; done
+for i in `exa -D`; do printf 'all:\n\txelatex %s\n\txelatex %s\n' ${i}.tex ${i}.tex > ${i}/Makefile; done
+for i in `exa -D`; do printf 'all:\n\txelatex pac-%s\n\txelatex pac-%s\n' ${i}.tex ${i}.tex > ${i}/Makefile; done
+clear
+ls
+pwd
+cd 01/figs/
+cp /home/hos/screen/shots/shot-230803_160131.png jenking-pipline-script.png
+imtrim.sh jenking-pipline-script.png 
+imshadow.sh jenking-pipline-script.png 
+vidir 
+r.sh zathura ../../00/pac-00.pdf 
+..
+lf
+q
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+q
+cls
+nvim intro.txt
+..
+ls
+cd 01
+t
+q
+cd .config/pandoc/templates/
+cp en.tex per.tex
+nvim en.tex 
+cd ~/w/devops/pipeline-as-code/
+ls
+cd pres/intro/
+cls
+ls ../01/
+cp ../01/pac-pres01.tex .
+mv pac-pres01.tex pac-pres00.tex 
+nvim pac-pres00.tex 
+lf ~/doc/books/
+nvim ~/dev/hossein-lap/suckless/st/config.
+nvim ~/dev/hossein-lap/suckless/st/config.def.h 
+x

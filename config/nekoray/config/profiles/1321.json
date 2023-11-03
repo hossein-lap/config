@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "95.216.220.247",
+        "aid": 0,
+        "id": "da3fea14-32cd-4265-b4c0-641fc19d5b8b",
+        "name": "رایگان | VMESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
+        "port": 80,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "http",
+            "host": "moi.ir",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "path": "/"
+        }
+    },
+    "gid": 2,
+    "id": 1321,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

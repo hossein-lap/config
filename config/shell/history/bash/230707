@@ -1,0 +1,210 @@
+git remote -v
+nvim /tmp/test.md
+nvim ~/.config/pandoc/defaults/dracula/dracula.yaml 
+nvim /tmp/test.md
+q
+nvim .config/pandoc/defaults/dracula/dracula.yaml
+nvim .config/pandoc/highlight/hybrid-light.theme 
+nvim .config/pandoc/highlight/hybrid-dark.theme 
+nvim .config/pandoc/defaults/dracula/dracula.yaml
+q
+nvim /tmp/go.md
+q
+make clean; make; sudo make install
+neofetch 
+cd .config/pandoc/defaults/beamer/
+nvim -d en-manjaro.sty en-ubuntu.sty 
+cls
+nvim -d bak/en-ubuntu.sty en-ubuntu.sty 
+nvim bak/{en-ubuntu.sty,ubuntu.sty}
+nvim bak/{en-dracula.sty,dracula.sty}
+nvim {en-dracula.sty,dracula.sty}
+nvim {en-manjaro.sty,manjaro.sty}
+nvim -d manjaro.sty bak/ubuntu.sty 
+cls
+nvim -d en-{manjaro,ubuntu}.sty
+cp en-manjaro.sty en-ubuntu.sty 
+cp en-manjaro.sty en-dracula..sty 
+cp en-manjaro.sty en-dracula.sty 
+rm en-dracula..sty -f
+cls
+nvim ~/.config/pandoc/defaults/beamer/en-ubuntu.sty 
+cd ~/.config/pandoc/defaults/beamer/bak/
+vidir
+nvim en-ubuntu.sty 
+chmod +x Drum\ Pad\ Machine\ records/
+q
+cd .config/pandoc/defaults/beamer/
+for i in ubuntu dracula; do echo $i ;done
+for i in ubuntu dracula; do cp -v en-manjaro.sty en-${i}.sty ;done
+nvim en-manjaro.sty 
+for i in ubuntu dracula; do cp -v en-manjaro.sty en-${i}.sty ;done
+for i in ubuntu dracula; do cp -vf en-manjaro.sty en-${i}.sty ;done
+for i in ubuntu dracula; do cp -v -f en-manjaro.sty en-${i}.sty ;done
+for i in ubuntu dracula; do cp -v en-manjaro.sty en-${i}.sty ;done
+nvim en-ubuntu.sty 
+cls
+cd ~/w/devops/pipeline-as-code/pres/
+cls
+nvim 01/pac-pres01.md 
+q
+nvim ~/tmp/latex/beamer.tex
+nvim .config/pandoc/defaults/beamer/en-manjaro.yaml 
+q
+nvim ~/tmp/latex/beamer.tex 
+t
+q
+nsxiv -o ~/pic -r
+find ~/pic/ -name 'ubuntu*.jpg'
+nsxiv -o `find ~/pic/ -name 'ubuntu*.jpg'`
+nvim en-manjaro.sty 
+nvim -d en-manjaro.sty en-ubuntu.sty 
+nvim en-ubuntu.sty 
+nvim 0d en-{manjaro,ubuntu}.sty
+nvim -d en-{manjaro,ubuntu}.sty
+nvim en-ubuntu.sty 
+diff en-{manjaro,ubuntu}.sty
+diff en-{manjaro,ubuntu}.sty | less
+nvim -d en-{manjaro,ubuntu}.sty
+q
+nvim en-manjaro.sty 
+cls
+nvim en-ubuntu.sty 
+nvim bak/en-ubuntu.sty 
+nvim ~/.config/nvim/lua/module/main.lua 
+nvim bak/en-ubuntu.sty 
+nvim en-manjaro.sty 
+nvim -d en-manjaro.sty en-ubuntu.sty 
+gss .
+nvim en-manjaro.sty 
+nvim en-manjaro.yaml 
+nvim ../../highlight/hybrid-dark.theme 
+nvim en-manjaro.yaml 
+q
+cd .config/pandoc/defaults/beamer/
+cls
+t
+q
+btop
+loginctl -h
+loginctl poweroff
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+nvim ~/.config/pandoc/defaults/beamer/en-ubuntu.yaml 
+q
+nvim /tmp/test.md
+nvim ~/w/devops/pipeline-as-code/pres/01/pac-pres01.md 
+q
+lf pic/
+lf .config/pandoc/background/
+nvim .config/pandoc/defaults/beamer/en-ubuntu.sty 
+nvim /tmp/test.md 
+q
+x
+loginctl -i poweroff
+c
+c
+make clean
+..
+make clean; make
+neofetch 
+irssi
+..
+./st
+neofetch 
+irssi 
+irssi 
+c; neofetch 
+lf
+q
+q
+c
+c; neofetch 
+q
+vim
+vi
+vi /tmp/test.c
+vi ~/.config/vi/vimrc 
+vi /tmp/test.c
+vi ~/.config/vi/vimrc 
+vi /tmp/test.c
+q
+lf mus/
+q
+cd ..; make clean; make
+./st
+make clean; make; r.sh ./st
+make clean; make; sudo make install
+c
+cd ~/dev/hossein-lap/suckless/st/
+cls
+nvim colors/schemes.h 
+cd ~/w/devops/pipeline-as-code/pres/01/
+cls
+convert -quality 70 1e52bd5e606c30a599cf8c97a7768596.jpg pres-beachlike-bg.jpg 
+r.sh nsxiv pres-beachlike-bg.jpg 
+du -h pres-beachlike-bg.jpg 
+du -h 1e52bd5e606c30a599cf8c97a7768596.jpg pres-beachlike-bg.jpg 
+cp 1e52bd5e606c30a599cf8c97a7768596.jpg pres-beachlike-bg.jpg 
+convert -quality 50 1e52bd5e606c30a599cf8c97a7768596.jpg pres-beachlike-bg.jpg 
+du -h 1e52bd5e606c30a599cf8c97a7768596.jpg pres-beachlike-bg.jpg \
+q
+lf 
+lf
+nvim .config/pandoc/defaults/beamer/en-ubuntu.sty 
+q
+cd w/devops/pipeline-as-code/pres/01/
+cls
+nvim pac-pres01.md 
+q
+nvim ~/.config/pandoc/defaults/beamer/en-ubuntu.yaml 
+cd ~/w/latex/
+cls
+take bidi/rtl-doc
+take ../ltr-doc
+nvim ltr-doc.tex
+cd ../rtl-doc/
+cp ../ltr-doc/ltr-doc.tex rtl-doc.tex
+nvim rtl-doc.tex 
+..
+pwd
+q
+xbps-query -Rs anbox
+lsblk
+df -h /
+dmusb.sh 
+xbps-query -Rs ntfs
+sudo xbps-install ntfs-3g
+dmusb.sh 
+cd /run/media/hos/work/Archive/iso/
+ls 
+find $PWD -iname 'kali*.iso' 2>/dev/null
+du -h oldrelease/kali-linux-*
+cd dl/iso/
+nvim ln.dl 
+cd ~/vm/qemu/android/
+cls
+nvim install 
+grep _proxy ~/.config/shell/bashrc
+nvim install 
+nvim gui 
+du -h .
+..
+cls
+q
+vi .config/vi/vimrc 
+nvim .config/vi/vimrc 
+nvim ~/.config/nvim/lua/module/keybind.lua 
+cd ~/.config/nvim/lua/module
+grep -- C-l *
+grep -- nosear *
+grep nosear *
+grep sear *
+lf ~/.config/pandoc/background/
+lf ~/w/latex/
+pwd
+cd ../../../pandoc/defaults/dracula/
+cls
+nvim {../../filters/test-indent.lua,dracula.yaml}
+nvim /tmp/test.md
+btop
+x

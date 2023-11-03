@@ -1,0 +1,32 @@
+sudo xbps-remove -R lxterminal
+sudo xbps-install -S xfce4-terminal
+q
+cd /tmp/test
+gss .
+git init --bare
+cls
+echo git worktree add master
+git branch
+git branchs
+nvim ~/.config/git/config
+nvim .
+git worktree add master
+cls
+clear
+rm -rf *
+cls
+ls -a
+c
+gln --base https://github.com/hossein-lap/hossein-lap
+gln --bare https://github.com/hossein-lap/hossein-lap
+cls
+mv hossein-lap.git/ hossein-lap.
+mv hossein-lap. hossein-lap
+cd hossein-lap/
+cls
+nvim .
+git worktree add master
+git branch 
+git worktree add main
+nvim main/README.md 
+q

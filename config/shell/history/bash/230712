@@ -1,0 +1,25 @@
+q
+make clean; make; sudo make install
+x
+proxychains4 -q nvim
+sudo xbps-install nodejs
+proxychains4 -q nvim
+xbps-query -l | wc -l
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+..
+nvim dmenu/config.def.h 
+loginctl reboot
+cd dev/hossein-lap/workflow/suckless/dwm/
+cls
+nvim colors/void.h 
+nsxiv dwm
+nsxiv dwm.
+nsxiv .
+cd ~/dev/
+take resume
+cls
+nvim Makefile
+t
+q
+x

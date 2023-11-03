@@ -1,0 +1,24 @@
+lowriter 07.docx 
+nvim Makefile
+q
+lf sahar/
+q
+for i in `find $PWD -name Makefile`; do echo $i ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do echo $i ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do { cat $i; echo 'pandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx -V dir:rtl ${j}.tex -o ${j}.pdf'; } ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do { cat $i; printf '\tpandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx -V dir:rtl ${j}.tex -o ${j}.pdf\n'; } ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do { cat $i; printf "\tpandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx -V dir:rtl ${j}.tex -o ${j}.pdf\n"; } ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do j=$(echo $i | awk -F '/' 'print $5;); { cat $i; printf "\tpandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx -V dir:rtl ${j}.tex -o ${j}.pdf\n"; } ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do j=$(echo $i | awk -F '/' '{print $5;}'); { cat $i; printf "\tpandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx -V dir:rtl ${j}.tex -o ${j}.pdf\n"; } ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do j=$(echo $i | awk -F '/' '{print $7;}'); { cat $i; printf "\tpandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx -V dir:rtl ${j}.tex -o ${j}.pdf\n"; } ; done
+for i in `find $PWD -name Makefile | grep '0[1-8]' | grep -v '\<old\>'`; do j=$(echo $i | awk -F '/' '{print $7;}'); { cat $i; printf "\tpandoc --reference-doc ~/.config/pandoc/defaults/docx/art.docx -V dir:rtl ${j}.tex -o ${j}.pdf\n"; } > $i ; done
+nvim t.sh
+lf
+q
+lf uni/
+q
+man pandoc
+nvim /tmp/test.md
+nvim ~/.config/pandoc/defaults/fa/fa.yaml 
+lowriter ~/.config/pandoc/defaults/docx/art.docx 
+q

@@ -1,0 +1,136 @@
+..
+cls
+..
+cls
+mkdir src vid
+lf
+lazygit 
+du -h .
+cls
+..
+cls
+mv voting-pp/ voting-app/
+cd vid/
+cls
+cd ../voting-app/
+cls
+take kube/ingress
+nvim ing.yaml
+lazygit 
+..
+gss .
+du -h .
+..
+cls
+tar --gzip -cvf voting-app.tar.gz
+tar --gzip -cvf voting-app.tar.gz voting-app/
+cls
+nvim ~/.config/nvim/lua/module/sudo.lua 
+q
+k9s
+cd kube/
+cls
+mv redis/ cache-redis
+nvim cache-redis/
+cls
+rm -rf cache-redis/
+cp -r database/ cache-redis
+cd cache-redis/
+nvim *.yaml
+..
+pwd
+..
+cls
+cd src/
+cls
+s
+cls
+nvim /tmp/test.ts 
+q
+cd worker/
+docker build -t worker:v0.1.0
+docker build -t worker:v0.1.0 .
+cls
+docker build -t worker:v0.1.0 .
+proxychains4 -q docker build -t worker:v0.1.0 .
+cls
+nvim Dockerfile 
+xbps-query -Rs docker
+sudo xbps-install docker-buildx docker-machine
+docker build -t worker:v0.1.0 .
+proxychains4 -q docker build -t worker:v0.1.0 .
+..
+cls
+s
+cls
+..
+cls
+tree -L 2
+cd voting-app/
+cls
+ffmpeg -i webcams.webm -vn -acodec copy the-audio.aac
+ffmpeg -i webcams.webm -vn -acodec copy the-audio
+mpv webcams.webm 
+ffmpeg -i webcams.webm -vn the-audio.glac
+ffmpeg -i webcams.webm -vn the-audio.flac
+mpv the-audio.
+mpv the-audio.flac 
+cls
+rm the-audio.aac 
+ffmpeg -i webcams.webm -vn -acodec copy the-audio.flac -y
+ffmpeg -i webcams.webm -vn -acodec copy the-audio.flac
+cls
+ffmpeg -i webcams.webm -vn the-audio.flac
+ffmpeg -i deskshare.webm -i the-audio.flac output.mkv
+mpv output.mkv 
+q
+echo SUDO_ASKPASS=
+which pinentry-dmenu 
+pinentry-dmenu 
+echo SUDO_ASKPASS="$(which SUDO_ASKPASS)"
+echo SUDO_ASKPASS="$(which pinentry-dmenu)"
+SUDO_ASKPASS="$(which pinentry-dmenu)"
+sudo xbps-query -Rs ls
+export SUDO_ASKPASS="$(which pinentry-dmenu)"
+sudo xbps-query -Rs ls
+nvim /tmp/test.t
+nvim /tmp/test.ts
+cd /tmp
+ls -l test*
+nvim /tmp/test.ts
+xbps-query -Rs ssh-askpass
+sudo xbps-install lxqt-openssh-askpass
+lxqt-openssh-askpass
+export SUDO_ASKPASS="$(which lxqt-openssh-askpass)"
+s
+nvim test.ts
+cls
+nvim test.ts
+nvim ~/.config/nvim/lua/sudo.lua
+nvim ~/.config/nvim/init.lua 
+lf ~/.config/nvim/lua/
+nvim test.ts
+cls test.ts 
+nvim test.ts
+xbps-query -Rs askpass
+sudo xbps-remove lxqt-openssh-askpass
+sudo xbps-install gnome-ssh-askpass
+export SUDO_ASKPASS="$(which gnome-ssh-askpass)"
+gnome-ssh-askpass 
+dmenu -p password -P 
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/
+cls
+ls patches/
+cd patches/
+rawfetch.sh https://tools.suckless.org/dmenu/patches/password/dmenu-password-5.0.diff
+gss .
+..
+gss
+c
+patch -p1 < patches/dmenu-password-5.0.diff 
+nvim *.rej
+make clean; make; sudo make install
+dmenu -p password -P 
+dmenu -p password -P < /dev/null
+ls -l | dmenu -l 20 -p password -P 
+t

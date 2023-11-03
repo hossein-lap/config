@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "forward2.maryam1500.top",
+        "name": "رایگان | REALITY | @iP_CF | RU🇷🇺 | 0️⃣1️⃣",
+        "pass": "d22d221a-a8c4-4f1b-b248-6ac1f0b55d69",
+        "port": 2087,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8",
+            "sec": "tls",
+            "sid": "fc805835",
+            "sni": "www.speedtest.net",
+            "utls": "firefox"
+        }
+    },
+    "gid": 1,
+    "id": 7059,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

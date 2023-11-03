@@ -1,0 +1,54 @@
+git add .
+git commit -m 'ALL DONE but the 08 (7 segment)'
+cls
+du -h .
+cl
+cls
+..
+cls
+tar --gzip -cvf micro-lap.tar.gz reports/
+cls
+tar --xz -cvf micro-lap.tar.xz reports/
+tar --zstd -cvf micro-lap.tar.zstd reports/
+tar --lzip -cvf micro-lap.tar.lz reports/
+cls
+rm micro-lap.tar.{l,x}z
+cls
+rm micro-lap.tar.zstd 
+cls
+mv reports/ micro-lap-reports
+rm micro-lap.tar.gz 
+tar --gzip -cvf micro-lap-reports.tar.gz micro-lap-reports
+cls
+lf 
+xbps-query -Rs clock
+sudo xbps-install tty-clock
+xbps-query -Rs binary
+q
+make
+r.sh zathura 01.pdf 
+cls
+..
+cls
+ls 02
+for i in {1..7}; do cd 0${i}; rm -v 0${i}.{log,tex,out,aux} *.{log,tex}; cd ..; done
+for i in {2..7}; do cd 0${i}; rm -fv 0${i}.{log,tex,out,aux} *.{log,tex}; cd ..; done
+cls
+nvim t.sh 
+sh t.sh 
+git restore --source=HEAD 0*/0*.tex
+sh t.sh 
+cls
+gss .
+nvim t.sh 
+for i in {1..7}; git restore --source=HEAD 0${i}/0${i}.tex; done
+for i in {1..7}; do git restore --source=HEAD 0${i}/0${i}.tex; done
+nvim t.sh 
+rm 0{1..7}/d.md
+rm -f 0{1..7}/d.md
+make
+cls
+nvim Makefile 
+cls
+lf
+q

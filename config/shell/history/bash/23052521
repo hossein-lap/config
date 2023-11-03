@@ -1,0 +1,3 @@
+cd games/cc_generals/11/drive_c/Program\ Files/EA\ Games/Command\ \&\ Conquer\ Generals\ Zero\ Hour/
+wine generals.exe 
+wine64 generals.exe 

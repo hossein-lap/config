@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "jdjjxkckxkxjkxkxn.ddns.net",
+        "name": "رایگان | REALITY | @iP_CF | SE🇸🇪 | 0️⃣1️⃣",
+        "pass": "e1ef6a36-d498-42bb-b098-9433821aae09",
+        "port": 50073,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF,Telegram:@IP_CF",
+            "pbk": "C8j8vBKTniFqk4lwR7JliDVve_MNpubbkwmySVOH50g",
+            "sec": "tls",
+            "sid": "891d345f",
+            "sni": "www.iranserver.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3638,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.31.16.61",
+        "name": "رایگان | VLESS | @v2ray_vpn_ir | RELAY🚩 | 0️⃣2️⃣",
+        "pass": "8d7405ca-200e-4d0b-8d87-5a30011376bb",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@P_tech2024",
+            "sec": "tls",
+            "sni": "free.forcedparadise.store",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 6959,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

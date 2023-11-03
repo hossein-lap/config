@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "217.69.4.39",
+        "name": "رایگان | REALITY | @ARv2ray | FR🇫🇷 | 0️⃣3️⃣",
+        "pass": "telegram-id-ArV2ray",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+            "pbk": "CLGCdGCLdxf20UGX4SfkM0BKlh8QJrPn0ABPMa6I2Qo",
+            "sec": "tls",
+            "sid": "2a8b5341",
+            "sni": "ftp.debian.org",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3596,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

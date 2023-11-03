@@ -1,0 +1,23 @@
+dmusb.sh 
+c
+cd dl/telegram-dl/
+cls
+take net
+cp ../startbootstrap-creative-gh-pages.zip .
+unzip startbootstrap-creative-gh-pages.zip 
+cls
+du -h startbootstrap-creative-gh-pages
+cd startbootstrap-creative-gh-pages/
+cls
+xbps-query -Rs audcity
+xbps-query -Rs audci
+xbps-query -Rs audc
+xbps-query -Rs aud
+xbps-query -Rs audio
+xbps-query -Rs audio xbps-query -Rs audio | less -SR
+xbps-query -Rs audio | less -SR
+sudo xbps-install audacity-2.4.1_2
+cls
+lsvlk
+lsblk
+udisksctl unmount -b /dev/sda1

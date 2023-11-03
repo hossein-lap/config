@@ -1,0 +1,43 @@
+xbps-query -Rs bash-com
+xbps-query -Rs kuberctl
+xbps-query -Rs kuber
+find / -iname 'completion.*' 2>/dev/null
+find / -iname 'completion.*' 2>/dev/null | grep kube
+lf screen/shots/
+cls
+c
+xbps-query -Rs tcsh\
+sudo xbps-install -Sy tcsh
+tcsh
+clear
+nvim ~/.config/shell/bashrc
+s
+vim /etc/bash/bashrc
+find / -iname '*tcsh*' 2>/dev/null
+nvim /data/dev/oldev/hossein-lap/dotfiles/dotfiles/.tcshrc
+cls
+cp /data/dev/oldev/hossein-lap/dotfiles/dotfiles/.tcshrc .
+tcsh
+nvim .tcshrc 
+tcsh
+nvim .tcshrc 
+tcsh
+nvim .tcshrc 
+tcsh
+clear; ls
+nvim .tcshrc 
+tcsh
+cd .config/shell/
+cls
+nvim tcshrc 
+tcsh
+dmusb.sh 
+cd /run/media/hos/arch/home/
+cls
+cd deb/
+cls
+cls -a
+so .bashrc 
+. .bashrc 
+nvim .bashrc 
+clear

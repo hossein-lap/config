@@ -1,0 +1,4 @@
+lsblk
+c; lsblk
+lf /run/media/hos/pers/
+q

@@ -1,0 +1,399 @@
+cls
+clear; ls
+scp *.mp4 ali@192.168.1.236/home/ali/Downloads/
+scp *.mp4 ali@192.168.1.236:/home/ali/Downloads/
+nvim /tmp/test.lua
+q
+cd /tmp/test.md
+nvim /tmp/test.md
+screenkey --help
+clear;
+screenkey --help | less
+clear
+nvim /tmp/test.md
+q
+nvim ../st/colors/voi
+nvim ../dwm/colors/void.h 
+مب
+lf
+q
+q
+cls
+lf
+ranger
+ls .config/ranger/scope.sh 
+ls .config/ranger/scope.sh  -l
+ls .config/ranger/scope.sh 
+chmod +x ls .config/ranger/scope.sh 
+chmod +x `ls .config/ranger/scope.sh `
+ranger
+q
+make clean; make
+make
+ranger
+ranger screen
+neofetch 
+lf
+q
+neofetch 
+q
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/tabbed/b
+cd /data/dev/hossein-lap/workflow/suckless/tabbed/
+cls
+nvim colors/default.h 
+nvim config.def.h d
+nvim config.def.h
+cls
+pwd
+lf
+patch -p1 < patch/tabbed-autohide-20201222-dabf6a2.diff 
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/tabbed/
+nvim colors/void.h 
+make clean; make; sudo make install
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/colors/void.h 
+lf screen/shots/
+xbps-query -Rs lf
+xbps-query -Rs lf-
+clear; xbps-query -Rs lf- | less -SR
+clear; xbps-query -Rs w3m | less -SR
+w3m-img
+w3m --help
+w3m --help | less
+w3m --help 2>&1 | less
+cd .config/
+gln https://github.com/thimc/lfimg
+mv lf lf.old
+mv lfimg/ lf
+lf
+cd lf
+cls
+lf
+..
+mv lf lfimg
+mv lf.old lf
+nvim lf/lfrc 
+./lfimg/lfrun 
+./lfrun 
+lf
+q
+cls
+c
+lf
+q
+lf ~/pic/
+q
+lf
+q
+lf ~/pic/
+lf
+q
+lf 
+q
+cls
+lf pic/
+cd .config/lfimg/
+st
+tt
+cls
+nvim lfrun 
+nvim cleaner preview 
+lf
+mdcat
+glow
+nvim preview 
+./lfrun 
+tt
+which tt
+nvim `which tt`
+tabbed -c "st -e htop" -w
+c
+tabbed -c "st" -w
+cls
+lf
+proxychains4 -q weechat
+proxychains4 -q hexchat
+cd /data/dev/hossein-lap/suckless/tabbed/
+cls
+lf
+st -embed
+man st
+c
+nvim ~/.config/lf/lfrc
+q
+xbps-query -Rs lua
+clear
+nvim ~/tmp/color.lua
+cls
+cd /data/deb/tmp/
+cd /data/deb/templates/
+cls
+cd -
+cls
+s
+cd tabbed
+gls
+nvim tabbed.c
+git restore --source=HEAD .
+gls
+pwd
+nvim ~/.config/ranger/rc.conf 
+nvim ~/.config/lf/draw_img.sh 
+nvim ~/.config/lf/lfrc 
+lf
+nvim ~/.config/lf/lfrc 
+lf
+q
+pulsemixer 
+lf mus/
+pulsm
+pulsemixer 
+nvim .config/dunst/dunstrc 
+btop
+cd /data/deb/games/command-conquer-generals/
+cls
+cd drive_c/Program\ Files/EA\ Games/
+cls
+lf
+wine ESWC\ Cstrike.exe 
+winecfg 
+wine ESWC\ Cstrike.exe 
+cls
+winemaker --help
+wine generals.exe 
+winecfg
+cls
+lf
+nvim draw.lua 
+dash
+newsboat 
+vim ~/.vim/init.vim 
+q
+draw.
+chmod +x draw.lua 
+draw.
+nvim draw.lua 
+./draw.lua 
+c
+./draw.lua 
+c; ./draw.lua 
+cls
+./pc.lua 
+nvim pc.lua 
+./pc.lua 
+neofetch | head
+c
+~=
+~.
+cls
+=~
+cls
+nvim
+cls
+./draw.lua 
+loimpress --help
+loimpress --help | grep pdf
+cls
+./draw.lua 
+c; ./draw.lua 
+c
+c; ./draw.lua 
+./draw.lua 
+c
+./draw.lua 
+ش
+a
+c
+./draw.lua 
+c
+./draw.lua 
+lf ~/screen/shots/
+neofetch 
+sudo xbps-install `xbps-query -Rs lua | grep chroma | fzf -m --reverse | awk '{print $2;}'`
+زمس
+cls
+nvim draw.lua 
+sudo xbps-install `xbps-query -Rs lua | fzf -m --reverse | awk '{print $2;}'`
+lite-xl 
+sudo xbps-install `xbps-query -Rs lua | fzf -m --reverse | awk '{print $2;}'`
+sudo xbps-install `xbps-query -Rs lua | grep -v 32bit | fzf -m --reverse | awk '{print $2;}'`
+sudo xbps-install `xbps-query -Rs lua | grep -v 32bit | grep -v '[*]' | fzf -m --reverse | awk '{print $2;}'`
+sudo xbps-install `xbps-query -Rs lua | grep -v 32bit | grep -v '[*]' | cat -n | fzf -m --reverse | awk '{print $3;}'`
+cls
+sudo xbps-install `xbps-query -Rs lua | grep -v 32bit | grep -v '[*]' | cat -n | fzf -m --reverse | awk '{print $3;}'`
+sudo xbps-install `xbps-query -Rs lua | grep -v 32bit | grep -v '[*]' | cat -n | dmenu -l 18 -p xbps | awk '{print $3;}'`
+sudo xbps-install `xbps-query -Rs lua | grep -v 32bit | grep -v '[*]' | dmenu -l 18 -p xbps | awk '{print $2;}'`
+cls
+q
+make clean; make; sudo make install
+winecfg 
+cd games/cc_generals/11/drive_c/Program\ Files/EA\ Games/
+cls
+cd /data/deb/games/command-conquer-generals/d
+cd /data/deb/games/command-conquer-generals/drive_c/Program\ Files/EA\ Games/Command\ \&\ Conquer\ Generals\ Zero\ Hour/
+cls
+wine generals.exe 
+c
+prime-run wine generals.exe 
+xbps-query -Rs winehq
+xbps-query -Rs wine
+sudo xbps-install winetricks
+winetricks 
+clear
+xbps-query -l | grep wine
+xbps-query -l | grep -i wine
+sudo xbps-remove -Rs `xbps-query -l | grep -i wine | awk '{print $2;}' | fzf --reverse -m`
+sudo xbps-remove -R `xbps-query -l | grep -i wine | awk '{print $2;}' | fzf --reverse -m`
+sudo xbps-remove `xbps-query -l | grep -i wine | awk '{print $2;}' | fzf --reverse -m`
+wine
+xbps-query -Rs wine
+xbps-query -Rs proton
+xbps-query -Rs steam
+xbps-query -Rs lutris
+sudo xbps-remove lutris
+sudo xbps-remove -R lutris
+sudo xbps-remove lutris
+cd ~/dl/
+mkdir ~/games/wine
+cd ~/games/wine/
+cls
+mv ~/dl/wine-8.0.1.tar.xz ,
+mv , wine-8.0.1.tar.xz
+cls
+tar tf wine-8.0.1.tar.xz 
+tar xvf wine-8.0.1.tar.xz 
+cd wine-8.0.1/
+cls
+./configure 
+sudo xbps-install `xbps-query -Rs | grep -i 32bit | fzf -m --reverse`
+sudo xbps-install `xbps-query -Rs gcc | grep -i 32bit | fzf -m --reverse`
+sudo xbps-install `xbps-query -Rs gcc | grep -i 32bit | fzf -m --reverse | awk '{print $2}'`
+./configure 
+xbps-query -l | fzf -m --reverse 
+xbps-query -l | fzf -m --reverse | awk '{print $2;}'
+sudo xbps-install `xbps-query -Rs lib | grep -i 32bit | fzf -m --reverse | awk '{print $2}'`
+sudo xbps-install `xbps-query -Rs lib | grep -i 32bit | grep -i dev | fzf -m --reverse | awk '{print $2}'`
+xbps-query -Rs playonlinux
+sudo xbps-install playonlinux
+playonlinux 
+clear
+sudo xbps-install `xbps-query -Rs wine | fzf -m --reverse | awk '{print $2;}'`
+sudo xbps-install `xbps-query -Rs wine | awk '{print $2;}'`
+proxychains4 -q sudo xbps-install `xbps-query -Rs wine | awk '{print $2;}'`
+sudo xbps-install `xbps-query -Rs wine | awk '{print $2;}'`
+sudo xbps-install -y `xbps-query -Rs wine | awk '{print $2;}'`
+proxychains4 -q sudo xbps-install -y `xbps-query -Rs wine | awk '{print $2;}'`
+proxychains4 -q sudo xbps-install -y `sudo xbps-install -S; xbps-query -Rs wine | awk '{print $2;}'`
+sudo xbps-install -Sy
+proxychains4 -q sudo xbps-install -y `xbps-query -Rs wine | awk '{print $2;}'`
+find / -iname 'wineasio.dll' 2>/dev/null
+regsvr32 wineasio.dll
+regsvr32 /usr/lib32/wine/i386-windows/wineasio.dll
+winecfg 
+playonlinux 
+cd /data/tmp/lua/
+cls
+nvim tmp.lua 
+cls
+lf
+cd /data/dev/hossein-lap/suckless/st
+nvim config.def.h 
+cls
+winecfg 
+fc-list | grep -i tahoma
+cd /data/deb/games/
+cls
+lf
+cls
+cp TAHOMA* ~/.local/share/fonts/
+cp Tahoma\ Regular\ font.ttf ~/.local/share/fonts/
+cd /data/dev/hossein-lap/scripts/
+cls
+pwd
+nvim pkg.sh
+chmod +x pkg.sh 
+xbps-query -Rs test
+xbps-query -Rs test | dmenu -p xbps -l 25
+sudo xbps-install smenu
+ls | smenu
+xbps-query -Rs test | smenu
+xbps-query -Rs test | fzf
+c
+clear
+tmp=$(xbps-query -Rs test | dmenu -p xbps -l 25)
+echo $tmp
+tmp=$(xbps-query -Rs test | dmenu -p xbps -l 25 | awk '{print $2;}')
+echo $tmp
+xbps-install $tmp
+sudo xbps-install $tmp
+clear
+unset tmp
+sudo xbps-install $tmp
+clear
+nvim pkg.sh 
+ls | dmenu -l 30
+xbps-query -Rs test | dmenu -l 30
+clear
+nvim pkg.sh 
+cls
+ls d
+ls dunstify/
+nvim dunstify/*
+colortest
+colortest-slim 
+datestartup.sh 
+nvim-qt 
+xbps-query -Rs neovide
+fc-list Vazir
+fc-list Vazir\ Code
+nvim pkg.sh 
+cls
+pkg-config
+./pkg.sh 
+nvim pkg.sh 
+./pkg.sh 
+nvim pkg.sh 
+./pkg.sh 
+cls
+./pkg.sh  -s tmp
+./pkg.sh  search tmp
+sudo xbps-install -Sy
+sudo xbps-install -Syu
+cd
+cd /data/deb/games/wine-games/games/cs/
+cls
+cd cs-1.6-eswc/
+cls
+wine ESWC\ Cstrike.exe 
+c
+clear
+prime-run wine ESWC\ Cstrike.exe 
+c
+prime-run wine ESWC\ Cstrike.exe 
+c
+pwd
+..
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/
+nvim colors/void.h 
+cls
+caffeine kill
+sudo xbps-install `xbps-query -Rs caffeine | fzf -m | awk '{print $2;}'`
+caffeine 
+caffeine kill
+c
+man caffeine
+lf mus/dd/
+q
+sudo xbps-install -Syu
+doas xbps-install -Syu
+sudo xbps-install -Syu
+t
+caffeine --help
+caffeine start
+caffeine kill
+caffeine start
+caffeine -a
+caffeine start
+x

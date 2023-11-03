@@ -1,0 +1,37 @@
+# universal keybindings
+
+alt + shift + Return
+	tabbed -ck -r 2 st -w ''
+
+alt + shift + k
+	dmenu-kill
+
+alt + shift + d
+	dmenu-usb
+
+alt + shift + e
+	emacsclient -nc -a 'emacs' #  --init-dir ~/.config/evil
+
+alt + shift + w
+	firefox # chromium # google-chrome-stable
+
+alt + shift + l
+	slock
+
+alt + shift + f
+	st -t lf lf # tabbed -ck -r 2 st -w '' -t lf lf
+
+alt + shift + m
+	dmenu-play
+
+alt + q
+	dmenu-exit -wm dwm
+
+alt + shift + n
+	dmenu-notes
+
+alt + r
+	dmenu-srun
+
+alt + shift + s
+	dmenu-shot

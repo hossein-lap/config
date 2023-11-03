@@ -1,0 +1,21 @@
+cls
+nvim 05/05.tex 
+nvim 06/06.tex 
+nvim 06/desc.md 
+gss .
+cls
+cp -r 08 07
+cd 07
+cls
+lf
+..
+gss .
+git add .
+git commit -m 'finished: untill 7'
+gls
+gll
+lf
+cd /data/uni/micro-lap/reports/
+cls
+t
+x

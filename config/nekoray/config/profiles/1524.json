@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "91.107.155.100",
+        "aid": 0,
+        "id": "3d1fab6e-3bd6-472b-8d9c-9934c04eaf40",
+        "name": "رایگان | VMESS | @v2ray_outlineir | BY🇧🇾 | 0️⃣3️⃣",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "http",
+            "host": "internet.life.com.by",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "path": "/"
+        }
+    },
+    "gid": 2,
+    "id": 1524,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

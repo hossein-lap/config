@@ -1,0 +1,11 @@
+cls
+lf
+cls
+nvim ln.dl
+nvim dl.sh 
+q
+vim /etc/proxychains.conf 
+nvim .xprofile 
+btop
+q
+x

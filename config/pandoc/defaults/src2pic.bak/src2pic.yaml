@@ -1,0 +1,15 @@
+metadata:
+  keywords:
+    - 'Dracula theme'
+
+pdf-engine: xelatex
+highlight-style: /home/hos/.config/pandoc/highlight/dracula.theme
+
+variables:
+  geometry:  margin=1in
+  fontsize:  12pt
+  header-includes:
+    - \usepackage{/home/hos/.config/pandoc/defaults/src2pic/main}
+    - \usepackage{/home/hos/.config/pandoc/defaults/src2pic/theme}
+filters:
+    - /home/hos/.config/pandoc/defaults/src2pic/codeblock.lua

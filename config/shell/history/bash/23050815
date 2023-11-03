@@ -1,0 +1,33 @@
+xbps-query -Rs dvtm
+xbps-query -Rs zellij
+sudo xbps-install -S dvtm abduco zellij
+abduco 
+echo $TERM
+nvim .config/shell/bashrc
+s
+dvtm
+man dvtm
+q
+man dvtm
+sudo makewhatis /usr/share/man
+clear
+nvim /tmp/test.c
+c
+nvim /tmp/test.c
+c
+cls
+c
+TERM=xterm-256color
+nvim /tmp/test.c
+c
+d
+dvtm
+echo $TERM
+dvtm
+man dvtm
+dvtm
+s
+dvtm
+nvim .config/shell/bashrc
+s
+dvtm

@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "1174-join-v2raytz.sinotz.tk",
+        "name": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "fdaf19d5-91e5-45f8-8813-a97b48ba7734",
+        "port": 27873,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": ",Telegram:@NUFiLTER,Telegram:@NUFiLTER,Telegram:@NUFiLTER,Telegram:@NUFiLTER,Telegram:@NUFiLTER,Telegram:@NUFiLTER,Telegram:@NUFiLTER,Telegram:@NUFiLTER,Telegram:@NUFiLTER",
+            "pbk": "zS-JpcKnVayAMhVQypxJ-VpjaGLpzaUIqp7aSqrgbCo",
+            "sec": "tls",
+            "sid": "94e4f4a1",
+            "sni": "cdn.discordapp.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3699,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": 963
+}

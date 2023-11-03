@@ -1,0 +1,24 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "bia-to-channel.vmessorg.fun",
+        "name": "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "b6b94c64-680a-4724-fbb5-2372ca82a180",
+        "port": 80,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/"
+        }
+    },
+    "gid": 1,
+    "id": 7095,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

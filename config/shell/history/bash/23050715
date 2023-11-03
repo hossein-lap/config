@@ -1,0 +1,22 @@
+make clean; make; sudo make install
+sent example 
+sent < (How my file)
+sent <(How my file)
+sent <(echo How my file)
+sent <(echo How my file navigation life started)
+make clean; make; sudo make install
+sent <(echo How my file navigation life started)
+sudo xbps-remove helix
+ls .config/helix/
+sudo xbps-remove emacs
+xbps-query -l | grep emacs
+sudo xbps-remove emacs-common emacs-gtk3
+du /boot/efi
+du -h /boot/efi
+clear
+du -h /boot/efi -d 0
+du /boot/efi -d 0
+clear
+du /boot/efi -d 0
+echo '286 * 1000' | bc
+du -h /boot/efi -d 0

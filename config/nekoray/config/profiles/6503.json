@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "141.101.113.89",
+        "name": "رایگان | VLESS | @v2rayng_config_amin | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "f23f2f26-99e5-44bb-bb5b-19de97c1d6d4",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "host": "free.sw.moh539.link",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048",
+            "sec": "tls",
+            "sni": "free.sw.moh539.link",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 6503,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,3 @@
+convert cancers-11-01673-g001-550.jpg cancers-11-01673-g001-550.png
+rm *.jpg
+cls

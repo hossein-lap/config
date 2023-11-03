@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.16.60.79",
+        "name": "رایگان | VLESS | @shopingv2ray | US🇺🇸 | 0️⃣1️⃣",
+        "pass": "636b1684-b26c-4a9c-bc6e-8e1197a36d74",
+        "port": 2052,
+        "stream": {
+            "ed_len": 0,
+            "host": "workerr.hashdiler.workers.dev",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048"
+        }
+    },
+    "gid": 3,
+    "id": 3564,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

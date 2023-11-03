@@ -1,0 +1,187 @@
+ip -a
+ip a
+dmusb.sh 
+udisksctl mount -b /dev/sda
+q
+nvim dev/hossein-lap/workflow/suckless/st/colors/solarized-dark.h 
+lf
+dmusb.sh 
+lslbk
+lsblk
+udisksctl unmount -b /dev/sda
+q
+dmusb.sh 
+lf /run/media/hos/WD/
+dmusb.sh 
+udisksctl mount -b /dev/sda
+ls de
+ls desktop/
+rsync --progress desktop/naato-s01-e1*.mp4 /run/media/hos/1EF1-5D05/
+udisksctl unmount -b /dev/sda
+udisksctl power-off  -b /dev/sda
+cd dev/resume/en/sv
+cd dev/resume/en/cv
+cls
+zathura cv-en.pdf 
+...
+zathura */*.pdf
+find $PWD -name '*.pdf' 2>/dev/null
+for i in `find $PWD -name '*.pdf' 2>/dev/null`; do zathura "${i}"; done
+grep dracula */*.lua
+grep dracula */*/*.lua
+grep dracula */*/*.lua | less -SR
+grep 'dracula =' */*/*.lua | less -SR
+grep 'dracula =' */*/*.lua
+nvim en/resume/gen.lua
+q
+nvim ~/dev/hossein-lap/workflow/suckless/st/colors/solarized-*.h
+ls ~/usb/
+q
+x
+iwctl station list
+c
+iwctl station list
+iwctl station wlp43s0 connect hosteam01
+iwctl station wlp45s0 connect hosteam01
+ping 1.1.1.
+ping 1.1.1.1
+reboot
+ip a
+make
+ی
+cls
+..
+cls
+..
+cls
+nsxiv untitled.jpg*
+cp untitled.jpg.bak untitled.jpg
+imshadow.sh untitled.jpg
+cls
+convert untitled.jpg untitled.png
+cls
+rm untitled.jpg* -v
+make
+nvim ~/dev/hossein-lap/workflow/suckless/st/colors/solarized-dark.h 
+nvim ~/dev/hossein-lap/workflow/suckless/st/colors/solarized-light.h 
+nvim ~/.config/zathura/theme/solariezd-dark 
+...
+pwd
+cls
+cp -r ~/dl/telegram-dl/IMG_20220508_010002_575.jpg .
+convert IMG_20220508_010002_575.jpg me.png
+:w
+cls
+q
+...
+cls
+convert untitled.jpg temp.png
+cp temp.png circled.png
+r.sh nsxiv circled.png 
+convert temp.png -alpha on \( +clone -threshold -1 -negate -fill white -draw "circle 539,539 539,0" \) -compose copy_opacity -composite circled.png 
+nvim crop-circle.sh
+mv crop-circle.sh image-edit.sh
+nvim image-edit.sh 
+cls
+nvim gen.lua
+..
+nvim {en,fa}/{cv,resume}/gen.lua
+nvim gen.lua
+cd en/resume/
+make
+convert ../../untitled.png ../../untitled.pdf
+zathura ../../untitled.pdf 
+nsxiv .
+...
+nsxiv .
+gss.
+gss .
+git restore --source=HEAD untitled.jpg 
+nsxiv untitled.
+nsxiv untitled.jpg 
+convert untitled.jpg untitled.png 
+nsxiv untitled.png 
+imshadow.sh untitled.p
+imshadow.sh untitled.png 
+nsxiv untitled.png 
+زی -
+cd -
+cls
+nvim gen.lua
+q
+nvim role/devops.lua 
+ncmpcpp 
+nvim role/devops.lua
+q
+زمس
+cls
+nvim highlight.css 
+cd dev/resume/fa/resume/
+zathura resume-fa.pdf 
+make
+zathura resume-fa.pdf 
+cd ../cv
+zathura cv-fa.pdf 
+make
+zathura cv-fa.pdf 
+nvim gen.lua
+cls
+..
+ls *
+nvim resume/gen.lua
+nvim cv/gen.lua
+..
+nvim */gen.lua
+nvim {fa,en}/*/gen.lua
+cd en/resume/
+t
+q
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-hybrid/
+x
+cls
+nvim main.lua
+lf
+nvim ~/.config/nvim/lua/module/main.lua
+cls
+rm main.lua~ 
+cls
+nvim main.lua 
+cls
+rm main.lua* -fv
+cls
+cd en/
+cls
+nvim */gen.lua -d
+nvim resume/gen.lua
+nvim cv/gen.lua
+cls
+zathura */*.pdf
+r.sh zathura resume/resume-en.pdf 
+lf
+nvim resume/gen.lua
+lf
+cd ../fa/resume/
+nvim gen.lua
+cls
+rm *~
+cls
+lf
+cls
+..
+cls
+nvim -d */gen.lua
+q
+cls
+lf
+q
+nvim en/resume/gen.lua 
+nvim .en.bak/resume/gen.lua 
+q
+cd dev/resume/
+cls
+lf
+t
+q
+cd dev/resume/
+gss .
+x

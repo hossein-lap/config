@@ -1,0 +1,23 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "kal.hibidam.site",
+        "name": "رایگان | VLESS | @V2rayCollectorDonate | FI🇫🇮 | 1️⃣7️⃣",
+        "pass": "10b790c1-3ee4-4deb-b383-fda696f8fd21",
+        "port": 34136,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        }
+    },
+    "gid": 1,
+    "id": 7077,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

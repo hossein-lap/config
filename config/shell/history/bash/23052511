@@ -1,0 +1,22 @@
+q
+grep '^\\title{' 0{1..7}/0*.tex
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {/'
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {//'
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {//' -e 's/}}$//'
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {//' -e 's/}}$//' -e 's/^0.\/0.\.tex//'
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {//' -e 's/}}$//' -e 's/^0.\/0.\.tex://'
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {//' -e 's/}}$//' -e 's/^0.\/0.\.tex://' | sed 's/[^$]/\'/g'
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {//' -e 's/}}$//' -e 's/^0.\/0.\.tex://' | sed "s/[^$]/'/g"
+grep '^\\title{' 0{1..7}/0*.tex | sed -e 's/\\title{\\textbf{گزارش‌کار آزمایشگاه ریزپردازنده} \\\\ {//' -e 's/}}$//' -e 's/^0.\/0.\.tex://' | sed -e "s/^/'/"
+q
+lsblk
+c
+lsblk
+lsblk --fs
+dmusb.sh 
+cd /run/media/hos/727F-DFC7/
+cls
+df -h /
+df -h /data
+lf
+q

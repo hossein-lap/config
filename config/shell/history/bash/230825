@@ -1,0 +1,121 @@
+nvim .config/nvim/lua/plugin/init.lua 
+nvim .config/nvim/init.lua 
+nvim ../art/.config/nvim/after/plugin/scheme.lua .config/nvim/after/plugin/scheme.lua 
+nvim ../art/.config/nvim/after/plugin/scheme.lua .config/nvim/after/plugin/scheme.lua  -d
+nvim ../art/.config/nvim/lua/plugin/lualine/init.lua .config/nvim/lua/plugin/lualine/init.lua  -d
+nvim
+nvim .local/share/nvim/site/pack/packer/start/onedark.nvim/lua/onedark/palette.lua 
+neofetch 
+irssi 
+nvim
+make clean; make; sudo make install
+irssi 
+cd dev/hossein-lap/suckless/st/
+nvim config.def.h 
+nvim ~/.config/pandoc/defaults/beamer/en-ubuntu.sty 
+figlet third
+figlet second
+figlet first
+..
+make clean; make; sudo make install
+cd dev/hossein-lap/suckless/st
+nvim colors/schemes.h 
+sudo xbps-query -l | wc -l
+sudo xbps-query -Rs emacs
+sudo xbps-install emacs-pgtk
+sudo xbps-install -Sy
+sudo sh -c 'xbps-install -y emacs-pgtk; xbps-install -uy'
+sudo xbps-install -u xbps
+sudo sh -c 'xbps-install -yu; xbps-install -y emacs-pgtk'
+sudo xbps-install gcolor2
+make clean; make; sudo make install
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim colors/void.h 
+nvim colors/onedark.h 
+cd ../dmenu/
+nvim colors/void.h 
+nvim colors/onedark.h 
+echo $TERM
+TERM=nvim-term256
+clear
+neofetch 
+nvim dev/hossein-lap/suckless/st/colors/schemes.h 
+nvim .config/nvim/lua/plugin/lualine/init.lua 
+nvim .config/pandoc/defaults/beamer/fa-ubuntu.sty 
+nvim dev/hossein-lap/workflow/suckless/dwm/colors/onedark.h 
+nvim dev/hossein-lap/workflow/suckless/dwm/config.
+nvim dev/hossein-lap/workflow/suckless/dwm/config.def.h
+vim
+..
+make clean; make; sudo make install
+nvim .config/nvim/lua/plugin/lualine/init.lua 
+nvim dev/hossein-lap/workflow/suckless/dwm/colors/onedark.h 
+links ddg.gg
+xbps-query -Rs librewol
+xbps-query -Rs chrome
+mpv
+mpv Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+xdg-open Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+clear
+vim ~/.config/mpv/mpv.conf
+mpv Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+vim ~/.config/mpv/mpv.conf
+xbps-query -Rs mpv
+lf ~/.config/mpv/
+mpv Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+ffplay Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+ffplay subtitles=filename=Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+ffplay subtitles=filename=Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv
+ffplay subtitles=filename=Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.srt Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+man ffplay
+ffplay -vf subtitles=filename=Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+ffplay subtitles=filename=Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv
+ffplay Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv
+ffplay -sst Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.srt Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv
+ffplay -sst srt Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv
+ffplay -vf subtitle="Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.srt" Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv
+ffplay -vf subtitles="Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.srt" Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv
+mpv
+mpv Rurouni.Kenshin.2012.720p.BluRay.Film2Movie_ORG.mkv 
+xbps-query -Rs swrast
+xbps-query -Rs dri
+cd .config/
+ls emacs
+mv emacs/ emacs-plain
+mv emacs emacs-plain
+for i in dwm dmenu st slock farbfeld slstatus sent; do echo "${i}"; done
+ping 1.1.1.1
+c
+cd dev/hossein-lap/
+cls
+cl
+nvim emacs/init.el
+cl
+btop
+cls
+cl
+zsh
+cl
+cp -rv /home/art/.config/{emacs,doom} ~/.config/
+nvim scripts/emacs.sh
+nvim ~/.xprofile 
+ls
+ls dwm
+ls dmenu
+ls
+mkdir .tmp
+lf
+nvim .local/share/nvim/site/pack/packer/start/onedark.nvim/lua/onedark/palette.lua 
+sudo xbps-install -Syu
+emacs
+sudo xbps-install emacs-pgtk
+emacs
+sudo xbps-remove emacs-pgtk
+sudo xbps-install emacs-gtk
+sudo xbps-install emacs-gtk3
+emacs
+emacs /home/art/documents/org/fa/test.org 
+emacs
+ps aux | grep 'emacs --daemon'
+ps aux | grep -c 'emacs --daemon'
+x

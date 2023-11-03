@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "f1.bestvipserviceirr.xyz",
+        "name": "رایگان | REALITY | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣8️⃣",
+        "pass": "0c65eda6-80a3-481a-953a-17f973902b87",
+        "port": 2053,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "8L5-uy9Wcdstkmx1yhgIvN1PcrNKd4OVDJs-gv3KhgY",
+            "sec": "tls",
+            "sid": "176f1ada",
+            "sni": "discord.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7070,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

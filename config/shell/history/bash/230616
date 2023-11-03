@@ -1,0 +1,242 @@
+xbps-query -Rs supertux
+sudo xbps-install -S suprtuxkart
+sudo xbps-install -S supertuxkart
+c
+pulsemixer 
+cd uni/
+take math-engin
+nvim exams.tex
+q
+lf ~/uni/
+nvim uni/math-engin/exams.tex 
+q
+lf vid/MyTube/
+q
+nvim /tmp
+nvim /tmp/math.tex
+q
+cd /data/local
+cls
+cd gapi/
+cls
+cd /data/local
+take pkgs
+git clone https://github.com/pystardust/ytfzf
+vf ytfzf/
+cd ytfzf/
+cls
+make
+sudo make install doc
+proxychains4 -q ytfzf -D
+proxychains4 -q ytfzf 
+q
+lf dl/telegram-dl/
+nvim /tmp/test.pl
+nvim ~/.config/nvim/lua/plugin/lsp/
+nvim /tmp/test.pl
+cd /data/w/benchmark-handmade/
+cls
+lf
+cd /data/w/benchmark-handmade/primes/
+cls
+for i in lua c cpp go rs py; do nvim prime-${i}.${i}; done
+cls
+nvim *-*.*
+cls
+./prime-cpp | sc -l
+./prime-cpp | wc -l
+./wc
+./prime-cpp 
+cd ../count/
+nvim count-rs.rs 
+cls
+./prime-rs 
+./prime-go
+make
+./prime-go 
+time ./prime-go 
+time ./prime-go 
+
+nvim /etc/environment 
+nvim ~/.config/shell/bashrc
+nvim `which dmshot.sh`
+nvim /etc/gtk-3.0/settings.ini 
+nvim /etc/gtk-2.0/im-multipress.conf 
+du -h .
+du -h prime-*
+lf
+du -h prime-{rs,go,c,cpp}
+c
+wc -l prime-*.*
+du -h PrimeNumbers.
+du -h PrimeNumbers.class 
+cls
+wc prime-*.*
+c
+wc prime-*.*
+wc -h
+wc --help
+wc -l prime-*.*
+wc -l -m prime-*.*
+wc -l -w -m prime-*.*
+wc -l -w -c -m prime-*.*
+wc -l -w -m prime-*.*
+c
+wc -l -w -m prime-*.*
+wc --help
+wc -m -w -l prime-*.*
+c
+wc -m -w -l prime-*.*
+wc -m -w -l prime-*.* -v
+wc -m -w -l prime-*.* -h
+wc --help
+wc -m -w -l prime-*.* --total never
+c
+wc -m -w -l --total never prime-*.*
+wc -w --total never prime-*.*
+wc -lwm --total never prime-*.*
+c
+wc -lwm --total never prime-*.*
+nvim run.sh 
+bc
+nvim /tmp/test.lua
+cd /data/w/benchmark-handmade/primes/
+cls
+nvim run.sh 
+./run.sh 
+./run.sh > output.txt
+nvim prime-*.*
+./run.sh 
+./run.sh  > output.txt 
+make
+nvim run.sh 
+./run.sh 
+nvim run.sh 
+sed -i 's/1000/100000/' prime-*.*
+make
+./prime-go
+./prime-r
+./prime-rs
+sed -i 's/100000/1000000/' prime-*.*
+make
+./prime-rs
+sed -i 's/1000000/1000000000/' prime-*.*
+make
+./prime-rs
+time ./prime-rs
+sed -i 's/1000000000/1000000/' prime-*.*
+make
+time ./prime-rs
+./run.sh 
+nvim run.sh 
+cls
+./run.sh > output.txt 
+nvim output.txt 
+pwd
+c
+cat output.txt 
+nvim prime-py.py 
+cat prime-py.py | nc termbin.com 9999
+lf screen/shots/
+lf dl/telegram-dl/
+sudo xbps-install -Su
+q
+x
+pulsemixer 
+lf uni/exams/software-engineer/
+pulsemixer 
+make clean; make; sudo make install
+pulsemixer 
+make clean; make; sudo make install
+a
+make clean; make; sudo make install
+gdb ./st
+q
+make clean; make
+gdb ./st
+gdb ./st -g 2
+gdb "./st -g 2"
+gdb --args ./st -g 2
+c
+gdb --args ./st -g 2
+gdb --args st -g 2
+gdb -ex=r --args st -g 2
+gdb -ex=r --args st -g 1
+gdb -ex=r --args st -s 1
+gdb --args st -s 1
+st -h
+make clean; make
+./st -h
+make clean; make; ./st -h
+btop
+ntop
+btop
+st -h
+st
+st -s 2
+st -s 
+c
+st -s 2
+st -s 1
+st -s 0
+st -e htop
+st -e sh -c 'htop'
+st -e sh -c 'echo Hi'
+st -e sh -c 'yes Hi'
+st -e sh -c 'pcmanfm'
+st pcmanfm
+c
+st -h
+st -T Terminal -s 7 -f 'Monospace:size=28'
+st -T Terminal -s 7 -f 'Monospace:size=18'
+st -T Terminal -s 7 -f 'Liberation Mono:size=18'
+st -T Terminal -s 7 -f 'Liberation Mono:size=18' -g 500x800
+st -T Terminal -s 7 -f 'Liberation Mono:size=18' -g 800x500
+st -T Terminal -s 7 -f 'Liberation Mono:size=18' -g 80x50
+st -T Terminal -s 7 -f 'Liberation Mono:size=18' -g 1x3
+st -T Terminal -s 7 -f 'Liberation Mono:size=18' -g 10x3
+st -T Terminal -s 7 -f 'Liberation Mono:size=18' -g 60x24
+st -T Terminal -s 7 -f 'Liberation Mono:size=15' -g 60x24
+st -T Terminal -s 7 -f 'Liberation Mono:size=15' -g 80x24
+cd /data/dev/hossein-lap/workflow/suckless/dwm/patches/
+wget https://dwm.suckless.org/patches/center/dwm-center-6.2.diff
+..
+gss .
+git diff config.def.h
+git add config.def.h 
+git commit -m 'changed biditerm keybind to <C-A>t'
+patch -p1 < patches/dwm-center-6.2.diff 
+nvim config.def.h.rej 
+make clean; make; sudo make install
+pulsemixer 
+/bin/sh /tmp/geany_run_script_09AJ61.sh
+ls /tmp/geany_run_script_09AJ61.sh
+clear
+irssi
+cd /data/dev/hossein-lap/suckless/st/
+nvim config.def.h st.c
+grep argv *.{c,h}
+nvim arg.h config.def.h 
+cls
+nvim arg.h 
+grep ARGBEGIN  *.{c,h}
+cls
+envsubst --help
+c
+cls
+grep '-v' *.{c,v}
+grep -- '-v' *.{c,v}
+grep '\-v' *.{c,v}
+grep '\\-v' *.{c,v}
+grep '\\-v' *.{c,h}
+grep '-v' *.{c,h}
+grep '\-v' *.{c,h}
+c
+st -h
+grep 'usage' *.{c,h}
+nvim x.c config.def.h 
+gss .
+git diff .
+nvim Makefile 
+git diff .
+nvim st.1

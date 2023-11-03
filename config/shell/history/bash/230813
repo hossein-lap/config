@@ -1,0 +1,144 @@
+sudo xbps-install lxappearance
+lf
+q
+echo $EUID
+sudo echo $EUID
+sudo bash
+sudo dmusb.sh
+make clean; make; sudo make install
+neofetch 
+dmusb.sh
+sudo dmusb.sh
+dmusb.sh
+make clean; make; sudo make install
+sudo dmusb.sh
+make clean; make; sudo make install
+sudo dmusb.sh
+make clean; make; sudo make install
+grep base13 */*.lua
+grep base */*.lua
+grep base */*.lua | grep #
+grep base */*.lua | grep \\#
+grep base */*.lua | grep \\# | less
+nvim */*.lua
+q
+nvim role/devops.lua 
+q
+nvim ~/tmp/rps/
+find / -iname rps 2>/dev/null
+q
+dmenu -h
+sudo dmusb.sh
+sudo dmusb.sh -fn 'Liberation Mono'
+sudo dmusb.sh -fn 'Liberation Mono:Size=20'
+sudo dmusb.sh "-fn 'Liberation Mono:Size=20'"
+ls -l | dmenu -l 15 -fn 'Liberation Mono'
+ls -l | dmenu -l 15 -fn 'Liberation Mono:Size=20'
+ls -l | dmenu -l 15 -fn 'Liberation Mono:Size=30'
+ls -l | dmenu -l 15 -fn 'Liberation Mono:Size=60'
+ls -l | dmenu -l 15 -fn 'Liberation Mono'
+ls -l | dmenu -l 15 -fn 'Liberation Sans'
+ls -l | dmenu -l 15 -fn 'Liberation Mono'
+ls -l | dmenu -l 15 -fn 'Liberation Mono' -c -bw 3
+ls -l | dmenu -l 15 -fn 'Liberation Mono' -c -bw 4
+ls -l | dmenu -l 15 -fn 'Liberation Mono' -c -bw 2
+cd dev/hossein-lap/workflow/suckless/
+nvim dwm/config.def.h 
+nvim dmenu/config.def.h 
+nvim dwm/config.def.h 
+nvim st/colors/solarized-dark.h 
+nvim ~/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua/lua/solarized/solarized-normal/highlights.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua/lua/solarized/utils/init.lua 
+lf ~/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua/lua/solarized/
+q
+dmusb.sh
+take ~/usb/new-$(date +%Y$m$d)
+cls
+cls ..
+take ~/usb/new-$(date +%Y%m%d)
+rmdir ../new-2023
+dmusb.sh
+lf
+dmusb.sh
+cd /run/media/hos/
+cd /run/media/hos/2D13-BAED/
+cls
+lf
+cd
+cd /run/media/hos/2D13-BAED/
+cls
+cl
+exa -D
+cp -rv Recorded\ Files/ allameh\ daftar/ peyk/ pvr/ ~/usb/new-20230813/
+btop
+cd
+lf
+take ../s02
+cp ../s01/{ln.dl,dl.sh} .
+nvim ln.dl 
+lf ~/arch/iso/
+lf
+q
+./dl.sh 
+cd ../s02
+cls
+nvim ~/dev/resume/main.lua
+lf
+q
+dmusb.sh 
+clear
+sudo dmusb.sh
+nvim `which dmenupass`
+sudo dmusb.sh
+nvim `which dmusb.sh`
+cd vid/shows/series/
+take witcher
+take s01
+nvim dl.sh ln.dl
+nvim dl.sh 
+screen
+t
+q
+nvim ~/.config/mpv/mpv.conf 
+cls
+...
+cd tmp
+cls
+cd role/
+cls
+take devops
+..
+rmdir devops/
+cls
+nvim ../Makefile
+lf
+q
+nvim gen.lua
+nvim ~/dev/hossein-lap/workflow/suckless/st/colors/gruvbox-dark.h 
+nvim ~/dev/hossein-lap/workflow/suckless/st/colors/gruvbox-l
+nvim ~/dev/hossein-lap/workflow/suckless/st/colors/gruvbox-material.h 
+neofetch 
+nvim ~/dev/hossein-lap/suckless/st/colors/schemes.h 
+cd ../../tmp/
+nvim role/fa/init.lua
+nvim Makefile
+lf
+q
+lf
+...
+cls
+take tmp
+cls
+lf
+cls
+nvim gen.lua
+q
+t
+q
+ip a
+lf vid/
+cd dev/resume/
+cls
+lf
+q
+x

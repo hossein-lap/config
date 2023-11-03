@@ -1,0 +1,5 @@
+objdump tmp
+objdump -Mintel tmp
+objdump -d -Mintel tmp
+objdump -d -Mintel tmp | less -SR
+objdump -d -Mintel tmp | wc -l

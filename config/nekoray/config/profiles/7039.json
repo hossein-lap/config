@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "lightning6-joinbedee.mamd.sbs",
+        "name": "رایگان | REALITY | @lightning6 | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "d3e4fd23-edc5-4c02-b487-c6480b9f6931",
+        "port": 8080,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "LIGHTNING6",
+            "pbk": "4OTfR6IQ_6Z-5EiAi08sSfUjZtC30c2x6jl9BE9KFwg",
+            "sec": "tls",
+            "sid": "356dc0",
+            "sni": "www.speedtest.net",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7039,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

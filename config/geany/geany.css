@@ -1,0 +1,17 @@
+/* custom GTK3 CSS for Geany */
+
+/* compiler message colors */
+#geany-compiler-error {
+    color: #cc241d;
+}
+#geany-compiler-context {
+    color: #d79921;
+}
+#geany-compiler-message {
+    color: #458588;
+}
+
+/* red "Terminal" label when terminal dirty */
+#geany-terminal-dirty {
+	color: #cc241d;
+}

@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "77.91.84.45",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣0️⃣",
+        "pass": "e200b85f-5580-4d42-9943-727fb7912580",
+        "port": 2053,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "MtDtesqzQ0FgKQOvFFsBO_h8iZji_N9GBZpOcocoIkw",
+            "sec": "tls",
+            "sid": "7faaaa4a8a3d1134",
+            "sni": "ballinstadt.de",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3869,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

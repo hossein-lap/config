@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "discord.gg",
+        "name": "رایگان | VLESS | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "0e7208e9-f4a8-4a26-9e9e-47b026b4196b",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "host": "de.vpncustomize.Website",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/",
+            "sec": "tls",
+            "sni": "de.vpncustomize.Website",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7113,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

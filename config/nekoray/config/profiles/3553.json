@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "datacenter.ct.01.biqibao.site",
+        "aid": 0,
+        "id": "21d36f86-53ab-4218-a740-9c70511f85d0",
+        "name": "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
+        "port": 2052,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "de.biqibao.site",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/public?ed=4096"
+        }
+    },
+    "gid": 3,
+    "id": 3553,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

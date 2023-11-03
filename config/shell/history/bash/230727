@@ -1,0 +1,14 @@
+x
+cd vid/shows/series/the-rookie/
+lf
+q
+cd vid/shows/series/the-rookie/
+lf
+q
+cd dl/iso/
+nvim ln.dl 
+q
+cd dev/hossein-lap/workflow/suckless/slstatus/
+nvim config.def.h 
+q
+x

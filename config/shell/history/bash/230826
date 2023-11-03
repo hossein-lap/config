@@ -1,0 +1,463 @@
+ls
+neofetch 
+echo $TERM
+clear; ls
+for i in st dwm dmenu slock farbfeld slstatus sent tabbed; do echo ${i}; done
+for i in st dwm dmenu slock farbfeld slstatus sent tabbed; do git clone git@github.com:hossein-lap/${i}.git; done
+cd st
+ls
+jcal
+take ../suckless-plains
+for i in st dwm dmenu slock farbfeld slstatus sent tabbed; do git clone https://git.suckless.org/${i}; done
+for i in st dwm dmenu slock farbfeld slstatus sent tabbed; do git clone --depth 1 https://git.suckless.org/${i}; done
+ls */.git
+rm -rf */.git
+tree
+tree -D 1
+tree -L 1
+tree -L 2
+tree -a -L 2
+tree -L 1
+ls dmenu/LICENSE 
+cat dmenu/LICENSE 
+for i in `exa -D`; do echo ${i}; done
+for i in `exa -D`; do cat ${i}/LICENSE; done
+for i in `exa -D`; do { cat ${i}/LICENSE; cat ../${i}/LISENCE; } ; done
+for i in `exa -D`; do { cat ${i}/LICENSE; cat ../${i}/LICENSE; } ; done
+for i in `exa -D`; do { cat ../${i}/LICENSE; cat ${i}/LICENSE;} ; done
+for i in `exa -D`; do { cat ../${i}/LICENSE; cat ${i}/LICENSE; } ; done
+for i in `exa -D`; do { cat ../${i}/LICENSE; cat ${i}/LICENSE; } > cat ../${i}/LICENSE; ; done
+for i in `exa -D`; do { cat ../${i}/LICENSE; cat ${i}/LICENSE; } > cat ../${i}/LICENSE ; done
+for i in `exa -D`; do { cat ../${i}/LICENSE; cat ${i}/LICENSE; } > ../${i}/LICENSE; done
+for i in `exa -D`; do cd ../${i}; git restore --source=HEAD . ; cd - ; done
+for i in `exa -D`; do cat ${i}/LICENSE >> ../${i}/LICENSE; done
+for i in `exa -D`; do cd ../${i}; git restore --source=HEAD . ; cd - ; done
+for i in `exa -D`; do echo "" >> ../${i}/LICENSE; done
+for i in `exa -D`; do cat ${i}/LICENSE >> ../${i}/LICENSE; done
+ls */LICENSE
+rm -rfv */LICENSE
+for i in `exa -D`; echo ${i}; done
+for i in `exa -D`; do echo ${i}; done
+for i in `exa -D`; do mv -v ${i}/* ../${i}/; done
+clear
+ls
+cd tmp/plain/
+ls
+..
+ls
+cd ../st
+git diff .
+cat LICENSE 
+git diff .
+..
+git diff .
+cd -
+git diff .
+..
+ls
+for i in `exa -D suckless-plains/`; do echo ${i}; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git add .; git commit -m 'updated LICENSE'; git push; cd ..; done
+clear
+for i in `exa -D suckless-plains/`; do cd ${i}; git add .; git commit -m 'updated LICENSE'; git push; cd ..; done
+..
+for i in `exa -D suckless-plains/`; do cd ${i}; git add .; git commit -m 'updated LICENSE'; git push; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git branch -m main master; git fetch origin; git branch -u origin/master master; git remote set-head origin -a; cd ..; done
+..
+cls
+for i in `exa -D suckless-plains/`; do cd ${i}; git branch -m main master; git fetch origin; git branch -u origin/master master; git remote set-head origin -a; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git add .; git commit -m 'init commit'; git push; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git add .; git commit -m 'init commit'; cd ..; done
+..
+for i in `exa -D suckless-plains/`; do cd ${i}; git add .; git commit -m 'init commit'; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git push; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; head README; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; head README | less -SR; cd ..; done
+suckless() { for i in `exa -D suckless-plains/`; do cd ${i}; "${@}"; cd ..; done; }
+suckless 'mv -v README README.md'
+suckless 'echo $PWD'
+for i in `exa -D suckless-plains/`; do cd ${i}; mv -v README README.md; cd ..; done
+nvim `exa -d suckless-plains//README.md
+for i in `exa -D suckless-plains/`; do cd ${i}; nvim README.md; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; rm -fv README; git add .; git commit -m 'updated README.md'; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git push; cd ..; done
+..
+cls
+for i in `exa -D suckless-plains/`; do cd ${i}; git push; cd ..; done
+esnt -v
+sent -v
+ls sent/
+sent sent/example 
+cd sent/
+sent example 
+nvim /tmp/git-update-renamed-branch.sh
+ls
+take patches
+cp -r ~/dev/hossein-lap/archive/suckless/st/patch/* .
+ls
+..
+git add .; git commit -m 'imported patches'
+git diff .
+git --cached diff .
+git --cached status .
+git status --cached .
+gss
+git add .; git commit -m 'imported patches'
+patch -p1 < patches/st-alpha-20220206-0.8.5.diff 
+make clean
+make
+./st
+make clean
+gss .
+cp ../workflow/suckless/.gitignore .
+gss 
+for i in `exa -D ../suckless-plains/ | grep -v st`; do echo "${i}"; done
+for i in `exa -D ../suckless-plains/ | grep -v st`; do cp -v .gitignore ../${i}/; done
+for i in `exa -D ../suckless-plains/ | grep -v st`; do cd ${i}; git add .gitignore; git commit -m 'added `gitignore`'; cd ..; done
+gss .
+cd -
+cd ../st
+ls
+gss .
+glg
+ls
+nvim Makefile 
+grep tar.gz ../*/Makefile
+grep -n tar.gz ../*/Makefile
+grep -n tar.gz$ ../*/Makefile
+clear
+grep -n tar.gz$ ../*/Makefile
+grep -n tar.gz$ ../*/Makefile | grep 'rm -'
+nvim Makefile 
+nvim ../*/Makefile 
+for i in `exa -D ../suckless-plains/ | grep -v st`; do cd ${i}; git status -s; cd ..; done
+for i in `exa -D ../suckless-plains/`; do cd ${i}; git status -s; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git status -s; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git diff Makefile; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git add Makefile; git commit -m 'more `clean` section'; cd ..; done
+clear; ls
+clear
+ls
+q
+make clean
+make
+neofetch 
+clear; neofetch 
+neofetch 
+clear; ls
+nvim
+ls
+echo $TERM
+s
+cls
+make clean; make; ./st
+./st -v
+./st & disown 
+sudo make install
+man ./st.1
+sudo make install
+man ./st.1
+imshadow.sh *.png
+q
+nvim `which imshadow.sh`
+ls *.png
+imshadow.sh *.png
+rm *.bak
+rm -f *.bak
+gss .
+git add .
+git commit -m 'better shots, complete list of patches'
+git push
+gss .
+nvim README.md 
+gss .
+git diff st.h
+git diff x.c
+gss .
+git add .
+git commit -m 'applied alpha-20220206-0.8.5 patch'
+patch -p1 < patches/st-scrollback-0.8.5.diff 
+make clean; make
+nvim config.def.h 
+git diff config.def.h
+git diff .
+git restore --source=HEAD .
+find / -iname '*change*.diff' 2>/dev/null
+nvim /home/hos/w/hugo/hos/workflow/suckless/patched/st/patches/changealpha.diff
+cp /home/hos/w/hugo/hos/workflow/suckless/patched/st/patches/changealpha.diff patches/st-changealpha.diff
+gss .
+exa -D ../suckless-plains/
+for i in `exa -D ../suckless-plains/`; do echo ${i} >> ${i}/.gitignore; done
+for i in `exa -D ../suckless-plains/`; do cd "${i}"; echo ${i} >> .gitignore; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; echo ${i} >> .gitignore; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; nvim >> .gitignore; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; nvim .gitignore; cd ..; done
+..
+for i in `exa -D suckless-plains/`; do cd "${i}"; nvim .gitignore; cd ..; done
+gss .
+for i in `exa -D suckless-plains/`; do cd "${i}"; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd -v "${i}"; gss; cd ..; done
+cd ~/dev/hossein-lap/
+ls
+for i in `exa -D suckless-plains/`; do cd "${i}"; echo -n ${i}; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; echo -n "${i}: "; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; printf "${i}\n"; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; printf "${i}\t"; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; printf "${i}\t  "; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; printf "${i}\t       "; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; printf "${i}\t "; gss; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; gss | grep ??; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; gss | grep ?? | grep gitignore; cd ..; done
+for i in `exa -D suckless-plains/`; do cd "${i}"; gss | grep ?? | grep gitignore && echo "${i}"; cd ..; done
+nvim dmenu/.gitignore 
+fg
+cd slstatus/
+gss. 
+gss
+..
+for i in `exa -D suckless-plains/`; do git add .gitignore; git commit -m 'updated gitignore'; cd ..; done
+cd ~/dev/hossein-lap/
+for i in `exa -D suckless-plains/`; do cd ${i}; echo ${i}; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; pwd; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; git add .gitignore; git commit -m 'updated gitignore'; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; tail ${i}; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; tail .gitignore; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; tail -n 1 .gitignore; cd ..; done
+for i in `exa -D suckless-plains/`; do cd ${i}; tail -n 2 .gitignore; cd ..; done
+clear
+ls
+cd st
+gss .
+patch -p1 < patches/st-changealpha.diff 
+nvim config.def.h 
+nvim config.def.h.rej
+patch -p1 < patches/st-changealpha.diff 
+git diff .
+nvim patches/st-changealpha.diff 
+gss .
+git restore --source=HEAD x.c
+patch -p1 < patches/st-changealpha.diff 
+nvim patches/st-changealpha.diff 
+gss .
+git restore --source=HEAD x.c
+patch -p1 < patches/st-changealpha.diff 
+git diff .
+nvim patches/st-changealpha.diff 
+gss .
+git add .
+git commit -m 'applied changealpha patch'
+patch -p1 < patches/st-scrollback-0.8.5.diff 
+nvim *.rej
+make clean; make
+./st
+git diff .
+gss 
+git add .
+ls patches/st-scrollback-0.8.5.diff 
+gss
+git commit -m 'applied scrollback-0.8.5 patch'
+ls patches/
+patch -p1 < patches/st-ligatures-alpha-scrollback-20230105-0.9.diff 
+make clean; make
+./st -f 'Fira Code:pixelsize=24'
+gss .
+fir add .
+git add .
+git commit -m 'applied ligatures-alpha-scrollback-20230105-0.9 patch'
+gss
+glg
+gls
+clear
+patch -p1 < patches/st-font2-0.8.5.diff 
+nvim config.def.h 
+make clean; make
+./st
+clear; ls
+gss .
+git add .
+git commit -m 'applied font2-0.8.5 patch'
+patch -p1 < patches/st-newterm-0.9.diff 
+nvim *.rej
+make clean; make
+./st
+sxwall.sh 
+cls
+gss .
+git add .
+git commit -m 'applied newterm-0.9 patch'
+patch -p1 < patches/st-newterm-0.9-tabbed.diff 
+make clean; make
+tt
+which `tt`
+nvim `which tt`
+tabbed 	-n terminal 	-k 	-c 	-r 2 		./st -w '' 		-e sh -c 'export TERM=xterm-256color; bash'
+gss .
+git add .
+git commit -m 'applied newterm-0.9-tabbed patch'
+cls
+make clean;
+cls
+patch -p1 < patches/st-colorschemes-0.8.5.diff 
+nvim *.rej
+ls
+make clean; make
+nvim *.rej
+nvim config.def.h 
+make 
+make clean; make
+./st
+nvim x.c
+nvim config.def.h 
+nvim x.c
+make clean; ,a
+make clean; make
+nvim config.def.h 
+make clean; make
+./st
+nvim config.def.h 
+make clean; make
+./st
+nvim config.def.h 
+./st
+gss .
+mv schemes.h colorschemes.h 
+gss .
+git add config.def.h st.{c,h} x.c 
+gss
+git commit -m 'applied colorschemes-0.8.5 patch'
+nvim config.def.h 
+make clean; make
+./st
+nvim hb.c 
+gss .
+make clean; make
+./st & disown 
+clear
+nvim -d st.c
+nvim -d st.c /home/hos/dev/hossein-lap/archive/suckless/st/st.c
+nvim -d st.h /home/hos/dev/hossein-lap/archive/suckless/st/st.h
+nvim -d st.c /home/hos/dev/hossein-lap/archive/suckless/st/st.c
+grep '-s' *
+grep '\-s' *
+nvim x.c
+clear; ls
+gss .
+chmod -x colorschemes.h 
+cl
+gss .
+git add .
+echo git commit -m 'hos keybinds, colorschemes and more settings'
+gss
+git commit -m 'hos keybinds, colorschemes and more settings'
+mkdir shots
+lf shots/
+./st
+make
+./st
+./st -A 0.1
+./st
+make clean; make
+./st8
+clear
+nvim README.md 
+ls patches/
+nvim x.c
+ls
+nvim colorschemes.h 
+nvim x.c
+gss .
+git add .
+git commit -m 'added screenshots'
+git push
+vim README.md 
+vi README.md 
+gss
+make clean; make
+rm *.o
+y
+make
+nvim config.def.h 
+nvim schemes.h 
+nvim -d config.def.h ~/dev/hossein-lap/archive/suckless/st/config.def.h 
+clear
+ls
+nvim -d st.1 /home/hos/dev/hossein-lap/archive/suckless/st/st.1
+nvim -d /home/hos/dev/hossein-lap/archive/suckless/st/st.1 .
+cp /home/hos/dev/hossein-lap/archive/suckless/st/st.1 .
+nvim x.c
+nvim /home/hos/dev/hossein-lap/archive/suckless/st/x.c
+nvim st.1
+gss .
+git add .
+./st -h
+make clean; make; ./st -v
+./st -h
+make clean; make; ./st -h
+st -h
+make clean; make; ./st -h
+sudo make install
+st -h
+make clean; make; ./st -h; sudo make install
+st -h
+gss .
+git add .
+lf ~/screen/shots/
+nvim .config/dunst/dunstrc 
+cd dev/hossein-lap/
+ls
+t
+cd st
+clear; t; 
+cd dev/hossein-lap/archive/suckless/st
+gls
+git show 32861f9
+gls
+git show 49ca217
+nvim config.def.h 
+nvim -d x.c ~/dev/hossein-lap/st/x.c
+gss .
+nvim -d st.h ~/dev/hossein-lap/st/st.h
+nvim -d st.c ~/dev/hossein-lap/st/st.c
+nvim -d config.def.h ~/dev/hossein-lap/st/config.def.h 
+make clean; make
+nvim -d Makefile ~/dev/hossein-lap/st/Makefile 
+nvim -d config.mk ~/dev/hossein-lap/st/config.mk 
+clear;ls
+nvim -d config.def.h ~/dev/hossein-lap/st/config.def.h 
+cp colors/schemes.h ~/dev/hossein-lap/st/
+nvim -d config.def.h ~/dev/hossein-lap/st/config.def.h 
+nvim config.def.h 
+pwd
+grep '\-s' *
+nvim x.c
+grep scheme *
+grep main *
+nvim x.c
+pwd
+clear
+nvim config.def.h 
+cd ~/dev/hossein-lap/st/
+ls patches/
+xbps-query -l | grep lib | fzf
+xbps-query -l | grep ' lib' | fzf
+xbps-query -l | awk '/^lib {print $2;}' | fzf
+c
+xbps-query -l | awk '/^lib {print $2;}'
+xbps-query -l | awk '/^lib' '{print $2;}'
+xbps-query -l | awk '/^lib/' '{print $2;}'
+xbps-query -l | awk '/^lib/ {print $2;}'
+xbps-query -l | awk '/ lib/ {print $2;}'
+xbps-query -l | awk '{print $2;}' | grep '^lib' | fzf
+sudo unlink /var/service/v2ray
+sudo unlink /var/service/iwd
+st -A 0.5
+dmenu -v
+clear
+colortest
+lf screen/shots/
+ls
+cls
+clear
+x
+lf vid/
+loginctl reboot

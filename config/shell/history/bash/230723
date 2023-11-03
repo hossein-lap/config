@@ -1,0 +1,132 @@
+q
+mpv DR\ -\ Orgasmic\ Meditation\ \[2fx35\].mp4 
+q
+ls
+lf
+q
+q
+cd dl/
+mpv 60673044e0e2130b519bb5bb\ original.mp4 
+mpv 60673044e0e2130b519bb5bb\ original.79x2DFMN.mp4.part 
+proxychains4 -q aria2dl/ -x 16 -c -m 0 'https://prbf1fa.9xbud.com/down/aHR0cHM6Ly9zdHItMDYuZmlsZXN0b3JlLmFwcC9kZDkyOWRiZGRmZTc1LzU1YjllMWE0ZDk1MmUvNmY3ZDRkMDNhNGJjYj90ZW1wX3VybF9leHBpcmVzPTE2OTAxNDU4MzgmdGVtcF91cmxfaWQ9MDljNWVmZTAtYzQzNi00ZjIxLWI1YjYtMTgxOTNlZThkYzg2JmNvdW50YWJsZT10cnVlJmZpbGVuYW1lPSU1Qmh0dHBzJTNBJTJGJTJGZmVtZG9tdXAubmV0JTVEX0RpYW5hK1JleSstK1BsYXl0aGluZyUyOEZlbWRvbStwb3JuJTI5Xy5tcDQmaW5saW5lPXRydWUmY29udGVudF90eXBlPXZpZGVvJTJGbXA0JmNvbmN1cnJlbmN5PTMyJnJhdGVfbGltaXQ9MCZyZXNwb25zZV9saW1pdD0xNTUwMDQxMCZpcF9hY2Nlc3NfcG9saWN5PWV2ZXJ5b25lJnRhZ3M9ZmlsZV90eXBlJTNBdmlkZW9fb3JpZ2luYWwlMkNhY3Rpb24lM0FsaW1pdGVkX3ZpZXclMkN1c2VyX2lkJTNBJTJDcHJvamVjdCUzQWsycyUyQ3VzZXJfZmlsZV9pZCUzQTE3NjEwMmRhNTQxNzAmdGVtcF91cmxfaXNzdWVyPTU0NDVmNzhhOTFkZTcwN2IyOTdlNjdlZCZ0ZW1wX3VybF9zaWc9MTQwNDIyNDgxNDNkYzRjNTFjNmUxYjJlYWYyODViNjgyNTJjNWJmYzM2MThlYjliMWFhOGU5ZWUyMWUwYzBlNzYxZWU2MGJhZDFkMTViMGVkZjA4ZjI2MjhjNGNiMGM4MGQ3NTY3NDRiMDMxOWEzMDUyMjU1NDc3ZGZiMmY0MjMmY2xpZW50X2lwPQ,,/a2e1f224d068eabbfbbddf3e599c838b-1690074165?customName=60673044e0e2130b519bb5bb_+original'
+proxychains4 -q aria2c -x 16 -c -m 0 'https://prbf1fa.9xbud.com/down/aHR0cHM6Ly9zdHItMDYuZmlsZXN0b3JlLmFwcC9kZDkyOWRiZGRmZTc1LzU1YjllMWE0ZDk1MmUvNmY3ZDRkMDNhNGJjYj90ZW1wX3VybF9leHBpcmVzPTE2OTAxNDU4MzgmdGVtcF91cmxfaWQ9MDljNWVmZTAtYzQzNi00ZjIxLWI1YjYtMTgxOTNlZThkYzg2JmNvdW50YWJsZT10cnVlJmZpbGVuYW1lPSU1Qmh0dHBzJTNBJTJGJTJGZmVtZG9tdXAubmV0JTVEX0RpYW5hK1JleSstK1BsYXl0aGluZyUyOEZlbWRvbStwb3JuJTI5Xy5tcDQmaW5saW5lPXRydWUmY29udGVudF90eXBlPXZpZGVvJTJGbXA0JmNvbmN1cnJlbmN5PTMyJnJhdGVfbGltaXQ9MCZyZXNwb25zZV9saW1pdD0xNTUwMDQxMCZpcF9hY2Nlc3NfcG9saWN5PWV2ZXJ5b25lJnRhZ3M9ZmlsZV90eXBlJTNBdmlkZW9fb3JpZ2luYWwlMkNhY3Rpb24lM0FsaW1pdGVkX3ZpZXclMkN1c2VyX2lkJTNBJTJDcHJvamVjdCUzQWsycyUyQ3VzZXJfZmlsZV9pZCUzQTE3NjEwMmRhNTQxNzAmdGVtcF91cmxfaXNzdWVyPTU0NDVmNzhhOTFkZTcwN2IyOTdlNjdlZCZ0ZW1wX3VybF9zaWc9MTQwNDIyNDgxNDNkYzRjNTFjNmUxYjJlYWYyODViNjgyNTJjNWJmYzM2MThlYjliMWFhOGU5ZWUyMWUwYzBlNzYxZWU2MGJhZDFkMTViMGVkZjA4ZjI2MjhjNGNiMGM4MGQ3NTY3NDRiMDMxOWEzMDUyMjU1NDc3ZGZiMmY0MjMmY2xpZW50X2lwPQ,,/a2e1f224d068eabbfbbddf3e599c838b-1690074165?customName=60673044e0e2130b519bb5bb_+original'
+proxychains4 -q aria2c -x 16 -c -m 0 'https://prbf1fa.9xbud.com/down/aHR0cHM6Ly9zdHItMDYuZmlsZXN0b3JlLmFwcC9kZDkyOWRiZGRmZTc1LzU1YjllMWE0ZDk1MmUvNmY3ZDRkMDNhNGJjYj90ZW1wX3VybF9leHBpcmVzPTE2OTAxNDU4MzgmdGVtcF91cmxfaWQ9MDljNWVmZTAtYzQzNi00ZjIxLWI1YjYtMTgxOTNlZThkYzg2JmNvdW50YWJsZT10cnVlJmZpbGVuYW1lPSU1Qmh0dHBzJTNBJTJGJTJGZmVtZG9tdXAubmV0JTVEX0RpYW5hK1JleSstK1BsYXl0aGluZyUyOEZlbWRvbStwb3JuJTI5Xy5tcDQmaW5saW5lPXRydWUmY29udGVudF90eXBlPXZpZGVvJTJGbXA0JmNvbmN1cnJlbmN5PTMyJnJhdGVfbGltaXQ9MCZyZXNwb25zZV9saW1pdD0xNTUwMDQxMCZpcF9hY2Nlc3NfcG9saWN5PWV2ZXJ5b25lJnRhZ3M9ZmlsZV90eXBlJTNBdmlkZW9fb3JpZ2luYWwlMkNhY3Rpb24lM0FsaW1pdGVkX3ZpZXclMkN1c2VyX2lkJTNBJTJDcHJvamVjdCUzQWsycyUyQ3VzZXJfZmlsZV9pZCUzQTE3NjEwMmRhNTQxNzAmdGVtcF91cmxfaXNzdWVyPTU0NDVmNzhhOTFkZTcwN2IyOTdlNjdlZCZ0ZW1wX3VybF9zaWc9MTQwNDIyNDgxNDNkYzRjNTFjNmUxYjJlYWYyODViNjgyNTJjNWJmYzM2MThlYjliMWFhOGU5ZWUyMWUwYzBlNzYxZWU2MGJhZDFkMTViMGVkZjA4ZjI2MjhjNGNiMGM4MGQ3NTY3NDRiMDMxOWEzMDUyMjU1NDc3ZGZiMmY0M'
+proxychains4 -q yt-dlp c -R infinite 'https://str-06.filestore.app/dd929dbddfe75/55b9e1a4d952e/6f7d4d03a4bcb?temp_url_expires=1690145838&temp_url_id=09c5efe0-c436-4f21-b5b6-18193ee8dc86&countable=true&filename=%5Bhttps%3A%2F%2Ffemdomup.net%5D_Diana+Rey+-+Plaything%28Femdom+porn%29_.mp4&inline=true&content_type=video%2Fmp4&concurrency=32&rate_limit=0&response_limit=15500410&ip_access_policy=everyone&tags=file_type%3Avideo_original%2Caction%3Alimited_view%2Cuser_id%3A%2Cproject%3Ak2s%2Cuser_file_id%3A176102da54170&temp_url_issuer=5445f78a91de707b297e67ed&temp_url_sig=14042248143dc4c51c6e1b2eaf285b68252c5bfc3618eb9b1aa8e9ee21e0c0e761ee60bad1d15b0edf08f2628c4cb0c80d756744b0319a3052255477dfb2f423&client_ip='
+q
+lf vid/shows/
+lf vid/
+q
+bc
+cd ../allin/gowj\ movie/
+ls
+..
+ls /run/media/hos/4DD6F99C3A308995/
+rsync -r --progress gowj\ movie/ /run/media/hos/4DD6F99C3A308995/gowj-m
+cd ~
+ls
+cd pc
+ls
+df -h /home
+sudo ln -s /etc/sv/v2ray /var/service/
+dmusb.sh 
+xbps-query -Rs ntfs
+sudo xbps-install ntfs-3g
+dmusb.sh 
+df /h /run/media/hos/4DD6F99C3A308995/
+df -h /run/media/hos/4DD6F99C3A308995/
+rsync --progrss -r usb/gowj\ m/ /run/media/hos/4DD6F99C3A308995/
+rsync --progress -r usb/gowj\ m/ /run/media/hos/4DD6F99C3A308995/
+cd usb/
+ls
+rm gowj\ m/
+rm gowj\ m/ -rf
+find / -iname '*gown*' 2>/dev/null
+find / -iname '*gowj*' 2>/dev/null
+ls /run/media/hos/4DD6F99C3A308995/gowj-m/
+lf ~/vid/
+ls
+cd ../pc/
+for i in `cat list.txt | sed -e "s/^/'/" -e "s/$/'/"`; do echo ${i}; done
+for i in `cat list.txt | sed -e "s/ /\\ /"`; do echo ${i}; done
+wc -l list.
+wc -l list.txt 
+for i in `cat list.txt | sed -e "s/ /\\ /"`; do echo "${i}"; done
+for i in '`cat list.txt | sed -e "s/ /\\ /"`'; do echo "${i}"; done
+grep '+' list.txt 
+for i in '`cat list.txt | sed -e "s/ /+/"`'; do echo "${i}"; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo "${i}"; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo "${i}" | sed 's/+/ /g'; done
+mkdir actuals
+for i in `cat list.txt | sed -e "s/ /+/g"`; do cp -v `echo "${i}" | sed 's/+/\\ /g'` actuals/; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo `echo "${i}" | sed 's/+/\\ /g'` actuals/; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo `echo "${i}" | sed -e 's/+/\\ /g'` actuals/; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo `echo "${i}" | sed -e -e 's/+/ /g' -e "s/^/'/" -e "s/$/'/"` actuals/; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo `echo "${i}" | sed -e 's/+/ /g' -e "s/^/'/" -e "s/$/'/"` actuals/; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do cp -v `echo "${i}" | sed -e 's/+/ /g' -e "s/^/'/" -e "s/$/'/"` actuals/; done
+ls
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo `echo "${i}" | sed -e 's/+/ /g' -e "s/^/'/" -e "s/$/'/"` actuals/; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo `echo "${i}" | sed -e 's/+/ /g' -e "s/^/'/" -e "s/$/'/"`; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo "${i}" | sed -e 's/+/ /g' -e "s/^/'/" -e "s/$/'/"; done
+for i in `cat list.txt | sed -e "s/ /+/g"`; do echo "${i}" | sed -e 's/+/ /g' -e "s/^/'/" -e "s/$/'/"; done > docp.sh
+nvim docp.sh 
+du -h actuals/
+ls -l actuals/ | wc -l
+wc -l list.txt 
+lf actuals/
+ls actuals/
+diff `ls actuals/` `cat list.txt`
+ls actuals/ tmp.txt
+ls actuals/ > tmp.txt
+diff tmp.txt list.txt 
+nvim -d tmp.txt list.txt 
+nvim tmp.txt 
+nvim -d tmp.txt list.txt 
+lf
+q
+ls
+cd ../pc/
+ls
+ls | wc -l
+ls
+nvim list.txt 
+grep '<.*>' list.md 
+grep '<.*>' list.md | sed -e 's/^<//' -e 's/>$//'
+grep '<.*>' list.md | sed -e 's/^<//' -e 's/>$//' > list.txt 
+diff list.txt ln.dl 
+> list.
+rm list.
+> list.txt 
+tail -F list.txt 
+tail -f list.txt 
+cat list.txt 
+tail -f list.txt 
+lf vid/shows/series/the-rookie/
+man yt-dlp
+sudo unlink /var/service/v2ray
+ssh ali@192.168.1.236
+ssh ali@192.168.1.38
+lf ~/vid/
+q
+sshfs ali@192.168.1.38 /mnt
+sshfs ali@192.168.1.38:/media/ali/14F27E56F27E3C54 /mnt
+ls pc
+mkdir pc
+sshfs ali@192.168.1.38:/media/ali/14F27E56F27E3C54 pc
+cp pc/پیک\ شادی/آدرس\ مک.docx .
+fusermount -u /mnt
+fusermount -u pc
+lsblk
+mv آدرس\ مک.docx pc/
+clear; ls
+cd pc/
+ls
+pandoc آدرس\ مک.docx -o list.md
+nvim list.md 
+grep '<.*>' list.md 
+grep '<.*>' list.md  | sed 's/[<>]//'
+grep '<.*>' list.md  | sed 's/[<>]//g'
+grep '<.*>' list.md  | sed -e 's/^<//' -e 's/>$//'
+grep '<.*>' list.md  | sed -e 's/^<//' -e 's/>$//' > list.txt
+df -h
+btop
+x

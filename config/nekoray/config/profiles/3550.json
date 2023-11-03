@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "198.41.202.5",
+        "aid": 0,
+        "id": "c28493ce-d757-4175-9382-e946c1b7cdec",
+        "name": "رایگان | VMESS | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣",
+        "port": 2083,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "gun",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@bored_vpn @bored_vpn @bored_vpn",
+            "sec": "tls",
+            "sni": "a.boredhot.cloud"
+        }
+    },
+    "gid": 3,
+    "id": 3550,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

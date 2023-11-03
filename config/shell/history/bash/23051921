@@ -1,0 +1,45 @@
+iwctl station list
+iwctl station wlan0 connect hosteam01
+iwctl station wlan0 scan
+nmtui
+iwctl station scan
+iwctl station wlan0 scan
+iwctl station wlan0 connect hosteam01
+ping 1.1.1.1
+iwctl station scan
+iwctl station wlan0 scan
+ping 1.1.1.1
+sudo sv restart iwd
+iwctl station wlan0 scan
+iwctl
+cls
+r.sh zathura 0*/*.pdf
+cls
+cd uni/micro-lap/reports/
+t
+nmtui
+iwctl station list
+iwctl station wlan0 connect hosteam01
+iwctl station wlan0 scan
+iwctl station wlan0 connect hosteam01
+slsping.sh 
+while true; do slsping.sh ; done
+x
+ip a
+clear; ip a
+sudo xbps-remove docker minikube
+sudo xbps-remove -R docker minikube
+xbps-reconfigure iwd
+sudo xbps-reconfigure iwd
+sudo xbps-reconfigure NetworkManager
+sudo sv restart iwd
+iwctl
+sv status iwd
+sudo sv status iwd
+man sv
+sudo sv check iwd
+clear
+sudo sv restart NetworkManager
+sudo sv restart iwd
+iwctl
+x

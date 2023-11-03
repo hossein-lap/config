@@ -1,0 +1,17 @@
+...
+cd -
+..
+make clean; make; sudo make install
+nvim
+nvim dwm/colors/dracula.h 
+lf
+nvim ~/.config/bat/config 
+lf
+nvim ~/.config/tmux/tmux.conf 
+q
+t att
+cls
+cd pic/
+lf
+sxwall.sh ~/pic/wall/beautiful-morning.jpg
+nvim .config/dunst/dunstrc 

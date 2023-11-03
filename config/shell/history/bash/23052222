@@ -1,0 +1,9 @@
+xbps-query -Rs kube
+sudo xbps-install -Sy minikube
+sudo xbps-install -Sy docker-machine-driver-kvm2
+sudo xbps-install -Syu
+clear
+sudo xbps-install -Syu
+xbps-query -Rs docker
+sudo xbps-install -Sy podman-compose podman kubernetes-kind
+x

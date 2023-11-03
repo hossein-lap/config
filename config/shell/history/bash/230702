@@ -1,0 +1,298 @@
+cd dl/iso/
+nvim ln.dl 
+rm /run/media/hos/Ventoy/void-live-x86_64-musl-20221001-base.iso -f
+rsync --progress void-live-x86_64-20221001-base.iso /run/media/hos/Ventoy/
+btop
+lf /usr/share/themes/
+lf /usr/share/icons/
+lf /usr/share/fonts
+q
+cd .local/share/icons/
+nvim ~/.config/dunst/dunstrc
+cd Obsidian-Gr
+cd Obsidian-Gray/
+cls
+lf
+nsxiv */96 -R -o
+nsxiv */96 -r -o
+nsxiv ./*/96 -r -o
+nsxiv ./*/64 -r -o
+nsxiv . -r -o
+cd ../Obsidian
+cls
+nsxiv ./*/96 -r -o
+nsxiv `find $PWD -iname '*bright\|light*' | grep '/96/'` -r -o
+nsxiv `find $PWD -iname '*bright\|light*' | grep '/96/'` -o
+find $PWD -iname '*bright\|light*' | grep '/96/'
+nsxiv `find $PWD -iname '*bright*' | grep '/96/'` -r -o
+..
+ls Obsidian*
+ls Obsidian*/places/96/folder*
+nsxiv -o Obsidian*/places/96/folder.svg
+nvim `which dmvirt.sh`
+nvim ~/.config/dunst/dunstrc 
+nvim `which dmlight.sh`
+nvim `which dmbright.sh`
+nvim ~/.config/dunst/dunstrc 
+nvim `which dmbright.sh`
+q
+acpi
+brightnessctl 
+ls /sys/class/backlight/intel_backlight/
+cat /sys/class/backlight/intel_backlight/actual_brightness 
+cat /sys/class/backlight/intel_backlight/brightness 
+cat /sys/class/backlight/intel_backlight/max_brightness 
+bc
+c
+cat /sys/class/backlight/intel_backlight/max_brightness 
+cat /sys/class/backlight/intel_backlight/actual_brightness 
+cat /sys/class/backlight/intel_backlight/brightness 
+ls -l /sys/class/backlight/intel_backlight/*brightness 
+vim /sys/class/backlight/intel_backlight/brightness 
+q
+bc
+cd /sys/class/power_supply/BAT1
+ls
+cat status \
+cat status 
+cat charge_now 
+cat present 
+lf
+which lf
+cls
+clear; ls -lhG
+clear; ls -lhGF
+clear; ls -lhGF --list-directories-first
+clear; ls -lhGF --group-directories-first
+cat *_now
+xrate.sh 
+cd tmp
+sed 's/-[0-9].*//' void-pkgs.list 
+sed 's/-[0-9].*//' void-pkgs.list | grep -v '^#'
+vim void-pkgs.list 
+sed 's/-[0-9].*//' void-pkgs.list | grep -v '^#'
+sudo xbps-install `sed 's/-[0-9].*//' void-pkgs.list | grep -v '^#'`
+vim void-pkgs.list 
+sudo xbps-install `sed 's/-[0-9].*//' void-pkgs.list | grep -v '^#'`
+vim void-pkgs.list 
+sudo xbps-install `sed 's/-[0-9].*//' void-pkgs.list | grep -v '^#'`
+vim void-pkgs.list 
+sudo xbps-install `sed 's/-[0-9].*//' void-pkgs.list | grep -v '^#'`
+ls ../root/etc/v2ray/
+sudo xbps-install -S
+sudo xbps-install -Syu
+sudo xbps-install `cat tmp/void-pkgs.list`
+vim
+vi tmp/void-pkgs.list 
+`which vi` tmp/void-pkgs.list 
+sudo xbps-install vim
+sudo xbps-install -S
+grep '-[0-9]' tmp/void-pkgs.list 
+grep -- '-[0-9]' tmp/void-pkgs.list 
+grep -- '-[0-9].*$' tmp/void-pkgs.list 
+sed 's/-[0-9].*$//' tmp/void-pkgs.list | less
+sudo xbps-install `sed 's/-[0-9].*$//' tmp/void-pkgs.list`
+sudo xbps-install `sed 's/-[0-9].*$//' tmp/void-pkgs.list | wc -l`
+sudo xbps-install `sed 's/-[0-9].*$//' tmp/void-pkgs.list`
+sudo xbps-install `sed 's/-[0-9].*$//' tmp/void-pkgs.list` | less
+vim
+sudo xbps-install vim
+vim tmp/void-pkgs.list 
+vi tmp/void-pkgs.list 
+xbps-query -l | wc -l
+sudo xbps-install `sed 's/-[0-9].*$//' tmp/void-pkgs.list` | head
+cd tmp
+grep texlive void-pkgs.list 
+sudo xbps-install `sed 's/-[0-9].*$//' tmp/void-pkgs.list` | less
+sudo xbps-install `sed 's/-[0-9].*$//' ~/tmp/void-pkgs.list` | less
+sudo xbps-install `sed 's/-[0-9].*$//' ~/tmp/void-pkgs.list` 
+sudo xbps-install xorg-minimal xwallpaper xcompmgr
+cd ~/dev/hossein-lap/workflow/suckless/
+ls
+sudo xbps-install `cat deps.txt`
+vi deps.txt 
+sudo xbps-install `grep -v '^#' deps.txt`
+./make.sh 
+sudo xbps-install make pkg-conf
+sudo xbps-install make pkg-config
+./make.sh 
+sudo xbps-install gcc
+./make.sh 
+xbps-query -Rs libjpeg
+sudo xbps-install libjpeg-turbo-devel
+./make.sh 
+nvim deps.txt 
+vim deps.txt 
+cd ../../suckless/st
+make clean; make; sudo make install
+cd
+x
+alsamixer 
+x
+pulsemixer 
+pandoc -v
+nvim ~/.config/zathura/zathurarc 
+ls screen/shots/
+lf screen/shots/
+nvim `which dmshot.sh`
+q
+xbps-query -Rs xdpyinfo
+sudo xbps-install xdpyinfo
+xbps-query -l | wc -l
+irssi
+xbps-query -l | wc -l
+sudo xbps-install telegram-desktop
+sudo xbps-install telegram-desktop | less
+sudo xbps-install telegram-desktop
+pulsemixer 
+xbps-query -Rs libvirt
+sudo xbps-install libvirt
+sudo xbps-query -Rs network-manager
+sudo xbps-install texlive-bin
+lf vid/
+fc-list | grep Sahel
+ls .config/
+cd .config/
+ls ~/dev/hossein-lap/workflow/config/fontconfig/fonts.conf 
+ls ~/dev/hossein-lap/workflow/config/fontconfig/conf.d/
+ln -s ~/dev/hossein-lap/workflow/config/fontconfig
+sudo xbps-install -Sy git
+nvim ~/.config/nvim/lua/plugin/init.lua 
+rm ~/.local/share/nvim/
+rm ~/.local/share/nvim/ -r
+rm ~/.local/share/nvim/ -rf
+nvim
+dmvirt.sh 
+ssh hos@localhost -p 2222
+cd ~/dev/hossein-lap/workflow/scripts/
+cd ~/vm/qemu/void/share/
+..
+cls
+nvim ssh 
+sudo vim /etc/proxychains.conf 
+nvim ~/.config/nvim/lua/plugin/mason/init.lua 
+nvim /tmp/test.sh
+nvim ~/.config/nvim/lua/plugin/mason/init.lua 
+vim ~/.config/nvim/lua/plugin/init.lua 
+rm ~/.config/nvim/lua/plugin/mason/tools.lua 
+vim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim ~/.config/nvim/lua/plugin/mason/
+nvim ~/.config/nvim/lua/plugin/mason/init.lua 
+proxychains4 -q nvim
+lf ~/.local/share/nvim/mason
+proxychains4 -q nvim
+nvim /tmp/test.txt
+nvim /tmp/test.md
+nvim /tmp/test.lua
+nvim ~/.config/nvim/lua/module/netrw.lua 
+take /tmp/test
+mv ../test.* .
+nvim .
+fg
+nvim .
+q
+nvim /tmp/test.tex
+vim /tmp/test.tex
+cd ~/.config/nvim/lua/plugin/
+cls
+nvim mason/tools.lua 
+proxychains4 -q nvim
+nvim mason/init.lua 
+q
+fc-cache 
+fc-cache -f
+lf uni/os-lab/
+sudo mount ~/arch/texlive/texlive2023.iso /mnt/ho
+sudo mount ~/arch/texlive/texlive2023.iso /mnt/
+cd /mnt
+cls
+sudo ./install-tl
+cd /usr/local/
+ls
+sudo rm -rf texlive/
+cd -
+sudo ./install-tl
+nload
+btop
+nvim /tmp/test.txt
+xbps-query -Rs nodejs
+sudo xbps-install nodejs
+nvim /tmp/test.lua
+q
+x
+cls
+lf
+aria2c 
+sudo cp ../root/etc/v2ray/config.json /etc/v2ray/config.json 
+sudo sv restart v2ray
+sudo ln -s /etc/sv/v2ray/ /var/service/
+cd /etc/sv
+cls
+cl
+nmtui
+cd /var/service
+cl
+ln -s /etc/sv/{dbus, sulogin/ socklog-unix/ libvirt sshd/ polkitd/ mpd/ elogind/
+sudo ln -s /etc/sv/{dbus,sulogin,socklog-unix,libvirt,sshd,polkitd,mpd,elogind}/ /var/service/
+cl /etc/sv/
+cat /etc/profile
+source /etc/profile
+tlmgr update --self
+sudo tlmgr update --self
+sudo sv restart v2ray
+ip -c a
+nmtui
+xbps-query -Rs Network
+xbps-query -Rs NetworkManager
+sudo xbps-install NetworkManager 
+sudo tlmgr update --self
+sudo tlmgr scheme-full
+sudo tlmgr --list schemes
+sudo tlmgr --list scheme
+sudo tlmgr info --list schemes
+fc-list | grep Vazir
+fc-list | grep sah
+find / -iname 'sahel.*.ttf' 2>/dev/null
+xbps-query -Rs kateb
+cd ~/.local/share/fonts/
+cls
+lf
+ls /home/root/usr/share/fonts/
+ls /home/root/home/.local/share/fonts/
+lf /home/root/home/.local/share/fonts/
+fc-cache 
+lf ~/vid/
+pass ls
+pass ls mail/gmail/hos*
+echo pass edit mail/gmail/hossein.cs.games
+echo sudo tlmgr install collection-xetex
+man tlmgr
+tlmgr
+s
+tlmg
+sudo tlmgr install collection-xetex
+. /etc/profile
+man tlmgr
+sudo makewhatis /opt/texlive/2023/texmf-dist/doc/man; sudo xbps-remove -R texlive-bin 
+cd dl/iso/
+nvim ln.dl 
+vim ~/dl.s
+vim dl.sh 
+mv texlive2023.iso ~/arch/iso/
+take ~/arch/texlive
+mv ../iso/texlive202*.iso .
+dmusb.sh 
+زمس
+cl
+cls
+du -h
+du -h *
+xbps-query -Rs open | grep arena | fzf
+xbps-query -Rs openarena
+cls
+dmvirt.sh 
+xbps-query -l | grep lua-lan
+btop
+nvim
+q

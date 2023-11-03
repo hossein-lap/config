@@ -1,0 +1,7 @@
+q
+cd .config/nvim/lua/module/
+t
+nvim sudo.lua 
+q
+nvim /tmp/test.ts 
+q

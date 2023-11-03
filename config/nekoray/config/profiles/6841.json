@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "amin.blogmmd.com",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @v2_team | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "254a1bfd-4200-4bc3-a301-8f6806b957d4",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "SrIriv7MjDIKFX9o5hPZqwjEuuGaqhsjrnSloV0DkhY",
+            "sec": "tls",
+            "sid": "a91552f9",
+            "sni": "www.cdn77.com",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 1,
+    "id": 6841,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

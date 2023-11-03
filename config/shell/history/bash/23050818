@@ -1,0 +1,41 @@
+clear
+man zellij 
+q
+zellij 
+c
+take .config/zellij
+cls
+zellij setup --dump-config > config.kdl
+nvim config.kdl 
+c
+echo $TERM
+s
+nvim config.kdl 
+echo $TERM
+c
+vim config.kdl 
+q
+nvim /tmp/test.c 
+nano /tmp/test.c 
+c
+man dvtm
+c
+zellij 
+c
+nvim
+c
+q
+cd .config/zellij/
+cls
+nvim config.kdl 
+man dvtm
+abduco 
+dvtm
+nvim config.kdl 
+nvim /tmp/test.c 
+xbps-remove -R lxterminal
+sudo xbps-remove -R lxterminal
+sudo xbps-remove -o
+xbps-query -l | wc -l
+c
+q

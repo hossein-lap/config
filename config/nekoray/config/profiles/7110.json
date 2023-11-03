@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.24.177.7",
+        "name": "رایگان | VLESS | @v2ray_swhil | RELAY🚩 | 0️⃣1️⃣",
+        "pass": "9cf47438-4a75-47bf-8f86-102644470797",
+        "port": 2053,
+        "stream": {
+            "ed_len": 0,
+            "host": "nl16.vlessx.us",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048",
+            "sec": "tls",
+            "sni": "nl16.vlessx.us",
+            "utls": "randomized"
+        }
+    },
+    "gid": 1,
+    "id": 7110,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

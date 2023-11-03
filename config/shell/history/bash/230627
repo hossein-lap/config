@@ -1,0 +1,341 @@
+pulsemixer 
+make clean; make; sudo make install
+c
+grep ' sel_.g' bg/orange.h 
+grep ' sel_.g\| focus_.g' bg/orange.h 
+grep ' sel_.g\| focus_.g' bg/orange.h | sed -e 's/focus/high_normal/' -e 's/sel_/high_&'
+grep ' sel_.g\| focus_.g' bg/orange.h | sed -e 's/focus/high_normal/' -e 's/sel_/high_&/'
+..
+make clean; make; sudo make install
+make clean && make && sudo make install
+ls | dmenu -p test -l 10 -c -bw 2 
+cd colors/
+find $PWD -iname '*.h'
+find $PWD -iname '*.h' | grep default.h
+find $PWD -iname '*.h' | grep -v default.h
+tail -n 4 default.h 
+for i in `find $PWD -iname '*.h' | grep -v default.h`; do tail -n 4 default.h  >> "${i}"; done
+nvim find $PWD -iname '*.h' | grep -v default.h
+nvim `find $PWD -iname '*.h' | grep -v default.h`
+nvim `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`
+head -n 5 default.h 
+head -n 6 default.h 
+head -n 7 default.h 
+head -n 6 default.h 
+head -n 6 bg/orange.h 
+head -n 6 fg/orange.h 
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`; do head -n 6 "${i}" > "${i}"; done
+nvim `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`
+git restore --source=HEAD `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`
+nvim `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`; do cat "${i}" | grep ' sel_.g\| focus_.g' | sed -e 's/focus/high_normal/' -e 's/sel_/high_&/'; done 
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`; do cat "${i}" | grep ' sel_.g\| focus_.g' | sed -e 's/focus/high_normal/' -e 's/sel_/high_&/'; echo; done > tmp.h
+nvim tmp.h 
+sed -i 's/\t/    /g' `find $PWD -iname '*.h'`
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`; do cat "${i}" | grep ' sel_.g\| focus_.g' | sed -e 's/focus/high_normal/' -e 's/sel_/high_&/'; echo; done > tmp.h
+nvim tmp.h 
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h'`; do cat "${i}" | grep ' sel_.g\| focus_.g' | sed -e 's/focus/high_normal/' -e 's/sel_/high_&/' >> "${i}" ; done
+nvim default.h bg/orange.h 
+find $PWD -iname '*.h' | grep -v 'bg/orange.h\|default.h'
+git restore --source=HEAD `find $PWD -iname '*.h' | grep -v 'bg/orange.h\|default.h\|solarized-dark'`
+rm tmp.h 
+git restore --source=HEAD `find $PWD -iname '*.h' | grep -v 'bg/orange.h\|default.h\|solarized-dark'`
+cls
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h\|solarized-dark'`; do cat "${i}" | grep ' sel_.g\| focus_.g' | sed -e 's/focus/high_sel/' -e 's/sel_/high_normal/' >> "${i}" ; done
+nvim bg/*.h
+sed -i 's/\t/    /g' `find $PWD -iname '*.h'`
+nvim bg/*.h
+git restore --source=HEAD `find $PWD -iname '*.h' | grep -v 'bg/orange.h\|default.h\|solarized-dark'`
+sed -i 's/\t/    /g' `find $PWD -iname '*.h'`
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h\|solarized-dark'`; do cat "${i}" | grep ' sel_.g\| focus_.g' | sed -e 's/focus/high_sel/' -e 's/sel/high_normal/' >> "${i}" ; done
+nvim bg/*.h
+git restore --source=HEAD `find $PWD -iname '*.h' | grep -v 'bg/orange.h\|default.h\|solarized-dark'`
+sed -i 's/\t/    /g' `find $PWD -iname '*.h'`
+nvim bg/*.h
+cd bg/
+grep ' focus_\| sel_' | sed -e 's/focus/high_sel/' -e 's/sel/high_normal/' blue.h 
+grep ' focus_{f,b}g\| sel_{f,b}g' | sed -e 's/focus/high_sel/' -e 's/sel/high_normal/' blue.h 
+nvim blue.h 
+grep ' focus_{f,b}g\| sel_{f,b}g' blue.h | sed -e 's/focus/high_sel/' -e 's/sel/high_normal/'
+grep ' focus_\| sel_' blue.h | sed -e 's/focus/high_sel/' -e 's/sel/high_normal/'
+grep ' focus_\| sel_' blue.h | sed -e 's/focus/high_sel/' -e 's/ sel/high_normal/'
+grep ' focus_\| sel_' blue.h | sed -e 's/focus/high_sel/' -e 's/ sel/ high_normal/'
+grep ' focus_\| sel_' blue.h | sed -e 's/ focus/ high_sel/' -e 's/ sel/ high_normal/'
+grep ' focus_\| sel_' blue.h
+grep ' focus_\| sel_' blue.h | sed -e 's/ focus_/ high_sel_/' -e 's/ sel/ high_normal/'
+grep ' focus_\| sel_' blue.h | sed -e 's/ focus/ high_sel/' -e 's/ sel/ high_normal/'
+..
+for i in `find $PWD -iname '*.h' | grep -v 'default.h\|bg/orange.h\|solarized-dark'`; do cat "${i}" | grep ' sel_.g\| focus_.g' | sed -e 's/ focus/ high_sel/' -e 's/ sel/ high_normal/' >> "${i}" ; done
+nvim bg/*.h
+nvim fg/*.h
+nvim solarized-dark.h 
+q
+make clean && make && sudo make install
+nvim bg/orange.h 
+nvim /data/dev/hossein-lap/vim-colors/vim-octave/colors/octave.vim 
+cls
+nvim new-scheme.lua 
+lat regen_colors.sh 
+nvim new-scheme.lua 
+nvim regen_colors.sh 
+nvim new-scheme.lua 
+nvim regen_colors.sh 
+gss .
+git add .
+git commit -m 'better styles'
+git push
+q
+cd /data/dev/hossein-lap/workflow/dw
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+make clean && make && sudo make install
+q
+lf screen/record/
+nvim /tmp/test.md
+nvim .config/nvim/init.lua 
+nvim /tmp/test.md
+nvim .config/nvim/init.lua 
+nvim /tmp/test.md
+q
+pulsemixer 
+lf vid/
+q
+nvim /tmp/test.py
+lf doc/tools/
+q
+mpv screen/record/lf-zathura-230627_145304.mkv 
+cls
+cl
+q
+nvim config.def.h 
+grep SchemeSel *.{c,h}
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+date
+q
+sh
+file --mime-type -b bsd-style.md 
+file --mime-type -b bsd-style.pdf 
+lf
+file  --dereference --brief --mime-type bsd-style.pdf 
+file  --dereference --brief --mime-type bsd-style.md
+man glo
+man glow
+glow --help
+lowdown -stterm bsd-style.md 
+c
+lf
+q
+ls daemon.json 
+jq daemon.json 
+cat daemon.json | jq
+file --mime-type daemon.json 
+file --mime-type daemon.json -b
+file --mime-type -b daemon.json
+file --mime-type -b *.md
+ls *.md
+nvim slides.md 
+jq < daemon.json 
+lf
+cd doc/
+cls
+lcs
+glow bsd-style.md 
+glow bsd-style.md  | head
+lf
+xbps-query -Rs tsser
+xbps-query -Rs typescript-la
+xbps-query -Rs typescript-
+xbps-query -Rs typescript
+xbps-query -Rs ts
+xbps-query -Rs javascript
+xbps-query -Rs javascript | fzf
+xbps-query -Rs lsp | fzf
+cd ~/.config/nvim
+nvim lua/plugin/init.lua 
+mkdir lua/plugin/autopairs
+nvim init.lua lua/plugin/autopairs/init.lua
+nvim lua/plugin/autopairs/init.lua
+nvim /tmp/test.go
+nvim /data/w/go/markdown/markdown.g
+nvim /data/w/go/markdown/markdown.go
+q
+cls
+sudo bash
+s
+cls
+lf
+cd
+cd /tmp/zsh-git/
+cls
+lf
+nvim test.c
+cls
+lf
+s; lf
+s; lf /tmp
+s; lf ~
+q
+cls ~/doc/
+q
+nvim /tmp/test.go
+nvim /data/w/go/markdown/markdown.go 
+nvim -c ':PackerClean'
+xbps-query -Rs vim-la
+xbps-query -Rs vim-
+mv .vim/colors/ .vim/colors.bak
+nvim .vim/vimrc 
+sudo xbps-install vim-huge vim-colorschemes gvim-huge
+s;lf
+s;lf /
+fg
+s
+lf
+lf /
+c; lf /
+q
+sudo dmesg | grep mt7921
+ls /usr/lib/firmware/mediatek
+xbps-query -l | grep linux-firm
+sudo xbps-install -S
+sudo xbps-query -Rs linux-firmware | fzf
+sudo xbps-remove -R linux-firmware-amd
+sudo xbps-install -Syu
+lspci | fzf
+lspci | less
+lspci | grep Netw 
+lspci | less -SR
+lspci -N | less -SR
+lspci -k | less -SR
+nvim .config/shell/bashrc
+nvim .config/lf/scope
+cd .config/lf/
+cp ~/dl/telegram-dl/icons icons.sh
+nvim icons.sh 
+nvim lfrc
+s
+lf
+nvim icons.sh 
+s
+lf
+q
+take /tmp/zsh-git
+c
+zsh
+cd -
+q
+xbps-query -Rs texlab
+xbps-query -Rs bash-lang
+xbps-query -Rs lua-lang
+cd .config/nvim/
+lf ~/screen/shots/
+cd /data/dev/hossein-lap/powermore-zsh/
+cls
+gls
+gss .
+zsh
+cd
+zsh
+q
+make clean; make; sudo make install
+for i in `cat fav_emoji.txt`; do echo "${i}"; done
+for i in `cat fav_emoji.txt`; do grep "${i}" emoji.txt; done
+for i in `cat fav_emoji.txt`; do grep "${i}" emoji.txt; done > fav_em.txt
+mv fav_em fav_emoji.txt 
+mv fav_em.txt fav_emoji.txt 
+alias gss
+pulsemixer 
+cd /var/log
+ls
+cd socklog/
+sudo bash
+cd ~/.config/lutris/
+cd ~/.config/nvim
+cls
+du -h undodir/
+lf lua/plugin/
+man mpc
+alias mpv
+find /data/mus/ -iname '*na*dige*'
+mpv /data/mus/Tik-Taak-Na-Dige-Na-(Ft-IDa)-320.mp3
+mpv '/data/mus/Tik-Taak-Na-Dige-Na-(Ft-IDa)-320.mp3'
+mpv --loop '/data/mus/Tik-Taak-Na-Dige-Na-(Ft-IDa)-320.mp3'
+mpv --loop '/data/mus/Tik-Taak-Na-Dige-Na-(Ft-IDa)-320.mp3' --no-audio-display
+mpv --loop "$(ls /data/mus | fzf)" --no-audio-display
+mpv --loop "/data/mus/$(ls /data/mus | fzf)" --no-audio-display
+mpv --loop "/data/mus/$(ls /data/mus | fzf)"
+mpv --loop "/data/mus/$(ls /data/mus | fzf)" --display-audio
+man mpv
+mpv --loop "/data/mus/$(ls /data/mus | fzf)" --audio-display
+mpv --loop "/data/mus/$(ls /data/mus | fzf)" --audio-display=true
+mpv --loop "/data/mus/$(ls /data/mus | fzf)" --audio-display=external-first
+mpv --loop '/data/mus/Tik-Taak-Na-Dige-Na-(Ft-IDa)-320.mp3' --no-audio-display
+lf /
+c; lf /
+c;s; lf /
+lf /
+lf
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+cd /data/dev/hossein-lap/workflow/scripts/
+man mpv
+nvim dm*.sh
+for i in `ls dm*.sh`; do grep prompt= "${i}" | fzf; done
+for i in `ls dm*.sh`; do grep '^prompt=' "${i}" | fzf; done
+for i in `ls dm*.sh`; do grep '^prompt=' "${i}" | fzf --header="${i}"; done
+nvim conv.sh
+nvim dm*.sh
+grep patched= dm*.sh | grep -- -t
+grep patched dm*.sh | grep -- -t
+grep patches dm*.sh | grep -- -t
+grep patch dm*.sh | grep -- -t
+sed -i 's/ -t .*/"/' dm*.sh
+grep patch dm*.sh | grep -- -t
+grep patch dm*.sh
+grep patche.= dm*.sh
+nvim dmusb.sh 
+for i in `ls dm*.sh`; do echo $i | sed 's/^dm/fz/'; done
+for i in `grep -c fzf dm*.sh`; do echo $i | sed 's/^dm/fz/'; done
+for i in `grep -c fzf dm*.sh | awk -F ':' '{print $1;}'`; do echo $i | sed 's/^dm/fz/'; done
+for i in `grep -c fzf dm*.sh | awk -F ':' '{print $1;}' | sort -u`; do echo $i | sed 's/^dm/fz/'; done
+man fzf
+nvim .config/lf/icons.sh 
+q
+sxwall.sh 
+q
+pulsemixer 
+c; unix
+q
+nvim /data/w/lua/
+find $PWD -name ldoc
+find $PWD -name ldoc 2>/dev/null
+find $PWD -name lroff 2>/dev/null
+find $PWD -name ltex 2>/dev/null
+find $PWD -name '*.lua' 2>/dev/null | fzf
+find $PWD -name '*.lua' 2>/dev/null | grep -v nvim | fzf
+find $PWD -name '*.lua' 2>/dev/null | grep -v 'nvim\|lua-lang' | fzf
+find $PWD -name '*.lua' 2>/dev/null | grep -v 'nvim\|lua-lang\|emacs' | fzf
+find $PWD -name '*.lua' 2>/dev/null | grep -v 'nvim\|lua-lang\|emacs\|awesome' | fzf
+find /data -name '*.lua' 2>/dev/null | grep -v 'nvim\|lua-lang\|emacs\|awesome' | fzf
+cd /data/dev/soda-sh/ldoc/
+cls
+cd ldoc/
+cls
+..
+cls
+nvim ldoc/init.lua 
+q
+xbps-query -Rs record | fzf
+q
+lf
+c;s; lf
+lf vid/
+nvim ~/.config/lf/icons.sh 
+c;s;
+lf vid/
+nvim ~/.config/lf/icons.sh 
+q
+lf
+lf uni/
+q
+x

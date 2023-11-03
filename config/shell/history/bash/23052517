@@ -1,0 +1,18 @@
+imappend.sh "`nsxiv -o .`"
+imappend.sh "`nsxiv -o $PWD`"
+cls
+imappend.sh shot-221103_200650.png shot-221106_201829.png
+sxiv screenshots_merged_230525_170721.png 
+imappend.sh shot-230220_223002.png shot-230220_223103.png
+sxiv screenshots_merged_230525_170737.png 
+q
+cls
+imshadow.sh shot-2*.png
+q
+imappend.sh *.png
+q
+svix .
+sxiv . -o
+q
+sxiv . -o
+q

@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "jointov2kingchannel.v2vol.online",
+        "name": "رایگان | VLESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣8️⃣",
+        "pass": "15bfe4c7-0b6f-4bc2-b966-9cf15d1fc7d4",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@v2kingconfigBot",
+            "sec": "tls",
+            "sni": "jointov2kingchannel.v2vol.online",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3648,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

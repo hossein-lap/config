@@ -1,0 +1,42 @@
+cls
+nivm
+nvim
+vim
+:q
+cd /usr/share/kubectl/
+cd /usr/share/
+find / -iname kubectl 2>/dev/null
+clear
+zsh
+clear
+man kitty
+xbps-query -Rs wine-mono
+sudo xbps-install -Sy wine-mono
+q
+xbps-query -Rs igd
+xbps-query -Rs volk
+xbps-query -Rs vulk
+clear; xbps-query -Rs vulkan
+clear; xbps-query -Rs مهذvulkan
+clear; xbps-query -Rs libvulkan
+clear; xbps-query -Rs vulkan
+sudo xbps-install $(xbps-query -Rs vulkan | fzf -m | awk '{print $2;}')
+sudo xbps-install $(xbps-query -Rs nvidia | fzf -m | awk '{print $2;}')
+sudo xbps-install $(xbps-query -Rs vulkan | fzf -m | awk '{print $2;}')
+cat /etc/os-release 
+dmusb.sh 
+cat /run/media/hos/arch/etc/os
+cat /run/media/hos/arch/etc/os-release 
+cat /etc/os-release 
+cd /data/deb/games/wine-games/games/generals-1-and-zh/Archive/
+cls
+sudo mount generals-1-cd-2.iso /mnt -o loop
+sudo mount generals-1-cd-2.iso /mnt/12 -o loop
+sudo mount generals-1-cd-1.iso /mnt/11 -o loop
+sudo mount generals-zh-cd-1.iso /mnt/21 -o loop
+sudo mount generals-zh-cd-2.iso /mnt/22 -o loop
+cd ~/games/cc_generals/
+cls
+q
+neofetch 
+q

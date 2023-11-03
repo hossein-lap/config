@@ -1,0 +1,332 @@
+lf
+make clean; make; sudo make install
+make clean; make; sudo make install
+grep 'struct arg' *.{}c,h
+grep 'struct arg' *.{c,h}
+grep -n 'struct arg' *.{c,h}
+nvim slstatus.c
+q
+cd ../slstatus/
+cls
+pwd
+cls
+nvim config.def.h 
+t
+q
+cd -
+cd ../dwm/
+cls
+while true; do      (( 10#$(date +%s) % 60 )) || bottomdisp=$(date)
+    xsetroot -name "$(topbar);$bottomdisp";     sleep 1; done 
+while true; do (( 10#$(date +%s) % 60 )) || bottomdisp=$(date); xsetroot -name "$(topbar);$bottomdisp"; sleep 1; done 
+while true; do (( 10#$(date +%s) % 60 )) || bottomdisp=$(date); xsetroot -name "$(slstatus -s);$bottomdisp"; sleep 1; done 
+xsetroot -name "date; uname; whoami"
+xsetroot -name "`date`; `uname`; `whoami`"
+xsetroot -name "`date +%y%m%d %H%M%S`; `uname`; `whoami`"
+xsetroot -name "`date '+%y%m%d %H%M%S'`; `uname`; `whoami`"
+xsetroot -name "`date ' +%y%m%d %H%M%S '`; `uname`; `whoami`"
+xsetroot -name " `date '+%y%m%d %H%M%S'` ; `uname`; `whoami`"
+xsetroot -name " `date '+%y%m%d %H%M%S'` ; `uname` ; `whoami` "
+while true; do xsetroot -name " `date '+%y%m%d %H%M%S'` ; `uname` ; `whoami` "; sleep 1; done
+q
+make clean; make; sudo make install
+rawfetch.sh https://dwm.suckless.org/patches/alpha/dwm-fixborders-6.2.diff
+rawfetch.sh https://dwm.suckless.org/patches/exitmenu/dwm-exitmenu-6.3.diff
+rawfetch.sh https://dwm.suckless.org/patches/exitmenu/dwm-exitmenu-6.3.
+rawfetch.sh https://dwm.suckless.org/patches/extrabar/dwm-extrabar-6.2-20210930-a786211.diff
+cp dwm-extrabar-6.2-20210930-a786211.diff ../../../../workflow/suckless/dwm/patches/
+btop
+htop
+btop
+nvim ~/.xprofile 
+nvim /data/dev/hossein-lap/scripts/
+nvim /data/dev/hossein-lap/workflow/scripts/statusbars.sh
+cd /data/dev/hossein-lap/workflow/scripts/
+cd ~/.local/bin/
+ln -s /data/dev/hossein-lap/workflow/scripts/statusbars.sh 
+q
+slstatus -h
+slstatus -s all
+slstatus -s 
+man slstatus 
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+cd patches/
+rawfetch.sh https://dwm.suckless.org/patches/statusallmons/dwm-statusallmons-6.2.diff
+..
+nvim -o patches/dwm-statusallmons-6.2.diff 
+make clean; make; sudo make install
+cd patches/
+rawfetch.sh https://dwm.suckless.org/patches/multimon/dwm-multimon-4-status_all-6.4.patch
+nvim dwm-multimon-4-status_all-6.4.patch 
+mv dwm-multimon-4-status_all-6.4.patch dwm-multimon-4-status_all-6.4.diff
+nvim dwm-
+nvim dwm-multimon-4-status_all-6.4.diff 
+..
+gss .
+git add .
+git commit -m 'stable'
+patch -p1 < patches/dwm-multimon-4-status_all-6.4.diff 
+nvim *.rej
+make clean; make; sudo make install
+c
+nvim config.def.h
+..
+cls
+pwd
+cd ../../suckless
+cls
+git remote -v
+cd def
+cls
+touch pull.sh
+mv get.sh clone.sh
+nvim pull.sh 
+chmod pu
+chmod +x pull.sh 
+./pull.sh 
+nvim pull.sh 
+cls
+mkdir .tmp
+cp *.sh .tmp; cd .tmp
+cls
+./clone.sh 
+cls
+nvim pull.sh 
+nvim *.sh
+..
+lf
+cls
+nvim tmp.sh
+rm tmp.sh -f
+cls
+lf
+q
+nvim which `statusbars.sh`
+nvim `which statusbars.sh`
+nvim .xprofile `which statusbars.sh`
+q
+nvim `which allbars.sh`
+q
+nvim `which statusbars.sh`
+q
+free -m
+free -m | grep ^Mem
+free -m | awk '/^Mem/ {print $2"/"$3}'
+free -m | awk '/^Mem/ {print $3"/"$2}'
+free -h | awk '/^Mem/ {print $3"/"$2}'
+free -mh | awk '/^Mem/ {print $3"/"$2}'
+free -g | awk '/^Mem/ {print $3"/"$2}'
+df -h /
+man df
+slsbattery.sh 
+slsfrees.sh 
+nvim `which slsbattery.sh`
+clear
+slsdate.sh 
+sls
+slsslsf
+slsffmpeg.sh 
+nvim `which slsffmpeg.sh `
+q
+make clean; make; sudo make install
+rawfetch.sh https://dwm.suckless.org/patches/exitmenu/dwm-exitmenu-6.3.diff
+q
+readlink -f /sbin/init
+nvim config.def.h
+nvim
+printf '%c' "message"
+ls | dmenu -p 'tes (t)'
+echo "this is \"test\" and done"
+man yad
+ls | yad
+dmusb.sh 
+xbps-query -Rs arch-chroot
+xbps-query -Rs arch-install
+cls
+s
+cls
+c
+wmpid(){
+	wm_name=${WM}; 	tree="$(ps -o pid= --ppid $$)"; 	pids=$(echo "$tree" | tr ' ' '\n'); 	for pid in $pids; do 		cmd=$(ps -o args= $pid); 		if echo "$cmd" | grep -q "$wm_name"; then 			echo $pid; 			break; 		fi; 	done; }
+wmpid(){ 	wm_name=${1}; 	tree="$(ps -o pid= --ppid $$)"; 	pids=$(echo "$tree" | tr ' ' '\n'); 	for pid in $pids; do 		cmd=$(ps -o args= $pid); 		if echo "$cmd" | grep -q "$wm_name"; then 			echo $pid; 			break; 		fi; 	done; }
+wmpid dwm
+wmpid xinit
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+gss .
+git diff .
+git restore --source=HEAD .
+cd patches/
+cls
+rawfetch.sh https://dwm.suckless.org/patches/dualstatus/dwm-dualstatus-6.1.diff
+..
+patch -p1 < patches/dwm-dualstatus-6.1.diff 
+nvim *.rej
+make clean; make; sudo make install
+nvim *.rej
+nvim dwm.c
+lf
+make clean; make; sudo make install
+nvim `which dmexit.sh`
+pstree
+xbps-query -Rs pstree
+xbps-query ps
+xbps-query -Rs ps
+clear; xbps-query -Rs tree
+clear
+clear; xbps-query -Rs tree | grep 'ps\|tree' | less -SR
+nvim `which dmexit.sh`
+x
+q
+nvim `which slsbattery.sh`
+cd /data/dev/hossein-lap/workflow/suckless/slstatus/
+nvim config.def.h 
+make clean; make; sudo make install
+slstatus 
+nvim ~/.xprofile 
+cd ../dwm/
+gss .
+git restore --source=HEAD .
+patch -p1 < patches/dwm-extrabar-6.2-20210930-a786211.diff 
+nvim *.rej
+make clean; make; sudo make install
+q
+loginctl help
+q
+nvim `which dmexit.sh`
+q
+cd /data/dev/hossein-lap/workflow/suckless/slstatus/
+nvim config.def.h 
+make clean; make; sudo make install
+xbps-query -l | grep matrix
+gomatrix | lolcat
+gomatrix
+dmusb.sh 
+cls
+rsync --progress dl/iso/linuxmint-21.1-cinnamon-64bit.iso /run/media/hos/Ventoy/
+cd dl/iso/
+aria2c -c -x 16 -m 0 https://mirrors.seas.harvard.edu/linuxmint/stable/21.1/linuxmint-21.1-cinnamon-64bit.iso
+aria2c -c -x 16 -m 0 'https://mirrors.seas.harvard.edu/linuxmint/stable/21.1/linuxmint-21.1-cinnamon-64bit.iso'
+ls linuxmint-21.1-cinnamon-64bit.iso 
+nvim `which slsbattery.sh`
+frees.sh 
+frees.sh other
+free -m
+free -m | awf '/^Mem/ {print $NF" / 100";}' | bc 
+free -m | awk '/^Mem/ {print $NF" / 100";}' | bc 
+free -m | awk '/^Mem/ {print $NF"/"$2" * 100";}' | bc 
+free -m | awk '/^Mem/ {print $2"/"$NF" * 100";}' | bc 
+free -m | awk '/^Mem/ {print $2" / "$NF" * 100";}' | bc 
+dmusb.sh 
+dmusb.sh -a '-vf'
+cd /data/dev/hossein-lap/workflow/suckless/slstatus/
+nvim config.def.h 
+q
+x
+vim .xinitrc 
+x
+vim .xinitrc 
+x
+vim .xinitrc 
+x
+make clean; make; sudo make install
+randr.sh 2
+dmusb.sh \
+cd /run/media/hos/Ventoy/
+rm linuxmint-21.1-cinnamon-64bit.iso -f
+rsync --progress /home/hos/dl/iso/linuxmint-21-mate-64bit.iso .
+cd
+c
+cd /data/dev/hossein-lap/workflow/suckless/slstatus/
+nvim config.def.h 
+cd ../dwm/
+git diff .
+git restore --source=HEAD .
+make clean; make; sudo make install
+...
+cd ../suckless
+gss .
+cls
+neofetch; unix
+c
+neofetch; datestartup.sh 
+neofetch; startsay.sh 
+c
+neofetch
+xbps-query -Rs scrennfetch
+xbps-query -Rs screenfetch
+sudo xbps-install screenfetch
+sudo xbps-install screenFetch
+pfetch 
+screenfetch 
+startsay.sh 
+datestartup.sh 
+unix
+c;unix
+c
+c;unix
+unix
+c
+unix
+links ddg.gg
+export WINEESYNC=0
+lutris 
+lutris 
+find / -iname linuxmint 2>/dev/null | grep 20.3
+find / -iname '*mint*' 2>/dev/null | grep 20.3
+cd /data/arch/torrent-files/
+cls
+aria2c -c -m 0 linuxmint-20.3-xfce-64bit.iso.torrent 
+pwd
+lsblk
+c; lsblk
+find / -iname '*mint*' 2>/dev/null | grep 20.3
+find / -iname '*mint*' 2>/dev/null | grep 20.3; notify-send -u normal -a find Done
+echo' find / -iname '*mint*' 2>/dev/null | grep 20.3'; notify-send -u normal -a find Done
+find / -iname '*mint*' 2>/dev/null | grep 20.3; notify-send -u normal -a find Done
+xbps-query -Rs vulkan
+sudo xbps-install Vulkan-Tools
+sudo xbps-install Vulkan-Tools vulkan-loader
+sudo xbps-install Vulkan-Tools libvulkan.i686
+ulimit -Hn
+nvim /etc/security/limits.conf
+lf /run/media/hos/Ventoy/
+q
+x
+sudo xbps-query -Rs vulkan
+sudo xbps-install mesa-vulkan-overlay-layer-32bit-22.3.5_2 Vulkan-Tools-1.3.231.1_1 
+xbps-query -Rs vulkan 
+sudo xbps-install vkd3d-1.3_1 vkd3d-32bit-1.3_1 mesa-vulkan-overlay-layer-22.3.5_2 libspa-vulkan MangoHud-0.6.8_1
+cd /data/dev/void-packages/
+git pull
+git pull --ff-only
+..
+rm void-packages/ -rf
+gln https://github.com/void-linux/void-packages.git 
+cd /var/spool/mail/
+cls
+mail
+xbps-query -Rs mail
+xbps-query -Rs mail | less -SR
+cd /data/
+cls
+cls dl/
+cl dl
+..
+lf
+cd -
+lf
+cd arch/torrent-files/
+cls
+aria2c -c -m 0 linuxmint-20.3-xfce-64bit.iso.torrent 
+xbps-query -Rs mesa
+sudo xbps-install `xbps-query -Rs mesa | fzf -m --reverse | awk '{print $2;}'`
+xrate.sh 
+nvim `which randr.sh`
+ulimit -Hm
+lutris 
+xbps-query -Rs wine
+xbps-query -Rs proton
+sudo xbps-install protontricks winetricks wine-gecko wine-tools 
+sudo xbps-install -Sy protontricks winetricks wine-gecko wine-tools 
+q

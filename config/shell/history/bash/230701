@@ -1,0 +1,369 @@
+neofetch 
+echo $TERM
+xbps-query -Rs lem | fzf
+neofetch 
+...
+grep clang `find $PWD -name '*.lua'`
+grep clang `find $PWD -name '*.lua' | grep 'clangd.lua$'`
+grep clang `find $PWD -name '*.lua' | grep -v 'clangd.lua$'`
+sudo xbps-install rsync
+nanp
+nano
+mg ~/.Xresources
+zile ~/.Xresources
+sudo xbps-query -l urxvt
+sudo xbps-query -l | grep urxvt
+sudo xbps-remove -R xtrem urxvt-dibi
+sudo xbps-remove -R xtrem urxvt-bidi
+nvim ~/.Xresources
+sudo xbps-remove -o
+cd dl/iso/
+mv ~/arch/iso/texlive2022-20220321.iso ~/arch/iso/texlive2022.iso 
+nvim ln.dl 
+nvim dl.sh 
+q
+sudo xbps-install mpc mpd 
+sudo xbps-remove -R R
+sudo xbps-install nnn
+nnn
+xdg-settings --list
+xbps-query -Rs neovide
+irsii
+irssi
+x
+group
+groups
+sudo vi /etc/gshadow
+sudo reboot
+cd /etc/dbus-1/
+cls
+nvim -d system.conf system.conf.new-1.14.6_1 
+nvim -d session.conf*
+sudo vim /etc/gshadow
+sudo ln -s /etc/sv/dbus /var/service/
+loginctl reboot
+dbus-run-session 
+sudo dbus-run-session 
+sudo xbps-install -S openntpd
+sudo ln -s /etc/sv/ntpd /var/service/
+sudo sh -c 'xbps-install -S socklog-void; ln -s /etc/sv/socklog-unix /var/service/; ln -s /etc/sv/nanoklogd /var/service/'
+xbps-query -l | wc -l
+xbps-query -Rs cmd-pol
+xbps-query -Rs cmd-polkit
+xbps-query -Rs polkit
+sudo vim /etc/gshadow
+sudo vim /etc/shadow
+sudo vim /etc/passwd
+x
+dmusb.sh 
+loginctl reboot
+xbps-query -Rs dbus
+xbps-query -Rs dbus | fzf
+sudo xbps-install dbus-elogind dbus-elogind-x11 
+dmexit.sh 
+loginctl reboot -i
+loginctl reboot 
+loginctl 
+man
+man man
+sudo reboot
+x
+xbps-query -l | sc -l
+xbps-query -l | wc -l
+groff
+sudo xbps-install groff
+loginctl reboot
+init
+dmusb.sh 
+xbps-query -Rs exfat
+sudo mount /dev/sda1 /mnt/home/
+cd /mnt/home/
+sl
+ls 
+cd -
+xbps-query -l | grep exfat
+sudo xbps-query -Rs exfat
+sudo xbps-install exfatprogs
+dmusb.sh 
+ls /mnt/home/
+ls /mnt/root/
+dmusb.sh 
+udisksctl mount -b /dev/sda1
+sudo udisksctl mount -b /dev/sda1
+xbps-query -Rs freedesk
+xbps-query -Rs desktop | fzf
+xbps-query -Rs .
+xbps-query -Rs . | fzf
+xbps-query -Rs sesstion | fzf
+xbps-query -Rs session | fzf
+sudo xbps-install lxsession
+dmusb.sh 
+xbps-query -Rs ttya
+xbps-query -Rs pkt
+man polkit
+sudp makewhatis /usr/share/man
+sudo makewhatis /usr/share/man
+man polkit
+xbps-query -Rs libpol
+xbps-query -Rs polki
+xbps-query -Rs dmenu | fzf
+q
+ls /usr/share/polkit-1/
+ls /usr/share/polkit-1/actions/
+sudo xbps-remove -R lxsession
+cd /usr/share/polkit-1/actions/
+cls
+cd ../rules.d/
+..
+cls
+sudo bash
+x
+vi .xinitrc 
+dmusb.sh 
+btop
+free -m
+clear
+sudo mount /dev/sda1 /mnt
+sudo xbps-remove fuse-exfat
+sudo mount /dev/sda1 /mnt
+sudo umount /dev/sda1
+udisksctl mount -b /dev/sda1
+sudo xbps-remove lxsession dbus 
+sudo xbps-remove polkit
+xbps-query -l | wc -l
+history 
+dmusb.sh 
+cd /run/media/hos/Ventoy/
+rm debian-live-11.4.0-amd64-xfce.iso 
+rm `ls *.iso | fzf`
+ls -sh *.iso
+ls -sh *.iso | fzf | awk '{print $1;}'
+ls -sh *.iso | fzf | awk '{print $2;}'
+rm -fv `ls -sh *.iso | fzf | awk '{print $2;}'`
+sudo xbps-query -Rs exfat
+sudo xbps-install exfat-utils
+sudo xbps-remove -R exfatprogs
+sudo xbps-install exfat-utils
+dmusb.sh 
+xbps-query -l | grep exfat
+sudo xbps-install exfatprogs
+nvim .config/vi/vimrc 
+vi .config/vi/vimrc 
+lsblk
+cd /run/media/root/
+cd /run/media/hos/Ventoy/
+ls
+cat config-v2ray.txt 
+cls
+cd
+dmusb.sh 
+sudo xbps-remove exfatprogs
+sudo xbps-install exfat-utils
+dmusb.sh 
+lsblk
+dmusb.sh 
+echo rsync --progress /home/hos/dl/iso/{neon-user-20230629-0719.iso,debian-live-12.0.0-amd64-kde.iso}
+du -ch /home/hos/dl/iso/{neon-user-20230629-0719.iso,debian-live-12.0.0-amd64-kde.iso}
+rsync --progress /home/hos/dl/iso/{neon-user-20230629-0719.iso,debian-live-12.0.0-amd64-kde.iso} /run/media/hos/Ventoy/
+x
+vi .xinitrc 
+x
+vim .xinitrc 
+x
+make clean; make; sudo make install
+sudo xbps-install telegram-desktop
+r.sh telegram-desktop 
+rm -rf .local/share/TelegramDesktop/tdata/
+lf vid/
+cd ~/dev/hossein-lap/workflow/suckless/sent/
+nvim config.def.h 
+cd patches/
+wget https://tools.suckless.org/sent/patches/bilinear_scaling/sent-bilinearscaling-1.0.diff
+..
+gss .
+git diff .
+git add .
+git commit 
+gss .
+patch 
+patch -p1 < patches/sent-bilinearscaling-1.0.diff 
+make clean; make; sudo make install
+gss .
+git add .
+git commit 
+nvim ~/.vim/modules/sent.vim 
+nvim ~/.config/lf/icons.sh 
+q
+nvim config.def.h 
+gss .
+q
+btop
+sent pres
+r.sh zathura pres.pdf 
+sent pres
+mv pres.pdf pres-def.pdf
+sent pres
+mv pres.pdf pres-bilinear.pdf
+zathura pres-bilinear.pdf pres-def.pdf 
+du -h pres-bilinear.pdf pres-def.pdf 
+cls
+zathura *.pdf
+cls
+nvim pres
+cls
+nvim -d pres pres.txt
+rm pres.txt 
+ln -l pres.txt
+ln -s pres pres.txt
+nvim pres.txt 
+cls
+cp pres test.sent 
+nvim test.sent 
+lf
+s
+lf
+q
+cd doc/teach/groff/
+cls
+nsxiv tmp.png 
+cd ../../../uni/Documents/old/hoosh-mohasebati/pres/
+cls
+zathura pres.pdf 
+nvim pres
+sent pres
+nvim pres
+fg
+r.sh sent pres
+nvim pres
+vim pres.set
+vim pres.st
+vim pres.sent
+nvim pres.sent
+cd ~/.config/nvim
+cls
+nvim init.lua 
+q
+cp -r ../root/home/.local/share/TelegramDesktop/tdata/ .local/share/TelegramDesktop/
+lf mus/
+q
+cd vm/qemu/void/
+cls
+cat port 
+ls share/
+xbps-query -Rs ssh
+xbps-query -Rs openssh
+cls
+sudo mount ~/arch/iso/texlive2022.iso /mnt/home/
+cd /mnt/home
+./install-tl
+sudo ./install-tl
+xelate
+xelatex
+sudo ./install-tl
+xelaex
+find / -name xelatex 2>/dev/null
+s
+xelatex
+cd /usr/local/texlive/2022/bin/x86_64-linux/
+./xelatex
+cls
+...
+..
+ls
+pwd
+sudo rm -rf texlive/
+ls bin/
+cls
+ls share/
+sudo xbps-install texlive-bin
+ls pub/share/void/
+ls /usr/share/applications/qemu.desktop 
+vim /usr/share/applications/qemu.desktop 
+history 
+history  | grep sshfs
+grep sshfs ~/.config/shell/history/bash/*
+ls pub/
+ls pub/share/void/
+ls pub/share/void/ -a
+ls
+cd pub/share/void/
+ls
+ssh hos@localhost -p 2222
+ssh hos@localhost -p 22
+nvim ~/.ssh/known_hosts
+ping 127.0.0.1:2222
+ping 127.0.0.1 -p 2222
+ping localhost -p 2222
+ls 
+pwd
+sudo xbps-install pandoc
+nvim ~/.config/pandoc/defaults/fa/fa.yaml 
+pdflatex
+cls
+pwdf
+pwd
+ip -c a
+ssh hos@localhost
+ssh hos@localhost -p 2222
+ssh hos@localhost -p 22
+ssh hos@localhost -p 2222
+nvim /tmp/test.tex
+xbps-query -Rs texlive
+xbps-query -Rs texlive | fzf 
+nvim ~/.config/shell/bashrc
+s
+xelatex
+s
+source /etc/pro
+source /etc/profile
+man tmlgr
+tlmgr 
+tlmgr --help
+filget
+figlet 
+figlet -f 
+ls /usr/share/figlet/
+for i in `ls /usr/share/figlet/*.flf`; do j=$(echo ${i} | sed 's/.flf$//'); echo ${j}; figlet -f ${j} ${j}; read tmpvar; unset tmpvar; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//'); echo ${j}; figlet -f ${j} ${j}; read tmpvar; unset tmpvar; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; figlet -f ${j} ${j}; read tmpvar; unset tmpvar; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; echo ""; figlet -f ${j} ${j}; read tmpvar; unset tmpvar; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; echo ""; figlet -f ${j} DOOM NVIM; read tmpvar; unset tmpvar; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; echo ""; figlet -f ${j} DOOM ''  NVIM; read tmpvar; unset tmpvar; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; echo ""; figlet -f ${j} DOOM; echo ""; figlet -f ${j} NVIM; read tmpvar; unset tmpvar; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; echo ""; { figlet -f ${j} DOOM; echo ""; figlet -f ${j} NVIM; } | fzf --reverse --border --header="${i}" done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; echo ""; { figlet -f ${j} DOOM; echo ""; figlet -f ${j} NVIM; } | fzf --reverse --border --header="${i}"; done
+for i in `ls /usr/share/figlet/*.flf`; do clear; j=$(echo ${i} | sed 's/.flf$//' | awk -F '/' '{print $NF;}'); echo ${j}; echo ""; { echo ''; figlet -f ${j} DOOM; echo ""; figlet -f ${j} NVIM; } | fzf --reverse --border --header="${j}"; done
+figlet -f doom NVIM
+figlet -f doom DOOM
+figlet -f doom NVIM\
+nvim `which dmvirt.sh`
+cd vm/qemu/void/
+cls
+nvim ssh 
+sudo sv restart sshd
+nvim ssh 
+./ssh 
+ssh hos@localhost -p 2222
+nvim ssh
+nvim -d run-*
+nvim ~/tmp/figlet-fonts-name.txt
+cd ~/.config/nvim
+cls
+nvim ftdetect/
+vim ~/.vim/modules/abreviation.vim 
+cd ~/.vim/
+grep vimscript *
+grep vimscript modules/*
+nvim modules/sent.vim 
+nvim ftdetect/
+nvim ftdetect/sent.vim 
+cd ~/.config/shell/history/bash/
+grep ssh *
+ssh ali@192.168.1.236
+ssh ali@127.0.0.22
+ssh hos@127.0.0.22
+ssh hos@127.0.0.2222
+xbps-query -l | wc -l
+xbps-query -l | fzf | awk '{print $2;}' > tmp/pkgs-void.list
+xbps-query -l | fzf | awk '{print $2;}' > ~/tmp/void-pkgs.list
+wc -l ~/tmp/void-pkgs.list 

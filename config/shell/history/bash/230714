@@ -1,0 +1,66 @@
+make clean; make; sudo make install
+nvim ~/dev/hossein-lap/suckless/st/config.def.h 
+lf ~/doc/notes/
+rm -rf ~/doc/notes/
+cd .vim/modules/
+cp simplestatus.vim ls.vim
+nvim ls.vim 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/after/plugin/lualine.lua 
+lf ~/.config/nvim/after/plugin/
+nvim -d *.lua
+rm lualine.lua 
+nvim
+cls
+vim /tmp/test.txt
+lf vid/
+q
+cls
+nvim pac-pres01.tex 
+q
+cd figs/
+cp /home/hos/screen/shots/shot-230714_181743.png all-arc-diag.png
+imshadow.sh all-arc-diag.png 
+cp /home/hos/screen/shots/shot-230714_182023.png cloud_native-arc-diag.png 
+imshadow.sh cloud_native-arc-diag.png 
+cp /home/hos/screen/shots/shot-230714_182954.png serverless-arc-diag.png
+imshadow.sh serverless-arc-diag.png 
+cp /home/hos/screen/shots/shot-230714_183122.png serverless-arc-diag.png 
+imshadow.sh serverless-arc-diag.png 
+cp /home/hos/screen/shots/shot-230714_182954.png serverless-arc-diag.png
+imshadow.sh serverless-arc-diag.png 
+cp /home/hos/screen/shots/shot-230714_185707.png define-ci.png
+imshadow.sh define-ci.png 
+cp /home/hos/screen/shots/shot-230714_191355.png define-c-deploy.png
+imshadow.sh define-c-deploy.png 
+mv define-c-deploy.png define-cdeploy.png 
+cp /home/hos/screen/shots/shot-230714_192708.png define-cdeliver.png
+imshadow.sh define-cdeliver.png 
+nvim
+nvim ~/.config/pandoc/defaults/beamer/en-manjaro.sty 
+q
+cd dev/hossein-lap/workflow/scripts/
+ls notetake.sh 
+nvim notetake.sh 
+nvim notebuild.sh 
+nvim notetake.sh 
+nvim notebuild.sh 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugin/lualine/init.lua 
+cd ~/.config/nvim/lua/plugin/lualine/
+ls ~/.config/nvim/after/plugin/scheme.lua 
+ls
+cp init.lua ~/.config/nvim/after/plugin/lualine.lua
+lf
+cd -
+nvim dmnotes.sh 
+cd ~/w/devops/pipeline-as-code/pres/01/
+cls
+t
+q
+cd dev/hossein-lap/workflow/scripts/
+nvim dmnotes.sh
+cd ~/doc/books/tools/
+lf
+q
+x

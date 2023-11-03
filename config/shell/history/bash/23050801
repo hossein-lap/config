@@ -1,0 +1,36 @@
+nvim -u lua/plugin/init.lua 
+q
+nvim init.lua lua/scheme/init.lua 
+vim init.lua lua/scheme/init.lua 
+nvim init.lua lua/scheme/init.lua 
+nvim init.lua lua/plugin/init.lua 
+take lua/plugin/harpoon
+nvim init.lua ../../../init.lua 
+nvim /tmp/test/hossein-lap/master/README.md init.lua 
+nvim ../../../init.lua 
+nvim /tmp/test/hossein-lap/master/README.md init.lua 
+nvim .
+...
+cd -
+cls
+mv init.lua init.lua.bak
+...
+mv plugin/harpoon/ plugin/.tmp/
+cls
+nvim plugin/init.lua 
+mkdir plugin/undotree
+nvim
+nvim ../init.lua plugin/undotree/init.lua
+nvim plugin/undotree/init.lua 
+ls ~/.vim/undodir/
+nvim module/main.lua 
+nvim plugin/init.lua 
+nvim .
+nvim module/netrw.lua 
+nvim plugin/symbols-outline/init.lua 
+nvim module/netrw.lua 
+nvim module/
+nvim ~/.vim/.gitignore 
+cls
+du -h ~/.vim/undodir/
+q

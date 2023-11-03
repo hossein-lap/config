@@ -1,0 +1,24 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "91.107.184.223",
+        "name": "رایگان | VLESS | @forwardv2ray | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "46745e8c-a4d6-4d24-8820-9af69bfc3496",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "h_type": "http",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        }
+    },
+    "gid": 1,
+    "id": 7171,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

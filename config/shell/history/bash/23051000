@@ -1,0 +1,71 @@
+xbps-query -Rs graph
+xbps-query -Rs graph-e
+xbps-query -Rs graphe
+xbps-query -Rs graph | less -SR
+xbps-query -Rs optifine
+xbps-query -Rs minecraft
+c
+xbps-query -Rs boxes
+find . -iname '*cache' 2>/dev/null
+c
+find . -iname '*cache' 2>/dev/null
+find . -iname '*cache' 2>/dev/null | less -SR
+xbps-query -Rs perl | less -SR
+cd /data/w/lua/
+take graph
+cls
+nvim t.md
+nvim graphit.lua
+nvim graphit.lua tmp.lua t.md 
+nvim todo.md
+cls
+nvim draw.txt
+fg
+nvim draw.txt
+vim draw.txt
+nvim draw.txt
+q
+nvim /tmp/t.sh
+nvim .config/nvim/lua/module/rce.lua
+nvim /tmp/t.sh
+env | grep GO
+ls .local/share/golang/
+go install github.com/maaslalani/slides@latest
+cd /data/dev/
+cls
+take build
+git clone https://github.com/maaslalani/slides.git
+cd slides/
+cls
+go build
+go install
+env | grep GO
+nvim ~/.config/shell/bashrc
+s
+go build
+go install
+cls
+cd ~/.local/share/golang/
+lf
+slide
+slides
+cls
+ls mod/
+ls mod/cache/
+ls mod/cache/download/
+...
+..
+cls
+rawfetch.sh https://raw.githubusercontent.com/maaslalani/slides/main/examples/slides.md
+slides slides.md 
+nvim slides.md 
+nvim .config/nvim/lua/plugin/init.lua 
+cd ~/.config/nvim/lua/plugin/
+take venn
+nvim ini
+nvim init.lua
+nvim ../../../init.lua 
+cd ~/.local/share/nvim/site/pack/packer/start/DrawIt/
+cls
+lf
+q

@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "fa1.bestvipserviceirr.xyz",
+        "name": "رایگان | REALITY | @ProxyForOpeta | FI🇫🇮 | 0️⃣2️⃣",
+        "pass": "19910995-0483-4d27-89f8-4eafb4b3aaef",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "Y1wCsng55FI_--0jRHiARiaiSUO79Kqj8rEZejYEGwk",
+            "sec": "tls",
+            "sid": "f849ec4d",
+            "sni": "discord.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7079,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

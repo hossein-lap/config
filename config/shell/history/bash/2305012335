@@ -1,0 +1,25 @@
+convert IP-fig-1-768x497.webp IP-fig-1-768x497.png
+..
+cp -r figs/ figs.bak
+cd figs
+imshadow.sh *
+..
+rm -rf figs
+cd figs.bak/
+cls
+rm IP-fig-1-768x497.webp -f
+cls
+for i in `ls *.jpg`; do convert $i ${i}.png; done
+cls
+rm *.jpg
+cls
+..
+cp -r figs.bak/ figs
+cd figs
+imshadow.sh *
+cls
+lf
+convert cancers-11-01673-g001-550.jpg cancers-11-01673-g001-550.png
+imshadow.sh cancers-11-01673-g001-550.png 
+nvim ~/.config/pandoc/defaults/beamer/fa-ubuntu.sty 
+q

@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "5.42.86.225",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @mahsa_amini2 | Donated | SE🇸🇪 | 0️⃣8️⃣",
+        "pass": "807e963c-e971-4264-bd4b-7a1a1f1bfc8c",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "b02OPlsmscjam5OQNZQNJbbdX9pPsgtCH43tEIXo5V8",
+            "sec": "tls",
+            "sid": "744ab81d842b1348",
+            "sni": "nachtzug.net",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3904,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": 1393
+}

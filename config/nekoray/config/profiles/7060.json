@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "panel23.bestvipserviceirr.xyz",
+        "name": "رایگان | REALITY | @iP_CF | NL🇳🇱 | 0️⃣2️⃣",
+        "pass": "38793aa7-d99e-4a9a-ad0c-92a16fdba916",
+        "port": 8443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "oUTGWHDpyGFqE9Hfd48l75w192X5ELLX94_D4UU-4kw",
+            "sec": "tls",
+            "sid": "70e13198",
+            "sni": "discord.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7060,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

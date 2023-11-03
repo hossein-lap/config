@@ -1,0 +1,347 @@
+man mpc
+q
+nvim `which slsextra.sh`
+q
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+cd /data/dev/hossein-lap/vim-colors/vim-octave/
+cls
+gss .
+gl
+gls
+nvim colors/octave.vim 
+..
+grep diffadd */*/colors/*.vim
+grep diffadd */colors/*.vim
+nvim ~/.vim/colors/octave.vim 
+ln -s ~/.vim/colors/octave.vim 
+ls -l ~/.vim/colors/octave.vim 
+cp /home/hos/.local/share/nvim/site/pack/packer/start/vim-octave/colors/octave.vim vim-octave/colors/octave.vim 
+cd -
+gss .
+git diff .
+git add .
+git commit 
+git push
+cls
+nsxiv screenshots/shot.png 
+sxwall.sh 
+..
+for i in `exa -D`; do cd $i ; gss . ; cd .. ; done
+for i in `exa -D`; do echo $i; cd $i ; gss . ; cd .. ; done
+c; for i in `exa -D`; do echo $i; cd $i ; gss . ; cd .. ; done
+c; for i in `exa -D`; do echo $i; cd $i ; git diff . ; cd .. ; done
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+ls -l ~/.config/ | grep nvim
+cd ../../../nvim
+pwd
+nvim lua/plugin/init.lua 
+q
+cd /data/dev/hossein-lap/workflow/suckless/dwm/
+nvim colors/dracula.h 
+nvim config.def.h 
+nvim ~/.config/nvim/init.lua 
+nvim config.def.h 
+nvim ~/.config/nvim/init.lua 
+q
+dmexit.sh 
+make clean; make; sudo make install
+make clean; make; sudo make install; make clean; make; sudo make install
+make clean; make; sudo make install && dmexit.sh 
+c
+make clean; make; sudo make install && dmexit.sh 
+q
+fc-list | grep -i sahel
+make clean; make; sudo make install
+cd ../dwm
+make clean; make; sudo make install
+cd -
+make clean; make; sudo make install
+cd -
+make clean; make; sudo make install
+ض
+q
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/
+nvim config.def.h 
+..
+nvim dwm/config.def.h 
+nvim dmenu/config.def.h 
+nvim dwm/config.def.h 
+make clean; make; sudo make install
+lsblk
+man fsck
+q
+xbps-query -Rs exfat
+sudo xbps-install exfat-utils
+sudo xbps-remove exfatprogs
+sudo xbps-install exfat-utils
+sudo xbps-install socklog
+sudo xbps-install socklog-void
+sudo ln -s /etc/sv/socklog-unix /var/service/
+sudo ln -s /etc/sv/nanoklogd /var/service/
+svlogtail 
+sudo svlogtail 
+ls /var/log/socklog/
+sudo ls /var/log/socklog/
+sudo tail -F /var/log/socklog/kernel
+sudo ls /var/log/socklog/kernel/
+sudo tail -F /var/log/socklog/kernel/current
+cd /data/dev/hossein-lap/suckless
+cls
+cd dmenu/
+cls
+gss .
+gls
+ls | ./dmenu -c
+gss .
+nvim Makefile 
+git diff Makefile
+nvim ../.gitignore
+less ../../workflow/suckless/.gitignore 
+cp ../../workflow/suckless/.gitignore ../.gitignore
+gss .
+git add .
+git commit -m 'better `make clean`'
+ls patch/
+cd ../st/
+cls
+gss .
+gls
+nvim patch/st-ligatures-alpha-scrollback-20230105-0.9.diff 
+cd .config/nvim
+nvim /tmp/test.c
+t
+q
+lf vid/shows/anime/
+q
+lf vid/shows/anime/
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/
+man wget
+wget -P patches/ https://tools.suckless.org/dmenu/patches/highlight/dmenu-highlight-4.9.diff
+cls
+make clean
+patch -p1 < patches/dmenu-highlight-4.9.diff 
+nvim *.rej
+nvim config.def.h
+make clean; make; sudo make install
+nvim colors/default.h 
+make clean; make; sudo make install
+nvim dmenu.c 
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+nvim config.def.h 
+nvim colors/default.h 
+nvim config.def.h 
+cd colors/
+nvim -O default.h bg/orange.h 
+make clean; make; sudo make install
+..
+nvim config.def.h 
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+nvim colors/bg/orange.h 
+make clean; make; sudo make install
+nvim config.def.h 
+make clean; make; sudo make install
+nvim colors/solarized-dark.h 
+nvim config.def.h 
+nvim colors/solarized-dark.h 
+make clean; make; sudo make install
+nvim colors/solarized-dark.h 
+nvim config.def.h 
+nvim colors/solarized-dark.h 
+nvim config.def.h 
+nvim colors/solarized-dark.h 
+nvim config.def.h 
+make clean; make; sudo make install
+nvim colors/bg/orange.h 
+nvim config.def.h 
+gss .
+git add .
+git commit -m 'applied highlight-4.9 patch'
+git push
+nvim config.def.h 
+make clean; make; sudo make install
+cd ../../scripts/
+grep 'bw .' dm*.sh
+sed 's/bw [34]/bw 2/' dm*.sh | grep 'bw .'
+sed -i 's/bw [34]/bw 2/' dm*.sh
+nvim /tmp/test.md
+nvim .q
+q
+sudo fsck -N /run/media/hos/Ventoy/
+sudo fsck -N /dev/sda1
+sudo fsck /dev/sda1
+sudo fsck -A
+sudo fsck 
+ls /run/media/hos/Ventoy/
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/patches/
+cls
+rawfetch.sh https://tools.suckless.org/dmenu/patches/multi-selection/dmenu-multi-selection-4.9.diff
+wget https://tools.suckless.org/dmenu/patches/multi-selection/dmenu_run.sh
+wget https://tools.suckless.org/dmenu/patches/fuzzymatch/dmenu-fuzzymatch-4.9.
+wget https://tools.suckless.org/dmenu/patches/fuzzymatch/dmenu-fuzzymatch-20170603-f428f3e.diff
+wget https://tools.suckless.org/dmenu/patches/printindex/dmenu-printindex-5.0.diff
+..
+cls
+gss .
+git diff .
+clear;
+cls
+make clean; make; sudo make install
+ls | dmenu -p multi -t test -c -bw 4 
+ls | dmenu -p multi -t test -c -bw 2 -l 10 -g 2
+make clean
+gss .
+cls
+git add .
+git commit 
+gss .
+cls
+gls
+c
+ls | dmenu -p multi -t test -c -bw 2 -l 10 -g 2
+gss .
+make clean
+git add .
+git commit -m 'applied fuzzymatch-4.9 patch'
+cls
+ls patches/
+patch -p1 < patches/dmenu-printindex-5.0.diff 
+nvim *.rej
+gss .
+gls
+git restore --source=HEAD .
+gss .
+cd ~/.config/nvim
+nvim lua/plugin/init.lua 
+nvim /tmp/test.wiki
+nvim /tmp/test.md
+vim /tmp/test.wiki
+vim /tmp/test.md
+vim /tmp/test.wiki
+vim /tmp/test.md
+nvim lua/plugin/init.lua 
+nvim lua/plugin/zenmode/init.lua
+nvim init.lua 
+nvim lua/plugin/zenmode/init.lua
+cd lua/plugin/
+ls zenmode/
+lc
+cls
+ls zenmode/
+cls
+lf
+nvim cmp/init.lua .tmp/lsp/init.lua 
+nvim ../../init.lua 
+nvim init.lua 
+nvim ../in
+nvim ../../init.lua 
+nvim truezen/init.lua 
+nvim ../../init.lua 
+nvim /tmp/test.pt
+nvim /tmp/test.py
+cls
+nvim /tmp/test.py
+nvim ../module/figlet.lua 
+nvim /tmp/test.py
+git add .
+git commit 
+cls
+patch -p1 < patches/dmenu-multi-selection-4.9.diff 
+cls
+ls patches/dmenu_run.sh 
+nvim -d patches/dmenu_run.sh dmenu_run 
+clscat patches/dmenu_run.sh > dmenu_run 
+cat patches/dmenu_run.sh > dmenu_run 
+nvim *.rej
+cls
+patch -p1 < patches/dmenu-fuzzymatch-4.9.diff 
+nvim *.rej
+make clean; make; sudo make install
+cls
+nvim patches/dmenu-multi-selection-4.9.diff 
+cd ~/.config/nvim
+nvim init.lua 
+xbps-query -Rs ruby
+xbps-query -Rs ruby | fzf
+xbps-query -Rs nvim
+xbps-query -Rs neovim
+sudo xbps-remove neovim-qt
+nvim --version
+nvim
+xbps-query -Rs tree-sitter
+nvim lua/plugin/init.lua 
+cls
+cd lua/plugin/cmp/
+cls
+nvim init.lua 
+nvim ../init.lua 
+nivm ../../../init.lua 
+nvim ../../../init.lua 
+c
+nvim ../zenmode/init.lua 
+mkdir ../truezen
+nvim ../truezen/init.lua
+nvim ../../ini
+nvim ../../../init.lua 
+nvim ../truezen/init.lua
+nvim ../../../init.lua 
+..
+nvim -u init.lua 
+nvim init.lua 
+rm -rf ~/.local/share/nvim/
+nvim -u init.lua 
+nvim init.lua 
+ls 
+nvim
+mv .tmp/lsp/ .
+nvim
+mv .tmp/null-ls .
+nvim
+proxychains4 -q nvim
+nvim
+cd /data/dev/hossein-lap/workflow/suckless/dmenu/colors/
+cls
+nvim new-scheme.lua 
+./new-scheme.lua > tmp.h
+nvim tmp.h 
+./new-scheme.lua > tmp.h
+nvim new-scheme.lua 
+./new-scheme.lua > tmp.h
+nvim tmp.h 
+nvim new-scheme.lua 
+./new-scheme.lua > tmp.h
+nvim tmp.h 
+rm tmp.h 
+cls
+nvim new-scheme.lua 
+./new-scheme.lua 
+./new-scheme.lua cyan 00ddff
+rm {f,b}g/cyan.h
+./new-scheme.lua cyan 00ddff
+cls
+nvim ../config.def.h 
+rm {f,b}g/cyan.h -f
+cls
+gss .
+git add new-scheme.lua 
+gls
+git commit -m 'added highlight-4.9 patch extra highlight'
+gls
+git push
+q
+x
+nvim init.lua 
+nvim ~/.config/shell/bashrc
+lf lua/
+nvim /tmp/test.md 
+nvim ~/.config/shell/bashrc

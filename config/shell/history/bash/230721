@@ -1,0 +1,51 @@
+lf
+q
+nvim dl/iso/ln.dl 
+cd vid/shows/series/
+mkdir the-rookie/s01 -p
+cd the-rookie/s01/
+nvim dl.sh ln.dl
+sh dl.sh 
+nvim ln.dl 
+sh dl.sh 
+q
+lf doc/books/
+cls
+sent
+ls figs/
+sent
+ls figs/
+for i in `ls figs/`; do printf '@figs/%s\n' "${i}"; done
+for i in `ls figs/`; do printf '@figs/%s\n' "${i}"; done | sent
+for i in `ls figs/`; do printf '@figs/%s\n\n' "${i}"; done | sent
+r.sh for i in `ls figs/`; do printf '@figs/%s\n\n' "${i}"; done | sent
+for i in `ls figs/`; do printf '@figs/%s\n\n' "${i}"; done | sent & disown
+uname -a | sent
+uname -r | sent
+echo 'نمونه شماره یک' | sent & disown
+ls
+echo 'نمونه شماره یک' | sent & disown
+uname -r | sent & disown
+for i in `ls figs/`; do printf '@figs/%s\n\n' "${i}"; done | sent & disown
+nvim ~/.config/zathura/zathurarc 
+for i in `ls figs/`; do printf '@figs/%s\n\n' "${i}"; done | sent & disown
+nvim pac-pres01.tex 
+q
+make clean; make; sudo make install
+make clean; make; `which sudo` make install
+cd ~/dev/hossein-lap/workflow/suckless/sent/
+nvim config.def.h 
+q
+lf vid/
+cd w/devops/pipeline-as-code/pres/01/
+t
+q
+cd dl/
+take payannameh
+mv ../Thesis-format.zip .
+unzip 
+unzip Thesis-format.zip 
+ls
+lf ~/uni/
+make
+x

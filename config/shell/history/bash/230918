@@ -1,0 +1,268 @@
+fc-list | grep -i fira | grep -i mono | less -SR
+cd /usr/share/fonts/downloaded/
+ls
+find $PWD -name '*.woff*'
+find $PWD -name '*.woff*' | sed 's/ /\\ /g'
+find $PWD -name '*.woff*' | sed -e 's/^/"/' -e 's/$/"/'
+for i in `find $PWD -name '*.woff*' | sed -e 's/^/"/' -e 's/$/"/'`; do echo "${i}"; done
+sudo nnn -de
+cd Fira\ Mono/
+ls
+sudo rm -rf otf/ woff*
+fc-cache 
+..
+ls -l
+sudo mv Fira\ Mono/ fira-mono
+fc-cache 
+ls -l
+apt search fira
+fc-list | grep -i fira | grep mono
+fc-list | grep -i fira | grep -i mono
+cd .config/doom/
+nvim config.el 
+emacs config.el 
+emacs /tmp/test/test.c
+ls
+nvim themes/gen.lua 
+nvim book-template.tex 
+cd themes/
+ls
+./gen.lua 
+nvim ~/dev/resume/gen.lua 
+nvim gen.lua 
+nvim ~/documents/teach/python/en/python-en.tex 
+make build
+xelatex book-template.tex 
+make build
+make clean; make build
+ls -l
+pip search pygmen
+sudo apt install python3-pip
+pip search ptgmen
+pip search pygmen
+apt search pygmen
+sudo apt install python3-pygments
+pygmentize -L styles
+pygmentize -L styles | less -SR
+ls
+cd dev/primejade/hos-writings/book-template/
+t
+nvim ln.dl
+mkdir games
+texdoc macro
+texdoc newenvironment
+bat
+man highlight
+highlight -O ansi ~/.config/nvim/init.lua | less -SR
+highlight -O ansi ~/.config/nvim/lua/module/rce.lua | less -SR
+pygmentize -h
+pygmentize .bashrc 
+/tmp/test.py | pygmentize
+/tmp/test.py | pygmentize -h
+clear
+pygment
+pygmentize 
+pygmentize -h
+pygmentize -h | less
+/tmp/test.py | pygmentize -s
+pygmentize -h | less
+/tmp/test.py | pygmentize -s -l py
+tail dev/primejade/hos-writings/README.md | pygmentize -s -l py
+tail dev/primejade/hos-writings/README.md | pygmentize -s -l md
+tail -F dev/primejade/hos-writings/README.md | pygmentize -s -l md
+zsh
+sudo apt install zsh
+neofetch 
+c; neofetch 
+ls -l
+nvim page01.tex 
+tail -F README.md 
+clear
+less README.md 
+tail -F README.md 
+clear
+less README.md 
+tail -F README.md 
+c; tail -F README.md 
+less README.md 
+pandoc -D markdown
+pandoc -D commonmark
+pandoc -D commonmark > templates/template.md 
+make
+less README.md 
+tail -F README.md 
+highlight -O ansi README.md 
+c; 
+highlight -O ansi README.md 
+ls -l
+gss
+git add .
+gss 
+git rm -r --cached .
+gss
+gss -a
+gss -c
+gss -v
+git status -v
+git status -
+git status 
+git status -h
+git status --long
+ls src/
+make
+make build
+cat README.md | highlight -O ansi
+cat README.md | highlight -O ansi --syntax md
+clear
+cat README.md | highlight -O ansi --syntax md
+ls -l
+make
+cat README.md | highlight -O ansi --syntax md
+nvim src/book-template.tex 
+nvim /tmp/test.py
+/tmp/test.py | highlight -O ansi --syntax py
+man highlight 
+cat README.md | highlight -O ansi --syntax md
+gss
+make clean
+apt search df
+sudo apt install dfc
+dfc
+dfc -h
+dfc /home
+clear
+dfc /home
+clear
+c
+dfc
+sudo apt install dfrs
+c
+sudo apt install dfrs
+clear
+pygmentize -h
+man pygmentize -h
+man pygmentize
+make
+nvim book-template.tex 
+mv commonmark.tmp commonmark.md
+ls- l
+ls -l
+nvim src/book-template.tex 
+du -h
+ls -l
+make clean
+ls -l
+nnn
+make build
+ls -l
+ls -l src/
+find $PWD -type f
+find $PWD -type f | grep -v git 
+find $PWD -type f | wc -l
+find $PWD -type f | grep -v git | wc -l
+find $PWD -type f | grep -v git | sed "s/${PWD}//"
+find $PWD -type f | grep -v git | sed "s/\${PWD}//"
+find $PWD -type f | grep -v git | sed "s/${PWD}//"
+find $PWD -type f | grep -v git | sed "s/\$\{PWD\}//"
+find $PWD -type f | grep -v git 
+find $PWD -type f | grep -v git | sed "s,${PWD},,"
+find $PWD -type f | grep -v 'git\|minted' | sed "s,${PWD},,"
+find $PWD -type f | grep -v 'git\|minted' | sed "s,/${PWD},,"
+find $PWD -type f | grep -v 'git\|minted' | sed "s,${PWD}/,,"
+find $PWD -type f | grep -v 'git\|minted' | sed "s,${PWD}/,," > .gitignore
+nvim .gitignore 
+gss
+nvim .gitignore 
+gss .
+git add .
+gss
+git rm -r --cached themes/
+gss
+git commit -m 'base template'
+git push
+nvim  ~/.config/nvim/undodir/
+make build
+make clean
+make build
+nvim themes/palette/hybrid-light.lua 
+make build
+nvim themes/palette/hybrid-*.lua
+nvim themes/palette/hybrid-*.lua -o
+nvim themes/palette/hybrid-*.lua -O
+nvim generate-theme.lua 
+make
+make build
+ls
+rm -rf _minted-book-template/
+ls -l
+nvim Makefile
+ls- l
+clear; ls -l
+cls
+sudo apt install exa
+nvim Makefile
+pandoc -D commonmark
+pandoc -D commonmark > commonmark.tmp
+nvim commonmark.tmp 
+nvim Makefile
+ls -l
+cp ../pandoc-filters/md-heading-dec.lua filters/
+make
+ls -l
+nvim src/Makefile 
+ls -l
+ls -l themes/
+nvim themes/gen.lua 
+ls -l
+mv themes/gen.lua generate-theme.lua
+nvim generate-theme.lua 
+nvim README.md 
+make; nvim README.md 
+nvim ~/w/devops/pipeline-as-code/pres/02/pac-02.tex 
+nvim ~/.config/nvim/init.lua 
+cls
+ls -l
+ls ..
+mv commonmark.md template.md
+make
+nvim book-template.tex 
+ls -l
+make clean
+ls -l
+mkdir src filters pdf
+ls -l
+mv *.tex Makefile src/
+ls -l
+mv Makefile.old Makefile
+nvim Makefile 
+ls -l
+rm *.pdf
+ls -l
+mkdir templatex
+mv template.md templatex/
+mv templatex/ templates
+ls -l
+nvim src/Makefile 
+ls -l
+nvim src/book-template.tex 
+ls- l
+ls -l
+make
+make build
+nvim Makefile 
+make build
+ls -l
+nnn
+texdoc fawesome5
+nvim ~/.local/share/nvim/site/pack/packer/start/vim-hybrid/colors/hybrid.vim 
+nvim ~/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua/lua/solarized/utils/init.lua 
+nvim ~/.local/share/nvim/site/pack/packer/start/nvim-solarized-lua/lua/solarized/solarized-normal/highlights.lua 
+ls
+ls gam
+cd dev/primejade/hos-writings/
+ls
+cd book-template/
+ls
+t
+apt search xonotic
+pygmentize -L styles | less -SR

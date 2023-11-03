@@ -1,0 +1,76 @@
+ls
+ls | wc -l
+du -h .
+man yt-dlp
+pandoc -t ms test.md -o tmp.ms
+ssh ali@192.168.1.38
+pulsemixer 
+dmusb.sh 
+cd pc/
+ls
+mv actuals/ pykshdi
+dmusb.sh 
+df -h /run/media/hos/2D13-BAED/
+du -h pykshdi/
+dmusb.sh 
+rsync --progress -r pykshdi/ /run/media/hos/ventoy/peyk
+btop
+nvim /tmp/test.ms
+nvim /tmp/test.lua
+make clean; make; sudo make install
+nvim test.ms 
+nvim /tmp/test.m
+nvim /tmp/test.ms
+nvim test.ms 
+nvim ~/.config/nvim/init.lua 
+nvim ~/dev/hossein-lap/suckless/st/config.def.h 
+ls
+nvim test.lua 
+mv test.lua test-ltex.lua
+nvim test-lroff.lua
+cd dev/soda-sh/
+cd ldoc/
+sl
+ls
+ls ldoc/
+mv ltex
+mv ldoc/ ltex
+mkdir lroff
+nvim lroff/init.lua
+nvim ~/.config/nvim/init.lua 
+nvim lroff/init.lua
+nvim ~/.config/nvim/init.lua 
+nvim lroff/init.lua
+nvim ~/.config/nvim/init.lua 
+nvim lroff/init.lua
+q
+t
+pulsemixer 
+rm /home/hos/mus/Music/audios12/Shahab-Mozaffari-Vay-Vay-(Ft-Ali-Yasini)-320.mp3
+rm '/home/hos/mus/Music/audios12/Shahab-Mozaffari-Vay-Vay-(Ft-Ali-Yasini)-320.mp3'
+lf vid/shows/series/the-rookie/
+q
+dmusb.sh 
+lf vid/shows/series/the-rookie/
+nvim /tmp/test.lua 
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim test.ms 
+rm test.ms
+ls
+rm test.pdf 
+nvim ~/.config/groff/settings.ms 
+ls
+rm test.ms
+ls
+nvim tmp.ms 
+q
+nvim .local/share/mpd/playlists/all.m3u 
+cd dev/soda-sh/ldoc/
+ls
+nvim test-lroff.lua 
+vidir 
+nvim test.ms.lua 
+nvim lroff/init.lua 
+x
+cd vid/shows/series/the-rookie/
+lf

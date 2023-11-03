@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "m30.miox.sbs",
+        "name": "رایگان | REALITY | @frev2ray | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "8a744794-0b92-4f1a-8864-c7eb15af6933",
+        "port": 58037,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray@frev2ray",
+            "pbk": "G-_mQ-w52yrX1VdtzibOh2P1eWWjWN7hpg_StmK1RxE",
+            "sec": "tls",
+            "sid": "e4fd77d6",
+            "sni": "www.bhphotovideo.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7028,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

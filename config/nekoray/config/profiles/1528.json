@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "193.9.49.11",
+        "aid": 0,
+        "id": "39A6B70F-5E9C-42F8-99F0-519ECC153C27",
+        "name": "رایگان | VMESS | @V2rayNG_im | RELAY🚩 | 0️⃣2️⃣",
+        "port": 443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "host": "lille.kotick.site",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/speedtest",
+            "sec": "tls",
+            "sni": "lille.kotick.site"
+        }
+    },
+    "gid": 2,
+    "id": 1528,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

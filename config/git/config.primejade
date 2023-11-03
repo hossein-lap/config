@@ -1,0 +1,6 @@
+[user]
+	email = primejadevi@proton.me
+	signingkey = B07830E30DA6B6417C25217842359AB09DE11E5A
+
+[url "git@github.com"]
+	insteadOf = git@github.com

@@ -1,0 +1,24 @@
+#+1684098736
+clear ; ls
+#+1684098751
+script -c tcsh tmp.txt
+#+1684098810
+less tmp.txt
+#+1684098817
+less -r tmp.txt
+#+1684098833
+more tmp.txt
+#+1684098841
+vim tmp.txt
+#+1684098859
+mv tmp.txt tcsh.txt
+#+1684098867
+mv text.txt bash.txt
+#+1684098877
+script -c dash dash.txt
+#+1684098963
+more dash.txt
+#+1684098970
+vim dash.txt
+#+1684099003
+nvim dash.txt

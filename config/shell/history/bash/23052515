@@ -1,0 +1,5 @@
+cd pic/hist-shots/
+cls
+nsxiv -o .
+q
+lf pic/

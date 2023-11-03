@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "172.67.194.57",
+        "name": "رایگان | VLESS | @customv2ray | US🇺🇸 | 0️⃣3️⃣",
+        "pass": "e28bb3f8-e64a-4419-9496-33c46220354b",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "host": "sdgf.bdfstt.sbs",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048",
+            "sec": "tls",
+            "sni": "sdgf.bdfstt.sbs"
+        }
+    },
+    "gid": 3,
+    "id": 3664,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,28 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "104.31.16.120",
+        "aid": 0,
+        "id": "67a341a7-5ae7-4d92-edad-9e8db87ce165",
+        "name": "رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣1️⃣",
+        "port": 8880,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "none",
+            "host": "vcus1.vpn66.eu.org",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/"
+        }
+    },
+    "gid": 2,
+    "id": 1558,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "162.55.208.163",
+        "name": "رایگان | REALITY | @vmess_vless_pro | DE🇩🇪 | 0️⃣1️⃣",
+        "pass": "Source-ipV2Ray",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@ipV2Ray",
+            "pbk": "Y-9HRjVWB4BtCuIj9U8L-ZusrnTbBhGgHeXBzUKRwgk",
+            "sec": "tls",
+            "sid": "afb9b534",
+            "sni": "greenpepper.ir",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3658,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

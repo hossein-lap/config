@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "205.134.180.151",
+        "method": "chacha20-ietf-poly1305",
+        "name": "رایگان+|+SS+|+@free4allVPN+|+US🇺🇸+|+0️⃣3️⃣",
+        "pass": "5cp9Z3iWnJZ2",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 4,
+    "id": 3521,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": -1
+}

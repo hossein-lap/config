@@ -1,0 +1,24 @@
+sxwall.sh 
+q
+cls
+s
+cls
+nvim drw.c
+cls
+nvim patches/sent-toggle-scm-20210119-2be4210.diff 
+grep '#' *.{c,h}
+grep '#' *.{c,h} | grep -v '#define\|#include\|#endif\|#ifdef\|#ifndef'
+grep -n '#' *.{c,h} | grep -v '#define\|#include\|#endif\|#ifdef\|#ifndef'
+nvim sent.c
+nvim ~/.config/nvim/init.lua 
+nvim sent.c
+nvim ~/.config/nvim/lua/scheme/init.lua 
+nvim sent.c
+q
+nvim sent.c
+q
+cd /data/dev/hossein-lap/workflow/suckless/sent/
+cls
+t
+q
+x

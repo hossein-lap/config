@@ -1,0 +1,519 @@
+cd .config/nvim/lua/
+cls
+nvim plugin/lualine/
+nvim plugin/lualine/init.lua 
+nvim ../init.lua 
+nvim plugin/lualine/init.lua 
+nvim ../init.lua 
+nvim plugin/lualine/init.lua scheme/init.lua 
+q
+cd .local/share/nvim/site/pack/packer/start/
+cls
+nvim nvim-solarized-lua/lua/solarized/solarized-normal/highlights.lua 
+nvim nvim-solarized-lua/lua/solarized/utils/init.lua 
+lf
+nvim
+lf
+nvim .data.w.go.markdown.markdown-go
+nvim /data/w/go/markdown/markdown.go
+nvim /data/dev/hossein-lap/workflow/suckless/st/colors/dracula.h 
+q
+nvim /tmp/test.c
+lf .local/share/nvim/site/pack/packer/start/
+q
+pulsemixer 
+make clean; make; sudo make install
+man 7 groff_char
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+cls
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+vim init.lua 
+q
+make clean; make; sudo make install
+neofetch 
+cls
+cl
+lf
+make clean; make; sudo make install
+neofetch 
+neoef
+neofetch 
+make clean; make; sudo make install
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+ip a
+ip -c a
+c; ip -c a
+nvim /data/dev/hossein-lap/nvim/init.lua 
+nvim .config/nvim/init.lua 
+nvim .config/nvim/lua/plugin/lualine/
+nvim .local/share/nvim/site/pack/packer/start/neovim-ayu/lua/ayu/colors.lua 
+nvim .local/share/nvim/site/pack/packer/start/neovim-ayu/lua/ayu/init.lua 
+lf .local/share/nvim/site/pack/packer/start
+nvim ~/.vim/vimrc 
+nvim ~/.config/nvim/init.lua 
+nvim .local/share/nvim/site/pack/packer/start/vim-test/colors/test.vim 
+nvim .local/share/nvim/site/pack/packer/start/vim-lupper/colors/lupper.vim 
+nvim .local/share/nvim/site/pack/packer/start/vim-sunbather/colors/sunbather.vim 
+cd vid/
+lf
+make clean; make; sudo make install
+pulsemixer 
+man compose
+man convert-composer
+man convert-compose
+man convert
+convert -list compose
+convert -list compose | less -SR
+nvim `which imshadow.sh`
+imappend.sh 
+imappend.sh -h
+imappend.sh help
+nvim `which dmplay.sh`
+dmplay.sh -wm
+nvim /data/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+dmplay.sh -wm
+q
+cls
+t
+cls
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+cd /data/dev/hossein-lap/nvim/lua/
+cls
+ls scheme/
+mkdir ../after/plugin
+lf
+cls
+nvim
+vim ../init.lua 
+nvim
+nvim ../after/plugin/scheme.lua 
+cls
+nvim plugin/lualine/init.lua 
+nvim ../after/plugin/scheme.lua 
+lf plugin/
+lf ~/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua/
+nvim ../after/plugin/scheme.lua 
+nvim ../init.lua 
+dmenu -v
+nvim `which dmshot.sh`
+nvim `which imshadow.sh`
+q
+nvim .config/nvim/lua/plugin/lualine/
+nvim .config/nvim/lua/plugin/{.tmp/lualine/bak.lua.bak,lualine/init.lua}
+nvim /data/dev/hossein-lap/suckless/st/config.def.h 
+nvim /data/dev/hossein-lap/suckless/st/colors/256_noir.h 
+cls
+nvim /data/dev/hossein-lap/suckless/st/colors/256_noir.h 
+q
+cd /tmp
+nvim count.py
+cls
+nvim count.go 
+cls
+chmod +x count.py 
+time ./count
+time ./counter 
+lf
+cls
+cp count-cpp.cpp count-c.c
+nvim count-c.c 
+cls
+c
+nvim count-*.*
+chmod +x count-lua.lua 
+cls
+c
+time ./count-c
+time ./count-cpp
+time ./count-go
+time ./count-py.py 
+time ./count-lua.lua 
+wc -l count-*.*
+nvim count-*.*
+c
+wc -l count-*.*
+nvim -o count-c.c count-go.go 
+nvim count-rs.rs
+rustc count-rs.rs 
+time ./count-rs 
+nvim count-rs.rs 
+rustc count-rs.rs 
+time ./count-rs 
+cls
+clear
+for i in `seq 10`; do time ./count-go; done
+for i in `seq 10`; do time ./count-go; done | grep real
+for i in `seq 10`; do time ./count-go 2>&1; done | grep real
+for i in `seq 10`; do time ./count-go; done 2>&1 | grep real
+clear; 
+for i in `seq 30`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-cpp; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}'
+printf '%s / 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc
+printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc -
+c; printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+cd /tmp
+nvim count.py
+cls
+nvim count.go 
+cls
+chmod +x count.py 
+time ./count
+time ./counter 
+lf
+cls
+cp count-cpp.cpp count-c.c
+nvim count-c.c 
+cls
+c
+nvim count-*.*
+chmod +x count-lua.lua 
+cls
+c
+time ./count-c
+time ./count-cpp
+time ./count-go
+time ./count-py.py 
+time ./count-lua.lua 
+wc -l count-*.*
+nvim count-*.*
+c
+wc -l count-*.*
+nvim -o count-c.c count-go.go 
+nvim count-rs.rs
+rustc count-rs.rs 
+time ./count-rs 
+nvim count-rs.rs 
+rustc count-rs.rs 
+time ./count-rs 
+cls
+clear
+for i in `seq 10`; do time ./count-go; done
+for i in `seq 10`; do time ./count-go; done | grep real
+for i in `seq 10`; do time ./count-go 2>&1; done | grep real
+for i in `seq 10`; do time ./count-go; done 2>&1 | grep real
+clear; 
+for i in `seq 30`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-cpp; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}'
+printf '%s / 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc
+printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc -
+c; printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+c; printf '%s \/ 2' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+cd /tmp
+nvim count.py
+cls
+nvim count.go 
+cls
+chmod +x count.py 
+time ./count
+time ./counter 
+lf
+cls
+cp count-cpp.cpp count-c.c
+nvim count-c.c 
+cls
+c
+nvim count-*.*
+chmod +x count-lua.lua 
+cls
+c
+time ./count-c
+time ./count-cpp
+time ./count-go
+time ./count-py.py 
+time ./count-lua.lua 
+wc -l count-*.*
+nvim count-*.*
+c
+wc -l count-*.*
+nvim -o count-c.c count-go.go 
+nvim count-rs.rs
+rustc count-rs.rs 
+time ./count-rs 
+nvim count-rs.rs 
+rustc count-rs.rs 
+time ./count-rs 
+cls
+clear
+for i in `seq 10`; do time ./count-go; done
+for i in `seq 10`; do time ./count-go; done | grep real
+for i in `seq 10`; do time ./count-go 2>&1; done | grep real
+for i in `seq 10`; do time ./count-go; done 2>&1 | grep real
+clear; 
+for i in `seq 30`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-cpp; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}'
+printf '%s / 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc
+printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc -
+c; printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+c; printf '%s \/ 2' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+c; printf '%s \\/ 2' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+pulsemixer 
+time ./count-go 
+cd /tmp
+nvim count.py
+cls
+nvim count.go 
+cls
+chmod +x count.py 
+time ./count
+time ./counter 
+lf
+cls
+cp count-cpp.cpp count-c.c
+nvim count-c.c 
+cls
+c
+nvim count-*.*
+chmod +x count-lua.lua 
+cls
+c
+time ./count-c
+time ./count-cpp
+time ./count-go
+time ./count-py.py 
+time ./count-lua.lua 
+wc -l count-*.*
+nvim count-*.*
+c
+wc -l count-*.*
+nvim -o count-c.c count-go.go 
+nvim count-rs.rs
+rustc count-rs.rs 
+time ./count-rs 
+nvim count-rs.rs 
+rustc count-rs.rs 
+time ./count-rs 
+cls
+clear
+for i in `seq 10`; do time ./count-go; done
+for i in `seq 10`; do time ./count-go; done | grep real
+for i in `seq 10`; do time ./count-go 2>&1; done | grep real
+for i in `seq 10`; do time ./count-go; done 2>&1 | grep real
+clear; 
+for i in `seq 30`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-go; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-c; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-cpp; done 2>&1 | grep real
+c
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real
+for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}'
+printf '%s / 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc
+printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc -
+c; printf '%s \/ 25' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+c; printf '%s \/ 2' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+c; printf '%s \\/ 2' $(for i in `seq 25`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+c; printf '%s \\/ 25' $(for i in `seq 2`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+printf '%s / 25' $(for i in `seq 2`; do time ./count-rs; done 2>&1 | grep real | sed 's/s$//' | awk -F '.' '{sum+=$NF;} END{print sum;}') | bc 
+nvim s.sh
+xbps-query -Rs ruby
+nvim count-lua.lua 
+chmod +x count-ruby.rb 
+mv count-ruby.rb count-rb.rb
+./count-rb.rb 
+time ./count-rb.rb 
+cls
+nvim count-sh.sh
+time ./count-sh.sh 
+nvim count-sh.sh 
+time ./count-perl.pl 
+nvim count-
+nvim count-perl.pl 
+time ./count-perl.pl 
+nvim Test.java
+javac Test.java
+java Test
+nvim count-julia.jl
+chmod +x count-julia.jl 
+time ./count-julia.jl 
+lf /data/w
+q
+lf /data/dev/hossein-lap/workflow/docs/
+blkid
+blkid | less -S
+q
+cd pic/
+cls
+nsxiv -o .
+convert -blur
+convert 2.png -blur 2x1 tmp.png
+r.sh nsxiv tmp.png 
+convert 2.png -blur 3x1 tmp.png
+convert 2.png -blur 30x1 tmp.png
+convert 2.png -blur 1x1 tmp.png
+convert 2.png -blur 1x10 tmp.png
+convert Screenshot_20220824_130110.png -blur 1x10 tmp.png
+imshadow.sh 
+cp Screenshot_20220822_223751.png tmp.png 
+cp Screenshot_20220824_130110.png tmp.png 
+imshadow.sh tmp.png 
+cp tmp.png test.png
+r.sh nsxiv test.png 
+convert 2.png -blur 12x10 tmp.png
+cp test.png tmp.png 
+convert tmp.png -blur 12x10 test.png
+convert tmp.png -blur 1x10 test.png
+convert tmp.png -blur 1x100 test.png
+convert tmp.png -blur 1x1000 test.png
+convert tmp.png -blur 2x1000 test.png
+convert tmp.png -blur 2x10 test.png
+convert tmp.png -blur 2x1 test.png
+convert tmp.png -blur 2x1000 test.png
+convert tmp.png -blur 50x1000 test.png
+convert tmp.png -blur 20x1000 test.png
+convert tmp.png -blur 20x2000 test.png
+convert tmp.png -blur 20x20 test.png
+convert tmp.png -blur 20x2 test.png
+convert tmp.png -blur 20x3 test.png
+convert tmp.png -blur 20x4 test.png
+convert tmp.png -blur 40x4 test.png
+convert tmp.png -blur 100x4 test.png
+convert tmp.png -blur 100x5 test.png
+convert tmp.png -blur 100x6 test.png
+convert tmp.png -blur 100x7 test.png
+cp Screenshot_20220824_130110.png tmp.png
+convert tmp.png -blur 100x7 test.png
+convert tmp.png -blur 10x7 test.png
+convert tmp.png -blur 10x2 test.png
+convert tmp.png -blur 1x1 test.png
+convert tmp.png -blur 2x1 test.png
+convert tmp.png -blur 20x1 test.png
+convert tmp.png -blur 20x20 test.png
+convert tmp.png -blur 20x200 test.png
+convert tmp.png -blur 20x1 test.png
+convert tmp.png -blur 2000x1 test.png
+convert tmp.png -blur 20x2 test.png
+convert tmp.png -blur 20x4 test.png
+convert tmp.png -blur 20x5 test.png
+convert tmp.png -blur 20x6 test.png
+convert tmp.png -blur 20x7 test.png
+convert `nsxiv -o .` -blur 20x7 test.png
+r.sh nsxiv test.png 
+convert `nsxiv -r -o .` -blur 20x7 test.png
+nsxiv -r -o .
+convert pr/wallpaper07.png -blur 20x7 test.png
+convert pr/wallpaper07.png -blur 200x7 test.png
+convert pr/wallpaper07.png -blur 20x10 test.png
+convert pr/wallpaper07.png -blur 20x20 test.png
+convert pr/wallpaper07.png -blur 20x15 test.png
+convert pr/wallpaper07.png -blur 20x10 test.png
+convert pr/wallpaper07.png -blur 50x10 test.png
+convert pr/wallpaper07.png -blur 50x20 test.png
+convert .wall -blur 50x20 test.png
+convert .wall -blur 50x50 test.png
+convert .wall -blur 70x50 test.png
+convert .wall -blur 70x70 test.png
+nsxiv -r -o .
+imstring.sh 
+imstring.sh -i '+' -o test.png
+imstring.sh -i '+' -g -o test.png
+imstring.sh -i '+' -g 1 -o test.png
+imstring.sh -i '+' -fn 'FreeSans' -o test.png
+imstring.sh -i '+' -fn 'FreeSerif' -o test.png
+imstring.sh -i '+' -ps 70 -o test.png
+imstring.sh -i '+' -bg none -o test.png
+imstring.sh -i '+' -bg none -ps 200 -o test.png
+imstring.sh -i '+' -bg none -ps 600 -o test.png
+imstring.sh -i '+' -bg none -ps 600 -o test.png -w 2
+imstring.sh -i '+' -bg none -ps 600 -o test.png -w 1500
+imstring.sh -i '+' -bg none -ps 600 -o test.png -w 1500 -l 12500
+imstring.sh -i '+' -bg none -ps 600 -o test.png -w 1500 -l 1500
+imstring.sh -i '+' -bg none -ps 600 -o test.png -w 500 -l 500
+imshadow.sh test.png 
+imcolor.sh 
+cp test.png tmp.png -f
+imcolor.sh -i tmp.png -o test.png -f black -r red -p 99
+imcolor.sh -i tmp.png -o test.png -r black -f red -p 99
+imstring.sh -i '+' -bg none -ps 600 -o test.png -w 500 -l 500
+imtrim.sh test.png 
+imstring.sh -i '+' -bg none -ps 600 -o test.png
+imtrim.sh test.png 
+cp test.png tmp.png 
+imcolor.sh -i tmp.png -o test.png -r black -f red -p 99
+imcolor.sh -i tmp.png -o test.png -f black -r red -p 99
+convert tmp.png +level-colors red test.png 
+imstring.sh -i '+' -bg white -ps 600 -o test.png
+convert tmp.png +level-colors red test.png 
+imstring.sh -i '+' -bg white -ps 600 -o test.png
+cp test.png tmp.png 
+convert tmp.png +level-colors red test.png 
+convert tmp.png +level-colors red,white test.png 
+imtrim.sh test.png 
+imalpha.sh 
+imalpha.sh -c white -p 99 test.png 
+imalpha.sh -c white -p 99 -i test.png 
+imalpha.sh -c white -p 99 -i test.png -o test.png 
+imstring.sh -i '+' -bg white -ps 600 -o test.png
+convert tmp.png +level-colors red,white test.png 
+imtrim.sh test.png 
+cp test.png tmp.png -f
+imalpha.sh -c white -p 99 -i tmp.png -o test.png 
+imalpha.sh -c white -p 20 -i tmp.png -o test.png 
+imalpha.sh -c white -p 30 -i tmp.png -o test.png 
+imalpha.sh -c white -p 0 -i tmp.png -o test.png 
+imalpha.sh -c white -p 40 -i tmp.png -o test.png 
+imalpha.sh -c white -p 60 -i tmp.png -o test.png 
+imalpha.sh -c white -p 70 -i tmp.png -o test.png 
+imalpha.sh -c white -p 80 -i tmp.png -o test.png 
+imalpha.sh -c white -p 90 -i tmp.png -o test.png 
+imalpha.sh -c white -p 85 -i tmp.png -o test.png 
+imalpha.sh -c white -p 81 -i tmp.png -o test.png 
+imalpha.sh -c white -p 82 -i tmp.png -o test.png 
+imalpha.sh -c white -p 81 -i tmp.png -o test.png 
+cp test.png tmp.png 
+imshadow.sh test.png 
+cp tmp.png test.png -f
+nvim `which imshadow.sh`
+imshadow.sh test.png 
+nvim `which imshadow.sh`
+imshadow.sh test.png 
+cp tmp.png test.png 
+cls
+nvim glowp.sh
+echo imalpha.sh -c white -p 82 -i tmp.png -o test.png > glowp.sh
+echo convert tmp.png +level-colors red,white test.png >> glowp.sh 
+echo imstring.sh -i '+' -bg white -ps 600 -o test.png >> glowp.sh 
+nvim glowp.sh 
+nvim glowp.sh `which imshadow.sh`
+cls
+nsxiv mon.png 
+nsxiv test.png 
+r.sh nsxiv test.png 
+r.sh nsxiv tmp.png 
+imshadow.sh tmp.png 
+cls
+q
+x

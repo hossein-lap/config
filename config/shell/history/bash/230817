@@ -1,0 +1,60 @@
+make
+q
+make
+q
+make
+q
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/Jenkinsfile
+nvim .config/dunst/dunstrc 
+dmusb.sh
+clear
+zathura doc/books/tools/Mohamed_Labouardy_Pipeline_as_Code_Continuous_Delivery_with_Jenkins.pdf & disown 
+cd w/devops/pipeline-as-code/pres/01/
+cls
+zathura pac-01.pdf & disown 
+زمس
+cls
+nvim pac-01.tex 
+c
+nvim pac-01.tex 
+nvim ~/.config/nvim/init.lua 
+vi 
+vi ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugin/cmp/init.lua 
+nvim ~/.config/pandoc/defaults/beamer/manjaro.sty 
+t
+texdoc listings
+neofetch 
+lxappearance 
+xbps-query -Rs theme | fzf
+sudo xbps-install gtk-theme-config
+gtk-theme-config 
+sudo xbps-remove -R gtk-theme-config
+xbps-query -Rs Theme | fzf
+cd dev/resume/
+cls
+nvim role/*/init.lua
+cls
+make
+zathura resume.pdf  & disown 
+nvim role/*/init.lua
+make
+nvim role/fa/init.lua
+make
+nvim gen.lua 
+nvim role/fa/init.lua
+make
+cd ../hossein-lap/blog/
+cls
+cd hos/
+cls
+t
+q
+lf dev/hossein-lap/workflow/docs/bash/
+lf vid/shows/
+alias ed
+ed
+man ed
+q
+x

@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "www.speedtest.net",
+        "name": "رایگان | VLESS | @polproxy | RELAY🚩 | 0️⃣3️⃣",
+        "pass": "db6594ca-7894-4497-e0da-e422e92e4e6e",
+        "port": 2087,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,",
+            "sec": "tls",
+            "sni": "Sni.BlueMoien.space",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3729,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

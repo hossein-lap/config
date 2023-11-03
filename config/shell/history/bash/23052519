@@ -1,0 +1,47 @@
+neofetch 
+cls
+q
+cls
+q
+cls
+q
+xbps-query -Rs yamlls
+xbps-query -Rs yaml
+nvim
+cls
+nvim .config/pandoc/defaults/fa/fa.yaml 
+cd .config/kitty/
+cls
+nvim kitty.conf 
+find / -iname 'kitty.conf' 2>/dev/null
+cp /usr/share/examples/kitty/kitty.conf kitty.conf 
+nvim kitty.conf 
+lf /data/deb/games/general/1
+q
+find / -iname '*hour*' 2>/dev/null
+find / -iname '*hour*' 2>/dev/null | grep '[zZ]ero'
+cd /data/deb/games/
+cls
+cd command-conquer-generals/
+cls
+..
+cls
+ls wine-games/
+q
+xbps-query -Rs vulkan
+sudo xbps-install mesa-vulkan-intel-32bit Vulkan-Tools-1.3.231.1_1 mesa-vulkan-intel-22.3.5_2 
+xbps-query -Rs vulkan
+sudo xbps-install vulkan-loader-32bit-1.3.231.2_1 vulkan-loader
+sudo xbps-install -Syu vulkan-loader-32bit-1.3.231.2_1 vulkan-loader
+sudo xbps-install -Syu
+c
+sudo xbps-install -Syu
+ز
+sudo xbps-install -Syu vulkan-loader-32bit-1.3.231.2_1 vulkan-loader
+cd /mnt
+cls
+..
+sudo umount /mnt
+cd mnt
+sudo sh -c 'mkdir 11 12 21 22'
+q

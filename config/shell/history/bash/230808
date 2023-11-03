@@ -1,0 +1,26 @@
+x
+ip a
+ping 1.1.1.1
+ping 4.2.2.4
+dme
+dmexit.sh 
+ip a
+t
+ip a
+t
+iwctl
+clear
+nvim .config/shell/bashrc
+s
+nvim .config/shell/bashrc
+s
+cls
+iwd
+iw
+iwmon 
+sudo ln -s /etc/sv/iwd /var/service/
+ping 1.1.1.1
+ip a
+t
+clear
+x

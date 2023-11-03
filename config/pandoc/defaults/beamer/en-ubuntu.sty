@@ -1,0 +1,743 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{dark}
+\RequirePackage{fontspec,fancyvrb,framed,xcolor,xstring}
+
+%\usefonttheme{serif}
+
+%% add line number to code-blocks
+%\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\},numbers=left}
+
+% theme {{{
+%\useoutertheme{shadow}
+
+% colors {{{
+% beamer scheme
+\definecolor{color_main}{HTML}{2C001E} % #2C001E
+\definecolor{color_text}{HTML}{010101} % #010101
+\definecolor{color_gradient}{HTML}{000000} % #000000
+\definecolor{color_frametitle_bg}{HTML}{E95420} % #E95420
+\definecolor{color_frametitle_fg}{HTML}{010101} % #010101
+\definecolor{color_but_right_fg}{HTML}{ffffff} % #ffffff
+\definecolor{color_but_right_bg}{HTML}{E95420} % #E95420
+\definecolor{color_but_mid_fg}{HTML}{ffffff} % #ffffff
+\definecolor{color_but_mid_bg} {HTML}{5E2750} % #5E2750
+\definecolor{color_but_left_fg}{HTML}{ffffff} % #ffffff
+\definecolor{color_but_left_bg}{HTML}{E95420} % #E95420
+\definecolor{color_block_body_fg}{HTML}{010101} % #010101
+\definecolor{color_blocks_title_fg}{HTML}{ffffff} % #ffffff
+\definecolor{color_block_def_bg}{HTML}{EEEDEB} % #EEEDEB
+\definecolor{color_block_def_title_bg}{HTML}{772953} % #772953
+\definecolor{color_example_title_bg}{HTML}{3465a4} % #3465a4
+\definecolor{color_block_exm_bg}{HTML}{EEEDEB} % #EEEDEB
+\definecolor{color_alert_title_bg}{HTML}{cc0000} % #cc0000
+\definecolor{color_block_alr_bg}{HTML}{EEEDEB} % #EEEDEB
+\definecolor{color_items_bg}{HTML}{772953} % #772953
+\definecolor{color_items_fg}{HTML}{ffffff} % #ffffff
+
+%% more ubuntu colors {{{
+%\definecolor{color_but_mid_bg} {HTML}{2C001E} % #2C001E
+%\definecolor{color_but_mid_bg}{HTML}{2d0922} % #2d0922
+%\definecolor{color_but_left_bg}{HTML}{77216F} % #77216F
+%% }}}
+
+% listings
+\definecolor{stringColor}{HTML}{b5bd68} % #b5bd68
+\definecolor{keywordColor}{HTML}{81a2be} % #81a2be
+\definecolor{identifierColor}{HTML}{f0c674} % #f0c674
+\definecolor{commentColor}{HTML}{707880} % #707880
+\definecolor{emphColor}{HTML}{de935f} % #de935f
+% }}}
+
+\usetheme{Warsaw} % some other themes: Berlin, Warsaw, Copenhagen
+\usecolortheme[named=color_main]{structure}
+
+% style {{{
+	% title
+	\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true,shadow=\theshadow]
+	\setbeamertemplate{section page}[default][colsep=-4bp,rounded=true,shadow=\theshadow]
+	\setbeamertemplate{subsection page}[default][colsep=-4bp,rounded=true,shadow=\theshadow]
+	% blocks
+	\setbeamertemplate{blocks}[rounded][shadow=\theshadow]
+	% items
+	\setbeamertemplate{enumerate items}[circle]
+	\setbeamertemplate{itemize item}%
+		{\color{color_items_bg}$\bullet$}
+	\setbeamertemplate{itemize subitem}%
+		{\tiny\color{color_items_bg}$\blacktriangleright$}
+	\setbeamertemplate{itemize subsubitem}%
+		{\color{color_items_bg}$\star$}
+% }}}
+
+% colors {{{
+	%% mains
+	\setbeamercolor*{title page}{%
+		fg=color_frametitle_fg,
+		bg=structure
+	}
+	\setbeamercolor{frametitle}{%
+		bg=color_frametitle_bg
+	}
+	\setbeamercolor{normal text}{%
+		fg=color_text
+	}
+	%% palettes
+	\setbeamercolor*{palette primary}{%
+		use=structure,
+		fg=color_but_left_fg,
+		bg=color_but_left_bg
+	}
+	\setbeamercolor*{palette secondary}{%
+		use=structure,
+		fg=color_but_right_fg,
+		bg=color_but_right_bg
+	}
+	\setbeamercolor*{palette tertiary}{%
+		fg=color_but_mid_fg,
+		bg=color_but_mid_bg
+	}
+	\setbeamercolor*{palette quaternary}{%
+		use=structure,
+		fg=white,
+		bg=color_gradient
+	}
+	\setbeamercolor{subsection in head/foot}{%
+		bg=color_but_mid_bg
+	}
+	%% blocks
+	\setbeamercolor{block title}{%
+		bg=color_block_def_title_bg,
+		fg=color_blocks_title_fg
+	}
+	\setbeamercolor{block body}{%
+		bg=color_block_def_bg,
+		fg=color_block_body_fg
+	}
+	\setbeamercolor{block title alerted}{%
+		bg=color_alert_title_bg,
+		fg=color_blocks_title_fg
+	}
+	\setbeamercolor{block body alerted}{%
+		bg=color_block_alr_bg,
+		fg=color_block_body_fg
+	}
+	\setbeamercolor{block title example}{%
+		bg=color_example_title_bg,
+		fg=color_blocks_title_fg
+	}
+	\setbeamercolor{block body example}{%
+		bg=color_block_exm_bg,
+		fg=color_block_body_fg
+	}
+	%% lists
+	\setbeamercolor{item projected}{%
+		bg=color_items_bg,
+		fg=color_items_fg
+	}
+	\setbeamercolor{itemize item}{%
+		fg=color_items_bg
+	}
+	\setbeamercolor{itemize subitem}{%
+		fg=color_items_bg
+	}
+	\setbeamercolor{itemize subsubitem}{%
+		fg=color_items_bg
+	}
+	%% section
+	\setbeamercolor{section title}{%
+		fg=color_main
+	}
+	\setbeamercolor{subsection title}{%
+		fg=color_text
+	}
+% 		}}}
+
+% fonts {{{
+	% frame
+	\setbeamerfont{frametitle}{series=\bfseries}
+	% blocks
+	\setbeamerfont{block title}{series=\bfseries}
+% }}}
+
+% background {{{
+	\setbeamertemplate{background canvas} {
+		\includegraphics[width=\paperwidth,height=\paperheight]%
+		    {/home/hos/.config/pandoc/background/pres-beachlike-bg.jpg}
+%		    {/home/hos/.config/pandoc/background/empty-minimal-wooden-top-table-wood-podium-in-white-background-with-shadow.jpg}
+%		    {/home/hos/.config/pandoc/background/Beautiful-Minimalist-Presentation.jpg}
+%		    {/home/hos/.config/pandoc/background/qMl.jpg}
+%		    {/home/hos/.config/pandoc/background/238367-best-gradient-background-tumblr-1920x1080.jpg}
+
+	}
+% }}}
+
+% section text {{{
+\AtBeginSection[]{
+	\begin{frame}
+		\frametitle{}
+%		\vfill
+%		\vspace{0.5em}
+%		\centering
+%		\begin{beamercolorbox}[sep=8pt,center,shadow=false,rounded=true]{section title}
+%		\usebeamerfont{section title}Chapter \insertsectionnumber:
+%		\vspace{1.0em}
+%			\usebeamercolor{section title}\usebeamerfont{section title}\textbf{\insertsection}\par
+		\usebeamercolor[fg]{section title}%
+			\usebeamerfont{section title}%
+				\textbf{\color{fg}\insertsection}\par
+%		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\AtBeginSubsection[]{
+	\begin{frame}
+		\frametitle{}
+%		\vfill
+%		\vspace{0.5em}
+%		\centering
+%		\begin{beamercolorbox}[sep=8pt,center,shadow=false,rounded=true,wd=9cm]{section title}
+%			\usebeamerfont{section title}Chapter \insertsectionnumber:
+%			\usebeamerfont{section title}\usebeamercolor{section title}\textbf{\insertsection}\par
+		\usebeamercolor[fg]{section title}%
+			\usebeamerfont{section title}%
+				\textbf{\color{fg}\insertsection}\par
+			\begin{itemize}
+%				\item \usebeamerfont{subsection title}\insertsubsection\par
+				\item \usebeamercolor[fg]{subsection title}%
+					\usebeamerfont{subsection title}%
+						\color{fg}\insertsubsection\par
+			\end{itemize}
+%		\end{beamercolorbox}
+%			\vspace{1.0em}
+%		\usebeamerfont{section title}
+%		\insertsectionnumber.\insertsubsectionnumber\quad
+		\vfill
+	\end{frame}
+}
+% }}}
+
+% set theme style
+%\themeconfig{shade=yes, three=yes}
+
+% }}}
+
+% macro to config beamer-style {{{
+
+% headline {{{
+
+\newcommand{\headbeforespace}{2mm} % spacing before frametitle
+\newcommand{\headafterspace}{0mm} % spacing after frametitle
+
+% shaded {{{
+\newcommand{\shadedheadlinemacro}{
+	\useoutertheme{shadow}
+	\makeatletter
+	\setbeamertemplate{frametitle}{%
+		\nointerlineskip%
+		\vskip-2pt%
+		\hbox{\leavevmode
+		\advance\beamer@leftmargin by -12bp%
+		\advance\beamer@rightmargin by -12bp%
+		\beamer@tempdim=\textwidth%
+		\advance\beamer@tempdim by \beamer@leftmargin%
+		\advance\beamer@tempdim by \beamer@rightmargin%
+		\hskip-\Gm@lmargin\hbox{%
+			\setbox\beamer@tempbox=\hbox{\begin{minipage}[b]{\paperwidth}%
+				\vbox{}\vskip-.75ex%
+				\vspace{\headbeforespace}% <- change here to whatever you want
+				\leftskip0.3cm%
+				\rightskip0.3cm plus0fil\leavevmode
+				\usebeamercolor[fg]{frametitle}%
+					\usebeamerfont{frametitle}\strut\insertframetitle\strut\par%
+					\ifx\insertframesubtitle\@empty\else%
+				{\usebeamerfont*{framesubtitle}%
+					{\usebeamercolor[fg]{framesubtitle}\insertframesubtitle}\strut\par}%
+				\fi%
+				\nointerlineskip
+				\vspace{\headafterspace}% <- change here to whatever you want
+%						\vbox{}%
+				\end{minipage}}%
+			\beamer@tempdim=\ht\beamer@tempbox%
+			\advance\beamer@tempdim by 1pt%
+			\begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
+				\usebeamercolor{frametitle right}
+				\pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
+				\pgfusepath{clip}
+				\pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
+			\end{pgfpicture}
+			\hskip-\paperwidth%
+			\box\beamer@tempbox%
+		}%
+		\hskip-\Gm@rmargin%
+	}%
+%		\nointerlineskip
+%			\vskip-.2pt
+%			\hbox to\textwidth{\hskip-\Gm@lmargin\pgfuseshading{beamer@topshade}\hskip-\Gm@rmargin}
+%			\vskip-.2pt
+	}
+	\makeatother
+}
+% }}} 
+
+% not shaded {{{
+\newcommand{\plainheadlinemacro}{
+	\makeatletter
+	\setbeamertemplate{frametitle}{%
+		\nointerlineskip%
+		\vskip-2pt%
+		\hbox{\leavevmode
+		\advance\beamer@leftmargin by -12bp%
+		\advance\beamer@rightmargin by -12bp%
+		\beamer@tempdim=\textwidth%
+		\advance\beamer@tempdim by \beamer@leftmargin%
+		\advance\beamer@tempdim by \beamer@rightmargin%
+		\hskip-\Gm@lmargin\hbox{%
+			\setbox\beamer@tempbox=\hbox{\begin{minipage}[b]{\paperwidth}%
+				\vbox{}\vskip-.75ex%
+				\vspace{\headbeforespace}% <- change here to whatever you want
+				\leftskip0.3cm%
+				\rightskip0.3cm plus0fil\leavevmode
+				\usebeamercolor[fg]{frametitle}%
+					\usebeamerfont{frametitle}\strut\insertframetitle\strut\par%
+					\ifx\insertframesubtitle\@empty\else%
+				{\usebeamerfont*{framesubtitle}%
+					{\usebeamercolor[fg]{framesubtitle}\insertframesubtitle}\strut\par}%
+				\fi%
+				\nointerlineskip
+				\vspace{\headafterspace}% <- change here to whatever you want
+%						\vbox{}%
+			\end{minipage}}%
+			\beamer@tempdim=\ht\beamer@tempbox%
+			\advance\beamer@tempdim by 1pt%
+			\begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
+				\usebeamercolor{frametitle right}
+				\pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
+				\pgfusepath{clip}
+%				\pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
+				\pgftext[left,base]{\color{frametitle.bg}\rule{\paperwidth}{\beamer@tempdim}}
+			\end{pgfpicture}
+			\hskip-\paperwidth%
+			\box\beamer@tempbox%
+		}%
+		\hskip-\Gm@rmargin%
+	}%
+%		\nointerlineskip
+%			\vskip-.2pt
+%			\hbox to\textwidth{\hskip-\Gm@lmargin\pgfuseshading{beamer@topshade}\hskip-\Gm@rmargin}
+%			\vskip-.2pt
+	}
+	\makeatother
+%	\useoutertheme{split}
+%	\setbeamertemplate{frametitle}{%
+%		\nointerlineskip%
+%		\begin{beamercolorbox}[wd=\paperwidth,ht=2.6ex,dp=1.6ex]{frametitle}
+%			\hspace*{1ex}\insertframetitle%
+%		\end{beamercolorbox}%
+%	}
+}
+% }}} 
+
+% }}}
+
+% footline {{{
+
+% three row {{{
+\newcommand{\threerowedfootlinemacro}{
+	\defbeamertemplate*{footline}{shadow theme}
+	{%
+		\leavevmode%
+		\hbox{%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,leftskip=2.25ex,rightskip=2ex,sep=0pt]{date in head/foot}%
+			\usebeamerfont{date in head/foot}
+				\hfill\insertshortdate\hfill
+				\insertframenumber\,/\,\inserttotalframenumber
+		\end{beamercolorbox}}%
+		\vskip0pt%
+	}
+}
+% }}}
+
+% two row {{{
+\newcommand{\tworowedfootlinemacro}{
+	\defbeamertemplate*{footline}{shadow theme}
+	{%
+		\leavevmode%
+		\hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fil,rightskip=.3cm]{author in head/foot}%
+			\usebeamerfont{author in head/foot}
+%				\inserttotalframenumber\,/\,\insertframenumber
+				\insertframenumber\,/\,\inserttotalframenumber
+				\hfill\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle%
+		\end{beamercolorbox}}%
+		\vskip0pt%
+	}
+}
+% }}}
+
+% }}}
+
+% sidebar {{{
+\newcommand{\applysidebar}{
+
+\usetheme{Marburg}
+\usecolortheme[named=color_main]{structure}
+
+\makeatletter
+	\setbeamertemplate{sidebar \beamer@sidebarside}
+	{
+		\beamer@tempdim=\beamer@sidebarwidth%
+		\advance\beamer@tempdim by -6pt%
+		\vskip8em%
+		\insertverticalnavigation{\beamer@sidebarwidth}%
+		\vfill
+		\ifx\beamer@sidebarside\beamer@lefttext%
+		\else%
+			\usebeamercolor{normal text}%
+			\llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
+			\vskip2pt%
+		\fi%
+	}%
+
+	\ifx\beamer@sidebarside\beamer@lefttext%
+		\defbeamertemplate*{sidebar right}{sidebar theme}
+		{%
+			\vfill%
+			\llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
+			\vskip2pt}
+	\fi
+
+\setbeamertemplate{section in sidebar}%{sidebar theme}
+{%
+	\vbox{%
+		\vskip1ex%
+		\beamer@sidebarformat{3pt}{section in sidebar}%
+%			{~\insertsectionhead}%
+			{\bfseries\insertsectionheadnumber ~\insertsectionhead}%
+	}%
+}
+\setbeamertemplate{section in sidebar shaded}%{sidebar theme}
+{%
+	\vbox{%
+		\vskip1ex%
+%		\beamer@sidebarformat{3pt}{section in sidebar shaded}{
+		\beamer@sidebarformat{3pt}{section in sidebar shaded}{\bfseries\insertsectionheadnumber
+~\insertsectionhead}%
+	}%
+}
+\makeatother
+
+\setbeamertemplate{sidebar}{
+	\leavevmode%
+	\hbox{%
+%		\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex]{palette secondary}% empty
+%		\end{beamercolorbox}%
+	}
+}
+\setbeamertemplate{headline}{
+	\leavevmode%
+	\hbox{%
+%		\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex]{palette secondary}% empty
+%		\end{beamercolorbox}%
+	}
+}
+
+% tmp {{{
+%\setbeamertemplate{frametitle}{
+%	\nointerlineskip%
+%	\begin{beamercolorbox}[wd=0.8\paperwidth, sep=0.3cm, ]{frametitle}
+%		\usebeamerfont{frametitle}\insertframetitle
+%	\end{beamercolorbox}
+%}
+
+%\setbeamertemplate{sidebar right}{
+%	\vfill%
+%	\hspace{0.5cm}% Adjust the horizontal space as needed
+%	\begin{beamercolorbox}[wd=\sidebarwidth,ht=\sidebarheight,dp=\sidebardepth]{sidebar right}
+%		\vbox to \sidebarheight{
+%			\hfill\insertshorttitle[width=0.9\sidebarwidth]\hfill\null\vfill% Adjust the width as needed
+%			\vskip1ex%
+%			\insertnavigation{\sidebarwidth}%
+%			\vfill%
+%			\vskip3ex%
+%			\hspace*{\fill}\usebeamerfont{author in sidebar}\insertshortauthor\hspace*{\fill}% Adjust the formatting and positioning as needed
+%			\vskip1ex%
+%			\hspace*{\fill}\usebeamerfont{institute in sidebar}\insertshortinstitute\hspace*{\fill}% Adjust the formatting and positioning as needed
+%			\vskip1ex%
+%		}
+%	\end{beamercolorbox}
+%	\vfill%
+%}
+
+%	\setbeamertemplate{headline}{
+%		\begin{beamercolorbox}[wd=0.7\paperwidth]{section in head/foot}
+%			\insertsectionnavigationhorizontal{\paperwidth}{}{\hfill\hfill}
+%		\end{beamercolorbox}
+%		\begin{beamercolorbox}[wd=0.3\paperwidth]{subsection in head/foot}
+%			\insertsubsectionnavigationhorizontal{\paperwidth}{}{\hfill\hfill}
+%		\end{beamercolorbox}
+%	}
+% }}}
+
+}
+% }}}
+
+% shadow {{{
+\newcommand{\applytheshadow}{
+	% title
+	\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true,shadow=true]
+	\setbeamertemplate{section page}[default][colsep=-4bp,rounded=true,shadow=true]
+	\setbeamertemplate{subsection page}[default][colsep=-4bp,rounded=true,shadow=true]
+	% blocks
+	\setbeamertemplate{blocks}[rounded][shadow=true]
+}
+
+\newcommand{\removetheshadow}{
+	% title
+	\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true,shadow=false]
+	\setbeamertemplate{section page}[default][colsep=-4bp,rounded=true,shadow=false]
+	\setbeamertemplate{subsection page}[default][colsep=-4bp,rounded=true,shadow=false]
+	% blocks
+	\setbeamertemplate{blocks}[rounded][shadow=false]
+}
+% }}}
+
+% title page {{{
+\makeatletter
+\setbeamertemplate{title page}{%
+	\vbox{}
+	\vfill
+	\begingroup
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,rounded=true,shadow=\theshadow]{frametitle}
+			\usebeamerfont{title}\inserttitle\par
+			\vskip0.25em\par
+			\usebeamerfont{subtitle}\small\insertsubtitle\par
+		\end{beamercolorbox}
+		\vskip0.25em\par
+		\vskip1em\par
+		\begin{beamercolorbox}[sep=8pt,center]{author}
+			\usebeamerfont{author}\insertauthor
+		\end{beamercolorbox}
+		\begin{beamercolorbox}[sep=8pt,center]{institute}
+			\usebeamerfont{institute}\insertinstitute
+		\end{beamercolorbox}
+		\begin{beamercolorbox}[sep=8pt,center]{date}
+			\usebeamerfont{date}\insertdate
+		\end{beamercolorbox}
+	\endgroup
+	\vfill
+	\vskip0pt
+}
+\makeatother
+% }}}
+
+% \themeconfig{} macro {{{
+\makeatletter
+
+% argument parsing {{{
+\define@key{mykeys}{shade}{\def\isshaded{#1}}
+\define@key{mykeys}{three}{\def\isthree{#1}}
+\define@key{mykeys}{sidebar}{\def\isside{#1}}
+\define@key{mykeys}{shadow}{\def\isshadow{#1}}
+% }}}
+
+\newcommand{\themeconfig}[1]{%
+	\setkeys{mykeys}{#1}%
+
+	\IfStrEq{\isside}{yes}{%
+		\applysidebar
+	}{%
+		\usetheme{Warsaw} % some other themes: Berlin, Warsaw, Copenhagen
+		\usecolortheme[named=color_main]{structure}
+	}
+
+	\IfStrEq{\isshadow}{yes}{%
+		\newcommand{\theshadow}{true}
+	}{%
+		\newcommand{\theshadow}{false}
+	}
+
+	\IfStrEq{\isshaded}{yes}%
+		{\shadedheadlinemacro}{\plainheadlinemacro}
+
+	\IfStrEq{\isthree}{yes}%
+		{\threerowedfootlinemacro}{\tworowedfootlinemacro}
+}
+\makeatother
+% }}}
+
+% }}}
+
+% default fonts
+\setmainfont{Libertinus Serif}
+\setsansfont{Fira Sans}
+\setmonofont{Fira Mono}
+
+% lstlisting formatting {{{
+\usepackage{listings}
+\lstset{frame=tb,
+%	language=c,
+	showstringspaces=false,
+	columns=flexible,
+	numbers=left,
+	 xleftmargin=.05\textwidth,
+	xrightmargin=.05\textwidth,
+%
+	basicstyle={\ttfamily\footnotesize},
+	commentstyle={\itshape},
+	emphstyle={\underline},
+	stringstyle={\bfseries\normalsize},
+	numberstyle={\ttfamily\scriptsize\color{black!50!white}},
+%
+	rulecolor=\color{black!50!white},
+%
+%	keywordstyle={\color{codepurple}},
+%	commentstyle={\color{frenchbeige}},
+%	ndkeywordstyle={\ttfamily\color{keywordsColor}},
+%
+	keywordstyle={\color{keywordColor}},
+	commentstyle={\color{commentColor}},
+	ndkeywordstyle={\ttfamily\color{identifierColor}},
+	stringstyle={\color{stringColor}},
+	emphstyle={\color{emphColor}},
+%
+%	stringstyle={\color{alizarin}},
+%	keywordstyle={\color{codepurple}},
+%	emph={ls},
+%	backgroundcolor=\color{white!96!black},
+%	ndkeywordstyle={\underline},
+%	morekeywords={True, False,},
+%	emph={unsigned, int, char, void, float, bool, FILE},
+%%	emphstyle={\color{red}},
+	breaklines=true,
+	breakatwhitespace=false,
+	numbersep=3mm,
+	frame=leftline,
+%	frame=left top right bottom,
+%	caption=\code{e.g.},
+%	frame=shadowbox,
+%	frame=none,
+%
+%	aboveskip=5mm,
+%	belowskip=2mm,
+	captionpos=t,
+	tabsize=8
+}
+% end code block formatting }}}
+
+%\linespread{1.1}
+
+% tmp {{{
+%\usetheme{Berkeley}
+%\usetheme{Marburg}
+%\usetheme{Madrid}
+
+%% Warsaw with frame number {{{
+%\usetheme{Warsaw}
+%\defbeamertemplate*{footline}{shadow theme}
+%{%
+%	\leavevmode%
+%	\hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+%		\usebeamerfont{author in head/foot}\hfill\insertshortauthor
+%	\end{beamercolorbox}%
+%	\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fil,rightskip=.3cm]{title in head/foot}%
+%		\usebeamerfont{title in head/foot}\insertshorttitle\hfill\insertframenumber\,/\,\inserttotalframenumber%
+%	\end{beamercolorbox}}%
+%	\vskip0pt%
+%}
+%%}}}
+
+%\logo{\includegraphics[width=.099\textwidth,height=.218\textheight]{/home/hos/pic/wp3776280.jpg}}
+%\logo{\includegraphics[width=.099\textwidth,height=.218\textheight]{/home/hos/uni/os-lab/image-processing-in-lung-cancer/figs/logo.png}}
+
+%\usetheme{Copenhagen}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+% }}}
+
+% title frame {{{
+%% tex {{{
+%\makeatletter
+%\def\supertitle#1{\gdef\@supertitle{#1}}%
+%\setbeamertemplate{title page}
+%{
+%	\vbox{}
+%	\vfill
+%	\begin{centering}
+%	\begin{beamercolorbox}[sep=8pt,center]{title}
+%			\usebeamerfont{supertitle}\@supertitle
+%	 \end{beamercolorbox}
+%		\begin{beamercolorbox}[sep=8pt,center]{title}
+%			\usebeamerfont{title}\inserttitle\par%
+%			\ifx\insertsubtitle\@empty%
+%			\else%
+%				\vskip0.25em%
+%				{\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+%			\fi%		 
+%		\end{beamercolorbox}%
+%		\vskip1em\par
+%		\begin{beamercolorbox}[sep=8pt,center]{author}
+%			\usebeamerfont{author}\insertauthor
+%		\end{beamercolorbox}
+%		\begin{beamercolorbox}[sep=8pt,center]{institute}
+%			\usebeamerfont{institute}\insertinstitute
+%		\end{beamercolorbox}
+%		\begin{beamercolorbox}[sep=8pt,center]{date}
+%			\usebeamerfont{date}\insertdate
+%		\end{beamercolorbox}\vskip0.5em
+%		{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+%	\end{centering}
+%	\vfill
+%}
+%\makeatother
+%% }}}
+
+%% latex {{{
+%\defbeamertemplate*{title page}{title page}[1][]
+%{
+%	\begin{beamercolorbox}
+%		\usebeamerfont{title}\inserttitle\par
+%	\end{beamercolorbox}
+%	\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
+%	\bigskip
+%	\usebeamerfont{author}\insertauthor\par
+%	\usebeamerfont{institute}\insertinstitute\par
+%	\usebeamerfont{date}\insertdate\par
+%	\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic
+%}
+%% }}}
+
+% test {{{
+\makeatletter
+\setbeamertemplate{frametitle}{%
+  \ifbeamercolorempty[bg]{frametitle}{}{\nointerlineskip}%
+  \@tempdima=\textwidth%
+  \advance\@tempdima by\beamer@leftmargin%
+  \advance\@tempdima by\beamer@rightmargin%
+  \begin{beamercolorbox}[sep=0.5cm,left,wd=\the\@tempdima]{frametitle}
+    \usebeamerfont{frametitle}%
+    \vbox{}\vskip-0.25ex%
+    \if@tempswa\else\csname beamer@fteleft\endcsname\fi%
+    \strut\insertframetitle\strut\par%
+    {%
+      \ifx\insertframesubtitle\@empty%
+      \else%
+      {\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle\strut\par}%
+      \fi
+    }%
+    \vskip-1ex%
+    \if@tempswa\else\vskip-.3cm\fi% set inside beamercolorbox... evil here...
+  \end{beamercolorbox}%
+}
+\makeatother
+% }}}
+% }}}
+

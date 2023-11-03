@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "xn--wgbag6ft6a.plusultra.fun",
+        "name": "رایگان | VLESS | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣4️⃣",
+        "pass": "5a3125e0-741c-4271-b14a-dc30365ceead",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/16381/sourceforge.net",
+            "sec": "tls",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7074,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

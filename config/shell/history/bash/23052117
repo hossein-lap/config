@@ -1,0 +1,5 @@
+cd /data/w/c/
+cls
+cd shape/
+cls
+nvim tmp.c 

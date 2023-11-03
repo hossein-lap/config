@@ -1,0 +1,7 @@
+lf vid/
+q
+cd vid/shows/movies/
+cls
+alias aria2c
+aria2c 'https://dl2.aiocdn.top/film/2005/Kingdom%20of%20Heaven/Kingdom%20of%20Heaven.%5BSS%5D%5B720%5D%5BAioFilm.com%5D.mp4'
+q

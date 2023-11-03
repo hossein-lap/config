@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "65.109.184.213",
+        "name": "رایگان | REALITY | @azadi_az_inja_migzare | FI🇫🇮 | 0️⃣3️⃣",
+        "pass": "bd1cb41e-9a17-47d6-ab42-ed2c80f57983",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@Everyday_VPN",
+            "pbk": "dTGmUPDOGQhE1VI97cGpw-DOnsW_rzm7a-YMDcDkx2c",
+            "sec": "tls",
+            "sid": "a786cf49",
+            "sni": "gsmarena.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7065,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

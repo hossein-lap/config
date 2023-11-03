@@ -1,0 +1,9 @@
+grep -v '^#' ln.dl 
+for i in `grep -v '^#' ln.dl `; do echo "=> $i"; done
+for i in `grep -v '^#' ln.dl `; do echo "$i" | awk -F '/' '/^http/ {print $6;}'; done
+for i in `grep -v '^#' ln.dl `; do echo "$i" | awk -F '/' '/^http/ {print $7;}'; done
+for i in `grep -v '^#' ln.dl `; do echo "$i" | awk -F '/' '/^http/ {print $8;}'; done
+for i in `grep -v '^#' ln.dl `; do echo "$i" | awk -F '/' '/^http/ {print $9;}'; done
+for i in `grep -v '^#' ln.dl `; do echo "$i" | awk -F '/' '/^http/ {print $10;}'; done
+for i in `grep -v '^#' ln.dl `; do echo "$i" | awk -F '/' '/^http/ {print $10;}' | awk -F '=' '{print $2;}'; done
+for i in `grep -v '^#' ln.dl `; do echo "$i" | awk -F '/' '/^http/ {print $10;}' | awk -F '=' '{print $2;}' | awk -F '&' '{print $1;}'; done

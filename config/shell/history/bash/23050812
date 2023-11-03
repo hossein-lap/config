@@ -1,0 +1,4 @@
+nvim ln.dl
+xbps-query -Rs dvtm
+q
+x

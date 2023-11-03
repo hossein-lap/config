@@ -1,0 +1,10 @@
+cd vid/shows/series/the-rookie/
+lf
+cal
+cal -y
+jcal -y
+man jcal
+jcal -ye
+jcal -y
+jcal -y
+x

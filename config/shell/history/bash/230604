@@ -1,0 +1,130 @@
+btop
+lua-language-server --help
+man lua-language-server
+lua-language-server -h
+lua-language-server
+find / -name '*luarc.json' 2>/dev/null
+find / -name '*luarc.json' 2>/dev/null | grep -v 'dara'
+c; find / -name '*luarc.json' 2>/dev/null | grep -v 'data'
+c; find / -name '*luarc.json' 2>/dev/null | grep -v 'data\|\.bak'
+cd .local/share/wine/drive_c/Program\ Files\ \(x86\)/
+cls
+find / -name 'Red Alert 3' 2>/dev/null
+find / -name 'RA3.exe' 2>/dev/null
+cd /data/dl/cnc-red_alert-3/ra3/Command and Conquer Red Alert 3/
+cd '/data/dl/cnc-red_alert-3/ra3/Command and Conquer Red Alert 3/'
+cls
+chmod +X run
+chmod +x run.sh 
+./run
+./run.sh 
+cls
+pwd
+cls
+cd
+nvim ~/.config/pandoc/defaults/fa/fa.yaml 
+lf
+q
+cls
+s
+cls
+nvim summary.md
+lf
+q
+sudo xbps-install fontforge
+sudo xbps-remove -R fontforge
+cls
+cl
+cd -
+cls
+lc
+cls
+cd Red\ Alert\ 3/
+cls
+..
+cls
+find / -name 'RA3.exe' 2>/dev/null
+lf /data/dl/cnc-red_alert-3/
+rm ~/.wine-generals/ -rf
+du -h wine/ 
+mkdir wine32
+echo WINEARCH=win32 WINEPREFIX="${XDA_DATA_USER}"
+echo WINEARCH=win32 WINEPREFIX="${XDA_USER_DATA}"
+env | grep XDA
+env | grep DATA
+env | grep XDG
+echo WINEARCH=win32 WINEPREFIX="${XDG_DATA_HOME}"
+winecfg WINEARCH=win32 WINEPREFIX="${XDG_DATA_HOME}/wine32"
+cls
+nvim wine/drive_c/Program\ Files\ \(x86\)/TBN\&M/Command\ \&\ Conquer\(tm\)\ Generals\&ZH/Command\ \&\ Conquer\(tm\)\ Generals\ Zero\ Hour/run.sh
+cls
+cd wine
+cls
+cd drive_c/
+cls
+cd Program\ Files\ \(x86\)/
+cls
+sh Counter\ Strike\ Source/run.sh 
+cd Counter\ Strike\ Source/
+.sh
+cls
+chmod +x run.sh 
+./run.sh 
+cd /data/dl/cnc-red_alert-3/
+cl
+cls
+cd ra3/
+cls
+cd Command\ and\ Conquer\ Red\ Alert\ 3/
+cls
+./run
+./run.sh 
+mpv ~/screen/record/cnc-genevo-230604_210850.mkv 
+cls
+du -h ~/screen/record/cnc-genevo-230604_210850.mkv 
+./run.sh 
+lf
+xbps-query -Rs libgl
+lf ~/.local/share/wine/drive_c/
+cd .config/awesome
+cls
+nvim rc.lua 
+nvim ~/.config/nvim/init.lua 
+nvim rc.lua 
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugin/init.lua 
+nvim ~/.config/nvim/init.lua 
+nvim rc.lua 
+nvim ~/.config/nvim/lua/scheme/init.lua 
+q
+btop
+clear
+xbps-query -Rs awesome
+xbps-query -Rs lua | grep awesome
+
+nvim .config/nvim/lua/plugin/lsp/init.lua 
+q
+mkdir shots
+cls
+mv /data/screen/shots/shot-230604_194909.png shots/01-mihanwebhost.png
+cp /data/screen/shots/shot-230604_195035.png shots/02-mihanwebhost.png 
+cls
+nvim art/summary.md 
+q
+lf
+q
+cd uni/
+mkdir internet-engineer/
+mv ~/dl/attachments.zip internet-engineer/
+cd internet-engineer/
+unzip attachments.zip 
+cls
+lowriter --help
+loimpress --help
+loimpress --convert-to pdf IE-P01Website\ Structure\ and\ Hosting.ppt 
+r.sh zathura IE-P01Website\ Structure\ and\ Hosting.pdf 
+loimpress --convert-to pdf IE-P0{2..6}*.ppt
+cls
+t
+q
+x

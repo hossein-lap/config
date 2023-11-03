@@ -1,0 +1,13 @@
+cd uni/micro-lap/micro-lap-reports/
+cls
+cd 08
+cls
+lf
+..
+t
+r.sh zathura 0{1..7}/*.pdf
+q
+lf
+q
+t att
+q

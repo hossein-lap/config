@@ -1,0 +1,295 @@
+imshadow.sh shot-230621_035208.png 
+cls
+cd /tmp/c
+git init
+git add .
+git commit 
+imshadow.sh shot-230621_042638.png 
+q
+gss .
+git diff .
+nvim colors/lupper.vim 
+git add .
+git commit 
+nvim colors/lupper.vim 
+git commit 
+git add .
+git commit 
+git push
+cls
+..
+cls
+nvim vim-octave/colors/octave.vim 
+c
+cls
+cd vim-octave/
+gss .
+git diff .
+git add .
+git commit 
+git push
+cd ../vim-sunbather/
+nvim colors/sunbather.vim 
+gss .
+git diff .
+nvim screenshots/
+nvim colors/sunbather.vim 
+git add .
+git commit 
+git remote -v
+git push
+...
+cls
+cd vim-colors/
+cp /data/screen/shots/shot-230621_042638.png vim-paramount/screenshots/
+lf vim-paramount/
+cd vim-paramount/
+gss .
+git add .
+git commit
+nvim colors/paramount.vim 
+git commit
+cls
+..
+cls
+cd vim-paramount/
+git push
+nvim
+proxychains4 -q nvim
+q
+nvim vim-lupper/colors/lupper.vim 
+git diff .
+cd vim-lupper/
+git diff .
+git add .
+git commit -m 'fixed a typo - forgot to clean-up after tests'
+git push
+..
+nvim vim-paramount/colors/paramount.vim 
+cls
+nvim vim-paramount/colors/paramount.vim vim-
+nvim vim-paramount/colors/paramount.vim 
+nvim /tmp/c/test.c
+q
+rm -rf .local/share/nvim
+nvim
+cd .config/nvim
+vim lua/plugin/init.lua 
+nvim lua/plugin/init.lua 
+nvim /tmp/test.pl
+nvim lua/plugin/treesitter/
+nvim init.lua 
+cls
+gss .
+gls
+q
+btop
+cd .config/nvim
+git remote -v
+cls
+lf after/
+for i in `ls *.lua | grep -v init`; do echo ${i}; done
+for i in `ls *.lua | grep -v init`; do j=$(echo ${i} | sed 's/\.lua$//'); mkdir -v ${j}; mv -v ${i} ${j}/init.lua; done
+cls
+mkdir trouble notify
+mv notify.lua.bak notify/init.lua.bak
+mv trouble.lua.bak trouble/init.lua.bak
+mv trouble/ notify/ .tmp
+rm -rf notify/
+cls
+..
+nvim init.lua 
+rm -rf ~/.local/share/nvim
+nvim /tmp/test.c
+cls
+vim after/plugin/scheme.lua 
+nvim
+vim after/plugin/scheme.lua 
+nvim
+vim after/plugin/scheme.lua 
+nvim
+nvim init.lua 
+nvim lua/plugin/init.lua 
+nvim
+nvim init.lua 
+proxychains4 -q nvim init.lua 
+nload
+vlc
+mplayer Z_5388611702096922797.mp4 
+mpv Z_5388611702096922797.mp4 
+q
+lf vid/
+x
+pulsemixer 
+lf vid/
+nvim /tmp/test.tex
+nvim ~/.config/nvim/lua/module/rce.lua 
+nvim /tmp/test.tex
+nvim /tmp/test.tex
+nvim ~/.config/nvim/init.lua 
+nvim /tmp/test.tex
+cp /tmp/test.tex /data/doc/tools/latex/bidi.tex
+cls
+q
+mplayer 
+dmplay.sh 
+cd .local/share/mpd/playlists/
+cls
+more yt-metal.m3u 
+cls
+more work.m3u 
+more yt-metal.m3u 
+lf /home/hos/dl/yt/music/
+nvim yt-metal.m3u 
+dmplay.sh 
+nvim work.m3u 
+cd -
+cd /home/hos/dl/yt/music/
+for i in `ls *.m4a`; do echo $i ;done
+for i in `ls *.m4a`; do ffmpeg -i ${i} ${i}.mp3 ;done
+cd -
+cls
+nvim yt-metal.m3u 
+python
+ز
+c
+python
+nvim /tmp/test.py
+q
+nvim ln.dl 
+cls
+lf
+q
+cd vid/shows/anime/
+cls
+take conan/movies
+nvim ln.dl
+nvim dl.sh
+./dl.sh 
+q
+cd /data/dev/hossein-lap/vim-colors/vim-lupper/
+gls
+nvim colors/lupper.vim 
+gss .
+cls
+cd ../vim-paramount/
+gls
+nvim colors/paramount.vim 
+cp colors/paramount.vim ~/.config/nvim/colors/
+nvim colors/paramount.vim 
+cp colors/paramount.vim ~/.config/nvim/colors/
+nvim colors/paramount.vim 
+cp colors/paramount.vim ~/.config/nvim/colors/paramount-test.vim
+cd ~/.config/nvim/colors/
+cls
+rm paramount.vim 
+cls
+nvim colors/paramount.vim 
+\
+nvim colors/paramount.vim 
+cls
+ls colors/
+pwd
+unlink ~/.config/nvim/colors/paramount-test.vim 
+cp colors/paramount.vim ~/.config/nvim/colors/
+..
+echo cp vim-paramount/ ~/.local/share/nvim/site/pack/packer/start/ -r
+nvim vim-paramount/colors/paramount.vim 
+cp vim-paramount/ ~/.local/share/nvim/site/pack/packer/start/ -r
+cd ~/.local/share/nvim/site/pack/packer/start/
+nvim vim-paramount/colors/paramount.vim 
+rm vim-paramount/ -rf
+cls
+cl
+nvim vim-paramount/colors/paramount.vim 
+cls
+unlink vim-paramount
+cls
+nvim vim-paramount/colors/paramount.vim 
+nvim ~/.config/nvim/init.lua 
+cls
+nvim vim-paramount
+nvim vim-paramount/colors/paramount.vim 
+cls
+pwd
+nvim ~/.config/nvim/lua/plugin/nvimtree/init.lua, module/keybind.lua 
+nvim ~/.config/nvim/lua/{plugin/nvimtree/init.lua,module/keybind.lua}
+nvim ~/.config/nvim/lua/{plugin/neotree/init.lua,module/keybind.lua}
+nvim ~/.config/nvim/lua/module/keybind.lua
+nvim ~/.config/nvim/lua/module/netrw.lua 
+nvim .config/nvim/lua/module/keybind.lua 
+lf .local/share/nvim/site/pack/packer/start/
+nvim .config/nvim/lua/module/keybind.lua 
+nvim .config/nvim/init.lua 
+nvim .config/nvim/lua/plugin/init.lua 
+nvim /data/dev/hossein-lap/vim-colors/vim-paramount/colors/paramount.vim 
+cd /data/dev/hossein-lap/vim-colors/vim-paramount/colors
+git diff .
+pwd
+git diff .
+git add .
+git commit -m 'more purple'
+git push
+nvim c
+nvim paramount.vim 
+nvim /data/dev/hossein-lap/nvim/colors/paramount.vim
+pwd
+nvimcls
+lc
+cls
+pwd
+nvim /data/dev/hossein-lap/nvim/colors/paramount.vim
+cls
+pwd
+nvim paramount.vim 
+pwd
+...
+nvim vim-sunbather/colors/sunbather.vim 
+cd doc/tools/
+cls
+more mpd-mpc.md 
+take latex
+nvim latex.tex
+cls
+nvim latex.tex 
+rm ~/.local/share/nvim/site/pack/packer/start/vim-* -rf
+nvim
+nvim latex.tex 
+nvim -d *.tex
+nvim -c 'set backgroung=light'
+nvim -c 'set background=light'
+nvim latex.
+nvim latex.tex 
+nvim -c 'set background=light' latex.tex 
+nvim latex.tex 
+nvim -c 'set background=light' latex.tex 
+nvim latex.tex 
+nvim -c 'set background=light' latex.tex 
+nvim latex.tex 
+nvim -c 'set background=light' latex.tex 
+nvim latex.tex 
+nvim -c 'set background=light' latex.tex 
+cls
+nvim -c 'set background=light' latex.tex 
+nvim latex.tex 
+cd .config/nvim/colors/
+cls
+rm paramount.vim 
+..
+nvim init.lua 
+dmusb.sh 
+cd /run/media/hos/4DD6F99C3A308995/
+cls
+cd Gowj\ movie/
+cls
+find . -iname '*conan*'
+cl
+lf
+...
+cls
+dmusb.sh 
+find . -iname '*conan*' 2>/dev/null
+pulawm
+pulse
+pulsemixer 
+x

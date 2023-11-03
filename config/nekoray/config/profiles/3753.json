@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "de1.connecton.surf",
+        "name": "رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣2️⃣",
+        "pass": "517ccb0754",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "sec": "tls",
+            "sni": "de1.connecton.surf"
+        }
+    },
+    "gid": 3,
+    "id": 3753,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "trojan",
+    "yc": -1
+}

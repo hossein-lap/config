@@ -1,0 +1,26 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "forward2.maryam1300.top",
+        "aid": 0,
+        "id": "bbfefd52-af00-4f3e-a33c-536cd0297d35",
+        "name": "رایگان | VMESS | @DeamNet_Proxy | RU🇷🇺 | 0️⃣2️⃣",
+        "port": 8443,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "multi",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc"
+        }
+    },
+    "gid": 3,
+    "id": 3546,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

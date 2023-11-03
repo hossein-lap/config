@@ -1,0 +1,4 @@
+cd dl/telegram-dl/
+cls
+ls *.zip
+cls

@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "5.161.194.76",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @FOX_VPN66 | US🇺🇸 | 0️⃣1️⃣",
+        "pass": "2375b8b6-e11d-4fb2-a3f9-5e37ff1e3a89",
+        "port": 18220,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "yjl-b_4vT09Rt4n8m_gy_JzPzCypMuT2GdxfVu0JxF4",
+            "sec": "tls",
+            "sid": "fcd3a0e3",
+            "sni": "www.speedtest.net",
+            "spx": "/",
+            "utls": "firefox"
+        }
+    },
+    "gid": 3,
+    "id": 3617,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

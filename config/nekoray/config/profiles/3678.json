@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "141.95.111.79",
+        "name": "رایگان | REALITY | @ServerNett | FR🇫🇷 | 0️⃣2️⃣",
+        "pass": "224a2a30-8525-4a27-97f9-fd3cc479abe3",
+        "port": 42628,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+            "pbk": "Rx970nnP-35xF4gbPGzxlHPGcsiyL3JztY8r7w611w8",
+            "sec": "tls",
+            "sid": "5fd9b215",
+            "sni": "cdn.discordapp.com",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3678,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

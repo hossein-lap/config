@@ -1,0 +1,21 @@
+nvim /tmp/test.txt
+cd .config/nvim
+cls
+..
+cl
+unlink nvim
+dmkill.sh -u tui
+dmkill.sh -s tui
+dmkill.sh -s
+cls
+screenkey -h
+screenkey --show-settings
+clear
+vim /tmp/test.txt
+vim /tmp/test.md
+nvim /tmp/test.md
+cd
+c
+cls
+clear
+x

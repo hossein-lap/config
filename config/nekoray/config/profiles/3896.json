@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "5.42.86.226",
+        "flow": "xtls-rprx-vision",
+        "name": "رایگان | REALITY | @mahsa_amini1 | Donated | SE🇸🇪 | 1️⃣5️⃣",
+        "pass": "2620dd68-f5fc-4a03-b1d2-e779f3c666d7",
+        "port": 2095,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "I1Ak8mxtC1NVVcJwghjn9P8pNwvYTqOXznuJd5Vh3ms",
+            "sec": "tls",
+            "sid": "90a27d2f26402cac",
+            "sni": "www.theverge.com",
+            "utls": "chrome"
+        }
+    },
+    "gid": 3,
+    "id": 3896,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

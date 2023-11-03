@@ -1,0 +1,11 @@
+nvim cv/Makefile 
+lf
+cls
+q
+find ~ -name resume.pdf 2>/dev/null
+for i in `find ~ -name resume.pdf 2>/dev/null`; do zathura $i ; done
+q
+find ~ -name '*.iso' | fzf
+cd vid/shows/movies/
+nvim ln.dl 
+x

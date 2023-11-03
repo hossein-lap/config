@@ -1,0 +1,532 @@
+find ~/dev/hossein-lap/workflow/config/
+find ~/dev/hossein-lap/workflow/config/ -maxdepth 1 -type d
+find ~/dev/hossein-lap/workflow/config/ -maxdepth 1 -type d | wc -l
+find ~/dev/hossein-lap/workflow/config/ -maxdepth 1 -type d | grep -v 'config$' | wc -l
+for i in `find ~/dev/hossein-lap/workflow/config/ -maxdepth 1 -type d | grep -v 'config$'`; do ln -s ${i}; done
+ls -l | grep htop
+rm -rf htop
+for i in `find ~/dev/hossein-lap/workflow/config/ -maxdepth 1 -type d | grep -v 'config$'`; do ln -s ${i}; done
+cls
+clear; ls
+pwd
+ls
+ls -l
+cd ../.local/
+ls
+mv ../../root/home/.local/{todo,bin} .
+ls -l
+ls -l bin/
+cd bin/
+ls
+rm pyright* -f
+ls
+ln -s ~/dev/hossein-lap/workflow/scripts 
+xbps-query -Rs .
+xbps-query --regex -Rs .
+. ~/.bashrc; xbps-query --regex -Rs . | fzf
+. ~/.bashrc; xbps-query --regex -Rs . | fzf | awk '{print $2;}' > ~/pkgs-install.txt 
+clear; ls
+ls sc
+ls scripts
+unix
+unix | cat
+unix | less
+unix | less -S
+unix | less -R
+q
+lf
+ls .. -1
+mv ../dl .
+sudo mv ../dl .
+sudo mv ../{doc,games,dev,mus,pub,uni,tmp,vid,w,sahar,screen} .
+ls -l
+ls -l `ls -l`
+ls -l `ls`
+ls -l `ls` | less
+ls ..
+sudo mv ../{arch,dev,usb,vm} .
+sudo mv ../{arch,deb,usb,vm} .
+ls ..
+mkdir .config
+cd .config/
+vim ../.bash
+vim ../.bashrc 
+..
+cd ..
+lf
+. .bashrc
+lf
+q
+lf 
+find dev/hossein-lap/workflow/config/ -maxdepth 1 -type f
+cd .config/
+ln -s `find dev/hossein-lap/workflow/config/ -maxdepth 1 -type f` 
+ln -s `find ${HOME}/dev/hossein-lap/workflow/config/ -maxdepth 1 -type f` 
+ln -s `find ${HOME}/dev/hossein-lap/workflow/config/ -maxdepth 1 -type f | grep -v 'config$'` 
+for i in `find ${HOME}/dev/hossein-lap/workflow/config/ -maxdepth 1 -type f | grep -v 'config$'`; do ln -s "${i}" ; done
+q
+cls
+lf
+vim .config/shell/bashrc
+xbps-query -Rs julia
+ls
+vim pkgs-install.txt 
+awk '{print $2}' pkgs-install.txt > pkgs-list.txt
+nvim pkgs-l
+nvim pkgs-list.txt 
+vim pkgs-list.txt 
+sudo xbps-install git
+links ddg.gg
+lf
+grep aria2 pkg.txt 
+wget
+grep wget pkg.txt 
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+vim config.def.h 
+cd ../slstatus/
+vim config.def.h 
+vim ~/.vim/vimrc 
+mv ~/.vim/colors.bak ~/.vim/colors
+vim ~/.vim/vimrc 
+vim ~/.vim/modules/netrw.vim 
+vim ~/.vim/modules/keybinds.vim 
+vim ~/.vim/modules/main.vim 
+cd ~/.config/
+ln -s ~/dev/hossein-lap/nvim 
+vim nvim/lua/module/keybind.lua 
+q
+sudo xbps-install jcal
+c;s
+lf
+xbps-query -Rs ueberzug
+xbps-install ueberzug ffmpegthumnailer odt2txt lowdown bat
+sudo xbps-install ueberzug ffmpegthumnailer odt2txt lowdown bat
+xbps-query -Rs ffmpegth
+sudo xbps-install ueberzug ffmpegthumbnailer odt2txt lowdown bat
+xbps-query -Rs graph
+xbps-query -Rs graph | fzf
+vim pkgs-install.txt 
+tail -n 2 pkgs-install.txt | head -1 
+sudo xbps-install `tail -n 2 pkgs-install.txt | head -1 `
+fortune 
+fortune  | cowsay 
+sudo xbps-install cowsay
+fortune  | cowsay 
+sudo xbps-install < pkgs-install.txt 
+sudo xbps-install `cat pkgs-install.txt`
+{ cat pkgs-list.txt; cat pkgs-install.txt; } | sort -u > pkg.txt
+nvim pkg
+nvim pkg.txt 
+vim pkg.txt 
+sudo xbps-install `cat pkg.txt`
+grep atool pkg.txt 
+sudo xbps-install `cat pkg.txt`
+sudo xbps-install -Sy `cat pkg.txt`
+sudo xbps-install mpv
+q
+fc-list Fira
+fc-list Fira\ Code
+fc-list FiraCode
+fc-list | grep Nerd
+vim .vim/modules/main.vim 
+cd .vim/modules/
+grep leader *.vim
+vim skels.vim keybinds.vim 
+q
+btop
+make clean; make; sudo make install
+c
+unix
+c; unix
+c; neofetch 
+sudo xbps-install neofetch 
+c; neofetch 
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim
+nvim /tmp/test.go
+xbps-query -Rs gopl
+nvim /tmp/test.c
+xbps-query -Rs ccls
+sudo xbps-remove -R ccls
+sudo xbps-install mason
+nvim pkg.txt 
+dmkill.sh 
+cls
+btop
+c
+q
+cd vm/qemu/void/
+cls
+nvim run-headless.sh 
+s
+nvim run-headless.sh 
+./ssh.sh 
+sudo xbps-install xterm lxterminal
+xterm -e sh -c ssh.sh 
+sudo xbps-install xrdb
+xrdb ~/.Xresources
+xterm -e sh -c ssh.sh 
+r.sh xterm 
+xrate.sh 
+xbps-install setxkbmap
+sudo xbps-install setxkbmap
+xrate.sh 
+q
+sudo xbps-remove -R xterm
+sudo xbps-remove xterm
+xbps-query -Rs Text::Bidi
+cls
+xrdb .Xresources
+cls
+cd lua/plugin/
+nvim mason/tool-installer.lua
+nvim mason/tools.lua 
+nvim
+nvim /tmp/test.c
+find ~ -name gopls
+c; find ~ -name gopls 2>/dev/null
+nvim ~/.config/shell/
+s
+nvim /tmp/test.c
+clangd
+ls /home/hos/.local/share/nvim/mason/bin/
+ls
+ls /home/hos/.local/share/nvim/mason/bin/
+xbps-query -Rs clangd
+xbps-query -Rs clang
+sudo xbps-install ccls
+nvim cmp/ccls.lua
+nvim cmp/ccls.lua 
+nvim /tmp/test.c
+sudo xbps-install clangg
+sudo xbps-install clang
+cls
+nvim .Xresources
+xrdb .Xresources
+cls
+xrdb .Xresources
+mkdir -p ~/.urxvt/ext
+wget -O ~/.urxvt/ext/bidi https://metacpan.org/release/Text-Bidi/source/misc/bidi?raw=1
+sudo xbps-install wget
+wget -O ~/.urxvt/ext/bidi https://metacpan.org/release/Text-Bidi/source/misc/bidi?raw=1
+xrdb .Xresources
+sudo xbps-install xcompmgr
+c
+nvim
+cd .config/nvim
+cls
+nvim lua/plugin/init.lua 
+nvim lua/plugin/cmp/init.lua 
+lf lua/plugin/
+cls
+nvim init.lua 
+nvim lua/plugin/cmp/
+xrdb merge ~/.Xresources
+xbps-query -Rs fribidi
+xrdb .Xresources
+cls
+lf
+nvim .Xresources
+xrdb .Xresources
+nvim .Xresources
+cls
+c;s
+nvim
+nvim /tmp/test.lua
+lua /tmp/test.lua 
+nvim /tmp/test.lua
+nvim /tmp/test.per.txt
+cd .urxvt/ext/
+cls
+nvim bidi 
+> bidi 
+xrdb merge ~/.Xresources
+q
+perl -MText::Bidi -e 'print "Module installed\n"'
+xrdb -merge .Xresources
+nvim /tmp/test.
+nvim /tmp/test.per.txt 
+نمونه
+xrdb merge .Xresources
+urxvt
+xrdb merge .Xresources && urxvt
+c; xrdb merge .Xresources && urxvt
+xrdb merge .Xresources && urxvt
+cls
+echo $TERM : nvim ~/.config/shell/
+nvim ~/.config/shell/
+s
+c
+./ssh.sh 
+sudo xbps-install htop 
+neofetch 
+xbps-query -Rs urxvt
+sudo xbps-install urxvt-bidi
+cls
+nvim tmp/test.c
+cd ../root/etc/
+cls
+sudo cp v2ray/config.json /etc/v2ray/config.json 
+ls /etc/X11/
+xbps-query -Rs xorg | fzf
+sudo xbps-install xf86-input-synaptics 
+sudo ln -s /etc/sv/v2ray /var/service/
+sudo sv restart v2ra
+sudo sv restart v2ray
+sudo xbps-remove -R ccls
+sudo xbps-install clang
+nvim ~/.Xdefaults
+nvim ~/.Xresources
+xrdb ~/.Xresources
+csl
+cls
+cd
+cls
+urxvt -geometry 80x3 -name 'bashrun' -e sh -c "/bin/bash -i -t" 
+urxvt -geometry 80x3 -name 'bashrun' -e sh -c "htop -t" 
+urxvt -geometry 80x3 -name 'bashrun' -e sh -c "bash; htop -t" 
+nvim .Xresources
+q
+q
+urxvt --version
+nvim ~/.Xresources
+xrdb ~/.Xresources
+xrdb ~/.Xdefaults 
+nvim ~/.Xdefaults 
+xrdb ~/.Xdefaults 
+xrdb ~/.Xresources
+q
+xrdb -query | grep Xdefaults
+xrdb -query | grep Xres
+q
+sudo xbps-install v2ray proxychains
+sudo xbps-install v2ray proxychains4
+sudo xbps-install v2ray proxychain4
+xbps-query -Rs proxych
+sudo xbps-install v2ray proxychains-ng
+cd ~/dev/hossein-lap/suckless/st
+nvim config.def.h 
+cls
+make clean
+cls
+which lua-language-server 
+sudo xbps-remove -R lua-language-server bash-language-server 
+sudo xbps-remove -R lua-language-server
+sudo xbps-remove lua-language-server bash-language-server 
+btop
+cd ~/dev/hossein-lap/nvim
+cls
+nvim lua/plugin/mason/
+ls ~/.urxvt/
+nvim .Xre
+nvim ~/.Xresources
+ls ~/.urxvt/ext/bidi 
+nvim ~/.urxvt/ext/bidi 
+xbps-query -Rs tree-sitter
+urxvt > /tmp/urxvt-test.log
+c
+urxvt > /tmp/urxvt-test.log
+urxvt
+nvim ~/.Xresources
+q
+btop
+cls
+xrdb -merge .Xresources
+echo \begin{test} نمونه شماره یک \end{test}
+vim /tmp/test.tex
+nvim /tmp/test.tex
+vim /tmp/test.tex 
+nvim /tmp/test.tex 
+vim /tmp/test.tex 
+xbps-query -Rs mlterm
+vim -A /tmp/test.tex 
+urxvt
+nvim /tmp/test.lua 
+irssi
+ne
+neofetch 
+irssi 
+neofetch 
+irssi
+irssi 
+q
+urxvt
+nvim ~/.Xresources
+urxvt
+xrdb -marge ~/.Xresources
+xrdb -merge ~/.Xresources
+urxvt
+xrdb ~/.Xresources
+urxvt
+r.sh urxvt
+cd vm/qemu/void/
+nvim ssh.sh 
+
+cls
+mv headless.sh run-headless.sh
+nvim run-headless.sh 
+vidir
+lf
+xbps-query -Rs vidir
+s
+xbps-query -Rs vidir
+vidir
+find /home/root/ -name vidir
+lf
+q
+q
+btop
+nvim .Xresources
+cd vm/qemu/void/
+nvim ssh.sh 
+./ssh.sh 
+nvim ssh.sh 
+./ssh.sh 
+neofetch 
+irssi
+sshfs
+sudo xbps-install sshfs
+sudo xbps-query -Rs sshfs
+sudo xbps-install fuse-sshfs
+mv run-headless.sh headless.sh
+nvim headless.sh 
+..
+bash void/headless.sh 
+cd -
+nvim headless.sh 
+cd -
+bash void/headless.sh 
+nvim headless.sh 
+cd -
+nvim headless.sh 
+bash void/headless.sh 
+cd -
+bash void/headless.sh 
+nvim void/headless.sh 
+bash void/headless.sh 
+cd -
+./headless.sh 
+nvim headless.sh 
+./headless.sh 
+bash headless.sh 
+..
+bash headless.sh 
+void/headless.sh 
+./void/headless.sh 
+
+nvim `which dmsrun.sh`
+which dmsrun.sh
+nvim /home/hos/.local/bin/scripts/dm*.sh
+nvim /home/hos/.local/bin/scripts/dmvm.sh
+q
+irssi
+cls
+xbps-query -Rs consolas
+xbps-query -Rs consola
+xbps-query -Rs moreutils
+sudo xbps-install moreutils
+vidir 
+q
+neofetch 
+st -h
+sudo xbps-install dunst
+nvim .Xresources
+cd .Xresources.d/
+cls
+wget v
+q
+neofetch 
+sudo xbps-install xterm
+nvim
+nvim .Xresources
+cls
+cd vm/qemu/void/
+cls
+chmod -x img 
+cls
+touch stop
+chmod +x stop
+nvim s
+nvim stop 
+nvim run-* install ssh 
+nvim ssh 
+nvim `which dmshot.sh`
+nvim ssh 
+xbps-query -Rs mg
+xbps-query -Rs um
+xbps-query -Rs uem
+clear
+cd .Xresources.d/
+cls
+wget https://raw.githubusercontent.com/alacritty/alacritty-theme/master/themes/tango_dark.yaml
+nvim tango_dark.yaml 
+mv tango_dark.yaml tango
+nvim ../.Xresources
+xrdb ~/.Xresources
+nvim -o tango dracula 
+nvim -o tango
+urxvt
+xrdb ~/.Xresources
+urxvt
+st
+st -h
+man st
+vimpager 
+nvim ~/.config/shell/bashrc
+s
+man st
+sudo xbps-remove -R vimpager
+nvim ~/.config/shell/bashrc
+s
+man st
+man 7 st
+man 1 st
+sudo makewhatis /usr/local/share/man
+man st
+nvim ~/.config/tmux/tmux.conf 
+nvim ~/.config/nvim/init.lua 
+cd ~/.config/nvim
+cd lua/
+tree plugin/
+`which tree` plugin/
+..
+`which tree` lua/plugin/
+..
+`which tree` nvim/lua/plugin/ | nc termbin.com 9999
+sudo xbps-install netcat
+sudo xbps-query -Rs netcat
+sudo xbps-query -Rs openbsd-netcat
+sudo xbps-install openbsd-netcat
+`which tree` nvim/lua/plugin/ | nc termbin.com 9999
+scp -r vi hos@localhost/home/hos/.vim -p 2222
+man scp
+grep scp shell/history/bash/* | grep 236
+scp -r vi hos@localhost:/home/hos/.vim -p 2222
+scp -r vi hos@localhost:2222/home/hos/.vim
+sshfs hos@localhost:/home/hos/public /home/hos/pub/share/void/ -p 2222
+cp -r vi ~/pub/share/void/
+sudo xbps-install xclip
+vim /tmp/test.lua
+vim ../.vim/modules/extra.vim 
+nvim ../.vim/modules/extra.vim 
+ls ~/pub/share/void/vi/
+rm -rf vi; mv ~/pub/share/void/vi .
+vi
+vi /tmp/test.c
+nvim ../.vim/modules/extra.vim 
+nvim ~/.config/vi/vimrc 
+nvim ~/dev/hossein-lap/suckless/st/config.def.h 
+nvim ~/dev/hossein-lap/suckless/st/config.def.h
+cp lf ~/pub/share/void/-rv
+cp lf ~/pub/share/void/ -rv
+cp -r ~/dev/hossein-lap/workflow/config/lf ~/pub/share/void/
+vi ~/.config/shell/aliases.sh 
+nvim ~/.config/shell/aliases.sh 
+q
+irssi 
+q
+x
+c
+x
+sudo chvt 1

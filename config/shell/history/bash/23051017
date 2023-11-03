@@ -1,0 +1,3 @@
+sudo xbps-install -Su
+proxychains4 -q sudo xbps-install -Su
+proxychains4 -q sudo xbps-install -Suy

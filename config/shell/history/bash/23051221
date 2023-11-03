@@ -1,0 +1,117 @@
+cd /data/w/md2term/
+cls
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less -R
+echo lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less -R >> r.sh 
+lowdown -stman t.md | groff -itk -man -Tutf8 | less -R
+lowdown -stman t.md | mandoc | less
+lowdown -stman t.md 
+c
+lowdown -stman t.md | groff -itk -man -Tutf8 | less
+echo lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less 
+echo lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less -R
+echo lowdown -stms t.md | groff -itk -mspdf -Tutf8
+echo lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less -R
+cls
+nvim t.md 
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less -R
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less 
+lowdown -stmm t.md | groff -itk -mspdf -Tutf8 | less 
+lowdown -stms t.md | groff -itk -ms -Tutf8 | less 
+lowdown -stms t.md | groff -itk -ms  | less 
+lowdown -stmm t.md | groff -itk -mspdf -Tutf8 | less 
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less 
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | col | less 
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | col -b | less 
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | col -bx | less 
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | col -bx | less -R
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less -R
+slides t.md 
+cls
+nvim t.md 
+slides t.md 
+pandoc t.md 
+pandoc t.md -t txct
+pandoc t.md -t txt
+pandoc t.md -t text
+pandoc t.md -t plain
+pandoc t.md -t utf8
+lowdown -stms t.md | groff -itk -mspdf -Tutf8 | less -R
+lf ~/vid
+q
+xbps-query -Rs tree-sitter
+env | grep npm
+npm i -g neovim
+sudo npm i -g neovim
+sudo npm -g npm@9.6.6
+sudo npm i -g npm@9.6.6
+xbps-query -Rs bash-la
+sudo xbps-install -Sy bash-language-server
+ls ~/
+ls ~/Desktop/
+rmdir ~/Desktop/
+cls
+find . -iname '*bash*'
+mv ./.tmp/cmp/bashls.lua.bak cmp/bashls.lua
+nvim cmp/init.lua 
+nvim /tmp/test.sh
+xbps-query -l
+xbps-query -l | awk '{print $2}' > ~/void-packages.txt
+vim ~/void-packages.txt 
+vim ~/.vim/vimrc 
+gvim ~/.vim/vimrc 
+vim ~/.vim/vimrc 
+s
+man man
+s
+ss
+s
+man man
+s
+man man
+s
+man man
+clear
+unset MANPAGER
+man man
+s
+man man
+col -b
+col -bx
+s
+man man
+s
+man man
+s
+man man
+s
+man man
+man col
+s
+man col
+cls
+man man
+s
+clear
+tcsh
+cd /data/w/md2term/
+cls
+slides t.md 
+lowdown -tterm t.md 
+nvim t.md 
+lowdown -tterm t.md 
+nvim t.md 
+lowdown -tterm t.md 
+lowdown -tterm t.md  | less -R
+lowdown -tterm t.md  | less 
+cls
+echo lowdown -tterm > r.sh
+cls
+nvim r.sh 
+chmod +x r.sh 
+./r.sh 
+lowdown -tman t.md | man --
+lowdown -tman t.md | man 
+lowdown -tman t.md | man -i
+man lowdown
+q

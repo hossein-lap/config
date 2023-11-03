@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "www.unpkg.com",
+        "name": "رایگان | VLESS | @MehradLearn | RELAY🚩 | 0️⃣3️⃣",
+        "pass": "56483c52-f454-4918-b2eb-54bcb3943628",
+        "port": 8080,
+        "stream": {
+            "ed_len": 0,
+            "host": "de8.vlessx.us",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048"
+        }
+    },
+    "gid": 1,
+    "id": 7129,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

@@ -1,0 +1,116 @@
+makepkg
+clear
+q
+ip a
+lf
+nvim /tmp/test.tex
+:x
+q
+fc-cache -f
+cls
+rm doit.sh 
+nvim doit.sh
+cls
+exa -D | sed -e 's/fonts//' -e 's/ttf//'
+exa -D | sed -e 's/-fonts//' -e 's/ttf-//'
+q
+find $PWD -name '*.ttf' 2>/dev/null
+find $PWD -name '*.ttf' 2>/dev/null | awk -F '/' '{print $NF;}'
+find $PWD -name '*.ttf' 2>/dev/null | awk -F '/' '{print $NF;}' | fzf
+lf ttf-yas/
+find $PWD -name '*.ttf' 2>/dev/null | awk -F '/' '{print $NF;}' | grep ' '
+find $PWD -name '*.ttf' 2>/dev/null | awk -F '/' '{print $NF;}' | 
+find $PWD -name '*.ttf' 2>/dev/null | awk -F '/' '{print $NF;}' 
+find $PWD -name '*.ttf' 2>/dev/null | awk -F '/' '{print $NF;}' | fzf
+cls
+clear; ls
+tree -L2
+for i in `exa -D`; do find ${i} -name '*.ttf' ; done
+nvim doit.sh
+cls
+lf
+q
+fc-list | grep Para
+fc-list | grep Parastoo
+c
+fc-list | grep Parast
+cd .local/share/fonts/persian/
+ls
+ls -l dl/
+fc-list | grep Parastoo | grep Bold
+clear; ls
+cd dl/
+cls
+..
+cls
+tar --gzip -cvf dl.tar.gz dl/
+rm dl -rf
+cls
+lf /home/hos/.cache/yay
+lf /home/deb/.cache/yay/
+for i in `exa -D`; do cd "${i}"; j=$(ls *.zip); unzip "${j}"; cd ..; done
+for i in `exa -D`; do cd ${i}; j=$(ls *.zip); unzip ${j}; cd ..; done
+cls
+cd dl/
+cls
+for i in `exa -D`; do cd ${i}; j=$(ls *.zip); unzip ${j}; cd ..; done
+cls
+lf
+q
+x
+xbps-query -Rs apostr
+xbps-query -Rs apostrophe
+sudo xbps-install apostrophe
+sudo xbps-install -Sy apostrophe
+x
+cd dev/hossein-lap/
+cl
+lf ~/doc/apostrophe/
+cls
+mv lin-persian/ home
+cd home/
+cls
+nvim .git/config 
+cls
+gss .
+git diff .
+nvim README.md 
+cls
+zathura test.pdf 
+nvim test.md 
+git add README.md 
+git commit -m 'renamed'
+git push
+
+cls
+nvim README.md 
+cls
+rm test.* -fv
+cls
+ls gimp/
+lf gimp/
+nvim .gitignore
+gss .
+git add .
+git commit -m 'Persian language'
+git push
+clear
+cls
+mkdir linux computers servers
+cd linux/
+cls
+..
+mkdir config
+cp ~/.config/pandoc/defaults/persian/* config/
+cd config/
+cls
+nvim persian.yaml 
+nvim ../linux/Makefile
+mv persian.yaml light.yaml
+cls
+nvim light.yaml 
+nvim main.sty 
+cls
+..
+cls
+t

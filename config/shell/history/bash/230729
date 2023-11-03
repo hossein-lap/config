@@ -1,0 +1,192 @@
+imstring.sh -h
+notify-send -i gtk-media-play-ltr test is
+notify-send -i stock_media-play test is
+notify-send -i gtk-media-play-ltr test is
+notify-send -i gmedia-play test is
+notify-send -i media-play test is
+notify-send -i gtk-media-play-ltr test is
+notify-send -i player_play test is
+notify-send -i player_play test-is
+take pic texture
+nvim make.sh
+take texture
+mv ../make.sh .
+sh make.sh 
+r.sh nsxiv tmp.png 
+nvim make.sh 
+nvim `which dmplay.sh`
+q
+cd pic/texture/
+nvim `whichdmplay.sh`
+nvim `which dmplay.sh`
+cd pic/texture/
+ls
+nvim make.sh 
+q
+nvim .config/dunst/dunstrc 
+ls /etc/polkit-1/rules.d/
+sudo ls /etc/polkit-1/rules.d/
+xbps-query -l | fzf
+nvim .config/dunst/dunstrc 
+nvim `which imstring.sh`
+nvim tmp/notify.sh
+nsxiv .local/share/icons/Papirus-Dark/96x96/ -or
+ls .local/share/icons/Papirus-Dark/96x96/*/*play*
+ls .local/share/icons/Papirus-Dark/96x96/*/*play* | nsxiv --
+ls .local/share/icons/Papirus-Dark/96x96/*/*play* | nsxiv -
+ls .local/share/icons/Papirus-Dark/96x96/*/*media* | nsxiv -
+q
+nvim .config/dunst/dunstrc 
+q
+make clean; make; sudo make install
+free -m
+free -h
+dmexit.sh 
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim config.def.h 
+cd ../dmenu/
+nvim config.def.h 
+q
+man loginctl 
+nvim ~/.config/shell/bashrc
+nvim .local/bin/scripts/dmenupass
+dmenupass 
+loginctl hibernate
+groups
+loginctl sleep
+loginctl suspand
+loginctl suspend
+sudo xbps-query -Rs test
+nvim `which dmexit.sh`
+..
+make clean; make; sudo make install
+..; make clean; make; sudo make install
+cd dev/hossein-lap/workflow/suckless/dwm/
+nvim colors/dracula.h 
+sudo xbps-query -Rs test
+sudo -A xbps-query -Rs test
+sudo -A `which dmenupass` xbps-query -Rs test
+man sudo
+sudo -A `which dmenupass` xbps-query -Rs test
+sudo -A xbps-query -Rs test
+s
+sudo -A xbps-query -Rs test
+sudo -A $(dmenu -P -p 'sudo password:' < /dev/null) xbps-query -Rs test
+dmenupass 
+sudo -A  xbps-query -Rs test
+dmenupass 
+nvim `which dmenupass `
+sudo cp `which dmenupass` /usr/bin/
+nvim ~/.config/shell/bashrc
+sudo -A  xbps-query -Rs test
+sudo rm /usr/bin/dmenupass 
+sudo -A xbps-query -Rs 
+sudo -A xbps-query -Rs test
+make clean; make; sudo make install
+man read
+make clean; make; sudo make install
+man read
+make clean; make; sudo make install
+which dmenupass
+nvim `which dmenupass`
+nvim ~/.config/shell/aliases.sh 
+man doas
+nvim `which dmenupass`
+xbps-query -Rs dmenu
+xbps-query -Rs smenu
+cd dev/hossein-lap/workflow/scripts/
+mv dmenupass dmpass.sh
+s
+cls
+sudo xbps-query -Rs test
+alias sudo
+s
+alias sudo
+s
+alias sudo
+sudo xbps-query -Rs test
+cd dev/hossein-lap/workflow/suckless/dmenu/
+cls
+nvim config.def.h 
+nvim ~/.config/shell/aliases.sh 
+nvim config.def.h 
+make clean; make; sudo make install
+s
+make clean; make; sudo make install
+cd ../dwm/
+nvim config.def.h 
+q
+x
+ip -c a
+make clean; make; sudo make install
+cd dev/hossein-lap/workflow/suckless/slstatus/
+nvim config.def.h 
+nvim ~/.config/dunst/dunstrc 
+q
+cd dev/hossein-lap/workflow/scripts/
+nvim slsnetwork.sh 
+nvim sls{ping,ip}.sh 
+nvim ~/tmp/notify.lua
+q
+nvim `which slsbattery.sh`
+man date
+cal
+q
+cd dl/iso/
+nvim dl.sh 
+q
+ip -c a
+date -d '2022-01-01'
+date -d '2022-01-02'
+for i in `seq 7`; do date -d "2022-01-0${i}" '+%A'; done
+for i in `seq 7`; do mkdir -v `date -d "2022-01-0${i}" '+%A'`; done
+nvim dmdaily.sh
+nvim dmdaily.pl
+nvim dmdaily.sh
+..
+mv daily/ ~/doc/todo/
+cd ~/doc/todo/daily/
+nvim ~/.config/tmux/tmux.conf 
+man date
+cd .local/share/
+cd .local/share/nvim/site/pack/packer/start/
+rm -rf `exa -D | fzf`
+rm nvim-dap/ -rf
+nvim
+nvim /tmp/test.pl
+lf doc/todo/daily
+q
+for i in `seq 7`; do echo `date -d "2022-01-0${i}" '+%A'`; done
+ls
+exa -D
+for i in `exa -D`; do touch ${i}/template.lua; done
+nvim */template.lua
+nvim tmp.lua
+mv tmp.lua .tmp.lua
+for i in `exa -D`; do ls ${i}/template.lua; done
+for i in `exa -D`; do rm ${i}/template.lua; done
+for i in `exa -D`; do cp -v .tmp.lua ${i}/; done
+nvim .tmp.lua 
+rm -rfv `exa -D`
+nvim .tmp.lua 
+rm -rfv `exa -D`
+nvim .tmp.lua 
+q
+ls
+nvim dmdaily.sh 
+for i in `seq 7`; do date -d "2022-01-0${i}" '+%A'; done
+lf
+q
+slsip.sh 
+nvim `which slsip.sh `
+cd tmp/
+ls
+take daily
+date -d 1
+date -d 
+t
+pwd
+cd ~/doc/todo/daily/
+t
+q
+x

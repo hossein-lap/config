@@ -1,0 +1,3 @@
+nvim `which randr.sh`
+xrandr
+xrandr | grep '\<connected\>'

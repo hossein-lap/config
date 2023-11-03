@@ -1,0 +1,257 @@
+xbps-query -Rs hugo
+sudo xbps-install hugo
+cd dev/hossein-lap/workflow/suckless/
+ls surf/
+cd surf/
+make clean; make
+qutebrowser localhost:1313
+xbps-query -Rs webkit2gtk
+xbps-query -Rs webkit2gtk-devel
+sudo xbps-install -y webkit2gtk-devel
+make clean; make
+xbps-query -Rs gcr
+sudo xbps-install gcr-devel
+make clean; make
+sudo make install
+surf localhost:1313
+..
+rm -rf surf/
+gln --max-depth 1 https://git.suckless.org/surf
+gln --depth 1 https://git.suckless.org/surf
+cd surf/
+make
+sudo make install
+surf localhost:1313
+sudo xbps-remove -R gcr-devel
+sudo xbps-remove -R webkit2gtk-devel
+clear
+qutebrowser localhost:1313
+nvim /tmp/test.html
+nvim content/_index.md 
+qutebrowser localhost:1313
+nvim dev/resume/palette/dracula.lua 
+nvim ~/.config/pandoc/highlight/dracula.theme 
+nvim ~/.config/pandoc/defaults/dracula/dracula.yaml 
+nvim content/_index.md 
+cls
+find $PWD -name '*.png'
+ls static/imgs/
+ls static/imgs/first/
+cd static/imgs/first/
+clear; ls
+cp he.png ba.he.png 
+mv ba.he.png bak.he.png 
+nsxiv he.png & disown 
+imstring.sh -i HE -bg none -fg black -o he.png 
+imtrim.sh he.png 
+imshadow.sh he.png 
+cls
+nsxiv . & disown 
+rm bak.he.png 
+...
+cls
+..
+lcs
+cls
+cd static/imgs/first/
+nsxiv he.png & disown 
+imstring.sh -i HS -bg none -fg black -o he.png 
+imtrim.sh he.png 
+imshadow.sh he.png 
+imstring.sh -i H.S. -bg none -fg black -o he.png 
+imstring.sh -i H.S -bg none -fg black -o he.png 
+imstring.sh -i H.S. -bg none -fg black -o he.png 
+imtrim.sh he.png; imshadow.sh he.png 
+imstring.sh -i H.S -bg none -fg black -o he.png; imtrim.sh he.png; imshadow.sh he.png 
+mv he.png hs.png
+cls
+cd -
+cls
+nvim content/_index.md 
+hugo -t allgray
+nvim themes/allgray/static/css/style.css 
+nvim content/_index.md 
+nvim content/tools/pandoc.md 
+nvim themes/allgray/static/css/style.css 
+gss .
+cd themes/allgray/
+gss .
+git add .
+git commit -m 'new design - dracula theme'
+...
+gss .
+hugo -t allgray
+cd public/
+gss .
+git add .
+git commit -m 'testing - new theme'
+git push
+cd ../themes/allgray/
+git push
+git push origin 
+git remote -v
+git branch 
+git push origin master
+ls .git
+ls .git/
+la
+nvim .git
+q
+grep list.html *.html
+grep list.html ../*/*.html
+nvim baseof.html 
+...
+..
+nvim config.toml 
+nvim themes/allgray/layouts/_default/baseof.html 
+q
+cd public/
+gss .
+git remote
+git remote -v
+cd -
+nvim config.toml 
+nvim public/index.html 
+cd themes/allgray/
+git remote -v
+gss .
+nvim static/css/style.css 
+cd static/css/
+cp style.css gray.css
+mv style.css dracula.css
+ln -s dracula.css style.css
+unlink style.css 
+cp dracula.css style.ca
+cp dracula.css style.css
+rm style.ca 
+cls
+nvim dracula.css 
+mv dracula.css style.css 
+nvim style.css 
+lf
+q
+imstring.sh -i HS -fg white -bg none -o hs.png 
+nsxiv hs.png 
+imtrim.sh hs.png 
+imshadow.sh hs.png 
+nsxiv hs.png 
+qutebrowser localhost:1313 & disown 
+nvim `which imshadow.sh`
+imstring.sh -i HS -fg white -bg none -o hs.png; imtrim.sh hs.png; imshadow.sh hs.png 
+qutebrowser localhost:1313 & disown 
+cls
+cd -
+hugo new tools/index.md
+hugo new tools/pandoc.md
+nvim content/tools/*
+mv content/tools/index.md content/tools/_index.md
+mv content/tools/index.md content/tools/pandoc.md 
+nvim content/tools/pandoc.md 
+cd themes/allgray/
+cls
+lf
+q
+nvim public/index.
+nvim public/index.html 
+cd static/imgs/first/
+imstring.sh -i HS -bg none -o hs.png 
+imtrim.sh hs.png 
+imshadow.sh hs.png 
+cd -
+hugo new tools/pandoc.md
+ls content/
+nvim content/tools/pandoc.md 
+nvim config.toml 
+nvim content/tools/index.md
+lf
+q
+hugo server
+hugo server --disableFastRender
+hugo server
+hugo -t allgray
+hugo server --disableFastRender
+hugo server
+hugo server --disableFastRender
+c
+hugo server --disableFastRender
+hugo server
+hugo server --disableFastRender
+hugo server
+hugo server --theme=allgray
+hugo server --theme=allgray 
+hugo server --theme=allgray --disableFastRender
+clear
+hugo server --theme=allgray --disableFastRender
+c
+hugo server --theme=allgray --disableFastRender
+q
+hugo new tools/groff.md
+hugo new languages/_index.md
+hugo new languages/lua.md
+nvim content/*/*.lua
+nvim content/*/*.md
+nvim themes/allgray/archetypes/default.md 
+q
+qutebrowser localhost:1313 & disown 
+imstring.sh 
+nvim `which imstring.sh `
+q
+nvim themes/allgray/static/css/style.css 
+hugo -t allgray
+cd themes/
+gss .
+cd allgray/
+gss .
+git add .
+git commit -m 'new theme - fixed sitemap (reverted the old one)'
+git push
+git push origin master 
+git push origin origin/master 
+git push originorigin/master 
+git push origin/master 
+git push origin
+cd ../../public/
+git add .
+git commit -m 'new theme - fixed sitemap (reverted the old one)'
+git push
+nvim config.toml 
+nvim content/_index.md 
+cls
+nvim
+nvim ~/.config/nvim/init.lua 
+nvim themes/allgray/layouts/_default/baseof.html 
+nvim themes/allgray/layouts/_default/list.html
+cd dev/hossein-lap/blog/hos/
+t
+qutebrowser localhost:1313
+hugo server --theme=allgray
+hugo server --theme=allgray --disableFastRender
+cd dev/hossein-lap/blog/hos/themes/allgray/layouts/
+t
+cls
+nvim _default/baseof.html 
+nvim ../../../content/_index.md 
+...
+..
+hugo -t allgray
+cd public/
+git add .
+git commit -m 'testing on host'
+git push
+nvim index.html 
+gss .
+nvim ../static/css/style.css 
+...
+..
+hugo server
+t att
+nvim .config/pandoc/highlight/dracula.theme 
+q
+x
+lf doc/books/tools/
+q
+cd w/devops/pipeline-as-code/pres/01
+cls
+nvim pac-01.tex 
+xbps-query -Rs jenkins
+q

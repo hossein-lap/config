@@ -1,0 +1,138 @@
+cp /home/hos/.config/pandoc/defaults/dracula/theme.sty dark.sty
+lf dev/hossein-lap/workflow/docs/
+find / -name '*.rmd' 2>/dev/null | fzf
+nvim ~/.config/pandoc/defaults/*/*.yaml
+ls config/
+nvim linux/Makefile 
+clear
+cls
+cd linux/
+cls
+rm README.html 
+cls
+nvim README.md 
+mv linux.md README.md 
+nvim MA
+nvim Makefile 
+gss .
+git add .
+git commit -m 'removed README.html, pandoc_md at README.md'
+git push
+nvim README.md 
+cls
+nvim README.md 
+git dff .
+git diff .
+git add .
+git commit -m 'fixed `rtl` for gfm'
+git push
+cls
+make
+r.sh zathura linux.pdf 
+nvim Makefile 
+nvim ../config/light.yaml 
+cp ~/.config/pandoc/defaults/persian/persian.yaml .
+mv persian.yaml dark.yaml
+nvim dark.yaml 
+cls
+mv dark.* ../config/
+make
+cls
+lf ../config/
+make
+amke
+make
+mkdir config/{highlight,filters}
+cls
+    - ../config/filters/fa-today.lua
+    - ../config/filters/tex-codeblock-fa.lua,tex-quoteblock-fa.lua
+
+cp ~/.config/pandoc/filters/{fa-today.lua,tex-codeblock-fa.lua,tex-quoteblock-fa.lua} config/filters/ -v
+cp ~/.config/pandoc/highlight/{solarized-dark.theme,tango.theme} config/highlight/
+cls
+cd linux/
+cls
+make
+nvim README.md
+mv README.md linux.md
+nvim Makefile 
+nvim linux.
+nvim linux.md 
+gss .
+..
+gss .
+git add .
+git commit
+git push
+man pandoc
+nvim ~/dev/hossein-lap/workflow/docs/python/Makefile 
+nvim ~/dev/hossein-lap/workflow/docs/theme/bw.yaml 
+nvim config/dark.sty 
+cls
+nvim config/dark.sty 
+cls
+nvim config/main.sty 
+gss .
+git add .
+git commit -m 'template is ready'
+gss .
+git push
+cls
+nvim ~/.config/shell/bashrc
+s
+cls
+nvim linux/Makefile 
+cp ~/.config/pandoc/highlight/dracula.theme config/highlight/dark.theme 
+make
+cd linux/
+amke
+make
+cls
+nvim README.md 
+mak
+makE
+make
+nvim README.md 
+t att
+alias mpv
+lf dl/telegram-dl/
+dmplay.sh 
+make clean; make; sudo make install
+xbps-query -Rs vim | fzf
+vim
+xbps-install -Sy
+sudo xbps-install -Sy
+sudo xbps-install -Su
+cls
+neofetch 
+nvim dev/hossein-lap/suckless/st/config.def.h 
+nvim
+nvim ~/.config/nvim/init.lua 
+cls
+nvim ~/.vim/modules/main.vim 
+nvim .config/nvim/lua/module/main.lua 
+cls
+x
+cls
+clear; ls
+cls
+lf /run/media/hos/1EF1-5D05/
+dmusb.sh 
+lsblk
+udisksctl mount -b /dev/sda
+cd /run/media/hos/1EF1-5D05/
+clear; ls
+df -h /run/media/hos/1EF1-5D05/
+cls
+cd
+c
+cls
+cd dev/resume/
+cls
+nvim {en,fa}/{resume,cv}/gen.lua 
+nvim ~/dev/hossein-lap/workflow/suckless/st/colors/dracula.h 
+nvim ~/.config/pandoc/highlight/dracula.theme 
+nvim ~/.config/pandoc/defaults/dracula/theme.sty 
+lf dev/resume/fa/cv
+nvim ~/.config/pandoc/defaults/dracula/theme.sty 
+x

@@ -1,0 +1,23 @@
+sudo xbps-install kate
+xbps-query -Rs kate
+sudo xbps-install kate5
+pulsemixer 
+xbps-query -Rs eric
+xbps-query -Rs eric | less -SR
+clear
+cd /data/w/benchmark-handmade/
+cls
+lazygit 
+nvim ~/.config/git/config
+git init
+git add .
+git commit -m 'init commit'
+cls
+mv s.sh run.sh
+git add .
+gss .
+git commit -m 'renamed runner script'
+git commit --amend 
+زمس
+cls
+x

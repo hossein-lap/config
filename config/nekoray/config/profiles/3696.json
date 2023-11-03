@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "6544.outline-vpn.cloud",
+        "name": "رایگان | VLESS | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣3️⃣",
+        "pass": "c9530d80-7df7-43e0-aacd-3006d769029d",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "host": "hk.vps.wengmail.link",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "ws",
+            "path": "/?ed=2048",
+            "sec": "tls",
+            "sni": "hk.vps.wengmail.link"
+        }
+    },
+    "gid": 3,
+    "id": 3696,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

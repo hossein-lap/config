@@ -1,0 +1,5 @@
+nvim
+cd .config/nvim
+nvim init.lua 
+nvim lua/module/netrw.lua 
+q

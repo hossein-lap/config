@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "1827-join-v2raytz.sinotz.tk",
+        "name": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣",
+        "pass": "5164a822-770b-4490-b390-4d0230d28b43",
+        "port": 2096,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "path": "@shh_proxy,@shh_proxy,",
+            "pbk": "GxGzAVN9xi1aXGv_-EUwj8qLldhHG0oVQ-OOgVkoMlU",
+            "sec": "tls",
+            "sid": "25988b1f",
+            "sni": "www.speedtest.net",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7125,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

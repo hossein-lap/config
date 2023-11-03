@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "number1.alwaysbeyonder.sbs",
+        "aid": 0,
+        "id": "15873955-bbfc-473d-9a8d-9730f0e4ad05",
+        "name": "رایگان | VMESS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣",
+        "port": 38751,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "http",
+            "host": "www.discord.com",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "path": "/",
+            "sni": "discord.com:443"
+        }
+    },
+    "gid": 2,
+    "id": 1298,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

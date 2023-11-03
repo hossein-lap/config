@@ -1,0 +1,27 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "ahangb.ahangbox.xyz",
+        "aid": 0,
+        "id": "33c425cb-ec4f-4e7f-be40-66b57418fa03",
+        "name": "رایگان | VMESS | @Royalping_ir | DE🇩🇪 | 0️⃣2️⃣",
+        "port": 12345,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "h_type": "none",
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "sec": "tls"
+        }
+    },
+    "gid": 2,
+    "id": 1334,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": -1
+}

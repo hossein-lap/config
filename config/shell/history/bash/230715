@@ -1,0 +1,582 @@
+pulsemixer 
+q
+ip -c a
+ip -c a | dmenu -c -bw 3 -l 20 -p ip
+ip a | dmenu -c -bw 3 -l 20 -p ip
+ip a | sed 's/\t/    /g' | dmenu -c -bw 3 -l 20 -p ip
+ip a
+`which ip` a | sed 's/\t/    /g' | dmenu -c -bw 3 -l 20 -p ip
+`which ip` a | sed 's/\t/    /g' | dmenu -c -bw 3 -l 40 -p ip
+`which ip` a | sed 's/\t/    /g' | highlight
+cat test.me | groff -itk -me -Tutf8 | less -SR
+cat test.me | groff -itk -me -Tutf8 > test.txt
+nvim test.txt 
+cat test.me | groff -itk -me -Tascii > test.txt
+nvim test.txt 
+q
+neatvi
+c
+q
+..
+make clean; make; sudo make instal
+make clean; make; sudo make install
+ps2ascii pdf_src/groff/tmp/tmp.ps
+ps2frag pdf_src/groff/tmp/tmp.ps
+ps2ascii pdf_src/groff/tmp/tmp.ps
+file --dereference --brief --mime-type -- "$1" ps2ascii pdf_src/groff/tmp/tmp.ps
+file --dereference --brief --mime-type -- pdf_src/groff/tmp/tmp.ps
+man groff
+xbps-query -Rs vimp
+xbps-query -Rs vimpc
+sudo xbps-install vimmpc
+sudo xbps-install vimpc
+nvim ~/dev/hossein-lap/suckless/st/colors/schemes.h 
+q
+nvim .vim
+cls
+lf
+q
+groff -Tascii bash.ms 
+grotty -Tascii bash.ms 
+grotty bash.ms 
+grotty -Tlatin bash.ms 
+grotty -Tlatin1 bash.ms 
+groff -Tlatin1 bash.ms 
+groff -Tutf8 bash.ms 
+groff -itk -man -Tutf8 bash.ms 
+groff -itk -man -Tutf8 bash.ms | less -R
+head bash.ms 
+nvim bash.
+nvim bash.ms
+mandoc
+mandoc bash.ms 
+mandoc bash.ms  | less
+cat bash.ms | groff -itk -man -Tutf8 | less -R
+groff -itk -man -Tutf8 bash.ms | less -R
+cat bash.ms | groff -itk -mspdf -Tutf8 | less -R
+groff bash.ms -itk -mspdf -Tutf8 | less -R
+groff -itk -mspdf -Tutf8 bash.ms| less -R
+lf
+sudo xbps-install telegram-desktop
+cls
+ip -c a
+iwctl station list
+iwctl station wlp45s0 connect shahiran
+ping 1.1.1.1
+cd ~/.config/nvim
+nvim lua/plugin/lualine/init.lua 
+nvim init.lua 
+nvim lua/plugin/lualine/init.lua 
+nvim init.lua 
+nvim lua/plugin/lualine/init.lua 
+q
+lowdown -tterm Test.odt 
+man lowdown
+lowdown -tfodt Test.odt 
+c
+lowdown -todt Test.odt 
+lowdown -tterm Test.odt 
+lowdown -tterm Test.odt  | less -SR
+cls
+odt2txt -h
+man odt2txt
+lowdown -stlatex Test.odt 
+c
+lowdown -stlatex Test.odt | lowdown -tterm
+lowdown -sthtml Test.odt | lowdown -tterm
+lowdown Test.odt | lowdown -tterm
+highlight -O xterm256 --syntax latex tmp.tex 
+highlight -O ansi --syntax latex tmp.tex 
+cls
+highlight -O ansi --syntax latex rag-khab.
+highlight -O ansi --syntax latex ra
+highlight -O xterm256 --syntax latex rag-khab.tex
+bat rag-khab.tex
+lf
+q
+xrandr 
+randr.sh 1
+nvim `which randr.sh`
+randr.sh 2
+nvim `which randr.sh`
+sudo xbps-install -Sy telegram-desktop
+sudo xbps-install -S
+ip -c a
+iwctl
+ip -c a
+c
+sudo xbps-install -S
+sudo xbps-install iwctl
+sudo xbps-install iwd
+ip -c a
+iwctl
+sudo ln -s /etc/sv/iwd /var/service/
+iwctl
+iwctl station list
+iwctl station list | dmenu -c -bw 4 -p iwctl
+iwctl station list | dmenu -c -bw 4 -p iwctl -l 20
+man iwctl
+iwctl station list | fzf
+iwctl station list | smenu
+sudo xbps-install smenu
+iwctl station list | smenu
+cd doc/
+ls *.md
+highlight -s markdown -O xterm256 bsd-style.md 
+highlight --syntax markdown -O xterm256 bsd-style.md 
+highlight --syntax markdown -O term bsd-style.md 
+highlight --syntax markdown -O xterm256 bsd-style.md 
+highlight --syntax markdown -O ansi bsd-style.md 
+lowdown
+lowdown --help
+man lowdown
+iwctl station list | lowdown -tterm --term-no-ansi 
+iwctl station list | lowdown -tterm 
+iwctl station list | lowdown --term-no-ansi
+iwctl station list | lowdown -stterm --term-no-ansi
+iwctl station list | lowdown -Tterm --term-no-ansi
+iwctl station list | lowdown -Tterm --term-no-ansi | highlight --synatx text -O ansi
+iwctl station list | lowdown -Tterm --term-no-ansi | highlight --syntax text -O ansi
+lowdown -thtml bsd-style.md | highlight 
+lowdown -thtml bsd-style.md | highlight --syntax html
+lowdown -thtml bsd-style.md | highlight --syntax html -O ansi
+lowdown -tterm bsd-style.md | highlight --syntax html -O ansi
+lowdown -tterm bsd-style.md 
+lowdown -tterm bsd-style.md | less -SR
+lf
+q
+make clean; make; sudo make install
+q
+st -t note -s 7 -f 'Go Mono:size=20' 
+st -t note -s 7 -f 'Go Mono:size=20' nvim /tmp/test.sh
+groups 
+sudo gpasswd -a mpd
+sudo gpasswd -a mpd hos
+dmplay.sh 
+mpc -f
+mpc 
+groups
+take playlists
+nvim all.m3p
+nvim `which dmplay.sh`
+mpv
+mpc
+mpc playlist 
+mpc play
+nvim all.m3p 
+sudo sv restart mpd
+mpv
+mpc
+mpc playlist 
+vimpc
+groups
+newgrp
+vimpc 
+ls /var/service/mpd/
+mpc
+cd .local/share/
+mkdir mpd
+nvim ~/.config/mpd/mpd.conf 
+sudo vim /etc/gshadow
+cd mpd/
+cls
+nvim ~/.config/mpd/mpd.conf 
+q
+cd pic/
+cls
+take string
+cls
+nvim Makefile
+nvim make.sh
+q
+imstring.sh 
+q
+st -t note -s 7 -f 'Go Mono:size=18' nvim /tmp/test.sh
+nvim notebuild.sh 
+st -h
+nvim ~/.config/geany/geany.c
+nvim ~/.config/geany/geany.conf 
+make clean; make; sudo make install
+cmus
+mpc
+mpc playlist
+nvim ~/dev/hossein-lap/suckless/st/colors/schemes.h 
+nvim ~/dev/hossein-lap/suckless/st/config.def.h 
+cls
+cd dev/hossein-lap/workflow/scripts/
+nvim dmnotes.sh 
+q
+iwctl station list
+sudo xbps-install highlight
+iwctl station list | highlight 
+iwctl station list | highlight --syntax text
+man highlight
+iwctl station list | highlight --syntax text -O txt
+iwctl station list | highlight --syntax text -O text
+iwctl station list | highlight --syntax text -O ansi
+iwctl station list | highlight --syntax text -O xterm256
+nvim ~/.config/lf/lfrc
+nvim ~/.config/lf/scope
+xbps-query -Rs pdftoppm
+xbps-query -Rs poppler
+sudo xbps-install poppler-utils
+groff -Tterm ~/doc/pdf_src/groff/bash/bash.ms
+groff -Tansi ~/doc/pdf_src/groff/bash/bash.ms
+man groff
+man lowdown
+nvim ~/.config/lf/scope
+nvim .config/nvim/lua/plugin/init.lua 
+cd .config/nvim/
+cls
+nvim init.lua 
+nvim ~/dev/hossein-lap/workflow/suckless/dwm/config.def.h 
+nvim init.lua 
+q
+nvim
+x
+vimpc
+nvim `which dmexit.sh`
+q
+sudo xbps-remove -R mpd mpc vimpc
+sudo unlink /var/service/mpd 
+sudo xbps-query -Rs ncmpcpp
+groups
+sudo vim /etc/gshadow
+ip -c a
+x
+groups
+s
+group
+groups
+groups 
+sudo xbps-install mpd mpc ncmpc
+sudo xbps-install mpd mpc ncmpcpp
+sudo xbps-install mpd mpc ncmpc
+sudo xbps-install mpd mpc ncmpcpp
+sudo ln -s /etc/sv/mpd /var/service/
+mpc
+sudo sv up mpd
+mpc
+mpc playlist
+cd .local/share/mpd/
+cls
+more log 
+cls
+ls playlists/
+mv playlists/all.m3p playlists/all.m3u
+mpv playlists/
+mpc play
+mpc playlist 
+cd playlists/
+cls
+nvim all.m3u 
+ncmpcpp 
+nvim ~/.config/mpd/mpd.conf 
+mpc play
+mpc lsplaylists 
+touch database
+mpc lsplaylists 
+rm database 
+mkdir database
+rm database 
+mpc lsplaylists 
+rmdir database/
+nvim ~/.config/mpd/mpd.conf 
+mpc update ~/mu
+groups
+nwgrp
+newgrp 
+sudo usermod -aG mpd hos
+newgrp hos
+newgrp mpd
+mpc update ~/mus
+mpc update $HOME/mus
+mpc playlist 
+mpc lsplaylist 
+mpc update
+mpd
+mpd --kill
+sudo sv restart mpd
+mpd
+mpd --kill
+mpc playlist 
+mpc update
+mpd --kill
+cd .local/share/mpd/
+mkdir pid database
+mpd --kill
+rm pid database/ -rf
+touch pid database
+more pid 
+cat pid 
+cls
+mpd --kill
+cat pid 
+sudo sv down mpd
+cls
+nvim ~/.config/mpd/mpd.conf 
+mpc update
+sudo sv up mpd
+mpc update
+cls
+chmod g+w *
+mpc update
+cls
+sudo vim /etc/gshadow
+cls
+groups
+ls -l .config/ | grep cmus
+sudo xbps-install cmus
+mpc status
+mpc update
+nvim .config/mpd/mpd.conf 
+ls -l /var/lib/mpd/
+ln -s /home/hos/mus /var/lib/mpd/music
+sudo ln -s /home/hos/mus /var/lib/mpd/music
+mpc
+mpc status
+mpc update
+sudo sv down mpd
+sudo unlink /var/service/mpd
+sudo ln -s /etc/sv/mpd /var/service/mpd
+sudo sv up mpd
+mpc update
+cd /var/lib/mpd/
+cls
+touch database log pid
+sudo touch database log pid
+ls -l
+sudo chown mpd:mpd . -R
+cls
+cd music
+cls
+cd -
+lc
+cls
+mpc update
+mpc playlist 
+mpc lplaylist 
+mpc lsplaylist 
+cmus
+x
+mpc
+mpc update
+mpc update ~/mus
+curl localhost:6600
+mpc lsplaylists 
+mpd --create-db
+mpc --create-db
+mpd -c .config/mpd/mpd.conf 
+mpc update ~/mus
+mpc update /var/lib/mpd/music
+nvim ~/.config/mpd/mpd.conf 
+mpd update
+mpc update
+netstat -tulpn | grep -E '(mpd|6600)'
+sudo xbps-query -Rs netstat
+sudo xbps-query -Rs nettool
+sudo xbps-query -Rs network | fzf
+`which sudo` xbps-query -Rs network | fzf
+c
+s
+c
+dmkill.sh 
+mcam.sh 
+q
+cd .local/share/mpd/
+cls
+pwd
+for i in `exa -D ~/mus`; do echo $i ;done
+for i in `exa -D ~/mus`; do touch playlists/${i}.m3u; { find ${i} -name '*.mp3'; find ${i} -name '*.m4a'; } > playlists/${i}.m3u; done
+for i in `exa -D ~/mus`; do touch playlists/${i}.m3u; { find ~/mus/${i} -name '*.mp3'; find ~/mus/${i} -name '*.m4a'; } > playlists/${i}.m3u; done
+cls
+lf
+cd ~/mus/
+for i in `exa -D` ;do ecoh ${i}; done
+for i in `exa -D` ;do echo ${i}; done
+for i in `exa -D` ;do cd ${i}; vidir; cd ..; done
+cd mus/
+cls
+cd a.sorena/
+vidir
+..
+for i in `exa -D` ;do cd ${i}; vidir .; cd ..; done
+chmod +x Assassin\'s-Creed/
+mv Assassin\'s-Creed/ Assassins-Creed/
+ls Assassins-Creed/
+q
+chmod +x EshtebaheKhoob/
+q
+chmod +x EshtebaheKhoob
+cls
+ls EshtebaheKhoob/
+q
+chmod +x The\ Dust\ Brothers\ -\ Fight\ Club\ \(1999\)/
+q
+for i in `exa -D`; do chmod -v +x ${i}; done
+q
+lf mus/
+for i in `exa -D ${HOME}`; do chmod -v +x "${i}" -R; done
+cls
+find $PWD -type f -exec 'chmod -v 764 {}'
+find $PWD -type f
+for i in `exa -D`; do cd ${i}; chmod -v 764 `find $PWD -type f`; cd ..; done
+for i in `exa -D`; do cd ${i}; chmod -v 754 `find $PWD -type f`; cd ..; done
+cls
+ls -l .gnupg/
+cd usb/
+cd ../mus/
+cls
+for i in `exa -D ${HOME}`; do cd ${i}; chmod -v 755 `find $PWD -type d`; cd ..; done
+cls
+cd mus/
+cls
+pulsemixer 
+
+nvim .config/nvim/lua/plugin/lualine/init.lua 
+vim
+nvim /home/hos/.vim/modules/main.vim
+cd /home/hos/.vim
+grep filetypedetect *.vim
+grep filetypedetect modules/*.vim
+grep -i vufread modules/*.vim
+grep -i bufread modules/*.vim
+ncmpcpp 
+`which sudo` -i
+`which sudo` xbps-query -Rs network | fzf
+sudo xbps-install net-tools
+netstat -tulpn | grep -E '(mpd|6600)'
+sudo netstat -tulpn | grep -E '(mpd|6600)'
+sudo locate mpd.sock
+sudo locate mpd.socket
+sudo xbps-install locate
+sudo xbps-query -Rs locate
+sudo xbps-install mlocate
+sudo locate mpd.socket
+sudo sv restart mpd
+sudo netstat -tulpn | grep -E '(mpd|6600)'
+sudo unlink /var/service/mpd
+mpd
+nvim ~/.config/mpd/mpd.conf 
+mpd
+nvim ~/.config/mpd/mpd.conf 
+mpd
+nvim ~/.config/mpd/mpd.conf 
+mpd
+nvim ~/.config/mpd/mpd.conf 
+mpd
+mpc playlist 
+mpc lsplaylist 
+mpc update
+mpc load all
+mpc play
+mpc stop
+mpc play
+mpc pause
+mpc play
+mpc pause
+cd .local/share/mpd/playlists/
+cls
+nvim all.m3u 
+for i in `ls ~/mus`; do echo ${i}' done
+for i in `ls ~/mus`; do echo ${i}'; done
+for i in `ls ~/mus`; do echo ${i}; done
+for i in `exa -D ~/mus`; do echo ${i}; done
+cd ~/mus/
+vidir
+sudo xbps-install moretools
+xbps-query -Rs tools | fzf
+sudo xbps-install moreutils
+vidir
+cls
+nvim `which dmplay.sh`
+cd ~/.local/share/mpd
+du -ch .
+cls
+more log 
+tail -F log 
+cls
+more log 
+> log 
+cls
+tail -F log 
+du -k log 
+du log 
+nvim ~/.config/mpd/mpd.conf 
+ls -l
+more pid 
+cls
+ncmpcpp 
+cls
+> log 
+nvim `which slsextra.sh.`
+nvim `which slsextras.sh.`
+nvim `which slsextra.sh`
+mpd --kill
+mpd
+cls
+tail -F log 
+> log 
+tail -F log 
+cls
+tail -F log 
+cls
+cd playlists/
+cls
+rm * -rf
+cls
+for i in `exa -D /home/mus`; do echo $i ; done
+for i in `exa -D /home/home/mus`; do echo $i ; done
+for i in `exa -D /home/hos/mus`; do echo $i ; done
+for i in `exa -D /home/hos/mus`; do { find /home/hos/mus -iname '*.mp3'; find /home/hos/mus -iname '*.m4a'; } > all.m3u ; done
+cls
+wc -l all.m3u 
+nvim all.m3u 
+for i in `exa -D /home/hos/mus`; do { find /home/hos/mus/${i} -iname '*.mp3'; find /home/hos/mus/${i} -iname '*.m4a'; } > ${i}.m3u ; done
+cls
+..
+cls
+> log 
+while true; do clear; cls; sleep 1; done
+tail -F log 
+cls
+more database 
+c
+cls
+less database 
+cd .local/share/mpd/
+cls
+less database 
+more database 
+q
+lf vid/shows/movies/
+q
+find $PWD -name 4_5960905459949896640.mp3
+mpv /home/hos/mus/Music/4_5960905459949896640.mp3
+mpv /home/hos/mus4_5960905459949896640.mp3
+mpv /home/hos/mus/4_5960905459949896640.mp3
+rm mus/Music/Sasy-* -fv
+nvim vid/shows/movies/dl.sh 
+q
+ip -c a
+slsping.sh 
+c
+nvim ~/.config/nvim/lua/module/rce.lua 
+man ls
+man lowdown
+q
+cd dev/hossein-lap/workflow/scripts/
+cls
+nvim dmnotes.sh 
+fg
+nvim .local/share/mpd/playlists/all.m3u 
+nvim ~/.config/nvim/init.lua 
+cd ~/.vim
+nvim ~/.config/nvim/init.lua 
+nvim ~/.vim/modules/ls.vim 
+man lowdown
+nvim /home/hos/doc/notes/md/2023-07-14.md
+lf ~/doc/notes/
+man ionice 
+lf ~/doc/notes/
+q

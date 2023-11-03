@@ -1,0 +1,151 @@
+xbps-query -Rs dvtm
+abduco 
+abduco -h
+abduco --help
+man abduco 
+echo $TERM
+nvim ~/.config/nvim/lua/module/main.lua 
+dvtm-status 
+nvim
+nvim /tmp/test.c
+vi
+man dvtm
+man dvtm-status
+man dvtm
+ls
+
+c
+man dvtm
+which dvtm-status 
+vi `which dvtm-status `
+q
+take doc/tools/sessions/dvtm
+vi dvtm.md
+q
+dvtm -l
+dvtm 
+dvtm-status 
+c
+cls
+abduco 
+abduco -h
+abduco test dvtm -m b
+abduco -n test dvtm -m b
+echo $TERM
+nvim /tmp/test.c
+echo $TERM
+nvim /tmp/test.c
+vi /tmp/test.c
+nvim -C 'set notruecolor'
+nvim -c 'set notruecolor'
+nvim -c 'set notruecolors'
+vi ~/.vim/vimrc 
+vi ~/.config/nvim/lua/module/main.lua 
+nvim -c 'set notermguicolors'
+nvim -c 'set notermguicolors' -c 'colorscheme default'
+nvim -c 'set notermguicolors' -c 'colorscheme default' /tmp/test.c
+vi ~/.config/nvim/after/plugin/scheme.lua 
+nvim -c 'set notermguicolors' -c 'colorscheme default' ~/.config/nvim/after/plugin/scheme.lua 
+abduco 
+man abduco
+abduco 
+abduco -a name
+abduco 
+cat /dev/random
+echo $RANDOM
+q
+abduco 
+abduco 
+a
+abduco 
+abduco -c name dvtm -m b
+abduco -c name dvtm-status -m b
+abduco -c name dvtm-status -m 
+abduco 
+nvim ~/.config/shell/aliases.sh 
+s
+a
+abduco 
+abduco -a test
+abduco -a name
+abduco 
+nvim .config/shell/aliases.sh 
+s
+a
+abduco 
+a
+nvim .config/shell/aliases.sh 
+a
+s
+c
+a
+s
+a
+abduco | wc -l
+abduco 
+s
+fm4000 
+c
+fm4000 
+c; fm4000 
+xbps-query -l | wc -l
+xbps-query -l | head
+xbps-query -l | head -1
+c
+xbps-query -l | head -1
+xbps-query -l | sed 's/^ii.*/ii/' | grep -c '^ii'
+xbps-query -l | grep -c '^ii'
+fm4000 
+c
+fm4000 
+c; fm4000 
+q
+jp2a --height=12 draw-tmp.jpg 
+imcolor.sh 
+neofetch --ascii_distro fbsd
+neofetch --ascii_distro freebsd
+neofetch --ascii_distro freebsd_small
+neofetch --ascii_distro freebsd
+nvim /tmp/test.fbsd
+motd
+xbps-query -Rs motd
+vi /tmp/osenv.lua
+c
+echo $TERM
+nvim ~/.vim/vimrc 
+nvim .config/nvim/lua/module/r
+nvim .config/nvim/lua/module/rce.lua 
+cls
+a
+s
+a
+nvim .config/shell/aliases.sh 
+vi .config/shell/aliases.sh 
+fm4000 
+nvim `which fm4000`
+nvim ~/.config/shell/bashrc
+nvim `which fm4000`
+q
+pulsemixer 
+vi /tmp/test.py
+pulsemixer 
+nvim /tmp/test.py
+pulsemixer 
+st -h
+st -s 0
+st -s 1
+c
+st -s 1
+st -s 2
+st -s 3
+st -s 4
+st -s 9
+st -s 8
+pulsemixer 
+mpv screen/record/test-sound-230619_163621.mkv 
+c
+cp -r .vim vim
+tar -cf vim-conf.tar vim
+tar --xz -cf vim-conf.tar.xz vim
+ls .vim
+x

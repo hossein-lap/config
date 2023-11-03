@@ -1,0 +1,12 @@
+t ls
+cd uni/micro-lap/micro-lap-reports/
+cls
+t
+cls
+./t.sh 
+make
+nvim t.sh 
+./t.sh && make
+lowriter 06/06.docx 
+nvim 01/src.bas 
+geany 01/src.bas 

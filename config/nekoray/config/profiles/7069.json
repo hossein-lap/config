@@ -1,0 +1,29 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "zusa.ddns.net",
+        "name": "رایگان | REALITY | @V2rayCollectorDonate | US🇺🇸 | 0️⃣5️⃣",
+        "pass": "8951a6c2-7c08-46f4-9add-c19c1be908f1",
+        "port": 8443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "grpc",
+            "pbk": "VEczzGs1xaC8wsSKFNrl4Cq2E7hSAqd4H5NhCbHLM3s",
+            "sec": "tls",
+            "sid": "3a5d0363",
+            "sni": "account.zula.ir",
+            "spx": "/zilix",
+            "utls": "chrome"
+        }
+    },
+    "gid": 1,
+    "id": 7069,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": -1
+}

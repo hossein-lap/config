@@ -1,0 +1,136 @@
+#!/bin/bash
+#  _  _ ___
+# | || | __|   H
+# | __ | _|    A
+# |_||_|___|   P
+#
+## bash settings
+# If not running interactively, don't do anything
+# [[ $- != *i* ]] && return
+
+case $- in
+	*i*) ;;
+	*) return;;
+esac
+
+# enable vim mode
+set -o vi
+
+# pervent to end a session by once 'C-d' [twice will do]
+export IGNOREEOF=1
+
+# history {{{
+# When shell exist, append to the history file instead of overwriting it
+shopt -s histappend
+# After each command, append to the history file and reread it
+shopt -s checkwinsize
+# ignore repeated commands (one command repeatedly)
+HISTCONTROL=ignoreboth
+# history size
+HISTSIZE=4096
+HISTFILESIZE=4096000
+# multiple history file for each session
+if [[ ! -d $HOME/.cache/bash/history ]]; then
+	mkdir -p $HOME/.cache/bash/history
+fi
+export HISTFILE="$HOME/.cache/bash/history/$(date +%y%m%d)"
+# }}}
+
+# source files {{{
+sourceit() {
+	if [ -f "${1}" ]; then
+		source "${1}"
+	fi
+}
+
+sourceit "${HOME}/.config/shell/env.sh"
+
+unset sourceit
+# }}}
+
+# prompts {{{
+# ›» αΣϑ →  ➡ ➜ ●
+if [ "${EUID}" = "0" ]; then
+	PS1="\[\033[1;32m\]\h\[\033[0;37m\]:\[\033[34m\][\[\033[1;31m\]\u\[\033[0;34m\]]\[\033[0;37m\]:\[\033[35m\]\w\[\033[1;33m\]#\[\033[0m\] "
+else
+	case "$TERM" in
+		linux)
+			PS1="[\u@\h \W]\[\033[01;00m\]\$ "
+			;;
+		xterm|vt100)
+			set +o ignoreeof
+			PS1="[\u@\h \W]\[\033[01;00m\]\$ "
+			;;
+		tmux*color|screen*color*)
+			# PS1="\[\033[1;32m\]\h\[\033[0;37m\]:\[\033[31m\][\[\033[1;34m\]\u\[\033[0;31m\]]\[\033[0;37m\]:\[\033[35m\]\w\[\033[1;33m\]$\[\033[0m\] "
+		PS1="\[\033[01;32m\]\W \[\033[01;34m\]$ \[\033[00m\]"
+			;;
+		st*color|xterm-kitty)
+			# export DVTM_TERM="st"
+			# PS1="[\u@\h \W]\[\033[01;00m\]\$ "
+			# PS1="\[\033[01;32m\]\$\[\033[01;35m\] \[\033[01;34m\]\W \[\033[00m\]"
+			PS1="\[\033[1;32m\]\h\[\033[0;37m\]:\[\033[31m\][\[\033[1;34m\]\u\[\033[0;31m\]]\[\033[0;37m\]:\[\033[35m\]\w\[\033[1;33m\]$\[\033[0m\] "
+			# # PS1="\[\033[01;32m\]\u@\h:\[\033[01;35m\]\W\[\033[00m\]\$ "
+			;;
+		xterm*color)
+			set +o ignoreeof
+			# PS1="\[\033[01;32m\] ● \[\033[01;34m\]\W \[\033[00m\]"
+			PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\[\033[00m\] "
+			;;
+		alacritty)
+			# PS1="\[\033[01;32m\]› \[\033[01;35m\]\W \[\033[00m\]"
+			PS1="\[\033[01;32m\] • \[\033[01;34m\]\W \[\033[00m\]"
+			;;
+		screen|termite)
+			PS1="[\u@\h:\W]\[\033[01;00m\]\$ "
+			;;
+		*)
+			PS1="\[\033[01;32m\]\$ \[\033[01;35m\]\W \[\033[00m\]"
+			;;
+	esac
+fi
+
+# }}}
+
+# startup {{{
+## tux-fetch
+#bash ~/.local/dev/hossein-lap/scripts/start-say.sh
+#start-say.sh
+## sysfetch
+#echo | sysfetch.sh
+## date-figlet
+#echo
+#date '+%H : %M : %S' \
+#	| sed 's/^/  /' \
+#	| figlet # -f small # | lolcat
+#echo
+# jcal script
+#date-startup.sh
+# }}}
+
+# aliases {{{
+# alias s="source ~/.config/shell/bashrc"
+alias s="source ~/.bashrc"
+# }}}
+
+# if [ -f /data/local/hos/todo.md ]; then
+# 	echo 
+# 	lowdown -tterm /data/local/hos/todo.md \
+# 		| sed -e 's/^   //g' -e 's/^/  /' 
+# 	echo 
+# fi
+# 
+# if [ -z $DISPLAY ]; then
+# 	startsay.sh
+# else
+# 	datestartup.sh
+# fi
+# 
+# # ignore sudo password in history
+# export HISTIGNORE='*sudo -S*'
+
+# neofetch
+
+# keybindings {{{
+bind -x '"\C-f":tmux-sessionizer'
+# }}}

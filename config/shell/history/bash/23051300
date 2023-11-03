@@ -1,0 +1,58 @@
+dmkill.sh 
+nvim `which dmkill.sh `
+env | grep DATA
+cd .local/share/
+cls
+ls mason
+btop
+nvim /tmp/test.js
+nvim /tmp/test.ts
+q
+cls
+nvim lsp/
+nvim tmp.lua
+nvim ../../init.lua cmp/init.lua 
+cls
+nvim tmp.lua
+nvim ../../init.lua cmp/init.lua 
+nvim tmp.lua
+nvim ../../init.lua lsp/init.lua 
+nvim
+take mason
+nvim init.lua
+nvim ../../../init.lua 
+cls
+nvim init.lua 
+vim ../init.lua 
+nvim -C ':PackerSync'
+nvim -c ':PackerSync'
+nvim
+nvim init.lua 
+cls ~
+cls ~ -A
+cls -A ~
+cls -a ~
+cls -a ~ | less -SR
+ls ~/.Valley/
+cls
+nvim init.lua 
+nvim /tmp/test.js
+lf ~/.local/share/nvim/mason/
+cls
+nvim ../lsp/init.lua 
+nvim /tmp/test.md
+nvim ../lsp/init.lua 
+nvim /tmp/test.md
+nvim /tmp/test.js
+nvim
+nvim ../lsp/init.lua 
+nvim /tmp/test.js
+cls
+nvim
+nvim /tmp/test.txt
+nvim cmp/init.lua 
+nvim /tmp/test.c
+nvim tmp.lua
+cls
+nvim cmp/init.lua lsp/init.lua 
+q

@@ -1,0 +1,46 @@
+neofetch 
+cd uni/micro-lap/reports/01/
+cat diag.txt 
+c; cat diag.txt 
+clear
+q
+cd ~/uni/micro-lap/reports/
+clear
+cls
+cat 01/diag.txt 
+mv /data/screen/shots/shot-230510_232003.png 01/ -v
+c
+cat 02/diag.txt 
+c; echo; cat 02/diag.txt 
+mv /data/screen/shots/shot-230510_232038.png 02/
+c; echo; cat 03/diag.txt 
+mv /data/screen/shots/shot-230510_232100.png 03/
+c; echo; cat 04/diag.txt 
+mv /data/screen/shots/shot-230510_232124.png 04/
+cls
+c; echo; cat 05/diag.txt 
+nvim 05/diag.txt 
+c; echo; cat 05/diag.txt 
+mv /data/screen/shots/shot-230510_232218.png 05/
+c; echo; cat 06/diag.txt 
+mv /data/screen/shots/shot-230510_232246.png 06/
+c; echo; cat 07/diag.txt 
+mv /data/screen/shots/shot-230510_232306.png 07/
+c; echo; cat 08/diag.txt 
+mv /data/screen/shots/shot-230510_232330.png 08/
+cls
+lf
+nsxiv */*.png
+q
+cd /data/dev/hossein-lap/workflow/suckless/st
+nvim colors/ayu-dark.h 
+make clean; make
+r.sh ./st
+nvim config.def.h 
+make clean; make
+r.sh ./st
+nvim colors/ayu-dark.h 
+make clean; make
+nvim config.def.h 
+make clean; make
+lf ~/doc/pdf_src/
