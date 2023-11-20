@@ -19,14 +19,14 @@
 set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
-#set icons
+set icons
 #set drawbox
 set ratios 1:2:3
 set period 1
 set hiddenfiles ".*"
-set cleaner '~/.config/lfimg/cleaner'
+set previewer '~/.config/lf/pv.sh'
+set cleaner '~/.config/lf/cleaner'
 #set previewer 'tabbed -c -r 2 st -w '' -- ~/.config/lf/scope'
-set previewer '~/.config/lfimg/preview'
 #set sortby ext
 
 # cmds/functions
@@ -35,17 +35,17 @@ cmd open ${{
 	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet) localc $fx ;;
 	image/vnd.djvu|application/pdf|application/octet-stream|application/postscript) setsid -f zathura $fx >/dev/null 2>&1 ;;
 		text/*|application/json|inode/x-empty) $EDITOR $fx;;
-	image/x-xcf) setsid -f gimp $f >/dev/null 2>&1 ;;
+	# image/x-xcf) setsid -f gimp $f >/dev/null 2>&1 ;;
 	image/svg+xml) display -- $f ;;
 	image/*) rotdir $f | grep -i "\.\(png\|jpg\|jpeg\|gif\|webp\|tif\|ico\)\(_large\)*$" |
-		setsid -f sxiv -aio 2>/dev/null | while read -r file; do
+		setsid -f sxiv -e $(xdotool getactivewindow) -aio 2>/dev/null | while read -r file; do
 			[ -z "$file" ] && continue
 			lf -remote "send select \"$file\""
 			lf -remote "send toggle"
 		done &
 		;;
 	audio/*) mpv --loop=inf --audio-display=no $f ;;
-	video/*) setsid -f mpv --loop=inf $f -quiet >/dev/null 2>&1 ;;
+	video/*) setsid -f prime-run mpv --no-term-osd-bar --loop=inf $f -quiet >/dev/null 2>&1 ;;
 	application/pdf|application/vnd*|application/epub*) setsid -f zathura $fx >/dev/null 2>&1 ;;
 	application/pgp-encrypted) $EDITOR $fx ;;
         *) for f in $fx; do setsid -f $OPENER $f >/dev/null 2>&1; done;;
@@ -100,6 +100,7 @@ cmd bulkrename $vidir
 # Bindings
 map <c-f> $lf -remote "send $id select '$(fzf)'"
 map J $lf -remote "send $id cd $(sed -e 's/\s*#.*//' -e '/^$/d' -e 's/^\S*\s*//' ${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-dirs | fzf)"
+
 map gh
 map g top
 map D delete

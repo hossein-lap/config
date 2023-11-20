@@ -9,6 +9,8 @@ em() {
 	nohup emacsclient -c -a 'emacs' "$@" 2>&1 > /dev/null &
 }
 
+# alias evil='emacs --init-dir ~/.config/evil'
+
 # take
 take() {
 	if [ -d "${1}" ]; then
@@ -109,8 +111,9 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 alias grep='grep --color=auto'
-alias lat='bat -n --style=plain --paging=always'
-alias bat='bat -P --style=plain'
+# alias lat='bat -n --style=plain --paging=always'
+# alias bat='bat -P --style=plain'
+alias bat="highlight -l -O ansi"
 alias plow="glow -p"
 alias lolcat='lolcat -S 7'
 
@@ -165,3 +168,7 @@ alias cava="cli-visualizer -c ~/.config/vis/cava.conf"
 alias ip='ip -c'
 
 alias nnn='nnn -ed'
+
+alias gs="come one dude! again?!"
+
+alias pres="zathura --mode=fullscreen"

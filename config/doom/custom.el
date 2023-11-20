@@ -26,3 +26,4 @@
  '(org-level-3 ((t (:inherit outline-3 :height 1.5 :family "Source Sans Pro"))))
  '(org-level-4 ((t (:inherit outline-4 :height 1.25 :family "Source Sans Pro"))))
  '(org-level-5 ((t (:inherit outline-5 :height 1.0 :family "Source Sans Pro")))))
+(put 'customize-face 'disabled nil)

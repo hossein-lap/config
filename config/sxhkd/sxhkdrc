@@ -19,7 +19,7 @@ alt + shift + l
 	slock
 
 alt + shift + f
-	st -t lf lf # tabbed -ck -r 2 st -w '' -t lf lf
+	st -t lfub lf # tabbed -ck -r 2 st -w '' -t lf lf
 
 alt + shift + m
 	dmenu-play
@@ -30,8 +30,14 @@ alt + q
 alt + shift + n
 	dmenu-notes
 
-alt + r
+alt + shift + r
 	dmenu-srun
 
 alt + shift + s
 	dmenu-shot
+
+alt + e
+	dmenu-emoji
+
+alt + u
+	dmenu-unicode

@@ -1,6 +1,6 @@
 # minimal zsh config
 # Enable colors and change prompt
-autoload -U colors && colors	# Load colors
+autoload -U colors && colors # Load colors
 
 if [ "${EUID}" = "0" ]; then
 	PS1="%B%{$fg[red]%}%n@%{$reset_color%}%M:%~%{%}%{$reset_color%}#%b "
@@ -26,8 +26,8 @@ fi
 # PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1="%B%{$fg[green]%}%n@%M%{$reset_color%}:%B%{$fg[blue]%}%~%{$reset_color%}$%b "
 # PS1='%F{blue}%. %(?.%F{green}.%F{red})$%f '
-setopt autocd		# Automatically cd into typed directory.
-stty stop undef		# Disable ctrl-s to freeze terminal.
+setopt autocd    # Automatically cd into typed directory.
+stty stop undef  # Disable ctrl-s to freeze terminal.
 setopt interactive_comments
 
 # History in cache directory
@@ -43,8 +43,14 @@ fi
 # Defined shortcut keys
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
+bindkey "^[[H" forward-word
+bindkey "^[[4~" backward-word
+
+bindkey "^[[H" beginning-of-line
+bindkey "^[[4~" end-of-line
+
+# bindkey "\033[1~" forward-word
+# bindkey "\033[4~" backward-word
 bindkey -s ^F "tmux-sessionizer\n"
 
 # bash-like behaviour for alt key
@@ -77,6 +83,7 @@ zsh_add_plugin "agkozak/zsh-z"
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
 zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "zsh-users/zsh-history-substring-search"
+zsh_add_plugin "hossein-lap/zsh-vi-mode"
 
 sourceit() {
 	if [ -f "${1}" ]; then
@@ -87,18 +94,17 @@ sourceit() {
 sourceit "${HOME}/.config/shell/aliases.sh"
 sourceit "${HOME}/.config/shell/env.sh"
 
-sourceit "$ZDOTDIR/plugins/zsh-z/zsh-z.plugin.zsh"
+# sourceit "$ZDOTDIR/plugins/zsh-z/zsh-z.plugin.zsh"
 # sourceit "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
 # sourceit "$ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" 2>/dev/null
-sourceit "$ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh"
+# sourceit "$ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh"
 sourceit "$ZDOTDIR/zmachine.zsh-theme"
+sourceit "$ZDOTDIR/zsh-vi-mode/zsh-vi-mode.plugin.zsh"
 
-# aliases
 alias s='source ~/.zshrc'
-sourceit "${HOME}/.config/shell/aliases.sh"
+# sourceit "${HOME}/.config/shell/aliases.sh"
 
 # global env variables
-sourceit "${HOME}/.config/shell/env.sh"
+# sourceit "${HOME}/.config/shell/env.sh"
 
-unset sourceit
-
+unset -f sourceit

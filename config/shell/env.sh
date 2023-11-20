@@ -111,3 +111,5 @@ QT_STYLE_OVERIDE=qt5ct
 QT_QPA_PLATFORMTHEME=qt5ct
 
 export SUDO_ASKPASS="$(which dmenupass)"
+
+export ANSIBLE_NOCOWS=1

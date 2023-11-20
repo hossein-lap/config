@@ -1,9 +1,9 @@
 ;; -*- no-byte-compile: t; -*-
-;;  _  _  ___  ___   ___   ___   ___  __  __   ___ __  __   _   ___ ___ 
+;;  _  _  ___  ___   ___   ___   ___  __  __   ___ __  __   _   ___ ___
 ;; | || |/ _ \/ __| |   \ / _ \ / _ \|  \/  | | __|  \/  | /_\ / __/ __|
 ;; | __ | (_) \__ \ | |) | (_) | (_) | |\/| | | _|| |\/| |/ _ \ (__\__ \
 ;; |_||_|\___/|___/ |___/ \___/ \___/|_|  |_| |___|_|  |_/_/ \_\___|___/
-;;                                                                      
+;;
 
 ;; ; battery display {{{
 ;; (unless (equal "Battery status not available" (battery))
@@ -50,11 +50,12 @@
 ;;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
 ;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
 
-(setq doom-font (font-spec :family "JetBrains Mono" :size 18)
-      doom-variable-pitch-font (font-spec :family "Source Sans Pro" :size 18)
-      doom-serif-font (font-spec :family "Libertinus Sans" :size 18)
-      doom-sans-font (font-spec :family "Fira Sans" :size 18)
-      doom-unicode-font (font-spec :family "Fira Code" :size 18))
+(setq doom-font (font-spec :family "JetBrains Mono" :size 22)
+      doom-variable-pitch-font (font-spec :family "Source Sans Pro" :size 20)
+      ;; doom-serif-font (font-spec :family "Libertinus Sans" :size 18)
+      ;; doom-sans-font (font-spec :family "Fira Sans" :size 18)
+      ;; doom-big-font (font-spec :family "Ubuntu" :size 28)
+      doom-unicode-font (font-spec :family "Fira Code" :size 20))
 
       ;; (set-face-attribute 'default nil
       ;;                     :height 280
@@ -76,8 +77,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(+bidi-arabic-face ((t (:slant normal :weight normal :height 1.0 :width normal :foundry "PfEd" :family "Sahel"))))
- '(+bidi-hebrew-face ((t (:slant normal :weight normal :height 1.0 :width normal :foundry "PfEd" :family "DejaVu Sans")))))
+ '(+bidi-arabic-face ((t `(:slant normal :weight normal :height 1.0 :width normal :foundry "PfEd" :family ,hosfamily))))
+ '(+bidi-hebrew-face ((t `(:slant normal :weight normal :height 1.0 :width normal :foundry "PfEd" :family ,hosfamily)))))
 
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
@@ -92,12 +93,15 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 
+;; (load-file "~/.config/doom/xresources-theme.el")
+;; (setq doom-theme 'xresources)
+
 ; dark
-;; (setq doom-theme 'doom-solarized-dark)
+(setq doom-theme 'doom-solarized-dark)
 ;; (setq doom-theme 'doom-gruvbox)
 ;; (setq doom-theme 'doom-molokai)
 
-(setq doom-theme 'doom-tomorrow-night)
+;; (setq doom-theme 'doom-tomorrow-night)
 ;; (setq doom-theme 'doom-material)
 ;; (setq doom-theme 'doom-one)
 ;; (setq doom-theme 'doom-tokyo-night)
@@ -117,7 +121,7 @@
 
 ;; ; Enable LaTeX module {{{
 ;; (setq! +latex-enable-lsp t) ; Enable LSP integration for LaTeX
-;; 
+;;
 ;; ;; Set XeLaTeX as the default engine
 ;; (setq! +latex-build-command "xelatex")
 
@@ -299,8 +303,8 @@
 ;; (setq markdown-list-item-bullets '("☯" "○" "✸" "✿" "~"))
 (setq markdown-list-item-bullets '("●" "◎" "○" "◆" "◇" "►" "•"))
 ;; (setq markdown-header-delimiter-face '("●" "◎" "○" "◆" "◇" "►" "•"))
-  
-(setq markdown-hide-markup t)
+
+;; (setq markdown-hide-markup t)
 (custom-set-faces
   `(markdown-header-face ((t (:inherit font-lock-function-name-face :weight bold :family ,hosfamily))))
   '(markdown-header-face-1 ((t (:inherit markdown-header-face :height 2.00))))
@@ -325,7 +329,14 @@
 ;;        (prog1 nil
 ;;          (put-text-property (match-beginning 0) (match-end 0)
 ;;                             'invisible t)))))))
-;; (add-hook! 'markdown-mode-hook #'markdown-mode-remove-stars)
+;; (add-hook 'read-only-mode-hook 'markdown-view-mode-maybe)
+;; (add-hook! 'read-only-mode-hook #'markdown-mode-remove-stars)
+
+;; (defun markdown-view-mode-maybe ()
+;;   (cond ((and (eq major-mode 'markdown-mode) buffer-read-only) (markdown-view-mode))
+;;         ((and (eq major-mode 'markdown-view-mode) (not buffer-read-only)) (markdown-mode))))
+;;
+;; (add-hook 'read-only-mode-hook 'markdown-view-mode-maybe)
 
 ; }}}
 
@@ -334,10 +345,10 @@
 (setq x-super-keysym 'meta)
 ; }}}
 
-; transparent background {{{
-(set-frame-parameter nil 'alpha-background 98)
-(add-to-list 'default-frame-alist '(alpha-background . 98))
-; }}}
+;; ; transparent background {{{
+;; (set-frame-parameter nil 'alpha-background 98)
+;; (add-to-list 'default-frame-alist '(alpha-background . 98))
+;; ; }}}
 
 ;; ; dashboard image {{{
 ;; (setq fancy-splash-image "/home/hos/downloads/telegram/test.png")
@@ -349,6 +360,13 @@
 ;; (tab-bar-mode 1)
 ;; (scroll-bar-mode 1)
 ;; ; }}}
+
+; scroll {{{
+(setq scroll-margin 10
+    scroll-conservatively 101 ; > 100
+    scroll-preserve-screen-position t
+    auto-window-vscroll nil)
+; }}}
 
 ;; ; mdoeline {{{
 ;; (after! doom-modeline
@@ -400,15 +418,15 @@
 ;; ;; (server-start) ; run emacs-daemon for every instance (not recommended)
 ;; ; }}}
 
-;; RSS Reader {{{
-;; (setq elfeed-feeds
-;;       '(("https://tubedu.org/feeds/videos.xml?videoChannelId=2421" jadi RadioGeek)
-;;        ("https://archlinux.org/feeds/news/" archlinux news)
-;;        ("https://lukesmith.xyz/index.xml" blog luke-smith)))
-
-;; (setq elfeed-feeds
-;;       '("https://this-week-in-rust.org/rss.xml"
-;;         "http://feeds.bbci.co.uk/news/rss.xml"))
-
-(add-hook! 'elfeed-search-mode-hook #'elfeed-update)
-;; }}}
+;; ;; RSS Reader {{{
+;; ;; (setq elfeed-feeds
+;; ;;       '(("https://tubedu.org/feeds/videos.xml?videoChannelId=2421" jadi RadioGeek)
+;; ;;        ("https://archlinux.org/feeds/news/" archlinux news)
+;; ;;        ("https://lukesmith.xyz/index.xml" blog luke-smith)))
+;;
+;; ;; (setq elfeed-feeds
+;; ;;       '("https://this-week-in-rust.org/rss.xml"
+;; ;;         "http://feeds.bbci.co.uk/news/rss.xml"))
+;;
+;; (add-hook! 'elfeed-search-mode-hook #'elfeed-update)
+;; ;; }}}

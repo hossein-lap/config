@@ -20,7 +20,7 @@ indentation width you prefer in the ~web-mode~ section.)
     :preface
     (defvar ian/indent-width 4) ; change this value to your preferred width
     :config
-    (setq frame-title-format '("Evil Emacs") ; Yayyyyy Evil!
+    (setq frame-title-format '("Emacs Evil") ; Yayyyyy Evil!
           ring-bell-function 'ignore       ; minimize distraction
           frame-resize-pixelwise t
           default-directory "~/")
@@ -29,7 +29,7 @@ indentation width you prefer in the ~web-mode~ section.)
     (menu-bar-mode -1)
 
     ;; better scrolling experience
-    (setq scroll-margin 0
+    (setq scroll-margin 10
           scroll-conservatively 101 ; > 100
           scroll-preserve-screen-position t
           auto-window-vscroll nil)
@@ -311,9 +311,11 @@ Normally, we need to add ~:ensure t~ to tell ~use-package~ to download packages 
   (use-package dashboard
     :config
     (dashboard-setup-startup-hook)
-    (setq dashboard-startup-banner(concat user-emacs-directory "logo.png")
-    ;; (setq dashboard-startup-banner 'logo
-          dashboard-banner-logo-title "Evil EMACS"
+    (setq
+          ;; dashboard-startup-banner(concat user-emacs-directory "logo.png")
+          ;; dashboard-startup-banner 'logo
+          dashboard-startup-banner "EMACS"
+          dashboard-banner-logo-title "Evil"
           dashboard-items nil
           dashboard-set-footer nil))
 #+END_SRC
@@ -528,12 +530,12 @@ I should inside emacs.
 
   (setq org-bullets-bullet-list '("⦿" "◉" "✸" "✿" "◆"))
     (custom-set-faces
-      `(org-document-title ((t (:inherit outline-1 :height 2.0 :family ,hosfamily))))
-      `(org-level-1        ((t (:inherit outline-1 :height 2.0 :family ,hosfamily))))
-      `(org-level-2        ((t (:inherit outline-2 :height 1.75 :family ,hosfamily))))
-      `(org-level-3        ((t (:inherit outline-3 :height 1.5 :family ,hosfamily))))
-      `(org-level-4        ((t (:inherit outline-4 :height 1.25 :family ,hosfamily))))
-      `(org-level-5        ((t (:inherit outline-5 :height 1.0 :family ,hosfamily)))))
+      `(org-document-title ((t (:inherit outline-1 :weight bold :height 2.0 :family ,hosfamily))))
+      `(org-level-1        ((t (:inherit outline-1 :weight bold :height 2.0 :family ,hosfamily))))
+      `(org-level-2        ((t (:inherit outline-2 :weight bold :height 1.75 :family ,hosfamily))))
+      `(org-level-3        ((t (:inherit outline-3 :weight bold :height 1.5 :family ,hosfamily))))
+      `(org-level-4        ((t (:inherit outline-4 :weight bold :height 1.25 :family ,hosfamily))))
+      `(org-level-5        ((t (:inherit outline-5 :weight bold :height 1.0 :family ,hosfamily)))))
 #+END_SRC
 ** Markdown mode
 #+BEGIN_SRC emacs-lisp
@@ -565,17 +567,17 @@ I should inside emacs.
 ;; (use-package auctex)
 (use-package company-auctex)
 
-;; ;; (company-auctex-init)
-;; (setq TeX-parse-self t)
-;; (setq-default TeX-master nil)
+;; (company-auctex-init)
+(setq TeX-parse-self t)
+(setq-default TeX-master nil)
 
-;; (add-hook 'LaTeX-mode-hook 'visual-line-mode)
-;; (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
-;; (add-hook 'LaTeX-mode-hook 'TeX-source-correlate-mode)
+(add-hook 'LaTeX-mode-hook 'visual-line-mode)
+(add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
+(add-hook 'LaTeX-mode-hook 'TeX-source-correlate-mode)
 
-;; (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
-;; (setq reftex-plug-into-AUCTeX t)
-;; (setq TeX-PDF-mode t)
+(add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+(setq reftex-plug-into-AUCTeX t)
+(setq TeX-PDF-mode t)
 
 ;; (setq TeX-output-view-style
 ;;     (quote

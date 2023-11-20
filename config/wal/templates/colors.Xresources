@@ -4,6 +4,10 @@
 *background:        {background}
 *.foreground:       {foreground}
 *.background:       {background}
+*foreground.invert:        {background}
+*background.invert:        {foreground}
+*.foreground.invert:       {background}
+*.background.invert:       {foreground}
 emacs*foreground:   {foreground}
 emacs*background:   {background}
 URxvt*foreground:   {foreground}
