@@ -1,0 +1,13 @@
+tabbed*background: #2b2b2b
+tabbed*.background: #2b2b2b
+tabbed*foreground: #ffffff
+tabbed*.foreground: #ffffff
+
+tabbed*color0: #2b2b2b
+tabbed*.color0: #2b2b2b
+tabbed*color12: #ff7139
+tabbed*.color12: #ff7139
+tabbed*color1: #ff0000
+tabbed*.color1: #ff0000
+tabbed*color15: #000000
+tabbed*.color15: #000000

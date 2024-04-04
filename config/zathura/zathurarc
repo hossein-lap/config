@@ -32,10 +32,10 @@ map <C-i> recolor
 # Startup options
 #
 set adjust-open width
-set recolor false
+set recolor true
 
 # theme
 
 set recolor-keephue                 true
 
-# include theme/dracula
+include theme/dracula

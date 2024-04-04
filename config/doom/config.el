@@ -97,13 +97,13 @@
 ;; (setq doom-theme 'xresources)
 
 ; dark
-(setq doom-theme 'doom-solarized-dark)
+;; (setq doom-theme 'doom-solarized-dark)
 ;; (setq doom-theme 'doom-gruvbox)
 ;; (setq doom-theme 'doom-molokai)
 
 ;; (setq doom-theme 'doom-tomorrow-night)
 ;; (setq doom-theme 'doom-material)
-;; (setq doom-theme 'doom-one)
+(setq doom-theme 'doom-one)
 ;; (setq doom-theme 'doom-tokyo-night)
 ;; (setq doom-theme 'doom-dracula)
 
@@ -345,10 +345,10 @@
 (setq x-super-keysym 'meta)
 ; }}}
 
-;; ; transparent background {{{
-;; (set-frame-parameter nil 'alpha-background 98)
-;; (add-to-list 'default-frame-alist '(alpha-background . 98))
-;; ; }}}
+; transparent background {{{
+(set-frame-parameter nil 'alpha-background 90)
+(add-to-list 'default-frame-alist '(alpha-background . 90))
+; }}}
 
 ;; ; dashboard image {{{
 ;; (setq fancy-splash-image "/home/hos/downloads/telegram/test.png")

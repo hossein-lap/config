@@ -60,6 +60,7 @@ export LANG=en_US.UTF-8
 
 ## wine
 export WINEPREFIX="${XDG_DATA_HOME}/wine"
+export WINEARCH=win32
 
 ## sudo
 # export SUDO_ASKPASS="$(which dmenupass 2>/dev/null)"
@@ -84,13 +85,16 @@ unset sourceit
 # path variable {{{
 appendpath() {
 	if [ -d "${1}" ]; then
-		PATH="${PATH}:${1}"
+		check=$(echo ${PATH} | grep -c "${1}")
+		if [ "${check}" = 0 ]; then
+			PATH="${PATH}:${1}"
+		fi
 	fi
 }
 
 appendpath "/opt/nekoray"
-appendpath "${HOME}/bin"
-appendpath "${HOME}/.bin"
+# appendpath "${HOME}/bin"
+# appendpath "${HOME}/.bin"
 appendpath "${HOME}/.local/bin"
 appendpath "${HOME}/.local/bin/scripts"
 appendpath "${HOME}/.config/emacs/bin"
@@ -100,6 +104,9 @@ appendpath "${XDG_DATA_HOME}/cargo/bin"
 appendpath "${XDG_DATA_HOME}/golang/bin"
 appendpath "${XDG_DATA_HOME}/yarn/bin"
 appendpath "${XDG_DATA_HOME}/nvim/mason/bin"
+appendpath "${XDG_DATA_HOME}/gem/ruby/3.0.0/bin"
+appendpath "${GOPATH}/bin"
+appendpath "/usr/local/go/bin"
 # appendpath "${HOME}/.local/dev/hossein-lap/workflow/scripts"
 # appendpath "${HOME}/.local/bin/texlive/2022/bin/x86_64-linux"
 # appendpath "/usr/local/texlive/2022/bin/x86_64-linux/"
@@ -107,9 +114,14 @@ appendpath "${XDG_DATA_HOME}/nvim/mason/bin"
 unset appendpath
 # }}}#
 
-QT_STYLE_OVERIDE=qt5ct
-QT_QPA_PLATFORMTHEME=qt5ct
+QT_STYLE_OVERIDE=GTK+
+QT_QPA_PLATFORMTHEME=kvantum
 
 export SUDO_ASKPASS="$(which dmenupass)"
 
 export ANSIBLE_NOCOWS=1
+
+export EXINIT="${HOME}/.config/ex/exrc"
+
+# task / taskwarrior
+export TASKRC="${XDG_CONFIG_HOME}/task"

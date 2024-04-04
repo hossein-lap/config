@@ -9,7 +9,7 @@ em() {
 	nohup emacsclient -c -a 'emacs' "$@" 2>&1 > /dev/null &
 }
 
-# alias evil='emacs --init-dir ~/.config/evil'
+alias evil='emacs --init-dir ~/.config/evil'
 
 # take
 take() {
@@ -64,6 +64,7 @@ lg() {
 
 if [ -n "${DISPLAY}" ] && [ -n "${SUDO_ASKPASS}" ]; then
 	alias sudo="sudo -A"
+	alias yay="yay --sudoflags '-A'"
 fi
 
 alias c='clear'
@@ -74,14 +75,13 @@ alias lf="lfub"
 alias mdp="mdp -f"
 
 alias exa="exa --sort extension --group-directories-first"
-alias tree='exa -T --icons'
-alias ts='exa -T --icons -L 1'
-alias l="exa"
-alias ll="l -l --icons"
-alias la="l -a --icons"
-alias cls="clear; ll"
-alias cl="clear; ls"
+# alias tree='exa -T --icons'
+# alias ts='exa -T --icons -L 1'
 alias ls='ls -X --color=auto --group-directories-first'
+alias ll="l -l"
+alias la="l -al"
+alias cls="clear; ls -lhFX -tr"
+alias cl="clear; ls -F"
 
 alias tb="nc termbin.com 9999"
 alias links="links -download-dir $HOME/dl/"
@@ -102,7 +102,7 @@ alias poweroff='shutdown -h now'
 alias screenfetch='screenfetch -w'
 alias fetchmaster='fm6000 -r -c random'
 alias fm4000="fm4000 -de dwm -w -r -c random"
-# alias neofetch='neofetch --ascii_distro void_small'
+alias neofetch='neofetch --ascii_distro arch_small'
 
 alias clear="clear && printf '\e[3J'"
 
@@ -123,8 +123,8 @@ alias ...="cd ../.."
 alias gln='git clone'
 alias gss="git status -s"
 alias gic="git init && git add . && git commit -m 'Create repo'"
-alias glg="git log --oneline --all --graph --stat"
-alias gls="git log --oneline --all --graph"
+alias gls="git log --oneline --all --graph --decorate"
+alias glg="gls --graph --stat"
 alias gll="git log --stat --graph --all --show-signature"
 alias grv="git remote -v"
 
@@ -156,8 +156,10 @@ alias hs="hugo server --disableFastRender"
 
 alias irssi="irssi --config=${XDG_CONFIG_HOME}/irssi/config --home=${XDG_DATA_HOME}/irssi"
 
+alias pico="nano -f ~/.config/nano/pico.conf"
+# alias nano="nano -f ~/.config/nano/nano.conf"
 # alias vim="vim -u ~/.vim/init.vim"
-alias vi="vim -u ~/.config/vim/vimrc"
+# alias vi="vim -u ~/.config/vim/vimrc"
 alias ip="ip -c"
 
 # alias fzf="fzf -m --reverse -i --border=sharp --prompt=: --marker=\* --info=inline --header-first --no-unicode"
@@ -167,8 +169,8 @@ alias cava="cli-visualizer -c ~/.config/vis/cava.conf"
 
 alias ip='ip -c'
 
-alias nnn='nnn -ed'
+alias nnn='nnn -ed -T e'
 
-alias gs="come one dude! again?!"
+alias gs="echo come one dude! again?!"
 
 alias pres="zathura --mode=fullscreen"

@@ -45,27 +45,48 @@
 }
 % end code block formatting }}}
 
+\usepackage{minted}
+
+% \setminted{
+% 	cache=false
+% }
+
+% Set the `style=tango` attribute for all minted blocks.  Can still be overriden
+% per block (e.g., you want to change just one).  Run `pygmentize -L` to see
+% all available options.
+\usemintedstyle{tango}
+
+% Depending on which pygments style you choose, comments and preprocessor
+% directives may be italic.  The `tango` style is one of these.  This disables
+% all italics in the `minted` environment.
+\AtBeginEnvironment{minted}{\let\itshape\relax}
+
+% This disables italics for the `\mintinline` commands.
+% Credit: https://tex.stackexchange.com/a/469702/113687
+\usepackage{xpatch}
+\xpatchcmd{\mintinline}{\begingroup}{\begingroup\let\itshape\relax}{}{}
+
 \usepackage{tikz}
 \usepackage[most]{tcolorbox}
 
-%% custom section
-\titleformat{\section}
-	{\LARGE \bfseries}
-	{}
-    {.03\linewidth}
-	{}[{\titlerule[0pt]}]
-%% custom subsection
-\titleformat{\subsection}
-    {\Large \bfseries}
-	{}
-    {.03\linewidth}
-	{}[{\titlerule[0pt]}]
-%% custom subsubsection
-\titleformat{\subsubsection}
-    {\large \bfseries}
-	{}
-    {.03\linewidth}
-	{}[{\titlerule[0pt]}]
+% %% custom section
+% \titleformat{\section}
+% 	{\LARGE \bfseries\thesection}
+% 	{}
+%     {.03\linewidth}
+% 	{}[{\titlerule[0pt]}]
+% %% custom subsection
+% \titleformat{\subsection}
+%     {\Large \bfseries\thesubsection}
+% 	{}
+%     {.03\linewidth}
+% 	{}[{\titlerule[0pt]}]
+% %% custom subsubsection
+% \titleformat{\subsubsection}
+%     {\large \bfseries\thesubsubsection}
+% 	{}
+%     {.03\linewidth}
+% 	{}[{\titlerule[0pt]}]
 
 %% headings position
 \titlespacing{\section}{0mm}{5mm}{5mm}
@@ -79,8 +100,8 @@
 %%% default fonts:
 %\setmainfont{Libertinus Serif}
 %%\setmathfont{Libertinus Sans}
-%\setsansfont{Source Sans Pro}
-%\setmonofont{Fira Mono}
+\setsansfont{Source Sans Pro}
+\setmonofont{Ubuntu Mono}
 
 %% add line number to code-blocks
 % \DefineVerbatimEnvironment{Highlighting}{Verbatim}{

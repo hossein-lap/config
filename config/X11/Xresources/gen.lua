@@ -4,6 +4,7 @@
 local list = {
 
 	dracula = {
+		background = "#3F3F3F",
 		color0 = "#21222c",
 		color1 = "#ff5555",
 		color2 = "#50fa7b",
@@ -23,7 +24,8 @@ local list = {
 	},
 
 	solarized = {
-		color0 = "#073642",
+		background = "#3F3F3F",
+		color8 = "#073642",
 		color1 = "#dc322f",
 		color2 = "#859900",
 		color3 = "#b58900",
@@ -31,7 +33,7 @@ local list = {
 		color5 = "#d33682",
 		color6 = "#2aa198",
 		color7 = "#eee8d5",
-		color8 = "#002b36",
+		color0 = "#002b36",
 		color9 = "#cb4b16",
 		color10 = "#586e75",
 		color11 = "#657b83",
@@ -42,8 +44,9 @@ local list = {
 	},
 
 	tango = {
-		color0 = "#cc0000",
-		color1 = "#2e3436",
+		background = "#3F3F3F",
+		color0 = "#2e3436",
+		color1 = "#cc0000",
 		color2 = "#4e9a06",
 		color3 = "#c4a000",
 		color4 = "#3465a4",
@@ -61,6 +64,7 @@ local list = {
 	},
 
 	breeze = {
+		background = "#3F3F3F",
 		color0 = "#232627",
 		color1 = "#ed1515",
 		color2 = "#11d116",
@@ -80,6 +84,7 @@ local list = {
 	},
 
 	vscode = {
+		background = "#3F3F3F",
 		color0 = "#000000",
 		color1 = "#cd3131",
 		color2 = "#0dbc79",
@@ -99,7 +104,8 @@ local list = {
 	},
 
 	onedark = {
-		color0 = "#0e1013",
+		background = "#3F3F3F",
+		color0 = "#1f2329",
 		color1 = "#e55561",
 		color2 = "#8ebd6b",
 		color3 = "#e2b86b",
@@ -118,6 +124,7 @@ local list = {
 	},
 
 	ayu = {
+		background = "#3F3F3F",
 		color0 = "#01060e",
 		color1 = "#ea6c73",
 		color2 = "#c2d94c",
@@ -137,6 +144,7 @@ local list = {
 	},
 
 	hybrid = {
+		background = "#1D1F21",
 		color0 = "#282A2E",
 		color1 = "#A54242",
 		color2 = "#8C9440",
@@ -156,6 +164,7 @@ local list = {
 	},
 
 	nord = {
+		background = "#3F3F3F",
 		color0 = "#373e4d",
 		color1 = "#94545d",
 		color2 = "#809575",
@@ -175,6 +184,7 @@ local list = {
 	},
 
 	gruvbox = {
+		background = "#3F3F3F",
 		color0 = "#282828",
 		color1 = "#cc241d",
 		color2 = "#98971a",
@@ -194,7 +204,8 @@ local list = {
 	},
 
 	termite = {
-		color0 = "#232323",
+		background = "#3F3F3F",
+		color0 = "#000000",
 		color1 = "#FF0000",
 		color2 = "#76B639",
 		color3 = "#E1A126",
@@ -202,7 +213,7 @@ local list = {
 		color5 = "#FF2491",
 		color6 = "#0A9B81",
 		color7 = "#EBEBEB",
-		color8 = "#000000",
+		color8 = "#232323",
 		color9 = "#FF0000",
 		color10 = "#97D01A",
 		color11 = "#FFA800",
@@ -210,7 +221,27 @@ local list = {
 		color13 = "#FF2491",
 		color14 = "#0FDCB6",
 		color15 = "#F8F8F8",
-	}
+	},
+
+	noir = {
+		background = "#3F3F3F",
+		color0 = "#000000", -- black
+		color1 = "#ee0000", -- red
+		color2 = "#D6D6D0", -- green
+		color3 = "#AAABA6", -- yellow
+		color4 = "#7a7a77", -- blue
+		color5 = "#585855", -- magenta
+		color6 = "#383833", -- cyan
+		color7 = "#ffffff", -- white
+		color8 = "#000000", -- black
+		color9 = "#aa0000", -- red
+		color10 = "#AAABA6", -- green
+		color11 = "#585855", -- yellow
+		color12 = "#D6D6D0", -- blue
+		color13 = "#383833", -- magenta
+		color14 = "#7a7a77", -- cyan
+		color15 = "#ffffff", -- white
+	},
 }
 
 -- }}}
@@ -221,40 +252,82 @@ local apps = {
 	"slock",
 	"st",
 	"tabbed",
+	"xterm",
+	"emacs",
 }
 
 local with_bg = true
 
 for _, app in ipairs(apps) do
-	for name, key in pairs(list) do
-		local f = io.open(app..'/'..name, "w")
-		f:write('! '..name, '\n')
-		for label, value in pairs(key) do
-			local color = string.format('%s*%s: %s', app, label, value)
-			local dot_color = string.format('%s*.%s: %s', app, label, value)
-			f:write(color, '\n')
-			f:write(dot_color, '\n')
-		end
-		if with_bg then
-			local custom = {
-				string.format('%s*background: %s', app, key.color0),
-				string.format('%s*.background: %s', app, key.color0),
-				string.format('%s*foreground: %s', app, key.color15),
-				string.format('%s*.foreground: %s', app, key.color15),
-			}
-			for _, value in ipairs(custom) do
-				f:write(value, '\n')
+	if app == "xterm" then
+		for name, key in pairs(list) do
+			local f = io.open(app..'/'..name, "w")
+			f:write('! '..name, '\n')
+			for label, value in pairs(key) do
+				local tt = tonumber(string.gsub(label, "color", ""), 10)
+				if tt <= 7 then
+					label = string.format("color%s", tt + 0)
+				else
+					label = string.format("color%s", tt - 0)
+				end
+				print(label)
+				local color = string.format('%s*%s: %s', app, label, value)
+				local dot_color = string.format('%s*.%s: %s', app, label, value)
+				f:write(color, '\n')
+				f:write(dot_color, '\n')
 			end
-		else
-			local custom = {
-				string.format('%s*background: %s', app, '#000000'),
-				string.format('%s*.background: %s', app, '#000000'),
-			}
-			for _, value in ipairs(custom) do
-				f:write(value, '\n')
+			if with_bg then
+				local custom = {
+					string.format('%s*background: %s', app, key.background),
+					string.format('%s*.background: %s', app, key.background),
+					string.format('%s*foreground: %s', app, key.color15),
+					string.format('%s*.foreground: %s', app, key.color15),
+				}
+				for _, value in ipairs(custom) do
+					f:write(value, '\n')
+				end
+			else
+				local custom = {
+					string.format('%s*background: %s', app, '#000000'),
+					string.format('%s*.background: %s', app, '#000000'),
+				}
+				for _, value in ipairs(custom) do
+					f:write(value, '\n')
+				end
 			end
+			f:close()
 		end
-		f:close()
+	else
+		for name, key in pairs(list) do
+			local f = io.open(app..'/'..name, "w")
+			f:write('! '..name, '\n')
+			for label, value in pairs(key) do
+				local color = string.format('%s*%s: %s', app, label, value)
+				local dot_color = string.format('%s*.%s: %s', app, label, value)
+				f:write(color, '\n')
+				f:write(dot_color, '\n')
+			end
+			if with_bg then
+				local custom = {
+					string.format('%s*background: %s', app, key.background),
+					string.format('%s*.background: %s', app, key.background),
+					string.format('%s*foreground: %s', app, key.color15),
+					string.format('%s*.foreground: %s', app, key.color15),
+				}
+				for _, value in ipairs(custom) do
+					f:write(value, '\n')
+				end
+			else
+				local custom = {
+					string.format('%s*background: %s', app, '#000000'),
+					string.format('%s*.background: %s', app, '#000000'),
+				}
+				for _, value in ipairs(custom) do
+					f:write(value, '\n')
+				end
+			end
+			f:close()
+		end
 	end
 end
 

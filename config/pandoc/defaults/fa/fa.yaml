@@ -2,27 +2,29 @@ metadata:
   keywords:
     - 'Persian Document'
 
-number-sections: false
+number-sections: true
 pdf-engine: xelatex
 #highlight-style: /home/hos/.config/pandoc/highlight/dracula.theme
 #highlight-style: tango
-highlight-style: /home/hos/.config/pandoc/highlight/tango.theme
+# highlight-style: /home/hos/.config/pandoc/highlight/tango.theme
 
 variables:
   geometry: margin=1in
-  fontsize:  12pt
+#  fontsize:  12pt
 #  linkcolor: draculapink
 #  filecolor: draculagreen
 #  citecolor: draculapurple
 #  urlcolor:  draculacyan
 #  toccolor:  draculaorange
-  header-includes:
-    - \usepackage{/home/hos/.config/pandoc/defaults/fa/main}
+#  header-includes:
+#    - \usepackage{xepersian}
+#    - \settextfont{Sahel}
+#    - \usepackage{/home/hos/.config/pandoc/defaults/fa/main.tex}
 #    - \usepackage{/home/hos/.config/pandoc/dracula/theme}
 #    - \pagecolor{draculabg}
 #    - \color{draculafg}
-filters:
-    - /home/hos/.config/pandoc/filters/fa-today.lua
-    - /home/hos/.config/pandoc/filters/tex-codeblock-fa.lua
-    - /home/hos/.config/pandoc/filters/tex-quoteblock-fa.lua
+# filters:
+#    - /home/hos/.config/pandoc/filters/fa-today.lua
+#    - /home/hos/.config/pandoc/filters/tex-codeblock-fa.lua
+#    - /home/hos/.config/pandoc/filters/tex-quoteblock-fa.lua
 #    - /home/hos/.config/pandoc/filters/tex-definition_list-en.lua

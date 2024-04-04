@@ -32,7 +32,7 @@ case "$(file --dereference --brief --mime-type -- "$1")" in
 	image/*) image "$1" "$2" "$3" "$4" "$5" "$1" ;;
 	text/html) lynx -width="$4" -display_charset=utf-8 -dump "$1" ;;
 	text/troff) man ./ "$1" | col -b ;;
-	text/* | */xml | application/json | application/x-ndjson) highlight -O ansi -l "$1" --line-range 1-$3 -t 4 -s solarized-dark ;;
+	text/* | */xml | application/json | application/x-ndjson) highlight -O ansi "$1" -t 4 -s solarized-dark ;; # --line-range 1-$3
 	# text/* | */xml | application/json | application/x-ndjson) bat --terminal-width "$(($4-2))" -f "$1" ;;
 	audio/* | application/octet-stream) mediainfo "$1" || exit 1 ;;
 	video/* )

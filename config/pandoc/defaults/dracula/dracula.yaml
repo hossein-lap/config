@@ -3,9 +3,10 @@ metadata:
     - 'Dracula theme'
 
 pdf-engine: xelatex
+pdf-engine-opt: ["-shell-escape"]
 highlight-style: /home/hos/.config/pandoc/highlight/dracula.theme
 verbosity: WARNING # INFO
-top-level-division: chapter # part, section
+top-level-division: section # part, chapter
 toc: false
 number-sections: true
 

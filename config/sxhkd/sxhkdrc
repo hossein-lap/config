@@ -1,7 +1,20 @@
 # universal keybindings
 
-alt + shift + Return
-	tabbed -ck -r 2 st -w ''
+# alt + shift + Return
+# 	tabbed -ck -r 2 st -w ''
+# 	# xterm
+
+alt + ctrl + t
+	sh -c "tabbed -ck xterm -into || xterm"
+
+alt + x
+	dmenu-exec
+
+alt + shift + x
+	dmenu-stexec
+
+alt + shift +  p
+	rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi
 
 alt + shift + k
 	dmenu-kill
@@ -19,12 +32,13 @@ alt + shift + l
 	slock
 
 alt + shift + f
-	st -t lfub lf # tabbed -ck -r 2 st -w '' -t lf lf
+    pcmanfm
+	# st -t lfub lf # tabbed -ck -r 2 st -w '' -t lf lf
 
 alt + shift + m
 	dmenu-play
 
-alt + q
+alt + shift + q
 	dmenu-exit -wm dwm
 
 alt + shift + n

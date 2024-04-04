@@ -62,7 +62,7 @@ local dmenu = "dmenu_run -bw 1 -p 'run:' -sf '" .. focus_fg .. "' -sb '" .. focu
 beautiful.init(HOME .. "/.config/awesome/themes/stream/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "kitty"
+terminal = "st"
 -- terminal = "st"
 editor = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
@@ -197,7 +197,7 @@ awful.screen.connect_for_each_screen(function(s)
 	set_wallpaper(s)
 
 	-- Each screen has its own tag table.
-	awful.tag({" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "},
+	awful.tag({"1","2","3","4","5","6","7","8","9"},
 		s, awful.layout.layouts[1])
 
 	-- awful.tag({"1","2","3","4","5","6","7","8","9"},

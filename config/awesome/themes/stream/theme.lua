@@ -10,7 +10,7 @@ local themes_path  = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font = "Fira Code 13"
+theme.font = "Ubuntu Mono 12"
 
 ---- "#975fd7" "#ff7700" "#f32323"
 local colorful ="#005577"

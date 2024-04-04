@@ -9,6 +9,7 @@
 	; editor = emacsclient -nc -a 'emacs --init-dir ~/.config/evil'
 	; editor = geany
 	editor = mg
+	; editor = vim -c 'nnoremap <C-x><C-s> :wq<CR>' -c 'nnoremap <C-x><C-c> :q!<CR>'
 	autocrlf = input
 	pager = less -S
 [commit]
@@ -18,6 +19,12 @@
 [merge]
 #	ff = false
 	tool = nvim -d
+[diff]
+    tool = nvimdiff
+    guitool = nvimdiff
+[merge]
+    tool = nvimdiff
+    conflictstyle = diff3
 [init]
 	defaultBranch = master
 

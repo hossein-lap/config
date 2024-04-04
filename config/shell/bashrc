@@ -16,6 +16,9 @@ esac
 # enable vim mode
 set -o vi
 
+shopt -s globstar
+shopt -s autocd
+
 # pervent to end a session by once 'C-d' [twice will do]
 export IGNOREEOF=1
 
@@ -44,6 +47,7 @@ sourceit() {
 }
 
 sourceit "${HOME}/.config/shell/env.sh"
+source "${HOME}/.config/shell/pandoc.bash"
 
 unset sourceit
 # }}}
