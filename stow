@@ -1,0 +1,10 @@
+#!/bin/sh
+
+name="config"
+target="${HOME}/.${name}"
+
+if [ ! -d "${target}" ]; then
+	mkdir "${target}"
+fi
+
+stow "${name}" -t "${target}"
