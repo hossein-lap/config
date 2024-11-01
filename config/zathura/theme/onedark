@@ -1,0 +1,43 @@
+## Dracula color theme
+
+set notification-error-bg       "#e55561" # Red
+set notification-error-fg       "#fafafa" # Foreground
+set notification-warning-bg     "#e2b86b" # Orange
+set notification-warning-fg     "#37383d" # Selection
+set notification-bg             "#1f2329" # Background
+set notification-fg             "#fafafa" # Foreground
+
+set completion-bg               "#1f2329" # Background
+set completion-fg               "#3F3F3F" # Comment
+set completion-group-bg         "#1f2329" # Background
+set completion-group-fg         "#3F3F3F" # Comment
+set completion-highlight-bg     "#37383d" # Selection
+set completion-highlight-fg     "#fafafa" # Foreground
+
+set index-bg                    "#1f2329" # Background
+set index-fg                    "#fafafa" # Foreground
+set index-active-bg             "#37383d" # Current Line
+set index-active-fg             "#fafafa" # Foreground
+
+set inputbar-bg                 "#1f2329" # Background
+set inputbar-fg                 "#fafafa" # Foreground
+set statusbar-bg                "#1f2329" # Background
+set statusbar-fg                "#fafafa" # Foreground
+
+set highlight-color             "#e2b86b" # Orange
+set highlight-active-color      "#c27fd7" # Pink
+
+set default-bg                  "#1f2329" # Background
+set default-fg                  "#fafafa" # Foreground
+
+set render-loading              true
+set render-loading-fg           "#1f2329" # Background
+set render-loading-bg           "#fafafa" # Foreground
+
+#
+# Recolor mode settings
+#
+
+set recolor-lightcolor          "#1f2329" # Background
+set recolor-darkcolor           "#fafafa" # Foreground
+set recolor-keephue                 true

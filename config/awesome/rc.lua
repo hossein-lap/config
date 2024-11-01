@@ -55,14 +55,15 @@ local norm_bg  = "#232323"
 local norm_fg  = "#dddddd"
 local HOME = os.getenv("HOME")
 local scripts = HOME .. '/.local/dev/hossein-lap/scripts/'
-local dmenu = "dmenu_run -bw 1 -p 'run:' -sf '" .. focus_fg .. "' -sb '" .. focus_bg .. "' -nf '" .. norm_fg .. "' -nb '" .. norm_bg .. "'"
+local dmenu = "dmenu_run -p 'run' -sf '" .. focus_fg .. "' -sb '" .. focus_bg .. "' -nf '" .. norm_fg .. "' -nb '" .. norm_bg .. "'"
 
 -- Themes define colours, icons, font and wallpapers.
 --beautiful.init(gears.filesystem.get_themes_dir() .. "/home/hos/.config/awesome/themes/default/theme.lua")
 beautiful.init(HOME .. "/.config/awesome/themes/stream/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "st"
+-- terminal = string.format("tabbed -c -r 2 xterm -into ''")
+terminal = "tabbed -ck -r 2 st -w '' -f 'Monospace:size=18'"
 -- terminal = "st"
 editor = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
@@ -76,9 +77,9 @@ modkey = "Mod1"
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
-	awful.layout.suit.max,
 	awful.layout.suit.tile,
-	awful.layout.suit.floating,
+	awful.layout.suit.max,
+	-- awful.layout.suit.floating,
 	-- awful.layout.suit.corner.ne,
 	-- awful.layout.suit.corner.nw,
 	-- awful.layout.suit.corner.se,
@@ -359,7 +360,7 @@ globalkeys = gears.table.join(
 --	awful.key({ modkey },			"r",	 function () awful.screen.focused().mypromptbox:run() end,
 --			  {description = "run prompt", group = "launcher"}),
 	-- dmenu
-	awful.key({ modkey },			"r",	 function () awful.util.spawn(dmenu) end,
+	awful.key({ modkey, "Shift" },			"p",	 function () awful.util.spawn([[rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi]]) end,
 			  {description = "dmenu prompt", group = "launcher"}),
 
 	-- srun
@@ -371,16 +372,16 @@ globalkeys = gears.table.join(
 	-- emacs
 	awful.key({ modkey, "Shift" },			"e",	 function ()
 		awful.util.spawn("emacsclient -nc -a emacs") end,
-			  {description = "run a terminal with bidi support", group = "launcher"}),
+			  {description = "Emacs for bidi docs", group = "launcher"}),
 	-- bidi-terminal
-	awful.key({ modkey, "Control" },			"t",	 function () awful.util.spawn("gnome-terminal") end,
+	awful.key({ modkey, "Control" },			"t",	 function () awful.util.spawn("konsole") end,
 			  {description = "run a terminal with bidi support", group = "launcher"}),
 	-- floating terminal
 	awful.key({ modkey },			"x",	 function () awful.util.spawn("st -t 'Terminal'") end,
 			  {description = "flowting terminal", group = "launcher"}),
 	-- dmenu
 	awful.key({ modkey },			"p",	 function ()
-		awful.util.spawn(dmenu .. " -l 16 -g 2 -c -r")
+		awful.util.spawn(dmenu .. " -l 16 ")
 	end,
 			  {description = "dmenu run prompt", group = "launcher"}),
 

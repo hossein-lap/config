@@ -4,12 +4,19 @@
 # |_||_|
 #
 
+# functions {{{
+
+# gitignore
+gi() {
+	for i in ${@}; do
+		curl -sL https://www.toptal.com/developers/gitignore/api/${i}
+	done
+}
+
 # emacs client
 em() {
 	nohup emacsclient -c -a 'emacs' "$@" 2>&1 > /dev/null &
 }
-
-alias evil='emacs --init-dir ~/.config/evil'
 
 # take
 take() {
@@ -59,13 +66,21 @@ lg() {
 			# --preview-window=right,30%
 		# | fzf --preview "grep -n ${pattern} {} | sed 's/:/| /'"
 }
+# }}}
+
+# aliases {{{
+alias evil='emacs --init-dir ~/.config/evil'
+
+alias bc="bc -q"
+
+alias :q="exit"
 
 # alias sudo="doas"
 
-if [ -n "${DISPLAY}" ] && [ -n "${SUDO_ASKPASS}" ]; then
-	alias sudo="sudo -A"
-	alias yay="yay --sudoflags '-A'"
-fi
+# if [ -n "${DISPLAY}" ] && [ -n "${SUDO_ASKPASS}" ]; then
+# 	alias sudo="sudo -A"
+# 	alias yay="yay --sudoflags '-A'"
+# fi
 
 alias c='clear'
 alias q="exit"
@@ -74,21 +89,23 @@ alias x='startx'
 alias lf="lfub"
 alias mdp="mdp -f"
 
-alias exa="exa --sort extension --group-directories-first"
+# alias eza="exa --sort extension --group-directories-first --icons"
+# alias exa="eza"
 # alias tree='exa -T --icons'
 # alias ts='exa -T --icons -L 1'
-alias ls='ls -X --color=auto --group-directories-first'
-alias ll="l -l"
-alias la="l -al"
-alias cls="clear; ls -lhFX -tr"
-alias cl="clear; ls -F"
+# alias ll="eza -l"
+alias ls='ls -X --color=always --group-directories-first'
+alias ll="ls -lhFX -tr"
+alias la="ll -a"
+alias cls="clear; ll"
+alias cl="clear; ls"
 
 alias tb="nc termbin.com 9999"
-alias links="links -download-dir $HOME/dl/"
+alias links="links -download-dir $HOME/downloads/"
 alias aria2c='aria2c -m 0 -x 16 -c'
 alias ddg='links https://duckduckgo.com'
 
-#alias pwgen='pwgen -s'
+# alias pwgen='pwgen -cyns'
 alias psgen='pwgen'
 alias psgn='pwgen'
 alias pwgn='pwgen'
@@ -97,12 +114,13 @@ alias t='tmux'
 alias sc='screen'
 alias m='cmus'
 
-alias poweroff='shutdown -h now'
+# alias poweroff='shutdown -h now'
 
 alias screenfetch='screenfetch -w'
 alias fetchmaster='fm6000 -r -c random'
-alias fm4000="fm4000 -de dwm -w -r -c random"
-alias neofetch='neofetch --ascii_distro arch_small'
+alias fm4000="fm4000 -w -r -c random"
+alias pfetch='fastfetch --config ~/.config/fastfetch/minimal.jsonc --logo void_small'
+alias neofetch='fastfetch -c paleofetch'
 
 alias clear="clear && printf '\e[3J'"
 
@@ -160,6 +178,13 @@ alias pico="nano -f ~/.config/nano/pico.conf"
 # alias nano="nano -f ~/.config/nano/nano.conf"
 # alias vim="vim -u ~/.vim/init.vim"
 # alias vi="vim -u ~/.config/vim/vimrc"
+# alias vi="vim -u ~/.vim/vimrc"
+# alias nvi="$(which vi)"
+# alias vim="$(which vim) -u ~/.config/vi/init.vim"
+# alias vim="$(which nvim)"
+# alias vim="nvim"
+# alias vi="nvim"
+
 alias ip="ip -c"
 
 # alias fzf="fzf -m --reverse -i --border=sharp --prompt=: --marker=\* --info=inline --header-first --no-unicode"
@@ -169,8 +194,10 @@ alias cava="cli-visualizer -c ~/.config/vis/cava.conf"
 
 alias ip='ip -c'
 
-alias nnn='nnn -ed -T e'
+alias nnn='nnn -ed -T e -R -A'
 
-alias gs="echo come one dude! again?!"
+# alias gs="echo come one dude! again?!"
 
 alias pres="zathura --mode=fullscreen"
+# }}}
+

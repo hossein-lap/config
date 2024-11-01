@@ -1,15 +1,16 @@
-[user]
-	name = hossein
-	email = hosteam01@gmail.com
-	signingkey = 4CED6D42A47C69139574EAC50B997DB802CA5730
-	useConfigOnly = true
+;; [user]
+;; 	name = hossein
+;; 	email = hosteam01@gmail.com
+;; 	signingkey = 9E0E00D25D53708140218704E0ACECEA2BDC6B2E
+;; 	useConfigOnly = true
 [core]
 	; editor = gvim -f
 	; editor = neovide --nofork
 	; editor = emacsclient -nc -a 'emacs --init-dir ~/.config/evil'
 	; editor = geany
-	editor = mg
+	; editor = nano
 	; editor = vim -c 'nnoremap <C-x><C-s> :wq<CR>' -c 'nnoremap <C-x><C-c> :q!<CR>'
+	editor = vim
 	autocrlf = input
 	pager = less -S
 [commit]

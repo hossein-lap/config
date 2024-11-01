@@ -103,9 +103,14 @@ function command_exists() {
   command -v "$1" &> /dev/null 2>&1
 }
 
+cmd='systemctl'
 # systemctl required
 if ! command_exists systemctl ; then
-  exit 1
+    if ! command_exists loginctl ; then
+        exit 1
+    else
+        cmd='loginctl'
+    fi
 fi
 
 # menu defined as an associative array
@@ -114,10 +119,10 @@ typeset -A menu
 # Menu with keys/commands
 
 menu=(
-  [ Shutdown]="systemctl poweroff"
-  [ Reboot]="systemctl reboot"
-  [ Suspend]="systemctl suspend"
-  [ Hibernate]="systemctl hibernate"
+  [ Shutdown]="${cmd} poweroff"
+  [ Reboot]="${cmd} reboot"
+  [ Suspend]="${cmd} suspend"
+  [ Hibernate]="${cmd} hibernate"
   [ Lock]="~/.config/i3/scripts/blur-lock"
   [ Logout]="i3-msg exit"
   [ Cancel]=""

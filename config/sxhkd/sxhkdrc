@@ -16,6 +16,9 @@ alt + shift + x
 alt + shift +  p
 	rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi
 
+alt + shift + v
+	dmenu-virt
+
 alt + shift + k
 	dmenu-kill
 
@@ -23,10 +26,11 @@ alt + shift + d
 	dmenu-usb
 
 alt + shift + e
-	emacsclient -nc -a 'emacs' #  --init-dir ~/.config/evil
+    emacsclient -nc -a 'evil'
+    # emacs --init-dir ~/.config/evil
 
 alt + shift + w
-	firefox # chromium # google-chrome-stable
+	google-chrome-stable # firefox # chromium # google-chrome-stable
 
 alt + shift + l
 	slock
@@ -55,3 +59,10 @@ alt + e
 
 alt + u
 	dmenu-unicode
+
+# alt + Up
+#     xdotool key Page_Up
+#
+# alt + Down
+#     xdotool key Page_Down
+

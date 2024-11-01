@@ -18,17 +18,22 @@
 # Basic vars
 set shellopts '-eu'
 set ifs "\n"
-set scrolloff 10
-# set drawbox
-# set ratios 1:2:3
-# set icons
+set scrolloff 01
+set drawbox
+set ratios 1:4:1
+set icons false
 set period 1
-set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
+set hiddenfiles ".*"
 set cleaner '~/.config/lf/cleaner'
 set previewer '~/.config/lf/scope'
 set autoquit true
+set info time:size
+set infotimefmtnew "2006-01-02 15:03"
+set infotimefmtold "2006-01-02 15:03"
+set number false
+set tabstop 2
 
-# cmds/functions
+# cmds/functions 
 cmd open ${{
     case $(file --mime-type "$(readlink -f $f)" -b) in
 	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet) localc $fx ;;

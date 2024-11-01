@@ -1,0 +1,17 @@
+#!/bin/sh
+
+output=$(acpi -b)
+
+stat=$(echo ${output} | awk -F ',' '{print $1;}' | awk -F ':' '{print $NF;}')
+current=$(echo ${output} | awk -F ',' '{print $2;}')
+remain=$(echo ${output} | awk -F ',' '{print $NF;}')
+
+icon=""
+
+[${stat} = 'Discharging' ] && icon=""
+
+printf '%s %s\n' ${icon} ${current}
+
+# echo $stat
+# echo $current
+# echo $remain

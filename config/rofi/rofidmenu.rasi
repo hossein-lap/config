@@ -3,9 +3,9 @@
  * Maintainer: joekamprad [joekamprad //a_t// endeavouros.com]
  *******************************************************/
 configuration {
-    font:                "Source Sans Pro Regular 12";
+    font:                "Sans 14";
     show-icons:          true;
-    icon-theme:          "Obsidian";
+    icon-theme:          "Obsidian-Mint";
     display-drun:        "Apps";
     drun-display-format: "{name}";
     scroll-method:       0;
@@ -13,12 +13,14 @@ configuration {
     sidebar-mode:        false;
 }
 
-@import "~/.config/rofi/hos_dark_colors.rasi"
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+/* @import "~/.config/rofi/hos_dark_colors.rasi" */
 
 window {
     background-color: @background;
-    border:           4;
-    padding:          15;
+    border:           2px;
+    border-color:     @bordercolor;
+    padding:          8px;
 }
 listview {
     lines:   10;
@@ -30,7 +32,7 @@ mainbox {
 }
 message {
     border:       2px 0px 0px;
-    border-color: @bordercolor;
+    border-color: @separatorcolor;
     padding:      1px;
 }
 textbox {
@@ -38,11 +40,11 @@ textbox {
 }
 listview {
     fixed-height: 0;
-    border:       8px 0px 0px;
+    border:       0px 0px 0px;
     border-color: @separatorcolor;
     spacing:      8px;
     scrollbar:    false;
-    padding:      2px 0px 0px;
+    padding:      8px 8px 8px;
 }
 element {
     border:  0;
@@ -97,7 +99,7 @@ scrollbar {
 }
 mode-switcher {
     border:       2px 0px 0px;
-    border-color: @bordercolor;
+    border-color: @separatorcolor;
 }
 button {
     spacing:    0;

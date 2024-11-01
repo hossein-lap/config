@@ -45,7 +45,7 @@ local list = {
 
 	tango = {
 		background = "#3F3F3F",
-		color0 = "#2e3436",
+		color0 = "#121212",
 		color1 = "#cc0000",
 		color2 = "#4e9a06",
 		color3 = "#c4a000",
@@ -144,8 +144,8 @@ local list = {
 	},
 
 	hybrid = {
-		background = "#1D1F21",
-		color0 = "#282A2E",
+		background = "#020202",
+		color0 = "#232323",
 		color1 = "#A54242",
 		color2 = "#8C9440",
 		color3 = "#DE935F",
@@ -245,6 +245,7 @@ local list = {
 }
 
 -- }}}
+
 local apps = {
 	"dmenu",
 	"dwm",
@@ -264,13 +265,14 @@ for _, app in ipairs(apps) do
 			local f = io.open(app..'/'..name, "w")
 			f:write('! '..name, '\n')
 			for label, value in pairs(key) do
-				local tt = tonumber(string.gsub(label, "color", ""), 10)
-				if tt <= 7 then
-					label = string.format("color%s", tt + 0)
-				else
-					label = string.format("color%s", tt - 0)
-				end
-				print(label)
+				-- local tt = tonumber(string.gsub(label, "color", ""), 10)
+				-- if tt <= 7 then
+				-- 	label = string.format("color%s", tt + 0)
+				-- else
+				-- 	label = string.format("color%s", tt - 0)
+				-- end
+				-- label = string.format("color%s", tt - 0)
+				-- print(label)
 				local color = string.format('%s*%s: %s', app, label, value)
 				local dot_color = string.format('%s*.%s: %s', app, label, value)
 				f:write(color, '\n')

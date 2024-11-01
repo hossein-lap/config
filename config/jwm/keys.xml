@@ -37,7 +37,7 @@
     <Key mask="SA" key="Left">sendl</Key>
 
     <!-- CTRL + ALT +  -->
-    <Key mask="CA" key="t">exec:st</Key>
+    <Key mask="AS" key="Return">exec:tabbed -n term -ck -r 2 st -w ''</Key>
 
     <!-- SUPER (4) + -->
     <Key mask="1S" key="C">close</Key>

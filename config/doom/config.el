@@ -101,9 +101,9 @@
 ;; (setq doom-theme 'doom-gruvbox)
 ;; (setq doom-theme 'doom-molokai)
 
-;; (setq doom-theme 'doom-tomorrow-night)
+(setq doom-theme 'doom-tomorrow-night)
 ;; (setq doom-theme 'doom-material)
-(setq doom-theme 'doom-one)
+;; (setq doom-theme 'doom-one)
 ;; (setq doom-theme 'doom-tokyo-night)
 ;; (setq doom-theme 'doom-dracula)
 
@@ -138,7 +138,7 @@
 
 ;; ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; ;; numbers are disabled. For relative line numbers, set this to `relative'.
-;; (setq display-line-numbers-type t)
+(setq display-line-numbers-type 'relative)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -151,14 +151,13 @@
 ;; '(org-level-1 :inherit outline-1 :height 5.75)
 ;; '(org-document-title  :height 5.0 :underline nil))
 
-;; ; org-mode headings icon
-(require 'org-bullets)
-;; ;; (setq org-bullets-bullet-list '("☯" "○" "✸" "✿" "~"))
-;; (setq org-bullets-bullet-list '("⦿" "✸" "◉" "✿" "◆"))
-(setq org-bullets-bullet-list '(" " " " " " " " " "))
-
-(add-hook! 'org-mode-hook 'doom-docs-mode)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;; ;; ; org-mode headings icon
+;; (require 'org-bullets)
+;; ;; ;; (setq org-bullets-bullet-list '("☯" "○" "✸" "✿" "~"))
+;; ;; (setq org-bullets-bullet-list '("⦿" "✸" "◉" "✿" "◆"))
+;; (setq org-bullets-bullet-list '(" " " " " " " " " "))
+;; (add-hook! 'org-mode-hook 'doom-docs-mode)
+;; (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 (setq org-hide-emphasis-markers t)
 
@@ -308,10 +307,10 @@
 (custom-set-faces
   `(markdown-header-face ((t (:inherit font-lock-function-name-face :weight bold :family ,hosfamily))))
   '(markdown-header-face-1 ((t (:inherit markdown-header-face :height 2.00))))
-  '(markdown-header-face-2 ((t (:inherit markdown-header-face :height 1.75))))
-  '(markdown-header-face-3 ((t (:inherit markdown-header-face :height 1.50))))
-  '(markdown-header-face-4 ((t (:inherit markdown-header-face :height 1.25))))
-  '(markdown-header-face-5 ((t (:inherit markdown-header-face :height 1.15))))
+  '(markdown-header-face-2 ((t (:inherit markdown-header-face :height 1.40))))
+  '(markdown-header-face-3 ((t (:inherit markdown-header-face :height 1.30))))
+  '(markdown-header-face-4 ((t (:inherit markdown-header-face :height 1.20))))
+  '(markdown-header-face-5 ((t (:inherit markdown-header-face :height 1.10))))
   '(markdown-header-face-6 ((t (:inherit markdown-header-face :height 1.00))))
 
   ;; '(markdown-header-face-1 ((t (:inherit markdown-header-face :foreground "medium blue" :height 1.0))))
@@ -345,10 +344,15 @@
 (setq x-super-keysym 'meta)
 ; }}}
 
-; transparent background {{{
-(set-frame-parameter nil 'alpha-background 90)
-(add-to-list 'default-frame-alist '(alpha-background . 90))
-; }}}
+;; ; transparent background {{{
+;;
+;; ;; (set-frame-parameter nil 'alpha-background 90)
+;; ;; (add-to-list 'default-frame-alist '(alpha-background . 90))
+;;
+;; (set-frame-parameter (selected-frame) 'alpha '(95 95))
+;; (add-to-list 'default-frame-alist '(alpha 95 95))
+;;
+;; ; }}}
 
 ;; ; dashboard image {{{
 ;; (setq fancy-splash-image "/home/hos/downloads/telegram/test.png")

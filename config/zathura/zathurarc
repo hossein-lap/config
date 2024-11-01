@@ -36,6 +36,6 @@ set recolor true
 
 # theme
 
-set recolor-keephue                 true
+set recolor-keephue true
 
-include theme/dracula
+# include theme/embark

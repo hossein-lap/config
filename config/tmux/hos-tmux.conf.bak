@@ -142,7 +142,7 @@ set -g pane-active-border-style fg=$BORDFG,bg=$BORDBG
 
 # Define Left Side {{{
 set -g status-left-length 50
-set -g status-left " #{session_name}:"
+set -g status-left " #S:"
 #set -g status-left " [#{session_name}]"
 #set -g status-left " #{session_name} | #{s|$HOME|~|;s|/.*/|/…/|:pane_current_path} | "
 #set -g status-left " #{session_name} | #{pane_current_path} | "

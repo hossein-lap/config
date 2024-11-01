@@ -52,5 +52,8 @@
 ;; ;; how to disable a package
 ;; (package! packagename :disable t)
 
-(package! org-bullets)
+;; (package! org-bullets)
 ;; (package! org-superstar-mode)
+
+;; AsciiDoc mode
+(package! adoc-mode)

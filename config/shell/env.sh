@@ -11,7 +11,7 @@ export MANPAGER="less"
 # }}}
 
 # global variables {{{
-#export XDG_CACHE_HOME="${HOME}/.local/cache"
+export XDG_CACHE_HOME="${HOME}/.cache"
 export XDG_DATA_HOME="${HOME}/.local/share"
 export XDG_CONFIG_HOME="${HOME}/.config"
 
@@ -65,7 +65,7 @@ export WINEARCH=win32
 ## sudo
 # export SUDO_ASKPASS="$(which dmenupass 2>/dev/null)"
 #export SUDO_ASKPASS="$(which readpass 2>/dev/null)"
-#export SUDO_ASKPASS="$(which yadmenu 2>/dev/null)"
+# export SUDO_ASKPASS="$(which yadpass 2>/dev/null)"
 # }}}
 
 # source files {{{
@@ -97,16 +97,19 @@ appendpath "/opt/nekoray"
 # appendpath "${HOME}/.bin"
 appendpath "${HOME}/.local/bin"
 appendpath "${HOME}/.local/bin/scripts"
-appendpath "${HOME}/.config/emacs/bin"
 appendpath "${HOME}/.emacs.d/bin"
+appendpath "${HOME}/.config/emacs/bin"
 appendpath "${XDG_DATA_HOME}/julia/bin"
 appendpath "${XDG_DATA_HOME}/cargo/bin"
 appendpath "${XDG_DATA_HOME}/golang/bin"
 appendpath "${XDG_DATA_HOME}/yarn/bin"
 appendpath "${XDG_DATA_HOME}/nvim/mason/bin"
-appendpath "${XDG_DATA_HOME}/gem/ruby/3.0.0/bin"
+# appendpath "${XDG_DATA_HOME}/gem/ruby/3.0.0/bin"
 appendpath "${GOPATH}/bin"
 appendpath "/usr/local/go/bin"
+appendpath "/usr/lib/ruby/gems/3.2.0/bin"
+appendpath "/usr/lib/ruby/gems/3.3.0/bin"
+appendpath "${HOME}/.local/share/gem/ruby/3.3.0/bin"
 # appendpath "${HOME}/.local/dev/hossein-lap/workflow/scripts"
 # appendpath "${HOME}/.local/bin/texlive/2022/bin/x86_64-linux"
 # appendpath "/usr/local/texlive/2022/bin/x86_64-linux/"
@@ -115,13 +118,20 @@ unset appendpath
 # }}}#
 
 QT_STYLE_OVERIDE=GTK+
-QT_QPA_PLATFORMTHEME=kvantum
-
-export SUDO_ASKPASS="$(which dmenupass)"
+QT_QPA_PLATFORMTHEME=qt6ct
 
 export ANSIBLE_NOCOWS=1
 
-export EXINIT="${HOME}/.config/ex/exrc"
+# export EXINIT="${HOME}/.config/ex/exrc"
 
 # task / taskwarrior
 export TASKRC="${XDG_CONFIG_HOME}/task"
+
+# pass
+export PASSWORD_STORE_DIR="${HOME}/.local/share/password-store"
+
+# # nvidia
+# export __NV_PRIME_RENDER_OFFLOAD=1
+# export __GLX_VENDOR_LIBRARY_NAME=nvidia
+# export __VK_LAYER_NV_optimus=NVIDIA_only
+
