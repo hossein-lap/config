@@ -110,7 +110,7 @@ alias psgen='pwgen'
 alias psgn='pwgen'
 alias pwgn='pwgen'
 
-alias t='tmux'
+# alias t='tmux'
 alias sc='screen'
 alias m='cmus'
 

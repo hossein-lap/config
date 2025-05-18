@@ -93,8 +93,8 @@ appendpath() {
 }
 
 appendpath "/opt/nekoray"
-# appendpath "${HOME}/bin"
-# appendpath "${HOME}/.bin"
+appendpath "${HOME}/bin"
+appendpath "${HOME}/.bin"
 appendpath "${HOME}/.local/bin"
 appendpath "${HOME}/.local/bin/scripts"
 appendpath "${HOME}/.emacs.d/bin"
@@ -135,3 +135,12 @@ export PASSWORD_STORE_DIR="${HOME}/.local/share/password-store"
 # export __GLX_VENDOR_LIBRARY_NAME=nvidia
 # export __VK_LAYER_NV_optimus=NVIDIA_only
 
+
+# personal {{{
+
+# }}}
+
+# nvim backgroud color {{{
+export NVIM_BACKGROUND='dark'
+
+# }}}

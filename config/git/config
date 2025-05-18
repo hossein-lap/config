@@ -48,3 +48,6 @@
 	addIgnoredFile = false
 [color]
 	pager = true
+
+[alias]
+    tmp = !git init && glk && git commit --no-gpg-sign -m 'init commit'

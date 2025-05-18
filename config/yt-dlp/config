@@ -1,0 +1,16 @@
+# yt-dlp config file
+--proxy 127.0.0.1:2080
+--no-playlist
+--download-archive archive.txt
+--retries infinite
+# --restrict-filenames
+--no-overwrites
+--continue
+--encoding utf-8
+# --bidi-workaround
+--write-subs
+--embed-subs
+--embed-thumbnail
+--embed-chapters
+--embed-metadata
+
