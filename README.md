@@ -16,6 +16,6 @@ things I use daily and how they looks
   note two 
 </h2>
 <p>
-  copy regular diirectories to <i><b><m>.confing</m></b></i> in your home folder </br>
-  and copy the direcoried with . (dot) directly to your home folder
+  copy regular directories to <i><b><m>.confing</m></b></i> in your home folder </br>
+  and copy the directories with . (dot) directly to your home folder
 </p>
