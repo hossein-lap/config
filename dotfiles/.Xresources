@@ -6,52 +6,65 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-XTerm*background:        #b8b9b4
-XTerm*foreground:        #0a0a0a
+XTerm*background:      #111111
+XTerm*foreground:      #b8b9b4  
 XTerm*pointerColor:      #1ABB9B
+XTerm*borderColor:       #010101
 XTerm*faceName:          Fixed
-XTerm*faceSize:          10
-XTerm*reverseVideo:      on
+XTerm*faceSize:          9 
+XTerm*reverseVideo:      off
 XTerm*selectToClipboard: true
+XTerm*SaveLines: 2000
+XTerm*rightScrollBar: false
+XTerm*ScrollBar: false
+XTerm*scrollTtyOutput: false
+XTerm*VT100.Translations: #override \
+      Shift Ctrl<Key>V: insert-selection(CLIPBOARD) \n\ 
+      Shift Ctrl<Key>V: insert-selection(PRIMARY) \n\ 
+      Shift<Btn1Down>: select-start() \n\ 
+      Shift<Btn1Motion>: select-extend() \n\ 
+      Shift<Btn1Up>: select-end(CLIPBOARD) \n\
 
-*background:                      #0A0A0A
-*foreground:                      #B8B9B4
+*background:                      #d646010
+*foreground:                      #0A0A0A
 *fading:                          8
 *fadeColor:                       black
-!cursorColor:                     #088889
+!*cursorColor:                     #D64601
+*cursorColor:                     #ff0026
+!*cursorColor:                     #3eff00
 *pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #16A085
 
 
 !BLACK
-*color0:  #0A0A0A
-*color8:  #2E2E2C
+*color7:  #AAABA6
+*color15: #D6D6D0
 !!RED
 *color1:  #ee0000
 *color9:  #8b0000
 !!GREEN
-*color2:  #7013cc
+*color2:  #0074fc
 *color10: #007700
 !!YELLOW
-*color3:  #727370
+*color3:  #FFA800
 *color11: #777875
 !!BLUE
-*color4:  #0074fc
+*color4:  #16B1FB
 *color12: #0034b6
 !!MAGENTA
-*color5:  #D1D1CB
-*color13: #D6D6D0
+*color5:  #19cb00
+*color13: #D81765
 !!CYAN
-*color6:  #636361
+*color6:  #f53101
 *color14: #696966
 !!WHITE
-*color7:  #AAABA6
-*color15: #AFB0AB
+*color0:  #0A0A0A
+*color8:  #2E2E2C
 
 Xcursor.theme: Adwaita
 Xcursor.size:                     0
 
-*URxvt.font:                       Source Code Pro 
+*URxvt.font:                       xft:Dejavu Sans Mono:pixelsize=12
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -59,18 +72,20 @@ Xcursor.size:                     0
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 #227722
-URxvt*scrollBar:                  true
-URxvt*mouseWheelScrollPage:       true
-URxvt*cursorBlink:                true
-URxvt*background:                 grey
-URxvt*foreground:                 grey
+URxvt.background:                 #111111
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       fasle
+URxvt*cursorBlink:                false
+URxvt*background:                 #0a0a0a
+URxvt*foreground:                 #b8b9b4
+
 URxvt*saveLines:                  4096
+URxvt*scrollBar_right:          true
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
-! URxvt*inheritPixmap:            true
-! URxvt*transparent:              true
-! URxvt*shading:                  138
+URxvt*inheritPixmap:            true
+URxvt*transparent:              true
+URxvt*shading:                  4
 
 ! Normal copy-paste keybindings without perls
 URxvt.iso14755:                   false
