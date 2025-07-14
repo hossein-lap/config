@@ -4,19 +4,20 @@
 [core]
 	editor = nvim
 	autocrlf = input
+	pager = less -S
 [commit]
 	gpgsign = true
 [tag]
 	gpgSign = true
 [merge]
-	ff = false
+#	ff = false
 	tool = nvim -d
 [init]
 	defaultBranch = main
 
 # optional (if you sometimes work outside of your regular directories)
 [include]
-  path = ~/.config/git/config.hossein-lap
+	path = ~/.config/git/config.hossein-lap
 
 [includeIf "gitdir:~/.local/dev/capiknev/"]
 	path = ~/.config/git/config.capiknev
@@ -31,3 +32,5 @@
 
 [advice]
 	addIgnoredFile = false
+[color]
+	pager = true

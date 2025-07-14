@@ -1,0 +1,45 @@
+format = """
+$directory$git_branch$git_state$git_status
+$hostname: $username $character"""
+
+[git_branch]
+style = "bold green"
+format = "[\\[[$branch$tag](bold green)\\]](white)"
+
+[git_status]
+format = ' ([\[$conflicted$deleted$renamed$modified$staged$untracked$ahead_behind\]]($style))'
+
+[directory]
+style = "bold blue"
+truncate_to_repo = false
+truncation_length = 1
+fish_style_pwd_dir_length = 1
+
+[python]
+scan_for_pyfiles = false
+
+[ruby]
+disabled = true
+
+[swift]
+disabled = true
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style)"
+style = "white"
+
+[username]
+show_always = true
+style_user = "white"
+format = "[$user]($style)"
+
+[time]
+disabled = false
+format = "[$time]($style)"
+time_format = "%H:%M"
+
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[»](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+error_symbol = '[»](bold red)'
+vimcmd_symbol = '[»](bold blue)'
