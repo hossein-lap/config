@@ -4,10 +4,12 @@
 
 # Specify desired highlighting theme (e.g. "TwoDark"). Run `bat --list-themes`
 # for a list of all available themes
+#--theme="TwoDark"
 #--theme="gruvbox-dark"
-#--theme="Solarized (dark)"
+--theme="Solarized (dark)"
 #--theme="Solarized (light)"
---theme="Dracula"
+#--theme="Dracula"
+#--theme="Nord"
 
 # Enable this to use italic text on the terminal. This is not supported on all
 # terminal emulators (like tmux, by default):

@@ -1,10 +1,13 @@
 set window-title-basename "true"
 set selection-clipboard "clipboard"
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 4
 
 ## Font
 #set font "Vazir UI 15"
 #set font "Vazir Code Hack Extra Height 15"
-set font "Monospace 18"
+set font "Monospace 16"
 
 ## Automatically adjust the document to full width
 #set adjust-open width
@@ -32,4 +35,4 @@ set recolor false
 
 # theme
 
-include theme/dracula
+#include theme/dracula

@@ -72,6 +72,7 @@ show_smth() {
 	
 	# Get terminal window size in pixels and set it to WIDTH and HEIGHT.
 	export $(xdotool getactivewindow getwindowgeometry --shell)
+	export WINDOW_ID=$(xwininfo -id $WINDOW | awk '/Window id:/ {print $4;}')
 	
 	# Get the image size in pixels.
 	read -r img_width img_height < <("$w3m" <<< "5;$IMG")

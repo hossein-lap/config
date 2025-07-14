@@ -1,0 +1,113 @@
+: 1676936511:0;cd ~/.config/shell
+: 1676936518:1;nvim bashrc
+: 1676936698:11;nvim ~/.config/starship.toml
+: 1676936830:6;nvim ~/.zshrc
+: 1676937701:0;clea
+: 1676937703:0;cle
+: 1676937811:2;htop
+: 1676937929:0;cd shell
+: 1676937932:1;nvim zshrc
+: 1676938036:0;cd ~/.local/dev/hossein-lap/workflow/suckless/st
+: 1676938045:152;nvim breeze.h ubuntu.h
+: 1676938271:0;c
+: 1676938267:61;nvim
+: 1676967707:0;cl
+: 1676970184:3328;nvim shell/zshrc
+: 1676973513:0;s
+: 1676977635:1;doas make install
+: 1676986965:0;gss . | bat --language=diff
+: 1676989137:0;alias | grep cls
+: 1677010965:3;make clean; make; sudo make install; make clean
+: 1677011066:1;make; sudo make install; make clean
+: 1677132051:0;grep UBCblue *
+: 1677134180:0;date '+%B %d, %Y'
+: 1677138499:0;cd ..
+: 1677347304:1;hugo -t Hugo-Octopress
+: 1677347404:0;git diff config.toml
+: 1677347460:0;cd ../../
+: 1677347465:0;cd blog
+: 1677360425:0;lpc stat
+: 1677398636:2;make clean; make; sudo make install
+: 1677681977:0;make clean
+: 1677681985:5;more config.h
+: 1677682006:1;rm config.h
+: 1677702451:3;scrot -d 3 -c /tmp/scrot-dmenu_patched.png
+: 1677702565:3;scrot -d 3 -c /tmp/scrot-dmenu_not_patched.png
+: 1677785081:0;cd ../go
+: 1677785082:2;make
+: 1677785235:4;make full
+: 1677954553:0;cd colors
+: 1677954553:0;ls
+: 1677967363:0;nvim --version
+: 1677967381:0;nvim --version | head -1
+: 1678018107:0;git add python/
+: 1678018130:7;git commit -m 'python added, finished Casting'
+: 1678029359:0;grep INFO */*.yaml
+: 1678087410:9;make; make
+: 1678096825:0;ls fg bg
+: 1678096832:0;./new-scheme.lua blue 00aaff
+: 1678176386:0;fc-list| grep Inconsola
+: 1678176410:0;fc-list| grep Inconsola | grep -v Nerd
+: 1678177014:3;dmkill.sh
+: 1678177024:2;scripts/dmkill.sh
+: 1678177028:0;cd -
+: 1678177031:5;./dmkill.sh
+: 1678213962:0;sed 's/^#patch/patch/' dm*.sh
+: 1678213966:0;sed -i 's/^#patch/patch/' dm*.sh
+: 1678320558:0;mkdir static/css
+: 1678320569:0;mv static/custom.css static/css
+: 1678369963:0;..
+: 1678369967:7;./make.sh
+: 1678460952:0;mkdir schemes
+: 1678484398:0;versions.sh
+: 1678562842:0;fc-list| grep Sahel
+: 1678573423:0;grep 'Libertinus Serif' *.sty
+: 1678573434:0;grep 'Libertinus Serif' fa-*.sty
+: 1678573462:0;sed -i 'Libertinus Serif/Source Serif Pro/' fa-*.sty
+: 1678573467:0;sed -i 's/Libertinus Serif/Source Serif Pro/' fa-*.sty
+: 1678663104:1;convert test.pdf test.png
+: 1678663138:0;r.sh nsxiv test.png
+: 1678663157:0;convert test.pdf test.png -trim
+: 1678663336:0;pandoc -V '\pagenumbering{gobble}' test.md -o test.pdf
+: 1678663379:2;pandoc --defaults ~/.config/pandoc/defaults/dracula/dracula.yaml -V '\pagenumbering{gobble}' test.md -o test.pdf
+: 1678663391:0;convert -trim test.pdf test.png
+: 1678663500:0;convert -trim -density 300 -resize 25% test.pdf test.png
+: 1678663616:0;imshadow.sh test.png
+: 1678663705:2;pandoc --defaults ~/.config/pandoc/defaults/solarized/solarized.yaml test.md -o test.pdf
+: 1678663727:0;echo pandoc --defaults ~/.config/pandoc/defaults/solarized/solarized.yaml test.md -o test.pdf > ~/imsrc2pic.sh
+: 1678663731:0;convert -trim -density 300 test.pdf test.png
+: 1678663751:0;echo convert -trim -density 300 test.pdf test.png >> ~/imsrc2pic.sh
+: 1678663754:0;clear;
+: 1678664609:2;cp ../dracula/theme.sty .
+: 1678708212:0;python
+: 1678708218:1;python3
+: 1678721638:0;pwd
+: 1678721649:0;mkdir after/plugin/notify
+: 1678793243:3;make clean && make && sudo make install
+: 1678805827:0;mv ~/screen/record/void-emojicolors-dmenu-230314_182433.mkv ~/screen/record/void-coloremoji-dmenu-230314_182433.mkv
+: 1678805850:2;mpv ~/screen/record/void-coloremoji-dmenu-230314_182433.mkv
+: 1678805867:0;cd ~/.local/void-packages
+: 1678805870:37;git pull
+: 1678805958:0;clear
+: 1678805961:0;gss .
+: 1678805964:1;glg
+: 1678805966:4;gls
+: 1678805972:0;du -h .
+: 1681667834:0;neofetch
+: 1681667844:0;cls
+: 1682252809:19;lf
+: 1682252833:2;lf ~/pic
+: 1682254114:0;q
+: 1682254136:0;q\\
+
+: 1682254730:0;xwininfo `xdotool getactivewindow`
+: 1682254737:0;xwininfo -id `xdotool getactivewindow`
+: 1682254857:0;xdotool getactivewindow getwindowgeometry --shell
+: 1682254888:0;xdotool getactivewindow
+: 1682254902:0;xwininfo -id `xdotool getactivewindow` | grep Window
+: 1682254916:0;xwininfo -id `xdotool getactivewindow` | grep 'Window id:'
+: 1682254949:0;xwininfo -id `xdotool getactivewindow` | awk '/Window id:/ {print $3;}'
+: 1682254954:0;xwininfo -id `xdotool getactivewindow` | awk '/Window id:/ {print $4;}'
+: 1682255302:5;nvim ~/.config/lf/lfrc
+: 1682255314:71;lf ~/pic/
+: 1682255900:10;lf pic

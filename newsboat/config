@@ -2,8 +2,10 @@
 # theme
 include /usr/share/doc/newsboat/contrib/colorschemes/solarized-dark
 #include /usr/share/doc/newsboat/contrib/colorschemes/plain
-# set browser
-browser surf
+## set browser
+browser qutebrowser
+#browser firefox
+#browser surf
 #browser w3m
 # Pager
 #pager "/bin/bat -l markdown -n"
@@ -32,14 +34,20 @@ bind-key U show-urls
 bind-key x pb-delete
 ## custom colors
 color listnormal white default
-color listfocus black yellow standout bold
+color listfocus black green standout bold
 color listnormal_unread blue default bold
 color listfocus_unread black green standout bold
 color info white black
 color article white default
 #
-#highlight feedlist "---.*---" yellow default
-#highlight feedlist ".*(0/0))" default default default #invis
+highlight feedlist "---.*---" black default
+highlight feedlist "● .*" yellow default
+highlight feedlist "▸ .*" magenta default
+highlight feedlist "○ .*" red default
+highlight feedlist ".*(0/0))" black default #invis default
+highlight feedlist "^   [1-9]" black default #invis default
+highlight feedlist "^  [1-9][0-9]" black default #invis default
+highlight feedlist "^ [1-9][0-9][0-9]" black default #invis default
 #highlight feedlist ".*(0/.*))" default default
 highlight article "(^Feed:.*|^Title:.*|^Author:.*)" cyan default bold
 highlight article "(^Link:.*|^Date:.*)" default default

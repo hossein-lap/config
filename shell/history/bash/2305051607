@@ -1,0 +1,4 @@
+sudo xbps-install -Su
+xbps-query -l | grep linux | less -SR
+xbps-query -l | grep ' linux' | less -SR
+df -h /

@@ -1,0 +1,99 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{nordtheme}[2021/02/26 Nord Theme]
+\RequirePackage{xcolor,tikz,tcolorbox}
+
+% colors {{{
+\definecolor{nordcl}      {HTML} {2E3440}% #2E3440
+\definecolor{nordbg}      {HTML} {3B4252}% #3B4252
+\definecolor{nordfg}      {HTML} {ECEFF4}% #ECEFF4
+\definecolor{nordcomment} {HTML} {616E88}% #616E88
+\definecolor{nordblue}    {HTML} {5E81AC}% #5E81AC
+\definecolor{nordcyan}    {HTML} {88C0D0}% #88C0D0
+\definecolor{nordteal}    {HTML} {8FBCBB}% #8FBCBB
+\definecolor{nordgreen}   {HTML} {A3BE8C}% #A3BE8C
+\definecolor{nordpurple}  {HTML} {B48EAD}% #B48EAD
+\definecolor{nordyellow}  {HTML} {EBCB8B}% #EBCB8B
+\definecolor{nordorange}  {HTML} {D08770}% #D08770
+\definecolor{nordred}     {HTML} {BF616A}% #BF616A
+% }}}
+%% listings {{{
+%\usepackage{listings}
+%\lstset{%
+%	frame=tb,
+%%	language=c,
+%	showstringspaces=false,
+%	columns=flexible,
+%	numbers=left,
+%	xleftmargin=.03\textwidth,
+%%	xrightmargin=.03\textwidth,
+%%%
+%		basicstyle={\color{nordfg}\ttfamily\footnotesize},
+%		commentstyle={\color{nordcomment}\itshape},
+%		emphstyle={\color{nordpurple}\underline},
+%		stringstyle={\color{nordgreen}\bfseries\normalsize},
+%		numberstyle={\ttfamily\scriptsize\color{black!50!white}},
+%		keywordstyle={\color{nordcyan}},
+%		ndkeywordstyle={\color{nordteal}},
+%		identifierstyle={\color{nordblue}},
+%		indexstyle={\color{nordyellow}},
+%%%
+%%	rulecolor=\color{black!50!white},
+%%%
+%%%	keywordstyle={\color{codepurple}},
+%%%	commentstyle={\color{frenchbeige}},
+%%%	stringstyle={\color{alizarin}},
+%%%	keywordstyle={\color{codepurple}},
+%%%	ndkeywordstyle={\ttfamily\color{keywordsColor}},
+%%%	emph={ls},
+%%%	emphstyle={\color{red}},
+%%%	backgroundcolor=\color{white!96!black},
+%%%	ndkeywordstyle={\underline},
+%%	morekeywords={True, False,},
+%%	emph={unsigned, int, char, void, float, bool, FILE},
+%%%	emphstyle={\color{red}},
+%	breaklines=true,
+%	breakatwhitespace=false,
+%	numbersep=3mm,
+%%	frame=leftline,
+%%	frame=left top right bottom,
+%%	frame=shadowbox,
+%	frame=none,
+%%	caption=\code{e.g.},
+%%
+%	aboveskip=-4mm,
+%	belowskip=-2mm,
+%	captionpos=t,
+%	escapechar=\\\{\},
+%	tabsize=8
+%}
+%% end code block formatting }}}
+% box env {{{
+\newtcolorbox{bbox}{
+	%	title={\centering \color{black}{\textsf{Example} }},
+	breakable,
+	parbox=false,
+	boxrule=1pt,
+	arc = 0.5mm,
+	%	sharp corners = downhill,
+	enlarge top by=3mm,
+	minipage boxed title*=-15cm,
+	%	beamer,
+	enhanced,
+	center,
+	%	attach boxed title to top center={yshift=-2.5mm},
+	attach boxed title to top left={yshift=-2mm, xshift=1cm},
+	colback  = nordcl,
+	colframe = black!90!white,
+	colbacktitle = white,
+%%%
+%	enhanced, 
+%    breakable,
+%    frame hidden,
+%    overlay broken = {
+%        \draw[line width=1mm, black!90!white, rounded corners]
+%        (frame.north west) rectangle (frame.south east);},
+}
+% }}}
+
+\pagecolor{nordbg}
+\color{nordfg}

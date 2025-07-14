@@ -1,6 +1,6 @@
 {
     "text-color": null,
-    "background-color": "#242630",
+    "background-color": "#21222c",
     "line-number-color": "#6272a4",
     "line-number-background-color": null,
     "text-styles": {
@@ -103,7 +103,7 @@
             "underline": false
         },
         "Extension": {
-            "text-color": null,
+            "text-color": "#00ff00",
             "background-color": null,
             "bold": false,
             "italic": false,

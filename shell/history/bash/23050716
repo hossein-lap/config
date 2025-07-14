@@ -1,0 +1,14 @@
+make clean; make; sudo make install
+..
+make clean; make; sudo make install
+git pull
+cd ../vim
+git pull
+..
+cls
+ls vim
+ls nvim
+gln git@github.com:hossein-lap/vim.git
+زمس
+cls
+q

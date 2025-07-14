@@ -1,0 +1,9 @@
+cls
+c
+s
+cls
+mkdir figs
+nvim pres.tex 
+nvim ~/.config/nvim/lua/module/main.lua 
+nvim pres.tex 
+q

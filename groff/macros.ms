@@ -1,31 +1,59 @@
-\" Bullet list
-\" .bl ITEM
-.de bl
+.\" bullet list {{{
+.de bu
 .IP \[bu] 3
+\\$1
 ..
-\" Checked list
-\" .bc ITEM
-.de bc
+.de su
+.IP \[SP]
+\\$1
+..
+.de hu
+.IP \[HE]
+\\$1
+..
+.de du
+.IP \[DI]
+\\$1
+..
+.de cu
+.IP \[CL]
+\\$1
+..
+.\" }}}
+.\" circle list {{{
+.de ci
+.IP \[ci] 3
+\\$1
+..
+.\" }}}
+.\" checked list {{{
+.de ok
 .IP \[OK] 3
+\\$1
 ..
-\" Unchecked list
-\" .bb ITEM
-.de bb
+.\" }}}
+.\" unchecked list {{{
+.de sq
 .IP \[sq] 3
+\\$1
 ..
-\" Boxed code-block
-\" .cb CODE ./cb
-.nr ln 1
+.\" }}}
+.\" codeblock {{{
 .de cb
-.QS
-\".B1
-.ft CR
+.\".nr ln 1
 .sp 1n
+.QS
+.B1
+.ft CW
 .br
 .sp 1n
 .nf
-.in +1m
-.nm +0 1 1 -5
+.\".in +.1m
+.SM
+.SM
+.\".nm +0 1 1 -5
+.LG
+.LG
 ..
 .de /cb
 .br
@@ -34,6 +62,32 @@
 .fi
 .ft
 .in
-\".B2
+.B2
 .QE
 ..
+.\" }}}
+.\" outputblock {{{
+.de ob
+.QS
+.sp .5n
+.ft CW
+.nf
+..
+.de /ob
+.nm
+.ft P
+.sp 1n
+.QE
+..
+.\" }}}
+.\" headings {{{
+.de nh
+.NH \\$2
+.XN "\\$1"
+..
+.de sh
+.SH \\$2
+.LG
+.XN "\\$1"
+..
+.\" }}}

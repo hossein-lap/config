@@ -18,7 +18,7 @@ xcompmgr &
 #xwallpaper --zoom ~/Pictures/backgrounds/wallpapers-2018/sunset-3095689.jpg &
 #xwallpaper --zoom ~/Pictures/Resplash/egK73XCwN8I_Full.jpg &
 #xwallpaper --zoom ~/Pictures/backgrounds/wallpapers-2018/abstract-1780241.jpg &
-xwallpaper --zoom ~/pic/backgrounds/wallpapers-2018/tree-736875.jpg &
+#xwallpaper --zoom ~/pic/backgrounds/wallpapers-2018/tree-736875.jpg &
 #xwallpaper --zoom ~/Pictures/backgrounds/wallpapers-2018/abstract-1779631.jpg &
 
 tint2 &
@@ -74,8 +74,11 @@ xset r rate 300 50 &
 #dropbox &
 #
 ## keyboard layout and dely
-$HOME/.local/bin/xrate.sh &
+xrate.sh &
+#$HOME/.local/bin/xrate.sh &
+
+randr.sh 1 &
 
 (pulseaudio) &
 
-emacs --daemon &
+#emacs --daemon &

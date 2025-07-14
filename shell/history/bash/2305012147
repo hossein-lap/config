@@ -1,0 +1,5 @@
+nvim ~/.config/pandoc/defaults/beamer/fa-ubuntu.sty 
+nvim ~/.config/nvim/lua/module/main.lua 
+nvim ~/.config/pandoc/defaults/beamer/fa-ubuntu.sty 
+lf
+q

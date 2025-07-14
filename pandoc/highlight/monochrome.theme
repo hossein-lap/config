@@ -19,7 +19,7 @@
             "underline": false
         },
         "Comment": {
-            "text-color": "#888888",
+            "text-color": null,
             "background-color": null,
             "bold": false,
             "italic": true,
@@ -42,7 +42,7 @@
         "DataType": {
             "text-color": null,
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
@@ -93,6 +93,20 @@
             "background-color": null,
             "bold": false,
             "italic": true,
+            "underline": false
+        },
+        "Function": {
+            "text-color": null,
+            "background-color": null,
+            "bold": true,
+            "italic": false,
+            "underline": false
+        },
+        "String": {
+            "text-color": null,
+            "background-color": null,
+            "bold": false,
+            "italic": false,
             "underline": false
         }
     }

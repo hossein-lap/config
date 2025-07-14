@@ -1,0 +1,8 @@
+make clean; make; sudo make install
+sent example 
+sent < (How my file)
+sent <(How my file)
+sent <(echo How my file)
+sent <(echo How my file navigation life started)
+make clean; make; sudo make install
+sent <(echo How my file navigation life started)

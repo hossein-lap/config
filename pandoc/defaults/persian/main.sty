@@ -1,0 +1,99 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{main}
+\usepackage{titlesec,fancyvrb,framed,hyperref,graphicx}
+
+%\usepackage{tikz}
+%\usepackage[most]{tcolorbox}
+\usepackage{xepersian}
+
+%% Render <200c> for pandoc before 2.19 relase
+\let\textormath=\TextOrMath
+
+%% link colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor={blue!55!black},
+    citecolor={red!65!black},
+    urlcolor={green!35!black},
+}
+
+%% custom section
+\titleformat{\section}
+    {\LARGE \secfont \bfseries}
+    {\thesection.}
+    {.03\linewidth}
+    {}%
+    [{\titlerule[0pt]}]
+%% custom subsection
+\titleformat{\subsection}
+    {\Large \secfont \bfseries}
+    {\thesubsection.}
+    {.03\linewidth}
+    {}%
+    [{\titlerule[0pt]}]
+%% custom subsubsection
+\titleformat{\subsubsection}
+    {\large \secfont \bfseries}
+    {\thesubsubsection.}
+    {.03\linewidth}
+    {}%
+    [{\titlerule[0pt]}]
+
+%%% headings position
+%\titlespacing*{\section}{0mm}{5mm}{5mm}
+%\titlespacing*{\subsection}{0mm}{5mm}{5mm}
+%\titlespacing*{\subsubsection}{0pt}{5mm}{5mm}
+
+%% every h1 at a new page
+%\let\oldsection\section
+%\renewcommand\section{\newpage\oldsection}
+
+%% Persian fonts
+%%% Special type
+%\defpersianfont\sayeh{HMXKayhanSayeh}
+%\defpersianfont\nast{IranNastaliq}
+%\defpersianfont\titr{HMXTitr}
+%%% Serif type
+%\defpersianfont\yas{Yas}
+%\defpersianfont\persianmodern{Persian Modern}
+%\defpersianfont\naskh{Noto Naskh Arabic}
+%%% Sans-serif type
+%\defpersianfont\yekan{XM Yekan}
+
+% some fonts: HMFNazli HMXKayhan Yas Vazir
+
+%\newcommand\defperfont{Sahel}
+\newcommand\defperfont{HMFNazli}
+\settextfont{\defperfont}
+\setdigitfont{\defperfont}
+\defpersianfont\secfont{\defperfont}
+
+\defpersianfont\qfont{HMFRoya}
+%\defpersianfont\qfont{HMXYekan}
+%\defpersianfont\qfont{HMFHoma}
+%\defpersianfont\qfont{HMFKoodak}
+%\defpersianfont\qfont{HMFKamran}
+
+%\defpersianfont\qfont{Sahel}
+%\defpersianfont\qfont{Vazir}
+
+%% latin fonts
+\setlatintextfont{Liberation Serif}
+\setlatinsansfont{Liberation Sans}
+\setlatinmonofont{Liberation Mono}
+%\setlatintextfont{Source Serif Pro}
+%\setlatinsansfont{Source Sans Pro}
+%\setlatinmonofont{Source Code Pro}
+%%\setlatinmonofont{Inconsolata}
+
+%% add line number to code-blocks
+%\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\},frame=single}
+%\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\},numbers=left}
+%\DefineVerbatimEnvironment{Verb}{Verbatim}{numbers=left}
+%\DefineVerbatimEnvironment{verbatim}{Verbatim}{numbers=left}
+
+%% line-space
+\linespread{1.3}
+
+%% Paragraph indentation
+%\setlength{\parindent}{15pt}

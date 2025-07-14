@@ -8,93 +8,24 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# enable vim mode
+set -o vi
+
 # pervent to end a session by once 'C-d' [twice will do]
 export IGNOREEOF=1
 
 ## bat as manpager
 #export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#export MANPAGER='sh -c "col -b | vim -c \'set ft=man nomod nolist ignorecase\' -"'
+#export MANPAGER='vim -c "%! col -b" -c "set ft=man nomod nolist ignorecase" -'
+#export MANPAGER="vim -c 'colorscheme 256_noir' -c '%! col -b' -c 'set ft=man nomod nolist ignorecase nonu' -"
+#export MANPAGER="vim -MRn -U ~/.vim/man.vim -"
+#export MANPAGER="nvim -u ~/.vim/manpager.vim -"
+export MANPAGER="nvimpager"
 
-# History {{{
-# When shell exist, append to the history file instead of overwriting it
-shopt -s histappend
-# After each command, append to the history file and reread it
-shopt -s checkwinsize
-# ignore repeated commands (one command repeatedly)
-HISTCONTROL=ignoreboth
-# history size
-HISTSIZE=4096
-HISTFILESIZE=4096
-# multiple history file for each session
-if [[ ! -d $HOME/.config/bash/history ]]; then
-	mkdir $HOME/.config/bash/history
-fi
-export HISTFILE="$HOME/.config/bash/history/` date '+%y%m%d'`"
-# }}}
-# Source files {{{
-sourceit () {
-	if [[ -f "$1" ]]; then
-		source "$1"
-	fi
-}
-
-sourceit "$HOME/.bash_aliases"
-sourceit "$HOME/.aliases.bash"
-sourceit "$HOME/.aliases.sh"
-sourceit "$HOME/.config/bash/aliases.sh"
-unset sourceit
-# }}}
-# path variable {{{
-appendpath() {
-	if [[ -d "$1" ]]; then
-		PATH="${PATH}:${1}"
-	fi
-}
-
-appendpath "$HOME/bin"
-appendpath "$HOME/.bin"
-appendpath "$HOME/.local/bin"
-appendpath "$HOME/.config/emacs/bin"
-appendpath "$HOME/.local/cargo/bin"
-appendpath "$HOME/.yarn/bin"
-appendpath "$HOME/.local/golang/bin"
-appendpath "$HOME/.local/dev/hossein-lap/scripts"
-appendpath "$HOME/.local/bin/texlive/2022/bin/x86_64-linux"
-unset appendpath
-# }}}
-# Terminal-specific shell prompt {{{
-# ›» αΣϑ →  ➡ ➜ ●
-case "$TERM" in
-linux)
-	PS1="[\u@\h \W]\[\033[01;00m\]\$ "
-	  ;;
-xterm|vt100)
-	PS1='$ \[\033[00m\]'
-	  ;;
-tmux*color|screen*color*)
-	PS1="\[\033[01;34m\]» \[\033[01;32m\]\W \[\033[00m\]"
-	  ;;
-st*color)
-	PS1="\[\033[01;32m\]$ \[\033[01;35m\]\W \[\033[00m\]"
-#	PS1="\[\033[01;32m\]\u@\h:\[\033[01;35m\]\W\[\033[00m\]\$ "
-	  ;;
-xterm*color)
-	PS1="\[\033[01;32m\]➜ \[\033[01;35m\]\W \[\033[00m\]"
-	  ;;
-alacritty)
-	PS1="\[\033[01;32m\]› \[\033[01;35m\]\W \[\033[00m\]"
-	  ;;
-screen|termite)
-	PS1="[\u@\h:\W]\[\033[01;00m\]\$ "
-	  ;;
-*)
-	PS1="\[\033[01;32m\]\$ \[\033[01;35m\]\W \[\033[00m\]"
-	  ;;
-esac
-# }}}
-
-# Global Variables {{{
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CONFIG_HOME="$HOME/.config"
+# global variables {{{
+export XDG_DATA_HOME="${HOME}/.local/share"
+export XDG_CONFIG_HOME="${HOME}/.config"
 
 ## gpg-agent
 export GPG_TTY=$(tty)
@@ -115,12 +46,19 @@ export MDP_LIST_HEAD3=' • '
 export PDFVIEWER_texdoc='zathura'
 
 ## Proxy
-export all_proxy=socks5://127.0.0.1:8080
-export http_proxy=http://127.0.0.1:1090
-export https_proxy=http://127.0.0.1:1090
+#export all_proxy=socks5://127.0.0.1:8080
+#export http_proxy=http://127.0.0.1:1090
+#export https_proxy=http://127.0.0.1:1090
 
-## Go Path
-export GOPATH="${HOME}/.local/golang"
+## go Path
+export GOPATH="${XDG_DATA_HOME}/golang"
+export GOMODCACHE="${XDG_CACHE_HOME}/golang/mod"
+## rust Path
+export RUSTUP_HOME="${XDG_DATA_HOME}/rustup"
+## cargo path
+export CARGO_HOME="${XDG_DATA_HOME}/cargo"
+## npm path
+export NPM_CONFIG_USERCONFIG="${XDG_CONFIG_HOME}/npm/npmrc "
 
 ### bat colorscheme
 ##"Solarized (dark)" "gruvbox-dark"
@@ -132,8 +70,106 @@ export GOPATH="${HOME}/.local/golang"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 # }}}
-# Startup {{{
+# history {{{
+# When shell exist, append to the history file instead of overwriting it
+shopt -s histappend
+# After each command, append to the history file and reread it
+shopt -s checkwinsize
+# ignore repeated commands (one command repeatedly)
+HISTCONTROL=ignoreboth
+# history size
+HISTSIZE=4096
+HISTFILESIZE=4096000
+# multiple history file for each session
+if [[ ! -d $HOME/.config/shell/history/bash ]]; then
+	mkdir -p $HOME/.config/shell/history/bash
+fi
+export HISTFILE="$HOME/.config/shell/history/bash/$(date +%y%m%d%H)"
+# }}}
+# source files {{{
+sourceit () {
+	if [[ -f "$1" ]]; then
+		source "$1"
+	fi
+}
+
+sourceit "$HOME/.bash_aliases"
+sourceit "$HOME/.aliases.bash"
+sourceit "$HOME/.aliases.sh"
+sourceit "$HOME/.config/shell/aliases.sh"
+unset sourceit
+# }}}
+# path variable {{{
+appendpath() {
+	if [[ -d "${1}" ]]; then
+		PATH="${PATH}:${1}"
+	fi
+}
+
+appendpath "${HOME}/bin"
+appendpath "${HOME}/.bin"
+appendpath "${HOME}/.local/bin"
+appendpath "${HOME}/.config/emacs/bin"
+appendpath "${HOME}/.emacs.d/bin"
+appendpath "${XDG_DATA_HOME}/julia/bin"
+appendpath "${XDG_DATA_HOME}/cargo/bin"
+appendpath "${XDG_DATA_HOME}/golang/bin"
+appendpath "${XDG_DATA_HOME}/yarn/bin"
+appendpath "${HOME}/.local/dev/hossein-lap/workflow/scripts"
+appendpath "${HOME}/.local/bin/texlive/2022/bin/x86_64-linux"
+unset appendpath
+# }}}
+# terminal-specific shell prompt {{{
+# ›» αΣϑ →  ➡ ➜ ●
+case "$TERM" in
+linux)
+	PS1="[\u@\h \W]\[\033[01;00m\]\$ "
+	  ;;
+xterm|vt100)
+	PS1='$ \[\033[00m\]'
+	  ;;
+tmux*color|screen*color*)
+	PS1="\[\033[01;34m\]» \[\033[01;32m\]\W \[\033[00m\]"
+	  ;;
+st*color)
+	PS1="\[\033[01;32m\]\$ \[\033[01;35m\]\W \[\033[00m\]"
+#	PS1="\[\033[01;32m\]\u@\h:\[\033[01;35m\]\W\[\033[00m\]\$ "
+	  ;;
+xterm*color)
+	set +o ignoreeof
+	PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$\[\033[00m\] "
+	  ;;
+alacritty)
+#	PS1="\[\033[01;32m\]› \[\033[01;35m\]\W \[\033[00m\]"
+	PS1="[\u@\h:\W]\[\033[01;00m\]\$ "
+	  ;;
+screen|termite)
+	PS1="[\u@\h:\W]\[\033[01;00m\]\$ "
+	  ;;
+*)
+	PS1="\[\033[01;32m\]\$ \[\033[01;35m\]\W \[\033[00m\]"
+	  ;;
+esac
+# }}}
+
+# functions {{{
+
+# }}}
+# startup {{{
+## tux-fetch
 #bash ~/.local/dev/hossein-lap/scripts/start-say.sh
-start-say.sh
+#start-say.sh
+## sysfetch
 #echo | sysfetch.sh
+## date-figlet
+#echo
+#date '+%H : %M : %S' \
+#	| sed 's/^/  /' \
+#	| figlet # -f small # | lolcat
+#echo
+# jcal script
+#date-startup.sh
+# }}}
+# alias {{{
+alias s="source ~/.config/shell/bashrc"
 # }}}

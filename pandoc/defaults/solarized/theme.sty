@@ -1,0 +1,38 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{solarizedtheme}[2021/02/26 Solarized (Dark) Theme]
+\RequirePackage{xcolor,tikz,tcolorbox}
+
+% colors {{{
+\definecolor{solarizedcl}      {HTML} {002b36} % #002b36
+\definecolor{solarizedbg}      {HTML} {073642} % #073642
+\definecolor{solarizedfg}      {HTML} {fdf6e3} % #fdf6e3
+\definecolor{solarizedcomment} {HTML} {93a1a1} % #93a1a1
+\definecolor{solarizedcyan}    {HTML} {2aa198} % #2aa198
+\definecolor{solarizedgreen}   {HTML} {859900} % #859900
+\definecolor{solarizedorange}  {HTML} {cb4b16} % #cb4b16
+\definecolor{solarizedpink}    {HTML} {d33682} % #d33682
+\definecolor{solarizedpurple}  {HTML} {6c71c4} % #6c71c4
+\definecolor{solarizedred}     {HTML} {dc322f} % #dc322f
+\definecolor{solarizedyellow}  {HTML} {b58900} % #b58900
+% }}}
+% box env {{{
+\newtcolorbox{bbox}{
+%	title={\centering \color{black}{\textsf{Example} }},
+	boxrule=1pt,
+	arc = 0.5mm,
+	%sharp corners = downhill,
+	enlarge top by=3mm,
+	minipage boxed title*=-15cm,
+%	beamer,
+	enhanced,
+	center,
+	%attach boxed title to top center={yshift=-2.5mm},
+	attach boxed title to top left={yshift=-2mm, xshift=1cm},
+	colback  = solarizedcl,
+	colframe = black!90!white,
+	colbacktitle = white,
+}
+% }}}
+
+\pagecolor{solarizedbg}
+\color{solarizedfg}

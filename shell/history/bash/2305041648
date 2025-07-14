@@ -1,0 +1,4 @@
+cd vid/shows/tmnt/
+cls
+nvim ln.dl 
+q

@@ -498,22 +498,22 @@
 	-->
 		<keybind key="A-S-r">
 			<action name="Execute">
-				<command>dm-srun.sh -wm</command>
+				<command>dmsrun.sh</command>
 			</action>
 		</keybind>
 		<keybind key="A-S-k">
 			<action name="Execute">
-				<command>dm-kill.sh -wm -fn FiraMono</command>
+				<command>dmkill.sh</command>
 			</action>
 		</keybind>
 		<keybind key="A-S-d">
 			<action name="Execute">
-				<command>dm-usb.sh -wm</command>
+				<command>dmusb.sh</command>
 			</action>
 		</keybind>
 		<keybind key="Print">
 			<action name="Execute">
-				<command>dm-shot.sh -wm</command>
+				<command>dmshot.sh</command>
 			</action>
 		</keybind>
 		<keybind key="W-e">

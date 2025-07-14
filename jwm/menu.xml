@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<JWM>
+   <RootMenu onroot="3">
+    <Program label=" File manager"> pcmanfm </Program>
+    <!--  icon="/usr/share/icons/Papirus/16x16/categories/system-file-manager.svg" -->
+    <Program label=" Terminal"> st -g 95x25 </Program>
+    <!--  icon="/usr/share/icons/Papirus/16x16/categories/utilities-terminal.svg" -->
+    <Program label=" Browser"> firefox </Program>
+    <!--  icon="/usr/share/icons/Papirus/16x16/categories/web-browser.svg" -->
+    <Separator/>
+    <Include>
+      exec:xdgmenumaker -n -f jwm | sed 's/Menu label="/Menu label="• /'
+    </Include>
+    <Separator/>
+    <Program label=" Jwm folder">
+        st -g 95x25 lf ~/.config/jwm/
+    </Program>
+      <Separator/>
+      <Restart label=" Restart Jwm"/>
+    <Program label=" Exit">dmexit.sh</Program>
+  </RootMenu>
+</JWM>

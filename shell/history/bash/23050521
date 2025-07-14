@@ -1,0 +1,33 @@
+cd /boot
+ls
+du -h .
+زمس
+cls
+du -h
+cls
+c
+cls
+q
+nvim /tmp/test.c
+nvim lua/module/rce.lua.bak 
+nvim /tmp/test.c
+nvim lua/module/rce.lua.bak 
+nvim /tmp/test.c
+nvim init.lua 
+nvim /tmp/test.c
+gss | grep toggleterm
+glg
+glg 
+git diff --source=5cee0a8 .
+git diff . --source=5cee0a8
+git diff . 5cee0a8
+git diff 5cee0a8 .
+nvim /tmp/test.c
+cls
+nvim ../pandoc/defaults/fa/main.sty 
+nvim ../pandoc/defaults/fa/fa.yaml 
+cls
+nvim ../pandoc/defaults/
+pwd
+nvim ~/.config/pandoc/defaults/fa/main.sty 
+q

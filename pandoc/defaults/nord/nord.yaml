@@ -1,0 +1,26 @@
+metadata:
+  keywords:
+    - 'nord theme'
+
+pdf-engine: xelatex
+highlight-style: /home/hos/.config/pandoc/highlight/nord.theme
+listings: false
+
+variables:
+  geometry:  margin=1in
+  fontsize:  12pt
+  linkcolor: nordblue
+  filecolor: nordgreen
+  citecolor: nordpurple
+  urlcolor:  nordorange
+  toccolor:  nordcyan
+  header-includes:
+    - \usepackage{/home/hos/.config/pandoc/defaults/main}
+    - \usepackage{/home/hos/.config/pandoc/defaults/nord/theme}
+filters:
+    - /home/hos/.config/pandoc/filters/en-today.lua
+    - /home/hos/.config/pandoc/filters/tex-codeblock-en.lua
+    - /home/hos/.config/pandoc/filters/tex-quoteblock-en.lua
+    - /home/hos/.config/pandoc/filters/tangle.lua
+    - /home/hos/.config/pandoc/filters/include-files.lua
+#    - /home/hos/.config/pandoc/filters/cb.lua

@@ -1,0 +1,10 @@
+nvim ~/.config/pandoc/defaults/beamer/fa-ubuntu.
+nvim ~/.config/pandoc/defaults/beamer/fa-ubuntu.sty 
+lf
+nvim ~/.config/pandoc/defaults/beamer/fa-ubuntu.sty 
+cls
+nvim cancers-v11-i11_20230309.bib 
+make bib
+ld
+lf
+q

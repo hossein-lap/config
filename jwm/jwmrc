@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<JWM>
+	<Include>$HOME/.config/jwm/start.xml</Include>
+    <Include>$HOME/.config/jwm/menu.xml</Include>	
+    <Include>$HOME/.config/jwm/groups.xml</Include>
+    <Include>$HOME/.config/jwm/tray.xml</Include>    
+    <Include>$HOME/.config/jwm/keys.xml</Include>
+    <Include>$HOME/.config/jwm/preferences.xml</Include>
+    <Include>$HOME/.config/jwm/theme.xml</Include>
+
+	<RestartCommand>
+		notify-send -a jwm restarted
+	</RestartCommand>
+</JWM>

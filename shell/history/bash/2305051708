@@ -1,0 +1,8 @@
+nvim ~/.config/shell/bashrc
+grep yt-dlp ~/.config/shell/history/bash
+grep yt-dlp ~/.config/shell/history/bash/*
+proxychains4 -q yt-dlp -R infinite --embed-chapters -c https://www.pornhub.com/view_video.php?viewkey=ph5f9957c61ed8f -o 'Evelyn Claire - Bellesa - Petite Brunette Poses In Sexy Lingerie Ending Up In A Passionate Fucking.mp4'
+cls
+mpv Evelyn\ Claire\ -\ Bellesa\ -\ Petite\ Brunette\ Poses\ In\ Sexy\ Lingerie\ Ending\ Up\ In\ A\ Passionate\ Fucking.mp4 
+ض
+q

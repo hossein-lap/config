@@ -1,0 +1,16 @@
+nvim
+nvim /tmp
+cd .config/nvim/
+cls
+nvim lua/module/netrw.lua 
+cd /data/dev/hossein-lap/workflow/suckless/sent/
+cls
+nvim config.def.h 
+make clean; make; sudo make install
+sent example 
+nvim config.def.h 
+make clean; make; sudo make install
+sent example 
+make clean; make; sudo make install
+nvim config.def.h 
+nvim ../st/config.def.h 

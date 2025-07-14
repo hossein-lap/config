@@ -25,7 +25,9 @@ set ratios 1:2:3
 set period 1
 set hiddenfiles ".*"
 set cleaner '~/.config/lf/cleaner'
+#set previewer 'tabbed -c -r 2 st -w '' -- ~/.config/lf/scope'
 set previewer '~/.config/lf/scope'
+#set sortby ext
 
 # cmds/functions
 cmd open ${{
@@ -42,8 +44,8 @@ cmd open ${{
 			lf -remote "send toggle"
 		done &
 		;;
-	audio/*) mpv --audio-display=no $f ;;
-	video/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
+	audio/*) mpv --loop=inf --audio-display=no $f ;;
+	video/*) setsid -f mpv --loop=inf $f -quiet >/dev/null 2>&1 ;;
 	application/pdf|application/vnd*|application/epub*) setsid -f zathura $fx >/dev/null 2>&1 ;;
 	application/pgp-encrypted) $EDITOR $fx ;;
         *) for f in $fx; do setsid -f $OPENER $f >/dev/null 2>&1; done;;

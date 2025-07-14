@@ -1,0 +1,22 @@
+metadata:
+  keywords:
+    - 'Dracula theme'
+
+pdf-engine: xelatex
+highlight-style: /home/hos/.config/pandoc/highlight/dracula.theme
+
+variables:
+  geometry:  margin=1in
+  fontsize:  12pt
+  linkcolor: draculapink
+  filecolor: draculagreen
+  citecolor: draculapurple
+  urlcolor:  draculacyan
+  toccolor:  draculaorange
+  header-includes:
+    - \usepackage{/home/hos/.config/pandoc/defaults/src2pic/main}
+    - \usepackage{/home/hos/.config/pandoc/defaults/src2pic/theme}
+#    - \usepackage{/home/hos/.config/pandoc/defaults/main}
+filters:
+    - /home/hos/.config/pandoc/defaults/src2pic.bak/codeblock.lua
+#    - /home/hos/.config/pandoc/filters/tex-codeblock-en.lua

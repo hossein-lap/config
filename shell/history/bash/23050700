@@ -1,0 +1,21 @@
+nvim /tmp/nbsp.txt
+unix2dos /tmp/nbsp.txt 
+q
+nvim .config/nvim/lua/plugin/init.lua 
+nvim /tmp/test.p
+nvim /tmp/t.py 
+cat /tmp/t.py 
+c
+cat /tmp/t.py | grep -v '\t'
+c
+grep '\t' /tmp/t.py 
+grep '\\t' /tmp/t.py 
+c
+cat /tmp/t.py 
+q
+nvim
+hx /tmp/t.py 
+cd /tmp
+cls
+mv nbsp.txt sp.txt
+q

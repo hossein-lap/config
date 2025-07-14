@@ -1,11 +1,22 @@
-#!/bin/bash
 #  _  _
 # | || |
 # | __ |
 # |_||_|
 #
 
-alias s="source ~/.bashrc"
+# emacs client
+em() {
+	nohup emacsclient -c -a 'emacs' "$@" 2>&1 > /dev/null &
+}
+
+# take
+take() {
+	if [ -d "${1}" ]; then
+		cd "${1}"
+	else
+		mkdir -p "${1}" && cd "${1}"
+	fi
+}
 
 #alias sudo="doas"
 
@@ -69,9 +80,7 @@ alias glg="git log --oneline --all --graph --stat"
 alias gls="git log --oneline --all --graph"
 alias gll="git log --stat --graph --all --show-signature"
 
-#alias vi="vim -u ~/.vim/plain.vim"
-alias ed="ed -p ':'"
-alias em="emacsclient -c -a 'emacs'"
+#alias ed="ed -p ':'"
 
 alias gpg-agent-reload="gpg-connect-agent reloadagent /bye"
 
@@ -92,3 +101,7 @@ alias gost5="$HOME/temp/gost/gost-linux-amd64-3.0.0-beta.5/gost-linux-amd64-3.0.
 #alias gost6="$HOME/temp/gost/gost-linux-amd64-3.0.0-beta.5/gost-linux-amd64-3.0.0-beta.5 -L :8000 -F http2://user:pass@116.203.195.247:25570"
 
 alias ssh-connect="ssh root@195.201.56.167"
+
+alias yarn='yarn --use-yarnrc "${XDG_CONFIG_HOME}/yarn/config"'
+
+alias hs="hugo server --disableFastRender"
