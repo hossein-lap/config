@@ -1,0 +1,167 @@
+2021-12-12 10:37:41	-->	primejade (~server@109.109.34.206) has joined #ubuntu
+2021-12-12 10:37:41	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: https://ubottu.com/y/gl | #ubuntu supports Ubuntu and official flavors; versions 18.04, 20.04, 21.04, 21.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: https://ubottu.com/y/irc | Pastes to https://paste.ubuntu.com/ | Download: https://ubottu.com/y/dl"
+2021-12-12 10:37:41	--	Topic set by krytarik on Thu, 14 Oct 2021 20:51:46
+2021-12-12 10:37:41	--	Channel #ubuntu: 1023 nicks (2 ops, 0 voices, 1021 normals)
+2021-12-12 10:37:41	--	PvNotice(ChanServ): Welcome to #ubuntu. This channel is logged. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2021-12-12 10:37:44	--	Channel created on Wed, 19 May 2021 18:20:29
+2021-12-12 10:38:56	-->	cismee (~cisme_@2600:1700:d980:1a40:653f:dc66:4e88:91a5) has joined #ubuntu
+2021-12-12 10:39:07	<--	cisme_ (~cisme_@user/cisme/x-1186982) has quit (Ping timeout: 252 seconds)
+2021-12-12 10:39:58	-->	trekkie1701c (~trekkie17@user/trekkie1701c) has joined #ubuntu
+2021-12-12 10:40:16	-->	jay-m126 (~jay-m@129.0.77.218) has joined #ubuntu
+2021-12-12 10:40:21	<--	Aarch64debian (~Aarch64de@223.91.214.66) has quit (Client Quit)
+2021-12-12 10:40:39	<--	zaden (~maddx@c-73-92-207-228.hsd1.ca.comcast.net) has quit (Read error: error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac)
+2021-12-12 10:41:05	-->	zaden (~maddx@73.92.207.228) has joined #ubuntu
+2021-12-12 10:44:14	-->	Kuleshov (~Kuleshov@109-252-99-73.nat.spd-mgts.ru) has joined #ubuntu
+2021-12-12 10:44:49	-->	sdfgsdfg (~sdfgsdfg@user/sdfgsdfg) has joined #ubuntu
+2021-12-12 10:46:03	-->	Aarch64debian (~Aarch64de@223.91.214.66) has joined #ubuntu
+2021-12-12 10:46:49	<--	dhsc19 (~dhsc19@70.35.205.161) has left #ubuntu
+2021-12-12 10:52:10	-->	dhsc19 (~dhsc19@70.35.205.161) has joined #ubuntu
+2021-12-12 10:52:14	-->	iqexception (~iqexcepti@180.175.152.191) has joined #ubuntu
+2021-12-12 10:52:20	-->	Ricardus (~rich@cpe-69-207-98-184.rochester.res.rr.com) has joined #ubuntu
+2021-12-12 10:53:34	-->	Metamorphosis (uid451146@user/metamorphosis) has joined #ubuntu
+2021-12-12 10:56:19	<--	seednode (~seednode@user/seednode) has quit (Quit: Nihil supernum.)
+2021-12-12 10:56:59	-->	mIk3_08 (~Thunderbi@user/mik3-08/x-2852566) has joined #ubuntu
+2021-12-12 10:57:15	-->	seednode (~seednode@user/seednode) has joined #ubuntu
+2021-12-12 10:57:50	<--	iqexception (~iqexcepti@180.175.152.191) has quit (Ping timeout: 260 seconds)
+2021-12-12 11:06:19	<--	Aarch64debian (~Aarch64de@223.91.214.66) has quit (Quit: Connection closed)
+2021-12-12 11:07:20	<--	Spr1ng (~Spr1ng@user/spr1ng) has quit (Ping timeout: 268 seconds)
+2021-12-12 11:10:42	-->	xing_song1 (~Thunderbi@110.184.240.112) has joined #ubuntu
+2021-12-12 11:11:42	-->	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has joined #ubuntu
+2021-12-12 11:13:12	<--	agvantibo (~agvantibo@79.165.99.155) has quit (Quit: agvantibo)
+2021-12-12 11:13:24	-->	agvantibo (~agvantibo@79.165.99.155) has joined #ubuntu
+2021-12-12 11:15:35	-->	Libero (~Libero@77.49.32.8.dsl.dyn.forthnet.gr) has joined #ubuntu
+2021-12-12 11:16:32	<--	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has quit (Ping timeout: 240 seconds)
+2021-12-12 11:17:29	<--	MrFixIt (~samurai_@c-73-75-104-200.hsd1.il.comcast.net) has quit (Remote host closed the connection)
+2021-12-12 11:18:22	<--	Xaldafax (~xaldafax@cpe-198-72-160-101.socal.res.rr.com) has quit (Quit: Bye...)
+2021-12-12 11:20:53	<--	jay-m126 (~jay-m@129.0.77.218) has quit (Read error: Connection reset by peer)
+2021-12-12 11:22:13	-->	RandomGuy21 (~RandomGuy@202.131.157.38) has joined #ubuntu
+2021-12-12 11:22:15	<--	RandomGuy21 (~RandomGuy@202.131.157.38) has quit (Client Quit)
+2021-12-12 11:22:59	-->	MrFixIt (~samurai_@c-73-75-104-200.hsd1.il.comcast.net) has joined #ubuntu
+2021-12-12 11:24:06	-->	jay-m126 (~jay-m@129.0.77.218) has joined #ubuntu
+2021-12-12 11:25:41	<--	Kuleshov (~Kuleshov@109-252-99-73.nat.spd-mgts.ru) has quit (Quit: Leaving)
+2021-12-12 11:28:33	<--	agvantibo (~agvantibo@79.165.99.155) has quit (Quit: agvantibo)
+2021-12-12 11:28:48	-->	agvantibo (~agvantibo@79.165.99.155) has joined #ubuntu
+2021-12-12 11:30:18	-->	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has joined #ubuntu
+2021-12-12 11:34:00	-->	ichigeki54 (~megan@125.164.23.21) has joined #ubuntu
+2021-12-12 11:34:29	-->	ravan (~ravan@user/ravan) has joined #ubuntu
+2021-12-12 11:35:04	<--	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has quit (Ping timeout: 268 seconds)
+2021-12-12 11:36:35	<--	ichigeki54 (~megan@125.164.23.21) has quit (Client Quit)
+2021-12-12 11:37:58	-->	memoryleak (~memorylea@77-58-142-250.dclient.hispeed.ch) has joined #ubuntu
+2021-12-12 11:38:00	-->	ungars (~ungars@2a01:e0a:54d:1a20:bdf9:64d2:1861:9fdc) has joined #ubuntu
+2021-12-12 11:38:44	-->	trafficjam (~trafficja@2a0c:59c0:18::a20e) has joined #ubuntu
+2021-12-12 11:40:01	<--	p0indexter (~alpha@user/p0indexter) has quit (Ping timeout: 250 seconds)
+2021-12-12 11:42:42	<--	memoryleak (~memorylea@77-58-142-250.dclient.hispeed.ch) has quit (Client Quit)
+2021-12-12 11:43:09	-->	dreamon (~dreamon@pd9503f67.dip0.t-ipconnect.de) has joined #ubuntu
+2021-12-12 11:43:23	-->	memoryleak (~memorylea@77-58-142-250.dclient.hispeed.ch) has joined #ubuntu
+2021-12-12 11:43:56	<--	agvantibo (~agvantibo@79.165.99.155) has quit (Quit: agvantibo)
+2021-12-12 11:44:06	-->	agvantibo (~agvantibo@79.165.99.155) has joined #ubuntu
+2021-12-12 11:45:01	-->	Kuleshov (~Kuleshov@109.252.99.88) has joined #ubuntu
+2021-12-12 11:45:42	<--	rfm (~rfm@user/rfm) has quit (Read error: Connection reset by peer)
+2021-12-12 11:46:54	-->	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has joined #ubuntu
+2021-12-12 11:47:02	-->	i0e (~is0ke3@user/is0ke3) has joined #ubuntu
+2021-12-12 11:48:10	-->	vbgunz_ (~vbgunz@35.141.71.47) has joined #ubuntu
+2021-12-12 11:49:42	-->	Photonux (~wvs@2001:1c02:2d27:ef00:8bf0:8650:5046:b57e) has joined #ubuntu
+2021-12-12 11:51:07	<--	vbgunz (~vbgunz@35.141.71.47) has quit (Ping timeout: 268 seconds)
+2021-12-12 11:51:07	<--	xing_song1 (~Thunderbi@110.184.240.112) has quit (Read error: Connection reset by peer)
+2021-12-12 11:51:21	<--	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has quit (Ping timeout: 252 seconds)
+2021-12-12 11:54:26	-->	naimz82 (~naimz82@175.143.173.47) has joined #ubuntu
+2021-12-12 11:55:28	<--	vbgunz_ (~vbgunz@35.141.71.47) has quit (Quit: Konversation terminated!)
+2021-12-12 11:56:19	-->	humbertowoody (~humbertow@189.236.34.177) has joined #ubuntu
+2021-12-12 11:57:46	-->	vbgunz (~vbgunz@35.141.71.47) has joined #ubuntu
+2021-12-12 11:58:58	<--	zaden (~maddx@73.92.207.228) has quit (Quit: WeeChat 3.4-rc1)
+2021-12-12 12:04:27	-->	MrSassyPants (~Phil@2a02:1368:6200:32d8:b2:b40d:d43b:742a) has joined #ubuntu
+2021-12-12 12:05:11	-->	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has joined #ubuntu
+2021-12-12 12:09:29	<--	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has quit (Ping timeout: 250 seconds)
+2021-12-12 12:11:54	<--	Apachez (~Apachez@about/security/staff/apachez) has quit (Quit: Leaving)
+2021-12-12 12:13:40	-->	h0193r (~holger@149.172.7.59) has joined #ubuntu
+2021-12-12 12:14:20	<--	ecormier (~quassel@host-24-224-169-104.public.eastlink.ca) has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+2021-12-12 12:15:25	-->	EvilDMP (~textual@django/moderator/EvilDMP) has joined #ubuntu
+2021-12-12 12:15:32	<--	dreamon (~dreamon@pd9503f67.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2021-12-12 12:16:20	<--	ungars (~ungars@2a01:e0a:54d:1a20:bdf9:64d2:1861:9fdc) has quit (Remote host closed the connection)
+2021-12-12 12:16:43	-->	ungars (~ungars@2a01:e0a:54d:1a20:bdf9:64d2:1861:9fdc) has joined #ubuntu
+2021-12-12 12:17:09	-->	Tob_ (~tob@212.7.225.55) has joined #ubuntu
+2021-12-12 12:18:15	-->	ecormier (~quassel@host-24-224-169-104.public.eastlink.ca) has joined #ubuntu
+2021-12-12 12:19:23	<--	sdfgsdfg (~sdfgsdfg@user/sdfgsdfg) has quit (Quit: ZzzZ)
+2021-12-12 12:19:36	<--	lsrtl__ (~lsrtl@user/lsrtl) has quit (Ping timeout: 256 seconds)
+2021-12-12 12:21:50	<--	coraxx (~coraxx@mail.8-pm.com) has quit (Ping timeout: 260 seconds)
+2021-12-12 12:22:35	-->	Kilos- (~miles@ubuntu/member/kilos) has joined #ubuntu
+2021-12-12 12:23:08	<--	Kilos (~miles@ubuntu/member/kilos) has quit (Ping timeout: 265 seconds)
+2021-12-12 12:25:06	<--	Photonux (~wvs@2001:1c02:2d27:ef00:8bf0:8650:5046:b57e) has quit (Quit: Leaving)
+2021-12-12 12:25:24	<--	ahc (~ahc@121.98.229.241) has quit (Quit: Client closed)
+2021-12-12 12:25:50	<--	JohnnyonFlame (~quassel@179-107-145-230.zamix.com.br) has quit (Ping timeout: 256 seconds)
+2021-12-12 12:27:32	<--	i0e (~is0ke3@user/is0ke3) has quit (Ping timeout: 256 seconds)
+2021-12-12 12:28:02	<--	agvantibo (~agvantibo@79.165.99.155) has quit (Ping timeout: 240 seconds)
+2021-12-12 12:32:50	-->	iqexception (~iqexcepti@180.175.152.191) has joined #ubuntu
+2021-12-12 12:32:52	-->	kirk781 (~doors_1@2402:3a80:b53:7efa:c2e1:fcc3:b8fe:5133) has joined #ubuntu
+2021-12-12 12:33:58	<--	Itaru (~DaSH@ro2.flokinet.is) has quit (Ping timeout: 260 seconds)
+2021-12-12 12:34:26	-->	aradesh (~aradesh@user/aradesh) has joined #ubuntu
+2021-12-12 12:34:53	-->	i0e (~is0ke3@user/is0ke3) has joined #ubuntu
+2021-12-12 12:35:23	-->	student (~student@129.21.128.29) has joined #ubuntu
+2021-12-12 12:35:29	<--	i0e (~is0ke3@user/is0ke3) has quit (Client Quit)
+2021-12-12 12:35:45	-->	aaruni|afk (~aaruni@wg.edufor.me) has joined #ubuntu
+2021-12-12 12:36:27	-->	LucaTM (~LucaTM@user/lucatm) has joined #ubuntu
+2021-12-12 12:38:15	<--	jay-m126 (~jay-m@129.0.77.218) has quit (Read error: Connection reset by peer)
+2021-12-12 12:38:17	<--	aaruni (~aaruni@user/aaruni) has quit (Ping timeout: 250 seconds)
+2021-12-12 12:38:41	-->	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has joined #ubuntu
+2021-12-12 12:39:20	-->	aaruni__ (~aaruni@2001:638:208:d000:73c8:239b:7a93:4340) has joined #ubuntu
+2021-12-12 12:41:18	<--	student (~student@129.21.128.29) has quit (Quit: Leaving)
+2021-12-12 12:41:30	-->	student (~student@129.21.128.29) has joined #ubuntu
+2021-12-12 12:41:32	-->	jay-m126 (~jay-m@129.0.205.219) has joined #ubuntu
+2021-12-12 12:41:55	<--	aaruni|afk (~aaruni@wg.edufor.me) has quit (Ping timeout: 260 seconds)
+2021-12-12 12:42:46	<--	student (~student@129.21.128.29) has quit (Client Quit)
+2021-12-12 12:43:55	<--	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has quit (Ping timeout: 250 seconds)
+2021-12-12 12:44:48	-->	i0e (~is0ke3@user/is0ke3) has joined #ubuntu
+2021-12-12 12:47:28	<--	iqexception (~iqexcepti@180.175.152.191) has quit (Remote host closed the connection)
+2021-12-12 12:47:48	-->	jlas9 (~jose@cm-81-9-194-235.telecable.es) has joined #ubuntu
+2021-12-12 12:49:17	<--	i0e (~is0ke3@user/is0ke3) has quit (Ping timeout: 252 seconds)
+2021-12-12 12:50:42	-->	denningsrogue5 (~denningsr@98.97.131.238) has joined #ubuntu
+2021-12-12 12:52:28	<--	denningsrogue (~denningsr@98.97.131.238) has quit (Ping timeout: 256 seconds)
+2021-12-12 12:52:28	--	denningsrogue5 is now known as denningsrogue
+2021-12-12 12:54:04	-->	zaden (~maddx@c-73-92-207-228.hsd1.ca.comcast.net) has joined #ubuntu
+2021-12-12 12:55:37	<--	ungars (~ungars@2a01:e0a:54d:1a20:bdf9:64d2:1861:9fdc) has quit (Quit: Leaving)
+2021-12-12 12:56:00	<--	trafficjam (~trafficja@2a0c:59c0:18::a20e) has quit (Quit: Client closed)
+2021-12-12 12:56:10	-->	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has joined #ubuntu
+2021-12-12 12:56:38	-->	iqexception (~iqexcepti@180.175.152.191) has joined #ubuntu
+2021-12-12 12:58:57	<--	iqexception (~iqexcepti@180.175.152.191) has quit (Remote host closed the connection)
+2021-12-12 12:59:13	-->	doors_1 (~doors_1@2402:3a80:b7b:b3:1eb4:1fcd:2317:28d3) has joined #ubuntu
+2021-12-12 12:59:19	<--	doors_1 (~doors_1@2402:3a80:b7b:b3:1eb4:1fcd:2317:28d3) has quit (Remote host closed the connection)
+2021-12-12 12:59:29	-->	theoceaniscool (~theoceani@119.12.232.133) has joined #ubuntu
+2021-12-12 12:59:29	-->	iqexception (~iqexcepti@180.175.152.191) has joined #ubuntu
+2021-12-12 13:00:23	<--	EvilDMP (~textual@django/moderator/EvilDMP) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2021-12-12 13:01:03	<--	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has quit (Ping timeout: 260 seconds)
+2021-12-12 13:01:34	<--	iqexception (~iqexcepti@180.175.152.191) has quit (Remote host closed the connection)
+2021-12-12 13:01:47	<--	wuseman (~wuseman@81-236-212-3-no68.tbcn.telia.com) has quit (Changing host)
+2021-12-12 13:01:47	-->	wuseman (~wuseman@user/wuseman) has joined #ubuntu
+2021-12-12 13:01:53	-->	doors_1 (~doors_1@2402:3a80:b7b:b3:1eb4:1fcd:2317:28d3) has joined #ubuntu
+2021-12-12 13:01:57	<--	jay-m126 (~jay-m@129.0.205.219) has quit (Remote host closed the connection)
+2021-12-12 13:01:59	<--	kirk781 (~doors_1@2402:3a80:b53:7efa:c2e1:fcc3:b8fe:5133) has quit (Ping timeout: 260 seconds)
+2021-12-12 13:02:12	-->	i0e (~is0ke3@user/is0ke3) has joined #ubuntu
+2021-12-12 13:03:18	<--	doors_1 (~doors_1@2402:3a80:b7b:b3:1eb4:1fcd:2317:28d3) has quit (Remote host closed the connection)
+2021-12-12 13:04:11	-->	iqexception (~iqexcepti@180.175.152.191) has joined #ubuntu
+2021-12-12 13:04:25	-->	guysoft42 (~guysoft@2a0d:6fc1:2:1f00:6b76:3b02:7805:a15f) has joined #ubuntu
+2021-12-12 13:06:21	<--	iqexception (~iqexcepti@180.175.152.191) has quit (Remote host closed the connection)
+2021-12-12 13:06:35	-->	iqexception (~iqexcepti@180.175.152.191) has joined #ubuntu
+2021-12-12 13:06:38	<--	zaden (~maddx@c-73-92-207-228.hsd1.ca.comcast.net) has quit (Ping timeout: 260 seconds)
+2021-12-12 13:08:08	<--	aaruni__ (~aaruni@2001:638:208:d000:73c8:239b:7a93:4340) has quit (Quit: Leaving)
+2021-12-12 13:15:30	-->	zer0bitz (~zer0bitz@dsl-hkibng32-54fbfb-173.dhcp.inet.fi) has joined #ubuntu
+2021-12-12 13:15:56	<--	naimz82 (~naimz82@175.143.173.47) has quit (Quit: Leaving)
+2021-12-12 13:16:58	-->	zaden (~maddx@73.92.207.228) has joined #ubuntu
+2021-12-12 13:18:56	-->	naimz82 (~naim@175.143.173.47) has joined #ubuntu
+2021-12-12 13:22:25	<--	iqexception (~iqexcepti@180.175.152.191) has quit (Remote host closed the connection)
+2021-12-12 13:24:07	<--	Tob_ (~tob@212.7.225.55) has quit (Ping timeout: 252 seconds)
+2021-12-12 13:25:06	-->	wxsabi (~wxsabi@068-119-008-155.res.spectrum.com) has joined #ubuntu
+2021-12-12 13:25:57	-->	jatt (~user@user/jatt) has joined #ubuntu
+2021-12-12 13:26:48	-->	multi8 (~dark@c83-253-61-3.bredband.tele2.se) has joined #ubuntu
+2021-12-12 13:27:42	<--	wxsabi (~wxsabi@068-119-008-155.res.spectrum.com) has quit (Remote host closed the connection)
+2021-12-12 13:27:58	-->	wxsabi (~wxsabi@068-119-008-155.res.spectrum.com) has joined #ubuntu
+2021-12-12 13:28:21	-->	jay-m126 (~jay-m@129.0.77.217) has joined #ubuntu
+2021-12-12 13:28:25	-->	dreamon (~dreamon@pd9503f67.dip0.t-ipconnect.de) has joined #ubuntu
+2021-12-12 13:28:26	-->	jay-m126_ (~jay-m@129.0.77.217) has joined #ubuntu
+2021-12-12 13:28:27	-->	jay-m1261 (~jay-m@129.0.77.217) has joined #ubuntu
+2021-12-12 13:29:53	<--	humbertowoody (~humbertow@189.236.34.177) has quit (Ping timeout: 256 seconds)
+2021-12-12 13:30:08	<--	justSleigh (~justache@user/justache) has quit (Remote host closed the connection)
+2021-12-12 13:30:08	-->	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has joined #ubuntu
+2021-12-12 13:31:00	-->	justSleigh (~justache@user/justache) has joined #ubuntu
+2021-12-12 13:34:51	<--	sprout (~quassel@2a02:a467:ccd6:1:558b:2015:9c55:ace3) has quit (Ping timeout: 250 seconds)
+2021-12-12 13:36:13	-->	EvilDMP (~textual@django/moderator/EvilDMP) has joined #ubuntu
+2021-12-12 13:38:25	<--	i0e (~is0ke3@user/is0ke3) has quit (Ping timeout: 252 seconds)

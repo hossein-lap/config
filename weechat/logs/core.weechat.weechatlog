@@ -1,0 +1,92 @@
+2021-12-12 00:52:09		New key binding (context "default"): meta2-1;5P => /bar scroll buflist * -100%
+2021-12-12 00:52:09		New key binding (context "default"): meta2-1;5Q => /bar scroll buflist * +100%
+2021-12-12 00:52:09		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2021-12-12 00:52:09		New key binding (context "default"): meta2-1;3Q => /bar scroll buflist * e
+2021-12-12 00:52:09		New key binding (context "default"): meta2-1;3P => /bar scroll buflist * b
+2021-12-12 00:52:09		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2021-12-12 00:52:09		New key binding (context "default"): meta-B => /buflist toggle
+2021-12-12 00:52:09		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2021-12-12 00:52:09		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2021-12-12 00:52:09		New key binding (context "default"): meta-meta2-12~ => /bar scroll buflist * e
+2021-12-12 00:52:09		New key binding (context "default"): meta-meta2-11~ => /bar scroll buflist * b
+2021-12-12 00:52:09		New key binding (context "default"): meta2-12^ => /bar scroll buflist * +100%
+2021-12-12 00:52:09		New key binding (context "default"): meta2-12~ => /bar scroll buflist * +100%
+2021-12-12 00:52:09		New key binding (context "default"): meta2-11^ => /bar scroll buflist * -100%
+2021-12-12 00:52:09		New key binding (context "default"): meta2-11~ => /bar scroll buflist * -100%
+2021-12-12 00:52:09		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 00:52:26	=!=	irc: unable to add temporary server "irc.libera.org" because the addition of temporary servers with command /connect is currently disabled
+2021-12-12 00:52:26	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-12-12 00:54:18	=!=	irc: unable to add temporary server "irc.libera.chat" because the addition of temporary servers with command /connect is currently disabled
+2021-12-12 00:54:18	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-12-12 00:54:23	=!=	irc: unable to add temporary server "libera.chat" because the addition of temporary servers with command /connect is currently disabled
+2021-12-12 00:54:23	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-12-12 00:54:29	=!=	irc: unable to add temporary server "https://libera.chat" because the addition of temporary servers with command /connect is currently disabled
+2021-12-12 00:54:29	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-12-12 00:55:16	=!=	irc: unable to add temporary server "irc.libera.chat" because the addition of temporary servers with command /connect is currently disabled
+2021-12-12 00:55:16	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-12-12 00:56:06		irc: server added: libera
+2021-12-12 00:59:22	=!=	No help available, "config.section.option" is not a command or an option
+2021-12-12 01:00:39	=!=	No help available, "config.section.option" is not a command or an option
+2021-12-12 01:03:57		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 01:04:39		Option changed: irc.server.libera.nicks = "primejade,theprimejade,pj,PJ,PrimeJade"  (default if null: "server,server1,server2,server3,server4")
+2021-12-12 01:05:36		Option changed: irc.server.libera.autoconnect = on  (default if null: off)
+2021-12-12 01:07:13		Option changed: irc.server.libera.addresses = "irc.libera.chat/6697"  (default if null: "")
+2021-12-12 01:07:26		Option changed: irc.server.libera.ssl = on  (default if null: off)
+2021-12-12 01:08:15		Option changed: irc.server.libera.sasl_mechanism = plain  (default if null: plain)
+2021-12-12 01:08:27		Option changed: irc.server.libera.sasl_username = "primejade"  (default if null: "")
+2021-12-12 01:08:44		Option changed: irc.server.libera.sasl_password = "lxgiwyl"  (default if null: "")
+2021-12-12 01:08:47		Options saved to sec.conf
+2021-12-12 01:08:47		Options saved to weechat.conf
+2021-12-12 01:08:47		Options saved to plugins.conf
+2021-12-12 01:08:47		Options saved to charset.conf
+2021-12-12 01:08:47		Options saved to logger.conf
+2021-12-12 01:08:47		Options saved to exec.conf
+2021-12-12 01:08:47		Options saved to trigger.conf
+2021-12-12 01:08:47		Options saved to spell.conf
+2021-12-12 01:08:47		Options saved to alias.conf
+2021-12-12 01:08:47		Options saved to buflist.conf
+2021-12-12 01:08:47		Options saved to fifo.conf
+2021-12-12 01:08:47		Options saved to xfer.conf
+2021-12-12 01:08:47		Options saved to irc.conf
+2021-12-12 01:08:47		Options saved to relay.conf
+2021-12-12 01:08:47		Options saved to perl.conf
+2021-12-12 01:08:47		Options saved to ruby.conf
+2021-12-12 01:08:47		Options saved to python.conf
+2021-12-12 01:08:47		Options saved to script.conf
+2021-12-12 01:08:47		Options saved to fset.conf
+2021-12-12 01:09:16		Passphrase added
+2021-12-12 01:09:35		Secured data "libera_password" set
+2021-12-12 01:09:35		Options saved to sec.conf
+2021-12-12 01:10:13		Option changed: irc.server.libera.sasl_password = "${sec.data.libera_password}"  (default if null: "")
+2021-12-12 01:10:28		Options saved to sec.conf
+2021-12-12 01:10:28		Options saved to weechat.conf
+2021-12-12 01:10:28		Options saved to plugins.conf
+2021-12-12 01:10:28		Options saved to charset.conf
+2021-12-12 01:10:28		Options saved to logger.conf
+2021-12-12 01:10:28		Options saved to exec.conf
+2021-12-12 01:10:28		Options saved to trigger.conf
+2021-12-12 01:10:28		Options saved to spell.conf
+2021-12-12 01:10:28		Options saved to alias.conf
+2021-12-12 01:10:28		Options saved to buflist.conf
+2021-12-12 01:10:28		Options saved to fifo.conf
+2021-12-12 01:10:28		Options saved to xfer.conf
+2021-12-12 01:10:28		Options saved to irc.conf
+2021-12-12 01:10:28		Options saved to relay.conf
+2021-12-12 01:10:28		Options saved to perl.conf
+2021-12-12 01:10:28		Options saved to ruby.conf
+2021-12-12 01:10:28		Options saved to python.conf
+2021-12-12 01:10:28		Options saved to script.conf
+2021-12-12 01:10:28		Options saved to fset.conf
+2021-12-12 01:10:43		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 01:24:58		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 10:37:08		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 13:39:19		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 13:49:54	=!=	Error: WeeChat main buffer can't be closed
+2021-12-12 13:49:57	=!=	Error: WeeChat main buffer can't be closed
+2021-12-12 13:50:11		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 14:00:53	=!=	irc: unable to add temporary server "irc.spotchat.org" because the addition of temporary servers with command /connect is currently disabled
+2021-12-12 14:00:53	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-12-12 14:01:40	=!=	irc: unable to add temporary server "irc.spotchat.org" because the addition of temporary servers with command /connect is currently disabled
+2021-12-12 14:01:40	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-12-12 15:13:55		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-12-12 15:15:22	=!=	Too few arguments for command "/query" (help on command: /help query)

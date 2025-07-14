@@ -1,0 +1,33 @@
+[user]
+	name = hossein
+	useConfigOnly = true
+[core]
+	editor = nvim
+	autocrlf = input
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[merge]
+	ff = false
+	tool = nvim -d
+[init]
+	defaultBranch = main
+
+# optional (if you sometimes work outside of your regular directories)
+[include]
+  path = ~/.config/git/config.hossein-lap
+
+[includeIf "gitdir:~/.local/dev/capiknev/"]
+	path = ~/.config/git/config.capiknev
+
+# when working with hossein-lap
+[includeIf "gitdir:~/.local/dev/hossein-lap/"]
+	path = ~/.config/git/config.hossein-lap
+
+# when working with primejade
+[includeIf "gitdir:~/.local/dev/primejade/"]
+	path = ~/.config/git/config.primejade
+
+[advice]
+	addIgnoredFile = false

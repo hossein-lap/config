@@ -1,0 +1,424 @@
+2021-12-12 00:56:19	--	irc: connecting to server irc.libera.chat/6697 (SSL)...
+2021-12-12 00:56:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-12-12 00:56:20	--	gnutls: receiving 2 certificates
+2021-12-12 00:56:20	--	 - certificate[1] info:
+2021-12-12 00:56:20	--	   - subject `CN=strontium.libera.chat', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x04f58209c0ecc18774a97dcdb4e4e6aaacb7, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-10-30 17:07:53 UTC', expires `2022-01-28 17:07:52 UTC', pin-sha256="gYRMmF6H8kB/cQCcq3omRhjXSmQ6jbPbn3MZ9RrAw7k="
+2021-12-12 00:56:20	--	 - certificate[2] info:
+2021-12-12 00:56:20	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=ISRG Root X1,O=Internet Security Research Group,C=US', serial 0x00912b084acf0c18a753f6d62e25a75f5a, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-09-04 00:00:00 UTC', expires `2025-09-15 16:00:00 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-12-12 00:56:20	--	gnutls: peer's certificate is trusted
+2021-12-12 00:56:20	--	irc: connected to irc.libera.chat/6697 (204.225.96.123)
+2021-12-12 00:56:21	--	strontium.libera.chat: *** Checking Ident
+2021-12-12 00:56:21	--	strontium.libera.chat: *** Looking up your hostname...
+2021-12-12 00:56:21	--	strontium.libera.chat: *** Couldn't look up your hostname
+2021-12-12 00:56:26	--	strontium.libera.chat: *** No Ident response
+2021-12-12 00:56:31	--	Welcome to the Libera.Chat Internet Relay Chat Network server
+2021-12-12 00:56:31	--	Your host is strontium.libera.chat[204.225.96.123/6697], running version solanum-1.0-dev
+2021-12-12 00:56:31	--	This server was created Sat Oct 30 2021 at 17:56:22 UTC
+2021-12-12 00:56:31	--	strontium.libera.chat solanum-1.0-dev DGQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-12-12 00:56:31	--	MONITOR=100 CALLERID=g WHOX FNC ETRACE KNOCK SAFELIST ELIST=CMNTU CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz :are supported by this server
+2021-12-12 00:56:31	--	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+2021-12-12 00:56:31	--	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+2021-12-12 00:56:31	--	There are 67 users and 49505 invisible on 26 servers
+2021-12-12 00:56:31	--	37 :IRC Operators online
+2021-12-12 00:56:31	--	49 :unknown connection(s)
+2021-12-12 00:56:31	--	21431 :channels formed
+2021-12-12 00:56:31	--	I have 3831 clients and 1 servers
+2021-12-12 00:56:31	--	3831 4559 :Current local users 3831, max 4559
+2021-12-12 00:56:31	--	49572 50463 :Current global users 49572, max 50463
+2021-12-12 00:56:31	--	Highest connection count: 4560 (4559 clients) (147012 connections received)
+2021-12-12 00:56:31	--	- strontium.libera.chat Message of the Day -
+2021-12-12 00:56:31	--	- Welcome to Libera Chat, the IRC network for
+2021-12-12 00:56:31	--	- free & open-source software and peer directed projects.
+2021-12-12 00:56:31	--	-
+2021-12-12 00:56:31	--	- Use of Libera Chat is governed by our network policies.
+2021-12-12 00:56:31	--	-
+2021-12-12 00:56:31	--	- To reduce network abuses we perform open proxy checks
+2021-12-12 00:56:31	--	- on hosts at connection time.
+2021-12-12 00:56:31	--	-
+2021-12-12 00:56:31	--	- Please visit us in #libera for questions and support.
+2021-12-12 00:56:31	--	-
+2021-12-12 00:56:31	--	- Website and documentation:  https://libera.chat
+2021-12-12 00:56:31	--	- Webchat:                    https://web.libera.chat
+2021-12-12 00:56:31	--	- Network policies:           https://libera.chat/policies
+2021-12-12 00:56:31	--	- Email:                      support@libera.chat
+2021-12-12 00:56:31	--	End of /MOTD command.
+2021-12-12 00:56:31	--	User mode [+Ziw] by server
+2021-12-12 00:56:31	--	NickServ (NickServ@services.libera.chat): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ IDENTIFY demon <password>
+2021-12-12 00:56:31	--	NickServ (NickServ@services.libera.chat): You have 8 seconds to identify to your nickname before it is changed.
+2021-12-12 00:56:36	=!=	irc: this buffer is not a channel!
+2021-12-12 00:56:38	--	NickServ (NickServ@services.libera.chat): You failed to identify in time for the nickname server
+2021-12-12 00:56:38	--	You are now known as Guest1168
+2021-12-12 00:56:42	=!=	irc: this buffer is not a channel!
+2021-12-12 00:56:49	--	You are now known as primejade
+2021-12-12 00:58:00	--	#irc: Cannot join channel (+r) - you need to be logged into your NickServ account
+2021-12-12 01:10:43	--	irc: connecting to server irc.libera.chat/6697 (SSL)...
+2021-12-12 01:10:49	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-12-12 01:10:49	--	gnutls: receiving 2 certificates
+2021-12-12 01:10:49	--	 - certificate[1] info:
+2021-12-12 01:10:49	--	   - subject `CN=lithium.libera.chat', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x036896ce029a7c2deb41a500616087676524, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-10-04 05:07:24 UTC', expires `2022-01-02 05:07:23 UTC', pin-sha256="uPlEUKw0Hn5hUORM7Cq2JkGT6FLUg69aUnrTJJqEOmM="
+2021-12-12 01:10:49	--	 - certificate[2] info:
+2021-12-12 01:10:49	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=ISRG Root X1,O=Internet Security Research Group,C=US', serial 0x00912b084acf0c18a753f6d62e25a75f5a, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-09-04 00:00:00 UTC', expires `2025-09-15 16:00:00 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-12-12 01:10:49	--	gnutls: peer's certificate is trusted
+2021-12-12 01:10:49	--	irc: connected to irc.libera.chat/6697 (176.58.122.119)
+2021-12-12 01:10:49	--	lithium.libera.chat: *** Checking Ident
+2021-12-12 01:10:49	--	lithium.libera.chat: *** Looking up your hostname...
+2021-12-12 01:10:49	--	lithium.libera.chat: *** No Ident response
+2021-12-12 01:10:49	--	lithium.libera.chat: *** Couldn't look up your hostname
+2021-12-12 01:10:49	--	irc: client capability, server supports: extended-join solanum.chat/oper echo-message tls account-tag multi-prefix solanum.chat/realhost account-notify chghost sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL solanum.chat/identify-msg cap-notify away-notify
+2021-12-12 01:10:49	--	irc: client capability, requesting: sasl
+2021-12-12 01:10:50	--	irc: client capability, enabled: sasl
+2021-12-12 01:10:50	--	SASL authentication failed
+2021-12-12 01:10:51	--	SASL authentication aborted
+2021-12-12 01:10:51	--	Welcome to the Libera.Chat Internet Relay Chat Network primejade
+2021-12-12 01:10:51	--	Your host is lithium.libera.chat[176.58.122.119/6697], running version solanum-1.0-dev
+2021-12-12 01:10:51	--	This server was created Mon Nov 1 2021 at 06:02:00 UTC
+2021-12-12 01:10:51	--	lithium.libera.chat solanum-1.0-dev DGQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-12-12 01:10:51	--	SAFELIST ELIST=CMNTU KNOCK MONITOR=100 CALLERID=g ETRACE FNC WHOX CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz :are supported by this server
+2021-12-12 01:10:51	--	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+2021-12-12 01:10:51	--	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+2021-12-12 01:10:51	--	There are 63 users and 49259 invisible on 26 servers
+2021-12-12 01:10:51	--	37 :IRC Operators online
+2021-12-12 01:10:51	--	52 :unknown connection(s)
+2021-12-12 01:10:51	--	21356 :channels formed
+2021-12-12 01:10:51	--	I have 3849 clients and 1 servers
+2021-12-12 01:10:51	--	3849 4712 :Current local users 3849, max 4712
+2021-12-12 01:10:51	--	49322 51566 :Current global users 49322, max 51566
+2021-12-12 01:10:51	--	Highest connection count: 4713 (4712 clients) (68387 connections received)
+2021-12-12 01:10:51	--	- lithium.libera.chat Message of the Day -
+2021-12-12 01:10:51	--	- Welcome to Libera Chat, the IRC network for
+2021-12-12 01:10:51	--	- free & open-source software and peer directed projects.
+2021-12-12 01:10:51	--	-
+2021-12-12 01:10:51	--	- Use of Libera Chat is governed by our network policies.
+2021-12-12 01:10:51	--	-
+2021-12-12 01:10:51	--	- To reduce network abuses we perform open proxy checks
+2021-12-12 01:10:51	--	- on hosts at connection time.
+2021-12-12 01:10:51	--	-
+2021-12-12 01:10:51	--	- Please visit us in #libera for questions and support.
+2021-12-12 01:10:51	--	-
+2021-12-12 01:10:51	--	- Website and documentation:  https://libera.chat
+2021-12-12 01:10:51	--	- Webchat:                    https://web.libera.chat
+2021-12-12 01:10:51	--	- Network policies:           https://libera.chat/policies
+2021-12-12 01:10:51	--	- Email:                      support@libera.chat
+2021-12-12 01:10:51	--	End of /MOTD command.
+2021-12-12 01:10:51	--	User mode [+Ziw] by primejade
+2021-12-12 01:14:01	--	MSG(NickServ): REGISTER *************************
+2021-12-12 01:14:02	--	NickServ (NickServ@services.libera.chat): An email containing nickname activation instructions has been sent to primejadevi@pm.me.
+2021-12-12 01:14:02	--	NickServ (NickServ@services.libera.chat): Please check the address if you don't receive it. If it is incorrect, DROP then REGISTER again.
+2021-12-12 01:14:02	--	NickServ (NickServ@services.libera.chat): If you do not complete registration within one day, your nickname will expire.
+2021-12-12 01:14:02	--	NickServ (NickServ@services.libera.chat): primejade is now registered to primejadevi@pm.me.
+2021-12-12 01:15:37	--	-all: Erroneous Nickname
+2021-12-12 01:16:33	--	You are now known as PrimeJade
+2021-12-12 01:17:15	--	MSG(NickServ): IDENTIFY *****************
+2021-12-12 01:17:16	--	NickServ (NickServ@services.libera.chat): You are already logged in as primejade.
+2021-12-12 01:17:16	--	NickServ (NickServ@services.libera.chat): Please check your email for instructions to complete your registration.
+2021-12-12 01:17:55	--	You are now known as pj
+2021-12-12 01:17:55	--	NickServ (NickServ@services.libera.chat): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ IDENTIFY pj <password>
+2021-12-12 01:17:55	--	NickServ (NickServ@services.libera.chat): You have 30 seconds to identify to your nickname before it is changed.
+2021-12-12 01:17:58	--	MSG(NickServ): IDENTIFY *****************
+2021-12-12 01:18:01	--	NickServ (NickServ@services.libera.chat): Invalid password for pj.
+2021-12-12 01:18:16	--	MSG(NickServ): IDENTIFY *****************
+2021-12-12 01:18:16	--	NickServ (NickServ@services.libera.chat): You are already logged in as primejade.
+2021-12-12 01:18:16	--	NickServ (NickServ@services.libera.chat): Please check your email for instructions to complete your registration.
+2021-12-12 01:18:21	--	You are now known as PJ
+2021-12-12 01:18:21	--	NickServ (NickServ@services.libera.chat): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ IDENTIFY pj <password>
+2021-12-12 01:18:21	--	NickServ (NickServ@services.libera.chat): You have 30 seconds to identify to your nickname before it is changed.
+2021-12-12 01:18:23	--	NickServ (NickServ@services.libera.chat): You failed to identify in time for the nickname pj
+2021-12-12 01:18:23	--	You are now known as Guest5556
+2021-12-12 01:18:31	--	MSG(NickServ): IDENTIFY *****************
+2021-12-12 01:18:32	--	NickServ (NickServ@services.libera.chat): You are already logged in as primejade.
+2021-12-12 01:18:32	--	NickServ (NickServ@services.libera.chat): Please check your email for instructions to complete your registration.
+2021-12-12 01:18:55	--	You are now known as theprimejade
+2021-12-12 01:19:08	--	MSG(NickServ): IDENTIFY *****************
+2021-12-12 01:19:13	--	NickServ (NickServ@services.libera.chat): You are already logged in as primejade.
+2021-12-12 01:19:13	--	NickServ (NickServ@services.libera.chat): Please check your email for instructions to complete your registration.
+2021-12-12 01:19:25	--	You are now known as ThePrimeJade
+2021-12-12 01:19:32	--	MSG(NickServ): IDENTIFY *****************
+2021-12-12 01:19:33	--	NickServ (NickServ@services.libera.chat): You are already logged in as primejade.
+2021-12-12 01:19:33	--	NickServ (NickServ@services.libera.chat): Please check your email for instructions to complete your registration.
+2021-12-12 01:19:44	--	MSG(NickServ): GROUP
+2021-12-12 01:19:44	--	NickServ (NickServ@services.libera.chat): Nick ThePrimeJade is now registered to your account.
+2021-12-12 01:20:54	--	You are now known as PrimeJade
+2021-12-12 01:20:57	--	MSG(NickServ): GROUP
+2021-12-12 01:20:57	--	NickServ (NickServ@services.libera.chat): Nick primejade is already registered to your account.
+2021-12-12 01:22:11	--	MSG(NickServ): VERIFY REGISTER **************************
+2021-12-12 01:22:26	--	NickServ (NickServ@services.libera.chat): primejade has now been verified.
+2021-12-12 01:22:26	--	NickServ (NickServ@services.libera.chat): Thank you for verifying your e-mail address! You have taken steps in ensuring that your registrations are not exploited.
+2021-12-12 01:24:58	--	irc: connecting to server irc.libera.chat/6697 (SSL)...
+2021-12-12 01:25:08	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-12-12 01:25:08	--	gnutls: receiving 2 certificates
+2021-12-12 01:25:08	--	 - certificate[1] info:
+2021-12-12 01:25:08	--	   - subject `CN=tungsten.libera.chat', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x0436fadd6374a85f1aeb4e59b61aa3b97708, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-10-04 05:08:40 UTC', expires `2022-01-02 05:08:39 UTC', pin-sha256="1aNnmMrE54RjDr/+w6NiT1Bwailqi8/9WYvlqEzKh2o="
+2021-12-12 01:25:08	--	 - certificate[2] info:
+2021-12-12 01:25:08	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=ISRG Root X1,O=Internet Security Research Group,C=US', serial 0x00912b084acf0c18a753f6d62e25a75f5a, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-09-04 00:00:00 UTC', expires `2025-09-15 16:00:00 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-12-12 01:25:08	--	gnutls: peer's certificate is trusted
+2021-12-12 01:25:08	--	irc: connected to irc.libera.chat/6697 (130.239.18.120)
+2021-12-12 01:25:09	--	tungsten.libera.chat: *** Checking Ident
+2021-12-12 01:25:09	--	tungsten.libera.chat: *** Looking up your hostname...
+2021-12-12 01:25:09	--	tungsten.libera.chat: *** Couldn't look up your hostname
+2021-12-12 01:25:09	--	tungsten.libera.chat: *** No Ident response
+2021-12-12 01:25:09	--	irc: client capability, server supports: extended-join solanum.chat/oper echo-message tls account-tag multi-prefix solanum.chat/realhost account-notify chghost sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL solanum.chat/identify-msg cap-notify away-notify
+2021-12-12 01:25:09	--	irc: client capability, requesting: sasl
+2021-12-12 01:25:09	--	irc: client capability, enabled: sasl
+2021-12-12 01:25:09	--	You are now logged in as primejade (primejade!server@89.144.179.109)
+2021-12-12 01:25:09	--	SASL authentication successful
+2021-12-12 01:25:10	--	Welcome to the Libera.Chat Internet Relay Chat Network primejade
+2021-12-12 01:25:10	--	Your host is tungsten.libera.chat[130.239.18.120/6697], running version solanum-1.0-dev
+2021-12-12 01:25:10	--	This server was created Sat Oct 30 2021 at 18:01:19 UTC
+2021-12-12 01:25:10	--	tungsten.libera.chat solanum-1.0-dev DGQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-12-12 01:25:10	--	FNC MONITOR=100 KNOCK WHOX CALLERID=g ETRACE SAFELIST ELIST=CMNTU CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz :are supported by this server
+2021-12-12 01:25:10	--	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+2021-12-12 01:25:10	--	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+2021-12-12 01:25:10	--	There are 66 users and 49424 invisible on 26 servers
+2021-12-12 01:25:10	--	37 :IRC Operators online
+2021-12-12 01:25:10	--	45 :unknown connection(s)
+2021-12-12 01:25:10	--	21426 :channels formed
+2021-12-12 01:25:10	--	I have 3830 clients and 1 servers
+2021-12-12 01:25:10	--	3830 4410 :Current local users 3830, max 4410
+2021-12-12 01:25:10	--	49490 51566 :Current global users 49490, max 51566
+2021-12-12 01:25:10	--	Highest connection count: 4411 (4410 clients) (67491 connections received)
+2021-12-12 01:25:10	--	- tungsten.libera.chat Message of the Day -
+2021-12-12 01:25:10	--	- Welcome to Libera Chat, the IRC network for
+2021-12-12 01:25:10	--	- free & open-source software and peer directed projects.
+2021-12-12 01:25:10	--	-
+2021-12-12 01:25:11	--	- Use of Libera Chat is governed by our network policies.
+2021-12-12 01:25:11	--	-
+2021-12-12 01:25:11	--	- To reduce network abuses we perform open proxy checks
+2021-12-12 01:25:11	--	- on hosts at connection time.
+2021-12-12 01:25:11	--	-
+2021-12-12 01:25:11	--	- Please visit us in #libera for questions and support.
+2021-12-12 01:25:11	--	-
+2021-12-12 01:25:11	--	- Website and documentation:  https://libera.chat
+2021-12-12 01:25:11	--	- Webchat:                    https://web.libera.chat
+2021-12-12 01:25:11	--	- Network policies:           https://libera.chat/policies
+2021-12-12 01:25:11	--	- Email:                      support@libera.chat
+2021-12-12 01:25:11	--	End of /MOTD command.
+2021-12-12 01:25:11	--	User mode [+Ziw] by primejade
+2021-12-12 01:25:11	--	SaslServ (SaslServ@services.libera.chat): Last login from: ~server@89.144.179.109 on Dec 11 21:54:53 2021 +0000.
+2021-12-12 10:37:08	--	irc: connecting to server irc.libera.chat/6697 (SSL)...
+2021-12-12 10:37:09	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-12-12 10:37:09	--	gnutls: receiving 2 certificates
+2021-12-12 10:37:09	--	 - certificate[1] info:
+2021-12-12 10:37:09	--	   - subject `CN=molybdenum.libera.chat', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x04906dede1c835b04ad2ba69aee7e7cf9001, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-10-04 05:03:21 UTC', expires `2022-01-02 05:03:20 UTC', pin-sha256="y8HvDqqB5Blr5m+L6+HlfYg2e9oV3KhZEHVYwwh7rTo="
+2021-12-12 10:37:09	--	 - certificate[2] info:
+2021-12-12 10:37:09	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=ISRG Root X1,O=Internet Security Research Group,C=US', serial 0x00912b084acf0c18a753f6d62e25a75f5a, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-09-04 00:00:00 UTC', expires `2025-09-15 16:00:00 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-12-12 10:37:09	--	gnutls: peer's certificate is trusted
+2021-12-12 10:37:09	--	irc: connected to irc.libera.chat/6697 (51.161.82.214)
+2021-12-12 10:37:09	--	molybdenum.libera.chat: *** Checking Ident
+2021-12-12 10:37:09	--	molybdenum.libera.chat: *** Looking up your hostname...
+2021-12-12 10:37:09	--	molybdenum.libera.chat: *** Couldn't look up your hostname
+2021-12-12 10:37:09	--	molybdenum.libera.chat: *** No Ident response
+2021-12-12 10:37:09	--	irc: client capability, server supports: extended-join solanum.chat/oper echo-message tls account-tag multi-prefix solanum.chat/realhost account-notify chghost sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL solanum.chat/identify-msg cap-notify away-notify
+2021-12-12 10:37:09	--	irc: client capability, requesting: sasl
+2021-12-12 10:37:10	--	irc: client capability, enabled: sasl
+2021-12-12 10:37:10	--	You are now logged in as primejade (primejade!server@109.109.34.206)
+2021-12-12 10:37:10	--	SASL authentication successful
+2021-12-12 10:37:11	--	Welcome to the Libera.Chat Internet Relay Chat Network primejade
+2021-12-12 10:37:11	--	Your host is molybdenum.libera.chat[51.161.82.214/6697], running version solanum-1.0-dev
+2021-12-12 10:37:11	--	This server was created Mon Nov 29 2021 at 06:01:16 UTC
+2021-12-12 10:37:11	--	molybdenum.libera.chat solanum-1.0-dev DGQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-12-12 10:37:11	--	WHOX KNOCK MONITOR=100 ETRACE FNC SAFELIST ELIST=CMNTU CALLERID=g CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz :are supported by this server
+2021-12-12 10:37:11	--	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+2021-12-12 10:37:11	--	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+2021-12-12 10:37:11	--	There are 67 users and 48275 invisible on 24 servers
+2021-12-12 10:37:11	--	37 :IRC Operators online
+2021-12-12 10:37:11	--	34 :unknown connection(s)
+2021-12-12 10:37:11	--	21273 :channels formed
+2021-12-12 10:37:11	--	I have 3697 clients and 1 servers
+2021-12-12 10:37:11	--	3697 3887 :Current local users 3697, max 3887
+2021-12-12 10:37:11	--	48342 50463 :Current global users 48342, max 50463
+2021-12-12 10:37:11	--	Highest connection count: 3888 (3887 clients) (66744 connections received)
+2021-12-12 10:37:11	--	- molybdenum.libera.chat Message of the Day -
+2021-12-12 10:37:11	--	- -[ Molybdenum ]-[ Atomic number: 42 ]-[ Chemical symbol: Mo ]-
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- Molybdenum has been known throughout history, though its
+2021-12-12 10:37:11	--	- properties meant that it was confused with lead ores. It was
+2021-12-12 10:37:11	--	- first identified as a distinct element in 1778, meaning our
+2021-12-12 10:37:11	--	- modern understanding of its existence reaches about as far
+2021-12-12 10:37:11	--	- back as American independence.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- Molybdenum has a very high melting point, 2623°C, the fifth-
+2021-12-12 10:37:11	--	- highest temperature of any element.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- While pure molybdenum is only about as strong as tooth enamel,
+2021-12-12 10:37:11	--	- it forms strong alloys that are resistant to corrosion and
+2021-12-12 10:37:11	--	- stable under varying temperatures. As a result, these alloys
+2021-12-12 10:37:11	--	- are used for metal armour plates, high-performance aircraft
+2021-12-12 10:37:11	--	- parts, and pumps for molten metal flows.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- In its elemental form, it can be used as a fertiliser, and the
+2021-12-12 10:37:11	--	- isotope molybdenum-99 is used as a source of technetium-99m,
+2021-12-12 10:37:11	--	- an important medical radioisotope used for 3D bone scans and
+2021-12-12 10:37:11	--	- the investigation of blood flow when diagnosing heart disease.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- Welcome to Libera Chat, the IRC network for
+2021-12-12 10:37:11	--	- free & open-source software and peer directed projects.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- Use of Libera Chat is governed by our network policies.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- To reduce network abuses we perform open proxy checks
+2021-12-12 10:37:11	--	- on hosts at connection time.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- Please visit us in #libera for questions and support.
+2021-12-12 10:37:11	--	-
+2021-12-12 10:37:11	--	- Website and documentation:  https://libera.chat
+2021-12-12 10:37:11	--	- Webchat:                    https://web.libera.chat
+2021-12-12 10:37:11	--	- Network policies:           https://libera.chat/policies
+2021-12-12 10:37:11	--	- Email:                      support@libera.chat
+2021-12-12 10:37:12	--	End of /MOTD command.
+2021-12-12 10:37:12	--	User mode [+Ziw] by primejade
+2021-12-12 10:37:12	--	SaslServ (SaslServ@services.libera.chat): Last login from: ~server@89.144.179.109 on Dec 11 23:09:20 2021 +0000.
+2021-12-12 13:39:19	--	irc: connecting to server irc.libera.chat/6697 (SSL)...
+2021-12-12 13:39:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-12-12 13:39:20	--	gnutls: receiving 2 certificates
+2021-12-12 13:39:20	--	 - certificate[1] info:
+2021-12-12 13:39:20	--	   - subject `CN=lithium.libera.chat', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x036896ce029a7c2deb41a500616087676524, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-10-04 05:07:24 UTC', expires `2022-01-02 05:07:23 UTC', pin-sha256="uPlEUKw0Hn5hUORM7Cq2JkGT6FLUg69aUnrTJJqEOmM="
+2021-12-12 13:39:20	--	 - certificate[2] info:
+2021-12-12 13:39:20	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=ISRG Root X1,O=Internet Security Research Group,C=US', serial 0x00912b084acf0c18a753f6d62e25a75f5a, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-09-04 00:00:00 UTC', expires `2025-09-15 16:00:00 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-12-12 13:39:20	--	gnutls: peer's certificate is trusted
+2021-12-12 13:39:20	--	irc: connected to irc.libera.chat/6697 (176.58.122.119)
+2021-12-12 13:39:20	--	lithium.libera.chat: *** Checking Ident
+2021-12-12 13:39:20	--	lithium.libera.chat: *** Looking up your hostname...
+2021-12-12 13:39:20	--	lithium.libera.chat: *** Couldn't look up your hostname
+2021-12-12 13:39:20	--	lithium.libera.chat: *** No Ident response
+2021-12-12 13:39:20	--	irc: client capability, server supports: extended-join solanum.chat/oper echo-message tls account-tag multi-prefix solanum.chat/realhost account-notify chghost sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL solanum.chat/identify-msg cap-notify away-notify
+2021-12-12 13:39:20	--	irc: client capability, requesting: sasl
+2021-12-12 13:39:21	--	irc: client capability, enabled: sasl
+2021-12-12 13:39:21	--	You are now logged in as primejade (primejade!server@109.109.34.206)
+2021-12-12 13:39:21	--	SASL authentication successful
+2021-12-12 13:39:22	--	Welcome to the Libera.Chat Internet Relay Chat Network primejade
+2021-12-12 13:39:22	--	Your host is lithium.libera.chat[176.58.122.119/6697], running version solanum-1.0-dev
+2021-12-12 13:39:22	--	This server was created Mon Nov 1 2021 at 06:02:00 UTC
+2021-12-12 13:39:22	--	lithium.libera.chat solanum-1.0-dev DGQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-12-12 13:39:22	--	SAFELIST ELIST=CMNTU KNOCK MONITOR=100 CALLERID=g ETRACE FNC WHOX CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz :are supported by this server
+2021-12-12 13:39:22	--	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+2021-12-12 13:39:22	--	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+2021-12-12 13:39:22	--	There are 67 users and 48531 invisible on 24 servers
+2021-12-12 13:39:22	--	37 :IRC Operators online
+2021-12-12 13:39:22	--	4 :unknown connection(s)
+2021-12-12 13:39:22	--	21342 :channels formed
+2021-12-12 13:39:22	--	I have 3741 clients and 1 servers
+2021-12-12 13:39:22	--	3741 4712 :Current local users 3741, max 4712
+2021-12-12 13:39:22	--	48598 51566 :Current global users 48598, max 51566
+2021-12-12 13:39:22	--	Highest connection count: 4713 (4712 clients) (68759 connections received)
+2021-12-12 13:39:22	--	- lithium.libera.chat Message of the Day -
+2021-12-12 13:39:22	--	- Welcome to Libera Chat, the IRC network for
+2021-12-12 13:39:22	--	- free & open-source software and peer directed projects.
+2021-12-12 13:39:22	--	-
+2021-12-12 13:39:22	--	- Use of Libera Chat is governed by our network policies.
+2021-12-12 13:39:22	--	-
+2021-12-12 13:39:22	--	- To reduce network abuses we perform open proxy checks
+2021-12-12 13:39:22	--	- on hosts at connection time.
+2021-12-12 13:39:22	--	-
+2021-12-12 13:39:22	--	- Please visit us in #libera for questions and support.
+2021-12-12 13:39:22	--	-
+2021-12-12 13:39:22	--	- Website and documentation:  https://libera.chat
+2021-12-12 13:39:22	--	- Webchat:                    https://web.libera.chat
+2021-12-12 13:39:22	--	- Network policies:           https://libera.chat/policies
+2021-12-12 13:39:22	--	- Email:                      support@libera.chat
+2021-12-12 13:39:22	--	End of /MOTD command.
+2021-12-12 13:39:22	--	User mode [+Ziw] by primejade
+2021-12-12 13:39:22	--	SaslServ (SaslServ@services.libera.chat): Last login from: ~server@109.109.34.206 on Dec 12 10:09:15 2021 +0000.
+2021-12-12 13:50:11	--	irc: connecting to server irc.libera.chat/6697 (SSL)...
+2021-12-12 13:50:12	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-12-12 13:50:12	--	gnutls: receiving 2 certificates
+2021-12-12 13:50:12	--	 - certificate[1] info:
+2021-12-12 13:50:12	--	   - subject `CN=lithium.libera.chat', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x036896ce029a7c2deb41a500616087676524, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-10-04 05:07:24 UTC', expires `2022-01-02 05:07:23 UTC', pin-sha256="uPlEUKw0Hn5hUORM7Cq2JkGT6FLUg69aUnrTJJqEOmM="
+2021-12-12 13:50:12	--	 - certificate[2] info:
+2021-12-12 13:50:12	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=ISRG Root X1,O=Internet Security Research Group,C=US', serial 0x00912b084acf0c18a753f6d62e25a75f5a, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-09-04 00:00:00 UTC', expires `2025-09-15 16:00:00 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-12-12 13:50:12	--	gnutls: peer's certificate is trusted
+2021-12-12 13:50:12	--	irc: connected to irc.libera.chat/6697 (176.58.122.119)
+2021-12-12 13:50:12	--	lithium.libera.chat: *** Checking Ident
+2021-12-12 13:50:12	--	lithium.libera.chat: *** Looking up your hostname...
+2021-12-12 13:50:12	--	lithium.libera.chat: *** Couldn't look up your hostname
+2021-12-12 13:50:12	--	lithium.libera.chat: *** No Ident response
+2021-12-12 13:50:12	--	irc: client capability, server supports: extended-join solanum.chat/oper echo-message tls account-tag multi-prefix solanum.chat/realhost account-notify chghost sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL solanum.chat/identify-msg cap-notify away-notify
+2021-12-12 13:50:12	--	irc: client capability, requesting: sasl
+2021-12-12 13:50:12	--	irc: client capability, enabled: sasl
+2021-12-12 13:50:13	--	You are now logged in as primejade (primejade!server@109.109.34.206)
+2021-12-12 13:50:13	--	SASL authentication successful
+2021-12-12 13:50:14	--	Welcome to the Libera.Chat Internet Relay Chat Network primejade
+2021-12-12 13:50:14	--	Your host is lithium.libera.chat[176.58.122.119/6697], running version solanum-1.0-dev
+2021-12-12 13:50:14	--	This server was created Mon Nov 1 2021 at 06:02:00 UTC
+2021-12-12 13:50:14	--	lithium.libera.chat solanum-1.0-dev DGQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-12-12 13:50:14	--	SAFELIST ELIST=CMNTU KNOCK MONITOR=100 CALLERID=g ETRACE FNC WHOX CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz :are supported by this server
+2021-12-12 13:50:14	--	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+2021-12-12 13:50:14	--	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+2021-12-12 13:50:14	--	There are 67 users and 48570 invisible on 24 servers
+2021-12-12 13:50:14	--	37 :IRC Operators online
+2021-12-12 13:50:14	--	30 :unknown connection(s)
+2021-12-12 13:50:14	--	21345 :channels formed
+2021-12-12 13:50:14	--	I have 3775 clients and 1 servers
+2021-12-12 13:50:14	--	3775 4712 :Current local users 3775, max 4712
+2021-12-12 13:50:14	--	48637 51566 :Current global users 48637, max 51566
+2021-12-12 13:50:14	--	Highest connection count: 4713 (4712 clients) (68812 connections received)
+2021-12-12 13:50:14	--	- lithium.libera.chat Message of the Day -
+2021-12-12 13:50:14	--	- Welcome to Libera Chat, the IRC network for
+2021-12-12 13:50:14	--	- free & open-source software and peer directed projects.
+2021-12-12 13:50:14	--	-
+2021-12-12 13:50:14	--	- Use of Libera Chat is governed by our network policies.
+2021-12-12 13:50:14	--	-
+2021-12-12 13:50:14	--	- To reduce network abuses we perform open proxy checks
+2021-12-12 13:50:14	--	- on hosts at connection time.
+2021-12-12 13:50:14	--	-
+2021-12-12 13:50:14	--	- Please visit us in #libera for questions and support.
+2021-12-12 13:50:14	--	-
+2021-12-12 13:50:14	--	- Website and documentation:  https://libera.chat
+2021-12-12 13:50:14	--	- Webchat:                    https://web.libera.chat
+2021-12-12 13:50:14	--	- Network policies:           https://libera.chat/policies
+2021-12-12 13:50:14	--	- Email:                      support@libera.chat
+2021-12-12 13:50:14	--	End of /MOTD command.
+2021-12-12 13:50:14	--	User mode [+Ziw] by primejade
+2021-12-12 13:50:14	--	SaslServ (SaslServ@services.libera.chat): Last login from: ~server@109.109.34.206 on Dec 12 10:19:50 2021 +0000.
+2021-12-12 14:02:52	--	#linuxmint: ##linuxmint :Forwarding to another channel
+2021-12-12 15:13:55	--	irc: connecting to server irc.libera.chat/6697 (SSL)...
+2021-12-12 15:13:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2021-12-12 15:13:56	--	gnutls: receiving 2 certificates
+2021-12-12 15:13:56	--	 - certificate[1] info:
+2021-12-12 15:13:56	--	   - subject `CN=calcium.libera.chat', issuer `CN=R3,O=Let's Encrypt,C=US', serial 0x0461ea4fa6f060cc1fbea2abe88480be1a4d, RSA key 4096 bits, signed using RSA-SHA256, activated `2021-10-30 17:06:45 UTC', expires `2022-01-28 17:06:44 UTC', pin-sha256="1brbvhJlv/rKhfoaH6c/JEe99UpoEL6HKeHocOpB0rA="
+2021-12-12 15:13:56	--	 - certificate[2] info:
+2021-12-12 15:13:56	--	   - subject `CN=R3,O=Let's Encrypt,C=US', issuer `CN=ISRG Root X1,O=Internet Security Research Group,C=US', serial 0x00912b084acf0c18a753f6d62e25a75f5a, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-09-04 00:00:00 UTC', expires `2025-09-15 16:00:00 UTC', pin-sha256="jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
+2021-12-12 15:13:56	--	gnutls: peer's certificate is trusted
+2021-12-12 15:13:56	--	irc: connected to irc.libera.chat/6697 (64.86.243.186)
+2021-12-12 15:13:56	--	calcium.libera.chat: *** Checking Ident
+2021-12-12 15:13:56	--	calcium.libera.chat: *** Looking up your hostname...
+2021-12-12 15:13:56	--	calcium.libera.chat: *** No Ident response
+2021-12-12 15:13:56	--	calcium.libera.chat: *** Couldn't look up your hostname
+2021-12-12 15:13:56	--	irc: client capability, server supports: extended-join solanum.chat/oper echo-message tls account-tag multi-prefix solanum.chat/realhost account-notify chghost sasl=PLAIN,ECDSA-NIST256P-CHALLENGE,EXTERNAL solanum.chat/identify-msg cap-notify away-notify
+2021-12-12 15:13:56	--	irc: client capability, requesting: sasl
+2021-12-12 15:13:57	--	irc: client capability, enabled: sasl
+2021-12-12 15:13:58	--	You are now logged in as primejade (primejade!server@109.109.34.206)
+2021-12-12 15:13:58	--	SASL authentication successful
+2021-12-12 15:13:58	--	Welcome to the Libera.Chat Internet Relay Chat Network primejade
+2021-12-12 15:13:58	--	Your host is calcium.libera.chat[64.86.243.186/6697], running version solanum-1.0-dev
+2021-12-12 15:13:58	--	This server was created Mon Nov 1 2021 at 05:57:54 UTC
+2021-12-12 15:13:58	--	calcium.libera.chat solanum-1.0-dev DGQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+2021-12-12 15:13:58	--	ETRACE SAFELIST ELIST=CMNTU MONITOR=100 CALLERID=g FNC WHOX KNOCK CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz :are supported by this server
+2021-12-12 15:13:58	--	CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+2021-12-12 15:13:58	--	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz :are supported by this server
+2021-12-12 15:13:58	--	There are 67 users and 48745 invisible on 24 servers
+2021-12-12 15:13:58	--	37 :IRC Operators online
+2021-12-12 15:13:58	--	42 :unknown connection(s)
+2021-12-12 15:13:58	--	21365 :channels formed
+2021-12-12 15:13:58	--	I have 3766 clients and 1 servers
+2021-12-12 15:13:58	--	3766 4122 :Current local users 3766, max 4122
+2021-12-12 15:13:58	--	48812 51566 :Current global users 48812, max 51566
+2021-12-12 15:13:58	--	Highest connection count: 4123 (4122 clients) (114961 connections received)
+2021-12-12 15:13:58	--	- calcium.libera.chat Message of the Day -
+2021-12-12 15:13:58	--	- Welcome to Libera Chat, the IRC network for
+2021-12-12 15:13:58	--	- free & open-source software and peer directed projects.
+2021-12-12 15:13:58	--	-
+2021-12-12 15:13:58	--	- Use of Libera Chat is governed by our network policies.
+2021-12-12 15:13:58	--	-
+2021-12-12 15:13:58	--	- To reduce network abuses we perform open proxy checks
+2021-12-12 15:13:58	--	- on hosts at connection time.
+2021-12-12 15:13:58	--	-
+2021-12-12 15:13:58	--	- Please visit us in #libera for questions and support.
+2021-12-12 15:13:58	--	-
+2021-12-12 15:13:58	--	- Website and documentation:  https://libera.chat
+2021-12-12 15:13:58	--	- Webchat:                    https://web.libera.chat
+2021-12-12 15:13:58	--	- Network policies:           https://libera.chat/policies
+2021-12-12 15:13:58	--	- Email:                      support@libera.chat
+2021-12-12 15:13:58	--	End of /MOTD command.
+2021-12-12 15:13:58	--	User mode [+Ziw] by primejade
+2021-12-12 15:13:59	--	SaslServ (SaslServ@services.libera.chat): Last login from: ~server@109.109.34.206 on Dec 12 11:43:47 2021 +0000.

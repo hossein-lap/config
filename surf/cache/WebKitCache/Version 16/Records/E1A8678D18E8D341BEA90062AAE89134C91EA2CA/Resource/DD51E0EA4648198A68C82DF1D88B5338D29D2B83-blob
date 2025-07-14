@@ -1,0 +1,447 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.104.3" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preload" href="/static/fonts/Xolonium/xolonium-regular-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/static/fonts/PT/PTS55F-webfont.woff" as="font" type="font/woff" crossorigin>
+
+    <link rel="preload" href="/static/fontawesome-free-6.1.1-web/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/static/fontawesome-free-6.1.1-web/css/all.css" />
+
+    <link rel="stylesheet" href="/static/css/foundation.min.css" />
+    <link rel="stylesheet" href="/static/css/blog.css" />
+
+    <link rel="alternate" type="application/rss+xml" title="The Xonotic Blog" href="/index.xml" />
+
+
+
+    <link rel="stylesheet" href="/static/css/faq.css" />
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0042ff">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+
+
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type":"VideoGame",
+      "name":[
+        {
+          "@language":"en",
+          "@value":"Xonotic"
+        }
+      ],
+      "description":[
+        {
+          "@language":"en",
+          "@value":"Xonotic is a free, fast paced first person shooter where crisp movement, nuanced weapons, and in-your-face action combine to create addictive arena-style gameplay."
+        }
+      ],
+      "genre":[
+        "First-person shooter"
+      ],
+      "url":"https://www.xonotic.org",
+      "image":"https://xonotic.org/static/img/poster.jpg",
+      "screenshot":"https://xonotic.org/static/img/backgroundart.jpg",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Xonotic",
+        "https://www.youtube.com/user/xonotic",
+        "https://www.youtube.com/user/antibodyxon"
+      ],
+      "trailer":{
+        "@type":"VideoObject",
+        "url":"https://www.youtube.com/watch?v=_thowri7mmE",
+        "inLanguage":"en"
+      },
+      "exampleOfWork":[
+        {
+          "@type":"VideoGame",
+          "gamePlatform":[
+            "https://en.wikipedia.org/wiki/Windows_7",
+            "https://en.wikipedia.org/wiki/Windows_8",
+            "https://en.wikipedia.org/wiki/Linux",
+            "https://en.wikipedia.org/wiki/OS_X_Yosemite",
+            "https://en.wikipedia.org/wiki/OS_X_Mavericks"
+          ]
+        }
+      ]
+    }
+    </script>
+
+    
+    <title> Xonotic: The Free and Fast Arena Shooter - Xonotic</title>
+    
+  </head>
+
+  <body>
+        
+    <div class="contain-to-grid">
+
+      <div class="row text-center">
+        <div class="small-12 columns">
+          <nav class="top-bar" data-topbar="">
+
+            <ul class="title-area">
+              <li class="show-for-small-only">
+                <h2>Menu</h2>
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#"><span>&emsp; &emsp; &emsp; &emsp; &emsp;</span></a></li>
+            </ul>
+
+            <section class="top-bar-section">
+              
+              <ul class="left">
+                
+                <li><a href="https://xonotic.org"><img src="/static/img/xonotic-icon-mono.png" width="19" height="18" alt=""> Home</a></li>
+                <li><a href="https://xonotic.org/download/" title="Downloads and system requirements"><i class="fas fa-download"></i> Download</a></li>
+                <li>
+                  <a href="https://xonotic.org/media/" data-dropdown="hover1" data-options="is_hover:true"><i class="fas fa-image"></i> Media</a>
+                  <ul id="hover1" class="f-dropdown show-for-medium-up" data-dropdown-content>
+                    <li><a href="https://xonotic.org/images/">Screenshots</a></li>
+                    <li><a href="https://xonotic.org/videos/">Videos</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://forums.xonotic.org/" title="Visit the community forums"><i class="fas fa-bullhorn"></i> Forums</a></li>
+                <li><a href="https://xonotic.org/chat" title="Join a chat room"><i class="fas fa-comments"></i> Chat</a></li>
+                <li><a href="https://xonotic.org/posts/" title="Release announcements and other posts"><i class="fas fa-book"></i> Blog</a></li>
+                <li>
+                  <a href="https://stats.xonotic.org/" data-dropdown="hover2" data-options="is_hover:true"><i class="fas fa-chart-bar"></i> Stats</a>
+                  <ul id="hover2" class="f-dropdown show-for-medium-up" data-dropdown-content>
+                    <li><a href="https://stats.xonotic.org/players">Players</a></li>
+                    <li><a href="https://stats.xonotic.org/games">Games</a></li>
+                    <li><a href="https://stats.xonotic.org/servers">Servers</a></li>
+                    <li><a href="https://stats.xonotic.org/maps">Maps</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://gitlab.com/xonotic/xonotic/blob/master/README.md" title="Contribute to Xonotic"><i class="fas fa-wrench"></i> Contribute</a></li>
+                <li><a href="https://xonotic.org/guide" title="Read the beginner's guide"><i class="fas fa-book-open-reader"></i> Newbie Guide</a></li>
+              </ul>
+            </section>
+
+          </nav>
+        </div>
+      </div> 
+
+    </div> 
+
+
+
+
+<section class="section-dl text-center">
+  <div class="row">
+    <div class="small-12 columns">
+      
+      <img src="/static/img/xonotic_logo_web.svg" alt="Xonotic logo" width="850" height="266">
+      <h3 class="slogan">The Free and Fast Arena Shooter</h3>
+      <div id="download-button">
+        <a href="/download" class="button round alert">
+          <i class="fas fa-download"></i> Download for Linux, Windows and macOS
+        </a>
+
+        <br />
+
+        <a href="faq/#install">No installation needed!</a>
+
+        <br />
+
+        <a href="/tos">Terms of Service and Privacy Policy</a>
+
+        <br />
+
+        <a href="/chat"
+           title="IRC Webchat"><i class="fas fa-comment"></i></a> Questions? <a
+           href="/chat"
+           title="IRC Webchat">Live chat</a> with us!
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+<section class="section-summarystats text-center">
+  <div class="row">
+    <div class="small-12 columns">
+        
+        <h5>
+            404 <a href="https://stats.xonotic.org/">players</a> and
+            619 <a href="https://stats.xonotic.org/games">games</a> in the past day.
+            58 <a href="https://gitlab.com/groups/xonotic/-/activity">changes</a> by
+            7 contributors in the past month.
+        </h5>
+        
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section-summary pad text-center">
+  <div class="row">
+    <div class="small-12 columns">
+      <h3>Xonotic is an addictive arena-style first person shooter with crisp
+          movement and a wide array of weapons. It combines intuitive mechanics
+          with in-your-face action to elevate your heart rate.
+          Xonotic will always be free to play and modify under the
+          <a href="https://www.gnu.org/copyleft/" title="copyleft licensing">copyleft</a>
+          <a href="https://www.gnu.org/licenses/gpl-3.0.txt" title="The GPLv3+ license">GPLv3+</a> license.</h3>
+    </div>
+  </div>
+
+  <div class="screenshots row text-center">
+    <div class="small-3 columns">
+      <a class="th" href="/static/img/screenshot1.jpg">
+        <img src="/static/img/screenshot1-th.jpg" alt="Thumbnail 1" width="200" height="150">
+      </a>
+    </div>
+
+    <div class="small-3 columns">
+      <a class="th" href="/static/img/screenshot2.jpg">
+        <img src="/static/img/screenshot2-th.jpg" alt="Thumbnail 2" width="200" height="150">
+      </a>
+    </div>
+
+    <div class="small-3 columns">
+      <a class="th" href="/static/img/screenshot3.jpg">
+        <img src="/static/img/screenshot3-th.jpg" alt="Thumbnail 3" width="200" height="150">
+      </a>
+    </div>
+
+    <div class="small-3 columns">
+      <a class="th" href="/static/img/screenshot4.jpg">
+        <img src="/static/img/screenshot4-th.jpg" alt="Thumbnail 4" width="200" height="150">
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="section-weapon pad">
+  <div class="row">
+    <div class="small-12 medium-6 columns">
+      <h3>Distinctive Weapons</h3>
+<h5>Xonotic has 9 core weapons and 16 full weapons in its armory. Each
+  has a primary fire and a UT-like secondary fire. They are each useful
+in particular situations, so weapon choice is critical. Frag away!
+<a href="/guide#weapons" title="Read more about weapons"><i class="fas
+    fa-info-circle"></i></a></h5>
+
+    </div>
+
+    <div class="small-12 medium-6 columns">
+      <a class="th" href="/static/img/carousel_weapons.jpg"> 
+  <img src="/static/img/carousel_weapons.jpg" alt="9 distinctive weapons" width="780" height="500" loading="lazy">
+</a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-game-mode pad">
+  <div class="row">
+
+    <div class="small-12 medium-6 columns">
+      <a class="th" href="/static/img/carousel_game_modes.jpg"> 
+  <img src="/static/img/carousel_game_modes.jpg" alt="Game Modes Galore" width="780" height="500" loading="lazy">
+</a>
+
+    </div>
+
+    <div class="small-12 medium-6 columns">
+      <h3>Game Modes Galore!</h3>
+<h5>Through the support of our diverse community Xonotic has a huge variety of game
+modes for you to play. There's the normal game modes you'd expect from
+an arena shooter like Deathmatch (FFA), Capture The Flag, and Clan Arena,
+plus more whacky modes like Nexball and Freeze Tag. Multiplayer Race is
+also supported!</h5>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-maps pad">
+  <div class="row">
+
+    <div class="small-12 medium-6 columns">
+      <h3>New and Classic Maps</h3>
+
+<h5>Xonotic ships ready to play with 25 official maps, with dozens of
+community-made ones just a click away. Classic Nexuiz maps are also
+supported, including those converted from Quake 3!</h5>
+
+<h5>Those interested in making maps of their own can use our map editor,
+which also ships with the game.</h5>
+
+    </div>
+
+    <div class="small-12 medium-6 columns">
+      <a class="th" href="/static/img/carousel_maps.jpg"> 
+  <img src="/static/img/carousel_maps.jpg" alt="Maps ready to go!" width="780" height="500" loading="lazy">
+</a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-stats pad">
+  <div class="row">
+
+    <div class="small-12 medium-6 columns">
+      <a class="th" href="/static/img/carousel_stats.jpg">
+  <img src="/static/img/carousel_stats.jpg" alt="Integrated Player Statistics" width="780" height="500" loading="lazy">
+</a>
+
+    </div>
+
+    <div class="small-12 medium-6 columns">
+      <h3>Integrated Player Statistics</h3>
+
+<h5>Track your progress with XonStat, the integrated player statistics
+application. See vital stats like your kill:death ratio, weapon damage
+and accuracy, and recent games. Tracking is completely opt-in, and no
+login is required!</h5>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-hud pad">
+  <div class="row">
+
+    <div class="small-12 medium-6 columns">
+      <h3>Customizable Heads-Up Display</h3>
+<h5>Tailor the information on your screen to what you’re used to with our
+easy to use HUD editor. Stick with the defaults, add all the whiz-bang widgets, or go minimalist – it is completely up to you!</h5>
+
+    </div>
+
+    <div class="small-12 medium-6 columns">
+      <a class="th" href="/static/img/carousel_hud.jpg"> 
+  <img src="/static/img/carousel_hud.jpg" alt="Easily customizable Heads-Up Display (HUD)" width="780" height="500" loading="lazy">
+</a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-competitive-casual pad">
+  <div class="row">
+
+    <div class="small-12 medium-6 columns">
+      <a class="th" href="/static/img/carousel_competitive_casual.jpg"> 
+  <img src="/static/img/carousel_competitive_casual.jpg" alt="Support for both casual and competitive players." width="780" height="500" loading="lazy">
+</a>
+
+    </div>
+
+    <div class="small-12 medium-6 columns">
+      <h3>Casual and Competitive</h3>
+
+<h5>
+  Xonotic is easy to learn but hard to master! We strive to provide
+  thrilling action for the casual player but also e-sport opportunities
+  for those interested in friendly competition. Features such as simple items,
+  fully customizable configs and servers, a functioning anticheat system, spectator
+  mode, and the opportunity to watch and record games make Xonotic
+  appealing to competitive players.
+
+  <a href="/guide#optimizing-perception" title="Read more about optimizing your look and feel">
+    <i class="fas fa-info-circle"></i>
+  </a>
+</h5>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-links pad text-center">
+  <div class="row">
+
+    <div class="small-12 columns">
+      <h3>When We're Not Fragging, We're Social!</h3>
+      <ul>
+        <li><a href="/chat" title="Instant messaging"><i class="fas fa-comments"></i></a></li>
+        <li><a href="https://forums.xonotic.org" title="Xonotic Forums"><i class="fas fa-bullhorn"></i></a></li>
+        <li><a href="https://www.facebook.com/pages/Xonotic/106450756044750" title="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://twitter.com/xonotic" title="Twitter"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.youtube.com/xonotic" title="YouTube"><i class="fab fa-youtube-square"></i></a></li>
+        <li><a href="https://www.reddit.com/r/xonotic/" title="Reddit"><i class="fab fa-reddit-square"></i></a></li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+    <div id="footer">
+      <div class="row" >
+        <hr>
+        <div class="small-12 medium-4 columns large-offset-1">
+          <h4>Official</h4>
+          <ul>
+            <li><a href="https://xonotic.org/team/" title="meet team xonotic">Team Xonotic</a></li>
+            <li><a href="https://xonotic.org/rules/" title="read the rules">Rules</a></li>
+            <li><a href="https://xonotic.org/tos/" title="read the terms of service and privacy policy">Terms of Service and Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="small-12 medium-4 columns">
+          <h4>Documentation</h4>
+          <ul>
+            <li><a href="https://xonotic.org/faq/">Frequently Asked Questions</a></li>
+            <li><a href="https://gitlab.com/xonotic/xonotic/wikis/home">Wiki</a></li>
+            <li><a href="https://xonotic.org/tools/cacs">Command, Alias &amp; Cvar Search</a></li>
+            <li><a href="https://forums.xonotic.org/search.php">Forums search</a></li>
+          </ul>
+        </div>
+
+        <div class="small-12 medium-3 columns">
+          <h4>Development</h4>
+          <ul>
+            <li><a href="https://gitlab.com/xonotic/xonotic/blob/master/README.md">GitLab README</a></li>
+            <li><a href="https://gitlab.com/groups/xonotic/-/activity">Development activity</a></li>
+            <li><a href="https://gitlab.com/groups/xonotic/-/issues">Issue tracker</a></li>
+            <li><a href="https://gitlab.com/groups/xonotic/-/merge_requests">Merge Requests</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+        <script src="/static/js/vendor/jquery.js"></script>
+    <script src="/static/js/foundation.min.js"></script>
+    <script src="/static/js/foundation/foundation.topbar.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    
+
+  </body>
+</html>
+

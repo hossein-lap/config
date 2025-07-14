@@ -1,0 +1,51 @@
+2021-12-12 01:27:13	-->	primejade (~server@89.144.179.109) has joined #weechat
+2021-12-12 01:27:13	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 3.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2021-12-12 01:27:13	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 19 Sep 2021 15:05:12
+2021-12-12 01:27:14	--	Channel #weechat: 623 nicks (3 ops, 1 voice, 619 normals)
+2021-12-12 01:27:14	--	PvNotice(ChanServ): Welcome to WeeChat English support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2021-12-12 01:27:15	--	Channel created on Wed, 19 May 2021 16:49:51
+2021-12-12 01:27:22	primejade	Hi
+2021-12-12 01:29:58	primejade	I did setup my nickname, password and sasl in WeeChat first, then I registered them, will this become a problem, or I'm just fine?
+2021-12-12 01:30:16	<--	xmorph (~xt_@user/xmorph) has quit (Quit: WeeChat 3.3)
+2021-12-12 01:31:50	primejade	I used the exact same user/pass etc..
+2021-12-12 01:34:02	<--	sss1 (~sss1@209.141.51.112) has quit (Quit: WeeChat 3.3)
+2021-12-12 01:34:16	@FlashCode	primejade: this is ok, there's no order to do it
+2021-12-12 01:35:31	ksu	primejade: with default settings, weechat won't let you connect to a server if you configured sasl but it doesn't work
+2021-12-12 01:35:55	ksu	otherwise it is ok
+2021-12-12 01:41:53	topcat001	I am a very basic user of weechat :) I only configure the bare minimum.
+2021-12-12 01:42:09	-->	sudoforge (~sudoforge@wireguard/tunneler/sudoforge) has joined #weechat
+2021-12-12 01:43:22	knolle	never too late
+2021-12-12 01:46:09	<--	Andrynet (~Andrynet@190.152.211.201) has quit (Ping timeout: 268 seconds)
+2021-12-12 01:47:38	-->	Andrynet (~Andrynet@190.152.211.201) has joined #weechat
+2021-12-12 01:49:51	--	A_Dragon is now known as Festive_Dragon
+2021-12-12 01:51:42	<--	srv (~cmd@user/srv) has quit (Read error: Connection reset by peer)
+2021-12-12 01:53:24	perrierjouet	what was the command to remove buffer numbers prefix
+2021-12-12 01:59:37	@nils_2	/fset buflist
+2021-12-12 01:59:56	@nils_2	you should really make backups :-)
+2021-12-12 02:00:42	<--	ff0x (~f0xy@gateway/tor-sasl/ff0x) has quit (Remote host closed the connection)
+2021-12-12 02:00:59	-->	ff0x (~f0xy@gateway/tor-sasl/ff0x) has joined #weechat
+2021-12-12 02:01:13	<--	el2 (~el@bl8-67-202.dsl.telepac.pt) has quit (Read error: Connection reset by peer)
+2021-12-12 02:02:01	perrierjouet	nils_2: is it possible to put at off or "" that setting ?
+2021-12-12 02:02:29	perrierjouet	like this /set buflist.format.number ""
+2021-12-12 02:02:52	perrierjouet	it worked
+2021-12-12 02:03:27	<--	Computer_M (~ComputerM@user/Computer-M/x-0318160) has left #weechat
+2021-12-12 02:04:09	perrierjouet	is it possible to not show join quit in the buffer ?
+2021-12-12 02:05:27	knolle	yes, https://weechat.org/files/doc/stable/weechat_faq.en.html#filter_irc_join_part_quit
+2021-12-12 02:07:06	-->	el2 (~el@bl8-67-202.dsl.telepac.pt) has joined #weechat
+2021-12-12 02:09:56	@nils_2	!faq - perrierjouet
+2021-12-12 02:09:56	+weebot	FAQ WeeChat: https://weechat.org/doc/devel/faq
+2021-12-12 02:12:18	<--	perrierjouet (~perrier-j@modemcable012.251-130-66.mc.videotron.ca) has quit (Quit: WeeChat 3.3)
+2021-12-12 02:12:31	-->	srv (~cmd@user/srv) has joined #weechat
+2021-12-12 02:15:21	-->	demet_ (~demet@173-24-199-124.client.mchsi.com) has joined #weechat
+2021-12-12 02:16:03	-->	jklfds (~jklfds@user/jklfds) has joined #weechat
+2021-12-12 02:17:53	<--	demet__ (~demet@173-24-199-124.client.mchsi.com) has quit (Ping timeout: 252 seconds)
+2021-12-12 02:20:27	<--	jklfds (~jklfds@user/jklfds) has quit (Ping timeout: 252 seconds)
+2021-12-12 02:22:19	<--	Andrynet (~Andrynet@190.152.211.201) has quit (Ping timeout: 250 seconds)
+2021-12-12 02:24:28	-->	Andrynet (~Andrynet@190.152.211.201) has joined #weechat
+2021-12-12 02:24:52	-->	demet (~demet@173-24-199-124.client.mchsi.com) has joined #weechat
+2021-12-12 02:27:17	<--	demet_ (~demet@173-24-199-124.client.mchsi.com) has quit (Ping timeout: 250 seconds)
+2021-12-12 02:30:50	<--	Andrynet (~Andrynet@190.152.211.201) has quit (Ping timeout: 256 seconds)
+2021-12-12 02:32:46	<--	guido (~guido@host-79-23-252-36.retail.telecomitalia.it) has quit (Quit: WeeChat 3.3)
+2021-12-12 02:32:50	-->	Andrynet (~Andrynet@190.152.211.201) has joined #weechat
+2021-12-12 02:35:52	-->	monokrome (~monokrome@50.215.11.138) has joined #weechat
+2021-12-12 02:36:44	-->	jmdaemon (~jmdaemon@142.207.63.60) has joined #weechat
