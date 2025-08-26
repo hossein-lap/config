@@ -66,6 +66,11 @@ export WINEARCH=win32
 # export SUDO_ASKPASS="$(which dmenupass 2>/dev/null)"
 #export SUDO_ASKPASS="$(which readpass 2>/dev/null)"
 # export SUDO_ASKPASS="$(which yadpass 2>/dev/null)"
+
+# fzf arguments
+# export FZF_DEFAULT_OPTS='-m --reverse -i --border=sharp --prompt=: --marker=\* --info=inline --no-unicode --header-first'
+export FZF_DEFAULT_OPTS='-m --reverse -i --border=sharp --preview-window border-sharp --prompt=: --marker=\* --info=inline --header-first'
+
 # }}}
 
 # source files {{{
@@ -88,6 +93,7 @@ appendpath() {
 		check=$(echo ${PATH} | grep -c "${1}")
 		if [ "${check}" = 0 ]; then
 			PATH="${PATH}:${1}"
+            export PATH
 		fi
 	fi
 }
@@ -107,6 +113,7 @@ appendpath "${XDG_DATA_HOME}/nvim/mason/bin"
 # appendpath "${XDG_DATA_HOME}/gem/ruby/3.0.0/bin"
 appendpath "${GOPATH}/bin"
 appendpath "/usr/local/go/bin"
+appendpath "$HOME/.local/go/bin"
 appendpath "/usr/lib/ruby/gems/3.2.0/bin"
 appendpath "/usr/lib/ruby/gems/3.3.0/bin"
 appendpath "${HOME}/.local/share/gem/ruby/3.3.0/bin"
@@ -117,8 +124,8 @@ appendpath "${HOME}/.local/share/gem/ruby/3.3.0/bin"
 unset appendpath
 # }}}#
 
-QT_STYLE_OVERIDE=GTK+
-QT_QPA_PLATFORMTHEME=qt6ct
+export QT_STYLE_OVERIDE=GTK+
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 export ANSIBLE_NOCOWS=1
 
@@ -135,12 +142,11 @@ export PASSWORD_STORE_DIR="${HOME}/.local/share/password-store"
 # export __GLX_VENDOR_LIBRARY_NAME=nvidia
 # export __VK_LAYER_NV_optimus=NVIDIA_only
 
+if [ -f "${HOME}/.config/shell/.env" ]; then
+    source ${HOME}/.config/shell/.env
+fi
 
-# personal {{{
+vdiff() {
+    nvim -d ${1} ${2}
+}
 
-# }}}
-
-# nvim backgroud color {{{
-export NVIM_BACKGROUND='dark'
-
-# }}}

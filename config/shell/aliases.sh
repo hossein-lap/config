@@ -27,6 +27,11 @@ take() {
 	fi
 }
 
+# gitignore
+gi() {
+    curl --silent https://www.toptal.com/developers/gitignore/api/$*
+}
+
 # abduco + dvtm [session manager + multiplexer]
 a() {
 	read -p 'new session? (y/N) ' choice
@@ -86,7 +91,7 @@ alias c='clear'
 alias q="exit"
 alias x='startx'
 
-alias lf="lfub"
+# alias lf="lfub"
 alias mdp="mdp -f"
 
 # alias eza="exa --sort extension --group-directories-first --icons"
@@ -201,3 +206,6 @@ alias nnn='nnn -ed -T e -R -A'
 alias pres="zathura --mode=fullscreen"
 # }}}
 
+alias poweroff="echo 'whoa! everyone is working remotely! keep ya head up!'"
+
+alias nsxiv='nsxiv -f --alpha-layer'

@@ -1,2 +1,2 @@
 
-bind -x '"\C-f":tmux-sessionizer'
+bind -x '"\C-f":t -find'

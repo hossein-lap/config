@@ -1,2 +1,2 @@
 
-bindkey -s ^F "tmux-sessionizer\n"
+bindkey -s ^F "t -find\n"
